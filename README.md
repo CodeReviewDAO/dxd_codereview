@@ -5,7 +5,9 @@ behalf of the Code Review DAO (CRDAO) for the DEVxDAO.
 
 Until a version of [Proposal #185](https://portal.devxdao.com/public-proposals/185) is adopted by the DEVxDAO, the Code Review process
 adhered to will try to satisfy the requirements upvoted by the 
-DEVxDAO Voting Associates outlines in [Proposal #191](https://portal.devxdao.com/public-proposals/191).
+DEVxDAO Voting Associates outlines in [Proposal #191](https://portal.devxdao.com/public-proposals/191). Similarly, the Definition of
+Done provided in [Proposal #196](https://portal.devxdao.com/public-proposals/196) is used as a guideline but not a 
+pass/fail requirement until approved by vote of the DEVxDAO Voting Associates.
 
 These approved-by-vote requirements are:
 
