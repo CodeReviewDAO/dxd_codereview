@@ -191,9 +191,16 @@ The deliverable falls short in the following areas:
 * Automated/Unit Testing
 * Code quality / potential bugs outlined above
 
-Since this is not the final milestone of the project, the above shortcoming shouldn't necessarily fail the overall submission. However,
-this Reviewer recommends that the shortcoming are addressed before the submission of a final milestone in this project (as it would surely
-fail Code Review with these shortcomings).
+# Recommendation
+
+Recommendation | PASS (with notes)
+------------ | -------------
+
+Based on the shortcomings identified above, this project should **FAIL** code review. However, since the project is already
+live and performs the base functionality it sets out to provide, the Reviewer recommends that the Voting Associates **PASS** this milestone
+**with notes**: 
+
+_The shortcoming need to be addressed before the submission of a final milestone in this project, in order for that milestone to pass._
 
 ### FOOTNOTES
 - While it is possible to clone to project and set up another
