@@ -195,7 +195,7 @@ Since this is not the final milestone of the project, the above shortcoming shou
 this Reviewer recommends that the shortcoming are addressed before the submission of a final milestone in this project (as it would surely
 fail Code Review with these shortcomings).
 
-###FOOTNOTES
+### FOOTNOTES
 - While it is possible to clone to project and set up another
 instance of CasperHolders, under a different name and/or domain, and point it to another validator node, this project as delivered
 is designed to benefit exclusively one validator at the time, and in its current iteration, only the OP. 
