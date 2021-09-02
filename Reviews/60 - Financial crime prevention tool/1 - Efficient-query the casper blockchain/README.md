@@ -292,7 +292,13 @@ The deliverable falls short in the following areas:
 
 For a project of this magnitude, in both scope and cost, strict adherence to the minimal standards should be enforced, and therefore, it is this Reviewer's 
 opinion that this milestone submission should fail, until the identified shortcomings are addressed. I do believe these are easily addressed, and I look forward
-to reviewing the milestone again in the near future to re-assess my recommendation.
+to reviewing the milestone again in the near future to re-assess my recommendation. Specifically, I believe the following items are critical to pass this review:
+
+- Update the project documentation to ensure that someone who installs the listed pre-requisites and subsequently follows the outlined steps, ends up
+with a working project 100% of the time.
+- Update the project documenation to make clear how to use the project (e.g. upon completion of set-up, run initial synchronization before using the APIs)
+- Update the API documentation with a description of the functionality of each endpoint, and an example value for each parameter from which the format can be inferred
+- Improve the inline code documentation
 
 # Recommendation
 
