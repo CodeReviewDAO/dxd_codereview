@@ -91,11 +91,15 @@ retrieved blockchain data and populated its database. The Swagger API UI provide
 
 Reviewer was able to test each API endpoint and each of their verbs. The documentation
 was minimal for each end point, in the sense that it did not explain the use of each API endpoint, or provide the correct input format
-for each parameter. For example, the end-points requiring a date (for example `/score/{account}` or `/traceCoin/forward/{account}` all failed with 
-unhandled exception output in the API response, relating to unparseable date input when dates were provided. A human-readable error and/or an example input format
-would remedy this issue). Moreover, unhandled exceptions should not be returned in API responses. Similarly, it was not clear what account format the `{account}` input
-expected. The same account format (`account-hash-2be16861369304884b4d0755d321a05e7cca5911c28ccbe17f9976b8c727e34c`) that resulted in valid output for the `/transaction/account/{account}` endpoint,
-resulted in `Not Found` errors when providing the same input to `/score/{account}`, `/traceCoin/forward/{account}`, and `/traceCoin/back/{account}`. Better documentation is needed.
+for each parameter.
+For example, it is easy to cause the end points that require a date (for example `/score/{account}` or `/traceCoin/forward/{account}`) to return unhandled
+exception output in the API response, relating to being unable to parse the date input when dates were provided. A human-readable error and/or an example input format
+would remedy this issue). Moreover, unhandled exceptions should not be returned in API responses.
+
+Additionally, the set up instructions didn't make clear that is was a pre-requisite to let the initial database synchronisation complete, which took over 24 hours, before
+testing some of the end-points. Specifically, the `/score/{account}`, `/traceCoin/forward/{account}` and `/traceCoin/back/{account}` end points did not work until
+the synchronization process had fully caught up with the blockchain after 24+ hours, which resulted in many hours lost with useless and constantly failing testing.
+Better and more explicit documentation for this should be provided.
 
 After testing the REST API, Reviewer started testing the GraphQL API via the GraphQL UI. Reviewer confirmed that the documented
 queries worked correctly. The following queries were successfully tried:
@@ -203,15 +207,13 @@ queries worked correctly. The following queries were successfully tried:
 While the Acceptance Criteria of "Have a working GraphQL API to successfully query all transactions from/to a given wallet to easily run the API" is minimally
 met, and the project provides additional functionality in a REST API and includes helpful testing/configuration UIs, the project falls severely
 short in providing the necessary documentation required to properly set up and run the project, or to properly use the provided APIs. Those APIs where for the usage
-parameters were correctly inferred by Reviewer and thus tested, operated correctly. However several others, Reviewer was never able to test. Since the untestable 
-APIs were part of the REST API and thus outside of the Acceptance Criteria for this milestone, the "API Endpoints work without error" will "PASS with notes". Reviewer 
-recommends addressing the identified deficiencies before a next milestone submission.
+parameters were correctly inferred by Reviewer and thus tested, operated correctly.
 
 Requirement | Finding
 ------------ | -------------
 Project builds and runs without errors | FAIL
 Documentation provides sufficient installation/execution instructions | FAIL
-Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with notes
 API Endpoints work without error | PASS with notes
 
 # Unit / Automated Testing
@@ -278,12 +280,12 @@ OSS contribution best practices | PASS
 ## General Observations
 
 Code is generally well-structured and very readable. The project as committed to GitHub cannot be run without finding the hidden workaround
-of installing the Casper SDK Jar from file.
+of installing the Casper SDK Jar from file, nor can it properly be tested without spending hours of trial-and-error to infer
+proper testing routes, parameter formats, etc. 
 
 # Final Conclusion
 
-The project appears to provide the functionality described in the grant application and milestone acceptance criteria. Some of the functionality
-could not be tested due to a lack of clear documentation (specifically the "Trace the coin" functionality).
+The project provides the functionality described in the grant application and milestone acceptance criteria. 
 
 The deliverable falls short in the following areas:
 * Documentation
@@ -294,6 +296,6 @@ to reviewing the milestone again in the near future to re-assess my recommendati
 
 # Recommendation
 
-Recommendation | FAIL
+Recommendation | FAIL (request for improvements)
 ------------ | -------------
 
