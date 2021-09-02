@@ -116,7 +116,7 @@ queries worked correctly. The following queries were successfully tried:
 }
 ```
 
-```
+```graphQL
 {
   casperBlockByHash(blockHash: "aad5c77f3e9707e5557e1dd703b63baeb8cadeb7d4add0435e647a85878cd556") {
     hash
@@ -140,7 +140,7 @@ queries worked correctly. The following queries were successfully tried:
 }
 ```
 
-```
+```graphQL
 {
   casperBlockByHeight(blockHeight: 1) {
     hash
@@ -164,7 +164,7 @@ queries worked correctly. The following queries were successfully tried:
 }
 ```
 
-```
+```graphQL
 {
   casperNodes {
     address
@@ -173,7 +173,7 @@ queries worked correctly. The following queries were successfully tried:
 }
 ```
 
-```
+```graphQL
 {
   transactions (from:"account-hash-2be16861369304884b4d0755d321a05e7cca5911c28ccbe17f9976b8c727e34c") {
     hash
@@ -186,7 +186,7 @@ queries worked correctly. The following queries were successfully tried:
 }
 ```
 
-```
+```graphQL
 {
   transaction(
     hash: "7cafb799f5890ef49c3500a83c66ff9b1ee37215b6ce07971aaa0acacd758dfa"
