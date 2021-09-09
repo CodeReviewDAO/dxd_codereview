@@ -1,4 +1,4 @@
-Grant Proposal | [60 - Financial crime prevention and risk intelligence on-chain tool](https://portal.devxdao.com/public-proposals/60)
+Grant Proposal | [28 - Validator Information Standard](https://portal.devxdao.com/public-proposals/28)
 ------------ | -------------
 Milestone | 2
 Milestone Title | Sample Implementation
