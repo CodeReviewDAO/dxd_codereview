@@ -5,6 +5,16 @@ Milestone Title | Efficient-query the casper blockchain
 OP | Aberto
 Reviewer | Michael Steuer <michael@make.software>
 
+# Reviews
+
+## Original Review
+The original review of this milestone took place on 9/2/2021 and FAILED. The discussion of that review can be found below.
+
+## Second Review
+After having addressed the issues identified in the Original Review, OP submitted the milestone for a Second Review. 
+The Second Review took place on 9/14/2021 and its results can be read [here](20210914-Second-Review.md). 
+The recommendation resulting from the Second Review was to PASS this milestone.
+
 # Milestone Details
 
 ## Details & Acceptance Criteria
