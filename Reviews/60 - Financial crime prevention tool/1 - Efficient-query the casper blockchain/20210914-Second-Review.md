@@ -21,7 +21,7 @@ Reviewer is focusing this review solely on verifying that the FAIL conditions ha
 
 ## FAIL CONDITIONS 1 & 2
 
-# | FAILED Condition
+_ | FAILED Condition
 ------------ | -------------
 1 | Project builds and runs without errors
 2 | Documentation provides sufficient installation/execution instructions
