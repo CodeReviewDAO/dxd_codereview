@@ -1,7 +1,7 @@
 Grant Proposal | [29 - Casper PHP SDK](https://portal.devxdao.com/public-proposals/29)
 ------------ | -------------
-Milestone | 2
-Milestone Title | Beta Version
+Milestone | 1
+Milestone Title | Alpha Version
 OP | Michael Steuer <michael@make.software>
 Reviewer | David Tai <dtaipublic@gmail.com>
 
@@ -11,12 +11,14 @@ Reviewer | David Tai <dtaipublic@gmail.com>
 
 **Details of what will be delivered in milestone:**
 
-In addition to Alpha requirements, the project now implements all available RPC methods, all available Casper types
+Scaffolding of PHP-SDK project, public on GitHub, loadable via Composer, and able to connect to a Casper Node and execute and return response for at least 1 method
 
 **Acceptance criteria:**
 
-- all RPC methods can be called and return an appropriate response
-- all Casper Types are available in the PHP-SDK
+- PHP-SDK project is available on public GitHub repository
+- Can successfully be integrated into a project using Composer
+- When instantiated, can connect to a Casper node
+- When connected, it can make at least 1 method call and return a response
 
 **Additional notes regarding submission from OP:**
 
@@ -37,20 +39,14 @@ able to successfully build the source code for this milestone
 
 ## Overall Impression of usage testing
 
-Currently there's only a very basic beta version so there's not much to manually test other than writing a script to try and connect to a node and call RPC functions.
-
-Casper RPC Calls are located here:
-https://github.com/make-software/casper-php-sdk/blob/master/src/Rpc/RpcClient.php
-
-Casper Types are located here:
-https://github.com/make-software/casper-php-sdk/tree/master/src/CLType
+Currently there's only a very basic alpha version so there's not much to manually test other than writing a script to try and connect to a node.
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
-Can make some basic RPC calls | PASS
+Can connect to a Casper node | PASS
 
 # Unit / Automated Testing
 
