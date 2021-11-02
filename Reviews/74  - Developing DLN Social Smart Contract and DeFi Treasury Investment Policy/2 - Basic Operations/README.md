@@ -1,7 +1,7 @@
-Grant Proposal | [28 - Validator Information Standard](https://portal.devxdao.com/public-proposals/28)
+Grant Proposal | [74 - Developing DLN Social Smart Contract and DeFi Treasury Investment Policy](https://portal.devxdao.com/public-proposals/74)
 ------------ | -------------
 Milestone | 2
-Milestone Title | Sample Implementation
+Milestone Title | Basic Operations
 OP | Dr. Adel
 Reviewer | David Tai <dtaipublic@gmail.com>
 
