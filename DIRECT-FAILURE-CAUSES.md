@@ -12,4 +12,4 @@ The following is a non-exhaustive list of possible causes of direct failure for 
 - Documentation is completely missing or extremely sparse
 - Missing Tests
 
-_Please note that this list may be updated in the future based on experience with the new code review submissions. Please also note that the reviewer may choose to give a direct failure recommendation for reasons which are not on this list, based on the specific case._
+_Please note that this list may be updated in the future based on experience with the new code review submissions. Please also note that this list is non-binding, and the reviewer may choose to give (or not give) a direct failure recommendation for a review, based on the entirety of the specific case._
