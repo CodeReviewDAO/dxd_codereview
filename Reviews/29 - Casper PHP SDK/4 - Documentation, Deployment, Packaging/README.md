@@ -1,6 +1,6 @@
 Grant Proposal | [29 - Casper PHP SDK](https://portal.devxdao.com/public-proposals/29)
 ------------ | -------------
-Milestone | 2
+Milestone | 4
 Milestone Title | Documentation, Deployment, Packaging
 OP | Michael Steuer <michael@make.software>
 Reviewer | David Tai <dtaipublic@gmail.com>
@@ -30,40 +30,34 @@ able to successfully build the source code for this milestone
 
 ## Overall Impression of usage testing
 
-Currently there's only a very basic beta version so there's not much to manually test other than writing a script to try and connect to a node and call RPC functions.
-
-Casper RPC Calls are located here:
-https://github.com/make-software/casper-php-sdk/blob/master/src/Rpc/RpcClient.php
-
-Casper Types are located here:
-https://github.com/make-software/casper-php-sdk/tree/master/src/CLType
+The tests pass and the documentation is sufficient
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
-Can make some basic RPC calls | PASS
+Can make all RPC calls | PASS
 
 # Unit / Automated Testing
 
-Unit tests will be included in milestone 3
+Unit tests all pass.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | N/A
-Unit Tests - At least one negative path test | N/A
-Unit Tests - Additional path tests | N/A
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
 ### Code Documentation
 
-Code documentation is sparse, will be done in milestone 3
+The API level documentations is sufficient.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | Minimal
+Code Documented | PASS
 
 ### Project Documentation
 
@@ -90,7 +84,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains a CONTRIBUTING policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
