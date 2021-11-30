@@ -103,5 +103,5 @@ The project provides the functionality described in the grant application and mi
 
 # Recommendation
 
-Recommendation | PASS (request for improvements)
+Recommendation | PASS
 ------------ | -------------
