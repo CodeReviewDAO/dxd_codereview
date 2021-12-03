@@ -29,8 +29,8 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/Rengo-Labs/uniswap-v2-router-casper | YES
-https://github.com/Rengo-Labs/uniswap-v2-core-casper | YES
+https://github.com/Rengo-Labs/uniswap-v2-router-casper | 18f1576 
+https://github.com/Rengo-Labs/uniswap-v2-core-casper | 5b5f0b2
 
 # Install & Usage Testing Procedure and Findings
 
