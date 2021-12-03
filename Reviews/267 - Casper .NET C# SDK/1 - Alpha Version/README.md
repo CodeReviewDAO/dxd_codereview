@@ -116,8 +116,8 @@ The project has been committed to GitHub and all 41 unit tests pass.
 
 # Final Conclusion
 
-The project meets and exceeds our standards. 
-The functionality described in the grant application and milestone acceptance criteria. 
+The project meets and exceeds our standards and exceeds the functionality required to m
+eet the milestone acceptance criteria in the grant application.
 Resounding PASS.
 
 # Recommendation
