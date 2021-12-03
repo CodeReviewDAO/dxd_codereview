@@ -36,7 +36,7 @@ https://github.com/make-software/casper-net-sdk | 39cd6a3
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README of https://github.com/make-software/casper-net-sdk, the reviewer was able to successfully install the library. Only a small hiccup when the reviewer had to figure out the .Net 5.0 was needed. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository. 
+Following the instructions in the README of https://github.com/make-software/casper-net-sdk, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository. 
 
 ## Overall Impression of usage testing
 
@@ -59,7 +59,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 Project contains 41 unit tests that can be executed from the console. 
 The reviewer has observed that all tests run successfully without errors. 
 
-Test Results can be found the the folder next to this review: 267_1_TestResults.txt
+Test Results can be found in the folder next to this review: 267_1_TestResults.txt
 
 Requirement | Finding
 ------------ | -------------
