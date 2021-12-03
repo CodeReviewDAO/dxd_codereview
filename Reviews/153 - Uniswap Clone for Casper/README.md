@@ -136,7 +136,7 @@ Acceptable.
 # Final Conclusion
 
 It has not been mentioned yet, but two other reviews have been done: 
- { Quantstamp's 1st Report, https://github.com/atomizable/dxd_codereview/blob/main/153%20-%20Uniswap%20Clone%20for%20Casper/Uniswap%20-%20Report.pdf }
+ { Quantstamp's 1st Report, https://github.com/atomizable/dxd_codereview/blob/main/Reviews/153%20-%20Uniswap%20Clone%20for%20Casper/Uniswap%20-%20Report.pdf }
 ,{ Maciej's Review, https://hackmd.io/@zie1ony/casper-uniswap-code-review }
 From these we can clearly see the project being built and run.
 The concerns raised by these two reviewers have been documented and it has been demonstrated that the
