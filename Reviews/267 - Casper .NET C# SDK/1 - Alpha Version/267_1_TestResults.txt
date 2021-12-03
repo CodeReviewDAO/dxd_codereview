@@ -1,0 +1,31 @@
+
+TESTS
+------------------------------------------------------------------
+Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NetCasperSDK -> C:\Users\r\workspace\casper-net-sdk\build\NetCasperSDK.dll
+  NetCasperTest -> C:\Users\r\workspace\casper-net-sdk\build\NetCasperTest.dll
+  NetCasperSDK -> C:\Users\r\workspace\casper-net-sdk\build\NetCasperSDK.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.42
+
+
+Determining projects to restore...
+  All projects are up-to-date for restore.
+  NetCasperSDK -> C:\Users\r\workspace\casper-net-sdk\NetCasperSDK\bin\Debug\net5.0\NetCasperSDK.dll
+  NetCasperTest -> C:\Users\r\workspace\casper-net-sdk\NetCasperTest\bin\Debug\net5.0\NetCasperTest.dll
+Test run for C:\Users\r\workspace\casper-net-sdk\NetCasperTest\bin\Debug\net5.0\NetCasperTest.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.0.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    41, Skipped:     0, Total:    41, Duration: 1 s - NetCasperTest.dll (net5.0)
