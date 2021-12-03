@@ -34,13 +34,13 @@ https://github.com/Rengo-Labs/uniswap-v2-core-casper | 5b5f0b2
 
 # Install & Usage Testing Procedure and Findings
 
-The furnished instructions were more than adaquate for this stage in the project and for the target audience(advanced users). 
+The furnished instructions were more than adequate for this stage in the project and for the target audience(advanced users). 
 
 ## Overall Impression of usage testing
 
 There was quite a good deal of code written for a Milestone named "Contract Port 4 Engineers + 2 QA Engineers" 
 The Engineers involved clearly have a good handle on the technologies being implemented. 
-The code is adaquatly laid out. Things are aligned, in no way messy, but have plenty of room for improved layout and added documention 
+The code is adequately laid out. Things are aligned, in no way messy, but have plenty of room for improved layout and added documentation 
 as the project continues. Exceedingly decent. 
 
 Requirement | Finding
@@ -50,16 +50,16 @@ We are able to deploy the uniswap contract and get it working with a compatible 
 # Unit / Automated Testing
 
 Working tests are not required for this review to pass the acceptance criteria. 
-Despite this, the OP is well on their way to having adaquate tests.
+Despite this, the OP is well on their way to having adequate tests.
 
 There are Positive & Negative Test Cases. 
-They are insufficent for the end of project,
+They are insufficient for the end of project,
 but for the current state of the project they are sufficient. 
 
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - Sufficeint | PASS
+Unit Tests - Sufficient | PASS
 
 # Documentation
 
@@ -70,7 +70,7 @@ Excellent.
 
 ### Code Documentation
 
-Next to the fantastic supporting documentation the inline documentation is exceedingly adaquate.
+Next to the fantastic supporting documentation the inline documentation is exceedingly adequate.
 But again, for this stage of the process, this is more than sufficient.
 The reviewer does urges the OP to include much more inline documentation in the source code. 
 This would be very helpful for untrained newcomers whom actually want to read the source. 
@@ -102,7 +102,7 @@ An impressive display for this stage.
 
 The Project is should be released under the Apache License 2.0 License as set forth in the 
 DevxDAO portal. The current License declared on the private repository declares a "GPL-3.0 License".
-The reviewer has alerted the OP that this must be ultimatly changed and he has agreed to change it 
+The reviewer has alerted the OP that this must be ultimately changed and he has agreed to change it 
 in short order. Thank you. 
 
 Requirement | Finding
@@ -121,7 +121,7 @@ The OP has indicated that he is willing to show the
 repository to any individual that may ask. 
 In light of the high-profile nature of the project, 
 this seems reasonable and necessary and this reveiwer 
-urges other policing coleagues to consider this and 
+urges other policing colleagues to consider this and 
 waive the requirement. 
 
 
