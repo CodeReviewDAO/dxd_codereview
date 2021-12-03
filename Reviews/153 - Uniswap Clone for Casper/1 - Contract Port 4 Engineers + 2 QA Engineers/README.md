@@ -34,7 +34,7 @@ https://github.com/Rengo-Labs/uniswap-v2-core-casper | 5b5f0b2
 
 # Install & Usage Testing Procedure and Findings
 
-The furnished instructions we more than adaquate for this stage in the project and for the target audience(advanced users). 
+The furnished instructions were more than adaquate for this stage in the project and for the target audience(advanced users). 
 
 ## Overall Impression of usage testing
 
@@ -73,9 +73,9 @@ Excellent.
 Next to the fantastic supporting documentation the inline documentation is exceedingly adaquate.
 But again, for this stage of the process, this is more than sufficient.
 The reviewer does urges the OP to include much more inline documentation in the source code. 
-This would be very helpful for untrained newcomers whom actually want to read the soruce. 
+This would be very helpful for untrained newcomers whom actually want to read the source. 
 That being said, it should also be noted that the OP has left plenty of space near each 
-method to do so and very well may have intended to expand the documentation intime.
+method to do so and very well may have intended to expand the documentation in time.
 In all, a promising display.   
 
 Requirement | Finding
@@ -100,11 +100,14 @@ An impressive display for this stage.
 
 ## Licenses
 
-The Project is released under the Apache License 2.0
+The Project is should be released under the Apache License 2.0 License as set forth in the 
+DevxDAO portal. The current License declared on the private repository declares a "GPL-3.0 License".
+The reviewer has alerted the OP that this must be ultimatly changed and he has agreed to change it 
+in short order. Thank you. 
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS
+OSI-approved open source software license | PASS WITH NOTES
 
 
 ## Contribution Policies
@@ -116,8 +119,8 @@ up a DEX, the reputation of the Casper Ecosystem could be affected.
 
 The OP has indicated that he is willing to show the 
 repository to any individual that may ask. 
-In light og the high-profile nature of the project, 
-this seems reasonable and nessecary and this reveiwer 
+In light of the high-profile nature of the project, 
+this seems reasonable and necessary and this reveiwer 
 urges other policing coleagues to consider this and 
 waive the requirement. 
 
@@ -136,7 +139,7 @@ Acceptable.
 # Final Conclusion
 
 It has not been mentioned yet, but two other reviews have been done: 
- { Quantstamp's 1st Report, https://github.com/atomizable/dxd_codereview/blob/main/153%20-%20Uniswap%20Clone%20for%20Casper/Uniswap%20-%20Report.pdf }
+ { Quantstamp's 1st Report, Uniswap - Report.pdf }
 ,{ Maciej's Review, https://hackmd.io/@zie1ony/casper-uniswap-code-review }
 From these we can clearly see the project being built and run.
 The concerns raised by these two reviewers have been documented and it has been demonstrated that the
@@ -144,19 +147,19 @@ OP has addressed them all sufficiently, and again, for this first milestone of t
 
 Also note, regarding 'The QSP7 issue'
 The OP has indicated that they are adding two new functions and these additions are currently 
-in quality assurance phase at the momentt. 
+in quality assurance phase at the moment. 
 
-Quantstamp will be issueing another report shortly. 
+Quantstamp will be issuing another report shortly. 
 This should be addressed in future reviews by future reviewers. 
 
-The reviewer has confirmed that the uniswap contract can be deployed within the same account. It shoud be noted that there 
+The reviewer has confirmed that the Uniswap contract can be deployed within the same account. It should be noted that there 
 is a limitation with the CLI with contracts deployed different to accounts. 
-This seems to be due to a issue in the deployent namespace as contracts cannot easily be told thier own names. 
+This seems to be due to an issue in the deployment namespace as contracts cannot easily be told their own names. 
 As this is an ecosystem problem that the team understands well,
-it is the opinion of thie reviewer that the acceptance cirteria for a deploying a uniswap contract has been met. 
-It has been demonstracted to the reviewer that they have it working with two erc20s. 
+it is the opinion of this reviewer that the acceptance criteria for a deploying a uniswap contract has been met. 
+It has been demonstrated to the reviewer that they have it working with two ERC-20s. 
 
 # Recommendation
 
-Recommendation | PASS WITH NOTES
+Recommendation | PASS (Improvements Suggestions) 
   ------------ | -------------
