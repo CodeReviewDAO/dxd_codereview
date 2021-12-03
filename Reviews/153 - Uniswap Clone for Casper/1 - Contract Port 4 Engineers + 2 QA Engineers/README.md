@@ -100,7 +100,7 @@ An impressive display for this stage.
 
 ## Licenses
 
-The Project is should be released under the Apache License 2.0 License as set forth in the 
+The Project should be released under the Apache License 2.0 License as set forth in the 
 DevxDAO portal. The current License declared on the private repository declares a "GPL-3.0 License".
 The reviewer has alerted the OP that this must be ultimately changed and he has agreed to change it 
 in short order. Thank you. 
