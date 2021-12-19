@@ -1,3 +1,4 @@
+```bash
 [info] welcome to sbt 1.5.7 (Azul Systems, Inc. Java 11.0.13)
 [info] loading project definition from /workspace/casper-scala-sdk/project
 [info] loading settings for project casper-scala-sdk from build.sbt,build_.sbt ...
@@ -104,3 +105,4 @@
 [info] Tests: succeeded 36, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 16 s, completed Dec 19, 2021, 7:59:22 PM
+```
