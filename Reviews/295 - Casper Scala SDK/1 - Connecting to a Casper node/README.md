@@ -66,7 +66,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-A sufficient amount of low-level documentation exists on the project via peroperly formatted inline comments on the critical classes and the methods.
+A sufficient amount of low-level documentation exists on the project via properly formatted inline comments on the critical classes and the methods.
 
 Requirement | Finding
 ------------ | -------------
