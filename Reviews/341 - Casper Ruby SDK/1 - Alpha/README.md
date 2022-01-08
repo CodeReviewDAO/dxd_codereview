@@ -104,7 +104,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains a CONTRIBUTING policy that links to a Code of Conduct policy. Pull requests and Issues are enabled on the repository. However, the project doesn't contain a CONTRIBUTING or a SECURITY policy. In favor of the long-term sustainability of the open-source project, and the well-being of the projects which might be built on this SDK, the reviewer highly recommends adding these missing policies to the project as soon as possible.
+Pull requests and Issues are enabled on the repository. However, the project doesn't contain a CONTRIBUTING or a SECURITY policy. In favor of the long-term sustainability of the open-source project, and the well-being of the projects which might be built on this SDK, the reviewer highly recommends adding these missing policies to the project as soon as possible.
 
 Requirement | Finding
 ------------ | -------------
