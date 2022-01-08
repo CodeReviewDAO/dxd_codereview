@@ -114,7 +114,7 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-Code's structure and readability is acceptable. The project as committed to GitHub and both the unit tests and the manual tests pass.
+Code's structure and readability is acceptable for this milestone, but it is expected to be improved before the completion of the project. The project as committed to GitHub and both the unit tests and the manual tests pass.
 
 # Final Conclusion
 
