@@ -2,7 +2,7 @@ Grant Proposal | [219 - Casper Analytics - iOS/Android/Web](https://portal.devxd
 ------------ | -------------
 Milestone | 1-5
 Milestone Title | All milestones
-OP | Mikael | CasperCommunity.io
+OP | Mikael - CasperCommunity.io
 Reviewer | Ebubekir Yardımcı <ebubekir.yrd@gmail.com>
 
 # Milestone Details
