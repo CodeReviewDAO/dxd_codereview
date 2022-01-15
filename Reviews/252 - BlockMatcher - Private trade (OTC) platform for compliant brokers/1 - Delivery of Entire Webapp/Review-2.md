@@ -34,7 +34,51 @@ Specific system tests will be demonstrated to test the operation of the system:
 
 **Additional notes regarding submission from OP:**
 
-Enjoy the delivery of BlockMatcher, a system designed for OTC brokers to match buyers and sellers who register their corresponding requests to purchase or sell token.
+** THIS IS A RE-SUBMISSION. NOTES FIXING AUDIT REQUIREMENTS BELOW
+
+- Release notes for Blockmatcher patch
+
+### Updates/Patches for this release
+
+Following the code review for the Blockmatcher codebase, we have implemented the following fixes to rectify the required/recommended points.
+
+#### Backend software
+
+axios - Not used. Not vulnerable to GHSA-25mp-g6fv-mqxx
+
+#### Frontend software
+
+axios - Fixed. Patched to 0.21
+
+next - Patched manually. Not vulnerable to GHSA-25mp-g6fv-mqxx
+
+trim-newlines - Not implemented. Not vulnerable.
+
+ssri - Not implemented. Not vulnerable.
+
+tar - Not implemented. Not vulnerable.
+
+glob-parent - Not implemented. Not vulnerable.
+
+ 
+
+#### Failing functions
+
+Forgot/reset password - Patched and testing out.
+
+Registration bug - Patched and testing out.
+
+ 
+
+#### New Implementations CI/CD
+
+1. Laravel workflow - workflows/laravel.yml
+
+2. Javascript CodeQL for Next.js
+
+ 
+
+** Enjoy the delivery of BlockMatcher, a system designed for OTC brokers to match buyers and sellers who register their corresponding requests to purchase or sell token. Along with the repos, a demo version is available for testing at https://blockmatcher.ledgerleap.com/login and your will want to assume the role of the OTC broker to create "batches" that match buyers and sellers by logging in with admin user.
 
 
 ## Milestone Submission
