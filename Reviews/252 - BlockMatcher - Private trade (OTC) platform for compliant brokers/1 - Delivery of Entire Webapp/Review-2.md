@@ -7,7 +7,7 @@ Reviewer | Muhammet Kara
 
 # Milestone Details
 
-The [first review](Review-1.md) of this milestone had FAILED. 
+The [first review](Review-1.md) of this milestone had FAILED. A second review of the milestone has been requested, after it was asserted by the OP that the FAIL conditions have been addressed in their milestone. This review will, while checking for the entire milestone, especially focus on the previously failed points.
 
 ## Details & Acceptance Criteria
 
@@ -43,36 +43,31 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/ledgerleapllc/blockmatcher-frontend | 764bf35
-https://github.com/ledgerleapllc/blockmatcher-backend | 180a71c
+https://github.com/ledgerleapllc/blockmatcher-frontend | 48e32a7
+https://github.com/ledgerleapllc/blockmatcher-backend | d6d4363
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README files of the frontend and the backend repositories of the project, reviewer was able to successfully build the source code, and make a test deploy for this milestone on the cloud in an `Ubuntu 20.04` environment after certain modifications listed below for the installation steps of the backend repository:
-* `apt install -y php7.4-cli` was needed after the `sudo apt-get install -y php7.4-{bcmath,bz2,intl,gd,mbstring,mysql,zip,common,curl,xml}` step to be able to follow the steps after that.
-* Change `DB_HOST=localhost` for mysql to mitigate the SQL connection problem on `php artisan migrate`.
-* `apt install -y mysql-server redis-server` was needed for `php artisan migrate`.
-* `mysql -u root create database laravel; quit;` to mitigate the `No such database` issue on `php artisan migrate`.
+Following the instructions in the README files of the frontend and the backend repositories of the project, reviewer was able to successfully build the source code, and make a test deploy for this milestone on the cloud in an `Ubuntu 20.04` environment. It was observed that the install instructions on the README has been improved based on the feedback on the previous review.
 
 Then the promised functionalities for the milestone were tested manually by using `Firefox 95.0 (64-bit)` as the browser:
-* During the registration test, it was observed that **the registration functionality gives misleading feedback** with a `Try again later` message after submitting the registration form and the `The email is already in use` message for the following tries. Reviewer was able to login with the newly registered user credentials despite the misleading feedback and the lack of any registration emails. Since the registration was possible in the end, the reviewer doesn't see these issues as reasons for failure, but highly recommends improving the user experience for the registration process.
+* During the registration test, it was observed that the registration functionality no longer gives misleading feedback as an improvement after the previous review. The reviewer was able to register and login with two different users as buyer and seller successfully.
 ![Register](assets/01-register.png)
 ![Register as Buyer](assets/02-register-buyer.png)
 ![Registered as Buyer](assets/03-Buyer-Registered.png)
 ![Register as Seller](assets/04-register-seller.png)
 ![Registered as Seller](assets/05-Seller-Registered.png)
 
-* Reviewer was **not able to recover password** for a registered user. When the error log of the browser was checked, it was seen that there was an error message appearing after clicking on the `Send Reset Link` button.
+* Reviewer was able to recover password for both of the newly registered test users, observing that the password recovery functionality is now fixed since the previous review.
 ![Forgot Pass](assets/06-Forgot-Password.png)
-![Forgot Pass Error](assets/07-Forgot-Password-Error.png)
 
-* Reviewer [observed](assets) that the rest of the functionalities were as expected.
+* Reviewer [observed](assets) that the rest of the functionalities were also as expected.
 
 Functionality | Finding
 ------------ | -------------
-Registration of a buyer user | PASS with Notes
-Registration of a seller user | PASS with Notes
-Login and password recovery tests | **FAIL**
+Registration of a buyer user | PASS
+Registration of a seller user | PASS
+Login and password recovery tests | PASS
 Placing a selling order (offer) | PASS
 Submission of price, lock, and location information | PASS
 Placing a buying order (bid) | PASS
@@ -86,40 +81,44 @@ Modifying a batch | PASS
 
 ## Overall Impression of usage testing
 
-Both on the test deployment by the reviewer and the demo deployment provided by the OP, all of the major functionality is observed to be working properly except the misleading registration feedback, and the broken password recovery functionality.
+On the demo deployment, all of the major functionality is observed to be working properly including the registration and the password recovery functionalities which were broken during the previous review.
 
-Although the reviewer was able to build and install the application only after the modifications and the extra steps mentioned earlier in the review, these are not reasons for a failure in the reviewer's opinion. Nonetheless, the reviewer highly suggests revising and improving the documentation to cover these difficulties.
+Reviewer spotted a small UI bug which lies outside the scope of this review, and reported to the OP, receiving acknowledgement of the bug entering their development workflow as a result. Reviewer then observed that the reported bug was quickly fixed before the completion of this review.
+
+The reviewer has also observed that the project documentation has been improved since the previous review to cover the difficulties mentioned there.
+
+The reviewer would like to thank the OP for taking the suggestions and reports seriously, and acting on them quickly.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | **FAIL**
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-Project contains UI and integration tests on the frontend side, and API tests on the backend side, covering the critical functionality, both for positive and negative paths. In the reviewers opinion, these are sufficient, considering the general structure and the features of the project. However, the reviewer highly suggests also adding function-level unit tests in the traditional sense on both the frontend and the backend sides of the project.
+Project was containing UI and integration tests on the frontend side, and API tests on the backend side, covering the critical functionality, both for positive and negative paths, during the previous review. In the reviewers opinion, those were sufficient, considering the general structure and the features of the project. However, it was observed that the OP has also added function-level unit [tests](assets/test-run.md) in the traditional sense to the project, following the advice of the reviewer since the previous review.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS with Notes
-Unit Tests - At least one negative path test | PASS with Notes
-Unit Tests - Additional path tests | PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Code Analysis & CI Facilities
 
-The project doesn't have any continuous integration (CI) or code-analysis facilities on any of its repositories. As both are crucial for protecting the project against regressions and software decay as well as errors due to untested code changes, the reviewer recommends setting up at least one code analysis (similar to CodeQL) and one CI measure to the project, which would ideally run on every pull request and commit on the `master` branch.
+It was observed that the OP acted on the advice from the previous review, and added CI and code analysis facilities to the project. The front-end repository now has a CodeQL analyis action for the JavaScript code whereas there is a Laravel test action on the back-end repository which runs on every pull request on the master branch. The reviewer praises the OP for these improvements.
 
 Requirement | Finding
 ------------ | -------------
-Code Analysis | FAIL
-Continuous Integration | FAIL
+Code Analysis | PASS
+Continuous Integration | PASS
 
 # Documentation
 
 ### Code Documentation
 
-Code documentation is sparse on the frontend side, but sufficient on the backend side. Reviewer [was able to generate the api documentation](assets/docs.zip) by using `phpDocumentor`, and observed that the code-level documentation for the critical functions are sufficient and enough to have a basic understanding of the code-base. Reviewer highly suggests suggests adding proper instructions on the README to generate the api documentation and also to provide an auto-generated version of the documentation, updated on new commits on the `master` branch.
+Code documentation is sparse on the frontend side, but sufficient on the backend side. Reviewer [was able to generate the api documentation](assets/docs.zip) by using `phpDocumentor`, and observed that the code-level documentation for the critical functions are sufficient and enough to have a basic understanding of the code-base. Reviewer highly suggests adding proper instructions on the README to generate the api documentation and also to provide an auto-generated version of the documentation, updated on new commits on the `master` branch.
 
 Requirement | Finding
 ------------ | -------------
@@ -127,7 +126,7 @@ Code Documented | PASS with Notes
 
 ### Project Documentation
 
-README.md has sufficient general information about the project, along with installation instructions, and the usage documentation. However, in the reviewer's opinion, the installation instructions should be improved to allow the individuals who are not devops/systems engineers to install the app with ease.
+README.md has sufficient general information about the project, along with installation instructions, and the usage documentation. Reviewer has also observed that the installation instructions have improved based on the suggestions from the previous review.
 
 Usage documentation is brief. The reviewer suggests detailing the usage documentation with specific usage scenarios and steps.
 
@@ -160,40 +159,27 @@ OSS contribution best practices | PASS
 # Coding Standards
 
 ## Dependencies
-The project has a number of dependencies with high or critical-level security vulnerabilities, which are recommended to be fixed as soon as possible. Reviewer highly suggests enabling dependency checks on the project's repositories to be alerted about such vulnerabilities in the future.
+Previously, the project had a number of dependencies with high or critical-level security vulnerabilities, which were recommended to be fixed as soon as possible. It was observed that the OP has diligently worked to mitigate the reported issues, and updated the dependencies including the front-end library of the project.
 
-### Frontend
-
-Dependency | Vulnerability | Severity
------------- | ------------- | -------------
-trim-newlines | [CVE-2021-33623](https://github.com/advisories/GHSA-7p7h-4mm5-852v) | High
-ssri | [CVE-2021-27290](https://github.com/advisories/GHSA-vx3p-948g-6vhq) | High
-axios | [CVE-2021-3749](https://github.com/advisories/GHSA-cph5-m8f7-6c5x) | High
-tar | [GHSA-5955-9wpr-37jh](https://github.com/advisories/GHSA-5955-9wpr-37jh) | High
-glob-parent | [CVE-2020-28469](https://github.com/advisories/GHSA-ww39-953v-wcq6) | High
-next | [GHSA-25mp-g6fv-mqxx](https://github.com/advisories/GHSA-25mp-g6fv-mqxx) | High
-
-### Backend
-
-Dependency | Vulnerability | Severity
------------- | ------------- | -------------
-axios | [GHSA-25mp-g6fv-mqxx](https://github.com/advisories/GHSA-25mp-g6fv-mqxx) | High
+During the review, the reviewer discovered the existence of a new dependency vulnerability, CVE-2022-0155, on the front-end repository, which appears to be published a few days ago, thus could not possibly be anticipated by the OP. The reviewer observed that the OP acted on the new report, and quickly fixed the issue, thus rendering the project free of all dependency vulnerabilities reported on the previous report.
 
 ## General Observations
 
-Code is generally well-structured and readable. The project as committed to GitHub and both the automated tests and the manual tests pass. However, the project has a number of dependencies with high or critical-level security vulnerabilities.
+Code is generally well-structured and readable. The project as committed to GitHub and both the automated tests and the manual tests pass.
 
 # Final Conclusion
 
-The project provides the most of the functionalities described in the grant application and milestone acceptance criteria. The reviewer praises the OP for the general stability and the fluid user experience of the app. The reviewer also would like to thank the OP for including the open-source policies, which are very important for the long-term sustainability of any open-source project, in the project's repositories.
+The project provides the functionalities described in the grant application and milestone acceptance criteria. The reviewer praises the OP for the general stability and the fluid user experience of the app. The reviewer also would like to thank the OP for including the open-source policies, which are very important for the long-term sustainability of any open-source project, in the project's repositories.
 
-However, the password recovery feature, which is one of the explicitly listed functionalities as part of the acceptance criteria, is broken. Moreover, the project has a number of dependencies with high-level security vulnerabilities. Both of these are reasons for a failure.
+Moreover, the reviewer would like to thank and praise the OP for fixing all critical issues reported on the previous review, and also for acting on the non-critical suggestions and recommendations such as adding code analysis and the CI facilities, which are very important for long term success of an open-source project.
 
-Although they are not causes for failure, the build and the installation instructions, as well as the usage documentation have some room for improvements. Again although not a cause for an overall failure, the project lacks the code analysis and the CI facilities, which are very important for long term success of an open-source project.
+The reviewer now sees this submission having a much higher chance of survival as an open-source project while pointing out the minor notes on the documentation improvement possibilities.
 
-Thus, in the reviewer's opinion, this submission should fail.
+Thus, in the reviewer's opinion, this submission should pass with notes.
 
 # Recommendation
 
-Recommendation | FAIL
+Recommendation | PASS with Notes
 ------------ | -------------
+
+
