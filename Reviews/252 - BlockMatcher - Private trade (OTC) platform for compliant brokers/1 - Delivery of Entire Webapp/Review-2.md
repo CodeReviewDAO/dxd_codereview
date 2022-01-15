@@ -7,7 +7,7 @@ Reviewer | Muhammet Kara
 
 # Milestone Details
 
-The [first review](README.md) of this milestone had FAILED. 
+The [first review](Review-1.md) of this milestone had FAILED. 
 
 ## Details & Acceptance Criteria
 
