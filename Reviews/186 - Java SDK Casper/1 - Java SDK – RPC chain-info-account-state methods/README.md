@@ -126,7 +126,7 @@ Reviewer finds the code to be generally well-structured and readable. The projec
 
 The project provides the functionality described in the grant application and milestone acceptance criteria. The SDK is well-documented and has an acceptable level of tests.
 
-However, **no description, website, or topics provided for the repository**, which cripples the discoverability of the project. Moreover, although it is qn OSI-approved license, the project's license mismatches the one promised on the proposal, which needs to be fixed before the final milestone.
+However, **no description, website, or topics provided for the repository**, which cripples the discoverability of the project. Moreover, although it is an OSI-approved license, the project's license mismatches the one promised on the proposal, which needs to be fixed before the final milestone.
 
 The project also lacks a security policy, and is observed to be heavily focused on the positive paths in its unit tests. Furthermore, it is not published on the central package repository of the language, making it harder to install and use.
 
