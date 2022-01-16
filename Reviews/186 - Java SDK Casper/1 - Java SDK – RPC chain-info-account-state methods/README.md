@@ -65,9 +65,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project has a total number of 87 tests, covering both positive and negative paths. The tests are configured to run automatically by means of automated actions on the repository. However, the reviewer thinks that the tests are heavily focused on the positive paths, thus highly suggests increasing the number of the negative path tests
-
-[Tests Run](test-run.md)
+The project has a total number of 87 tests, covering both positive and negative paths. The tests are configured to run automatically by means of automated actions on the repository. However, the reviewer thinks that the tests are heavily focused on the positive paths, thus highly suggests increasing the number of the negative path tests.
 
 Requirement | Finding
 ------------ | -------------
