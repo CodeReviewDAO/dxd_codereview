@@ -44,6 +44,8 @@ https://github.com/EKON-YAZILIM/ServicesDAO_VotingEngine | 8221e05
 
 # Install & Usage Testing Procedure and Findings
 
+## Build
+
 Following the instructions in the README of the project's repositories, the reviewer was able to successfully build the project for this milestone on Ubuntu 20.04 in a cloud environment as separate microservices:
 * [DAO_ApiGateway](artifacts/build-DAO_ApiGateway.md)
 * [DAO_DbService](artifacts/build-DAO_DbService.md)
