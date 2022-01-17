@@ -47,14 +47,14 @@ https://github.com/EKON-YAZILIM/ServicesDAO_VotingEngine | 8221e05
 ## Build
 
 Following the instructions in the README of the project's repositories, the reviewer was able to successfully build the project for this milestone on Ubuntu 20.04 in a cloud environment as separate microservices:
-* [DAO_ApiGateway](artifacts/build-DAO_ApiGateway.md)
-* [DAO_DbService](artifacts/build-DAO_DbService.md)
-* [DAO_IdentityService](artifacts/build-DAO_IdentityService.md)
-* [DAO_LogService](artifacts/build-DAO_LogService.md)
-* [DAO_NotificationService](artifacts/build-DAO_NotificationService.md)
-* [DAO_WebPortal](artifacts/build-DAO_WebPortal.md)
-* [DAO_ReputationService](artifacts/build-DAO_ReputationService.md)
-* [DAO_VotingEngine](artifacts/build-DAO_VotingEngine.md)
+* [DAO_ApiGateway](assets/build-DAO_ApiGateway.md)
+* [DAO_DbService](assets/build-DAO_DbService.md)
+* [DAO_IdentityService](assets/build-DAO_IdentityService.md)
+* [DAO_LogService](assets/build-DAO_LogService.md)
+* [DAO_NotificationService](assets/build-DAO_NotificationService.md)
+* [DAO_WebPortal](assets/build-DAO_WebPortal.md)
+* [DAO_ReputationService](assets/build-DAO_ReputationService.md)
+* [DAO_VotingEngine](assets/build-DAO_VotingEngine.md)
 
 ## Installation
 
@@ -194,3 +194,5 @@ Thus, in the reviewers opinion, this submission should pass with notes.
 
 Recommendation | PASS with Notes
 ------------ | -------------
+
+
