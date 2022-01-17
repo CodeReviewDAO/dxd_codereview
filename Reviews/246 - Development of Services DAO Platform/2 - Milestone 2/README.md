@@ -56,9 +56,66 @@ Following the instructions in the README of the project's repositories, the revi
 * [DAO_ReputationService](artifacts/build-DAO_ReputationService.md)
 * [DAO_VotingEngine](artifacts/build-DAO_VotingEngine.md)
 
+## Installation
+
+The reviewer was able to install the project on a test environment following the instructions on the repositories, only after certain changes and additions which are noted in the installation notes section below.
+
+![Services DAO Portal Home](assets/01-PortalHome.png)
+
+### Installation Notes
+ServicesDAO's docker-compose file is simple and easily deployable, but the project's README file and the instructions seem to have some room for improvement.
+
+Configs, covered poorly, that the reviewer had to find out by himself:
+1. SMTP Configuration file
+    * located at **DAO_NotificationService/appsettings.json**
+2. DAO_WebPortal/appsettings.json contains **Service_ApiGateway_Url** field and its value is statically set to the developer's server address. This is **very critical information** but not provided in the README file. If you do not set this address correctly, your deployment will not run correctly.
+3. Rabbitmq and MySQL passwords are static, and spread across many different files. Changing environment variable fields in the docker-compose file doesn't work.
+    * Rabbitmq passwords:
+    Except for the docker-compose files, files containing passwords are as follows.
+    ```
+    DAO_LogService/appsettings.json
+    DAO_NotificationService/appsettings.json
+    DAO_DbService/appsettings.test.json
+    DAO_DbService/appsettings.json
+    DAO_ApiGateway/appsettings.json
+    DAO_IdentityService/appsettings.test.json
+    DAO_IdentityService/appsettings.json
+    DAO_WebPortal/appsettings.json
+    ```
+    * Mysql passwords: 
+    Except for the docker-compose.test.yml files, files containing passwords are as follows.
+    ```
+    DAO_LogService/appsettings.json
+    DAO_DbService/appsettings.test.json
+    DAO_DbService/appsettings.json
+    DAO_IdentityService/appsettings.test.json
+    ```
+    These passwords can easily be set with a simple find+sed command but the documentation does not cover this.
+
+## Usage
+
+The usage was first tested on the test deployment by the reviewer on a basic level, then judged based on the extensive usage of the beta deployment on https://crdao.ossa.dev
+
+The reviewer was able to login to the portal with different user types (voter, member, admin), and see different options and views for each user type.
+
+![Login as Voting Associate](assets/02-Login-VA.png)
+![Login as Admin](assets/03-Login-Admin.png)
+![Login as Associate](assets/04-Login-Member.png)
+
+It was observed that the bid submission functionality exists and works on the portal.
+
+![Bid Submission](assets/05-Bid-Submission.png)
+![Bid Submission List](assets/06-Bid-Submitted.png)
+
+The reviewer was able to see that different types of votes are taking place on the portal, producing proper outcomes as reputation minting and distribution and state changes of the jobs, evidencing the functionality of the voting engine and the reputation management.
+
+![Voting](assets/07-Voting-In-Progress.png)
+![Completed Votes](assets/08-Voting-Completed.png)
+![Reputation Management](assets/09-Reputation-Management.png)
+
 ## Overall Impression of usage testing
 
-The project builds without errors, and the project functionality meets/exceeds the acceptance criteria and operates without errors. However, the reviewer thinks that the documentation still has room for improvement regarding the installation and execution instructions for example by fixing small method call mismatches on the given examples and by providing the central maven repository information for the library.
+The project builds without errors, and the project functionality meets/exceeds the acceptance criteria and operates without errors. However, the reviewer thinks that the documentation still has room for improvement regarding the installation and execution instructions especially on the points noted in the Installation Notes section.
 
 Requirement | Finding
 ------------ | -------------
@@ -68,9 +125,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project has a total number of 87 tests, covering both positive and negative paths. The tests are configured to run automatically by means of automated actions on the repository. However, the reviewer thinks that the tests are heavily focused on the positive paths, thus highly suggests increasing the number of the negative path tests
-
-[Tests Run](test-run.md)
+Unit/automated testing will be checked in a later milestone.
 
 Requirement | Finding
 ------------ | -------------
@@ -139,4 +194,3 @@ Thus, in the reviewers opinion, this submission should pass with notes.
 
 Recommendation | PASS with Notes
 ------------ | -------------
-
