@@ -75,7 +75,7 @@ The installation process is standard for a React + Typescript + node.js applicat
 
 This to be expected as the latest node.js LTS that is supported in the targetted runtime is 14 and more modern runtimes would cause backwards comaptibility issues.
 
-The code was completely documented on a function level though there's no overall technical documentation and the function level documentation is rather spartan and could be expanded upon.
+The code was completely documented on a function level though there's no overall technical documentation and the function level documentation is rather sparse and could be expanded upon.
 
 For testing, the reviewer deployed a local version, manually reviewed the AWS deployment artifacts and checked if they were typical, and reviewed the deployed instance to replicate the flows described in the video and manual.  The local version built but could not deploy without the AWS environment. 
 
@@ -89,7 +89,7 @@ The production deployment had features that worked as expected with the casper s
 
 ## Overall Impression of usage testing
 
-Usage testing involved running through manual testing scripts.  The reviewer did not find any functional issues with the testing scripts.  The reviewer does note that there are some english text sill visible with the Bengali translation.  The reviewer does not have the expertise to judge whether or not having mixed English and Bengali text is considered sufficient translation in that particular region.
+Usage testing involved running through manual testing scripts.  The reviewer did not find any functional issues with the testing scripts.  The reviewer does note that there are some english texts still visible with the Bengali translation.  The reviewer does not have the expertise to judge whether or not having mixed English and Bengali text is considered sufficient translation in that particular region.
 
 Requirement | Finding
 ------------ | -------------
@@ -99,7 +99,7 @@ Bengali Translation is present | PASS with notes (are some English words expecte
 
 # Unit / Automated Testing
 
-The was only manual testing as this was a website.  I am fine to pass this as with the current manually testing scripts as opposed to automated testing since this is a thin UI that talks with unit tested smart contracts.
+The was only manual testing as this was a website.  The reviewer is fine to pass this with the current manually testing scripts as opposed to automated testing since this is a thin UI that talks with unit tested smart contracts.
 
 Requirement | Finding
 ------------ | -------------
@@ -149,7 +149,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-The project 
+The project adheres to typical React project conventions and coding standards.  The project uses modern functional hook based React TSX templates.  The folder structure is laid out in a way where its easy to identify the different React objects (layouts, contexts, localization, routes, css, etc).
 
 # Final Conclusion
 
