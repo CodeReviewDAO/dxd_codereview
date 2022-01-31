@@ -50,7 +50,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project contains 17 tests in total, covering both the positive and the negative paths. The reviewer has observed that all tests run successfully without errors.
+The project contains 17 tests in total, covering both the positive and the negative paths. The reviewer has observed that [all tests run successfully](assets/test.md) without errors.
 
 Requirement | Finding
 ------------ | -------------
