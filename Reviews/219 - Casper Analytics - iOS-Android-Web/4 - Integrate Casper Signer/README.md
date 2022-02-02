@@ -44,44 +44,35 @@ https://github.com/caspercommunityio/casper-analytics-app | 03d40c8
 Reviewer was able to build and run the project by using the instructions given on the README of the project, after needed parameters entering to the environment.ts file as per the instructions for the app project.
 
 
-![img.png](assets/appDash.jpg)
 
 
 Reviewer was able to build and run the project by using the instructions given on the README of the project, after needed parameters entering to the .env file as per the instructions for the api project.
 
-![img.png](assets/apiServe.PNG)
+
 
 
 The reviewer was able to run the api methods successfully.
  
-![img.png](assets/apiJobs.PNG)
+
 
 
 Reviewer observed that the errors in the previous review have been fixed.  
 
-![img.png](assets/WebRunning.PNG)
+
 
 Pages on the website are working properly :
 
-![img.png](assets/Validators.PNG)
-![img.png](assets/Dashboard.PNG)
-![img.png](assets/Validator.PNG)
-![img.png](assets/Deployments.PNG)
-![img.png](assets/Calculator.PNG)
+
 
 Mobile application working properly : 
 
-![img.png](assets/apple.jpg)
-![img.png](assets/android.jpg)
 
 Notifications working properly : 
 
-![img.png](assets/notification.jpg)
-![img.png](assets/notifications.jpg)
 
 While the 'cspr.live' redirect for the 'stake with us' button in the mobile app works fine but it still gives a js error in the web app.  
 
-![img.png](assets/error.PNG)
+
 
 ## Overall Impression of usage testing
 
@@ -101,8 +92,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 After installing the requirements and adding the necessary configuration settings, following the instructions given in the README in the project, the tests were run. No error was received during the tests for app and api. 
 
 
-![img.png](assets/apiTest.PNG)
-![img.png](assets/webTest.PNG)
+
 
 
 Requirement | Finding
