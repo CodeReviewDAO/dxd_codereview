@@ -79,22 +79,17 @@ Notifications working properly :
 ![img.png](assets/notification.jpg)
 ![img.png](assets/notifications.jpg)
 
-While the 'cspr.live' redirect for the 'stake with us' button in the mobile app works fine but it still gives a js error in the web app.  
-
-![img.png](assets/error.PNG)
-
 ## Overall Impression of usage testing
 
 The reviewer was able to build and run the project following the instructions.
 And also the documentation also provides adequate installation/execution instructions for different scenarios. 
 The reviewer thinks that the project functionality will meet the acceptance criteria.
 
-
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -155,16 +150,15 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is generally well-structured and readable. The Github linked project is easy and successful to install, no error was encountered during the installation phase of the app project. No error was received in the unit tests of the project. Manual tests fail for making a delegation using the casper signer. Although this error does not prevent the project from being successful, this error needs to be fixed.
+Code is generally well-structured and readable. The Github linked project is easy and successful to install, no error was encountered during the installation phase of the app project. No error was received in the unit tests of the project. In addition, no errors were found in the manual tests.
 
 # Final Conclusion
-The project provides the most of the functionalities described in the grant application and milestone acceptance criteria. 
+The project provides the all of the functionalities described in the grant application and milestone acceptance criteria. 
 The reviewer praises the OP for the general stability and the fluid user experience of the app.
-However the "delegate using casper signer" in the milestone doesn't work properly. 
-Thus, in the reviewer's opinion, this submission should pass with notes.
+Thus, in the reviewer's opinion, this submission should pass.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | PASS 
 ------------ | -------------
 
