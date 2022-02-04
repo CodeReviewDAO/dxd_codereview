@@ -229,11 +229,11 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-Reviewer observed that all critical functions of the project had low-level code documentation which could be used for automated documentation generation.
+The code could be more commented but the name of the functions are clear enough to understand theirs goals.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS
+Code Documented | PASS with notes
 
 ### Project Documentation
 
@@ -269,8 +269,8 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-Code is generally well-structured and readable. 
-But the documentation presented in the README could be improve. The project could have a dedidacted website for the technical documentation (eg : using Github Pages) instead of having most of the structs in the README. 
+Code is generally well-structured and readable but could be more documented.
+The documentation presented in the README could be improve. The project could have a dedidacted website for the technical documentation (eg : using Github Pages) instead of having most of the structs in the README. 
 
 # Final Conclusion
 The project meets the functional requirements. The reviewer was able to build and run the unit tests. The reviewer recommend to add unit tests for the keypairs under the curve SECP256K1.
