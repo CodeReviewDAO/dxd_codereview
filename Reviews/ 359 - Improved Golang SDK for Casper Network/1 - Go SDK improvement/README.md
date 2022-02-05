@@ -241,7 +241,7 @@ The reviewer observed that the README of the project has detailed general and us
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS
+Usage Documented | PASS with notes
 
 ## Overall Conclusion on Documentation
 
@@ -269,8 +269,11 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-Code is generally well-structured and readable but could be more documented.
-The documentation presented in the README could be improve. The project could have a dedidacted website for the technical documentation (eg : using Github Pages) instead of having most of the structs in the README. 
+Code is generally well-structured and readable but could be more documented. Also the unit tests regarding SECP256K1 can be added to have more code coverage.
+
+Even if the README is clear enough to understand the SDK, it should be good to improve it with : 
+- Which version og Go the user should install
+- A dedicated website for the technical documentation (eg : using Github Pages) instead of having most of the structs in the README
 
 # Final Conclusion
 The project meets the functional requirements. The reviewer was able to build and run the unit tests. The reviewer recommend to add unit tests for the keypairs under the curve SECP256K1.
