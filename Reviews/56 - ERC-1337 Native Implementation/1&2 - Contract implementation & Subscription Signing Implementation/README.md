@@ -152,11 +152,11 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-Code is generally well-structured and readable. The project has been committed to GitHub, has extensive tests.
+Code is generally well-structured and readable. The project has been committed to GitHub, and has extensive tests.
 
 # Final Conclusion
 
-The is generally in a very good shape in terms of open-source guidelines. Moreover, the project has extensive tests, and a sufficient level of documentation. However, the project fails to build by following the given instructions, making it unusable.
+The project is generally in a very good shape in terms of open-source guidelines. Moreover, the project has extensive tests, and a sufficient level of documentation. However, the project fails to build by following the given instructions, making it unusable.
 
 Thus, in the reviewers opinion, this submission should fail.
 
