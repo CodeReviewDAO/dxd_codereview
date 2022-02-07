@@ -336,7 +336,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled. The repository doesnt contains a CONTRIBUTING and a SECURITY policy.
+Pull requests and Issues are enabled. The repository does contain a CONTRIBUTING and a SECURITY policy.
 
 Requirement | Finding
 ------------ | -------------
