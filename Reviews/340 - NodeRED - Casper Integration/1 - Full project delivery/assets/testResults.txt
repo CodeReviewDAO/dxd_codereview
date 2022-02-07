@@ -1,0 +1,174 @@
+npm test
+
+> node-red-contrib-casper@1.0.5 test
+> nyc mocha "test/**/**_spec.js" --timeout 7000
+
+
+
+  convert-to-runtime-args Node
+    ✔ should be loaded
+    ✔ should convert to CLString
+    ✔ should error to CLString
+    ✔ should convert to CLI32
+    ✔ should error to CLI32
+    ✔ should convert to CLU512
+    ✔ should error to CLU512
+    ✔ should convert to CLList
+    ✔ should convert to CLPublicKey
+    ✔ should error to CLPublicKey
+    ✔ should convert to CLAccountHash
+    ✔ should error to CLAccountHash
+
+  get-account-balance-by-uref Node
+    ✔ should be loaded
+    ✔ should return something (83ms)
+    ✔ should give an error (55ms)
+
+  get-account-uref-by-account-hash Node
+    ✔ should be loaded
+    ✔ should return something (81ms)
+    ✔ should give an error (53ms)
+
+  get-account-uref-by-public-key Node
+    ✔ should be loaded
+    ✔ should return something (82ms)
+    ✔ should give an error
+
+  get-block-info Node
+    ✔ should be loaded
+    ✔ should return something (87ms)
+    ✔ should give an error (79ms)
+
+  get-block-info-by-height Node
+    ✔ should be loaded
+    ✔ should return something (80ms)
+    ✔ should give an error (81ms)
+
+  get-block-state Node
+    ✔ should be loaded
+    ✔ should return something (56ms)
+    ✔ should give an error (53ms)
+
+  get-deploy Node
+    ✔ should be loaded
+    ✔ should return something (54ms)
+    ✔ should give an error (53ms)
+
+  get-dictionary-item-by-uref Node
+    ✔ should be loaded
+    ✔ should return something (376ms)
+    ✔ should give an error (214ms)
+
+  get-era-switch-block-info Node
+    ✔ should be loaded
+    ✔ should return something (477ms)
+    ✔ should give an error (54ms)
+
+  get-latest-block-info Node
+    ✔ should be loaded
+    ✔ should return something (78ms)
+    ✔ Wrong peer (267ms)
+
+  get-peers Node
+    ✔ should be loaded
+    ✔ should return something (80ms)
+
+  get-state-root-hash Node
+    ✔ should be loaded
+    ✔ should return something (56ms)
+
+  get-status Node
+    ✔ should be loaded
+    ✔ should return something (83ms)
+
+  get-transfers Node
+    ✔ should be loaded
+    ✔ should return something (68ms)
+
+  get-validators-info Node
+    ✔ should be loaded
+    ✔ should return something (1231ms)
+
+  module-bytes Node
+    ✔ should be loaded
+    ✔ should return something
+
+  put-deploy Node
+    ✔ should be loaded
+    ✔ should transfert Ed25519 (46ms)
+e { transfer: t { tag: 5, args: e { args: [Map] } } }
+    ✔ should transfert Secp256K1
+    ✔ should not transfert
+
+  stored-contract-by-hash Node
+    ✔ should be loaded
+    ✔ should return something
+    ✔ should return error
+
+  stored-contract-by-name Node
+    ✔ should be loaded
+    ✔ should return something
+    ✔ should return error
+
+  stored-versioned-contract-by-hash Node
+    ✔ should be loaded
+    ✔ should return something
+    ✔ should return error
+
+  stored-versioned-contract-by-name Node
+    ✔ should be loaded
+    ✔ should return something
+    ✔ should return error
+
+
+  70 passing (4s)
+
+---------------------------------------|---------|----------|---------|---------|----------------------------------------------------
+File                                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+---------------------------------------|---------|----------|---------|---------|----------------------------------------------------
+All files                              |    84.9 |    64.13 |   92.23 |    84.9 |
+ convert-to-runtime-args               |   62.31 |    60.52 |    87.5 |   62.31 |
+  convert-to-runtime-args.js           |   62.31 |    60.52 |    87.5 |   62.31 | 13,17,19,21,23,25,27,31,35,41-43,45-48,50-54,61-69
+ get-account-balance-by-uref           |     100 |       50 |     100 |     100 |
+  get-account-balance-by-uref.js       |     100 |       50 |     100 |     100 | 14
+ get-account-uref-by-account-hash      |     100 |       50 |     100 |     100 |
+  get-account-uref-by-account-hash.js  |     100 |       50 |     100 |     100 | 14
+ get-account-uref-by-public-key        |   81.81 |       50 |      80 |   81.81 |
+  get-account-uref-by-public-key.js    |   81.81 |       50 |      80 |   81.81 | 32-37
+ get-block-info                        |     100 |       50 |     100 |     100 |
+  get-block-info.js                    |     100 |       50 |     100 |     100 | 14
+ get-block-info-by-height              |     100 |       50 |     100 |     100 |
+  get-block-info-by-height.js          |     100 |       50 |     100 |     100 | 14
+ get-block-state                       |     100 |       50 |     100 |     100 |
+  get-block-state.js                   |     100 |       50 |     100 |     100 | 14
+ get-deploy                            |     100 |       50 |     100 |     100 |
+  get-deploy.js                        |     100 |       50 |     100 |     100 | 14
+ get-dictionary-item-by-uref           |     100 |       50 |     100 |     100 |
+  get-dictionary-item-by-uref.js       |     100 |       50 |     100 |     100 | 14
+ get-era-switch-block-info             |     100 |       50 |     100 |     100 |
+  get-era-switch-block-info.js         |     100 |       50 |     100 |     100 | 14
+ get-latest-block-info                 |     100 |       50 |     100 |     100 |
+  get-latest-block-info.js             |     100 |       50 |     100 |     100 | 14
+ get-peers                             |   76.47 |       50 |      80 |   76.47 |
+  get-peers.js                         |   76.47 |       50 |      80 |   76.47 | 26-31
+ get-state-root-hash                   |   76.47 |       50 |      80 |   76.47 |
+  get-state-root-hash.js               |   76.47 |       50 |      80 |   76.47 | 26-31
+ get-status                            |   76.47 |       50 |      80 |   76.47 |
+  get-status.js                        |   76.47 |       50 |      80 |   76.47 | 26-31
+ get-transfers                         |   76.47 |       50 |      80 |   76.47 |
+  get-transfers.js                     |   76.47 |       50 |      80 |   76.47 | 27-32
+ get-validators-info                   |   76.47 |       50 |      80 |   76.47 |
+  get-validators-info.js               |   76.47 |       50 |      80 |   76.47 | 26-31
+ module-bytes                          |   82.35 |      100 |     100 |   82.35 |
+  module-bytes.js                      |   82.35 |      100 |     100 |   82.35 | 24-28
+ put-deploy                            |   89.18 |       50 |      80 |   89.18 |
+  put-deploy.js                        |   89.18 |       50 |      80 |   89.18 | 69-72
+ stored-contract-by-hash               |   83.33 |      100 |     100 |   83.33 |
+  stored-contract-by-hash.js           |   83.33 |      100 |     100 |   83.33 | 29-33
+ stored-contract-by-name               |   83.33 |      100 |     100 |   83.33 |
+  stored-contract-by-name.js           |   83.33 |      100 |     100 |   83.33 | 31-35
+ stored-versioned-contract-by-hash     |   84.21 |    85.71 |     100 |   84.21 |
+  stored-versioned-contract-by-hash.js |   84.21 |    85.71 |     100 |   84.21 | 31-35
+ stored-versioned-contract-by-name     |   84.21 |    85.71 |     100 |   84.21 |
+  stored-versioned-contract-by-name.js |   84.21 |    85.71 |     100 |   84.21 | 30-34
+---------------------------------------|---------|----------|---------|---------|----------------------------------------------------
