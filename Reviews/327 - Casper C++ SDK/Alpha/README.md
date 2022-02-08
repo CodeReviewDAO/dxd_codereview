@@ -41,7 +41,7 @@ https://github.com/yusufketen/casper-cpp-sdk | 373f347
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README of https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code but fail to run test for this milestone on Ubuntu 20.04
+Following the instructions in the README of https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code but **FAIL** to run test for this milestone on Ubuntu 20.04
 
 ## Overall Impression of usage testing
 
