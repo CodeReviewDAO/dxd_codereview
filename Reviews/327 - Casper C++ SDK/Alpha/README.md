@@ -45,7 +45,7 @@ Following the instructions in the README of https://github.com/yusufketen/casper
 
 ## Overall Impression of usage testing
 
-The project builds successfully without errors, but as the reviewer tries to do the test as described at https://github.com/yusufketen/casper-cpp-sdk#test and do the running example as described at https://github.com/yusufketen/casper-cpp-sdk#run-example, **the Auto test FAILS on the master branch** (https://github.com/tqhuy2018/dxd_codereview/blob/main/Reviews/327%20-%20Casper%20C%2B%2B%20SDK/Alpha/assets/AutoTestFails.md).
+The project builds successfully without errors, but as the reviewer tries to do the test as described at https://github.com/yusufketen/casper-cpp-sdk#test and do the running example as described at https://github.com/yusufketen/casper-cpp-sdk#run-example, the **[Auto test FAILS](https://github.com/tqhuy2018/dxd_codereview/blob/main/Reviews/327%20-%20Casper%20C%2B%2B%20SDK/Alpha/assets/AutoTestFails.md) on the master branch**
 
 Requirement | Finding
 ------------ | -------------
