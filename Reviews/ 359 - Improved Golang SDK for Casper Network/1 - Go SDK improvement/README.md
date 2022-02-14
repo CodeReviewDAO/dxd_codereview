@@ -274,7 +274,8 @@ But the documentation presented in the README could be improve. The project coul
 
 # Final Conclusion
 The project meets the functional requirements. The reviewer was able to build and run the unit tests. The reviewer recommend to add unit tests for the keypairs under the curve SECP256K1.
-The documentation could also be improved for a better user experience. The reviewer suggest to add the missing policies and complete the the repository's informations to improve its discoverability.
+The documentation could also be improved for a better user experience. Especially the installation procedure which was not clear about the version of Go to install.
+The reviewer suggest to add the missing policies and complete the the repository's informations to improve its discoverability.
 
 Thus, in the reviewer's opinion, this submission should PASS with notes.
 
