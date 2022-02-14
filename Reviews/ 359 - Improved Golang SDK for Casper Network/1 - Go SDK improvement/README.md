@@ -219,6 +219,8 @@ ok  	github.com/casper-ecosystem/casper-golang-sdk/types	0.003s
 
 ```
 
+Reviewer notes that the tests regarding "SECP256K1" are missing.
+
 Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS with notes
@@ -238,7 +240,7 @@ Code Documented | PASS with notes
 ### Project Documentation
 
 The reviewer observed that the README of the project has detailed general and usage documentation. The README could be improved to be more readable.
-Please add the version of Go supported by the SDK to prevent question and errors for the end-users.
+Please add the version of Go supported by the SDK to prevent questions and errors for the end-users.
 
 Requirement | Finding
 ------------ | -------------
