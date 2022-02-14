@@ -238,6 +238,7 @@ Code Documented | PASS with notes
 ### Project Documentation
 
 The reviewer observed that the README of the project has detailed general and usage documentation. The README could be improved to be more readable.
+Please add the version of Go supported by the SDK to prevent question and errors for the end-users.
 
 Requirement | Finding
 ------------ | -------------
