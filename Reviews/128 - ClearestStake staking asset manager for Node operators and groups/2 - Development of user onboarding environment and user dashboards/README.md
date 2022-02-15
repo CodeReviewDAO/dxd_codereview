@@ -63,8 +63,8 @@ Following the instructions in the README files of the frontend and the backend r
 * The backend's .env file fields are clear but documentation does not explain it or provide example on it.
 
 ### Build
-* The `npm install` command failed with an error for the frontend repository, and succeeded only after issuing the command as `npm install --legacy-peer-deps`.
-* The `npm run build-export` command failed with an error for the frontend repository, and succeeded only after manually removing the `eslint .` part from the `build-export` script.
+* The `npm install` command [failed](assets/npm-install-fail.md) with an error for the frontend repository, and succeeded only after issuing the command as `npm install --legacy-peer-deps`.
+* The `npm run build-export` command [failed](assets/build-export-error.md) with an error for the frontend repository, and succeeded only after manually removing the `eslint .` part from the `build-export` script.
 
 
 ### Testing
@@ -73,26 +73,30 @@ Following the instructions in the README files of the frontend and the backend r
 ## Usage Testing
 Reviewer verified the basic login and logout functions and observed the full dashboard of the app successfully loaded on the test deploy.
 
-![Test Deploy Login](/assets/01-login-test-deploy.png)
-![Test Deploy Logged-in](/assets/02-logged-in-test-deploy.png)
+![Test Deploy Login](assets/01-login-test-deploy.png)
+![Test Deploy Logged-in](assets/02-logged-in-test-deploy.png)
 
 Then the promised functionalities for the milestone were tested manually by using `Firefox 95.0 (64-bit)` as the browser, on the production deploy provided by the OP.
 
 All functions were observed to be at an acceptable state except the following points observed by the reviewer, which need to be fixed before the final milestone of the project:
 
 * Get Help / Ask a Question form gives an error when the Submit button is clicked. Due to this bug, the reviewer was not able to manually test certain parts of the functionality relying on this.
-![Get Help Error](/assets/06-Get-Help-Form-Error-1.png)
-![Get Help Error](/assets/07-Get-Help-Form-Error-2.png)
+
+![Get Help Error](assets/manual-tests/06-Get-Help-Form-Error-1.png)
+![Get Help Error](assets/manual-tests/07-Get-Help-Form-Error-2.png)
 
 * Request Withdraw form gives an error when the Submit button is clicked. Due to this bug, the reviewer was not able to manually test certain parts of the functionality relying on this.
-![Request Withdraw Error](/assets/09-Request-Withdraw-Error.png)
-![Request Withdraw Error](/assets/10-Request-Withdraw-Error-2.png)
+
+![Request Withdraw Error](assets/manual-tests/09-Request-Withdraw-Error.png)
+![Request Withdraw Error](assets/manual-tests/10-Request-Withdraw-Error-2.png)
 
 * On the Fund Sale screen, the number of users on the table doesn't match the number of users reported at the top of the page.
-![Fund Sale screen](/assets/25-Admin-Fund-Sale.png)
+
+![Fund Sale screen](assets/manual-tests/25-Admin-Fund-Sale.png)
 
 * On the Fund Sale screen, entering the exact amount reported on the UI to the total value field causes an error (seen in red at the bottom of the page), and can be fixed only by manually adjusting the amounts on the individual rows.
-![Fund Sale error](/assets/26-Admin-Fund-Sale-Filled.png)
+
+![Fund Sale error](assets/manual-tests/26-Admin-Fund-Sale-Filled.png)
 
 
 
@@ -117,7 +121,7 @@ User detail page will show the data and transactions attributed to a subject use
 
 ## Overall Impression of usage testing
 
-Both on the test deployment by the reviewer and the demo deployment provided by the OP, all of the major functionality is observed to be working properly except the points noted in the Usage Testing section above.
+Both on the test deployment by the reviewer and the demo deployment provided by the OP, all of the major functionality is [observed](assets/manual-tests) to be working properly except the points noted in the Usage Testing section above.
 
 Although the reviewer was able to build and install the application only after the modifications and the extra steps mentioned earlier in the review, these are not reasons for a failure, in the reviewer's opinion, at this non-final milestone. Nonetheless, the reviewer recommends fixing the noted points, and revising and improving the documentation to cover these difficulties.
 
@@ -129,7 +133,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-Project contains UI and integration tests on the frontend side, and API tests on the backend side, covering the critical functionality. However, in the reviewers opinion, the test coverage is weak and heavily focused on the positive paths. Although the reviewer doesn't see this as a cause of failure for this non-final milestone, he thinks the test coverage needs to be improved significantly also by focusing on the negative path tests before the final milestone.
+Project contains [UI and integration tests](assets/test.spec.js.mp4) on the frontend side, and [API tests](assets/backend-tests.md) on the backend side, covering the critical functionality. However, in the reviewers opinion, the test coverage is weak and heavily focused on the positive paths. Although the reviewer doesn't see this as a cause of failure for this non-final milestone, he thinks the test coverage needs to be improved significantly also by focusing on the negative path tests before the final milestone.
 
 Requirement | Finding
 ------------ | -------------
@@ -150,7 +154,7 @@ Continuous Integration | PASS with Notes
 
 ### Code Documentation
 
-Code documentation is sparse on both the frontend and the backend side. Reviewer was able to generate the api documentation by using `phpDocumentor`, and observed that the code-level documentation for the critical functions needs to be improved although it is possible to to have a basic understanding of the code-base due to easy-to-understand structure and naming of the entities. Reviewer recommends improving the code-level documentation, and highly suggests adding proper instructions on the README to generate the api documentation and also to provide an auto-generated version of the documentation, updated on new commits on the `master` branch.
+Code documentation is sparse on both the frontend and the backend side. Reviewer [was able to generate](assets/docs.tar.gz) the api documentation by using `phpDocumentor`, and observed that the code-level documentation for the critical functions needs to be improved although it is possible to to have a basic understanding of the code-base due to easy-to-understand structure and naming of the entities. Reviewer recommends improving the code-level documentation, and highly suggests adding proper instructions on the README to generate the api documentation and also to provide an auto-generated version of the documentation, updated on new commits on the `master` branch.
 
 Requirement | Finding
 ------------ | -------------
