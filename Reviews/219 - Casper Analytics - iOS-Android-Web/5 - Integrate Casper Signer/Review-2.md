@@ -1,4 +1,4 @@
-Review | [79 - 219-5 - Casper Analytics - iOS/Android/Web](https://crdao.ossa.dev/Job-Detail/79)
+Review | [79 - 219 -5- Casper Analytics - iOS/Android/Web](https://crdao.ossa.dev/Job-Detail/79)
 ------------ | -------------
 Milestone | 5
 Milestone Title | Integrate Casper Signer
@@ -52,7 +52,7 @@ The reviewer was able to run the api methods successfully :
 
 Reviewer reviewed that the errors in the previous review have been fixed :  
 
-![img.png](assets/WebServe_2.PNG)
+![img.png](assets/appServe_2.PNG)
 
 The pages on the website work properly both locally and on the website :
 
@@ -93,7 +93,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 After installing the requirements and adding the necessary configuration settings, following the instructions given in the README in the project, the tests were run. No error was received during the tests for app and api. 
 
-![img.png](assets/apiTest2_2.PNG)
+![img.png](assets/appTest2_2.PNG)
 ![img.png](assets/apiTest1_2.PNG)
 ![img.png](assets/appTest_2.PNG)
 
