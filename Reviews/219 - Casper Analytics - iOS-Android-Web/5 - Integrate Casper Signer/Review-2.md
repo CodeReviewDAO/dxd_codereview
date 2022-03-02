@@ -2,8 +2,8 @@ Review | [79 - 219 -5- Casper Analytics - iOS/Android/Web](https://crdao.ossa.de
 ------------ | -------------
 Milestone | 5
 Milestone Title | Integrate Casper Signer
-OP | tmesser
-Reviewer | Ebubekir Yardımcı
+OP | Mikael - CasperCommunity.io
+Reviewer | Ebubekir Yardımcı <ebubekir.yrd@gmail.com>
 
 # Milestone Details
 
