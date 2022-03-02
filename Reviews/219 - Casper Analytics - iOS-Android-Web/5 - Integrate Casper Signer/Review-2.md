@@ -58,9 +58,9 @@ The pages on the website work properly both locally and on the website :
 
 ![img.png](assets/Validators_2.PNG)
 ![img.png](assets/Dashboard_2.PNG)
-![img.png](assets/Validator_2.png)
-![img.png](assets/Deployments_2.png)
-![img.png](assets/Calculators_2.PNG)
+![img.png](assets/Validator_2.PNG)
+![img.png](assets/Deployments_2.PNG)
+![img.png](assets/Calculator_2.PNG)
 ![img.png](assets/appStaking_2.PNG)
 
 Reviewer observed successful 'casper signer integration' and 'cspr.live' redirection :
@@ -71,12 +71,12 @@ Reviewer observed successful 'casper signer integration' and 'cspr.live' redirec
 
 Mobile application working properly : 
 
-![img.png](assets/apple_2.jpg)
+![img.png](assets/apple_2.jpeg)
 ![img.png](assets/android_2.jpg)
 
 Notifications working properly : 
 
-![img.png](assets/notification_2.jpg)
+![img.png](assets/notifications_2.jpg)
 
 
 ## Overall Impression of usage testing
