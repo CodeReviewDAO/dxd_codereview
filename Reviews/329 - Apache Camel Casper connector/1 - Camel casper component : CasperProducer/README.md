@@ -28,6 +28,11 @@ The review will cover the first milestone criteria set forth below.
 
 **Additional notes regarding submission from OP:**
 
+- Java SDK we wanted to use for this grant was not suitable for our developements.
+ We delayed submission of milestone 1 until this Java SDK was published into maven repository: 
+ 
+ https://github.com/syntifi/casper-sdk/
+
 ## Milestone Submission
 
 The following milestone assets/artifacts were submitted for review:
