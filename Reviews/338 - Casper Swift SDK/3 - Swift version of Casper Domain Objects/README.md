@@ -42,7 +42,7 @@ The reviewer was able to build the project following the instructions given in t
 The documentation provides sufficient installation/build instructions.
 
 **However, despite the build being successful, the build console shows a lot of warnings that can indicate  potential problems in the code or in the libraries used by the SDK.
-The OP is encouraged to fix that for next milestone**:
+The OP is encouraged to fix these warnings for the next milestone**.
 
 
 Requirement | Finding
