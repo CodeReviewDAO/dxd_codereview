@@ -1,7 +1,7 @@
-Review | [79 - 219 -5- Casper Analytics - iOS/Android/Web](https://crdao.ossa.dev/Job-Detail/79)
+Review | [219 -5- Casper Analytics - iOS/Android/Web](https://portal.devxdao.com/public-proposals/219)
 ------------ | -------------
-Milestone | 1-5
-Milestone Title | All milestones
+Milestone | 5
+Milestone Title | Integrate Casper Signer
 OP | Mikael - CasperCommunity.io
 Reviewer | Ebubekir Yardımcı <ebubekir.yrd@gmail.com>
 
