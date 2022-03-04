@@ -2,7 +2,7 @@ Grant Proposal | [219 - Casper Analytics - iOS/Android/Web](https://portal.devxd
 ------------ | -------------
 Milestone | 5
 Milestone Title | Integrate Casper Signer
-OP | tmesser
+OP | Mikael - CasperCommunity.io
 
 # Reviews
 
