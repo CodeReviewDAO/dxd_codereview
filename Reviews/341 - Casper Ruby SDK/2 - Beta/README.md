@@ -117,14 +117,13 @@ Successfully installed casper_network-0.2.0
 1 gem installed
 ```
 
-```
+```console
 [root@citools ~]#gem build casper_network.gemspec
   Successfully built RubyGem
   Name: casper_network
   Version: 0.2.0
   File: casper_network-0.2.0.gem
-```
-
+````
 
 ## Overall Impression of usage testing
 The documentation provides clear and sufficient instructions to build and install the ruby sdk bundle.
@@ -156,7 +155,7 @@ ruby test.rb
 	from /home/user/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/timeout-0.2.0/lib/timeout.rb:123:in `timeout'
 	from /home/user/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/casper_network-0.2.0/lib/casper_network.rb:35:in `info_get_peers'
 	from test.rb:9:in `<main>'
-/home/abahmane/.rbenv/versions/3.0.2/lib/ruby/3.0.0/net/http.rb:987:in `initialize': Connection refused - connect(2) for "5.161.68.4" port 7777 (Errno::ECONNREFUSED)
+/home/user/.rbenv/versions/3.0.2/lib/ruby/3.0.0/net/http.rb:987:in `initialize': Connection refused - connect(2) for "5.161.68.4" port 7777 (Errno::ECONNREFUSED)
 	from /home/user/.rbenv/versions/3.0.2/lib/ruby/3.0.0/net/http.rb:987:in `open'
 	from /home/user/.rbenv/versions/3.0.2/lib/ruby/3.0.0/net/http.rb:987:in `block in connect'
 	from /home/user/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/timeout-0.2.0/lib/timeout.rb:107:in `block in timeout'
