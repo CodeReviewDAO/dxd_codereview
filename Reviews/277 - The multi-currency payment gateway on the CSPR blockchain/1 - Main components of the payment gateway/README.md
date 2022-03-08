@@ -124,7 +124,7 @@ API Endpoints work without error | PASS
 
 # Unit / Automated Testing
 
-Reviewer can find unit tests, but reviewer suggests OP to add more test to cover the negative path.
+Reviewer can find unit tests, but reviewer suggests OP to add more tests to increase the coverage.
 
 ## dhf-pay-font
 
@@ -164,8 +164,8 @@ Done in 2.98s.
 ```
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS
-Unit Tests - At least one negative path test | FAIL
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | PASS with Notes
 Unit Tests - Additional path tests | FAIL
 
 ## dhf-pay-back
@@ -202,8 +202,8 @@ Ran all test suites.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS
-Unit Tests - At least one negative path test | FAIL
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | PASS with Notes
 Unit Tests - Additional path tests | FAIL
 
 ## dhf-pay-processor
@@ -245,8 +245,8 @@ Ran all test suites.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS
-Unit Tests - At least one negative path test | FAIL
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | PASS with Notes
 Unit Tests - Additional path tests | FAIL
 
 # Documentation
