@@ -240,17 +240,7 @@ The reviewer was able to check the presence of some negative path tests:
       end
     end
 ```
-But encourages the OP to add more of these negative path tests.
-
-
-
-```console 
-rspec  spec/testnet_spec.rb
-.........................................................
-
-Finished in 0.03654 seconds (files took 1.13 seconds to load)
-57 examples, 0 failures
-```
+The reviewer encourages the OP to add more of these negative path tests.
 
 
 Requirement | Finding
