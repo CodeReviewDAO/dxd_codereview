@@ -263,7 +263,7 @@ Code Documented | PASS with notes
 ### Project Documentation
 The project does not provide detailed SDK documentation. The sample code provided in the Readme does not work and needs to be changed.
 The only documentation available is the one the user can generate with the commands provided in the README file.
-The reviewer was able to generate and view this documentation on this link: https://htmlpreview.github.io/?https://raw.githubusercontent.com/saitgulmez/casper-ruby-sdk/milestone-2/doc/index. html
+The reviewer was able to generate and view this documentation on this link: https://htmlpreview.github.io/?https://raw.githubusercontent.com/saitgulmez/casper-ruby-sdk/milestone-2/doc/index.html .
 There is no step-by-step guide on how to write ruby code using the SDK.
 It is strongly recommended to add a well-supplied and detailed documentation for the next milestones.
 
