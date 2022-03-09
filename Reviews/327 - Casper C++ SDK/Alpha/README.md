@@ -83,6 +83,7 @@ make all
 
 The project has sufficient and well documented instructions to successfully build the source code.
 **However, the reviewer recommends detailing these instructions so that any lamba user  could install and build the project.**
+
 Example:
 Instructions showing user how to clone the project are missing:
 
