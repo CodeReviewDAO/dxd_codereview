@@ -108,6 +108,7 @@ The reviewer checked that the two RPC calls have at least one positive path test
 **However, there are no negative path tests**, this is not blocking for this milestone as the project is in its very early stage.
 The OP is strongly encouraged to add negative path tests for the next milestones.  
 **Reviewer also recommends to document tests so that we could see the actual progress of the tests (while running) and what functions are being tested.**
+
 The tests run successfully, without errors and produce the following output:
 
 ````bash
