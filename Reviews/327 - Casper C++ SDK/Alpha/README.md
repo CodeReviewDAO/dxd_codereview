@@ -105,6 +105,7 @@ The project has 2 tests corresponding to the RPC calls implemented in the milest
 * infoGetPeers
 
 The reviewer checked that the two RPC calls have at least one positive path test.
+
 **However, there are no negative path tests**, this is not blocking for this milestone as the project is in its very early stage.
 The OP is strongly encouraged to add negative path tests for the next milestones.  
 **Reviewer also recommends to document tests so that we could see the actual progress of the tests (while running) and what functions are being tested.**
@@ -157,7 +158,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-In the reviewer's opinion, the project,  usage documentation and code-level documentation are sufficient. 
+In the reviewer's opinion, the project usage and code-level documentation are sufficient. 
 
 # Open Source Practices
 
