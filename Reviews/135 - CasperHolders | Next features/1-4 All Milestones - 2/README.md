@@ -122,7 +122,7 @@ During the manually testing process where in the reviewer attempted over two wee
 1. node 17 seems to have higher memory usage in practice- OP Fixed with note in "Node Version" section "We're only supporting the Node 16 LTS version for now"
 2. Garbage collection and out of memory issues - OP addressed with adjusting defaults in `.env` and fixing bugs in the the various parsers files.  There are still ongoing but less major issues.
 3. Timeout cascades where the volume of timeouts handled by the node.js block http handing, causing more timeouts - adjustments to `.env` constants.
-4. The mongodb schema does not include all data from querying the blockchain - the schema is documented and additions can be requested using the existing Contributing.md.
+4. The postgres schema does not include all data from querying the blockchain - the schema is documented and additions can be requested using the existing Contributing.md.
 
 ### `casperholdersfront`
 
