@@ -54,14 +54,14 @@ https://github.com/saitgulmez/casper-ruby-sdk/tree/milestone-2 | e950bcb
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README of https://github.com/saitgulmez/casper-ruby-sdk/tree/milestone-2, the reviewer was
+Following the instructions in the README file of https://github.com/saitgulmez/casper-ruby-sdk/tree/milestone-2, the reviewer was
 able to  : 
 
 * Install Ruby on Rails on a Ubuntu 20.04 cloud server (https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04)
 
-* Install all the required ruby dependencies (gems) required by the SDK
+* Install all the  ruby dependencies (gems) required by the SDK
 
-```console
+```bash
 [root@citools ~]#bundle install
 Fetching gem metadata from https://rubygems.org/.........
 Resolving dependencies...
@@ -103,7 +103,7 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 
 * Install and build casper_network0.2.0 gem from repository
 
-``` console
+```bash
 [root@citools ~]#gem build casper_network.gemspec
   Successfully built RubyGem
   Name: casper_network
@@ -111,13 +111,13 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
   File: casper_network-0.2.0.gem
 ```
 
-```console
+```bash
 [root@citools ~]#gem install casper_network-0.2.0.gem
 Successfully installed casper_network-0.2.0
 1 gem installed
 ```
 
-```console
+```bash
 [root@citools ~]#gem build casper_network.gemspec
   Successfully built RubyGem
   Name: casper_network
@@ -127,10 +127,10 @@ Successfully installed casper_network-0.2.0
 
 ## Overall Impression of usage testing
 The documentation provides clear and sufficient instructions to build and install the ruby sdk bundle.
-However, the documentation does not give details on the version of Ruby used to develop and test the SDK (the reviewer installed version 3.0.2 by default).
+However, the documentation does not give details about the version of Ruby language used to develop and test the SDK (the reviewer installed version 3.0.2 by default).
 After building the project ,the reviewer was unable to run the code example provided in the repository main page (https://github.com/saitgulmez/casper-ruby-sdk/tree/milestone-2#usage-examples):
 
-```console
+```bash
 
 ruby test.rb
 /home/user/.rbenv/versions/3.0.2/lib/ruby/3.0.0/net/http.rb:987:in `initialize': Failed to open TCP connection to 5.161.68.4:7777 (Connection refused - connect(2) for "5.161.68.4" port 7777) (Errno::ECONNREFUSED)
@@ -180,7 +180,7 @@ ruby test.rb
 ```
 The reviewer was then able to run the example after replacing the node address (5.161.68.4) used in the example . 
 
-The reviewer recommands to correct the  code example for the next milestones.
+The reviewer recommends to correct the  code example for the next milestones.
 
 Requirement | Finding
 ------------ | -------------
@@ -192,10 +192,8 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The project has 57 tests. The reviewer checked that all the RPC calls have at least one positive path test.
 
-````Java
-...
- # **********************************************************************************************
-  # Test state_get_dictionary_item(state_root_hash, item_key, uref)
+```ruby
+
   describe "#state_get_dictionary_item" do
     stored_value = client.state_get_dictionary_item("146b860f82359ced6e801cbad31015b5a9f9eb147ab2a449fd5cdb950e961ca8",
       "abc_name",
@@ -213,13 +211,13 @@ The project has 57 tests. The reviewer checked that all the RPC calls have at le
       expect(stored_value[:CLValue][:parsed]).to eql("abc_value")
     end
   end
+```
 
-````
 
-However, the reviewer had  observed that the tests run without a logging utility that would allow to see the actual progress of the tests. 
+However, the reviewer had  observed that the tests run without a logging utility that would allow to see the actual progress of the tests and what functions are being tested. 
 The tests run successfully, without errors and produce the following output:
 
-```console 
+```bash
 rspec  spec/testnet_spec.rb
 .........................................................
 
@@ -229,8 +227,7 @@ Finished in 0.03654 seconds (files took 1.13 seconds to load)
 
 The reviewer was able to check the presence of some negative path tests:
 
-```Java
-...
+```ruby
  context "When info_get_deploy is called with an empty deploy hash parameter" do
       deploy = client.info_get_deploy("")
       it "passes,  ServerError: Invalid params " do
@@ -240,8 +237,8 @@ The reviewer was able to check the presence of some negative path tests:
       end
     end
 ```
-The reviewer encourages the OP to add more of these negative path tests.
 
+The reviewer encourages the OP to add more of these negative path tests.
 
 Requirement | Finding
 ------------ | -------------
