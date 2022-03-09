@@ -123,7 +123,9 @@ Code is generally well-structured and readable. The project has been committed t
 # Final Conclusion
 
 The project provides the functionality described in the grant application and milestone acceptance criteria.
-
+The SDK is well-documented and has an acceptable level of tests.
+**The reviewer recommands to fix the warning that appears when building the project.**
+In the reviewers opinion, this submission should pass with notes.
 # Recommendation
 
 Recommendation | PASS with notes
