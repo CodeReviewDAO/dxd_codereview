@@ -302,6 +302,12 @@ Code's structure and readability is acceptable for this milestone, but code docu
 
 The project provides the functionality described in the grant application and milestone acceptance criteria.
 
+**However, the project and source code documentation needs to be improved. The project also lacks negative path tests.** 
+
+**The OP is strongly encouraged to improve these two points for the next milestone submission.**
+
+In the reviewers opinion, this submission should pass with notes.
+
 # Recommendation
 
 Recommendation | PASS with Notes
