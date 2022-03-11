@@ -187,7 +187,11 @@ Code is generally well-structured and readable. Comments are good enough for all
 
 # Final Conclusion
 
-The project code seems to provide the functionality described in the grant application and milestone acceptance criteria. In the reviewer's opinion, this submission should PASS. 
+The project code seems to provide the functionality described in the grant application and milestone acceptance criteria.
+
+**OP is encouraged to provide more documentation on how to use the SDK, along with sample codes for using critical SDK functions**
+
+In the reviewer's opinion, this submission should PASS with notes.
 
 # Recommendation
 
