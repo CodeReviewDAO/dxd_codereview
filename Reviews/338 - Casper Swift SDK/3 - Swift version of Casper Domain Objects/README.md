@@ -38,7 +38,7 @@ The reviewer was also able to load the whole project into Xcode IDE and successf
 
 ## Overall Impression of usage testing
 
-The reviewer was able to build the project following the instructions given in the README file and using and Xcode IDE.
+The reviewer was able to build the project following the instructions given in the README file and using an Xcode IDE.
 The documentation provides sufficient installation/build instructions.
 
 **However, despite the build being successful, the build console shows a lot of warnings that can indicate  potential problems in the code or in the libraries used by the SDK.
@@ -57,7 +57,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 ## Code
 
 The reviewer was able to verify that all the [CLType primitives](https://casper.network/docs/design/serialization-standard#clvalue) are implemented in the  project.
-The project also contains most of the Casper domain objects and entities implemented in Swift.
+The project also contains most of the Casper domain objects and entities (Deploy, Block, DeployExecutable, Era, Validator etc...) implemented in Swift.
 The reviewer was also able to verify the presence of  byte serialization functions for all CLType primitives and Casper domain objects (related to sending a deploy to the network: Deploy, Block, DeployExecutable etc...).
 
 ## Unit / Automated Testing
@@ -125,7 +125,7 @@ Code is generally well-structured and readable. The project has been committed t
 The project provides the functionality described in the grant application and milestone acceptance criteria.
 The SDK is well-documented and has an acceptable level of tests.
 **The reviewer recommands to fix the warning that appears when building the project.**
-In the reviewers opinion, this submission should pass with notes.
+In the reviewer's opinion, this submission should pass with notes.
 # Recommendation
 
 Recommendation | PASS with notes
