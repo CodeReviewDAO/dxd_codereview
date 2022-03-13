@@ -16,6 +16,7 @@ The review will cover the first milestone criteria set forth below.
 
 - Base project of C++ SDK will be created and published on a GitHub repository.
 - Following methods of the API will be fully implemented and will return when called by the SDK:
+
    * chainGetStateRootHash
    * infoGetPeers
 
@@ -24,6 +25,7 @@ The review will cover the first milestone criteria set forth below.
 - C++ SDK project available on a public GitHub repository
 - It will be possible to connect to a Casper node and retrieve information by using the implemented methods.
 - Following methods of the API fully implemented and will return when called:
+
    * chainGetStateRootHash
    * infoGetPeers
 
@@ -82,10 +84,11 @@ make all
 ## Overall Impression of usage testing
 
 The project has sufficient and well documented instructions to successfully build the source code.
-**However, the reviewer recommends detailing these instructions so that any lamba user  could install and build the project.**
+**However, the reviewer recommends detailing these instructions so that any lamba user could install and build the project.**
 
 Example:
-Instructions showing user how to clone the project are missing:
+
+Instructions on how to clone the project are missing:
 
 ````bash
 git clone https://github.com/yusufketen/casper-cpp-sdk.git
@@ -101,6 +104,7 @@ Documentation provides sufficient installation/execution instructions | PASS
 # Unit / Automated Testing
 
 The project has 2 tests corresponding to the RPC calls implemented in the milestone :
+
 * chainGetStateRootHash
 * infoGetPeers
 
@@ -135,7 +139,7 @@ Unit Tests - At least one negative path test | PASS with Notes
 
 ### Code Documentation
 
-A sufficient amount of low-level documentation exists on the project via properly formatted inline comments on the critical classes and the methods.
+A sufficient amount of low-level documentation exists on the project via properly formatted inline comments on the critical classes and functions.
 
 Requirement | Finding
 ------------ | -------------
@@ -143,9 +147,9 @@ Code Documented | PASS
 
 ### Project Documentation
 
-The project does not provide detailed documentation but README.md has sufficient usage instructions for the the 2 implemented RPC methods.
+The project does not provide detailed documentation but README.md has sufficient usage instructions for the only 2 implemented RPC methods.
 There is one Example folder with codes for doing examples.
-This is acceptable since the project is its beginning.
+This is acceptable since this is the first milestone of the project.
 
 **For next milestones, OP is encouraged to provide more documentation on how to use the SDK, along with sample codes for using critical SDK functions**
 
