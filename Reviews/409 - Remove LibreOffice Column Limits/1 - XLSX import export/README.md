@@ -129,7 +129,7 @@ https://github.com/LibreOffice/core | [9c7f3dd](https://github.com/LibreOffice/c
 
 # Install & Usage Testing Procedure and Findings
 
-There is a guide about the build process of the LibreOffice. However, all of the submission commits are merged into the project. Therefore, the reviewer installed the latest LibreOffice master build. (2022-Mar-15 14:29) The project is tested on MacOS BigSur 11.4 and the installation file name was ["LibreOfficeDev_7.4.0.0.alpha0_MacOS_x86-64.dmg".](https://dev-builds.libreoffice.org/daily/master/MacOSX-x86_64@tb81-TDF/2022-03-15_15.39.42/LibreOfficeDev_7.4.0.0.alpha0_MacOS_x86-64.dmg)
+There is a guide about the build process of LibreOffice. However, all of the submission commits are merged into the project. Therefore, the reviewer installed the latest LibreOffice master build. (2022-Mar-15 14:29) The project is tested on macOS BigSur 11.4 and the installation file name was ["LibreOfficeDev_7.4.0.0.alpha0_MacOS_x86-64.dmg".](https://dev-builds.libreoffice.org/daily/master/MacOSX-x86_64@tb81-TDF/2022-03-15_15.39.42/LibreOfficeDev_7.4.0.0.alpha0_MacOS_x86-64.dmg)
 
 Build Guideline: https://www.libreoffice.org/about-us/source-code/
 
@@ -173,7 +173,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-LibreOffice has a well-defined documentation structure. There is a wiki page for developers, and a wiki page for users. There is no need to have a separate documentation for this submission as it does not contain any new feature.
+LibreOffice has a well-defined documentation structure. There is a wiki page for developers and a wiki page for users. There is no need to have separate documentation for this submission as it does not contain any new features.
 
 LibreOffice TDF Wiki: https://wiki.documentfoundation.org/Main_Page
 
