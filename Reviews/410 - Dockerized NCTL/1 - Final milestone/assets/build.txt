@@ -1,0 +1,168 @@
+python3 -m pytest --image casper-nctl:v144
+/home/killian/.local/lib/python3.9/site-packages/_testinfra_renamed.py:5: DeprecationWarning: testinfra package has been renamed to pytest-testinfra. Please `pip install pytest-testinfra` and `pip uninstall testinfra` and update your package requirements to avoid this message
+  warnings.warn((
+==================================================================================================================================================== test session starts =====================================================================================================================================================
+platform linux -- Python 3.9.7, pytest-7.1.0, pluggy-1.0.0
+rootdir: /home/killian/Documents/casper-nctl-docker
+plugins: testinfra-6.0.0, testinfra-6.6.0
+collected 9 items
+
+test/test_nctl.py .........                                                                                                                                                                                                                                                                                            [100%]
+
+===================================================================================================================================================== 9 passed in 33.82s =====================================================================================================================================================
+docker run --rm -it --name mynctl -p 11101:11101 --env PREDEFINED_ACCOUNTS=true casper-nctl:v144
+2022-03-16T22:00:15.535176 [INFO] [1] NCTL :: asset tear-down begins ... please wait
+2022-03-16T22:00:17.549588 [INFO] [1] NCTL :: asset tear-down complete
+2022-03-16T22:00:17.567107 [INFO] [1] NCTL :: asset setup begins ... please wait
+2022-03-16T22:00:17.568509 [INFO] [1] NCTL :: ... setting directories
+2022-03-16T22:00:17.689935 [INFO] [1] NCTL :: ... setting binaries
+2022-03-16T22:00:18.088372 [INFO] [1] NCTL :: ... setting cryptographic keys
+2022-03-16T22:00:18.187658 [INFO] [1] NCTL :: ... setting daemon config
+2022-03-16T22:00:18.268002 [INFO] [1] NCTL :: ... setting chainspec.toml
+2022-03-16T22:00:18.296050 [INFO] [1] NCTL :: ... setting accounts.toml
+2022-03-16T22:00:18.340807 [INFO] [1] NCTL :: ... setting node configs
+2022-03-16T22:00:18.859422 [INFO] [1] NCTL :: asset setup complete
+./
+./chainspec/
+./chainspec/accounts.toml
+./faucet/
+./faucet/public_key.pem
+./faucet/public_key_hex
+./faucet/secret_key.pem
+./nodes/
+./nodes/node-1/
+./nodes/node-1/config/
+./nodes/node-1/config/1_0_0/
+./nodes/node-1/config/1_0_0/accounts.toml
+./nodes/node-1/keys/
+./nodes/node-1/keys/public_key.pem
+./nodes/node-1/keys/public_key_hex
+./nodes/node-1/keys/secret_key.pem
+./nodes/node-10/
+./nodes/node-10/config/
+./nodes/node-10/config/1_0_0/
+./nodes/node-10/config/1_0_0/accounts.toml
+./nodes/node-10/keys/
+./nodes/node-10/keys/public_key.pem
+./nodes/node-10/keys/public_key_hex
+./nodes/node-10/keys/secret_key.pem
+./nodes/node-2/
+./nodes/node-2/config/
+./nodes/node-2/config/1_0_0/
+./nodes/node-2/config/1_0_0/accounts.toml
+./nodes/node-2/keys/
+./nodes/node-2/keys/public_key.pem
+./nodes/node-2/keys/public_key_hex
+./nodes/node-2/keys/secret_key.pem
+./nodes/node-3/
+./nodes/node-3/config/
+./nodes/node-3/config/1_0_0/
+./nodes/node-3/config/1_0_0/accounts.toml
+./nodes/node-3/keys/
+./nodes/node-3/keys/public_key.pem
+./nodes/node-3/keys/public_key_hex
+./nodes/node-3/keys/secret_key.pem
+./nodes/node-4/
+./nodes/node-4/config/
+./nodes/node-4/config/1_0_0/
+./nodes/node-4/config/1_0_0/accounts.toml
+./nodes/node-4/keys/
+./nodes/node-4/keys/public_key.pem
+./nodes/node-4/keys/public_key_hex
+./nodes/node-4/keys/secret_key.pem
+./nodes/node-5/
+./nodes/node-5/config/
+./nodes/node-5/config/1_0_0/
+./nodes/node-5/config/1_0_0/accounts.toml
+./nodes/node-5/keys/
+./nodes/node-5/keys/public_key.pem
+./nodes/node-5/keys/public_key_hex
+./nodes/node-5/keys/secret_key.pem
+./nodes/node-6/
+./nodes/node-6/config/
+./nodes/node-6/config/1_0_0/
+./nodes/node-6/config/1_0_0/accounts.toml
+./nodes/node-6/keys/
+./nodes/node-6/keys/public_key.pem
+./nodes/node-6/keys/public_key_hex
+./nodes/node-6/keys/secret_key.pem
+./nodes/node-7/
+./nodes/node-7/config/
+./nodes/node-7/config/1_0_0/
+./nodes/node-7/config/1_0_0/accounts.toml
+./nodes/node-7/keys/
+./nodes/node-7/keys/public_key.pem
+./nodes/node-7/keys/public_key_hex
+./nodes/node-7/keys/secret_key.pem
+./nodes/node-8/
+./nodes/node-8/config/
+./nodes/node-8/config/1_0_0/
+./nodes/node-8/config/1_0_0/accounts.toml
+./nodes/node-8/keys/
+./nodes/node-8/keys/public_key.pem
+./nodes/node-8/keys/public_key_hex
+./nodes/node-8/keys/secret_key.pem
+./nodes/node-9/
+./nodes/node-9/config/
+./nodes/node-9/config/1_0_0/
+./nodes/node-9/config/1_0_0/accounts.toml
+./nodes/node-9/keys/
+./nodes/node-9/keys/public_key.pem
+./nodes/node-9/keys/public_key_hex
+./nodes/node-9/keys/secret_key.pem
+./users/
+./users/user-1/
+./users/user-1/public_key.pem
+./users/user-1/public_key_hex
+./users/user-1/secret_key.pem
+./users/user-10/
+./users/user-10/public_key.pem
+./users/user-10/public_key_hex
+./users/user-10/secret_key.pem
+./users/user-2/
+./users/user-2/public_key.pem
+./users/user-2/public_key_hex
+./users/user-2/secret_key.pem
+./users/user-3/
+./users/user-3/public_key.pem
+./users/user-3/public_key_hex
+./users/user-3/secret_key.pem
+./users/user-4/
+./users/user-4/public_key.pem
+./users/user-4/public_key_hex
+./users/user-4/secret_key.pem
+./users/user-5/
+./users/user-5/public_key.pem
+./users/user-5/public_key_hex
+./users/user-5/secret_key.pem
+./users/user-6/
+./users/user-6/public_key.pem
+./users/user-6/public_key_hex
+./users/user-6/secret_key.pem
+./users/user-7/
+./users/user-7/public_key.pem
+./users/user-7/public_key_hex
+./users/user-7/secret_key.pem
+./users/user-8/
+./users/user-8/public_key.pem
+./users/user-8/public_key_hex
+./users/user-8/secret_key.pem
+./users/user-9/
+./users/user-9/public_key.pem
+./users/user-9/public_key_hex
+./users/user-9/secret_key.pem
+2022-03-16T22:00:18.878421 [INFO] [1] NCTL :: starting node(s) begins ... please wait
+2022-03-16T22:00:18.882604 [INFO] [1] NCTL :: ... starting supervisord
+2022-03-16T22:00:21.028721 [INFO] [1] NCTL :: ... starting nodes: genesis bootstraps
+2022-03-16T22:00:22.181082 [INFO] [1] NCTL :: ... starting nodes: genesis non-bootstraps
+2022-03-16T22:00:23.325214 [INFO] [1] NCTL :: starting node(s) complete
+validators-1:casper-net-1-node-1    RUNNING   pid 1355, uptime 0:00:03
+validators-1:casper-net-1-node-2    RUNNING   pid 1356, uptime 0:00:03
+validators-1:casper-net-1-node-3    RUNNING   pid 1357, uptime 0:00:03
+validators-2:casper-net-1-node-4    RUNNING   pid 1468, uptime 0:00:02
+validators-2:casper-net-1-node-5    RUNNING   pid 1469, uptime 0:00:02
+validators-3:casper-net-1-node-10   STOPPED   Not started
+validators-3:casper-net-1-node-6    STOPPED   Not started
+validators-3:casper-net-1-node-7    STOPPED   Not started
+validators-3:casper-net-1-node-8    STOPPED   Not started
+validators-3:casper-net-1-node-9    STOPPED   Not started

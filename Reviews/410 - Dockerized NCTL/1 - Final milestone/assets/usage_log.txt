@@ -1,0 +1,406 @@
+❯ git clone https://github.com/make-software/casper-nctl-docker.git
+Clonage dans 'casper-nctl-docker'...
+remote: Enumerating objects: 150, done.
+remote: Counting objects: 100% (150/150), done.
+remote: Compressing objects: 100% (114/114), done.
+remote: Total 150 (delta 68), reused 82 (delta 32), pack-reused 0
+Réception d'objets: 100% (150/150), 56.82 Kio | 2.84 Mio/s, fait.
+Résolution des deltas: 100% (68/68), fait.
+❯ cd casper-nctl-docker
+❯ docker run --rm -it --name mynctl -d -p 11101:11101 -p 14101:14101 -p 18101:18101 makesoftware/casper-nctl
+Unable to find image 'makesoftware/casper-nctl:latest' locally
+latest: Pulling from makesoftware/casper-nctl
+08c01a0ec47e: Pull complete
+b25a0d084e6c: Pull complete
+8a8b8c037d14: Pull complete
+3e4ad4f1a5f6: Pull complete
+4f4fb700ef54: Pull complete
+63769906b684: Pull complete
+4d4354bdcee9: Pull complete
+7b9a538e3db9: Pull complete
+282a27f7e8a5: Pull complete
+cd3342f6c0ba: Pull complete
+ca0f8fe31cc0: Pull complete
+8b5d6530e04c: Pull complete
+Digest: sha256:87fc1759c9a7239594b9ea574d048f92925919a8a0fc168b5e230e75aa8b892c
+Status: Downloaded newer image for makesoftware/casper-nctl:latest
+62b5c9124889dab543d3a310236773ef14c85c471875d61eacff4c6c0131a3e5
+❯ docker logs mynctl
+2022-03-16T17:51:59.746476 [INFO] [1] NCTL :: asset tear-down begins ... please wait
+2022-03-16T17:52:01.756609 [INFO] [1] NCTL :: asset tear-down complete
+2022-03-16T17:52:01.773610 [INFO] [1] NCTL :: asset setup begins ... please wait
+2022-03-16T17:52:01.774468 [INFO] [1] NCTL :: ... setting directories
+2022-03-16T17:52:01.890082 [INFO] [1] NCTL :: ... setting binaries
+2022-03-16T17:52:02.281242 [INFO] [1] NCTL :: ... setting cryptographic keys
+2022-03-16T17:52:02.376531 [INFO] [1] NCTL :: ... setting daemon config
+2022-03-16T17:52:02.445917 [INFO] [1] NCTL :: ... setting chainspec.toml
+2022-03-16T17:52:02.472877 [INFO] [1] NCTL :: ... setting accounts.toml
+2022-03-16T17:52:02.511071 [INFO] [1] NCTL :: ... setting node configs
+2022-03-16T17:52:02.966773 [INFO] [1] NCTL :: asset setup complete
+2022-03-16T17:52:02.970960 [INFO] [1] NCTL :: starting node(s) begins ... please wait
+2022-03-16T17:52:02.974026 [INFO] [1] NCTL :: ... starting supervisord
+2022-03-16T17:52:05.123735 [INFO] [1] NCTL :: ... starting nodes: genesis bootstraps
+2022-03-16T17:52:06.269178 [INFO] [1] NCTL :: ... starting nodes: genesis non-bootstraps
+2022-03-16T17:52:07.388757 [INFO] [1] NCTL :: starting node(s) complete
+
+### Docker working & nodes started
+
+❯ source nctl-activate.sh mynctl
+❯ nctl-view-faucet-secret-key
+//private key
+❯ nctl-view-node-secret-key node=1
+//private key
+❯ nctl-view-user-secret-key user=3
+//private key
+❯ nctl-status
+validators-1:casper-net-1-node-1    RUNNING   pid 1353, uptime 0:02:50
+validators-1:casper-net-1-node-2    RUNNING   pid 1354, uptime 0:02:50
+validators-1:casper-net-1-node-3    RUNNING   pid 1355, uptime 0:02:50
+validators-2:casper-net-1-node-4    RUNNING   pid 1466, uptime 0:02:49
+validators-2:casper-net-1-node-5    RUNNING   pid 1467, uptime 0:02:49
+validators-3:casper-net-1-node-10   STOPPED   Not started
+validators-3:casper-net-1-node-6    STOPPED   Not started
+validators-3:casper-net-1-node-7    STOPPED   Not started
+validators-3:casper-net-1-node-8    STOPPED   Not started
+validators-3:casper-net-1-node-9    STOPPED   Not started
+
+### Network setup with a 5 node configuration like stated in the readme. The default nctl config come with 5 additional nodes
+
+❯ docker stop mynctl
+mynctl
+❯ docker run --rm -it --name mynctl -d -p 11101:11101 --env PREDEFINED_ACCOUNTS=true makesoftware/casper-nctl
+2873060b11f1bd3ffda40f54b7cd7e4be20fab6688ec88d6f22068f148ceabc5
+❯ nctl-view-node-secret-key node=1
+//private key
+❯ nctl-view-user-secret-key user=3
+//private key
+❯ nctl-view-faucet-secret-key
+//private key
+❯ docker restart mynctl
+mynctl
+❯ nctl-view-node-secret-key node=1
+//private key
+❯ nctl-view-user-secret-key user=3
+//private key
+❯ nctl-view-faucet-secret-key
+//private key
+
+### Predefined accounts working
+
+❯ docker exec -it mynctl bash
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+casper@2873060b11f1:~$ casper-client --help
+Casper client 1.4.3
+A client for interacting with the Casper network
+
+USAGE:
+    casper-client [SUBCOMMAND]
+
+FLAGS:
+    -h, --help
+            Prints help information
+
+    -V, --version
+            Prints version information
+
+
+SUBCOMMANDS:
+    put-deploy                      Creates a deploy and sends it to the network for execution
+    make-deploy                     Creates a deploy and outputs it to a file or stdout. As a file, the deploy can
+                                    subsequently be signed by other parties using the 'sign-deploy' subcommand and
+                                    then sent to the network for execution using the 'send-deploy' subcommand
+    sign-deploy                     Reads a previously-saved deploy from a file, cryptographically signs it, and
+                                    outputs it to a file or stdout
+    send-deploy                     Reads a previously-saved deploy from a file and sends it to the network for
+                                    execution
+    transfer                        Transfers funds between purses
+    make-transfer                   Creates a transfer deploy and outputs it to a file or stdout. As a file, the
+                                    deploy can subsequently be signed by other parties using the 'sign-deploy'
+                                    subcommand and then sent to the network for execution using the 'send-deploy'
+                                    subcommand
+    get-deploy                      Retrieves a deploy from the network
+    get-block                       Retrieves a block from the network
+    get-block-transfers             Retrieves all transfers for a block from the network
+    list-deploys                    Retrieves the list of all deploy hashes in a given block
+    get-state-root-hash             Retrieves a state root hash at a given block
+    query-global-state              Retrieves a stored value from the network using either the state root hash or
+                                    block hash
+    get-dictionary-item             Query for values managed in a dictionary
+    get-balance                     Retrieves a purse's balance from the network
+    get-account-info                Retrieve account information from the network
+    get-era-info-by-switch-block    Retrieves era information from the network
+    get-auction-info                Returns the bids and validators as of either a specific block (by height or
+                                    hash), or the most recently added block
+    get-validator-changes           Retrieves status changes of active validators
+    keygen                          Generates account key files in the given directory
+    generate-completion             Generates a shell completion script
+    list-rpcs                       List all currently supported RPCs
+    account-address                 Generates an account hash from a given public key
+    help                            Prints this message or the help of the given subcommand(s)
+casper@2873060b11f1:~$ casper-client get-auction-info
+Failed to get RPC response: error sending request for url (http://localhost:7777/rpc): error trying to connect: tcp connect error: Cannot assign requested address (os error 99)
+casper@2873060b11f1:~$ nctl-view-node-config
+casper@2873060b11f1:~$ casper-client get-auction-info --help
+casper-client-get-auction-info
+Returns the bids and validators as of either a specific block (by height or hash), or the most recently added block
+
+USAGE:
+    casper-client get-auction-info [FLAGS] [OPTIONS] --node-address <HOST:PORT>
+
+FLAGS:
+    -v               Generates verbose output, e.g. prints the RPC request.  If repeated by using '-vv' then all output
+                     will be extra verbose, meaning that large JSON strings will be shown in full
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -n, --node-address <HOST:PORT>
+            Hostname or IP and port of node on which HTTP service is running [default: http://localhost:7777]
+
+        --id <STRING OR INTEGER>
+            JSON-RPC identifier, applied to the request and returned in the response. If not provided, a random integer
+            will be assigned
+    -b, --block-identifier <HEX STRING OR INTEGER>
+            Hex-encoded block hash or height of the block. If not given, the last block added to the chain as known at
+            the given node will be used
+casper@2873060b11f1:~$ casper-client get-auction-info --node-address localhost:11101
+Failed to get RPC response: builder error for url (localhost:11101/rpc): URL scheme is not allowed
+casper@2873060b11f1:~$ casper-client get-auction-info --node-address http://localhost:11101
+{
+  "id": 1723513139659655591,
+  "jsonrpc": "2.0",
+  "result": {
+    "api_version": "1.0.0",
+    "auction_state": {
+      "bids": [
+        {
+          "bid": {
+            "bonding_purse": "uref-05ec7f5ca232702b9dc429dc5fcc1a985d6ecadbfbf4a933a554d189d3036c94-007",
+            "delegation_rate": 1,
+            "delegators": [
+              {
+                "bonding_purse": "uref-aac21b83caf05cd960dd5a646e99f20be6fc002d914ec23c7e38bf00f9ae3b4d-007",
+                "delegatee": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+                "public_key": "018b46617b2b97e633b36530f2964b3f4c15916235910a2737e83d4fa2c7fad542",
+                "staked_amount": "478473232417710542755974440"
+              }
+            ],
+            "inactive": false,
+            "staked_amount": "493754513997985624845357884"
+          },
+          "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6"
+        },
+        {
+          "bid": {
+            "bonding_purse": "uref-0f62081e945418bc6ac6bd6107d2f4dcbb4fc4b054078e77f751c8bacd3ef15e-007",
+            "delegation_rate": 1,
+            "delegators": [
+              {
+                "bonding_purse": "uref-e9cd57a72d4e23e3d6ff2b80d2142a9a765876fead787d9e22c4d7e140ad1035-007",
+                "delegatee": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+                "public_key": "0197b79d1a1351f8fb922b9f7f556d2bbfdba5105df9eaa6caa07804c703a641ed",
+                "staked_amount": "478473232417710542755974440"
+              }
+            ],
+            "inactive": false,
+            "staked_amount": "493754513997985624845357884"
+          },
+          "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab"
+        },
+        {
+          "bid": {
+            "bonding_purse": "uref-0afb78f3327880255675b7f49fd4af992f15c247b3910ad640b9732adb6c1f84-007",
+            "delegation_rate": 1,
+            "delegators": [
+              {
+                "bonding_purse": "uref-c20532c6d64dd904bb78886fd53830bbace6fa55ed3742d5e4120fad3e595c8e-007",
+                "delegatee": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+                "public_key": "01a5a5b7328118681638be3e06c8749609280dba4c9daf9aeb3d3464b8839b018a",
+                "staked_amount": "478473232417710542755974440"
+              }
+            ],
+            "inactive": false,
+            "staked_amount": "493754513997985624845357884"
+          },
+          "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba"
+        },
+        {
+          "bid": {
+            "bonding_purse": "uref-d94419cb77195fb40c2f43fe0e559d2a7b09c249ec0101b9a9f3d47818edda04-007",
+            "delegation_rate": 1,
+            "delegators": [
+              {
+                "bonding_purse": "uref-6e3d4c0d32ae71c30f88e9a38d8bdcd24d202996bbf2eb758fae55593e5d43fc-007",
+                "delegatee": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+                "public_key": "0106ed45915392c02b37136618372ac8dde8e0e3b8ee6190b2ca6db539b354ede4",
+                "staked_amount": "478473232417710542755974440"
+              }
+            ],
+            "inactive": false,
+            "staked_amount": "493754513997985624845357884"
+          },
+          "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6"
+        },
+        {
+          "bid": {
+            "bonding_purse": "uref-d18f8d208b14abdb1243e87f6d5c2d0427f11ae55e066a558af01efb917bfcf9-007",
+            "delegation_rate": 1,
+            "delegators": [
+              {
+                "bonding_purse": "uref-12ceaddcd1b7dfa86c55811ac40c40d820e6b2cf74425b2bece69404c9de1a00-007",
+                "delegatee": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+                "public_key": "0184f6d260f4ee6869ddb36affe15456de6ae045278fa2f467bb677561ce0dad55",
+                "staked_amount": "478473232417710542755974440"
+              }
+            ],
+            "inactive": false,
+            "staked_amount": "493754513997985624845357884"
+          },
+          "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b"
+        }
+      ],
+      "block_height": 103,
+      "era_validators": [
+        {
+          "era_id": 9,
+          "validator_weights": [
+            {
+              "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+              "weight": "648151805938466925211463312"
+            },
+            {
+              "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+              "weight": "648151805938466925211463312"
+            },
+            {
+              "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+              "weight": "648151805938466925211463312"
+            },
+            {
+              "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+              "weight": "648151805938466925211463312"
+            },
+            {
+              "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+              "weight": "648151805938466925211463312"
+            }
+          ]
+        },
+        {
+          "era_id": 10,
+          "validator_weights": [
+            {
+              "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+              "weight": "756177116652432374093199664"
+            },
+            {
+              "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+              "weight": "756177116652432374093199664"
+            },
+            {
+              "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+              "weight": "756177116652432374093199664"
+            },
+            {
+              "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+              "weight": "756177116652432374093199664"
+            },
+            {
+              "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+              "weight": "756177116652432374093199664"
+            }
+          ]
+        },
+        {
+          "era_id": 11,
+          "validator_weights": [
+            {
+              "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+              "weight": "864202430144842097735675068"
+            },
+            {
+              "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+              "weight": "864202430144842097735675068"
+            },
+            {
+              "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+              "weight": "864202430144842097735675068"
+            },
+            {
+              "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+              "weight": "864202430144842097735675068"
+            },
+            {
+              "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+              "weight": "864202430144842097735675068"
+            }
+          ]
+        },
+        {
+          "era_id": 12,
+          "validator_weights": [
+            {
+              "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+              "weight": "972227746415696167601332324"
+            },
+            {
+              "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+              "weight": "972227746415696167601332324"
+            },
+            {
+              "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+              "weight": "972227746415696167601332324"
+            },
+            {
+              "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+              "weight": "972227746415696167601332324"
+            },
+            {
+              "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+              "weight": "972227746415696167601332324"
+            }
+          ]
+        }
+      ],
+      "state_root_hash": "40c8ef042fedf5285a66cccfe41e79887bfce39a9ed89d3dc98bad4bf7dc5b9b"
+    }
+  }
+}
+
+### casper-client / nctl commands working inside the container
+
+❯ docker-compose --profile cors-anywhere up
+cors-anywhere is up-to-date
+Creating mynctl ... done
+Attaching to cors-anywhere, mynctl
+cors-anywhere    | Running CORS Anywhere on 0.0.0.0:11100
+mynctl           | 2022-03-16T18:16:35.586578 [INFO] [1] NCTL :: asset tear-down begins ... please wait
+mynctl           | 2022-03-16T18:16:37.600352 [INFO] [1] NCTL :: asset tear-down complete
+mynctl           | 2022-03-16T18:16:37.617036 [INFO] [1] NCTL :: asset setup begins ... please wait
+mynctl           | 2022-03-16T18:16:37.618220 [INFO] [1] NCTL :: ... setting directories
+mynctl           | 2022-03-16T18:16:37.729997 [INFO] [1] NCTL :: ... setting binaries
+mynctl           | 2022-03-16T18:16:38.098259 [INFO] [1] NCTL :: ... setting cryptographic keys
+mynctl           | 2022-03-16T18:16:38.191700 [INFO] [1] NCTL :: ... setting daemon config
+mynctl           | 2022-03-16T18:16:38.260697 [INFO] [1] NCTL :: ... setting chainspec.toml
+mynctl           | 2022-03-16T18:16:38.287362 [INFO] [1] NCTL :: ... setting accounts.toml
+mynctl           | 2022-03-16T18:16:38.326640 [INFO] [1] NCTL :: ... setting node configs
+mynctl           | 2022-03-16T18:16:38.769231 [INFO] [1] NCTL :: asset setup complete
+mynctl           | 2022-03-16T18:16:38.775914 [INFO] [1] NCTL :: starting node(s) begins ... please wait
+mynctl           | 2022-03-16T18:16:38.779322 [INFO] [1] NCTL :: ... starting supervisord
+mynctl           | 2022-03-16T18:16:40.915724 [INFO] [1] NCTL :: ... starting nodes: genesis bootstraps
+mynctl           | 2022-03-16T18:16:42.039420 [INFO] [1] NCTL :: ... starting nodes: genesis non-bootstraps
+mynctl           | 2022-03-16T18:16:43.189614 [INFO] [1] NCTL :: starting node(s) complete
+mynctl           | validators-1:casper-net-1-node-1    RUNNING   pid 1353, uptime 0:00:03
+mynctl           | validators-1:casper-net-1-node-2    RUNNING   pid 1354, uptime 0:00:03
+mynctl           | validators-1:casper-net-1-node-3    RUNNING   pid 1355, uptime 0:00:03
+mynctl           | validators-2:casper-net-1-node-4    RUNNING   pid 1466, uptime 0:00:02
+mynctl           | validators-2:casper-net-1-node-5    RUNNING   pid 1467, uptime 0:00:02
+mynctl           | validators-3:casper-net-1-node-10   STOPPED   Not started
+mynctl           | validators-3:casper-net-1-node-6    STOPPED   Not started
+mynctl           | validators-3:casper-net-1-node-7    STOPPED   Not started
+mynctl           | validators-3:casper-net-1-node-8    STOPPED   Not started
+mynctl           | validators-3:casper-net-1-node-9    STOPPED   Not started
+
+### docker compose & cors anywhere working as expected. Tested with casperholders locally
