@@ -187,7 +187,7 @@ Based on the reviewer's findings, this review should pass.
 
 ## Licenses
 
-The base repository is correctly released under the GNU GPL License.
+The base repository is correctly released under the MPL-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
