@@ -14,8 +14,6 @@ The review will cover the 1st milestone criteria set forth below.
 
 Remove the 1024 columns limit in Calc and make it dynamic: up to the  XLSX import/export.
 
-An advance payment of 20000 EUR will be needed for this milestone to block the time of the developers, who are experts in the field, for the entire grant and kick-start the development.
-
 **Acceptance criteria:**
 
 XLSX import/export feature will be verifiable by following the steps below:
@@ -173,7 +171,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-LibreOffice has a well-defined documentation structure. There is a wiki page for developers and a wiki page for users. There is no need to have separate documentation for this submission as it does not contain any new features.
+LibreOffice has a well-defined documentation structure. There is a wiki page for developers and a wiki page for users.
 
 LibreOffice TDF Wiki: https://wiki.documentfoundation.org/Main_Page
 
