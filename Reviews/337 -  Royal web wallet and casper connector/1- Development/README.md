@@ -200,26 +200,61 @@ The reviewer tried to run the test scenario given in the README file :
 
 1- Connect Metamask
 
-The reviewer was able to connect to the testnet ETH network (Rinkeby) via Metamask. However, the information on the available balance is not correct.
+The reviewer was able to connect to the testnet ETH network (Rinkeby) via Metamask.
 
-![metamask testnet](assets/metamask_testnet.png "metamask")
+* Set the ETH network to Rinkeby
+![metamask testnet](assets/metamask_testnet_1.png "metamask_1")
 
+* Connect wallet using metamask
+![metamask testnet](assets/metamask_testnet_1.png "metamask_2")
+
+The informations about the current connected test ETH wallet and on the available balance seem to be wrong.
+The reviewer thinks that connecting to ETH networks via metamask  does not work properly on the application.
+But he cannot confirm that since there is no errors indicating it on the web console.
+The page shows an error message (Can't load ethereum contract. Please check configuration).This error is most likely due to the missing variables we could not set above.
+
+**The OP is strongly recommended to give a more detailled step-by-step guide on how to use the application**
 
 2- Connect Casper Signer
 
-The reviewer was unable to connect to the Casper testnet via CasperSigner.
-An error is thrown in the console (Chrome) when the link 'Connect Casper Signer' is hit.
+The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet is shown on the page. 
+But an error keeps  throwing on the web console (Chrome) .
+
+```console
+Access to fetch at 'http://138.201.54.44:7777/rpc' from origin 'http://localhost:3000' 
+has been blocked by CORS policy: Response to preflight request doesn't pass access control 
+check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the 
+resource with CORS disabled.
+```
+
 
 ![Casper testnet](assets/casper_signer.png "metamask")
 
-The reviewer stopped at this point because the following test cases of the scenario test depend on it.
+3. Grab ETH Faucet (for testnet) 
+
+The reviewer could not use his own testnet ETH wallet  on the Rinkeby network.
+  
+4. Grab CSPR Faucet (for testent)
+   
+The reviewer used Casper Testnet Faucet to claim 1000 test cspr
+
+5. Enter amount = 1
+
+6. Push Exchange
+
+Hitting the Exchange button shown an error : **ethContractError**
+
 
 
 ## Overall Impression of usage testing
 
 The reviewer was able to build and run the application. 
 **However, the build instructions are not very clear and some important informations are missing, especially on the use of configuration variables and how to define them in the project.**
-**It is also not possible to run the whole test scenario provided in the README file. Connecting to the Casper testnet via the Casper signer plugin fails and throws an error.**
+**It is also not possible to successfully run the whole test scenario provided in the README file.
+The reviewer managed to connect his metamask and  casper signer  wallets, but the ETH address displayed and the balance of the ETH wallet do not seem to match.
+Also , the web console shows continuous errors after connecting to the casper signer wallet**
+
 
 
 Requirement | Finding
