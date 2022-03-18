@@ -1,7 +1,7 @@
 Grant Proposal | [341 - Casper Ruby SDK](https://portal.devxdao.com/public-proposals/341)
 ------------ | -------------
 Milestone | 2
-Milestone Title | BETA
+Milestone Title | Beta
 OP | sgulmez
 Reviewer | M Chad ABAHMAN
 
