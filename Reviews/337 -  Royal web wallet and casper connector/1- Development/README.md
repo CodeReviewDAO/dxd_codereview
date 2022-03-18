@@ -2,7 +2,7 @@
 Grant Proposal | [337 - 1 - Royal web wallet and casper connector](https://portal.devxdao.com/public-proposals/337)
 ------------ | -------------
 Milestone | 1
-Milestone Title | Royal web wallet and casper connector
+Milestone Title | Development
 OP | web3crypto
 Reviewer | M. Chad ABAHMANE
 
@@ -11,6 +11,7 @@ Reviewer | M. Chad ABAHMANE
 Development - Submission 1
 
 **Details of what will be delivered in milestone:**
+
 Fully functional webpage, including:
 - Login with metamask
 - Login with Casper Signer
@@ -57,7 +58,7 @@ const RFBTC_CONTRACT_HASH = '<contract_address>' // eth contract address for rfb
 
 The reviewer spent time looking for a configuration file that could host these variables but was unsuccessful in finding a legitimate candidate file.
 
-The OP mentions a few libraries as prerequisites to building the project:
+The OP cites a few libraries as prerequisites to building the project:
 
 ```bash
 node
@@ -74,7 +75,7 @@ yarn-1.22.18-1
 
 Following the instructions in the README file, the reviewer was able to :
 
-* Install the project  :
+* Install the project on a Rocky Linux virtual server :
 
 ```bash
 [reviewer@rocky8-mae-vm Draw-Bridge]$ sudo yarn install
@@ -117,7 +118,7 @@ husky - Git hooks installed
 Done in 89.42s.
 ```
 
-* Starts a JSON-RPC endpoint on localhost : 
+* Start a JSON-RPC endpoint on localhost : 
 
 ```bash
 [reviewer@rocky8-mae-vm Draw-Bridge] sudo yarn chain
@@ -178,7 +179,7 @@ https://github.com/browserslist/browserslist#browsers-data-updating
 
 * Connect to the frontend:
 
-The reviewer was able to run and connect to the frontend 
+The reviewer was able to connect to the frontend 
 
 ![frontend](assets/front_end_1.png "frontend")
 
@@ -217,6 +218,7 @@ The page shows an error message (Can't load ethereum contract. Please check conf
 
 2- Connect Casper Signer
 
+<<<<<<< HEAD
 The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet is shown on the page. 
 But an error keeps  throwing on the web console (Chrome) .
 
@@ -228,6 +230,10 @@ If an opaque response serves your needs, set the request's mode to 'no-cors' to 
 resource with CORS disabled.
 ```
 
+=======
+The reviewer was unable to connect to the Casper testnet via Chrome CasperSigner extension.
+An error is thrown in the web console (Chrome) when the link 'Connect Casper Signer' is hit.
+>>>>>>> 7422a31e095f83ae58377e0757dfafb7c321dfb4
 
 ![Casper testnet](assets/casper_signer.png "metamask")
 
@@ -269,7 +275,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The reviewer was not able to run the test scenario provided in the README file.
 There are no documentation on unit or automated tests.
-However, the reviewer run the command "yarn test" to see if there are somes tests. 
+However, the reviewer run the command "yarn test" to see if there are somes tests:
 
 ```bash
 
@@ -334,9 +340,9 @@ Code Documented | PASS with note
  There is a lack of documentation at several levels :
 - There is no detailed documentation describing the project, its purpose and its main features
 - It's hard to understand and to use the "configure variables" part in the README file
-- There is no documentation on unit tests and  how to run them
+- There is no documentation on unit tests and on how to run them
 - There is no documentation on the errors that can occur while running and testing the application and how to troubleshoot them.
-- There is  no step-by-step usage documentation on the webapp : how it works, what is a Supervisor, etc.
+- There is  no step-by-step usage documentation on the application : how it works, what is a Supervisor, etc.
 
 Requirement | Finding
 ------------ | -------------
