@@ -2,7 +2,7 @@
 Grant Proposal | [337 - 1 - Royal web wallet and casper connector](https://portal.devxdao.com/public-proposals/337)
 ------------ | -------------
 Milestone | 1
-Milestone Title | Royal web wallet and casper connector
+Milestone Title | Development
 OP | web3crypto
 Reviewer | M. Chad ABAHMANE
 
@@ -117,7 +117,7 @@ husky - Git hooks installed
 Done in 89.42s.
 ```
 
-* Starts a JSON-RPC endpoint on localhost : 
+* Start a JSON-RPC endpoint on localhost : 
 
 ```bash
 [reviewer@rocky8-mae-vm Draw-Bridge] sudo yarn chain
@@ -178,7 +178,7 @@ https://github.com/browserslist/browserslist#browsers-data-updating
 
 * Connect to the frontend:
 
-The reviewer was able to run and connect to the frontend 
+The reviewer was able to connect to the frontend 
 
 ![frontend](assets/front_end.png "frontend")
 
@@ -219,7 +219,7 @@ The page shows an error message (Can't load ethereum contract. Please check conf
 
 2- Connect Casper Signer
 
-The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet is shown on the page. 
+The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet was shown on the page. 
 But an error keeps  throwing on the web console (Chrome) .
 
 ```console
@@ -235,7 +235,7 @@ resource with CORS disabled.
 
 3. Grab ETH Faucet (for testnet) 
 
-The reviewer could not use his own testnet ETH wallet  on the Rinkeby network.
+The reviewer could not use his own testnet ETH wallet  on the Rinkeby ETH test network.
   
 4. Grab CSPR Faucet (for testent)
    
@@ -252,7 +252,7 @@ Hitting the Exchange button throws an error on the page : **ethContractError**
 ## Overall Impression of usage testing
 
 The reviewer was able to build and run the application. 
-**However, the build instructions are not very clear and some important informations are missing, especially on the use of configuration variables and how to define them in the project.**
+**However, the build instructions are not very clear and some important informations are missing, especially on the use of configuration variables and how to set them in the project.**
 **It is also not possible to successfully run the whole test scenario provided in the README file.
 The reviewer managed to connect his metamask and  casper signer  wallets, but the ETH address displayed and the balance of the ETH wallet do not seem to match.
 Also , the web console shows continuous errors after connecting to the casper signer wallet**
@@ -269,7 +269,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 ## Code
 
-The reviewer was not able to run the test scenario provided in the README file.
+The reviewer was not able to successfully run the test scenario provided in the README file.
 There are no documentation on unit or automated tests.
 However, the reviewer run the command "yarn test" to see if there are somes tests. 
 
