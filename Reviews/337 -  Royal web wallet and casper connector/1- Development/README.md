@@ -2,7 +2,7 @@
 Grant Proposal | [337 - 1 - Royal web wallet and casper connector](https://portal.devxdao.com/public-proposals/337)
 ------------ | -------------
 Milestone | 1
-Milestone Title | Royal web wallet and casper connector
+Milestone Title | Development
 OP | web3crypto
 Reviewer | M. Chad ABAHMANE
 
