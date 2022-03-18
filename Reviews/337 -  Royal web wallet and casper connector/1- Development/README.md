@@ -231,7 +231,7 @@ resource with CORS disabled.
 ```
 
 
-![Casper testnet](assets/casper_signer.png "metamask")
+![Casper testnet](assets/casper_testnet.png "metamask")
 
 3. Grab ETH Faucet (for testnet) 
 
