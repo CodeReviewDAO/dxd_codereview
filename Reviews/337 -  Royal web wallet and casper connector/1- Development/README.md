@@ -211,7 +211,7 @@ The reviewer was able to connect to the testnet ETH network (Rinkeby) via Metama
 ![metamask testnet](assets/metamask_testnet_3.png "metamask_2")
 
 The informations about the current connected test ETH wallet and  the available test ETH balance seem to be wrong.
-The reviewer thinks that connecting to ETH networks via metamask  does not work properly on the application.
+The reviewer thinks that connecting to ETH networks via metamask  does not work properly in the application.
 But he cannot confirm that since there are no errors indicating it on the web console.
 The page shows an error message (Can't load ethereum contract. Please check configuration).This error is most likely due to the missing variables we could not set above.
 
@@ -220,7 +220,8 @@ The page shows an error message (Can't load ethereum contract. Please check conf
 2- Connect Casper Signer
 
 The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet was shown on the page. 
-But an error keeps  throwing on the web console (Chrome) .
+The balance of the connected account (1000 test cspr) was not displayed on the page 
+and an error keeps  being thrown in the web console (Chrome) .
 
 ```console
 Access to fetch at 'http://138.201.54.44:7777/rpc' from origin 'http://localhost:3000' 
