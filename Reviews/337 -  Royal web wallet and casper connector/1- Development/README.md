@@ -220,8 +220,8 @@ The page shows an error message (Can't load ethereum contract. Please check conf
 2- Connect Casper Signer
 
 The reviewer was able to connect to the Casper testnet via CasperSigner. The public key of Caper signer wallet was shown on the page. 
-The balance of the connected account (1000 test cspr) was not displayed on the page 
-and an error keeps  being thrown in the web console (Chrome) .
+**The balance of the connected account (1000 test cspr) was not displayed on the page 
+and an error keeps  being thrown in the web console (Chrome).**
 
 ```console
 Access to fetch at 'http://138.201.54.44:7777/rpc' from origin 'http://localhost:3000' 
