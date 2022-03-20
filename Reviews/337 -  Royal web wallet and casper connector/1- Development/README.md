@@ -314,9 +314,9 @@ The project contains only 2 unit tests. These tests run successfully. There are 
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | Pass with Notes
-Unit Tests - At least one negative path test | Fail
-Unit Tests - Additional path tests | Fail
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | FAIL
+Unit Tests - Additional path tests | FAIL
 
 # Documentation
 
@@ -343,8 +343,8 @@ Code Documented | PASS with Notes
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | Fail
-Example Documented | Fail
+Usage Documented | FAIL
+Example Documented | FAIL
 
 
 ## Overall Conclusion on Documentation
@@ -360,7 +360,7 @@ But the repository indicates usage of  a "MIT License" one.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | Fail
+OSI-approved open source software license | FAIL
 
 ## Contribution Policies
 
@@ -368,7 +368,7 @@ No Contributing and Security policy
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | Fail
+OSS contribution best practices | FAIL
 
 
 # Coding Standards
@@ -379,17 +379,17 @@ The project builds and the webapp runs successfully. **However the lack of docum
 
 # Final Conclusion
 
-**The project fails  to meet  acceptance criterias and project needs serious improvements on  documentation.
+**The project fails  to meet  acceptance criterias and it needs serious improvements on  documentation.
 The licence  informations provided in the repository are wrong. There are no Contributing  or Security policies attached to the repository.
 There are very few unit tests  in the project, the reviewer recommends the OP to add more unit tests for the next submission.
 **
 
-In the reviewer's opinion, this review should Fail
+In the reviewer's opinion, this review should FAIL
 
 
 
 # Recommendation
 
-Recommendation | Fail
+Recommendation | FAIL
 ------------ | -------------
 
