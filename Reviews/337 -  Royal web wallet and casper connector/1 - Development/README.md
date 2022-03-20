@@ -236,7 +236,7 @@ resource with CORS disabled.
 
 3. Grab ETH Faucet (for testnet) 
 
-The reviewer could not use his own testnet ETH wallet  on the Rinkeby ETH test network.
+The reviewer could not use his own testnet ETH wallet  on the Rinkeby ETH test network. After connecting to the Rinkeby network via metamask, the address displayed on the page (top right) seems to be a random one and does not correspond to the address of the reviewer's metamask wallet.
   
 4. Grab CSPR Faucet (for testent)
    
@@ -264,7 +264,7 @@ Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS with Notes
 Documentation provides sufficient installation/execution instructions | PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | Fail
+Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
 
 # Code / Unit / Automated Testing
 
@@ -379,8 +379,8 @@ The project builds and the webapp runs successfully. **However the lack of docum
 
 # Final Conclusion
 
-**The project fails  to meet  acceptance criterias and it needs serious improvements on  documentation.
-The licence  informations provided in the repository are wrong. There are no Contributing  or Security policies attached to the repository.
+**The project fails  to meet  acceptance criterias and it needs serious improvements on documentation.
+The licence  informations provided are wrong. There are no Contributing  or Security policies attached to the repository.
 There are very few unit tests  in the project, the reviewer recommends the OP to add more unit tests for the next submission.
 **
 
