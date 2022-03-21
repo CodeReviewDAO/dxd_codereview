@@ -379,7 +379,7 @@ The project builds and the webapp runs successfully. **However the lack of docum
 
 # Final Conclusion
 
-**The project fails  to meet  acceptance criterias and it needs serious needs improvement on build instructions and overall documentation.
+**The project fails  to meet  acceptance criterias and it needs serious improvements on build instructions and overall documentation.
 The licence  informations provided are wrong, there are no Contributing  or Security policies attached to the repository.
 There are very few unit tests  in the project, the reviewer recommends the OP to add more unit tests for the next submission.**
 
