@@ -188,10 +188,10 @@ docker_dashboard_1   sh ./docker/entrypoint.sh   Up (healthy)   0.0.0.0:8088->80
 
 ### Testing the dashboard
 
-This review focuses on the dashboard part.
-The dashboard module uses the Apache Superset which is an open  data visualization and  exploration platform.
-It is used here to have data analysis on transactions on the Casper blockchain. These analysis can be used for
-coin tracing for example (used in AML).
+This review focuses on the dashboard part. 
+The dashboard module uses the Apache Superset which is an open source data visualization and exploration platform. 
+It is used here to have data analysis on transactions in the Casper blockchain.
+These analysis can be used for coin tracing for example (used in AML).
 the dashboard is currently limited to transactions analysis but can be extended to explore other datas  such as blocks, validators etc ...
 In this review,  we will carry out test scenarios on the following dashboard features :
 
@@ -200,7 +200,7 @@ In this review,  we will carry out test scenarios on the following dashboard fea
 
 1. Access the dashboard
 
-The reviewer was able to connect to teh dashboard using  credentials provided in the Additional notes above.
+The reviewer was able to connect to the dashboard using the login credentials provided in the Additional notes above.
 
 ![login](assets/dashboard/login.png "login")
 
@@ -244,7 +244,7 @@ The dashboard was successfully loaded with all the transactions having this acco
 
 #### Adding filters
 
-The dashboard offers teh possibility to add to the fields used to filter transaction datas.
+The dashboard offers the possibility to add to the fields used to filter transaction datas.
 The reviewer was able to add a new filter on the amount of transaction. 
 
 ![filter3](assets/dashboard/transaction_monitor_4.png "filter3")
@@ -278,7 +278,7 @@ The  coin flow chart was updated accodingly.
 
 ![charts4](assets/dashboard/charts_4.png "charts4")
 
-The reviewer increased the 'Row limit' filter from 100  10000 rows (transaction hashes) and was able to update the chart:
+The reviewer increased the 'Row limit' filter from 10 to 10000 rows (transaction hashes) and was able to update the chart:
 
 ![charts5](assets/dashboard/charts_5.png "charts5")
 
@@ -288,7 +288,7 @@ The tool offers the possibility of adding many types of charts to explore transa
 
 ![charts6](assets/dashboard/charts_6.png "charts6")
 
-The reviewer was able to add a new 'Pie' chart reflecting the count of transaction having a given amount.
+The reviewer was able to add a new 'Pie' chart reflecting the transactions having a given amount.
 
 ![charts7](assets/dashboard/charts_7.png "charts7")
 
@@ -309,9 +309,9 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 This part of the project uses Apache superSet to perform data analysis and exploration. 
-There are currently no tools to perform automated tests on this platform. the reviewer was limited running the above test scenarios.
+There are currently no tools to perform automated tests on this platform. the reviewer was limited to running the above test scenarios.
 
-Based on last review , the project the project contained only 24 unit tests accross all its modules . 
+Based on last review , the project contained only 24 unit tests accross all its modules . 
 An effort has been made to improve the test coverage of the project which now has 107 unit tests.
 The tests can be executed from the console and cover both positive and negative test paths.
 
@@ -332,7 +332,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-A commendable effort has been made to document the project code following the remarks made on this point in the reviews of milestone 1. The code is now overall well documented now and almost all classes and critical functions have acceptable code-level documentation.
+A commendable effort has been made to document the project code following the remarks made on this point in the reviews of milestone 1. The code is now overall well documented  and almost all classes and critical functions have acceptable code-level documentation.
 
 
 Requirement | Finding
@@ -341,9 +341,9 @@ Code documentation | PASS
 
 ### Project Documentation
 
-the project documentation is generally sufficient and the instructions for build and run the different modules are clear. 
+the project documentation is generally sufficient and the instructions for building and running project The OP is encouragedmodules are clear. 
 **However, it is desirable to add, within each module of the project, a detailled description of the component and its critical functions.
-In order to give a quick undesrstaing of the whole project,  The OP is encouraged to add a brief description of what the project is and its objectives. The reviewer had first to install and run the project and navigate through the different modules to get an idea of the purpose of the project.
+In order to give a quick undesrstaing of the whole project,  The OP is encouraged to add a brief description of what the project is about and its objectives. The reviewer had first to install and run the project and navigate through the different modules to get an idea of the purpose of the project.
 The OP could add a diagram (simple package uml diagram) illustrating the links between the different modules.**
 
 Requirement | Finding
@@ -382,7 +382,7 @@ Code is generally well-structured and readable. The project has been committed t
 # Final Conclusion
 
 The project provides the functionality described in the grant application and milestone acceptance criteria. 
-**The reviwers spent a significant amount of time understanding the usefulness of the project and the its features.
+**The reviewer spent a significant amount of time understanding the usefulness of the project and the its features.
 The reviewer thus draws the OP's attention to the need to improve the general documentation of the project and its modules during the next milestones.**
 
 In the reviewer's opinion, this submission should PASS with Notes
