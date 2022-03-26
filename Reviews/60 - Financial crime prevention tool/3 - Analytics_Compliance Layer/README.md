@@ -341,7 +341,7 @@ Code documentation | PASS
 
 ### Project Documentation
 
-the project documentation is generally sufficient and the instructions for building and running project The OP is encouragedmodules are clear. 
+The project documentation is generally sufficient and the instructions for building and running project are clear.
 **However, it is desirable to add, within each module of the project, a detailled description of the component and its critical functions.
 In order to give a quick undesrstaing of the whole project,  The OP is encouraged to add a brief description of what the project is about and its objectives. The reviewer had first to install and run the project and navigate through the different modules to get an idea of the purpose of the project.
 The OP could add a diagram (simple package uml diagram) illustrating the links between the different modules.**
