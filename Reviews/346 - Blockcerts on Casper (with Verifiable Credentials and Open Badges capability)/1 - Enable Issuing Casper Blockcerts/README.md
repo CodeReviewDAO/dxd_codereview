@@ -14,12 +14,19 @@ The review will cover the first milestone criteria set forth below.
 **Details of what will be delivered in milestone:**
 
 – Set up either Casper JS SDK or REST API
+
 – Generate or obtain a list of major nodes with high uptime
+
 – Point Casper JS SDK or REST API to major nodes and check functionality
+
 – Fork https://github.com/blockchain-certificates/cert-tools
+
 – Add OP's previously proprietary backwards-compatible upgrades
+
 – Enable instantiation of Casper-compatible Blockcerts (Open Badges version)
+
 – Fork https://github.com/blockchain-certificates/cert-issuer 
+
 – Enable signed transactions in order to issue Casper Blockcerts (Open Badges version)
 
 **Acceptance criteria:**
@@ -29,8 +36,11 @@ A user will be able to instantiate and issue a batch of Casper Blockcerts (Open 
 **Additional notes regarding submission from OP:**
 
 – BE SURE TO ONLY REVIEW THE "v2" BRANCH!!! The "master" branch is part of a future milestone. 
+
 – Reviewers can follow the "Casper-specific Instructions" in the README and ignore the rest (which applies to Bitcoin and Ethereum issuing).
+
 – When you issue a Casper Blockcert, you can find its transaction ID (txid) in the logs.
+
 – If you get a signature error, just try again a couple times or change the Casper RPC Node IP Address.
 
 ## Milestone Submission
@@ -46,8 +56,11 @@ https://github.com/amazanzan/casper-cert-issuer/tree/v2 | 1991yye
 
 The reviewer observed that, following the instructions in the README of https://github.com/amazanzan/casper-cert-issuer/tree/v2, it was not possible to succesfully install the issuer.
 The reviewer used following trials in order to compansate encountered errors : 
+ 
  1 - Used `macOS Monterey (12.2.1)` as host: problems with directly called subprocesses in setup.py does not work
+ 
  2 - Used a digital ocean droplet `debian 9` as host: prepared, compiled and installed fresh python3.9, after running setup.py the following error occured : `/usr/local/lib/python3.9/distutils/dist.py:261: UserWarning: Unknown distribution option: 'long_description_content_type'`
+ 
  3 - Used a gitpod instance to make sure nothing works with build environment, so `ubuntu2004 LTS` as host: after running setup.py this error occured : `FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'`
 
 ## Overall Impression of usage testing
@@ -109,7 +122,7 @@ The project contains a CONTRIBUTING and SECURITY policy that links to a Code of 
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
