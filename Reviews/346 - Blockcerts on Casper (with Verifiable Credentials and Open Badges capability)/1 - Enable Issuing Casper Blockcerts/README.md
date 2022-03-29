@@ -128,8 +128,8 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Code is generally well-structured and readable. The project has been committed to GitHub, but it is a bit shame that simple installation 
+procedure have been made complicated by providing less instruction.
 
 # Final Conclusion
 
