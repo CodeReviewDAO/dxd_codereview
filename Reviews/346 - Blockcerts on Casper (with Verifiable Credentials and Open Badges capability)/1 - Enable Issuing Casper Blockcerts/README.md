@@ -61,7 +61,7 @@ The reviewer used following trials in order to compansate encountered errors :
  
  2 - Used a digital ocean droplet `debian 9` as host: prepared, compiled and installed fresh python3.9, after running setup.py the following error occured : `/usr/local/lib/python3.9/distutils/dist.py:261: UserWarning: Unknown distribution option: 'long_description_content_type'`
  
- 3 - Used a gitpod instance to make sure nothing works with build environment, so `ubuntu2004 LTS` as host: after running setup.py this error occured : `FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'`
+ 3 - Used a gitpod instance to make sure nothing is wrong with build environment, so `ubuntu2004 LTS` as host: after running setup.py this error occured : `FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'`
 
 ## Overall Impression of usage testing
 
