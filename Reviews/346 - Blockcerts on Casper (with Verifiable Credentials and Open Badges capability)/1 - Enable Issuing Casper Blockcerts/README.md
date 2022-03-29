@@ -133,7 +133,8 @@ procedure have been made complicated by providing less instruction.
 
 # Final Conclusion
 
-The reviewer recommends that this submission should fail code review, because it does not contain an OSI-approved open source license
+The reviewer recommends that this submission should fail code review, because it does not contain an OSI-approved open source license and
+it failed to be installed on 3 different common platforms.
 
 # Recommendation
 
