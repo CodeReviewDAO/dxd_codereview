@@ -107,7 +107,7 @@ OSS contribution best practices | PASS
 
 The project meets the functional requirements. The reviewer was able to build / run the tests and use the existing docker image.
 
-Thus, in the reviewer's opinion, this submission should PASS with notes.
+Thus, in the reviewer's opinion, this submission should PASS.
 
 # Recommendation
 
