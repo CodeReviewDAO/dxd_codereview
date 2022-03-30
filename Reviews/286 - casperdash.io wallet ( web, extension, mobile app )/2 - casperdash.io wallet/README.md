@@ -135,6 +135,15 @@ View NFTs | PASS
 View transfer transactions history |  PASS
 Stacking Operations | PASS
 
+# Unit / Automated Testing
+
+Unit testing was not reviewed due to the FAIL conditions outlines above.
+
+Requirement | Finding
+------------ | -------------
+Unit Tests - At least one positive path test | to be tested in a future submission
+Unit Tests - At least one negative path test | to be tested in a future submission
+Unit Tests - Additional path tests | to be tested in a future submission
 
 # Documentation
 
