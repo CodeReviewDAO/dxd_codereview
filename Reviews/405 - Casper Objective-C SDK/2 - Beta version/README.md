@@ -97,6 +97,7 @@ Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS with Notes
 Unit Tests - At least one negative path test | PASS with Notes
+Unit Tests - Additional path tests | PASS with Notes
 
 # Documentation
 
@@ -152,5 +153,5 @@ Thus, in the reviewer's opinion, this submission should pass with notes.
 
 # Recommendation
 
-Recommendation | PASS with notes
+Recommendation | PASS with Notes
 ------------ | -------------
