@@ -1,0 +1,70 @@
+{"protocolVersion":"0.1.1","runnerVersion":"1.20.2","pid":17286,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"test/utils_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading test/utils_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":2,"platform":"vm","path":"test/casper_types_test.dart"},"type":"suite","time":3}
+{"test":{"id":3,"name":"loading test/casper_types_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
+{"suite":{"id":4,"platform":"vm","path":"test/casper_client_test.dart"},"type":"suite","time":4}
+{"test":{"id":5,"name":"loading test/casper_client_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":4}
+{"count":3,"time":4,"type":"allSuites"}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":420}
+{"group":{"id":6,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":423}
+{"group":{"id":7,"suiteID":0,"parentID":6,"name":"Byte utils","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":13,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"group","time":423}
+{"test":{"id":8,"name":"Byte utils can convert byte array to nibbles","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":14,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":423}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":437}
+{"test":{"id":9,"name":"Byte utils can convert byte array to bits","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":22,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":437}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":438}
+{"group":{"id":10,"suiteID":0,"parentID":6,"name":"String utils","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":56,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"group","time":439}
+{"test":{"id":11,"name":"String utils can check if hex string is same case","suiteID":0,"groupIDs":[6,10],"metadata":{"skip":false,"skipReason":null},"line":57,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":439}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":442}
+{"group":{"id":12,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":7,"line":null,"column":null,"url":null},"type":"group","time":443}
+{"group":{"id":13,"suiteID":4,"parentID":12,"name":"Casper Dart SDK","metadata":{"skip":false,"skipReason":null},"testCount":7,"line":11,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"group","time":443}
+{"test":{"id":14,"name":"Casper Dart SDK can connect to test node","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":15,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":443}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":443}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":450}
+{"group":{"id":15,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":9,"line":null,"column":null,"url":null},"type":"group","time":450}
+{"group":{"id":16,"suiteID":2,"parentID":15,"name":"Casper Dart SDK","metadata":{"skip":false,"skipReason":null},"testCount":9,"line":232,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":450}
+{"group":{"id":17,"suiteID":2,"parentID":16,"name":"Casper Dart SDK JSON converter","metadata":{"skip":false,"skipReason":null},"testCount":9,"line":233,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":450}
+{"group":{"id":18,"suiteID":2,"parentID":17,"name":"Casper Dart SDK JSON converter Deploy","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":234,"column":7,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":450}
+{"test":{"id":19,"name":"Casper Dart SDK JSON converter Deploy can deserialize DeployApproval","suiteID":2,"groupIDs":[15,16,17,18],"metadata":{"skip":false,"skipReason":null},"line":13,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":450}
+{"test":{"id":20,"name":"String utils can shorten human readable duration","suiteID":0,"groupIDs":[6,10],"metadata":{"skip":false,"skipReason":null},"line":67,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":451}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":453}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":453}
+{"test":{"id":21,"name":"String utils can capitalize first letter","suiteID":0,"groupIDs":[6,10],"metadata":{"skip":false,"skipReason":null},"line":83,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":453}
+{"test":{"id":22,"name":"Casper Dart SDK can get node peers","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":30,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":454}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":454}
+{"group":{"id":23,"suiteID":0,"parentID":6,"name":"Casper Dart SDK","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":90,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"group","time":454}
+{"group":{"id":24,"suiteID":0,"parentID":23,"name":"Casper Dart SDK CEP-57","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":91,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"group","time":455}
+{"test":{"id":25,"name":"Casper Dart SDK CEP-57 can encode checksummed string","suiteID":0,"groupIDs":[6,23,24],"metadata":{"skip":false,"skipReason":null},"line":92,"column":7,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/utils_test.dart"},"type":"testStart","time":455}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":461}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":472}
+{"group":{"id":26,"suiteID":2,"parentID":17,"name":"Casper Dart SDK JSON converter ExecutableDeployItem","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":237,"column":7,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":472}
+{"test":{"id":27,"name":"Casper Dart SDK JSON converter ExecutableDeployItem can deserialize ModuleBytesDeployItem from json","suiteID":2,"groupIDs":[15,16,17,26],"metadata":{"skip":false,"skipReason":null},"line":32,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":472}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":474}
+{"test":{"id":28,"name":"Casper Dart SDK JSON converter ExecutableDeployItem can deserialize StoredContractByNameDeployItem from json","suiteID":2,"groupIDs":[15,16,17,26],"metadata":{"skip":false,"skipReason":null},"line":54,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":474}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":475}
+{"test":{"id":29,"name":"Casper Dart SDK JSON converter ExecutableDeployItem can deserialize StoredContractByHashDeployItem from json","suiteID":2,"groupIDs":[15,16,17,26],"metadata":{"skip":false,"skipReason":null},"line":79,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":475}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":476}
+{"test":{"id":30,"name":"Casper Dart SDK JSON converter ExecutableDeployItem can deserialize TransferDeployItem from json","suiteID":2,"groupIDs":[15,16,17,26],"metadata":{"skip":false,"skipReason":null},"line":128,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":476}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":477}
+{"group":{"id":31,"suiteID":2,"parentID":17,"name":"Casper Dart SDK JSON converter Duration","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":241,"column":7,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":477}
+{"test":{"id":32,"name":"Casper Dart SDK JSON converter Duration can convert human readable duration to Duration object","suiteID":2,"groupIDs":[15,16,17,31],"metadata":{"skip":false,"skipReason":null},"line":242,"column":9,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":477}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":480}
+{"test":{"id":33,"name":"Casper Dart SDK JSON converter Duration can convert Duration object to human readable duration","suiteID":2,"groupIDs":[15,16,17,31],"metadata":{"skip":false,"skipReason":null},"line":248,"column":9,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":480}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":480}
+{"group":{"id":34,"suiteID":2,"parentID":17,"name":"Casper Dart SDK JSON converter ClType","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":255,"column":7,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"group","time":481}
+{"test":{"id":35,"name":"Casper Dart SDK JSON converter ClType can deserialize option ClType object from json","suiteID":2,"groupIDs":[15,16,17,34],"metadata":{"skip":false,"skipReason":null},"line":185,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":481}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":481}
+{"test":{"id":36,"name":"Casper Dart SDK JSON converter ClType can deserialize complex ClType object from json","suiteID":2,"groupIDs":[15,16,17,34],"metadata":{"skip":false,"skipReason":null},"line":195,"column":3,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_types_test.dart"},"type":"testStart","time":481}
+{"testID":36,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":482}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1093}
+{"test":{"id":37,"name":"Casper Dart SDK can get state root hash","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":41,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":1094}
+{"testID":37,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1758}
+{"test":{"id":38,"name":"Casper Dart SDK can get state root hash using a block id","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":48,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":1759}
+{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2346}
+{"test":{"id":39,"name":"Casper Dart SDK can get state root hash using block height","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":55,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":2348}
+{"testID":39,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2892}
+{"test":{"id":40,"name":"Casper Dart SDK can get deploy info","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":62,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":2894}
+{"testID":40,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3501}
+{"test":{"id":41,"name":"Casper Dart SDK should throw an error when getting deploy info with an invalid hash","suiteID":4,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":72,"column":5,"url":"file:///Volumes/Development/Crypto/crdao/casper_dart_sdk/test/casper_client_test.dart"},"type":"testStart","time":3502}
+{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4034}
+{"success":true,"type":"done","time":4041}
