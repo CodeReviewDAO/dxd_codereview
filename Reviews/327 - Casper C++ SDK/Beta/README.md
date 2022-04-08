@@ -256,6 +256,7 @@ Code is generally well-structured and readable. Comments are good enough for all
 
 The project code seems to provide the functionality described in the grant application and milestone acceptance criteria.
 **In the last review, the reviewer highlighted the low level of general documentation of the project. A small improvement is to be noted for this milestone but the project is generally poorly documented**
+
 **For the next milestones, The reviewer encourages the op to provide richer documentation on how to use the SDK and its functions.** 
 
 In the reviewer's opinion, this submission should PASS with Notes.
