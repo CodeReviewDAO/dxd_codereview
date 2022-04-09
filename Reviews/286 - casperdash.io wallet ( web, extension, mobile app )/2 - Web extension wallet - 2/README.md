@@ -89,7 +89,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-The project is well  documented and the reviewer has observed that the project README has detailed general, roadmap, and usage documentation. Also, the project has external documentation on https://hackmd.io/@casperdash/r1wtIVYVt .
+The project is well documented and the reviewer has observed that the project README has detailed general, roadmap, and usage documentation. Also, the project has external documentation on https://hackmd.io/@casperdash/r1wtIVYVt .
 
 # Open Source Practices
 
@@ -113,7 +113,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is generally well-structured and readable. The project as committed to GitHub and both the unit tests and the manual tests pass.
+Code is generally well-structured and readable. The project is committed to GitHub and both the unit tests and the manual tests pass.
 
 # Final Conclusion
 
