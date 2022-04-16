@@ -74,7 +74,7 @@ kutaykarademir@MacBook-Pro ori-main %  docker network create ori  //Create a doc
 kutaykarademir@MacBook-Pro ori-main % docker-compose -f ./ori-api/src/main/docker/docker-compose-jvm.yml up -d  //Start postgresql and api modules (docker images)
 kutaykarademir@MacBook-Pro ori-main % docker-compose -f ori-api/src/main/docker/docker-compose-jvm.yml ps. //Check if both went up
 ```
-Reviewer failed to run the ori-api on the first try, but after the second try the ori-api was up and running. (OP has specified in the read.me file that this problem may occur and how to solve it.)
+Reviewer failed to run the ori-api on the first try, but after the second try the ori-api was up and running. (OP has specified in the README file that this problem may occur and how to solve it.)
 
 Output:
 
