@@ -1,4 +1,4 @@
-Grant Proposal | [308 - CasperHolders | Mobile Apps / PWA / High security accounts](https://portal.devxdao.com/public-proposals/308)
+Grant Proposal | [308 - CasperHolders - Mobile Apps , PWA , High security accounts](https://portal.devxdao.com/public-proposals/308)
 ------------ | -------------
 Milestone | 2
 Milestone Title | Android & iOs Application
