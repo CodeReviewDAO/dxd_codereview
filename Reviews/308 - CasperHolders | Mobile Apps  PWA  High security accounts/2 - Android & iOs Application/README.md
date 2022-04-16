@@ -65,7 +65,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Now the app is running and working using the "yarn start" command.
 
-The app was also tested on an iOS device with a Ledger Nano X without any issues.
+The reviewer encoured same kind of messages while testing on a Mac (except the export of the environment variable)
 
 ![img.png](assets/casperholders_mobile_running.png)
 
@@ -73,12 +73,14 @@ The reviewer was able to use the app correctly :
 
 ![img.png](assets/casperholders_mobile_staking.png)
 
+The app was also tested on an iOS device with a Ledger Nano X without any issues.
+
 ## Overall Impression of usage testing
 
 The reviewer was facing some issues to correctly install and run the app.  
 The OP responded to his problems and the reviewer was able to run and test the app locally.
 
-The reviewer recommands to the OP to add more details in the README to prevent questions about how to running the app.
+The reviewer recommands to the OP to add more details in the README to prevent questions about how to build and run the app.
   
 Except that, the app meets the acceptance criteria.
 
@@ -111,7 +113,6 @@ It was running correctly :
 
 ![img.png](assets/casperholders_mobile_tests_success.png)
 
-It's strange that the reviewer has to define environment variables to make it success.   
 The reviewer advises the OP to complete the README so the test will works correctly directly.  
 The code coverage of the app is very high and it's very good point.
 
