@@ -22,7 +22,7 @@ Reviewer | Kutay Karademir <eee.kutay@gmail.com>
 
 **Additional notes regarding submission from OP:**
 
-This second milestone builds on top of the first milestone and adds a front-end interface built on react.js.
+- This second milestone builds on top of the first milestone and adds a front-end interface built on react.js.
 
 ## Milestone Submission
 
@@ -34,7 +34,7 @@ https://github.com/syntifi/ori| ade4902
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README file of the repositoty : https://github.com/syntifi/ori and the file provided as a guide for this milestone
+Following the instructions in the README file of the repository : https://github.com/syntifi/ori and the file provided as a guide for this milestone
 https://github.com/syntifi/ori/blob/main/TLDR-CSPR.md
 
 
@@ -135,7 +135,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 After following the instructions given in the README in the project and installing the requirements and adding the necessary configuration settings, the tests were run. No error was received during the tests. The tests cover both positive and negative test paths.
 
-In Addition:Tests were also conducted in dev mode.
+In Addition: Tests were also conducted in dev mode.
 
 ```bash
 kutaykarademir@MacBook-Pro ori-main % sudo ./mvnw test
