@@ -39,8 +39,6 @@ We will release a stable version working on mainnet and the app will be availabl
 - Stacking
 - Integrate with Ledger
 
-See more screenshots [here](assets/)
-
 ## Milestone Submission
 
 The following milestones assets/artifacts were submitted for review:
@@ -83,6 +81,7 @@ Notes:
 - History: need to add CSPR Receive history, Stake history
 - Stacking: When entering amount, it is not convenient because the keyboard is automatically hidden after each number of typing
 
+See more screenshots [here](assets/)
 
 # Unit / Automated Testing
 
