@@ -52,6 +52,7 @@ https://github.com/CasperDash/casperdash-mobile-wallet/tree/main | 7dd8c37
 Following the instructions in the README file of repository, there were some errors during the installation process due to incomplete documentation. After coordinating with OP, the document has been updated and installed successfully. The reviewer was able to successfully build the source code on MacOS 11.5.2.
 
 [Build Logs iOS](assets/Logs/CasperDash_BuildIOSLog.md)
+
 [Build Logs Android](assets/Logs/CasperDash_BuildAndroidLog.md)
 
 ## Overall Impression of usage testing
