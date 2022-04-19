@@ -67,21 +67,21 @@ More detail about functionality
 
 Requirement | Finding
 ------------ | ------------
-Control to View CSPR balance  | PASS with notes
-Control to Send/Receive CRPR  | PASS
-Control to View tokens (ERC20) balance | PASS
-Control to Add custom token by contract hash | PASS
-Control to View transfer transactions history | PASS with notes
-Control to View NFTs | PASS
-Control to Stacking Operations |PASS with notes
-Integrate with Ledger | PASS
+View CSPR balance  | PASS with notes
+Send/Receive CRPR  | PASS
+View tokens (ERC20) balance | PASS
+Add custom token by contract hash | PASS
+View transfer transactions history | PASS with notes
+View NFTs | PASS
+Stacking Operations |PASS with notes
+Ledger Integration  | PASS
 
 Notes:
 - Dashboard ( View CRPR balance, send/receive CRPR ): In View mode, the interface should remove 2 buttons to receive and send because these 2 buttons cannot be used.
 - History: need to add CSPR Receive history, Stake history
 - Stacking: When entering amount, it is not convenient because the keyboard is automatically hidden after each number of typing
 
-See more screenshots [here](assets/)
+See more screenshots on Iphone13 (iOS 15.4.1) and Android  [here](assets/)
 
 # Unit / Automated Testing
 
