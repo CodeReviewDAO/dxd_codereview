@@ -39,6 +39,8 @@ We will release a stable version working on mainnet and the app will be availabl
 - Stacking
 - Integrate with Ledger
 
+See more screenshots [here](assets/)
+
 ## Milestone Submission
 
 The following milestones assets/artifacts were submitted for review:
@@ -80,6 +82,7 @@ Notes:
 - Dashboard ( View CRPR balance, send/receive CRPR ): In View mode, the interface should remove 2 buttons to receive and send because these 2 buttons cannot be used.
 - History: need to add CSPR Receive history, Stake history
 - Stacking: When entering amount, it is not convenient because the keyboard is automatically hidden after each number of typing
+
 
 # Unit / Automated Testing
 
