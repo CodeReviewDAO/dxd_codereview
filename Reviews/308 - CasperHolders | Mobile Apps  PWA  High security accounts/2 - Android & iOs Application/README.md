@@ -41,8 +41,8 @@ The reviewer was able to install the project easily.
 
 ![img.png](assets/casperholders_mobile_install.png)
 
-When following the README step by step, the reviewer where facing some issues.  
-Before building the app, it's important to have the simulator open. It was mentionned in the part "Next Builds" but it should also be mentionned in the step "First Builds".  
+When following the step by step README , the reviewer faced some issues.  
+Before building the app, it's important to have the simulator opened. It was mentionned in the part "Next Builds" but it should also be mentionned in the step "First Builds".  
 Hoppefully the error message in the console is explicit :
 
 ![img.png](assets/casperholders_mobile_build_android_failed.png)
@@ -51,7 +51,7 @@ After starting the Emulator, the reviewer had a second error :
 
 ![img.png](assets/casperholders_mobile_build_android_failed_2.png)
 
-Here again the message is explicit and the reviewer have to define the correct environment variable.  
+Here again the message is explicit and the reviewer had to define the correct environment variable.en  
 The OP advises the reviewer to define it like this :
 
 ```
@@ -65,7 +65,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Now the app is running and working using the "yarn start" command.
 
-The reviewer encoured same kind of messages while testing on a Mac (except the export of the environment variable)
+The reviewer encountered same kind of messages while testing on a Mac (except the export of the environment variable)
 
 ![img.png](assets/casperholders_mobile_running.png)
 
@@ -77,8 +77,8 @@ The app was also tested on an iOS device with a Ledger Nano X without any issues
 
 ## Overall Impression of usage testing
 
-The reviewer was facing some issues to correctly install and run the app.  
-The OP responded to his problems and the reviewer was able to run and test the app locally.
+The reviewer faced some issues to correctly install and run the app.  
+The OP corrected the isues when requested and the reviewer was able to run and test the app locally.
 
 The reviewer recommands to the OP to add more details in the README to prevent questions about how to build and run the app.
   
@@ -92,7 +92,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-While running the tests, the reviewer where facing same sort of issues.
+While running the tests, the reviewer faced the same issues faced when building the app.
 
 The first attempt with the tests gives the following error :
 
@@ -114,7 +114,7 @@ It was running correctly :
 ![img.png](assets/casperholders_mobile_tests_success.png)
 
 The reviewer advises the OP to complete the README so the test will works correctly directly.  
-The code coverage of the app is very high and it's very good point.
+The code covergare is overall very good and the reviewer praises the OP’s efforts for that.
 
 Requirement | Finding
 ------------ | -------------
@@ -135,6 +135,9 @@ Code Documented | PASS
 ### Project Documentation
 
 As mentionned earlier, the documentation should be improved to prevent error due to configuration.
+
+The OP added videos for the user's documentation after the reviewer asked for user's documentation.
+The reviewer recommands to add more videos so users will know how to use the app correctly.
 
 Requirement | Finding
 ------------ | -------------
@@ -178,7 +181,7 @@ The project meets the functional requirements.
 The reviewer was able to build and run the unit tests. 
 The reviewer was also able to test the app with a Ledger Nano X directly from the app available on the AppStore.
 
-The documentation could be improved for a better user experience.
+The documentation could be improved. The reviewer recommands to the OP to structure his documentation and add additionnal videos for the users.
 
 Thus, in the reviewer's opinion, this submission should PASS with notes.
 
