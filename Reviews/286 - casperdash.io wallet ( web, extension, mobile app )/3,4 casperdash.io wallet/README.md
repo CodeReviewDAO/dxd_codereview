@@ -85,7 +85,7 @@ Notes:
 
 The project has unit tests for all critical classes and methods. The reviewer was able to run all tests successfully.
 
-[Test Logs](assets/test-run.md)
+[Test Logs](assets/Testlog.jpg)
 
 Requirement | Finding
 ------------ | -------------
