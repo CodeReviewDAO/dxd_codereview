@@ -53,11 +53,20 @@ https://testnet.cspr.live/deploy/36030642386298d62a28408b220608021b7422ee0f229e1
 
 ![](assets/ch-summary-update.png)
 
-- For some old accounts, reviewer cannot add a new associated key or update the weight of the key, both got `out of gas` error. Reviewer tried to increase fees, but the fee is hardcoded in `casperholderscore` library and cannot be updated on `casperholdersfront`. Reviewer also double checked the parameters in both deploys but couldn't find a difference. 
+- For some old accounts, reviewer cannot add a new associated key or update the weight of the key, both got `out of gas` error. Reviewer tried to increase fees, but the fee is hardcoded in `casperholderscore` library and cannot be updated on `casperholdersfront`. Reviewer also compared the parameters in deploy from new account vs deploy from old account but couldn't find a difference. The OP should troubleshoot this case. 
 
 ![](assets/ch-out-of-gas.png)
 ![](assets/ch-cspr-live-transaction.png)
 https://testnet.cspr.live/deploy/c72ee5b0e75667213090be940ea41c146de7059385b2a0143d2fbe28d9076840
+
+2. Multi sign
+
+- Reviewer can access multi sign feature from an account with a key weight below the key management threshold or deploy threshold. The multi sign feature is working as expected.
+
+![](assets/ch-multi-sign.png)
+![](assets/ch-multi-sign-link.png)
+
+https://testnet.cspr.live/deploy/39ae432ca524ebbda6f19da7016d4e3977d9dbe0ad0f308824eacd025137adc4
 
 
 Requirement | Finding
