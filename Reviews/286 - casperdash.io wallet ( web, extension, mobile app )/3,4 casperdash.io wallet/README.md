@@ -89,7 +89,7 @@ Tested the app on Iphone13 (iOS 15.4.1) and Samsung Galaxy A70 (Android 9). See 
 
 The project has unit tests for all critical classes and methods. The reviewer was able to run all tests successfully.
 
-[Test Logs](assets/Logs//CasperDash_TestLog.md)
+[Test Logs](assets/Logs/CasperDash_TestLog.md)
 
 Requirement | Finding
 ------------ | -------------
