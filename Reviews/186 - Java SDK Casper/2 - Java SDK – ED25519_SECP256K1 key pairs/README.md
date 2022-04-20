@@ -61,9 +61,9 @@ https://github.com/syntifi/crypto-keys| e8ae3de
 
 Following the instructions in the readme files of the two repositories, the reviewer was able to:
 
-1- build and run unit tests for the SDK:  [casper-sdk build and test](sdk-build-and-test.md)
+1- build and run unit tests for the SDK:  [casper-sdk build and tests](sdk-build-and-test.md)
 
-2- build and run unit tests for the crypto module (key management) : [crypto-keys build and test](sdk-crypto-build-and-test.md)
+2- build and run unit tests for the crypto module (key management) : [crypto-keys module build and tests](sdk-crypto-build-and-test.md)
 
 The build and the tests were run on a MacOs Monterey 12.2.1 using the following tools:
 
@@ -118,7 +118,7 @@ them to the network using the put-deploy RPC call which was added to the SDK in 
 All these tests run successfully :
 
 -  [casper-sdk unit test](casper-sdk-unit-tests.md)
--  [cryptos-key unit test](crypto-keys-unit-tests.md)
+-  [crypto-key module unit test](crypto-keys-unit-tests.md)
 
 
 Requirement | Finding
