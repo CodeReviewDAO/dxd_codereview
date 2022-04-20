@@ -3,7 +3,7 @@ Grant Proposal | [186 - Java SDK Casper](https://portal.devxdao.com/public-propo
 Milestone | 2
 Milestone Title | Java SDK – ED25519/SECP256K1 key pairs
 OP | ReDC
-Reviewer | Chad
+Reviewer | Chad (elmabahma@gmail.com)
 
 # Milestone Details
 
@@ -117,8 +117,8 @@ them to the network using the put-deploy RPC call which was added to the SDK in 
 
 All these tests run successfully :
 
--  [casper-sdk unit test] (casper-sdk-unit-tests.md)
--  [cryptos-key unit test] (crypto-keys-unit-tests.md)
+-  [casper-sdk unit test](casper-sdk-unit-tests.md)
+-  [cryptos-key unit test](crypto-keys-unit-tests.md)
 
 
 Requirement | Finding
@@ -165,7 +165,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled on the repositories of  both projects, they also contain CONTRIBUTING and SECURITY policies. 
+Pull requests and Issues are enabled on the repositories of both projects, they also contain CONTRIBUTING and SECURITY policies. 
 
 
 Requirement | Finding
