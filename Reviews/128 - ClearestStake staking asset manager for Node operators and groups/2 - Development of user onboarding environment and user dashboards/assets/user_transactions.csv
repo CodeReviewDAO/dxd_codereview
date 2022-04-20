@@ -1,0 +1,5 @@
+"Date","Transaction Type","Amount of Transaction","USD","Total"
+"2022-02-14 12:23:21","Withdraw Processed","-500","","501"
+"2022-02-14 12:21:10","Deposit","500","","1001"
+"2022-02-14 12:18:08","Inflation Deposit","1","","501"
+"2022-02-14 09:54:57","Initial Balance","500","","500"

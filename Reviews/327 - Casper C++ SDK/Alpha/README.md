@@ -4,7 +4,7 @@ Grant Proposal | [327 - Casper C++ SDK](https://portal.devxdao.com/app/proposal/
 Milestone | 1
 Milestone Title | Alpha
 OP | numlock
-Reviewer | Huy Tran
+Reviewer | M Chad ABAHMANE
 
 # Milestone Details
 This is the first milestone of grant. 
@@ -16,6 +16,7 @@ The review will cover the first milestone criteria set forth below.
 
 - Base project of C++ SDK will be created and published on a GitHub repository.
 - Following methods of the API will be fully implemented and will return when called by the SDK:
+
    * chainGetStateRootHash
    * infoGetPeers
 
@@ -24,8 +25,9 @@ The review will cover the first milestone criteria set forth below.
 - C++ SDK project available on a public GitHub repository
 - It will be possible to connect to a Casper node and retrieve information by using the implemented methods.
 - Following methods of the API fully implemented and will return when called:
+
    * chainGetStateRootHash
-   *  infoGetPeers
+   * infoGetPeers
 
 **Additional notes regarding submission from OP:**
 
@@ -37,31 +39,107 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/yusufketen/casper-cpp-sdk | 373f347
+https://github.com/yusufketen/casper-cpp-sdk | db262e6
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README of https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code but **FAIL** to run test for this milestone on Ubuntu 20.04
+Following the instructions in the README file of  repository : https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code on a Ubuntu 20.04 server using CMake version 3.20.0 
+
+````bash
+cmake -DCMAKE_BUILD_TYPE=Debug .
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CasperSDK Version: 1.0.0
+-- CASPERSDK-NOTFOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abahmane/reviews/casper-cpp-sdk
+
+````
+
+````bash
+make all
+[ 16%] Building CXX object src/CMakeFiles/CasperSDK.dir/CasperClient.cpp.o
+[ 33%] Linking CXX shared library libCasperSDK.so
+[ 33%] Built target CasperSDK
+[ 50%] Building CXX object test/CMakeFiles/CasperSDK_test.dir/ClientTest.cpp.o
+[ 66%] Linking CXX executable CasperSDK_test
+[ 66%] Built target CasperSDK_test
+[ 83%] Building CXX object examples/CMakeFiles/HelloSDK.dir/HelloSDK.cpp.o
+[100%] Linking CXX executable HelloSDK
+[100%] Built target HelloSDK
+
+````
 
 ## Overall Impression of usage testing
 
-The project builds successfully without errors, but as the reviewer tries to do the test as described at https://github.com/yusufketen/casper-cpp-sdk#test and do the running example as described at https://github.com/yusufketen/casper-cpp-sdk#run-example, the **[Auto test FAILS](https://github.com/tqhuy2018/dxd_codereview/blob/main/Reviews/327%20-%20Casper%20C%2B%2B%20SDK/Alpha/assets/AutoTestFails.md) on the master branch**
+The project has sufficient and well documented instructions to successfully build the source code.
+**However, the reviewer recommends detailing these instructions so that any lamba user could install and build the project.**
+
+Example:
+
+Instructions on how to clone the project are missing:
+
+````bash
+git clone https://github.com/yusufketen/casper-cpp-sdk.git
+````
+
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
-Documentation provides sufficient installation/execution instructions | PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Documentation provides sufficient installation/execution instructions | PASS 
+
 
 # Unit / Automated Testing
 
-Since the test failed there is no test case implemented. The overall result for the test is **FAIL**.
+The project has 2 tests corresponding to the RPC calls implemented in the milestone :
+
+* chainGetStateRootHash
+* infoGetPeers
+
+The reviewer checked that the two RPC calls have at least one positive path test.
+
+**However, there are no negative path tests**, this is not blocking for this milestone as the project is in its very early stage.
+The OP is strongly encouraged to add negative path tests for the next milestones.  
+**Reviewer also recommends to document tests so that we could see the actual progress of the tests (while running) and what functions are being tested.**
+
+The tests run successfully, without errors and produce the following output:
+
+````bash
+make test
+Running tests...
+Test project /home/abahmane/reviews/casper-cpp-sdk
+    Start 1: CasperSDK_test
+1/1 Test #1: CasperSDK_test ...................   Passed    0.96 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.96 sec
+````
+
+
+Requirement | Finding
+------------ | -------------
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS with Notes
+
 
 # Documentation
 
 ### Code Documentation
 
-A sufficient amount of low-level documentation exists on the project via properly formatted inline comments on the critical classes and the methods.
+A sufficient amount of low-level documentation exists on the project via properly formatted inline comments on the critical classes and functions.
 
 Requirement | Finding
 ------------ | -------------
@@ -69,17 +147,22 @@ Code Documented | PASS
 
 ### Project Documentation
 
-README.md has sufficient basic usage instructions for the implemented methods which is sufficient for this early milestone. There is one Example folder with codes for doing examples. 
+The project does not provide detailed documentation but README.md has sufficient usage instructions for the only 2 implemented RPC methods.
+There is one Example folder with codes for doing examples.
+This is acceptable since this is the first milestone of the project.
+
+**For next milestones, OP is encouraged to provide more documentation on how to use the SDK, along with sample codes for using critical SDK functions**
+
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS
-Example Documented | PASS (good example but need to review and run again when the test pass)
+Usage Documented | PASS with notes
+Example Documented | PASS 
 
 
 ## Overall Conclusion on Documentation
 
-In the reviewer's opinion, the project and usage documentation are sufficient. However the code-level documentation has room for improvement although it is acceptable for this early milestone.
+In the reviewer's opinion, the project usage and code-level documentation are sufficient. 
 
 # Open Source Practices
 
@@ -93,24 +176,28 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled on the repository. However, there is no CONTRIBUTING policy or code of conduct. Moreover, the project has no security policy. Reviewer recommends adding the aforementioned policies to the project before the final milestone.
+Pull requests and Issues are enabled on the repository. There is also a CONTRIBUTING and a SECURITY policy.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS with Notes
+OSS contribution best practices | PASS
 
 
 # Coding Standards
 
 ## General Observations
 
-Code is generally well-structured and quite readable. Comments are good enough for each method.
+Code is generally well-structured and readable. Comments are good enough for all classes and methods.
 
 # Final Conclusion
 
-The project code seems to provide the functionality described in the grant application and milestone acceptance criteria. However, since the test failed right at the start when run the test command, in the reviewer's opinion, this submission should FAIL. 
+The project code seems to provide the functionality described in the grant application and milestone acceptance criteria.
+
+**OP is encouraged to provide more documentation on how to use the SDK, along with sample codes for using critical SDK functions**
+
+In the reviewer's opinion, this submission should PASS with notes.
 
 # Recommendation
 
-Recommendation | FAIL
+Recommendation | PASS with notes
 ------------ | -------------

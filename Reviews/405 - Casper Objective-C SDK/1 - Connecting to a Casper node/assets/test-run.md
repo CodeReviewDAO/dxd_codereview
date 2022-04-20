@@ -1,0 +1,1542 @@
+```
+
+Showing All Messages
+Test Suite 'All tests' started at 2022-04-04 02:02:10.442
+Test Suite 'CasperSDKObjectiveCTests.xctest' started at 2022-04-04 02:02:10.443
+Test Suite 'GetAuctionInfoTest' started at 2022-04-04 02:02:10.444
+Test Case '-[GetAuctionInfoTest testGetAuctionInfo]' started.
+2022-04-04 02:02:19.869088+0300 xctest[54697:493102] [logging] volume does not support data protection, stripping SQLITE_OPEN_FILEPROTECTION_* flags
+2022-04-04 02:02:19.870513+0300 xctest[54697:493102] [logging] volume does not support data protection, stripping SQLITE_OPEN_FILEPROTECTION_* flags
+2022-04-04 02:02:25.386728+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:25.386827+0300 xctest[54697:492658] AuctionState, state_root_hash :0d3acb98771937155f2c8c26a1cf5d26e625b68fb37430ba67a4603d9c988fdd
+2022-04-04 02:02:25.386883+0300 xctest[54697:492658] AuctionState, block_height :664703
+2022-04-04 02:02:25.386949+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:25.387002+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:25.387045+0300 xctest[54697:492658] JsonEraValidators, era_id:4310
+2022-04-04 02:02:25.387085+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:25.387375+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:25.387453+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:25.387568+0300 xctest[54697:492658] JsonValidatorWeights, weight:1278692139436
+2022-04-04 02:02:25.387626+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:25.387676+0300 xctest[54697:492658] JsonEraValidators, era_id:4311
+2022-04-04 02:02:25.387722+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:25.387765+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:25.387809+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:25.387856+0300 xctest[54697:492658] JsonValidatorWeights, weight:1278885480544
+2022-04-04 02:02:28.198629+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:28.198742+0300 xctest[54697:492658] AuctionState, state_root_hash :6da6cb8ff1e35656fba9a71868af803abef40dd6fce6161d2a18fe339a0525cb
+2022-04-04 02:02:28.198798+0300 xctest[54697:492658] AuctionState, block_height :602343
+2022-04-04 02:02:28.198879+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:28.198938+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:28.198983+0300 xctest[54697:492658] JsonEraValidators, era_id:4026
+2022-04-04 02:02:28.199028+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:28.199071+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:28.199153+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:28.199266+0300 xctest[54697:492658] JsonValidatorWeights, weight:1226198285443
+2022-04-04 02:02:28.199330+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:28.199378+0300 xctest[54697:492658] JsonEraValidators, era_id:4027
+2022-04-04 02:02:28.199422+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:28.199490+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:28.199562+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:28.199625+0300 xctest[54697:492658] JsonValidatorWeights, weight:1226373797637
+2022-04-04 02:02:29.505878+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:29.505980+0300 xctest[54697:492658] AuctionState, state_root_hash :a42c238d2d850b4d9c3efac6104bbfad6b91ce1ca38733c332e35a3459166a58
+2022-04-04 02:02:29.506041+0300 xctest[54697:492658] AuctionState, block_height :12345
+2022-04-04 02:02:29.506100+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:29.506161+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:29.506209+0300 xctest[54697:492658] JsonEraValidators, era_id:177
+2022-04-04 02:02:29.506257+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:29.506306+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:29.506370+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:29.506499+0300 xctest[54697:492658] JsonValidatorWeights, weight:21250662917014
+2022-04-04 02:02:29.506576+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:29.506628+0300 xctest[54697:492658] JsonEraValidators, era_id:178
+2022-04-04 02:02:29.506675+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:29.506722+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:29.506769+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:29.506820+0300 xctest[54697:492658] JsonValidatorWeights, weight:21399698759675
+2022-04-04 02:02:30.165415+0300 xctest[54697:492658] Error get block with error message:get-auction-info failed to get specified block and error code:-32001
+2022-04-04 02:02:30.851518+0300 xctest[54697:492658] Error get block with error message:get-auction-info failed to get specified block and error code:-32001
+Test Case '-[GetAuctionInfoTest testGetAuctionInfo]' passed (20.408 seconds).
+Test Suite 'GetAuctionInfoTest' passed at 2022-04-04 02:02:30.853.
+	 Executed 1 test, with 0 failures (0 unexpected) in 20.408 (20.409) seconds
+Test Suite 'GetBalanceTest' started at 2022-04-04 02:02:30.854
+Test Case '-[GetBalanceTest testGetBalance]' started.
+2022-04-04 02:02:31.681478+0300 xctest[54697:492658] GetBalanceResult, api_version:1.4.5
+2022-04-04 02:02:31.681562+0300 xctest[54697:492658] GetBalanceResult, balance_value:522693296224
+2022-04-04 02:02:31.681661+0300 xctest[54697:492658] GetBalanceResult, merkle_proof length:31766
+Test Case '-[GetBalanceTest testGetBalance]' passed (0.828 seconds).
+Test Suite 'GetBalanceTest' passed at 2022-04-04 02:02:31.683.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.828 (0.829) seconds
+Test Suite 'GetBlockTest' started at 2022-04-04 02:02:31.685
+Test Case '-[GetBlockTest testGetBlock]' started.
+2022-04-04 02:02:32.754526+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:32.754683+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:32.754813+0300 xctest[54697:492658] JsonBlock, block_hash:42e55c045cd8a51f930802b7ea51a42564c8d17493c22e83a1e5672dae9d21b3
+2022-04-04 02:02:32.754992+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:c7eaa6ba84281707197020a1af8b5fa128cddcbecbcde5d5d656183f442ba326
+2022-04-04 02:02:32.755104+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:0d3acb98771937155f2c8c26a1cf5d26e625b68fb37430ba67a4603d9c988fdd
+2022-04-04 02:02:32.755181+0300 xctest[54697:492658] JsonBlockHeader,body_hash:eb2345f37193395bbc83587e498bc14ad5f0019055abcfaac3b989d382a7969a
+2022-04-04 02:02:32.755236+0300 xctest[54697:492658] JsonBlockHeader, random_bit:0
+2022-04-04 02:02:32.755300+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:89364b1e70d4a8a996e4795f63032f830292f240fef8b2bb9f84d3891fb8ee03
+2022-04-04 02:02:32.755354+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2022-04-03T23:02:04.544Z
+2022-04-04 02:02:32.755406+0300 xctest[54697:492658] JsonBlockHeader,era_id:4310
+2022-04-04 02:02:32.755456+0300 xctest[54697:492658] JsonBlockHeader,height:664704
+2022-04-04 02:02:32.755510+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.4.5
+2022-04-04 02:02:32.755560+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:32.755610+0300 xctest[54697:492658] JsonBlockBody, proposer:010e5669b070545e2b32bc66363b9d3d4390fca56bf52a05f1411b7fa18ca311c7
+2022-04-04 02:02:32.755674+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:32.755756+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:32.755830+0300 xctest[54697:492658] JsonBlock,Total proof:100
+2022-04-04 02:02:32.755903+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:32.755972+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:01cfec5658096c884d59db2c9f66814bca37d52622528f7ff209bdd2ff042bd417d4c25e413ae92df5ee5f526cfb2c63d2ef1135f13b78fd162265e10f78418f09
+2022-04-04 02:02:33.658086+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:33.658208+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:33.658332+0300 xctest[54697:492658] JsonBlock, block_hash:d16cb633eea197fec519aee2cfe050fe9a3b7e390642ccae8366455cc91c822e
+2022-04-04 02:02:33.658473+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:ec18afdd3df5c1b0f3caf7f564105f3329cd7b2ef59391c4ce13f1e9173b39b4
+2022-04-04 02:02:33.658581+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:6da6cb8ff1e35656fba9a71868af803abef40dd6fce6161d2a18fe339a0525cb
+2022-04-04 02:02:33.658677+0300 xctest[54697:492658] JsonBlockHeader,body_hash:cde00a26358a0ac039b730e4ee8f70d95fba48ee4be0690142b32fa5e898f2e3
+2022-04-04 02:02:33.658996+0300 xctest[54697:492658] JsonBlockHeader, random_bit:1
+2022-04-04 02:02:33.659129+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:8186dd2710cb3eaa5554bf7a6f6cad789877cfad3a9d151b6769e8a0feaba5bd
+2022-04-04 02:02:33.659234+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2022-03-11T04:57:11.936Z
+2022-04-04 02:02:33.659326+0300 xctest[54697:492658] JsonBlockHeader,era_id:4026
+2022-04-04 02:02:33.659411+0300 xctest[54697:492658] JsonBlockHeader,height:602343
+2022-04-04 02:02:33.659503+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.4.4
+2022-04-04 02:02:33.659588+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:33.659675+0300 xctest[54697:492658] JsonBlockBody, proposer:01ace6578907bfe6eba3a618e863bbe7274284c88e405e2857be80dd094726a223
+2022-04-04 02:02:33.659765+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:33.659851+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:33.659932+0300 xctest[54697:492658] JsonBlock,Total proof:97
+2022-04-04 02:02:33.666124+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:33.666201+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:0193f060cfb9e6bb7f6d26d3f525e74ea4015ea21b1398891193e6d1d4c1c8e2f6832a7131d1847fc57045151e211ff34f7b4f4657c29d336bc6cdaf114333c201
+2022-04-04 02:02:34.505508+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:34.505683+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:34.505806+0300 xctest[54697:492658] JsonBlock, block_hash:bbf21fe52a97c64e6b95098b1f2e098337efc9f9b63ae2ba0de37ef5a0da4b6f
+2022-04-04 02:02:34.505865+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:3a9e5db55a8c5a2e07fb1526d80fbf4c64745ab5303e56a684334e08a6ade2e0
+2022-04-04 02:02:34.505921+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:a42c238d2d850b4d9c3efac6104bbfad6b91ce1ca38733c332e35a3459166a58
+2022-04-04 02:02:34.505975+0300 xctest[54697:492658] JsonBlockHeader,body_hash:1086c5c5f3d04e3729fd9832e646a053d81b207ae9202af57a4f1d6a55c9303a
+2022-04-04 02:02:34.506089+0300 xctest[54697:492658] JsonBlockHeader, random_bit:1
+2022-04-04 02:02:34.506204+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:ddff74b667ff1337aba501dde16f9a98e014dbb3daca89829852db7ddfc91f2b
+2022-04-04 02:02:34.506271+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2021-04-23T23:15:09.952Z
+2022-04-04 02:02:34.506327+0300 xctest[54697:492658] JsonBlockHeader,era_id:177
+2022-04-04 02:02:34.506376+0300 xctest[54697:492658] JsonBlockHeader,height:12345
+2022-04-04 02:02:34.506429+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.1.0
+2022-04-04 02:02:34.506516+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:34.506631+0300 xctest[54697:492658] JsonBlockBody, proposer:0152b2b3cc1de020e0cfb5887d0fda5d99da5decaf98af90f13144e97d0e35eeaa
+2022-04-04 02:02:34.506707+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:34.506980+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:34.507272+0300 xctest[54697:492658] JsonBlock,Total proof:100
+2022-04-04 02:02:34.507391+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:34.514267+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:015a6da1fcf0284d91ef79920d9c820e2fe98147c0f2ec72d9c9ab14b82a514de1c38a08c2341e95dd1858be95e6c3f8ee5d635cae8fb36d37191d918fa049c006
+2022-04-04 02:02:35.320364+0300 xctest[54697:492658] Error get block with error message:block not known and error code:-32001
+2022-04-04 02:02:36.577057+0300 xctest[54697:492658] Error get block with error message:block not known and error code:-32001
+Test Case '-[GetBlockTest testGetBlock]' passed (4.893 seconds).
+Test Suite 'GetBlockTest' passed at 2022-04-04 02:02:36.579.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.893 (4.894) seconds
+Test Suite 'GetBlockTransfersResultTest' started at 2022-04-04 02:02:36.580
+Test Case '-[GetBlockTransfersResultTest testGetBlockTransfersResult]' started.
+2022-04-04 02:02:37.512773+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:37.512862+0300 xctest[54697:492658] block hash:42e55c045cd8a51f930802b7ea51a42564c8d17493c22e83a1e5672dae9d21b3
+2022-04-04 02:02:37.513004+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:38.435948+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:38.436094+0300 xctest[54697:492658] block hash:d16cb633eea197fec519aee2cfe050fe9a3b7e390642ccae8366455cc91c822e
+2022-04-04 02:02:38.436267+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:39.347544+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:39.347717+0300 xctest[54697:492658] block hash:bbf21fe52a97c64e6b95098b1f2e098337efc9f9b63ae2ba0de37ef5a0da4b6f
+2022-04-04 02:02:39.347822+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:40.269974+0300 xctest[54697:492658] Error get block transfer with error message:block not known and error code:-32001
+2022-04-04 02:02:41.170140+0300 xctest[54697:492658] Error get block transfer with error message:block not known and error code:-32001
+Test Case '-[GetBlockTransfersResultTest testGetBlockTransfersResult]' passed (4.591 seconds).
+Test Suite 'GetBlockTransfersResultTest' passed at 2022-04-04 02:02:41.173.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.591 (4.593) seconds
+Test Suite 'GetDeployTest' started at 2022-04-04 02:02:41.174
+Test Case '-[GetDeployTest testGetDeploy]' started.
+2022-04-04 02:02:42.752915+0300 xctest[54697:492658] GetDeployResult, api_version:1.4.5
+2022-04-04 02:02:42.753033+0300 xctest[54697:492658] Deploy, hash:a91d468e2ddc8936f7866bc594794b322f747508c2192fd4eca90ef8a121d45e
+2022-04-04 02:02:42.753105+0300 xctest[54697:492658] Deploy header log:
+2022-04-04 02:02:42.753161+0300 xctest[54697:492658] Deploy header, account:014caf1ce908f9ef3d427dceac17e5c47950becf15d1def0810c235e0d58a9efad
+2022-04-04 02:02:42.753230+0300 xctest[54697:492658] Deploy header, body_hash:d7ffe9fa44f5958d18923630576302903f12ebee3e7516834d93b44ebf0454f9
+2022-04-04 02:02:42.753284+0300 xctest[54697:492658] Deploy header, chain_name:casper-test
+2022-04-04 02:02:42.753336+0300 xctest[54697:492658] Deploy header, dependencies size:0
+2022-04-04 02:02:42.753442+0300 xctest[54697:492658] Deploy header, gas_price:1
+2022-04-04 02:02:42.753569+0300 xctest[54697:492658] Deploy header, timestamp:2022-01-17T11:11:08.508Z
+2022-04-04 02:02:42.753635+0300 xctest[54697:492658] Deploy header, ttl:30m
+2022-04-04 02:02:42.753689+0300 xctest[54697:492658] Deploy payment log:
+2022-04-04 02:02:42.753744+0300 xctest[54697:492658] ExecutableDeployItem, type:ModuleBytes
+2022-04-04 02:02:42.753799+0300 xctest[54697:492658] RuntimeArgs, total args:1
+2022-04-04 02:02:42.753848+0300 xctest[54697:492658] RuntimeArgs, Args item index 0 detail
+2022-04-04 02:02:42.753903+0300 xctest[54697:492658] NamedArg, name:amount
+2022-04-04 02:02:42.753952+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.754005+0300 xctest[54697:492658] CLValue bytes:0400ca9a3b
+2022-04-04 02:02:42.754055+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.754589+0300 xctest[54697:492658] CLType:U512
+2022-04-04 02:02:42.754695+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.754766+0300 xctest[54697:492658] Value of parsed:1000000000
+2022-04-04 02:02:42.761361+0300 xctest[54697:492658] Deploy session log:
+2022-04-04 02:02:42.761435+0300 xctest[54697:492658] ExecutableDeployItem, type:StoredContractByHash
+2022-04-04 02:02:42.761495+0300 xctest[54697:492658] ExecutableDeployItem_StoredContractByHash, hash:07eaeb63bc4b406cd83351a1217ebfa4a89f13ae55dd309811e99a042fb3919a
+2022-04-04 02:02:42.761554+0300 xctest[54697:492658] ExecutableDeployItem_StoredContractByHash, entry_point:mint
+2022-04-04 02:02:42.761606+0300 xctest[54697:492658] RuntimeArgs, total args:4
+2022-04-04 02:02:42.761654+0300 xctest[54697:492658] RuntimeArgs, Args item index 0 detail
+2022-04-04 02:02:42.761706+0300 xctest[54697:492658] NamedArg, name:recipient
+2022-04-04 02:02:42.761772+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.761823+0300 xctest[54697:492658] CLValue bytes:00c6d93dd827202f3b37297382b1cb9269c07d71a79a49824bb1a008c650a04473
+2022-04-04 02:02:42.761876+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.761995+0300 xctest[54697:492658] CLType:Key
+2022-04-04 02:02:42.762068+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.762201+0300 xctest[54697:492658] Value of parsed:{
+    Account = "account-hash-c6d93dd827202f3b37297382b1cb9269c07d71a79a49824bb1a008c650a04473";
+}
+2022-04-04 02:02:42.762257+0300 xctest[54697:492658] RuntimeArgs, Args item index 1 detail
+2022-04-04 02:02:42.762311+0300 xctest[54697:492658] NamedArg, name:token_ids
+2022-04-04 02:02:42.762365+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.762510+0300 xctest[54697:492658] CLValue bytes:010100000018000000363165353465636231656366653538376561663963636530
+2022-04-04 02:02:42.762607+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.762676+0300 xctest[54697:492658] CLType:Option{List{String}}
+2022-04-04 02:02:42.762924+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.763220+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.763277+0300 xctest[54697:492658] Value of parsed:61e54ecb1ecfe587eaf9cce0
+2022-04-04 02:02:42.763326+0300 xctest[54697:492658] RuntimeArgs, Args item index 2 detail
+2022-04-04 02:02:42.763374+0300 xctest[54697:492658] NamedArg, name:token_metas
+2022-04-04 02:02:42.764028+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.764158+0300 xctest[54697:492658] CLValue bytes:0100000004000000040000006e616d650f000000546573742050726f642041646d696e0b0000006465736372697074696f6e0700000054657374696e6708000000697066735f75726c5000000068747470733a2f2f676174657761792e70696e6174612e636c6f75642f697066732f516d6175505535726338676868795a465178423952356a43626161664777324d6e65514a524d44574c567a6a615511000000697066735f6d657461646174615f75726c5000000068747470733a2f2f676174657761792e70696e6174612e636c6f75642f697066732f516d627279797641795664426d355a346e774133613738316d6d717563366e476165754541504b393661334c506e
+2022-04-04 02:02:42.764292+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.764426+0300 xctest[54697:492658] CLType:List{Map{key:String,value:String}}
+2022-04-04 02:02:42.764552+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.764612+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.764665+0300 xctest[54697:492658] CLParsed Map, Key information:
+2022-04-04 02:02:42.764711+0300 xctest[54697:492658] Total element in list:4
+2022-04-04 02:02:42.764763+0300 xctest[54697:492658] Value of parsed:name
+2022-04-04 02:02:42.764812+0300 xctest[54697:492658] Value of parsed:description
+2022-04-04 02:02:42.764917+0300 xctest[54697:492658] Value of parsed:ipfs_url
+2022-04-04 02:02:42.765157+0300 xctest[54697:492658] Value of parsed:ipfs_metadata_url
+2022-04-04 02:02:42.765923+0300 xctest[54697:492658] CLParsed Map, Value information:
+2022-04-04 02:02:42.766309+0300 xctest[54697:492658] Total element in list:4
+2022-04-04 02:02:42.766600+0300 xctest[54697:492658] Value of parsed:Test Prod Admin
+2022-04-04 02:02:42.766737+0300 xctest[54697:492658] Value of parsed:Testing
+2022-04-04 02:02:42.767044+0300 xctest[54697:492658] Value of parsed:https://gateway.pinata.cloud/ipfs/QmauPU5rc8ghhyZFQxB9R5jCbaafGw2MneQJRMDWLVzjaU
+2022-04-04 02:02:42.767181+0300 xctest[54697:492658] Value of parsed:https://gateway.pinata.cloud/ipfs/QmbryyvAyVdBm5Z4nwA3a781mmquc6nGaeuEAPK96a3LPn
+2022-04-04 02:02:42.767248+0300 xctest[54697:492658] RuntimeArgs, Args item index 3 detail
+2022-04-04 02:02:42.767298+0300 xctest[54697:492658] NamedArg, name:token_commissions
+2022-04-04 02:02:42.768015+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.768148+0300 xctest[54697:492658] CLValue bytes:0100000000000000
+2022-04-04 02:02:42.768222+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.768295+0300 xctest[54697:492658] CLType:List{Map{key:String,value:String}}
+2022-04-04 02:02:42.768346+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.768544+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.768914+0300 xctest[54697:492658] CLParsed Map, Key information:
+2022-04-04 02:02:42.768977+0300 xctest[54697:492658] Total element in list:0
+2022-04-04 02:02:42.769218+0300 xctest[54697:492658] CLParsed Map, Value information:
+2022-04-04 02:02:42.769282+0300 xctest[54697:492658] Total element in list:0
+2022-04-04 02:02:42.769535+0300 xctest[54697:492658] EXECUTION_RESULT, Total execution_results:1
+2022-04-04 02:02:42.769597+0300 xctest[54697:492658] JsonExecutionResult item 1, information
+2022-04-04 02:02:42.769802+0300 xctest[54697:492658] JsonExecutionResult, block_hash:74e01e51fea725dd6d8fc9442629f15b2691c1d6dcf9044fe0c39f0e49c49a4a
+2022-04-04 02:02:42.769872+0300 xctest[54697:492658] JsonExecutionResult of type Success
+2022-04-04 02:02:42.769927+0300 xctest[54697:492658] JsonExecutionResult cost:874779170
+2022-04-04 02:02:42.769972+0300 xctest[54697:492658] JsonExecutionResult effect information
+2022-04-04 02:02:42.770039+0300 xctest[54697:492658] Operation:[]
+2022-04-04 02:02:42.770102+0300 xctest[54697:492658] Total transform:29
+2022-04-04 02:02:42.770153+0300 xctest[54697:492658] First transform information
+2022-04-04 02:02:42.770203+0300 xctest[54697:492658] TransformEntry, key:hash-8cf5e4acf51f54eb59291599187838dc3bc234089c46fc6ca8ad17e762ae4401
+2022-04-04 02:02:42.770255+0300 xctest[54697:492658] TransformEntry,type:Identity
+2022-04-04 02:02:42.770482+0300 xctest[54697:492658] JsonExecutionResult,Total transfer:0
+Test Case '-[GetDeployTest testGetDeploy]' passed (1.597 seconds).
+Test Suite 'GetDeployTest' passed at 2022-04-04 02:02:42.772.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.597 (1.599) seconds
+Test Suite 'GetDictionaryItemTest' started at 2022-04-04 02:02:42.773
+Test Case '-[GetDictionaryItemTest testGetDictionaryItem]' started.
+2022-04-04 02:02:43.580807+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:43.580899+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:43.581025+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:43.581094+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:43.581150+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:43.581208+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:43.581263+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:43.581411+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:43.581484+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:43.581557+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:44.441873+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:44.442035+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-ac34673fa957fa8083306892815496b8fdee0aa1509f0080823979d869176060
+2022-04-04 02:02:44.442205+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30178
+2022-04-04 02:02:44.442326+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:44.442414+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:44.442667+0300 xctest[54697:492658] CLValue bytes:0800000061626376616c7565
+2022-04-04 02:02:44.442727+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:44.442786+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:44.442840+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:44.442895+0300 xctest[54697:492658] Value of parsed:abcvalue
+2022-04-04 02:02:45.363389+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:45.363611+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:45.363759+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:45.363819+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:45.363973+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:45.364090+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:45.364153+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:45.364212+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:45.364266+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:45.364322+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:46.183393+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:46.183686+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:46.183918+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:46.184443+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:46.184526+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:46.184585+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:46.184640+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:46.184695+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:46.184746+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:46.184798+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:46.886681+0300 xctest[54697:492658] Error get dictionary item with error message:Invalid params and error code:-32602
+2022-04-04 02:02:47.602600+0300 xctest[54697:492658] Error get dictionary item with error message:Failed to parse Dictionary key and error code:-32010
+Test Case '-[GetDictionaryItemTest testGetDictionaryItem]' passed (4.830 seconds).
+Test Suite 'GetDictionaryItemTest' passed at 2022-04-04 02:02:47.604.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.830 (4.831) seconds
+Test Suite 'GetEraInfoBySwitchBlockTest' started at 2022-04-04 02:02:47.605
+Test Case '-[GetEraInfoBySwitchBlockTest testGetEraInfoBySwitchBlock]' started.
+2022-04-04 02:02:48.553449+0300 xctest[54697:492658] GetEraInfoResult, api_version:1.4.4
+2022-04-04 02:02:48.553593+0300 xctest[54697:492658] GetEraInfoResult, era_summary does not exists
+2022-04-04 02:02:49.486419+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+2022-04-04 02:02:50.681685+0300 xctest[54697:492658] GetEraInfoResult, api_version:1.4.4
+2022-04-04 02:02:50.681772+0300 xctest[54697:492658] EraSummary, block_hash:f028506fb8add2edd3f9f3713e5acd7441a5d0cd433b863c627ff6542e8c0860
+2022-04-04 02:02:50.681896+0300 xctest[54697:492658] EraSummary, era_id:2
+2022-04-04 02:02:50.681964+0300 xctest[54697:492658] EraSummary, state_root_hash:112bc563aae7ed8a55ff0e7cfc95929ab5b48d69bf11be124542eec40085ae16
+2022-04-04 02:02:50.682022+0300 xctest[54697:492658] EraSummary, merkle_proof length:26336
+2022-04-04 02:02:50.682077+0300 xctest[54697:492658] StoredValue log info, type:EraInfo
+2022-04-04 02:02:50.682131+0300 xctest[54697:492658] EraInfo, total SeigniorageAllocation:199
+2022-04-04 02:02:50.682184+0300 xctest[54697:492658] EraInfo, information for first SeigniorageAllocation item
+2022-04-04 02:02:50.682236+0300 xctest[54697:492658] -----SeigniorageAllocation of type Delegator
+2022-04-04 02:02:50.682287+0300 xctest[54697:492658] SeigniorageAllocation Delegator, validator_public_key:01026ca707c348ed8012ac6a1f28db031fadd6eb67203501a353b867a08c8b9a80
+2022-04-04 02:02:50.682346+0300 xctest[54697:492658] SeigniorageAllocation Delegator, delegator_public_key:01128ddb51119f1df535cf3a763996344ab0cc79038faaee0aaaf098a078031ce6
+2022-04-04 02:02:50.682401+0300 xctest[54697:492658] SeigniorageAllocation Delegator, amount:87735183835
+2022-04-04 02:02:51.936773+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+2022-04-04 02:02:52.860135+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+Test Case '-[GetEraInfoBySwitchBlockTest testGetEraInfoBySwitchBlock]' passed (5.256 seconds).
+Test Suite 'GetEraInfoBySwitchBlockTest' passed at 2022-04-04 02:02:52.863.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.256 (5.258) seconds
+Test Suite 'GetItemTest' started at 2022-04-04 02:02:52.864
+Test Case '-[GetItemTest testGetItem]' started.
+2022-04-04 02:02:53.783607+0300 xctest[54697:492658] GetItemResult, api_version:1.4.5
+2022-04-04 02:02:53.783741+0300 xctest[54697:492658] GetItemResult, merkle_proof length:6876
+2022-04-04 02:02:53.783869+0300 xctest[54697:492658] GetItemResult, stored_value information
+2022-04-04 02:02:53.784010+0300 xctest[54697:492658] StoredValue log info, type:Withdraw
+2022-04-04 02:02:53.784122+0300 xctest[54697:492658] Transform_WriteWithdraw,total UnbondingPurse 1
+2022-04-04 02:02:53.784214+0300 xctest[54697:492658] Transform_WriteWithdraw, item number 1 information
+2022-04-04 02:02:53.784307+0300 xctest[54697:492658] UnbondingPurse, bounding_purse:uref-5fcc3031ea2572f9929e0cfcfc84c6c3131bfe1e78bce8cb61f99f59eace7795-007
+2022-04-04 02:02:53.784545+0300 xctest[54697:492658] UnbondingPurse, validator_public_key:01d949a3a1963db686607a00862f79b76ceb185fc134d0aeedb686f1c151f4ae54
+2022-04-04 02:02:53.784652+0300 xctest[54697:492658] UnbondingPurse, unbonder_public_key:01d949a3a1963db686607a00862f79b76ceb185fc134d0aeedb686f1c151f4ae54
+2022-04-04 02:02:53.784743+0300 xctest[54697:492658] UnbondingPurse, era_of_creation:3319
+2022-04-04 02:02:53.784854+0300 xctest[54697:492658] UnbondingPurse, amount:500
+2022-04-04 02:02:54.426247+0300 xctest[54697:492658] Error get item with error message:Invalid params and error code:-32602
+2022-04-04 02:02:55.316954+0300 xctest[54697:492658] Error get item with error message:failed to parse key: withdraw-key from string error: Invalid byte `b'f'`, at index 1. and error code:-32002
+2022-04-04 02:02:56.236919+0300 xctest[54697:492658] Error get item with error message:state query failed: RootNotFound and error code:-32003
+Test Case '-[GetItemTest testGetItem]' passed (3.374 seconds).
+Test Suite 'GetItemTest' passed at 2022-04-04 02:02:56.239.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.374 (3.376) seconds
+Test Suite 'GetPeerResultTest' started at 2022-04-04 02:02:56.240
+Test Case '-[GetPeerResultTest testGetPeerList]' started.
+2022-04-04 02:02:57.339792+0300 xctest[54697:492658] M1: info_get_peers test cases
+2022-04-04 02:02:57.340085+0300 xctest[54697:492658] Get peer result api_version:1.4.5
+2022-04-04 02:02:57.340279+0300 xctest[54697:492658] Get peer result, total peer entry:384
+2022-04-04 02:02:57.340443+0300 xctest[54697:492658] List of peer printed out:
+2022-04-04 02:02:57.340758+0300 xctest[54697:492658] Peer number 1 address:18.163.249.168:35000 and node id:tls:0097..b253
+2022-04-04 02:02:57.340935+0300 xctest[54697:492658] Peer number 2 address:44.238.152.37:50740 and node id:tls:00ba..ca37
+2022-04-04 02:02:57.341051+0300 xctest[54697:492658] Peer number 3 address:95.216.67.162:35000 and node id:tls:00e5..6748
+2022-04-04 02:02:57.341159+0300 xctest[54697:492658] Peer number 4 address:65.108.4.126:48848 and node id:tls:01ae..7b8a
+2022-04-04 02:02:57.341296+0300 xctest[54697:492658] Peer number 5 address:89.58.25.11:35000 and node id:tls:029f..74fd
+2022-04-04 02:02:57.341495+0300 xctest[54697:492658] Peer number 6 address:65.21.235.219:35000 and node id:tls:0309..59c7
+2022-04-04 02:02:57.341639+0300 xctest[54697:492658] Peer number 7 address:88.99.69.157:49168 and node id:tls:0371..0dba
+2022-04-04 02:02:57.341766+0300 xctest[54697:492658] Peer number 8 address:65.21.227.181:35000 and node id:tls:03e4..1caa
+2022-04-04 02:02:57.341867+0300 xctest[54697:492658] Peer number 9 address:162.55.6.177:35000 and node id:tls:03ed..0609
+2022-04-04 02:02:57.349116+0300 xctest[54697:492658] Peer number 10 address:88.99.89.209:35000 and node id:tls:03f5..21ff
+2022-04-04 02:02:57.349198+0300 xctest[54697:492658] Peer number 11 address:144.126.152.28:43592 and node id:tls:0414..5546
+2022-04-04 02:02:57.349291+0300 xctest[54697:492658] Peer number 12 address:54.72.219.182:36488 and node id:tls:0508..940c
+2022-04-04 02:02:57.349385+0300 xctest[54697:492658] Peer number 13 address:118.200.90.72:51362 and node id:tls:05a0..b1cb
+2022-04-04 02:02:57.349478+0300 xctest[54697:492658] Peer number 14 address:103.114.224.150:52192 and node id:tls:0663..5ff7
+2022-04-04 02:02:57.349568+0300 xctest[54697:492658] Peer number 15 address:65.108.7.50:35000 and node id:tls:0706..8353
+2022-04-04 02:02:57.349658+0300 xctest[54697:492658] Peer number 16 address:65.108.42.61:35000 and node id:tls:0718..0f50
+2022-04-04 02:02:57.349747+0300 xctest[54697:492658] Peer number 17 address:94.130.33.181:35000 and node id:tls:07f5..9eb0
+2022-04-04 02:02:57.349836+0300 xctest[54697:492658] Peer number 18 address:65.21.75.94:35000 and node id:tls:0845..5786
+2022-04-04 02:02:57.349925+0300 xctest[54697:492658] Peer number 19 address:138.201.133.150:35000 and node id:tls:089a..d19a
+2022-04-04 02:02:57.350014+0300 xctest[54697:492658] Peer number 20 address:23.88.71.231:59330 and node id:tls:08b9..0139
+2022-04-04 02:02:57.350106+0300 xctest[54697:492658] Peer number 21 address:93.186.201.14:35000 and node id:tls:097c..e44f
+2022-04-04 02:02:57.350199+0300 xctest[54697:492658] Peer number 22 address:118.200.90.72:33966 and node id:tls:0bda..bfa2
+2022-04-04 02:02:57.350385+0300 xctest[54697:492658] Peer number 23 address:118.200.90.72:33984 and node id:tls:0be5..6aab
+2022-04-04 02:02:57.350500+0300 xctest[54697:492658] Peer number 24 address:65.21.231.23:35000 and node id:tls:0c48..06b3
+2022-04-04 02:02:57.350599+0300 xctest[54697:492658] Peer number 25 address:88.99.146.74:35000 and node id:tls:0fb7..a22b
+2022-04-04 02:02:57.350693+0300 xctest[54697:492658] Peer number 26 address:54.72.219.182:54956 and node id:tls:108a..ae4f
+2022-04-04 02:02:57.350786+0300 xctest[54697:492658] Peer number 27 address:65.21.231.29:35000 and node id:tls:10ca..f6d1
+2022-04-04 02:02:57.350880+0300 xctest[54697:492658] Peer number 28 address:94.130.10.55:35000 and node id:tls:1265..3319
+2022-04-04 02:02:57.350990+0300 xctest[54697:492658] Peer number 29 address:95.216.38.174:35000 and node id:tls:1318..70f9
+2022-04-04 02:02:57.351161+0300 xctest[54697:492658] Peer number 30 address:65.108.0.107:35000 and node id:tls:1346..d363
+2022-04-04 02:02:57.351257+0300 xctest[54697:492658] Peer number 31 address:5.9.2.171:35000 and node id:tls:13ef..48cf
+2022-04-04 02:02:57.351398+0300 xctest[54697:492658] Peer number 32 address:136.243.137.238:35000 and node id:tls:14ae..3720
+2022-04-04 02:02:57.351489+0300 xctest[54697:492658] Peer number 33 address:144.91.68.55:35000 and node id:tls:14d4..f459
+2022-04-04 02:02:57.351576+0300 xctest[54697:492658] Peer number 34 address:139.180.189.141:35000 and node id:tls:1509..7e85
+2022-04-04 02:02:57.351663+0300 xctest[54697:492658] Peer number 35 address:65.108.73.148:35000 and node id:tls:155e..f5eb
+2022-04-04 02:02:57.351748+0300 xctest[54697:492658] Peer number 36 address:65.108.41.39:35000 and node id:tls:1600..ca7a
+2022-04-04 02:02:57.351833+0300 xctest[54697:492658] Peer number 37 address:88.99.0.42:35000 and node id:tls:172b..ac8e
+2022-04-04 02:02:57.351920+0300 xctest[54697:492658] Peer number 38 address:135.181.214.157:35000 and node id:tls:17d1..5b8e
+2022-04-04 02:02:57.352018+0300 xctest[54697:492658] Peer number 39 address:142.4.208.204:35000 and node id:tls:196a..2f64
+2022-04-04 02:02:57.352104+0300 xctest[54697:492658] Peer number 40 address:118.200.90.72:33982 and node id:tls:19b3..75aa
+2022-04-04 02:02:57.352191+0300 xctest[54697:492658] Peer number 41 address:103.146.240.245:35200 and node id:tls:19b3..a1a5
+2022-04-04 02:02:57.352276+0300 xctest[54697:492658] Peer number 42 address:62.171.156.235:35000 and node id:tls:19e4..498d
+2022-04-04 02:02:57.352363+0300 xctest[54697:492658] Peer number 43 address:5.9.21.115:35000 and node id:tls:1a86..1c5a
+2022-04-04 02:02:57.352543+0300 xctest[54697:492658] Peer number 44 address:167.99.210.123:35000 and node id:tls:1b59..b60b
+2022-04-04 02:02:57.353058+0300 xctest[54697:492658] Peer number 45 address:185.215.165.34:35000 and node id:tls:1c82..37a3
+2022-04-04 02:02:57.353247+0300 xctest[54697:492658] Peer number 46 address:207.180.214.56:35000 and node id:tls:1c94..45aa
+2022-04-04 02:02:57.353366+0300 xctest[54697:492658] Peer number 47 address:172.114.130.252:32898 and node id:tls:1cd2..961c
+2022-04-04 02:02:57.353561+0300 xctest[54697:492658] Peer number 48 address:138.201.54.44:35000 and node id:tls:1cdc..d81b
+2022-04-04 02:02:57.353656+0300 xctest[54697:492658] Peer number 49 address:65.108.12.160:35000 and node id:tls:1ce7..7381
+2022-04-04 02:02:57.353747+0300 xctest[54697:492658] Peer number 50 address:103.146.240.245:58880 and node id:tls:1d8c..4817
+2022-04-04 02:02:57.353887+0300 xctest[54697:492658] Peer number 51 address:195.88.87.26:35000 and node id:tls:1dda..113a
+2022-04-04 02:02:57.353990+0300 xctest[54697:492658] Peer number 52 address:46.4.32.165:35000 and node id:tls:1e4e..fb9b
+2022-04-04 02:02:57.354083+0300 xctest[54697:492658] Peer number 53 address:54.186.192.89:56160 and node id:tls:1ec8..15a9
+2022-04-04 02:02:57.354173+0300 xctest[54697:492658] Peer number 54 address:65.108.0.22:35000 and node id:tls:1eea..80d1
+2022-04-04 02:02:57.354262+0300 xctest[54697:492658] Peer number 55 address:65.108.43.219:35000 and node id:tls:1fb7..837c
+2022-04-04 02:02:57.354383+0300 xctest[54697:492658] Peer number 56 address:65.108.10.126:35000 and node id:tls:205b..f5b2
+2022-04-04 02:02:57.354758+0300 xctest[54697:492658] Peer number 57 address:35.169.205.205:35000 and node id:tls:20de..79ee
+2022-04-04 02:02:57.354903+0300 xctest[54697:492658] Peer number 58 address:65.21.237.153:35000 and node id:tls:21b4..076b
+2022-04-04 02:02:57.355024+0300 xctest[54697:492658] Peer number 59 address:47.106.100.25:41266 and node id:tls:22c3..658c
+2022-04-04 02:02:57.355160+0300 xctest[54697:492658] Peer number 60 address:65.21.88.62:35000 and node id:tls:23ca..a632
+2022-04-04 02:02:57.355297+0300 xctest[54697:492658] Peer number 61 address:65.108.2.45:35000 and node id:tls:23f0..e235
+2022-04-04 02:02:57.355389+0300 xctest[54697:492658] Peer number 62 address:155.138.175.136:35000 and node id:tls:2427..1e52
+2022-04-04 02:02:57.355580+0300 xctest[54697:492658] Peer number 63 address:23.88.0.163:35000 and node id:tls:258a..1819
+2022-04-04 02:02:57.355716+0300 xctest[54697:492658] Peer number 64 address:138.201.48.72:35000 and node id:tls:25c3..4c4a
+2022-04-04 02:02:57.355871+0300 xctest[54697:492658] Peer number 65 address:118.200.90.72:33978 and node id:tls:2602..c802
+2022-04-04 02:02:57.355972+0300 xctest[54697:492658] Peer number 66 address:103.146.240.245:59186 and node id:tls:276c..e0c8
+2022-04-04 02:02:57.356062+0300 xctest[54697:492658] Peer number 67 address:135.181.20.91:35000 and node id:tls:27cf..bb5a
+2022-04-04 02:02:57.356196+0300 xctest[54697:492658] Peer number 68 address:148.251.195.32:35000 and node id:tls:289b..83d5
+2022-04-04 02:02:57.356296+0300 xctest[54697:492658] Peer number 69 address:3.23.146.54:35000 and node id:tls:289d..2628
+2022-04-04 02:02:57.356386+0300 xctest[54697:492658] Peer number 70 address:35.83.75.217:45456 and node id:tls:292a..5d54
+2022-04-04 02:02:57.356487+0300 xctest[54697:492658] Peer number 71 address:65.21.239.31:35000 and node id:tls:2b04..ba7c
+2022-04-04 02:02:57.356576+0300 xctest[54697:492658] Peer number 72 address:5.9.20.162:35000 and node id:tls:2b70..92da
+2022-04-04 02:02:57.356664+0300 xctest[54697:492658] Peer number 73 address:118.200.90.72:33988 and node id:tls:2bc0..c0a4
+2022-04-04 02:02:57.356750+0300 xctest[54697:492658] Peer number 74 address:54.72.219.182:49620 and node id:tls:2ce3..84ae
+2022-04-04 02:02:57.356839+0300 xctest[54697:492658] Peer number 75 address:87.233.77.35:35000 and node id:tls:2d5a..d6dc
+2022-04-04 02:02:57.356925+0300 xctest[54697:492658] Peer number 76 address:88.99.100.240:51302 and node id:tls:2e69..7715
+2022-04-04 02:02:57.357009+0300 xctest[54697:492658] Peer number 77 address:103.146.240.245:43164 and node id:tls:2eb8..f6ed
+2022-04-04 02:02:57.357094+0300 xctest[54697:492658] Peer number 78 address:65.21.237.113:35000 and node id:tls:2ef8..b63d
+2022-04-04 02:02:57.357233+0300 xctest[54697:492658] Peer number 79 address:142.132.192.37:35000 and node id:tls:2fff..3809
+2022-04-04 02:02:57.357323+0300 xctest[54697:492658] Peer number 80 address:54.72.219.182:59462 and node id:tls:30e3..2638
+2022-04-04 02:02:57.357407+0300 xctest[54697:492658] Peer number 81 address:148.251.81.170:35000 and node id:tls:30ea..1ec4
+2022-04-04 02:02:57.357561+0300 xctest[54697:492658] Peer number 82 address:142.132.155.188:35000 and node id:tls:316d..f856
+2022-04-04 02:02:57.357700+0300 xctest[54697:492658] Peer number 83 address:135.181.140.236:35000 and node id:tls:3209..fc3b
+2022-04-04 02:02:57.358117+0300 xctest[54697:492658] Peer number 84 address:95.216.247.164:35000 and node id:tls:3388..eda2
+2022-04-04 02:02:57.358281+0300 xctest[54697:492658] Peer number 85 address:65.108.2.50:38354 and node id:tls:34e1..b0e0
+2022-04-04 02:02:57.358603+0300 xctest[54697:492658] Peer number 86 address:65.21.239.114:35000 and node id:tls:34fd..ad70
+2022-04-04 02:02:57.358729+0300 xctest[54697:492658] Peer number 87 address:54.203.120.71:59100 and node id:tls:353e..5594
+2022-04-04 02:02:57.358864+0300 xctest[54697:492658] Peer number 88 address:88.99.141.148:35000 and node id:tls:360f..c243
+2022-04-04 02:02:57.358958+0300 xctest[54697:492658] Peer number 89 address:103.114.224.150:46326 and node id:tls:36db..37ba
+2022-04-04 02:02:57.359152+0300 xctest[54697:492658] Peer number 90 address:46.4.119.228:35000 and node id:tls:370a..a441
+2022-04-04 02:02:57.359250+0300 xctest[54697:492658] Peer number 91 address:13.36.48.32:35000 and node id:tls:37a0..5dfa
+2022-04-04 02:02:57.359401+0300 xctest[54697:492658] Peer number 92 address:65.21.201.245:35000 and node id:tls:3800..ea23
+2022-04-04 02:02:57.359544+0300 xctest[54697:492658] Peer number 93 address:35.81.75.47:42308 and node id:tls:38bb..58c8
+2022-04-04 02:02:57.359637+0300 xctest[54697:492658] Peer number 94 address:65.21.235.239:35000 and node id:tls:3943..673c
+2022-04-04 02:02:57.359728+0300 xctest[54697:492658] Peer number 95 address:95.216.72.156:35000 and node id:tls:39d9..c68b
+2022-04-04 02:02:57.359816+0300 xctest[54697:492658] Peer number 96 address:162.55.239.44:35000 and node id:tls:3a09..1b53
+2022-04-04 02:02:57.359904+0300 xctest[54697:492658] Peer number 97 address:65.108.4.121:54654 and node id:tls:3a8a..58d1
+2022-04-04 02:02:57.359991+0300 xctest[54697:492658] Peer number 98 address:138.201.17.176:35000 and node id:tls:3ac4..74d2
+2022-04-04 02:02:57.360078+0300 xctest[54697:492658] Peer number 99 address:54.72.219.182:38950 and node id:tls:3b2f..5fb1
+2022-04-04 02:02:57.360166+0300 xctest[54697:492658] Peer number 100 address:114.143.165.174:52676 and node id:tls:3db5..c774
+2022-04-04 02:02:57.360255+0300 xctest[54697:492658] Peer number 101 address:95.216.10.102:35000 and node id:tls:3e07..7456
+2022-04-04 02:02:57.360344+0300 xctest[54697:492658] Peer number 102 address:89.58.30.220:35000 and node id:tls:3e43..cfaa
+2022-04-04 02:02:57.360431+0300 xctest[54697:492658] Peer number 103 address:54.193.230.87:35000 and node id:tls:3e94..a4b1
+2022-04-04 02:02:57.360515+0300 xctest[54697:492658] Peer number 104 address:135.181.113.209:35000 and node id:tls:3ebb..42eb
+2022-04-04 02:02:57.360603+0300 xctest[54697:492658] Peer number 105 address:23.88.71.227:41488 and node id:tls:408c..74fa
+2022-04-04 02:02:57.360692+0300 xctest[54697:492658] Peer number 106 address:5.9.23.55:35000 and node id:tls:4154..9855
+2022-04-04 02:02:57.360782+0300 xctest[54697:492658] Peer number 107 address:210.245.49.112:49784 and node id:tls:41dd..e41e
+2022-04-04 02:02:57.360868+0300 xctest[54697:492658] Peer number 108 address:54.190.157.127:58756 and node id:tls:41de..f32c
+2022-04-04 02:02:57.360955+0300 xctest[54697:492658] Peer number 109 address:195.201.107.240:35000 and node id:tls:4231..d5b3
+2022-04-04 02:02:57.361058+0300 xctest[54697:492658] Peer number 110 address:85.114.132.129:35000 and node id:tls:429e..a475
+2022-04-04 02:02:57.361145+0300 xctest[54697:492658] Peer number 111 address:135.181.74.237:35000 and node id:tls:432a..6952
+2022-04-04 02:02:57.361231+0300 xctest[54697:492658] Peer number 112 address:65.108.5.253:35000 and node id:tls:436d..313a
+2022-04-04 02:02:57.361418+0300 xctest[54697:492658] Peer number 113 address:65.108.4.27:35000 and node id:tls:43ad..0ed4
+2022-04-04 02:02:57.361531+0300 xctest[54697:492658] Peer number 114 address:178.170.42.149:35000 and node id:tls:43c5..72ab
+2022-04-04 02:02:57.361663+0300 xctest[54697:492658] Peer number 115 address:103.114.224.150:54194 and node id:tls:46d5..b617
+2022-04-04 02:02:57.361805+0300 xctest[54697:492658] Peer number 116 address:193.48.40.70:1728 and node id:tls:47ac..c98e
+2022-04-04 02:02:57.361901+0300 xctest[54697:492658] Peer number 117 address:135.181.216.142:35000 and node id:tls:480c..d92c
+2022-04-04 02:02:57.362093+0300 xctest[54697:492658] Peer number 118 address:89.163.224.120:35000 and node id:tls:49a5..5cc7
+2022-04-04 02:02:57.362193+0300 xctest[54697:492658] Peer number 119 address:210.245.49.112:53830 and node id:tls:49d5..0142
+2022-04-04 02:02:57.362463+0300 xctest[54697:492658] Peer number 120 address:167.71.14.48:52468 and node id:tls:4b1c..f9df
+2022-04-04 02:02:57.362665+0300 xctest[54697:492658] Peer number 121 address:148.251.22.148:35000 and node id:tls:4b67..acb2
+2022-04-04 02:02:57.362808+0300 xctest[54697:492658] Peer number 122 address:109.238.14.37:35000 and node id:tls:4d2f..36ef
+2022-04-04 02:02:57.363128+0300 xctest[54697:492658] Peer number 123 address:3.208.91.63:35000 and node id:tls:4d4c..dca4
+2022-04-04 02:02:57.363427+0300 xctest[54697:492658] Peer number 124 address:116.202.221.216:35480 and node id:tls:4d98..f698
+2022-04-04 02:02:57.363523+0300 xctest[54697:492658] Peer number 125 address:65.108.10.150:35000 and node id:tls:4ed4..1783
+2022-04-04 02:02:57.363627+0300 xctest[54697:492658] Peer number 126 address:65.21.132.206:35000 and node id:tls:5007..6d0f
+2022-04-04 02:02:57.363761+0300 xctest[54697:492658] Peer number 127 address:5.9.154.76:35000 and node id:tls:502f..9d46
+2022-04-04 02:02:57.363895+0300 xctest[54697:492658] Peer number 128 address:157.90.130.143:35000 and node id:tls:515b..5465
+2022-04-04 02:02:57.364117+0300 xctest[54697:492658] Peer number 129 address:95.216.45.210:35000 and node id:tls:5189..24d9
+2022-04-04 02:02:57.364285+0300 xctest[54697:492658] Peer number 130 address:65.21.125.235:35000 and node id:tls:5276..a216
+2022-04-04 02:02:57.364543+0300 xctest[54697:492658] Peer number 131 address:103.146.240.245:40962 and node id:tls:52bd..b737
+2022-04-04 02:02:57.364670+0300 xctest[54697:492658] Peer number 132 address:135.181.116.109:35000 and node id:tls:5320..1a63
+2022-04-04 02:02:57.364970+0300 xctest[54697:492658] Peer number 133 address:210.245.49.112:34260 and node id:tls:5377..df5d
+2022-04-04 02:02:57.365079+0300 xctest[54697:492658] Peer number 134 address:65.21.227.86:35000 and node id:tls:541d..f920
+2022-04-04 02:02:57.365402+0300 xctest[54697:492658] Peer number 135 address:65.21.194.138:35000 and node id:tls:5422..921a
+2022-04-04 02:02:57.365865+0300 xctest[54697:492658] Peer number 136 address:65.21.132.234:35000 and node id:tls:54d0..c10b
+2022-04-04 02:02:57.365991+0300 xctest[54697:492658] Peer number 137 address:118.200.90.72:33990 and node id:tls:5523..f8c1
+2022-04-04 02:02:57.366093+0300 xctest[54697:492658] Peer number 138 address:128.199.188.182:35000 and node id:tls:5601..4385
+2022-04-04 02:02:57.366190+0300 xctest[54697:492658] Peer number 139 address:18.141.10.216:35000 and node id:tls:568a..9d57
+2022-04-04 02:02:57.366288+0300 xctest[54697:492658] Peer number 140 address:94.130.14.186:35000 and node id:tls:5720..b8a5
+2022-04-04 02:02:57.366385+0300 xctest[54697:492658] Peer number 141 address:65.108.3.230:35000 and node id:tls:577b..9c2e
+2022-04-04 02:02:57.366481+0300 xctest[54697:492658] Peer number 142 address:3.136.154.249:35000 and node id:tls:5804..9e3f
+2022-04-04 02:02:57.366576+0300 xctest[54697:492658] Peer number 143 address:136.243.48.239:54002 and node id:tls:581e..c97d
+2022-04-04 02:02:57.366676+0300 xctest[54697:492658] Peer number 144 address:135.181.165.233:35000 and node id:tls:5a22..742d
+2022-04-04 02:02:57.366774+0300 xctest[54697:492658] Peer number 145 address:85.114.132.133:35000 and node id:tls:5b61..2b16
+2022-04-04 02:02:57.368701+0300 xctest[54697:492658] Peer number 146 address:95.216.42.190:35000 and node id:tls:5bb8..bed0
+2022-04-04 02:02:57.369082+0300 xctest[54697:492658] Peer number 147 address:142.4.208.184:35000 and node id:tls:5cf6..072a
+2022-04-04 02:02:57.369203+0300 xctest[54697:492658] Peer number 148 address:138.201.206.195:35000 and node id:tls:5d39..22d2
+2022-04-04 02:02:57.369439+0300 xctest[54697:492658] Peer number 149 address:35.166.244.188:51568 and node id:tls:5d7b..4890
+2022-04-04 02:02:57.369560+0300 xctest[54697:492658] Peer number 150 address:198.245.51.193:35000 and node id:tls:5db7..269d
+2022-04-04 02:02:57.369685+0300 xctest[54697:492658] Peer number 151 address:65.21.236.44:35000 and node id:tls:5e71..756b
+2022-04-04 02:02:57.370060+0300 xctest[54697:492658] Peer number 152 address:138.201.53.13:35000 and node id:tls:5e82..3c6b
+2022-04-04 02:02:57.370174+0300 xctest[54697:492658] Peer number 153 address:65.108.101.71:35000 and node id:tls:5eb3..4dc3
+2022-04-04 02:02:57.370332+0300 xctest[54697:492658] Peer number 154 address:65.21.194.140:35000 and node id:tls:5ec9..4463
+2022-04-04 02:02:57.370476+0300 xctest[54697:492658] Peer number 155 address:103.146.240.245:43262 and node id:tls:600b..e67a
+2022-04-04 02:02:57.370576+0300 xctest[54697:492658] Peer number 156 address:157.90.34.213:35000 and node id:tls:614e..8d60
+2022-04-04 02:02:57.370824+0300 xctest[54697:492658] Peer number 157 address:167.99.217.85:35000 and node id:tls:61c5..2859
+2022-04-04 02:02:57.371032+0300 xctest[54697:492658] Peer number 158 address:135.181.207.1:35000 and node id:tls:6218..4baa
+2022-04-04 02:02:57.371140+0300 xctest[54697:492658] Peer number 159 address:65.21.231.40:35000 and node id:tls:629a..32ff
+2022-04-04 02:02:57.371236+0300 xctest[54697:492658] Peer number 160 address:103.114.224.150:51274 and node id:tls:62e2..271f
+2022-04-04 02:02:57.371329+0300 xctest[54697:492658] Peer number 161 address:81.30.157.85:35000 and node id:tls:66cf..f454
+2022-04-04 02:02:57.371418+0300 xctest[54697:492658] Peer number 162 address:144.76.110.71:35000 and node id:tls:67cd..2a2a
+2022-04-04 02:02:57.371507+0300 xctest[54697:492658] Peer number 163 address:3.129.252.116:35000 and node id:tls:6804..6d09
+2022-04-04 02:02:57.371608+0300 xctest[54697:492658] Peer number 164 address:103.114.224.150:53718 and node id:tls:6938..c578
+2022-04-04 02:02:57.371696+0300 xctest[54697:492658] Peer number 165 address:88.198.2.214:35000 and node id:tls:69a4..6e7b
+2022-04-04 02:02:57.371783+0300 xctest[54697:492658] Peer number 166 address:65.108.46.187:35000 and node id:tls:6cb9..cbb4
+2022-04-04 02:02:57.371869+0300 xctest[54697:492658] Peer number 167 address:65.21.227.35:35000 and node id:tls:6ea7..59c9
+2022-04-04 02:02:57.372026+0300 xctest[54697:492658] Peer number 168 address:5.9.21.141:35000 and node id:tls:6f87..d639
+2022-04-04 02:02:57.372143+0300 xctest[54697:492658] Peer number 169 address:148.251.78.90:45454 and node id:tls:7062..d255
+2022-04-04 02:02:57.372271+0300 xctest[54697:492658] Peer number 170 address:18.167.47.162:35000 and node id:tls:70cf..b957
+2022-04-04 02:02:57.372466+0300 xctest[54697:492658] Peer number 171 address:118.189.191.191:35000 and node id:tls:7107..6f9a
+2022-04-04 02:02:57.372659+0300 xctest[54697:492658] Peer number 172 address:162.55.242.24:35000 and node id:tls:7171..c648
+2022-04-04 02:02:57.372757+0300 xctest[54697:492658] Peer number 173 address:65.108.41.164:35000 and node id:tls:7288..2ee7
+2022-04-04 02:02:57.372861+0300 xctest[54697:492658] Peer number 174 address:195.201.167.179:35000 and node id:tls:72fc..7444
+2022-04-04 02:02:57.373055+0300 xctest[54697:492658] Peer number 175 address:103.114.224.150:45130 and node id:tls:7337..5fa5
+2022-04-04 02:02:57.373340+0300 xctest[54697:492658] Peer number 176 address:65.108.11.103:35000 and node id:tls:738d..fa71
+2022-04-04 02:02:57.373450+0300 xctest[54697:492658] Peer number 177 address:65.108.3.108:35000 and node id:tls:73ee..af58
+2022-04-04 02:02:57.373755+0300 xctest[54697:492658] Peer number 178 address:136.243.147.249:35000 and node id:tls:74e2..f300
+2022-04-04 02:02:57.373955+0300 xctest[54697:492658] Peer number 179 address:198.100.148.19:35000 and node id:tls:759a..76c8
+2022-04-04 02:02:57.374080+0300 xctest[54697:492658] Peer number 180 address:13.52.2.182:35000 and node id:tls:76c5..8553
+2022-04-04 02:02:57.374300+0300 xctest[54697:492658] Peer number 181 address:54.72.219.182:37846 and node id:tls:76cf..7e20
+2022-04-04 02:02:57.374439+0300 xctest[54697:492658] Peer number 182 address:188.40.47.161:35000 and node id:tls:7731..d2eb
+2022-04-04 02:02:57.374538+0300 xctest[54697:492658] Peer number 183 address:178.170.46.167:35000 and node id:tls:780a..6ca2
+2022-04-04 02:02:57.374629+0300 xctest[54697:492658] Peer number 184 address:95.216.71.88:35000 and node id:tls:78ee..ee62
+2022-04-04 02:02:57.374715+0300 xctest[54697:492658] Peer number 185 address:65.108.11.90:35000 and node id:tls:7a2f..fdec
+2022-04-04 02:02:57.374801+0300 xctest[54697:492658] Peer number 186 address:118.200.90.72:33980 and node id:tls:7a8e..8409
+2022-04-04 02:02:57.374888+0300 xctest[54697:492658] Peer number 187 address:148.251.90.119:35000 and node id:tls:7b05..68ad
+2022-04-04 02:02:57.374975+0300 xctest[54697:492658] Peer number 188 address:95.217.206.250:35000 and node id:tls:7c60..f9a5
+2022-04-04 02:02:57.375287+0300 xctest[54697:492658] Peer number 189 address:95.216.246.31:35000 and node id:tls:7c62..e3d2
+2022-04-04 02:02:57.375389+0300 xctest[54697:492658] Peer number 190 address:65.21.92.145:35000 and node id:tls:7cab..a75f
+2022-04-04 02:02:57.375525+0300 xctest[54697:492658] Peer number 191 address:94.130.140.91:35000 and node id:tls:7cad..a1d0
+2022-04-04 02:02:57.375633+0300 xctest[54697:492658] Peer number 192 address:195.201.174.222:35000 and node id:tls:7d63..3426
+2022-04-04 02:02:57.375809+0300 xctest[54697:492658] Peer number 193 address:162.55.245.143:35000 and node id:tls:7e90..9a4d
+2022-04-04 02:02:57.375918+0300 xctest[54697:492658] Peer number 194 address:149.28.148.172:35000 and node id:tls:7f3d..3e23
+2022-04-04 02:02:57.376136+0300 xctest[54697:492658] Peer number 195 address:103.146.240.245:58888 and node id:tls:805e..2fea
+2022-04-04 02:02:57.376244+0300 xctest[54697:492658] Peer number 196 address:116.202.158.93:35000 and node id:tls:8098..01c3
+2022-04-04 02:02:57.376347+0300 xctest[54697:492658] Peer number 197 address:45.76.150.22:35000 and node id:tls:80c6..8a6b
+2022-04-04 02:02:57.376712+0300 xctest[54697:492658] Peer number 198 address:148.251.10.212:35000 and node id:tls:80ff..ce19
+2022-04-04 02:02:57.376883+0300 xctest[54697:492658] Peer number 199 address:103.114.224.150:43610 and node id:tls:825f..154b
+2022-04-04 02:02:57.376979+0300 xctest[54697:492658] Peer number 200 address:5.9.21.244:35000 and node id:tls:8320..b3a9
+2022-04-04 02:02:57.377156+0300 xctest[54697:492658] Peer number 201 address:49.12.51.214:35000 and node id:tls:8321..7a95
+2022-04-04 02:02:57.377260+0300 xctest[54697:492658] Peer number 202 address:167.99.209.179:35000 and node id:tls:8343..3b4f
+2022-04-04 02:02:57.377355+0300 xctest[54697:492658] Peer number 203 address:52.70.214.247:35000 and node id:tls:83cb..53da
+2022-04-04 02:02:57.377479+0300 xctest[54697:492658] Peer number 204 address:207.148.121.215:35000 and node id:tls:853f..1e2d
+2022-04-04 02:02:57.377778+0300 xctest[54697:492658] Peer number 205 address:35.163.152.22:43660 and node id:tls:8568..1422
+2022-04-04 02:02:57.378032+0300 xctest[54697:492658] Peer number 206 address:65.108.8.45:35000 and node id:tls:85ba..9376
+2022-04-04 02:02:57.378195+0300 xctest[54697:492658] Peer number 207 address:65.21.88.221:35000 and node id:tls:85c9..a9e1
+2022-04-04 02:02:57.378380+0300 xctest[54697:492658] Peer number 208 address:45.83.106.29:35000 and node id:tls:8688..59e0
+2022-04-04 02:02:57.378537+0300 xctest[54697:492658] Peer number 209 address:65.108.0.79:35000 and node id:tls:86ca..2231
+2022-04-04 02:02:57.378681+0300 xctest[54697:492658] Peer number 210 address:65.108.101.20:35000 and node id:tls:86f6..2f07
+2022-04-04 02:02:57.378778+0300 xctest[54697:492658] Peer number 211 address:138.201.224.174:35000 and node id:tls:8799..b911
+2022-04-04 02:02:57.378876+0300 xctest[54697:492658] Peer number 212 address:65.108.1.61:35000 and node id:tls:8972..87ef
+2022-04-04 02:02:57.379164+0300 xctest[54697:492658] Peer number 213 address:159.65.118.250:35000 and node id:tls:8a1d..292e
+2022-04-04 02:02:57.379307+0300 xctest[54697:492658] Peer number 214 address:142.132.208.215:35000 and node id:tls:8a20..d4e0
+2022-04-04 02:02:57.379403+0300 xctest[54697:492658] Peer number 215 address:54.72.219.182:55390 and node id:tls:8c43..e03f
+2022-04-04 02:02:57.379492+0300 xctest[54697:492658] Peer number 216 address:51.124.238.59:35000 and node id:tls:8d31..d40b
+2022-04-04 02:02:57.379691+0300 xctest[54697:492658] Peer number 217 address:103.114.224.150:53748 and node id:tls:8d6b..7ea3
+2022-04-04 02:02:57.379806+0300 xctest[54697:492658] Peer number 218 address:135.181.114.196:35000 and node id:tls:8e1b..85af
+2022-04-04 02:02:57.380113+0300 xctest[54697:492658] Peer number 219 address:88.99.60.204:35000 and node id:tls:90ac..6529
+2022-04-04 02:02:57.380282+0300 xctest[54697:492658] Peer number 220 address:141.94.194.38:35000 and node id:tls:9150..cd50
+2022-04-04 02:02:57.380484+0300 xctest[54697:492658] Peer number 221 address:65.108.2.46:35000 and node id:tls:91a5..704a
+2022-04-04 02:02:57.380581+0300 xctest[54697:492658] Peer number 222 address:172.114.130.252:35000 and node id:tls:92dc..8c74
+2022-04-04 02:02:57.380675+0300 xctest[54697:492658] Peer number 223 address:65.108.2.223:35000 and node id:tls:9486..103a
+2022-04-04 02:02:57.380761+0300 xctest[54697:492658] Peer number 224 address:65.108.42.60:35000 and node id:tls:9521..1f97
+2022-04-04 02:02:57.380848+0300 xctest[54697:492658] Peer number 225 address:65.108.140.73:35000 and node id:tls:95a3..8525
+2022-04-04 02:02:57.380955+0300 xctest[54697:492658] Peer number 226 address:5.9.50.59:35000 and node id:tls:95a5..ea3a
+2022-04-04 02:02:57.381062+0300 xctest[54697:492658] Peer number 227 address:164.68.98.13:35000 and node id:tls:9689..6e25
+2022-04-04 02:02:57.381156+0300 xctest[54697:492658] Peer number 228 address:121.6.33.237:32090 and node id:tls:96ce..3b57
+2022-04-04 02:02:57.381337+0300 xctest[54697:492658] Peer number 229 address:3.128.192.255:35000 and node id:tls:9781..9580
+2022-04-04 02:02:57.381453+0300 xctest[54697:492658] Peer number 230 address:207.180.199.157:49158 and node id:tls:98b5..c830
+2022-04-04 02:02:57.381558+0300 xctest[54697:492658] Peer number 231 address:16.162.124.124:35000 and node id:tls:9a65..3f65
+2022-04-04 02:02:57.381699+0300 xctest[54697:492658] Peer number 232 address:157.90.7.48:35000 and node id:tls:9b34..6cac
+2022-04-04 02:02:57.381803+0300 xctest[54697:492658] Peer number 233 address:35.238.105.248:35000 and node id:tls:9b98..5660
+2022-04-04 02:02:57.381953+0300 xctest[54697:492658] Peer number 234 address:103.146.240.245:58864 and node id:tls:9bb7..bb09
+2022-04-04 02:02:57.382097+0300 xctest[54697:492658] Peer number 235 address:5.9.77.72:35000 and node id:tls:9c08..1d2f
+2022-04-04 02:02:57.382243+0300 xctest[54697:492658] Peer number 236 address:65.21.77.17:35000 and node id:tls:9f03..2f74
+2022-04-04 02:02:57.382432+0300 xctest[54697:492658] Peer number 237 address:65.21.95.180:35000 and node id:tls:a2fa..0213
+2022-04-04 02:02:57.382568+0300 xctest[54697:492658] Peer number 238 address:65.108.2.43:35000 and node id:tls:a35d..3eb6
+2022-04-04 02:02:57.382666+0300 xctest[54697:492658] Peer number 239 address:118.200.90.72:33964 and node id:tls:a396..6730
+2022-04-04 02:02:57.382758+0300 xctest[54697:492658] Peer number 240 address:213.202.212.222:35000 and node id:tls:a3bb..7817
+2022-04-04 02:02:57.382929+0300 xctest[54697:492658] Peer number 241 address:94.130.143.151:35000 and node id:tls:a434..b887
+2022-04-04 02:02:57.383045+0300 xctest[54697:492658] Peer number 242 address:136.243.167.62:35000 and node id:tls:a4d1..5413
+2022-04-04 02:02:57.383200+0300 xctest[54697:492658] Peer number 243 address:95.217.115.123:35000 and node id:tls:a55a..4ab0
+2022-04-04 02:02:57.383325+0300 xctest[54697:492658] Peer number 244 address:207.180.198.31:47762 and node id:tls:a5c2..a4dc
+2022-04-04 02:02:57.383408+0300 xctest[54697:492658] Peer number 245 address:178.63.75.44:35000 and node id:tls:a672..6a36
+2022-04-04 02:02:57.383521+0300 xctest[54697:492658] Peer number 246 address:54.146.85.72:35000 and node id:tls:a79e..b217
+2022-04-04 02:02:57.383620+0300 xctest[54697:492658] Peer number 247 address:95.216.45.4:35000 and node id:tls:a83b..ad67
+2022-04-04 02:02:57.383759+0300 xctest[54697:492658] Peer number 248 address:136.243.187.84:35000 and node id:tls:a887..64e0
+2022-04-04 02:02:57.383919+0300 xctest[54697:492658] Peer number 249 address:65.21.194.174:35000 and node id:tls:a92c..93a4
+2022-04-04 02:02:57.384005+0300 xctest[54697:492658] Peer number 250 address:135.181.4.34:35000 and node id:tls:a974..460c
+2022-04-04 02:02:57.384108+0300 xctest[54697:492658] Peer number 251 address:138.201.36.95:35000 and node id:tls:a97f..ccf3
+2022-04-04 02:02:57.384214+0300 xctest[54697:492658] Peer number 252 address:118.200.90.72:33992 and node id:tls:a99a..3544
+2022-04-04 02:02:57.384306+0300 xctest[54697:492658] Peer number 253 address:54.185.243.161:48590 and node id:tls:aa36..e2b4
+2022-04-04 02:02:57.384458+0300 xctest[54697:492658] Peer number 254 address:65.108.69.56:35000 and node id:tls:aa67..e91d
+2022-04-04 02:02:57.384589+0300 xctest[54697:492658] Peer number 255 address:65.21.235.145:35000 and node id:tls:aabe..f526
+2022-04-04 02:02:57.384776+0300 xctest[54697:492658] Peer number 256 address:118.200.90.72:33994 and node id:tls:aaed..c534
+2022-04-04 02:02:57.384884+0300 xctest[54697:492658] Peer number 257 address:65.108.0.43:35000 and node id:tls:ab63..db69
+2022-04-04 02:02:57.384976+0300 xctest[54697:492658] Peer number 258 address:95.216.1.154:35000 and node id:tls:ad90..efd3
+2022-04-04 02:02:57.385081+0300 xctest[54697:492658] Peer number 259 address:3.35.9.254:35000 and node id:tls:ada3..3472
+2022-04-04 02:02:57.385186+0300 xctest[54697:492658] Peer number 260 address:65.108.0.105:35000 and node id:tls:ae27..6988
+2022-04-04 02:02:57.385276+0300 xctest[54697:492658] Peer number 261 address:178.170.48.54:35000 and node id:tls:ae5d..79e5
+2022-04-04 02:02:57.385363+0300 xctest[54697:492658] Peer number 262 address:146.59.68.3:35000 and node id:tls:ae62..9eb3
+2022-04-04 02:02:57.385453+0300 xctest[54697:492658] Peer number 263 address:95.216.246.20:35000 and node id:tls:af71..dd82
+2022-04-04 02:02:57.385536+0300 xctest[54697:492658] Peer number 264 address:195.201.13.135:35000 and node id:tls:af82..a952
+2022-04-04 02:02:57.385620+0300 xctest[54697:492658] Peer number 265 address:178.216.202.150:35000 and node id:tls:b0ad..293b
+2022-04-04 02:02:57.385747+0300 xctest[54697:492658] Peer number 266 address:65.108.9.249:35000 and node id:tls:b114..5fc9
+2022-04-04 02:02:57.385919+0300 xctest[54697:492658] Peer number 267 address:103.114.224.150:46452 and node id:tls:b131..9d02
+2022-04-04 02:02:57.386008+0300 xctest[54697:492658] Peer number 268 address:65.108.41.42:35000 and node id:tls:b1c3..1fa6
+2022-04-04 02:02:57.386163+0300 xctest[54697:492658] Peer number 269 address:95.216.37.50:35000 and node id:tls:b2db..9927
+2022-04-04 02:02:57.386295+0300 xctest[54697:492658] Peer number 270 address:103.146.240.245:59962 and node id:tls:b304..874a
+2022-04-04 02:02:57.386602+0300 xctest[54697:492658] Peer number 271 address:95.216.36.177:35000 and node id:tls:b3e4..5f4e
+2022-04-04 02:02:57.386694+0300 xctest[54697:492658] Peer number 272 address:89.58.31.92:35000 and node id:tls:b494..f623
+2022-04-04 02:02:57.386797+0300 xctest[54697:492658] Peer number 273 address:95.216.96.62:35000 and node id:tls:b50c..56ba
+2022-04-04 02:02:57.386893+0300 xctest[54697:492658] Peer number 274 address:88.198.2.214:34966 and node id:tls:b524..4c93
+2022-04-04 02:02:57.386982+0300 xctest[54697:492658] Peer number 275 address:128.199.53.68:35000 and node id:tls:b549..cdb5
+2022-04-04 02:02:57.387071+0300 xctest[54697:492658] Peer number 276 address:65.21.120.160:35000 and node id:tls:b5f3..4e00
+2022-04-04 02:02:57.387160+0300 xctest[54697:492658] Peer number 277 address:162.55.63.245:35000 and node id:tls:b727..37d9
+2022-04-04 02:02:57.387248+0300 xctest[54697:492658] Peer number 278 address:176.9.70.102:35000 and node id:tls:b887..fc05
+2022-04-04 02:02:57.387335+0300 xctest[54697:492658] Peer number 279 address:95.216.116.53:35000 and node id:tls:b928..5335
+2022-04-04 02:02:57.387423+0300 xctest[54697:492658] Peer number 280 address:162.55.132.188:48986 and node id:tls:ba6b..06d3
+2022-04-04 02:02:57.387513+0300 xctest[54697:492658] Peer number 281 address:135.181.60.145:35000 and node id:tls:ba8a..72ba
+2022-04-04 02:02:57.387598+0300 xctest[54697:492658] Peer number 282 address:94.130.236.189:35000 and node id:tls:bb39..3588
+2022-04-04 02:02:57.387771+0300 xctest[54697:492658] Peer number 283 address:65.21.238.180:35000 and node id:tls:bb77..bde4
+2022-04-04 02:02:57.387963+0300 xctest[54697:492658] Peer number 284 address:65.108.2.35:35000 and node id:tls:bb9b..71e5
+2022-04-04 02:02:57.388062+0300 xctest[54697:492658] Peer number 285 address:194.163.159.72:35000 and node id:tls:bbd7..5bba
+2022-04-04 02:02:57.388252+0300 xctest[54697:492658] Peer number 286 address:65.21.231.103:35000 and node id:tls:bc49..a24a
+2022-04-04 02:02:57.388580+0300 xctest[54697:492658] Peer number 287 address:65.108.67.104:35000 and node id:tls:be7b..84e3
+2022-04-04 02:02:57.388747+0300 xctest[54697:492658] Peer number 288 address:118.200.90.72:33976 and node id:tls:bece..3b3c
+2022-04-04 02:02:57.388851+0300 xctest[54697:492658] Peer number 289 address:195.201.198.188:35000 and node id:tls:bf3d..81a9
+2022-04-04 02:02:57.388948+0300 xctest[54697:492658] Peer number 290 address:103.114.224.150:53670 and node id:tls:c17f..df1f
+2022-04-04 02:02:57.389039+0300 xctest[54697:492658] Peer number 291 address:65.21.133.2:35000 and node id:tls:c208..f40c
+2022-04-04 02:02:57.389131+0300 xctest[54697:492658] Peer number 292 address:103.146.240.245:46724 and node id:tls:c29b..2447
+2022-04-04 02:02:57.389218+0300 xctest[54697:492658] Peer number 293 address:95.216.11.106:35000 and node id:tls:c3e8..a564
+2022-04-04 02:02:57.389525+0300 xctest[54697:492658] Peer number 294 address:103.114.224.150:52256 and node id:tls:c509..0c25
+2022-04-04 02:02:57.389840+0300 xctest[54697:492658] Peer number 295 address:65.108.73.113:35000 and node id:tls:c5eb..b506
+2022-04-04 02:02:57.389972+0300 xctest[54697:492658] Peer number 296 address:118.200.90.72:33986 and node id:tls:c643..2d42
+2022-04-04 02:02:57.390067+0300 xctest[54697:492658] Peer number 297 address:172.114.130.252:59012 and node id:tls:c6cb..9986
+2022-04-04 02:02:57.390157+0300 xctest[54697:492658] Peer number 298 address:172.114.130.252:35688 and node id:tls:c727..671e
+2022-04-04 02:02:57.390248+0300 xctest[54697:492658] Peer number 299 address:65.21.140.57:35000 and node id:tls:c7f6..d96f
+2022-04-04 02:02:57.390337+0300 xctest[54697:492658] Peer number 300 address:65.108.11.104:35000 and node id:tls:c988..efe7
+2022-04-04 02:02:57.390425+0300 xctest[54697:492658] Peer number 301 address:162.55.83.183:35000 and node id:tls:c9d2..4df0
+2022-04-04 02:02:57.390514+0300 xctest[54697:492658] Peer number 302 address:65.21.134.245:35000 and node id:tls:ca0e..0537
+2022-04-04 02:02:57.390711+0300 xctest[54697:492658] Peer number 303 address:78.46.32.13:35000 and node id:tls:ca14..5362
+2022-04-04 02:02:57.390820+0300 xctest[54697:492658] Peer number 304 address:13.36.53.201:35000 and node id:tls:cb92..5ab7
+2022-04-04 02:02:57.391009+0300 xctest[54697:492658] Peer number 305 address:65.21.227.101:35000 and node id:tls:cbbb..6bef
+2022-04-04 02:02:57.391111+0300 xctest[54697:492658] Peer number 306 address:65.108.0.59:35000 and node id:tls:cc74..173c
+2022-04-04 02:02:57.391331+0300 xctest[54697:492658] Peer number 307 address:3.21.55.59:35000 and node id:tls:ce02..e761
+2022-04-04 02:02:57.391685+0300 xctest[54697:492658] Peer number 308 address:138.201.199.100:35000 and node id:tls:d043..8a7a
+2022-04-04 02:02:57.391887+0300 xctest[54697:492658] Peer number 309 address:54.72.219.182:58536 and node id:tls:d0e3..b2ae
+2022-04-04 02:02:57.392013+0300 xctest[54697:492658] Peer number 310 address:104.243.40.167:35000 and node id:tls:d12c..9612
+2022-04-04 02:02:57.392134+0300 xctest[54697:492658] Peer number 311 address:135.181.57.13:35000 and node id:tls:d16e..3b35
+2022-04-04 02:02:57.392240+0300 xctest[54697:492658] Peer number 312 address:65.21.197.27:35000 and node id:tls:d1ca..7838
+2022-04-04 02:02:57.392447+0300 xctest[54697:492658] Peer number 313 address:88.99.94.214:35000 and node id:tls:d241..7422
+2022-04-04 02:02:57.392554+0300 xctest[54697:492658] Peer number 314 address:135.181.114.117:35000 and node id:tls:d3e7..3110
+2022-04-04 02:02:57.392645+0300 xctest[54697:492658] Peer number 315 address:5.9.93.122:35000 and node id:tls:d466..de8e
+2022-04-04 02:02:57.392775+0300 xctest[54697:492658] Peer number 316 address:95.216.112.17:35000 and node id:tls:d4e0..67fe
+2022-04-04 02:02:57.392927+0300 xctest[54697:492658] Peer number 317 address:88.99.4.9:35000 and node id:tls:d4e3..b50a
+2022-04-04 02:02:57.393413+0300 xctest[54697:492658] Peer number 318 address:95.217.62.236:35000 and node id:tls:d563..b5c2
+2022-04-04 02:02:57.393592+0300 xctest[54697:492658] Peer number 319 address:65.21.233.95:35000 and node id:tls:d678..172c
+2022-04-04 02:02:57.393697+0300 xctest[54697:492658] Peer number 320 address:65.21.204.190:35000 and node id:tls:d6cb..2482
+2022-04-04 02:02:57.393789+0300 xctest[54697:492658] Peer number 321 address:207.231.104.186:35000 and node id:tls:d6ec..f002
+2022-04-04 02:02:57.393881+0300 xctest[54697:492658] Peer number 322 address:65.108.10.187:35000 and node id:tls:d719..4284
+2022-04-04 02:02:57.393970+0300 xctest[54697:492658] Peer number 323 address:159.69.77.28:35000 and node id:tls:d71c..5323
+2022-04-04 02:02:57.394056+0300 xctest[54697:492658] Peer number 324 address:103.146.240.245:58882 and node id:tls:d74c..c499
+2022-04-04 02:02:57.394146+0300 xctest[54697:492658] Peer number 325 address:162.55.245.219:35000 and node id:tls:d75d..0dbc
+2022-04-04 02:02:57.394234+0300 xctest[54697:492658] Peer number 326 address:95.217.34.115:35000 and node id:tls:d795..6648
+2022-04-04 02:02:57.394319+0300 xctest[54697:492658] Peer number 327 address:194.163.159.62:35000 and node id:tls:d892..6284
+2022-04-04 02:02:57.394419+0300 xctest[54697:492658] Peer number 328 address:95.216.44.9:35000 and node id:tls:d977..3243
+2022-04-04 02:02:57.394575+0300 xctest[54697:492658] Peer number 329 address:159.148.35.182:35000 and node id:tls:da06..3fcb
+2022-04-04 02:02:57.394672+0300 xctest[54697:492658] Peer number 330 address:103.146.240.245:40276 and node id:tls:da9c..0337
+2022-04-04 02:02:57.394763+0300 xctest[54697:492658] Peer number 331 address:3.137.206.147:35000 and node id:tls:dad0..6d3f
+2022-04-04 02:02:57.394901+0300 xctest[54697:492658] Peer number 332 address:3.136.227.9:35000 and node id:tls:db17..2777
+2022-04-04 02:02:57.395003+0300 xctest[54697:492658] Peer number 333 address:65.108.72.159:35000 and node id:tls:dbd4..dff4
+2022-04-04 02:02:57.395201+0300 xctest[54697:492658] Peer number 334 address:65.21.237.160:35000 and node id:tls:dc97..bdab
+2022-04-04 02:02:57.395559+0300 xctest[54697:492658] Peer number 335 address:65.108.1.10:35000 and node id:tls:de87..d140
+2022-04-04 02:02:57.395856+0300 xctest[54697:492658] Peer number 336 address:5.9.21.244:52312 and node id:tls:df09..790b
+2022-04-04 02:02:57.395962+0300 xctest[54697:492658] Peer number 337 address:118.200.90.72:33968 and node id:tls:df4c..bc20
+2022-04-04 02:02:57.396088+0300 xctest[54697:492658] Peer number 338 address:65.21.79.236:35000 and node id:tls:dfb8..4361
+2022-04-04 02:02:57.396184+0300 xctest[54697:492658] Peer number 339 address:121.6.33.237:32964 and node id:tls:e08b..1ec7
+2022-04-04 02:02:57.396360+0300 xctest[54697:492658] Peer number 340 address:5.9.6.115:35000 and node id:tls:e1c8..197e
+2022-04-04 02:02:57.396572+0300 xctest[54697:492658] Peer number 341 address:95.216.20.4:35000 and node id:tls:e26e..7ea1
+2022-04-04 02:02:57.396694+0300 xctest[54697:492658] Peer number 342 address:135.181.208.231:35000 and node id:tls:e2b1..ca8a
+2022-04-04 02:02:57.396787+0300 xctest[54697:492658] Peer number 343 address:109.238.11.77:35000 and node id:tls:e302..4345
+2022-04-04 02:02:57.396890+0300 xctest[54697:492658] Peer number 344 address:161.97.160.138:57438 and node id:tls:e303..c094
+2022-04-04 02:02:57.397000+0300 xctest[54697:492658] Peer number 345 address:54.72.219.182:57892 and node id:tls:e358..6b24
+2022-04-04 02:02:57.397093+0300 xctest[54697:492658] Peer number 346 address:35.160.147.124:36234 and node id:tls:e3cd..2855
+2022-04-04 02:02:57.397230+0300 xctest[54697:492658] Peer number 347 address:65.21.132.171:49352 and node id:tls:e497..424a
+2022-04-04 02:02:57.397380+0300 xctest[54697:492658] Peer number 348 address:89.58.31.153:35000 and node id:tls:e49c..dd4c
+2022-04-04 02:02:57.397482+0300 xctest[54697:492658] Peer number 349 address:66.42.55.195:35000 and node id:tls:e553..a844
+2022-04-04 02:02:57.397706+0300 xctest[54697:492658] Peer number 350 address:65.108.77.45:35000 and node id:tls:e5b8..e525
+2022-04-04 02:02:57.397823+0300 xctest[54697:492658] Peer number 351 address:89.58.2.198:35000 and node id:tls:e610..33d4
+2022-04-04 02:02:57.397962+0300 xctest[54697:492658] Peer number 352 address:95.217.78.26:35000 and node id:tls:e6ad..335f
+2022-04-04 02:02:57.398061+0300 xctest[54697:492658] Peer number 353 address:46.4.115.20:35000 and node id:tls:e733..0ec0
+2022-04-04 02:02:57.398300+0300 xctest[54697:492658] Peer number 354 address:65.108.0.148:35000 and node id:tls:e8d1..c79b
+2022-04-04 02:02:57.398414+0300 xctest[54697:492658] Peer number 355 address:23.88.74.82:35000 and node id:tls:e9bb..a197
+2022-04-04 02:02:57.398592+0300 xctest[54697:492658] Peer number 356 address:65.21.236.40:35000 and node id:tls:ead7..0eaf
+2022-04-04 02:02:57.398719+0300 xctest[54697:492658] Peer number 357 address:65.21.231.40:59752 and node id:tls:eade..ba57
+2022-04-04 02:02:57.398967+0300 xctest[54697:492658] Peer number 358 address:88.99.57.74:35000 and node id:tls:eb57..2387
+2022-04-04 02:02:57.399122+0300 xctest[54697:492658] Peer number 359 address:89.58.30.252:35000 and node id:tls:ec1f..f89d
+2022-04-04 02:02:57.399267+0300 xctest[54697:492658] Peer number 360 address:5.9.50.135:35000 and node id:tls:ec59..f568
+2022-04-04 02:02:57.399389+0300 xctest[54697:492658] Peer number 361 address:65.21.79.189:35000 and node id:tls:ed98..da40
+2022-04-04 02:02:57.399512+0300 xctest[54697:492658] Peer number 362 address:65.108.0.189:35000 and node id:tls:efad..3839
+2022-04-04 02:02:57.399605+0300 xctest[54697:492658] Peer number 363 address:103.146.240.245:59212 and node id:tls:f021..f41a
+2022-04-04 02:02:57.399857+0300 xctest[54697:492658] Peer number 364 address:88.99.100.42:35000 and node id:tls:f090..835b
+2022-04-04 02:02:57.399945+0300 xctest[54697:492658] Peer number 365 address:176.9.119.49:35000 and node id:tls:f0f6..379e
+2022-04-04 02:02:57.400091+0300 xctest[54697:492658] Peer number 366 address:65.21.204.180:35000 and node id:tls:f376..0a84
+2022-04-04 02:02:57.400210+0300 xctest[54697:492658] Peer number 367 address:103.114.224.150:34678 and node id:tls:f432..c7f2
+2022-04-04 02:02:57.400446+0300 xctest[54697:492658] Peer number 368 address:44.229.43.241:42648 and node id:tls:f46f..35a4
+2022-04-04 02:02:57.400588+0300 xctest[54697:492658] Peer number 369 address:65.21.238.224:35000 and node id:tls:f4e1..df7e
+2022-04-04 02:02:57.400808+0300 xctest[54697:492658] Peer number 370 address:65.21.227.180:35000 and node id:tls:f56c..5c15
+2022-04-04 02:02:57.401068+0300 xctest[54697:492658] Peer number 371 address:65.21.234.60:35000 and node id:tls:f581..6ada
+2022-04-04 02:02:57.401259+0300 xctest[54697:492658] Peer number 372 address:195.201.105.244:35000 and node id:tls:f7de..c8af
+2022-04-04 02:02:57.401378+0300 xctest[54697:492658] Peer number 373 address:118.200.90.72:33972 and node id:tls:f83f..c005
+2022-04-04 02:02:57.401519+0300 xctest[54697:492658] Peer number 374 address:65.108.4.79:35000 and node id:tls:f8f9..cde2
+2022-04-04 02:02:57.401615+0300 xctest[54697:492658] Peer number 375 address:185.237.252.128:35000 and node id:tls:f924..4763
+2022-04-04 02:02:57.401706+0300 xctest[54697:492658] Peer number 376 address:135.181.199.62:35820 and node id:tls:f99f..bf0c
+2022-04-04 02:02:57.401797+0300 xctest[54697:492658] Peer number 377 address:172.93.100.3:35000 and node id:tls:fa31..4c34
+2022-04-04 02:02:57.401888+0300 xctest[54697:492658] Peer number 378 address:138.201.122.209:35000 and node id:tls:fad4..b04c
+2022-04-04 02:02:57.401976+0300 xctest[54697:492658] Peer number 379 address:65.21.237.43:48262 and node id:tls:fdea..e001
+2022-04-04 02:02:57.402061+0300 xctest[54697:492658] Peer number 380 address:144.76.238.62:35000 and node id:tls:fe51..211c
+2022-04-04 02:02:57.402151+0300 xctest[54697:492658] Peer number 381 address:118.200.90.72:33996 and node id:tls:fea7..52e8
+2022-04-04 02:02:57.402236+0300 xctest[54697:492658] Peer number 382 address:116.202.115.195:35000 and node id:tls:ff67..e943
+2022-04-04 02:02:57.402322+0300 xctest[54697:492658] Peer number 383 address:44.232.7.112:35498 and node id:tls:ff7c..3d2d
+2022-04-04 02:02:57.402407+0300 xctest[54697:492658] Peer number 384 address:116.202.173.185:35000 and node id:tls:ffc3..c999
+Test Case '-[GetPeerResultTest testGetPeerList]' passed (1.163 seconds).
+Test Suite 'GetPeerResultTest' passed at 2022-04-04 02:02:57.404.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.163 (1.164) seconds
+Test Suite 'GetStateRootHashTest' started at 2022-04-04 02:02:57.405
+Test Case '-[GetStateRootHashTest testGetStateRootHash]' started.
+2022-04-04 02:02:57.407060+0300 xctest[54697:492658] M1: chain_get_state_root_hash test cases
+2022-04-04 02:03:00.524281+0300 xctest[54697:492658] Error get state root hash with error message:block not known and error code:-32001
+2022-04-04 02:03:01.464808+0300 xctest[54697:492658] Error get state root hash with error message:block not known and error code:-32001
+Test Case '-[GetStateRootHashTest testGetStateRootHash]' passed (4.061 seconds).
+Test Suite 'GetStateRootHashTest' passed at 2022-04-04 02:03:01.467.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.061 (4.062) seconds
+Test Suite 'GetStatusTest' started at 2022-04-04 02:03:01.469
+Test Case '-[GetStatusTest testGetStatus]' started.
+2022-04-04 02:03:02.523259+0300 xctest[54697:492658] Get status result, starting_state_root_hash:9de97ed44c9d925a3bdd4c6a55afb6b9e6cfdd9ca358505f3099c888c10224d4
+2022-04-04 02:03:02.523349+0300 xctest[54697:492658] Get status result, our_public_signing_key:017d96b9a63abcb61c870a4f55187a0a7ac24096bdb5fc585c12a686a4d892009e
+2022-04-04 02:03:02.523413+0300 xctest[54697:492658] Get status result, total peer:384
+2022-04-04 02:03:02.523513+0300 xctest[54697:492658] Get status result, last_added_block_info hash:bff2ac14445d78995e2b0f762a5f6bbe149c67451dbf5679c3fe9bf3c35209cb
+2022-04-04 02:03:02.523582+0300 xctest[54697:492658] Get status result, last_added_block_info creator:017d9aa0b86413d7ff9a9169182c53f0bacaa80d34c211adab007ed4876af17077
+Test Case '-[GetStatusTest testGetStatus]' passed (1.056 seconds).
+Test Suite 'GetStatusTest' passed at 2022-04-04 02:03:02.526.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.056 (1.057) seconds
+Test Suite 'Serialization_CLTypeTest' started at 2022-04-04 02:03:02.527
+Test Case '-[Serialization_CLTypeTest testCLTypeSerialization]' started.
+Test Case '-[Serialization_CLTypeTest testCLTypeSerialization]' passed (0.002 seconds).
+Test Suite 'Serialization_CLTypeTest' passed at 2022-04-04 02:03:02.529.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'Serialization_CLValueTest' started at 2022-04-04 02:03:02.530
+Test Case '-[Serialization_CLValueTest testCLValueSerialization]' started.
+Test Case '-[Serialization_CLValueTest testCLValueSerialization]' passed (0.020 seconds).
+Test Suite 'Serialization_CLValueTest' passed at 2022-04-04 02:03:02.552.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.020 (0.022) seconds
+Test Suite 'Serialization_DeployTest' started at 2022-04-04 02:03:02.553
+Test Case '-[Serialization_DeployTest testDeployHeaderSerialization]' started.
+Test Case '-[Serialization_DeployTest testDeployHeaderSerialization]' passed (0.002 seconds).
+Test Case '-[Serialization_DeployTest testDeploySerialization]' started.
+Test Case '-[Serialization_DeployTest testDeploySerialization]' passed (0.002 seconds).
+Test Suite 'Serialization_DeployTest' passed at 2022-04-04 02:03:02.559.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.006) seconds
+Test Suite 'Serialization_ExecutableDeployItemTest' started at 2022-04-04 02:03:02.560
+Test Case '-[Serialization_ExecutableDeployItemTest testExecutableDeployItemSerialization]' started.
+Test Case '-[Serialization_ExecutableDeployItemTest testExecutableDeployItemSerialization]' passed (0.014 seconds).
+Test Suite 'Serialization_ExecutableDeployItemTest' passed at 2022-04-04 02:03:02.575.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'CasperSDKObjectiveCTests.xctest' passed at 2022-04-04 02:03:02.576.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 52.098 (52.132) seconds
+Test Suite 'All tests' passed at 2022-04-04 02:03:02.577.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 52.098 (52.135) seconds
+/Users/yusuf/Library/Developer/Xcode/DerivedData/CasperSDKObjectiveC-ekvkbpegifxwaiclohcnzpapsuco/Logs/Test/Test-CasperSDKObjectiveC-2022.04.04_02-02-06-+0300.xcresult/Staging/1_Test/Diagnostics/CasperSDKObjectiveCTests-DBBE1E20-A67C-4E45-9FB2-EB79C314A801-Configuration-Test Scheme Action-Iteration-1/CasperSDKObjectiveCTests-670FF014-7639-41ED-88BF-E039DF684957/Session-CasperSDKObjectiveCTests-2022-04-04_020208-U3AsQJ.log
+
+Test Suite 'All tests' started at 2022-04-04 02:02:10.442
+Test Suite 'CasperSDKObjectiveCTests.xctest' started at 2022-04-04 02:02:10.443
+Test Suite 'GetAuctionInfoTest' started at 2022-04-04 02:02:10.444
+Test Case '-[GetAuctionInfoTest testGetAuctionInfo]' started.
+2022-04-04 02:02:19.869088+0300 xctest[54697:493102] [logging] volume does not support data protection, stripping SQLITE_OPEN_FILEPROTECTION_* flags
+2022-04-04 02:02:19.870513+0300 xctest[54697:493102] [logging] volume does not support data protection, stripping SQLITE_OPEN_FILEPROTECTION_* flags
+2022-04-04 02:02:25.386728+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:25.386827+0300 xctest[54697:492658] AuctionState, state_root_hash :0d3acb98771937155f2c8c26a1cf5d26e625b68fb37430ba67a4603d9c988fdd
+2022-04-04 02:02:25.386883+0300 xctest[54697:492658] AuctionState, block_height :664703
+2022-04-04 02:02:25.386949+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:25.387002+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:25.387045+0300 xctest[54697:492658] JsonEraValidators, era_id:4310
+2022-04-04 02:02:25.387085+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:25.387375+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:25.387453+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:25.387568+0300 xctest[54697:492658] JsonValidatorWeights, weight:1278692139436
+2022-04-04 02:02:25.387626+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:25.387676+0300 xctest[54697:492658] JsonEraValidators, era_id:4311
+2022-04-04 02:02:25.387722+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:25.387765+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:25.387809+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:25.387856+0300 xctest[54697:492658] JsonValidatorWeights, weight:1278885480544
+2022-04-04 02:02:28.198629+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:28.198742+0300 xctest[54697:492658] AuctionState, state_root_hash :6da6cb8ff1e35656fba9a71868af803abef40dd6fce6161d2a18fe339a0525cb
+2022-04-04 02:02:28.198798+0300 xctest[54697:492658] AuctionState, block_height :602343
+2022-04-04 02:02:28.198879+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:28.198938+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:28.198983+0300 xctest[54697:492658] JsonEraValidators, era_id:4026
+2022-04-04 02:02:28.199028+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:28.199071+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:28.199153+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:28.199266+0300 xctest[54697:492658] JsonValidatorWeights, weight:1226198285443
+2022-04-04 02:02:28.199330+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:28.199378+0300 xctest[54697:492658] JsonEraValidators, era_id:4027
+2022-04-04 02:02:28.199422+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:28.199490+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:28.199562+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:28.199625+0300 xctest[54697:492658] JsonValidatorWeights, weight:1226373797637
+2022-04-04 02:02:29.505878+0300 xctest[54697:492658] GetAuctionInfoResult, api_version:1.4.5
+2022-04-04 02:02:29.505980+0300 xctest[54697:492658] AuctionState, state_root_hash :a42c238d2d850b4d9c3efac6104bbfad6b91ce1ca38733c332e35a3459166a58
+2022-04-04 02:02:29.506041+0300 xctest[54697:492658] AuctionState, block_height :12345
+2022-04-04 02:02:29.506100+0300 xctest[54697:492658] AuctionState, total era_validators:2
+2022-04-04 02:02:29.506161+0300 xctest[54697:492658] AuctionState, era_validators item 0 information
+2022-04-04 02:02:29.506209+0300 xctest[54697:492658] JsonEraValidators, era_id:177
+2022-04-04 02:02:29.506257+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:29.506306+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:29.506370+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:29.506499+0300 xctest[54697:492658] JsonValidatorWeights, weight:21250662917014
+2022-04-04 02:02:29.506576+0300 xctest[54697:492658] AuctionState, era_validators item 1 information
+2022-04-04 02:02:29.506628+0300 xctest[54697:492658] JsonEraValidators, era_id:178
+2022-04-04 02:02:29.506675+0300 xctest[54697:492658] JsonEraValidators, total JsonValidatorWeights:100
+2022-04-04 02:02:29.506722+0300 xctest[54697:492658] Information for the first JsonValidatorWeight:
+2022-04-04 02:02:29.506769+0300 xctest[54697:492658] JsonValidatorWeights, public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:29.506820+0300 xctest[54697:492658] JsonValidatorWeights, weight:21399698759675
+2022-04-04 02:02:30.165415+0300 xctest[54697:492658] Error get block with error message:get-auction-info failed to get specified block and error code:-32001
+2022-04-04 02:02:30.851518+0300 xctest[54697:492658] Error get block with error message:get-auction-info failed to get specified block and error code:-32001
+Test Case '-[GetAuctionInfoTest testGetAuctionInfo]' passed (20.408 seconds).
+Test Suite 'GetAuctionInfoTest' passed at 2022-04-04 02:02:30.853.
+	 Executed 1 test, with 0 failures (0 unexpected) in 20.408 (20.409) seconds
+Test Suite 'GetBalanceTest' started at 2022-04-04 02:02:30.854
+Test Case '-[GetBalanceTest testGetBalance]' started.
+2022-04-04 02:02:31.681478+0300 xctest[54697:492658] GetBalanceResult, api_version:1.4.5
+2022-04-04 02:02:31.681562+0300 xctest[54697:492658] GetBalanceResult, balance_value:522693296224
+2022-04-04 02:02:31.681661+0300 xctest[54697:492658] GetBalanceResult, merkle_proof length:31766
+Test Case '-[GetBalanceTest testGetBalance]' passed (0.828 seconds).
+Test Suite 'GetBalanceTest' passed at 2022-04-04 02:02:31.683.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.828 (0.829) seconds
+Test Suite 'GetBlockTest' started at 2022-04-04 02:02:31.685
+Test Case '-[GetBlockTest testGetBlock]' started.
+2022-04-04 02:02:32.754526+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:32.754683+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:32.754813+0300 xctest[54697:492658] JsonBlock, block_hash:42e55c045cd8a51f930802b7ea51a42564c8d17493c22e83a1e5672dae9d21b3
+2022-04-04 02:02:32.754992+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:c7eaa6ba84281707197020a1af8b5fa128cddcbecbcde5d5d656183f442ba326
+2022-04-04 02:02:32.755104+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:0d3acb98771937155f2c8c26a1cf5d26e625b68fb37430ba67a4603d9c988fdd
+2022-04-04 02:02:32.755181+0300 xctest[54697:492658] JsonBlockHeader,body_hash:eb2345f37193395bbc83587e498bc14ad5f0019055abcfaac3b989d382a7969a
+2022-04-04 02:02:32.755236+0300 xctest[54697:492658] JsonBlockHeader, random_bit:0
+2022-04-04 02:02:32.755300+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:89364b1e70d4a8a996e4795f63032f830292f240fef8b2bb9f84d3891fb8ee03
+2022-04-04 02:02:32.755354+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2022-04-03T23:02:04.544Z
+2022-04-04 02:02:32.755406+0300 xctest[54697:492658] JsonBlockHeader,era_id:4310
+2022-04-04 02:02:32.755456+0300 xctest[54697:492658] JsonBlockHeader,height:664704
+2022-04-04 02:02:32.755510+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.4.5
+2022-04-04 02:02:32.755560+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:32.755610+0300 xctest[54697:492658] JsonBlockBody, proposer:010e5669b070545e2b32bc66363b9d3d4390fca56bf52a05f1411b7fa18ca311c7
+2022-04-04 02:02:32.755674+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:32.755756+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:32.755830+0300 xctest[54697:492658] JsonBlock,Total proof:100
+2022-04-04 02:02:32.755903+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:32.755972+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:01cfec5658096c884d59db2c9f66814bca37d52622528f7ff209bdd2ff042bd417d4c25e413ae92df5ee5f526cfb2c63d2ef1135f13b78fd162265e10f78418f09
+2022-04-04 02:02:33.658086+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:33.658208+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:33.658332+0300 xctest[54697:492658] JsonBlock, block_hash:d16cb633eea197fec519aee2cfe050fe9a3b7e390642ccae8366455cc91c822e
+2022-04-04 02:02:33.658473+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:ec18afdd3df5c1b0f3caf7f564105f3329cd7b2ef59391c4ce13f1e9173b39b4
+2022-04-04 02:02:33.658581+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:6da6cb8ff1e35656fba9a71868af803abef40dd6fce6161d2a18fe339a0525cb
+2022-04-04 02:02:33.658677+0300 xctest[54697:492658] JsonBlockHeader,body_hash:cde00a26358a0ac039b730e4ee8f70d95fba48ee4be0690142b32fa5e898f2e3
+2022-04-04 02:02:33.658996+0300 xctest[54697:492658] JsonBlockHeader, random_bit:1
+2022-04-04 02:02:33.659129+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:8186dd2710cb3eaa5554bf7a6f6cad789877cfad3a9d151b6769e8a0feaba5bd
+2022-04-04 02:02:33.659234+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2022-03-11T04:57:11.936Z
+2022-04-04 02:02:33.659326+0300 xctest[54697:492658] JsonBlockHeader,era_id:4026
+2022-04-04 02:02:33.659411+0300 xctest[54697:492658] JsonBlockHeader,height:602343
+2022-04-04 02:02:33.659503+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.4.4
+2022-04-04 02:02:33.659588+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:33.659675+0300 xctest[54697:492658] JsonBlockBody, proposer:01ace6578907bfe6eba3a618e863bbe7274284c88e405e2857be80dd094726a223
+2022-04-04 02:02:33.659765+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:33.659851+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:33.659932+0300 xctest[54697:492658] JsonBlock,Total proof:97
+2022-04-04 02:02:33.666124+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0101f5170c996cc02b581d8200f0d95a737840234f31bf1fa21cca35137f8507b0
+2022-04-04 02:02:33.666201+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:0193f060cfb9e6bb7f6d26d3f525e74ea4015ea21b1398891193e6d1d4c1c8e2f6832a7131d1847fc57045151e211ff34f7b4f4657c29d336bc6cdaf114333c201
+2022-04-04 02:02:34.505508+0300 xctest[54697:492658] GetBlockResult, api_version:1.4.5
+2022-04-04 02:02:34.505683+0300 xctest[54697:492658] GetBlockResult, block info:
+2022-04-04 02:02:34.505806+0300 xctest[54697:492658] JsonBlock, block_hash:bbf21fe52a97c64e6b95098b1f2e098337efc9f9b63ae2ba0de37ef5a0da4b6f
+2022-04-04 02:02:34.505865+0300 xctest[54697:492658] JsonBlockHeader, parent_hash:3a9e5db55a8c5a2e07fb1526d80fbf4c64745ab5303e56a684334e08a6ade2e0
+2022-04-04 02:02:34.505921+0300 xctest[54697:492658] JsonBlockHeader, state_root_hash:a42c238d2d850b4d9c3efac6104bbfad6b91ce1ca38733c332e35a3459166a58
+2022-04-04 02:02:34.505975+0300 xctest[54697:492658] JsonBlockHeader,body_hash:1086c5c5f3d04e3729fd9832e646a053d81b207ae9202af57a4f1d6a55c9303a
+2022-04-04 02:02:34.506089+0300 xctest[54697:492658] JsonBlockHeader, random_bit:1
+2022-04-04 02:02:34.506204+0300 xctest[54697:492658] JsonBlockHeader,accumulated_seed:ddff74b667ff1337aba501dde16f9a98e014dbb3daca89829852db7ddfc91f2b
+2022-04-04 02:02:34.506271+0300 xctest[54697:492658] JsonBlockHeader,timestamp:2021-04-23T23:15:09.952Z
+2022-04-04 02:02:34.506327+0300 xctest[54697:492658] JsonBlockHeader,era_id:177
+2022-04-04 02:02:34.506376+0300 xctest[54697:492658] JsonBlockHeader,height:12345
+2022-04-04 02:02:34.506429+0300 xctest[54697:492658] JsonBlockHeader,protocol_version:1.1.0
+2022-04-04 02:02:34.506516+0300 xctest[54697:492658] JsonBlockHeader,era_end: <null>
+2022-04-04 02:02:34.506631+0300 xctest[54697:492658] JsonBlockBody, proposer:0152b2b3cc1de020e0cfb5887d0fda5d99da5decaf98af90f13144e97d0e35eeaa
+2022-04-04 02:02:34.506707+0300 xctest[54697:492658] JsonBlockBody, total deploy_hashes:0
+2022-04-04 02:02:34.506980+0300 xctest[54697:492658] JsonBlockBody, total transfer_hashes:0
+2022-04-04 02:02:34.507272+0300 xctest[54697:492658] JsonBlock,Total proof:100
+2022-04-04 02:02:34.507391+0300 xctest[54697:492658] JsonBlock, firstJsonProof public_key:0105220d6629f6ef4484e2da5f58b6222832af8cabba4fbd7f1ad55e84a06ab319
+2022-04-04 02:02:34.514267+0300 xctest[54697:492658] JsonBlock, firstJsonProof signature:015a6da1fcf0284d91ef79920d9c820e2fe98147c0f2ec72d9c9ab14b82a514de1c38a08c2341e95dd1858be95e6c3f8ee5d635cae8fb36d37191d918fa049c006
+2022-04-04 02:02:35.320364+0300 xctest[54697:492658] Error get block with error message:block not known and error code:-32001
+2022-04-04 02:02:36.577057+0300 xctest[54697:492658] Error get block with error message:block not known and error code:-32001
+Test Case '-[GetBlockTest testGetBlock]' passed (4.893 seconds).
+Test Suite 'GetBlockTest' passed at 2022-04-04 02:02:36.579.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.893 (4.894) seconds
+Test Suite 'GetBlockTransfersResultTest' started at 2022-04-04 02:02:36.580
+Test Case '-[GetBlockTransfersResultTest testGetBlockTransfersResult]' started.
+2022-04-04 02:02:37.512773+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:37.512862+0300 xctest[54697:492658] block hash:42e55c045cd8a51f930802b7ea51a42564c8d17493c22e83a1e5672dae9d21b3
+2022-04-04 02:02:37.513004+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:38.435948+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:38.436094+0300 xctest[54697:492658] block hash:d16cb633eea197fec519aee2cfe050fe9a3b7e390642ccae8366455cc91c822e
+2022-04-04 02:02:38.436267+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:39.347544+0300 xctest[54697:492658] api_version:1.4.5
+2022-04-04 02:02:39.347717+0300 xctest[54697:492658] block hash:bbf21fe52a97c64e6b95098b1f2e098337efc9f9b63ae2ba0de37ef5a0da4b6f
+2022-04-04 02:02:39.347822+0300 xctest[54697:492658] total transfer:0
+2022-04-04 02:02:40.269974+0300 xctest[54697:492658] Error get block transfer with error message:block not known and error code:-32001
+2022-04-04 02:02:41.170140+0300 xctest[54697:492658] Error get block transfer with error message:block not known and error code:-32001
+Test Case '-[GetBlockTransfersResultTest testGetBlockTransfersResult]' passed (4.591 seconds).
+Test Suite 'GetBlockTransfersResultTest' passed at 2022-04-04 02:02:41.173.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.591 (4.593) seconds
+Test Suite 'GetDeployTest' started at 2022-04-04 02:02:41.174
+Test Case '-[GetDeployTest testGetDeploy]' started.
+2022-04-04 02:02:42.752915+0300 xctest[54697:492658] GetDeployResult, api_version:1.4.5
+2022-04-04 02:02:42.753033+0300 xctest[54697:492658] Deploy, hash:a91d468e2ddc8936f7866bc594794b322f747508c2192fd4eca90ef8a121d45e
+2022-04-04 02:02:42.753105+0300 xctest[54697:492658] Deploy header log:
+2022-04-04 02:02:42.753161+0300 xctest[54697:492658] Deploy header, account:014caf1ce908f9ef3d427dceac17e5c47950becf15d1def0810c235e0d58a9efad
+2022-04-04 02:02:42.753230+0300 xctest[54697:492658] Deploy header, body_hash:d7ffe9fa44f5958d18923630576302903f12ebee3e7516834d93b44ebf0454f9
+2022-04-04 02:02:42.753284+0300 xctest[54697:492658] Deploy header, chain_name:casper-test
+2022-04-04 02:02:42.753336+0300 xctest[54697:492658] Deploy header, dependencies size:0
+2022-04-04 02:02:42.753442+0300 xctest[54697:492658] Deploy header, gas_price:1
+2022-04-04 02:02:42.753569+0300 xctest[54697:492658] Deploy header, timestamp:2022-01-17T11:11:08.508Z
+2022-04-04 02:02:42.753635+0300 xctest[54697:492658] Deploy header, ttl:30m
+2022-04-04 02:02:42.753689+0300 xctest[54697:492658] Deploy payment log:
+2022-04-04 02:02:42.753744+0300 xctest[54697:492658] ExecutableDeployItem, type:ModuleBytes
+2022-04-04 02:02:42.753799+0300 xctest[54697:492658] RuntimeArgs, total args:1
+2022-04-04 02:02:42.753848+0300 xctest[54697:492658] RuntimeArgs, Args item index 0 detail
+2022-04-04 02:02:42.753903+0300 xctest[54697:492658] NamedArg, name:amount
+2022-04-04 02:02:42.753952+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.754005+0300 xctest[54697:492658] CLValue bytes:0400ca9a3b
+2022-04-04 02:02:42.754055+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.754589+0300 xctest[54697:492658] CLType:U512
+2022-04-04 02:02:42.754695+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.754766+0300 xctest[54697:492658] Value of parsed:1000000000
+2022-04-04 02:02:42.761361+0300 xctest[54697:492658] Deploy session log:
+2022-04-04 02:02:42.761435+0300 xctest[54697:492658] ExecutableDeployItem, type:StoredContractByHash
+2022-04-04 02:02:42.761495+0300 xctest[54697:492658] ExecutableDeployItem_StoredContractByHash, hash:07eaeb63bc4b406cd83351a1217ebfa4a89f13ae55dd309811e99a042fb3919a
+2022-04-04 02:02:42.761554+0300 xctest[54697:492658] ExecutableDeployItem_StoredContractByHash, entry_point:mint
+2022-04-04 02:02:42.761606+0300 xctest[54697:492658] RuntimeArgs, total args:4
+2022-04-04 02:02:42.761654+0300 xctest[54697:492658] RuntimeArgs, Args item index 0 detail
+2022-04-04 02:02:42.761706+0300 xctest[54697:492658] NamedArg, name:recipient
+2022-04-04 02:02:42.761772+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.761823+0300 xctest[54697:492658] CLValue bytes:00c6d93dd827202f3b37297382b1cb9269c07d71a79a49824bb1a008c650a04473
+2022-04-04 02:02:42.761876+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.761995+0300 xctest[54697:492658] CLType:Key
+2022-04-04 02:02:42.762068+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.762201+0300 xctest[54697:492658] Value of parsed:{
+    Account = "account-hash-c6d93dd827202f3b37297382b1cb9269c07d71a79a49824bb1a008c650a04473";
+}
+2022-04-04 02:02:42.762257+0300 xctest[54697:492658] RuntimeArgs, Args item index 1 detail
+2022-04-04 02:02:42.762311+0300 xctest[54697:492658] NamedArg, name:token_ids
+2022-04-04 02:02:42.762365+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.762510+0300 xctest[54697:492658] CLValue bytes:010100000018000000363165353465636231656366653538376561663963636530
+2022-04-04 02:02:42.762607+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.762676+0300 xctest[54697:492658] CLType:Option{List{String}}
+2022-04-04 02:02:42.762924+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.763220+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.763277+0300 xctest[54697:492658] Value of parsed:61e54ecb1ecfe587eaf9cce0
+2022-04-04 02:02:42.763326+0300 xctest[54697:492658] RuntimeArgs, Args item index 2 detail
+2022-04-04 02:02:42.763374+0300 xctest[54697:492658] NamedArg, name:token_metas
+2022-04-04 02:02:42.764028+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.764158+0300 xctest[54697:492658] CLValue bytes:0100000004000000040000006e616d650f000000546573742050726f642041646d696e0b0000006465736372697074696f6e0700000054657374696e6708000000697066735f75726c5000000068747470733a2f2f676174657761792e70696e6174612e636c6f75642f697066732f516d6175505535726338676868795a465178423952356a43626161664777324d6e65514a524d44574c567a6a615511000000697066735f6d657461646174615f75726c5000000068747470733a2f2f676174657761792e70696e6174612e636c6f75642f697066732f516d627279797641795664426d355a346e774133613738316d6d717563366e476165754541504b393661334c506e
+2022-04-04 02:02:42.764292+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.764426+0300 xctest[54697:492658] CLType:List{Map{key:String,value:String}}
+2022-04-04 02:02:42.764552+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.764612+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.764665+0300 xctest[54697:492658] CLParsed Map, Key information:
+2022-04-04 02:02:42.764711+0300 xctest[54697:492658] Total element in list:4
+2022-04-04 02:02:42.764763+0300 xctest[54697:492658] Value of parsed:name
+2022-04-04 02:02:42.764812+0300 xctest[54697:492658] Value of parsed:description
+2022-04-04 02:02:42.764917+0300 xctest[54697:492658] Value of parsed:ipfs_url
+2022-04-04 02:02:42.765157+0300 xctest[54697:492658] Value of parsed:ipfs_metadata_url
+2022-04-04 02:02:42.765923+0300 xctest[54697:492658] CLParsed Map, Value information:
+2022-04-04 02:02:42.766309+0300 xctest[54697:492658] Total element in list:4
+2022-04-04 02:02:42.766600+0300 xctest[54697:492658] Value of parsed:Test Prod Admin
+2022-04-04 02:02:42.766737+0300 xctest[54697:492658] Value of parsed:Testing
+2022-04-04 02:02:42.767044+0300 xctest[54697:492658] Value of parsed:https://gateway.pinata.cloud/ipfs/QmauPU5rc8ghhyZFQxB9R5jCbaafGw2MneQJRMDWLVzjaU
+2022-04-04 02:02:42.767181+0300 xctest[54697:492658] Value of parsed:https://gateway.pinata.cloud/ipfs/QmbryyvAyVdBm5Z4nwA3a781mmquc6nGaeuEAPK96a3LPn
+2022-04-04 02:02:42.767248+0300 xctest[54697:492658] RuntimeArgs, Args item index 3 detail
+2022-04-04 02:02:42.767298+0300 xctest[54697:492658] NamedArg, name:token_commissions
+2022-04-04 02:02:42.768015+0300 xctest[54697:492658] NamedArg, CLValue:
+2022-04-04 02:02:42.768148+0300 xctest[54697:492658] CLValue bytes:0100000000000000
+2022-04-04 02:02:42.768222+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:42.768295+0300 xctest[54697:492658] CLType:List{Map{key:String,value:String}}
+2022-04-04 02:02:42.768346+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:42.768544+0300 xctest[54697:492658] Total element in list:1
+2022-04-04 02:02:42.768914+0300 xctest[54697:492658] CLParsed Map, Key information:
+2022-04-04 02:02:42.768977+0300 xctest[54697:492658] Total element in list:0
+2022-04-04 02:02:42.769218+0300 xctest[54697:492658] CLParsed Map, Value information:
+2022-04-04 02:02:42.769282+0300 xctest[54697:492658] Total element in list:0
+2022-04-04 02:02:42.769535+0300 xctest[54697:492658] EXECUTION_RESULT, Total execution_results:1
+2022-04-04 02:02:42.769597+0300 xctest[54697:492658] JsonExecutionResult item 1, information
+2022-04-04 02:02:42.769802+0300 xctest[54697:492658] JsonExecutionResult, block_hash:74e01e51fea725dd6d8fc9442629f15b2691c1d6dcf9044fe0c39f0e49c49a4a
+2022-04-04 02:02:42.769872+0300 xctest[54697:492658] JsonExecutionResult of type Success
+2022-04-04 02:02:42.769927+0300 xctest[54697:492658] JsonExecutionResult cost:874779170
+2022-04-04 02:02:42.769972+0300 xctest[54697:492658] JsonExecutionResult effect information
+2022-04-04 02:02:42.770039+0300 xctest[54697:492658] Operation:[]
+2022-04-04 02:02:42.770102+0300 xctest[54697:492658] Total transform:29
+2022-04-04 02:02:42.770153+0300 xctest[54697:492658] First transform information
+2022-04-04 02:02:42.770203+0300 xctest[54697:492658] TransformEntry, key:hash-8cf5e4acf51f54eb59291599187838dc3bc234089c46fc6ca8ad17e762ae4401
+2022-04-04 02:02:42.770255+0300 xctest[54697:492658] TransformEntry,type:Identity
+2022-04-04 02:02:42.770482+0300 xctest[54697:492658] JsonExecutionResult,Total transfer:0
+Test Case '-[GetDeployTest testGetDeploy]' passed (1.597 seconds).
+Test Suite 'GetDeployTest' passed at 2022-04-04 02:02:42.772.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.597 (1.599) seconds
+Test Suite 'GetDictionaryItemTest' started at 2022-04-04 02:02:42.773
+Test Case '-[GetDictionaryItemTest testGetDictionaryItem]' started.
+2022-04-04 02:02:43.580807+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:43.580899+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:43.581025+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:43.581094+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:43.581150+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:43.581208+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:43.581263+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:43.581411+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:43.581484+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:43.581557+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:44.441873+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:44.442035+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-ac34673fa957fa8083306892815496b8fdee0aa1509f0080823979d869176060
+2022-04-04 02:02:44.442205+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30178
+2022-04-04 02:02:44.442326+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:44.442414+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:44.442667+0300 xctest[54697:492658] CLValue bytes:0800000061626376616c7565
+2022-04-04 02:02:44.442727+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:44.442786+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:44.442840+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:44.442895+0300 xctest[54697:492658] Value of parsed:abcvalue
+2022-04-04 02:02:45.363389+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:45.363611+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:45.363759+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:45.363819+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:45.363973+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:45.364090+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:45.364153+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:45.364212+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:45.364266+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:45.364322+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:46.183393+0300 xctest[54697:492658] GetDictionaryItemResult, api_version:1.4.5
+2022-04-04 02:02:46.183686+0300 xctest[54697:492658] GetDictionaryItemResult, dictionary_key:dictionary-5d3e90f064798d54e5e53643c4fce0cbb1024aadcad1586cc4b7c1358a530373
+2022-04-04 02:02:46.183918+0300 xctest[54697:492658] GetDictionaryItemResult, merkle_proof length:30330
+2022-04-04 02:02:46.184443+0300 xctest[54697:492658] GetDictionaryItemResult,StoredValue information
+2022-04-04 02:02:46.184526+0300 xctest[54697:492658] StoredValue log info, type:CLValue
+2022-04-04 02:02:46.184585+0300 xctest[54697:492658] CLValue bytes:090000006162635f76616c7565
+2022-04-04 02:02:46.184640+0300 xctest[54697:492658] -----CLType info-------
+2022-04-04 02:02:46.184695+0300 xctest[54697:492658] CLType:String
+2022-04-04 02:02:46.184746+0300 xctest[54697:492658] -----CLParsed info-------
+2022-04-04 02:02:46.184798+0300 xctest[54697:492658] Value of parsed:abc_value
+2022-04-04 02:02:46.886681+0300 xctest[54697:492658] Error get dictionary item with error message:Invalid params and error code:-32602
+2022-04-04 02:02:47.602600+0300 xctest[54697:492658] Error get dictionary item with error message:Failed to parse Dictionary key and error code:-32010
+Test Case '-[GetDictionaryItemTest testGetDictionaryItem]' passed (4.830 seconds).
+Test Suite 'GetDictionaryItemTest' passed at 2022-04-04 02:02:47.604.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.830 (4.831) seconds
+Test Suite 'GetEraInfoBySwitchBlockTest' started at 2022-04-04 02:02:47.605
+Test Case '-[GetEraInfoBySwitchBlockTest testGetEraInfoBySwitchBlock]' started.
+2022-04-04 02:02:48.553449+0300 xctest[54697:492658] GetEraInfoResult, api_version:1.4.4
+2022-04-04 02:02:48.553593+0300 xctest[54697:492658] GetEraInfoResult, era_summary does not exists
+2022-04-04 02:02:49.486419+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+2022-04-04 02:02:50.681685+0300 xctest[54697:492658] GetEraInfoResult, api_version:1.4.4
+2022-04-04 02:02:50.681772+0300 xctest[54697:492658] EraSummary, block_hash:f028506fb8add2edd3f9f3713e5acd7441a5d0cd433b863c627ff6542e8c0860
+2022-04-04 02:02:50.681896+0300 xctest[54697:492658] EraSummary, era_id:2
+2022-04-04 02:02:50.681964+0300 xctest[54697:492658] EraSummary, state_root_hash:112bc563aae7ed8a55ff0e7cfc95929ab5b48d69bf11be124542eec40085ae16
+2022-04-04 02:02:50.682022+0300 xctest[54697:492658] EraSummary, merkle_proof length:26336
+2022-04-04 02:02:50.682077+0300 xctest[54697:492658] StoredValue log info, type:EraInfo
+2022-04-04 02:02:50.682131+0300 xctest[54697:492658] EraInfo, total SeigniorageAllocation:199
+2022-04-04 02:02:50.682184+0300 xctest[54697:492658] EraInfo, information for first SeigniorageAllocation item
+2022-04-04 02:02:50.682236+0300 xctest[54697:492658] -----SeigniorageAllocation of type Delegator
+2022-04-04 02:02:50.682287+0300 xctest[54697:492658] SeigniorageAllocation Delegator, validator_public_key:01026ca707c348ed8012ac6a1f28db031fadd6eb67203501a353b867a08c8b9a80
+2022-04-04 02:02:50.682346+0300 xctest[54697:492658] SeigniorageAllocation Delegator, delegator_public_key:01128ddb51119f1df535cf3a763996344ab0cc79038faaee0aaaf098a078031ce6
+2022-04-04 02:02:50.682401+0300 xctest[54697:492658] SeigniorageAllocation Delegator, amount:87735183835
+2022-04-04 02:02:51.936773+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+2022-04-04 02:02:52.860135+0300 xctest[54697:492658] Error get era info with error message:block not known and error code:-32001
+Test Case '-[GetEraInfoBySwitchBlockTest testGetEraInfoBySwitchBlock]' passed (5.256 seconds).
+Test Suite 'GetEraInfoBySwitchBlockTest' passed at 2022-04-04 02:02:52.863.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.256 (5.258) seconds
+Test Suite 'GetItemTest' started at 2022-04-04 02:02:52.864
+Test Case '-[GetItemTest testGetItem]' started.
+2022-04-04 02:02:53.783607+0300 xctest[54697:492658] GetItemResult, api_version:1.4.5
+2022-04-04 02:02:53.783741+0300 xctest[54697:492658] GetItemResult, merkle_proof length:6876
+2022-04-04 02:02:53.783869+0300 xctest[54697:492658] GetItemResult, stored_value information
+2022-04-04 02:02:53.784010+0300 xctest[54697:492658] StoredValue log info, type:Withdraw
+2022-04-04 02:02:53.784122+0300 xctest[54697:492658] Transform_WriteWithdraw,total UnbondingPurse 1
+2022-04-04 02:02:53.784214+0300 xctest[54697:492658] Transform_WriteWithdraw, item number 1 information
+2022-04-04 02:02:53.784307+0300 xctest[54697:492658] UnbondingPurse, bounding_purse:uref-5fcc3031ea2572f9929e0cfcfc84c6c3131bfe1e78bce8cb61f99f59eace7795-007
+2022-04-04 02:02:53.784545+0300 xctest[54697:492658] UnbondingPurse, validator_public_key:01d949a3a1963db686607a00862f79b76ceb185fc134d0aeedb686f1c151f4ae54
+2022-04-04 02:02:53.784652+0300 xctest[54697:492658] UnbondingPurse, unbonder_public_key:01d949a3a1963db686607a00862f79b76ceb185fc134d0aeedb686f1c151f4ae54
+2022-04-04 02:02:53.784743+0300 xctest[54697:492658] UnbondingPurse, era_of_creation:3319
+2022-04-04 02:02:53.784854+0300 xctest[54697:492658] UnbondingPurse, amount:500
+2022-04-04 02:02:54.426247+0300 xctest[54697:492658] Error get item with error message:Invalid params and error code:-32602
+2022-04-04 02:02:55.316954+0300 xctest[54697:492658] Error get item with error message:failed to parse key: withdraw-key from string error: Invalid byte `b'f'`, at index 1. and error code:-32002
+2022-04-04 02:02:56.236919+0300 xctest[54697:492658] Error get item with error message:state query failed: RootNotFound and error code:-32003
+Test Case '-[GetItemTest testGetItem]' passed (3.374 seconds).
+Test Suite 'GetItemTest' passed at 2022-04-04 02:02:56.239.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.374 (3.376) seconds
+Test Suite 'GetPeerResultTest' started at 2022-04-04 02:02:56.240
+Test Case '-[GetPeerResultTest testGetPeerList]' started.
+2022-04-04 02:02:57.339792+0300 xctest[54697:492658] M1: info_get_peers test cases
+2022-04-04 02:02:57.340085+0300 xctest[54697:492658] Get peer result api_version:1.4.5
+2022-04-04 02:02:57.340279+0300 xctest[54697:492658] Get peer result, total peer entry:384
+2022-04-04 02:02:57.340443+0300 xctest[54697:492658] List of peer printed out:
+2022-04-04 02:02:57.340758+0300 xctest[54697:492658] Peer number 1 address:18.163.249.168:35000 and node id:tls:0097..b253
+2022-04-04 02:02:57.340935+0300 xctest[54697:492658] Peer number 2 address:44.238.152.37:50740 and node id:tls:00ba..ca37
+2022-04-04 02:02:57.341051+0300 xctest[54697:492658] Peer number 3 address:95.216.67.162:35000 and node id:tls:00e5..6748
+2022-04-04 02:02:57.341159+0300 xctest[54697:492658] Peer number 4 address:65.108.4.126:48848 and node id:tls:01ae..7b8a
+2022-04-04 02:02:57.341296+0300 xctest[54697:492658] Peer number 5 address:89.58.25.11:35000 and node id:tls:029f..74fd
+2022-04-04 02:02:57.341495+0300 xctest[54697:492658] Peer number 6 address:65.21.235.219:35000 and node id:tls:0309..59c7
+2022-04-04 02:02:57.341639+0300 xctest[54697:492658] Peer number 7 address:88.99.69.157:49168 and node id:tls:0371..0dba
+2022-04-04 02:02:57.341766+0300 xctest[54697:492658] Peer number 8 address:65.21.227.181:35000 and node id:tls:03e4..1caa
+2022-04-04 02:02:57.341867+0300 xctest[54697:492658] Peer number 9 address:162.55.6.177:35000 and node id:tls:03ed..0609
+2022-04-04 02:02:57.349116+0300 xctest[54697:492658] Peer number 10 address:88.99.89.209:35000 and node id:tls:03f5..21ff
+2022-04-04 02:02:57.349198+0300 xctest[54697:492658] Peer number 11 address:144.126.152.28:43592 and node id:tls:0414..5546
+2022-04-04 02:02:57.349291+0300 xctest[54697:492658] Peer number 12 address:54.72.219.182:36488 and node id:tls:0508..940c
+2022-04-04 02:02:57.349385+0300 xctest[54697:492658] Peer number 13 address:118.200.90.72:51362 and node id:tls:05a0..b1cb
+2022-04-04 02:02:57.349478+0300 xctest[54697:492658] Peer number 14 address:103.114.224.150:52192 and node id:tls:0663..5ff7
+2022-04-04 02:02:57.349568+0300 xctest[54697:492658] Peer number 15 address:65.108.7.50:35000 and node id:tls:0706..8353
+2022-04-04 02:02:57.349658+0300 xctest[54697:492658] Peer number 16 address:65.108.42.61:35000 and node id:tls:0718..0f50
+2022-04-04 02:02:57.349747+0300 xctest[54697:492658] Peer number 17 address:94.130.33.181:35000 and node id:tls:07f5..9eb0
+2022-04-04 02:02:57.349836+0300 xctest[54697:492658] Peer number 18 address:65.21.75.94:35000 and node id:tls:0845..5786
+2022-04-04 02:02:57.349925+0300 xctest[54697:492658] Peer number 19 address:138.201.133.150:35000 and node id:tls:089a..d19a
+2022-04-04 02:02:57.350014+0300 xctest[54697:492658] Peer number 20 address:23.88.71.231:59330 and node id:tls:08b9..0139
+2022-04-04 02:02:57.350106+0300 xctest[54697:492658] Peer number 21 address:93.186.201.14:35000 and node id:tls:097c..e44f
+2022-04-04 02:02:57.350199+0300 xctest[54697:492658] Peer number 22 address:118.200.90.72:33966 and node id:tls:0bda..bfa2
+2022-04-04 02:02:57.350385+0300 xctest[54697:492658] Peer number 23 address:118.200.90.72:33984 and node id:tls:0be5..6aab
+2022-04-04 02:02:57.350500+0300 xctest[54697:492658] Peer number 24 address:65.21.231.23:35000 and node id:tls:0c48..06b3
+2022-04-04 02:02:57.350599+0300 xctest[54697:492658] Peer number 25 address:88.99.146.74:35000 and node id:tls:0fb7..a22b
+2022-04-04 02:02:57.350693+0300 xctest[54697:492658] Peer number 26 address:54.72.219.182:54956 and node id:tls:108a..ae4f
+2022-04-04 02:02:57.350786+0300 xctest[54697:492658] Peer number 27 address:65.21.231.29:35000 and node id:tls:10ca..f6d1
+2022-04-04 02:02:57.350880+0300 xctest[54697:492658] Peer number 28 address:94.130.10.55:35000 and node id:tls:1265..3319
+2022-04-04 02:02:57.350990+0300 xctest[54697:492658] Peer number 29 address:95.216.38.174:35000 and node id:tls:1318..70f9
+2022-04-04 02:02:57.351161+0300 xctest[54697:492658] Peer number 30 address:65.108.0.107:35000 and node id:tls:1346..d363
+2022-04-04 02:02:57.351257+0300 xctest[54697:492658] Peer number 31 address:5.9.2.171:35000 and node id:tls:13ef..48cf
+2022-04-04 02:02:57.351398+0300 xctest[54697:492658] Peer number 32 address:136.243.137.238:35000 and node id:tls:14ae..3720
+2022-04-04 02:02:57.351489+0300 xctest[54697:492658] Peer number 33 address:144.91.68.55:35000 and node id:tls:14d4..f459
+2022-04-04 02:02:57.351576+0300 xctest[54697:492658] Peer number 34 address:139.180.189.141:35000 and node id:tls:1509..7e85
+2022-04-04 02:02:57.351663+0300 xctest[54697:492658] Peer number 35 address:65.108.73.148:35000 and node id:tls:155e..f5eb
+2022-04-04 02:02:57.351748+0300 xctest[54697:492658] Peer number 36 address:65.108.41.39:35000 and node id:tls:1600..ca7a
+2022-04-04 02:02:57.351833+0300 xctest[54697:492658] Peer number 37 address:88.99.0.42:35000 and node id:tls:172b..ac8e
+2022-04-04 02:02:57.351920+0300 xctest[54697:492658] Peer number 38 address:135.181.214.157:35000 and node id:tls:17d1..5b8e
+2022-04-04 02:02:57.352018+0300 xctest[54697:492658] Peer number 39 address:142.4.208.204:35000 and node id:tls:196a..2f64
+2022-04-04 02:02:57.352104+0300 xctest[54697:492658] Peer number 40 address:118.200.90.72:33982 and node id:tls:19b3..75aa
+2022-04-04 02:02:57.352191+0300 xctest[54697:492658] Peer number 41 address:103.146.240.245:35200 and node id:tls:19b3..a1a5
+2022-04-04 02:02:57.352276+0300 xctest[54697:492658] Peer number 42 address:62.171.156.235:35000 and node id:tls:19e4..498d
+2022-04-04 02:02:57.352363+0300 xctest[54697:492658] Peer number 43 address:5.9.21.115:35000 and node id:tls:1a86..1c5a
+2022-04-04 02:02:57.352543+0300 xctest[54697:492658] Peer number 44 address:167.99.210.123:35000 and node id:tls:1b59..b60b
+2022-04-04 02:02:57.353058+0300 xctest[54697:492658] Peer number 45 address:185.215.165.34:35000 and node id:tls:1c82..37a3
+2022-04-04 02:02:57.353247+0300 xctest[54697:492658] Peer number 46 address:207.180.214.56:35000 and node id:tls:1c94..45aa
+2022-04-04 02:02:57.353366+0300 xctest[54697:492658] Peer number 47 address:172.114.130.252:32898 and node id:tls:1cd2..961c
+2022-04-04 02:02:57.353561+0300 xctest[54697:492658] Peer number 48 address:138.201.54.44:35000 and node id:tls:1cdc..d81b
+2022-04-04 02:02:57.353656+0300 xctest[54697:492658] Peer number 49 address:65.108.12.160:35000 and node id:tls:1ce7..7381
+2022-04-04 02:02:57.353747+0300 xctest[54697:492658] Peer number 50 address:103.146.240.245:58880 and node id:tls:1d8c..4817
+2022-04-04 02:02:57.353887+0300 xctest[54697:492658] Peer number 51 address:195.88.87.26:35000 and node id:tls:1dda..113a
+2022-04-04 02:02:57.353990+0300 xctest[54697:492658] Peer number 52 address:46.4.32.165:35000 and node id:tls:1e4e..fb9b
+2022-04-04 02:02:57.354083+0300 xctest[54697:492658] Peer number 53 address:54.186.192.89:56160 and node id:tls:1ec8..15a9
+2022-04-04 02:02:57.354173+0300 xctest[54697:492658] Peer number 54 address:65.108.0.22:35000 and node id:tls:1eea..80d1
+2022-04-04 02:02:57.354262+0300 xctest[54697:492658] Peer number 55 address:65.108.43.219:35000 and node id:tls:1fb7..837c
+2022-04-04 02:02:57.354383+0300 xctest[54697:492658] Peer number 56 address:65.108.10.126:35000 and node id:tls:205b..f5b2
+2022-04-04 02:02:57.354758+0300 xctest[54697:492658] Peer number 57 address:35.169.205.205:35000 and node id:tls:20de..79ee
+2022-04-04 02:02:57.354903+0300 xctest[54697:492658] Peer number 58 address:65.21.237.153:35000 and node id:tls:21b4..076b
+2022-04-04 02:02:57.355024+0300 xctest[54697:492658] Peer number 59 address:47.106.100.25:41266 and node id:tls:22c3..658c
+2022-04-04 02:02:57.355160+0300 xctest[54697:492658] Peer number 60 address:65.21.88.62:35000 and node id:tls:23ca..a632
+2022-04-04 02:02:57.355297+0300 xctest[54697:492658] Peer number 61 address:65.108.2.45:35000 and node id:tls:23f0..e235
+2022-04-04 02:02:57.355389+0300 xctest[54697:492658] Peer number 62 address:155.138.175.136:35000 and node id:tls:2427..1e52
+2022-04-04 02:02:57.355580+0300 xctest[54697:492658] Peer number 63 address:23.88.0.163:35000 and node id:tls:258a..1819
+2022-04-04 02:02:57.355716+0300 xctest[54697:492658] Peer number 64 address:138.201.48.72:35000 and node id:tls:25c3..4c4a
+2022-04-04 02:02:57.355871+0300 xctest[54697:492658] Peer number 65 address:118.200.90.72:33978 and node id:tls:2602..c802
+2022-04-04 02:02:57.355972+0300 xctest[54697:492658] Peer number 66 address:103.146.240.245:59186 and node id:tls:276c..e0c8
+2022-04-04 02:02:57.356062+0300 xctest[54697:492658] Peer number 67 address:135.181.20.91:35000 and node id:tls:27cf..bb5a
+2022-04-04 02:02:57.356196+0300 xctest[54697:492658] Peer number 68 address:148.251.195.32:35000 and node id:tls:289b..83d5
+2022-04-04 02:02:57.356296+0300 xctest[54697:492658] Peer number 69 address:3.23.146.54:35000 and node id:tls:289d..2628
+2022-04-04 02:02:57.356386+0300 xctest[54697:492658] Peer number 70 address:35.83.75.217:45456 and node id:tls:292a..5d54
+2022-04-04 02:02:57.356487+0300 xctest[54697:492658] Peer number 71 address:65.21.239.31:35000 and node id:tls:2b04..ba7c
+2022-04-04 02:02:57.356576+0300 xctest[54697:492658] Peer number 72 address:5.9.20.162:35000 and node id:tls:2b70..92da
+2022-04-04 02:02:57.356664+0300 xctest[54697:492658] Peer number 73 address:118.200.90.72:33988 and node id:tls:2bc0..c0a4
+2022-04-04 02:02:57.356750+0300 xctest[54697:492658] Peer number 74 address:54.72.219.182:49620 and node id:tls:2ce3..84ae
+2022-04-04 02:02:57.356839+0300 xctest[54697:492658] Peer number 75 address:87.233.77.35:35000 and node id:tls:2d5a..d6dc
+2022-04-04 02:02:57.356925+0300 xctest[54697:492658] Peer number 76 address:88.99.100.240:51302 and node id:tls:2e69..7715
+2022-04-04 02:02:57.357009+0300 xctest[54697:492658] Peer number 77 address:103.146.240.245:43164 and node id:tls:2eb8..f6ed
+2022-04-04 02:02:57.357094+0300 xctest[54697:492658] Peer number 78 address:65.21.237.113:35000 and node id:tls:2ef8..b63d
+2022-04-04 02:02:57.357233+0300 xctest[54697:492658] Peer number 79 address:142.132.192.37:35000 and node id:tls:2fff..3809
+2022-04-04 02:02:57.357323+0300 xctest[54697:492658] Peer number 80 address:54.72.219.182:59462 and node id:tls:30e3..2638
+2022-04-04 02:02:57.357407+0300 xctest[54697:492658] Peer number 81 address:148.251.81.170:35000 and node id:tls:30ea..1ec4
+2022-04-04 02:02:57.357561+0300 xctest[54697:492658] Peer number 82 address:142.132.155.188:35000 and node id:tls:316d..f856
+2022-04-04 02:02:57.357700+0300 xctest[54697:492658] Peer number 83 address:135.181.140.236:35000 and node id:tls:3209..fc3b
+2022-04-04 02:02:57.358117+0300 xctest[54697:492658] Peer number 84 address:95.216.247.164:35000 and node id:tls:3388..eda2
+2022-04-04 02:02:57.358281+0300 xctest[54697:492658] Peer number 85 address:65.108.2.50:38354 and node id:tls:34e1..b0e0
+2022-04-04 02:02:57.358603+0300 xctest[54697:492658] Peer number 86 address:65.21.239.114:35000 and node id:tls:34fd..ad70
+2022-04-04 02:02:57.358729+0300 xctest[54697:492658] Peer number 87 address:54.203.120.71:59100 and node id:tls:353e..5594
+2022-04-04 02:02:57.358864+0300 xctest[54697:492658] Peer number 88 address:88.99.141.148:35000 and node id:tls:360f..c243
+2022-04-04 02:02:57.358958+0300 xctest[54697:492658] Peer number 89 address:103.114.224.150:46326 and node id:tls:36db..37ba
+2022-04-04 02:02:57.359152+0300 xctest[54697:492658] Peer number 90 address:46.4.119.228:35000 and node id:tls:370a..a441
+2022-04-04 02:02:57.359250+0300 xctest[54697:492658] Peer number 91 address:13.36.48.32:35000 and node id:tls:37a0..5dfa
+2022-04-04 02:02:57.359401+0300 xctest[54697:492658] Peer number 92 address:65.21.201.245:35000 and node id:tls:3800..ea23
+2022-04-04 02:02:57.359544+0300 xctest[54697:492658] Peer number 93 address:35.81.75.47:42308 and node id:tls:38bb..58c8
+2022-04-04 02:02:57.359637+0300 xctest[54697:492658] Peer number 94 address:65.21.235.239:35000 and node id:tls:3943..673c
+2022-04-04 02:02:57.359728+0300 xctest[54697:492658] Peer number 95 address:95.216.72.156:35000 and node id:tls:39d9..c68b
+2022-04-04 02:02:57.359816+0300 xctest[54697:492658] Peer number 96 address:162.55.239.44:35000 and node id:tls:3a09..1b53
+2022-04-04 02:02:57.359904+0300 xctest[54697:492658] Peer number 97 address:65.108.4.121:54654 and node id:tls:3a8a..58d1
+2022-04-04 02:02:57.359991+0300 xctest[54697:492658] Peer number 98 address:138.201.17.176:35000 and node id:tls:3ac4..74d2
+2022-04-04 02:02:57.360078+0300 xctest[54697:492658] Peer number 99 address:54.72.219.182:38950 and node id:tls:3b2f..5fb1
+2022-04-04 02:02:57.360166+0300 xctest[54697:492658] Peer number 100 address:114.143.165.174:52676 and node id:tls:3db5..c774
+2022-04-04 02:02:57.360255+0300 xctest[54697:492658] Peer number 101 address:95.216.10.102:35000 and node id:tls:3e07..7456
+2022-04-04 02:02:57.360344+0300 xctest[54697:492658] Peer number 102 address:89.58.30.220:35000 and node id:tls:3e43..cfaa
+2022-04-04 02:02:57.360431+0300 xctest[54697:492658] Peer number 103 address:54.193.230.87:35000 and node id:tls:3e94..a4b1
+2022-04-04 02:02:57.360515+0300 xctest[54697:492658] Peer number 104 address:135.181.113.209:35000 and node id:tls:3ebb..42eb
+2022-04-04 02:02:57.360603+0300 xctest[54697:492658] Peer number 105 address:23.88.71.227:41488 and node id:tls:408c..74fa
+2022-04-04 02:02:57.360692+0300 xctest[54697:492658] Peer number 106 address:5.9.23.55:35000 and node id:tls:4154..9855
+2022-04-04 02:02:57.360782+0300 xctest[54697:492658] Peer number 107 address:210.245.49.112:49784 and node id:tls:41dd..e41e
+2022-04-04 02:02:57.360868+0300 xctest[54697:492658] Peer number 108 address:54.190.157.127:58756 and node id:tls:41de..f32c
+2022-04-04 02:02:57.360955+0300 xctest[54697:492658] Peer number 109 address:195.201.107.240:35000 and node id:tls:4231..d5b3
+2022-04-04 02:02:57.361058+0300 xctest[54697:492658] Peer number 110 address:85.114.132.129:35000 and node id:tls:429e..a475
+2022-04-04 02:02:57.361145+0300 xctest[54697:492658] Peer number 111 address:135.181.74.237:35000 and node id:tls:432a..6952
+2022-04-04 02:02:57.361231+0300 xctest[54697:492658] Peer number 112 address:65.108.5.253:35000 and node id:tls:436d..313a
+2022-04-04 02:02:57.361418+0300 xctest[54697:492658] Peer number 113 address:65.108.4.27:35000 and node id:tls:43ad..0ed4
+2022-04-04 02:02:57.361531+0300 xctest[54697:492658] Peer number 114 address:178.170.42.149:35000 and node id:tls:43c5..72ab
+2022-04-04 02:02:57.361663+0300 xctest[54697:492658] Peer number 115 address:103.114.224.150:54194 and node id:tls:46d5..b617
+2022-04-04 02:02:57.361805+0300 xctest[54697:492658] Peer number 116 address:193.48.40.70:1728 and node id:tls:47ac..c98e
+2022-04-04 02:02:57.361901+0300 xctest[54697:492658] Peer number 117 address:135.181.216.142:35000 and node id:tls:480c..d92c
+2022-04-04 02:02:57.362093+0300 xctest[54697:492658] Peer number 118 address:89.163.224.120:35000 and node id:tls:49a5..5cc7
+2022-04-04 02:02:57.362193+0300 xctest[54697:492658] Peer number 119 address:210.245.49.112:53830 and node id:tls:49d5..0142
+2022-04-04 02:02:57.362463+0300 xctest[54697:492658] Peer number 120 address:167.71.14.48:52468 and node id:tls:4b1c..f9df
+2022-04-04 02:02:57.362665+0300 xctest[54697:492658] Peer number 121 address:148.251.22.148:35000 and node id:tls:4b67..acb2
+2022-04-04 02:02:57.362808+0300 xctest[54697:492658] Peer number 122 address:109.238.14.37:35000 and node id:tls:4d2f..36ef
+2022-04-04 02:02:57.363128+0300 xctest[54697:492658] Peer number 123 address:3.208.91.63:35000 and node id:tls:4d4c..dca4
+2022-04-04 02:02:57.363427+0300 xctest[54697:492658] Peer number 124 address:116.202.221.216:35480 and node id:tls:4d98..f698
+2022-04-04 02:02:57.363523+0300 xctest[54697:492658] Peer number 125 address:65.108.10.150:35000 and node id:tls:4ed4..1783
+2022-04-04 02:02:57.363627+0300 xctest[54697:492658] Peer number 126 address:65.21.132.206:35000 and node id:tls:5007..6d0f
+2022-04-04 02:02:57.363761+0300 xctest[54697:492658] Peer number 127 address:5.9.154.76:35000 and node id:tls:502f..9d46
+2022-04-04 02:02:57.363895+0300 xctest[54697:492658] Peer number 128 address:157.90.130.143:35000 and node id:tls:515b..5465
+2022-04-04 02:02:57.364117+0300 xctest[54697:492658] Peer number 129 address:95.216.45.210:35000 and node id:tls:5189..24d9
+2022-04-04 02:02:57.364285+0300 xctest[54697:492658] Peer number 130 address:65.21.125.235:35000 and node id:tls:5276..a216
+2022-04-04 02:02:57.364543+0300 xctest[54697:492658] Peer number 131 address:103.146.240.245:40962 and node id:tls:52bd..b737
+2022-04-04 02:02:57.364670+0300 xctest[54697:492658] Peer number 132 address:135.181.116.109:35000 and node id:tls:5320..1a63
+2022-04-04 02:02:57.364970+0300 xctest[54697:492658] Peer number 133 address:210.245.49.112:34260 and node id:tls:5377..df5d
+2022-04-04 02:02:57.365079+0300 xctest[54697:492658] Peer number 134 address:65.21.227.86:35000 and node id:tls:541d..f920
+2022-04-04 02:02:57.365402+0300 xctest[54697:492658] Peer number 135 address:65.21.194.138:35000 and node id:tls:5422..921a
+2022-04-04 02:02:57.365865+0300 xctest[54697:492658] Peer number 136 address:65.21.132.234:35000 and node id:tls:54d0..c10b
+2022-04-04 02:02:57.365991+0300 xctest[54697:492658] Peer number 137 address:118.200.90.72:33990 and node id:tls:5523..f8c1
+2022-04-04 02:02:57.366093+0300 xctest[54697:492658] Peer number 138 address:128.199.188.182:35000 and node id:tls:5601..4385
+2022-04-04 02:02:57.366190+0300 xctest[54697:492658] Peer number 139 address:18.141.10.216:35000 and node id:tls:568a..9d57
+2022-04-04 02:02:57.366288+0300 xctest[54697:492658] Peer number 140 address:94.130.14.186:35000 and node id:tls:5720..b8a5
+2022-04-04 02:02:57.366385+0300 xctest[54697:492658] Peer number 141 address:65.108.3.230:35000 and node id:tls:577b..9c2e
+2022-04-04 02:02:57.366481+0300 xctest[54697:492658] Peer number 142 address:3.136.154.249:35000 and node id:tls:5804..9e3f
+2022-04-04 02:02:57.366576+0300 xctest[54697:492658] Peer number 143 address:136.243.48.239:54002 and node id:tls:581e..c97d
+2022-04-04 02:02:57.366676+0300 xctest[54697:492658] Peer number 144 address:135.181.165.233:35000 and node id:tls:5a22..742d
+2022-04-04 02:02:57.366774+0300 xctest[54697:492658] Peer number 145 address:85.114.132.133:35000 and node id:tls:5b61..2b16
+2022-04-04 02:02:57.368701+0300 xctest[54697:492658] Peer number 146 address:95.216.42.190:35000 and node id:tls:5bb8..bed0
+2022-04-04 02:02:57.369082+0300 xctest[54697:492658] Peer number 147 address:142.4.208.184:35000 and node id:tls:5cf6..072a
+2022-04-04 02:02:57.369203+0300 xctest[54697:492658] Peer number 148 address:138.201.206.195:35000 and node id:tls:5d39..22d2
+2022-04-04 02:02:57.369439+0300 xctest[54697:492658] Peer number 149 address:35.166.244.188:51568 and node id:tls:5d7b..4890
+2022-04-04 02:02:57.369560+0300 xctest[54697:492658] Peer number 150 address:198.245.51.193:35000 and node id:tls:5db7..269d
+2022-04-04 02:02:57.369685+0300 xctest[54697:492658] Peer number 151 address:65.21.236.44:35000 and node id:tls:5e71..756b
+2022-04-04 02:02:57.370060+0300 xctest[54697:492658] Peer number 152 address:138.201.53.13:35000 and node id:tls:5e82..3c6b
+2022-04-04 02:02:57.370174+0300 xctest[54697:492658] Peer number 153 address:65.108.101.71:35000 and node id:tls:5eb3..4dc3
+2022-04-04 02:02:57.370332+0300 xctest[54697:492658] Peer number 154 address:65.21.194.140:35000 and node id:tls:5ec9..4463
+2022-04-04 02:02:57.370476+0300 xctest[54697:492658] Peer number 155 address:103.146.240.245:43262 and node id:tls:600b..e67a
+2022-04-04 02:02:57.370576+0300 xctest[54697:492658] Peer number 156 address:157.90.34.213:35000 and node id:tls:614e..8d60
+2022-04-04 02:02:57.370824+0300 xctest[54697:492658] Peer number 157 address:167.99.217.85:35000 and node id:tls:61c5..2859
+2022-04-04 02:02:57.371032+0300 xctest[54697:492658] Peer number 158 address:135.181.207.1:35000 and node id:tls:6218..4baa
+2022-04-04 02:02:57.371140+0300 xctest[54697:492658] Peer number 159 address:65.21.231.40:35000 and node id:tls:629a..32ff
+2022-04-04 02:02:57.371236+0300 xctest[54697:492658] Peer number 160 address:103.114.224.150:51274 and node id:tls:62e2..271f
+2022-04-04 02:02:57.371329+0300 xctest[54697:492658] Peer number 161 address:81.30.157.85:35000 and node id:tls:66cf..f454
+2022-04-04 02:02:57.371418+0300 xctest[54697:492658] Peer number 162 address:144.76.110.71:35000 and node id:tls:67cd..2a2a
+2022-04-04 02:02:57.371507+0300 xctest[54697:492658] Peer number 163 address:3.129.252.116:35000 and node id:tls:6804..6d09
+2022-04-04 02:02:57.371608+0300 xctest[54697:492658] Peer number 164 address:103.114.224.150:53718 and node id:tls:6938..c578
+2022-04-04 02:02:57.371696+0300 xctest[54697:492658] Peer number 165 address:88.198.2.214:35000 and node id:tls:69a4..6e7b
+2022-04-04 02:02:57.371783+0300 xctest[54697:492658] Peer number 166 address:65.108.46.187:35000 and node id:tls:6cb9..cbb4
+2022-04-04 02:02:57.371869+0300 xctest[54697:492658] Peer number 167 address:65.21.227.35:35000 and node id:tls:6ea7..59c9
+2022-04-04 02:02:57.372026+0300 xctest[54697:492658] Peer number 168 address:5.9.21.141:35000 and node id:tls:6f87..d639
+2022-04-04 02:02:57.372143+0300 xctest[54697:492658] Peer number 169 address:148.251.78.90:45454 and node id:tls:7062..d255
+2022-04-04 02:02:57.372271+0300 xctest[54697:492658] Peer number 170 address:18.167.47.162:35000 and node id:tls:70cf..b957
+2022-04-04 02:02:57.372466+0300 xctest[54697:492658] Peer number 171 address:118.189.191.191:35000 and node id:tls:7107..6f9a
+2022-04-04 02:02:57.372659+0300 xctest[54697:492658] Peer number 172 address:162.55.242.24:35000 and node id:tls:7171..c648
+2022-04-04 02:02:57.372757+0300 xctest[54697:492658] Peer number 173 address:65.108.41.164:35000 and node id:tls:7288..2ee7
+2022-04-04 02:02:57.372861+0300 xctest[54697:492658] Peer number 174 address:195.201.167.179:35000 and node id:tls:72fc..7444
+2022-04-04 02:02:57.373055+0300 xctest[54697:492658] Peer number 175 address:103.114.224.150:45130 and node id:tls:7337..5fa5
+2022-04-04 02:02:57.373340+0300 xctest[54697:492658] Peer number 176 address:65.108.11.103:35000 and node id:tls:738d..fa71
+2022-04-04 02:02:57.373450+0300 xctest[54697:492658] Peer number 177 address:65.108.3.108:35000 and node id:tls:73ee..af58
+2022-04-04 02:02:57.373755+0300 xctest[54697:492658] Peer number 178 address:136.243.147.249:35000 and node id:tls:74e2..f300
+2022-04-04 02:02:57.373955+0300 xctest[54697:492658] Peer number 179 address:198.100.148.19:35000 and node id:tls:759a..76c8
+2022-04-04 02:02:57.374080+0300 xctest[54697:492658] Peer number 180 address:13.52.2.182:35000 and node id:tls:76c5..8553
+2022-04-04 02:02:57.374300+0300 xctest[54697:492658] Peer number 181 address:54.72.219.182:37846 and node id:tls:76cf..7e20
+2022-04-04 02:02:57.374439+0300 xctest[54697:492658] Peer number 182 address:188.40.47.161:35000 and node id:tls:7731..d2eb
+2022-04-04 02:02:57.374538+0300 xctest[54697:492658] Peer number 183 address:178.170.46.167:35000 and node id:tls:780a..6ca2
+2022-04-04 02:02:57.374629+0300 xctest[54697:492658] Peer number 184 address:95.216.71.88:35000 and node id:tls:78ee..ee62
+2022-04-04 02:02:57.374715+0300 xctest[54697:492658] Peer number 185 address:65.108.11.90:35000 and node id:tls:7a2f..fdec
+2022-04-04 02:02:57.374801+0300 xctest[54697:492658] Peer number 186 address:118.200.90.72:33980 and node id:tls:7a8e..8409
+2022-04-04 02:02:57.374888+0300 xctest[54697:492658] Peer number 187 address:148.251.90.119:35000 and node id:tls:7b05..68ad
+2022-04-04 02:02:57.374975+0300 xctest[54697:492658] Peer number 188 address:95.217.206.250:35000 and node id:tls:7c60..f9a5
+2022-04-04 02:02:57.375287+0300 xctest[54697:492658] Peer number 189 address:95.216.246.31:35000 and node id:tls:7c62..e3d2
+2022-04-04 02:02:57.375389+0300 xctest[54697:492658] Peer number 190 address:65.21.92.145:35000 and node id:tls:7cab..a75f
+2022-04-04 02:02:57.375525+0300 xctest[54697:492658] Peer number 191 address:94.130.140.91:35000 and node id:tls:7cad..a1d0
+2022-04-04 02:02:57.375633+0300 xctest[54697:492658] Peer number 192 address:195.201.174.222:35000 and node id:tls:7d63..3426
+2022-04-04 02:02:57.375809+0300 xctest[54697:492658] Peer number 193 address:162.55.245.143:35000 and node id:tls:7e90..9a4d
+2022-04-04 02:02:57.375918+0300 xctest[54697:492658] Peer number 194 address:149.28.148.172:35000 and node id:tls:7f3d..3e23
+2022-04-04 02:02:57.376136+0300 xctest[54697:492658] Peer number 195 address:103.146.240.245:58888 and node id:tls:805e..2fea
+2022-04-04 02:02:57.376244+0300 xctest[54697:492658] Peer number 196 address:116.202.158.93:35000 and node id:tls:8098..01c3
+2022-04-04 02:02:57.376347+0300 xctest[54697:492658] Peer number 197 address:45.76.150.22:35000 and node id:tls:80c6..8a6b
+2022-04-04 02:02:57.376712+0300 xctest[54697:492658] Peer number 198 address:148.251.10.212:35000 and node id:tls:80ff..ce19
+2022-04-04 02:02:57.376883+0300 xctest[54697:492658] Peer number 199 address:103.114.224.150:43610 and node id:tls:825f..154b
+2022-04-04 02:02:57.376979+0300 xctest[54697:492658] Peer number 200 address:5.9.21.244:35000 and node id:tls:8320..b3a9
+2022-04-04 02:02:57.377156+0300 xctest[54697:492658] Peer number 201 address:49.12.51.214:35000 and node id:tls:8321..7a95
+2022-04-04 02:02:57.377260+0300 xctest[54697:492658] Peer number 202 address:167.99.209.179:35000 and node id:tls:8343..3b4f
+2022-04-04 02:02:57.377355+0300 xctest[54697:492658] Peer number 203 address:52.70.214.247:35000 and node id:tls:83cb..53da
+2022-04-04 02:02:57.377479+0300 xctest[54697:492658] Peer number 204 address:207.148.121.215:35000 and node id:tls:853f..1e2d
+2022-04-04 02:02:57.377778+0300 xctest[54697:492658] Peer number 205 address:35.163.152.22:43660 and node id:tls:8568..1422
+2022-04-04 02:02:57.378032+0300 xctest[54697:492658] Peer number 206 address:65.108.8.45:35000 and node id:tls:85ba..9376
+2022-04-04 02:02:57.378195+0300 xctest[54697:492658] Peer number 207 address:65.21.88.221:35000 and node id:tls:85c9..a9e1
+2022-04-04 02:02:57.378380+0300 xctest[54697:492658] Peer number 208 address:45.83.106.29:35000 and node id:tls:8688..59e0
+2022-04-04 02:02:57.378537+0300 xctest[54697:492658] Peer number 209 address:65.108.0.79:35000 and node id:tls:86ca..2231
+2022-04-04 02:02:57.378681+0300 xctest[54697:492658] Peer number 210 address:65.108.101.20:35000 and node id:tls:86f6..2f07
+2022-04-04 02:02:57.378778+0300 xctest[54697:492658] Peer number 211 address:138.201.224.174:35000 and node id:tls:8799..b911
+2022-04-04 02:02:57.378876+0300 xctest[54697:492658] Peer number 212 address:65.108.1.61:35000 and node id:tls:8972..87ef
+2022-04-04 02:02:57.379164+0300 xctest[54697:492658] Peer number 213 address:159.65.118.250:35000 and node id:tls:8a1d..292e
+2022-04-04 02:02:57.379307+0300 xctest[54697:492658] Peer number 214 address:142.132.208.215:35000 and node id:tls:8a20..d4e0
+2022-04-04 02:02:57.379403+0300 xctest[54697:492658] Peer number 215 address:54.72.219.182:55390 and node id:tls:8c43..e03f
+2022-04-04 02:02:57.379492+0300 xctest[54697:492658] Peer number 216 address:51.124.238.59:35000 and node id:tls:8d31..d40b
+2022-04-04 02:02:57.379691+0300 xctest[54697:492658] Peer number 217 address:103.114.224.150:53748 and node id:tls:8d6b..7ea3
+2022-04-04 02:02:57.379806+0300 xctest[54697:492658] Peer number 218 address:135.181.114.196:35000 and node id:tls:8e1b..85af
+2022-04-04 02:02:57.380113+0300 xctest[54697:492658] Peer number 219 address:88.99.60.204:35000 and node id:tls:90ac..6529
+2022-04-04 02:02:57.380282+0300 xctest[54697:492658] Peer number 220 address:141.94.194.38:35000 and node id:tls:9150..cd50
+2022-04-04 02:02:57.380484+0300 xctest[54697:492658] Peer number 221 address:65.108.2.46:35000 and node id:tls:91a5..704a
+2022-04-04 02:02:57.380581+0300 xctest[54697:492658] Peer number 222 address:172.114.130.252:35000 and node id:tls:92dc..8c74
+2022-04-04 02:02:57.380675+0300 xctest[54697:492658] Peer number 223 address:65.108.2.223:35000 and node id:tls:9486..103a
+2022-04-04 02:02:57.380761+0300 xctest[54697:492658] Peer number 224 address:65.108.42.60:35000 and node id:tls:9521..1f97
+2022-04-04 02:02:57.380848+0300 xctest[54697:492658] Peer number 225 address:65.108.140.73:35000 and node id:tls:95a3..8525
+2022-04-04 02:02:57.380955+0300 xctest[54697:492658] Peer number 226 address:5.9.50.59:35000 and node id:tls:95a5..ea3a
+2022-04-04 02:02:57.381062+0300 xctest[54697:492658] Peer number 227 address:164.68.98.13:35000 and node id:tls:9689..6e25
+2022-04-04 02:02:57.381156+0300 xctest[54697:492658] Peer number 228 address:121.6.33.237:32090 and node id:tls:96ce..3b57
+2022-04-04 02:02:57.381337+0300 xctest[54697:492658] Peer number 229 address:3.128.192.255:35000 and node id:tls:9781..9580
+2022-04-04 02:02:57.381453+0300 xctest[54697:492658] Peer number 230 address:207.180.199.157:49158 and node id:tls:98b5..c830
+2022-04-04 02:02:57.381558+0300 xctest[54697:492658] Peer number 231 address:16.162.124.124:35000 and node id:tls:9a65..3f65
+2022-04-04 02:02:57.381699+0300 xctest[54697:492658] Peer number 232 address:157.90.7.48:35000 and node id:tls:9b34..6cac
+2022-04-04 02:02:57.381803+0300 xctest[54697:492658] Peer number 233 address:35.238.105.248:35000 and node id:tls:9b98..5660
+2022-04-04 02:02:57.381953+0300 xctest[54697:492658] Peer number 234 address:103.146.240.245:58864 and node id:tls:9bb7..bb09
+2022-04-04 02:02:57.382097+0300 xctest[54697:492658] Peer number 235 address:5.9.77.72:35000 and node id:tls:9c08..1d2f
+2022-04-04 02:02:57.382243+0300 xctest[54697:492658] Peer number 236 address:65.21.77.17:35000 and node id:tls:9f03..2f74
+2022-04-04 02:02:57.382432+0300 xctest[54697:492658] Peer number 237 address:65.21.95.180:35000 and node id:tls:a2fa..0213
+2022-04-04 02:02:57.382568+0300 xctest[54697:492658] Peer number 238 address:65.108.2.43:35000 and node id:tls:a35d..3eb6
+2022-04-04 02:02:57.382666+0300 xctest[54697:492658] Peer number 239 address:118.200.90.72:33964 and node id:tls:a396..6730
+2022-04-04 02:02:57.382758+0300 xctest[54697:492658] Peer number 240 address:213.202.212.222:35000 and node id:tls:a3bb..7817
+2022-04-04 02:02:57.382929+0300 xctest[54697:492658] Peer number 241 address:94.130.143.151:35000 and node id:tls:a434..b887
+2022-04-04 02:02:57.383045+0300 xctest[54697:492658] Peer number 242 address:136.243.167.62:35000 and node id:tls:a4d1..5413
+2022-04-04 02:02:57.383200+0300 xctest[54697:492658] Peer number 243 address:95.217.115.123:35000 and node id:tls:a55a..4ab0
+2022-04-04 02:02:57.383325+0300 xctest[54697:492658] Peer number 244 address:207.180.198.31:47762 and node id:tls:a5c2..a4dc
+2022-04-04 02:02:57.383408+0300 xctest[54697:492658] Peer number 245 address:178.63.75.44:35000 and node id:tls:a672..6a36
+2022-04-04 02:02:57.383521+0300 xctest[54697:492658] Peer number 246 address:54.146.85.72:35000 and node id:tls:a79e..b217
+2022-04-04 02:02:57.383620+0300 xctest[54697:492658] Peer number 247 address:95.216.45.4:35000 and node id:tls:a83b..ad67
+2022-04-04 02:02:57.383759+0300 xctest[54697:492658] Peer number 248 address:136.243.187.84:35000 and node id:tls:a887..64e0
+2022-04-04 02:02:57.383919+0300 xctest[54697:492658] Peer number 249 address:65.21.194.174:35000 and node id:tls:a92c..93a4
+2022-04-04 02:02:57.384005+0300 xctest[54697:492658] Peer number 250 address:135.181.4.34:35000 and node id:tls:a974..460c
+2022-04-04 02:02:57.384108+0300 xctest[54697:492658] Peer number 251 address:138.201.36.95:35000 and node id:tls:a97f..ccf3
+2022-04-04 02:02:57.384214+0300 xctest[54697:492658] Peer number 252 address:118.200.90.72:33992 and node id:tls:a99a..3544
+2022-04-04 02:02:57.384306+0300 xctest[54697:492658] Peer number 253 address:54.185.243.161:48590 and node id:tls:aa36..e2b4
+2022-04-04 02:02:57.384458+0300 xctest[54697:492658] Peer number 254 address:65.108.69.56:35000 and node id:tls:aa67..e91d
+2022-04-04 02:02:57.384589+0300 xctest[54697:492658] Peer number 255 address:65.21.235.145:35000 and node id:tls:aabe..f526
+2022-04-04 02:02:57.384776+0300 xctest[54697:492658] Peer number 256 address:118.200.90.72:33994 and node id:tls:aaed..c534
+2022-04-04 02:02:57.384884+0300 xctest[54697:492658] Peer number 257 address:65.108.0.43:35000 and node id:tls:ab63..db69
+2022-04-04 02:02:57.384976+0300 xctest[54697:492658] Peer number 258 address:95.216.1.154:35000 and node id:tls:ad90..efd3
+2022-04-04 02:02:57.385081+0300 xctest[54697:492658] Peer number 259 address:3.35.9.254:35000 and node id:tls:ada3..3472
+2022-04-04 02:02:57.385186+0300 xctest[54697:492658] Peer number 260 address:65.108.0.105:35000 and node id:tls:ae27..6988
+2022-04-04 02:02:57.385276+0300 xctest[54697:492658] Peer number 261 address:178.170.48.54:35000 and node id:tls:ae5d..79e5
+2022-04-04 02:02:57.385363+0300 xctest[54697:492658] Peer number 262 address:146.59.68.3:35000 and node id:tls:ae62..9eb3
+2022-04-04 02:02:57.385453+0300 xctest[54697:492658] Peer number 263 address:95.216.246.20:35000 and node id:tls:af71..dd82
+2022-04-04 02:02:57.385536+0300 xctest[54697:492658] Peer number 264 address:195.201.13.135:35000 and node id:tls:af82..a952
+2022-04-04 02:02:57.385620+0300 xctest[54697:492658] Peer number 265 address:178.216.202.150:35000 and node id:tls:b0ad..293b
+2022-04-04 02:02:57.385747+0300 xctest[54697:492658] Peer number 266 address:65.108.9.249:35000 and node id:tls:b114..5fc9
+2022-04-04 02:02:57.385919+0300 xctest[54697:492658] Peer number 267 address:103.114.224.150:46452 and node id:tls:b131..9d02
+2022-04-04 02:02:57.386008+0300 xctest[54697:492658] Peer number 268 address:65.108.41.42:35000 and node id:tls:b1c3..1fa6
+2022-04-04 02:02:57.386163+0300 xctest[54697:492658] Peer number 269 address:95.216.37.50:35000 and node id:tls:b2db..9927
+2022-04-04 02:02:57.386295+0300 xctest[54697:492658] Peer number 270 address:103.146.240.245:59962 and node id:tls:b304..874a
+2022-04-04 02:02:57.386602+0300 xctest[54697:492658] Peer number 271 address:95.216.36.177:35000 and node id:tls:b3e4..5f4e
+2022-04-04 02:02:57.386694+0300 xctest[54697:492658] Peer number 272 address:89.58.31.92:35000 and node id:tls:b494..f623
+2022-04-04 02:02:57.386797+0300 xctest[54697:492658] Peer number 273 address:95.216.96.62:35000 and node id:tls:b50c..56ba
+2022-04-04 02:02:57.386893+0300 xctest[54697:492658] Peer number 274 address:88.198.2.214:34966 and node id:tls:b524..4c93
+2022-04-04 02:02:57.386982+0300 xctest[54697:492658] Peer number 275 address:128.199.53.68:35000 and node id:tls:b549..cdb5
+2022-04-04 02:02:57.387071+0300 xctest[54697:492658] Peer number 276 address:65.21.120.160:35000 and node id:tls:b5f3..4e00
+2022-04-04 02:02:57.387160+0300 xctest[54697:492658] Peer number 277 address:162.55.63.245:35000 and node id:tls:b727..37d9
+2022-04-04 02:02:57.387248+0300 xctest[54697:492658] Peer number 278 address:176.9.70.102:35000 and node id:tls:b887..fc05
+2022-04-04 02:02:57.387335+0300 xctest[54697:492658] Peer number 279 address:95.216.116.53:35000 and node id:tls:b928..5335
+2022-04-04 02:02:57.387423+0300 xctest[54697:492658] Peer number 280 address:162.55.132.188:48986 and node id:tls:ba6b..06d3
+2022-04-04 02:02:57.387513+0300 xctest[54697:492658] Peer number 281 address:135.181.60.145:35000 and node id:tls:ba8a..72ba
+2022-04-04 02:02:57.387598+0300 xctest[54697:492658] Peer number 282 address:94.130.236.189:35000 and node id:tls:bb39..3588
+2022-04-04 02:02:57.387771+0300 xctest[54697:492658] Peer number 283 address:65.21.238.180:35000 and node id:tls:bb77..bde4
+2022-04-04 02:02:57.387963+0300 xctest[54697:492658] Peer number 284 address:65.108.2.35:35000 and node id:tls:bb9b..71e5
+2022-04-04 02:02:57.388062+0300 xctest[54697:492658] Peer number 285 address:194.163.159.72:35000 and node id:tls:bbd7..5bba
+2022-04-04 02:02:57.388252+0300 xctest[54697:492658] Peer number 286 address:65.21.231.103:35000 and node id:tls:bc49..a24a
+2022-04-04 02:02:57.388580+0300 xctest[54697:492658] Peer number 287 address:65.108.67.104:35000 and node id:tls:be7b..84e3
+2022-04-04 02:02:57.388747+0300 xctest[54697:492658] Peer number 288 address:118.200.90.72:33976 and node id:tls:bece..3b3c
+2022-04-04 02:02:57.388851+0300 xctest[54697:492658] Peer number 289 address:195.201.198.188:35000 and node id:tls:bf3d..81a9
+2022-04-04 02:02:57.388948+0300 xctest[54697:492658] Peer number 290 address:103.114.224.150:53670 and node id:tls:c17f..df1f
+2022-04-04 02:02:57.389039+0300 xctest[54697:492658] Peer number 291 address:65.21.133.2:35000 and node id:tls:c208..f40c
+2022-04-04 02:02:57.389131+0300 xctest[54697:492658] Peer number 292 address:103.146.240.245:46724 and node id:tls:c29b..2447
+2022-04-04 02:02:57.389218+0300 xctest[54697:492658] Peer number 293 address:95.216.11.106:35000 and node id:tls:c3e8..a564
+2022-04-04 02:02:57.389525+0300 xctest[54697:492658] Peer number 294 address:103.114.224.150:52256 and node id:tls:c509..0c25
+2022-04-04 02:02:57.389840+0300 xctest[54697:492658] Peer number 295 address:65.108.73.113:35000 and node id:tls:c5eb..b506
+2022-04-04 02:02:57.389972+0300 xctest[54697:492658] Peer number 296 address:118.200.90.72:33986 and node id:tls:c643..2d42
+2022-04-04 02:02:57.390067+0300 xctest[54697:492658] Peer number 297 address:172.114.130.252:59012 and node id:tls:c6cb..9986
+2022-04-04 02:02:57.390157+0300 xctest[54697:492658] Peer number 298 address:172.114.130.252:35688 and node id:tls:c727..671e
+2022-04-04 02:02:57.390248+0300 xctest[54697:492658] Peer number 299 address:65.21.140.57:35000 and node id:tls:c7f6..d96f
+2022-04-04 02:02:57.390337+0300 xctest[54697:492658] Peer number 300 address:65.108.11.104:35000 and node id:tls:c988..efe7
+2022-04-04 02:02:57.390425+0300 xctest[54697:492658] Peer number 301 address:162.55.83.183:35000 and node id:tls:c9d2..4df0
+2022-04-04 02:02:57.390514+0300 xctest[54697:492658] Peer number 302 address:65.21.134.245:35000 and node id:tls:ca0e..0537
+2022-04-04 02:02:57.390711+0300 xctest[54697:492658] Peer number 303 address:78.46.32.13:35000 and node id:tls:ca14..5362
+2022-04-04 02:02:57.390820+0300 xctest[54697:492658] Peer number 304 address:13.36.53.201:35000 and node id:tls:cb92..5ab7
+2022-04-04 02:02:57.391009+0300 xctest[54697:492658] Peer number 305 address:65.21.227.101:35000 and node id:tls:cbbb..6bef
+2022-04-04 02:02:57.391111+0300 xctest[54697:492658] Peer number 306 address:65.108.0.59:35000 and node id:tls:cc74..173c
+2022-04-04 02:02:57.391331+0300 xctest[54697:492658] Peer number 307 address:3.21.55.59:35000 and node id:tls:ce02..e761
+2022-04-04 02:02:57.391685+0300 xctest[54697:492658] Peer number 308 address:138.201.199.100:35000 and node id:tls:d043..8a7a
+2022-04-04 02:02:57.391887+0300 xctest[54697:492658] Peer number 309 address:54.72.219.182:58536 and node id:tls:d0e3..b2ae
+2022-04-04 02:02:57.392013+0300 xctest[54697:492658] Peer number 310 address:104.243.40.167:35000 and node id:tls:d12c..9612
+2022-04-04 02:02:57.392134+0300 xctest[54697:492658] Peer number 311 address:135.181.57.13:35000 and node id:tls:d16e..3b35
+2022-04-04 02:02:57.392240+0300 xctest[54697:492658] Peer number 312 address:65.21.197.27:35000 and node id:tls:d1ca..7838
+2022-04-04 02:02:57.392447+0300 xctest[54697:492658] Peer number 313 address:88.99.94.214:35000 and node id:tls:d241..7422
+2022-04-04 02:02:57.392554+0300 xctest[54697:492658] Peer number 314 address:135.181.114.117:35000 and node id:tls:d3e7..3110
+2022-04-04 02:02:57.392645+0300 xctest[54697:492658] Peer number 315 address:5.9.93.122:35000 and node id:tls:d466..de8e
+2022-04-04 02:02:57.392775+0300 xctest[54697:492658] Peer number 316 address:95.216.112.17:35000 and node id:tls:d4e0..67fe
+2022-04-04 02:02:57.392927+0300 xctest[54697:492658] Peer number 317 address:88.99.4.9:35000 and node id:tls:d4e3..b50a
+2022-04-04 02:02:57.393413+0300 xctest[54697:492658] Peer number 318 address:95.217.62.236:35000 and node id:tls:d563..b5c2
+2022-04-04 02:02:57.393592+0300 xctest[54697:492658] Peer number 319 address:65.21.233.95:35000 and node id:tls:d678..172c
+2022-04-04 02:02:57.393697+0300 xctest[54697:492658] Peer number 320 address:65.21.204.190:35000 and node id:tls:d6cb..2482
+2022-04-04 02:02:57.393789+0300 xctest[54697:492658] Peer number 321 address:207.231.104.186:35000 and node id:tls:d6ec..f002
+2022-04-04 02:02:57.393881+0300 xctest[54697:492658] Peer number 322 address:65.108.10.187:35000 and node id:tls:d719..4284
+2022-04-04 02:02:57.393970+0300 xctest[54697:492658] Peer number 323 address:159.69.77.28:35000 and node id:tls:d71c..5323
+2022-04-04 02:02:57.394056+0300 xctest[54697:492658] Peer number 324 address:103.146.240.245:58882 and node id:tls:d74c..c499
+2022-04-04 02:02:57.394146+0300 xctest[54697:492658] Peer number 325 address:162.55.245.219:35000 and node id:tls:d75d..0dbc
+2022-04-04 02:02:57.394234+0300 xctest[54697:492658] Peer number 326 address:95.217.34.115:35000 and node id:tls:d795..6648
+2022-04-04 02:02:57.394319+0300 xctest[54697:492658] Peer number 327 address:194.163.159.62:35000 and node id:tls:d892..6284
+2022-04-04 02:02:57.394419+0300 xctest[54697:492658] Peer number 328 address:95.216.44.9:35000 and node id:tls:d977..3243
+2022-04-04 02:02:57.394575+0300 xctest[54697:492658] Peer number 329 address:159.148.35.182:35000 and node id:tls:da06..3fcb
+2022-04-04 02:02:57.394672+0300 xctest[54697:492658] Peer number 330 address:103.146.240.245:40276 and node id:tls:da9c..0337
+2022-04-04 02:02:57.394763+0300 xctest[54697:492658] Peer number 331 address:3.137.206.147:35000 and node id:tls:dad0..6d3f
+2022-04-04 02:02:57.394901+0300 xctest[54697:492658] Peer number 332 address:3.136.227.9:35000 and node id:tls:db17..2777
+2022-04-04 02:02:57.395003+0300 xctest[54697:492658] Peer number 333 address:65.108.72.159:35000 and node id:tls:dbd4..dff4
+2022-04-04 02:02:57.395201+0300 xctest[54697:492658] Peer number 334 address:65.21.237.160:35000 and node id:tls:dc97..bdab
+2022-04-04 02:02:57.395559+0300 xctest[54697:492658] Peer number 335 address:65.108.1.10:35000 and node id:tls:de87..d140
+2022-04-04 02:02:57.395856+0300 xctest[54697:492658] Peer number 336 address:5.9.21.244:52312 and node id:tls:df09..790b
+2022-04-04 02:02:57.395962+0300 xctest[54697:492658] Peer number 337 address:118.200.90.72:33968 and node id:tls:df4c..bc20
+2022-04-04 02:02:57.396088+0300 xctest[54697:492658] Peer number 338 address:65.21.79.236:35000 and node id:tls:dfb8..4361
+2022-04-04 02:02:57.396184+0300 xctest[54697:492658] Peer number 339 address:121.6.33.237:32964 and node id:tls:e08b..1ec7
+2022-04-04 02:02:57.396360+0300 xctest[54697:492658] Peer number 340 address:5.9.6.115:35000 and node id:tls:e1c8..197e
+2022-04-04 02:02:57.396572+0300 xctest[54697:492658] Peer number 341 address:95.216.20.4:35000 and node id:tls:e26e..7ea1
+2022-04-04 02:02:57.396694+0300 xctest[54697:492658] Peer number 342 address:135.181.208.231:35000 and node id:tls:e2b1..ca8a
+2022-04-04 02:02:57.396787+0300 xctest[54697:492658] Peer number 343 address:109.238.11.77:35000 and node id:tls:e302..4345
+2022-04-04 02:02:57.396890+0300 xctest[54697:492658] Peer number 344 address:161.97.160.138:57438 and node id:tls:e303..c094
+2022-04-04 02:02:57.397000+0300 xctest[54697:492658] Peer number 345 address:54.72.219.182:57892 and node id:tls:e358..6b24
+2022-04-04 02:02:57.397093+0300 xctest[54697:492658] Peer number 346 address:35.160.147.124:36234 and node id:tls:e3cd..2855
+2022-04-04 02:02:57.397230+0300 xctest[54697:492658] Peer number 347 address:65.21.132.171:49352 and node id:tls:e497..424a
+2022-04-04 02:02:57.397380+0300 xctest[54697:492658] Peer number 348 address:89.58.31.153:35000 and node id:tls:e49c..dd4c
+2022-04-04 02:02:57.397482+0300 xctest[54697:492658] Peer number 349 address:66.42.55.195:35000 and node id:tls:e553..a844
+2022-04-04 02:02:57.397706+0300 xctest[54697:492658] Peer number 350 address:65.108.77.45:35000 and node id:tls:e5b8..e525
+2022-04-04 02:02:57.397823+0300 xctest[54697:492658] Peer number 351 address:89.58.2.198:35000 and node id:tls:e610..33d4
+2022-04-04 02:02:57.397962+0300 xctest[54697:492658] Peer number 352 address:95.217.78.26:35000 and node id:tls:e6ad..335f
+2022-04-04 02:02:57.398061+0300 xctest[54697:492658] Peer number 353 address:46.4.115.20:35000 and node id:tls:e733..0ec0
+2022-04-04 02:02:57.398300+0300 xctest[54697:492658] Peer number 354 address:65.108.0.148:35000 and node id:tls:e8d1..c79b
+2022-04-04 02:02:57.398414+0300 xctest[54697:492658] Peer number 355 address:23.88.74.82:35000 and node id:tls:e9bb..a197
+2022-04-04 02:02:57.398592+0300 xctest[54697:492658] Peer number 356 address:65.21.236.40:35000 and node id:tls:ead7..0eaf
+2022-04-04 02:02:57.398719+0300 xctest[54697:492658] Peer number 357 address:65.21.231.40:59752 and node id:tls:eade..ba57
+2022-04-04 02:02:57.398967+0300 xctest[54697:492658] Peer number 358 address:88.99.57.74:35000 and node id:tls:eb57..2387
+2022-04-04 02:02:57.399122+0300 xctest[54697:492658] Peer number 359 address:89.58.30.252:35000 and node id:tls:ec1f..f89d
+2022-04-04 02:02:57.399267+0300 xctest[54697:492658] Peer number 360 address:5.9.50.135:35000 and node id:tls:ec59..f568
+2022-04-04 02:02:57.399389+0300 xctest[54697:492658] Peer number 361 address:65.21.79.189:35000 and node id:tls:ed98..da40
+2022-04-04 02:02:57.399512+0300 xctest[54697:492658] Peer number 362 address:65.108.0.189:35000 and node id:tls:efad..3839
+2022-04-04 02:02:57.399605+0300 xctest[54697:492658] Peer number 363 address:103.146.240.245:59212 and node id:tls:f021..f41a
+2022-04-04 02:02:57.399857+0300 xctest[54697:492658] Peer number 364 address:88.99.100.42:35000 and node id:tls:f090..835b
+2022-04-04 02:02:57.399945+0300 xctest[54697:492658] Peer number 365 address:176.9.119.49:35000 and node id:tls:f0f6..379e
+2022-04-04 02:02:57.400091+0300 xctest[54697:492658] Peer number 366 address:65.21.204.180:35000 and node id:tls:f376..0a84
+2022-04-04 02:02:57.400210+0300 xctest[54697:492658] Peer number 367 address:103.114.224.150:34678 and node id:tls:f432..c7f2
+2022-04-04 02:02:57.400446+0300 xctest[54697:492658] Peer number 368 address:44.229.43.241:42648 and node id:tls:f46f..35a4
+2022-04-04 02:02:57.400588+0300 xctest[54697:492658] Peer number 369 address:65.21.238.224:35000 and node id:tls:f4e1..df7e
+2022-04-04 02:02:57.400808+0300 xctest[54697:492658] Peer number 370 address:65.21.227.180:35000 and node id:tls:f56c..5c15
+2022-04-04 02:02:57.401068+0300 xctest[54697:492658] Peer number 371 address:65.21.234.60:35000 and node id:tls:f581..6ada
+2022-04-04 02:02:57.401259+0300 xctest[54697:492658] Peer number 372 address:195.201.105.244:35000 and node id:tls:f7de..c8af
+2022-04-04 02:02:57.401378+0300 xctest[54697:492658] Peer number 373 address:118.200.90.72:33972 and node id:tls:f83f..c005
+2022-04-04 02:02:57.401519+0300 xctest[54697:492658] Peer number 374 address:65.108.4.79:35000 and node id:tls:f8f9..cde2
+2022-04-04 02:02:57.401615+0300 xctest[54697:492658] Peer number 375 address:185.237.252.128:35000 and node id:tls:f924..4763
+2022-04-04 02:02:57.401706+0300 xctest[54697:492658] Peer number 376 address:135.181.199.62:35820 and node id:tls:f99f..bf0c
+2022-04-04 02:02:57.401797+0300 xctest[54697:492658] Peer number 377 address:172.93.100.3:35000 and node id:tls:fa31..4c34
+2022-04-04 02:02:57.401888+0300 xctest[54697:492658] Peer number 378 address:138.201.122.209:35000 and node id:tls:fad4..b04c
+2022-04-04 02:02:57.401976+0300 xctest[54697:492658] Peer number 379 address:65.21.237.43:48262 and node id:tls:fdea..e001
+2022-04-04 02:02:57.402061+0300 xctest[54697:492658] Peer number 380 address:144.76.238.62:35000 and node id:tls:fe51..211c
+2022-04-04 02:02:57.402151+0300 xctest[54697:492658] Peer number 381 address:118.200.90.72:33996 and node id:tls:fea7..52e8
+2022-04-04 02:02:57.402236+0300 xctest[54697:492658] Peer number 382 address:116.202.115.195:35000 and node id:tls:ff67..e943
+2022-04-04 02:02:57.402322+0300 xctest[54697:492658] Peer number 383 address:44.232.7.112:35498 and node id:tls:ff7c..3d2d
+2022-04-04 02:02:57.402407+0300 xctest[54697:492658] Peer number 384 address:116.202.173.185:35000 and node id:tls:ffc3..c999
+Test Case '-[GetPeerResultTest testGetPeerList]' passed (1.163 seconds).
+Test Suite 'GetPeerResultTest' passed at 2022-04-04 02:02:57.404.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.163 (1.164) seconds
+Test Suite 'GetStateRootHashTest' started at 2022-04-04 02:02:57.405
+Test Case '-[GetStateRootHashTest testGetStateRootHash]' started.
+2022-04-04 02:02:57.407060+0300 xctest[54697:492658] M1: chain_get_state_root_hash test cases
+2022-04-04 02:03:00.524281+0300 xctest[54697:492658] Error get state root hash with error message:block not known and error code:-32001
+2022-04-04 02:03:01.464808+0300 xctest[54697:492658] Error get state root hash with error message:block not known and error code:-32001
+Test Case '-[GetStateRootHashTest testGetStateRootHash]' passed (4.061 seconds).
+Test Suite 'GetStateRootHashTest' passed at 2022-04-04 02:03:01.467.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.061 (4.062) seconds
+Test Suite 'GetStatusTest' started at 2022-04-04 02:03:01.469
+Test Case '-[GetStatusTest testGetStatus]' started.
+2022-04-04 02:03:02.523259+0300 xctest[54697:492658] Get status result, starting_state_root_hash:9de97ed44c9d925a3bdd4c6a55afb6b9e6cfdd9ca358505f3099c888c10224d4
+2022-04-04 02:03:02.523349+0300 xctest[54697:492658] Get status result, our_public_signing_key:017d96b9a63abcb61c870a4f55187a0a7ac24096bdb5fc585c12a686a4d892009e
+2022-04-04 02:03:02.523413+0300 xctest[54697:492658] Get status result, total peer:384
+2022-04-04 02:03:02.523513+0300 xctest[54697:492658] Get status result, last_added_block_info hash:bff2ac14445d78995e2b0f762a5f6bbe149c67451dbf5679c3fe9bf3c35209cb
+2022-04-04 02:03:02.523582+0300 xctest[54697:492658] Get status result, last_added_block_info creator:017d9aa0b86413d7ff9a9169182c53f0bacaa80d34c211adab007ed4876af17077
+Test Case '-[GetStatusTest testGetStatus]' passed (1.056 seconds).
+Test Suite 'GetStatusTest' passed at 2022-04-04 02:03:02.526.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.056 (1.057) seconds
+Test Suite 'Serialization_CLTypeTest' started at 2022-04-04 02:03:02.527
+Test Case '-[Serialization_CLTypeTest testCLTypeSerialization]' started.
+Test Case '-[Serialization_CLTypeTest testCLTypeSerialization]' passed (0.002 seconds).
+Test Suite 'Serialization_CLTypeTest' passed at 2022-04-04 02:03:02.529.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'Serialization_CLValueTest' started at 2022-04-04 02:03:02.530
+Test Case '-[Serialization_CLValueTest testCLValueSerialization]' started.
+Test Case '-[Serialization_CLValueTest testCLValueSerialization]' passed (0.020 seconds).
+Test Suite 'Serialization_CLValueTest' passed at 2022-04-04 02:03:02.552.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.020 (0.022) seconds
+Test Suite 'Serialization_DeployTest' started at 2022-04-04 02:03:02.553
+Test Case '-[Serialization_DeployTest testDeployHeaderSerialization]' started.
+Test Case '-[Serialization_DeployTest testDeployHeaderSerialization]' passed (0.002 seconds).
+Test Case '-[Serialization_DeployTest testDeploySerialization]' started.
+Test Case '-[Serialization_DeployTest testDeploySerialization]' passed (0.002 seconds).
+Test Suite 'Serialization_DeployTest' passed at 2022-04-04 02:03:02.559.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.006) seconds
+Test Suite 'Serialization_ExecutableDeployItemTest' started at 2022-04-04 02:03:02.560
+Test Case '-[Serialization_ExecutableDeployItemTest testExecutableDeployItemSerialization]' started.
+Test Case '-[Serialization_ExecutableDeployItemTest testExecutableDeployItemSerialization]' passed (0.014 seconds).
+Test Suite 'Serialization_ExecutableDeployItemTest' passed at 2022-04-04 02:03:02.575.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'CasperSDKObjectiveCTests.xctest' passed at 2022-04-04 02:03:02.576.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 52.098 (52.132) seconds
+Test Suite 'All tests' passed at 2022-04-04 02:03:02.577.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 52.098 (52.135) seconds
+
+
+Testing Complete    4.04.2022 02:03    56.5 seconds
+
+```
