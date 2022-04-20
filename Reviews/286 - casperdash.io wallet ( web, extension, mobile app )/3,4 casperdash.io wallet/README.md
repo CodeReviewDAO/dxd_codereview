@@ -83,7 +83,7 @@ Notes:
 - History: need to add CSPR Receive history, Stake history
 - Stacking: When entering amount, it is not convenient because the keyboard is automatically hidden after each number of typing
 
-See more screenshots on Iphone13 (iOS 15.4.1) and Samsung Galaxy A70 (Android 9) [here](assets/)
+Tested the app on Iphone13 (iOS 15.4.1) and Samsung Galaxy A70 (Android 9). See more screenshots [here](assets/)
 
 # Unit / Automated Testing
 
