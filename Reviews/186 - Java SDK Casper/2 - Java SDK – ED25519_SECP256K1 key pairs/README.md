@@ -117,8 +117,8 @@ them to the network using the put-deploy RPC call which was added to the SDK in 
 
 All these tests run successfully :
 
--  [casper-sdk unit test](casper-sdk-unit-tests.md)
--  [crypto-key module unit test](crypto-keys-unit-tests.md)
+-  [casper-sdk unit tests](casper-sdk-unit-tests.md)
+-  [crypto-key module unit tests](crypto-keys-unit-tests.md)
 
 
 Requirement | Finding
