@@ -63,7 +63,7 @@ Following the instructions in the readme files of the two repositories, the revi
 
 1- build and run unit tests for the SDK:  [casper-sdk build and test](sdk-build-and-test.md)
 
-2- build and run unit tests for the crypto module (key management) : [crypto-keys build and test](sdk-build-and-test.md)
+2- build and run unit tests for the crypto module (key management) : [crypto-keys build and test](sdk-crypto-build-and-test.md)
 
 The build and the tests were run on a MacOs Monterey 12.2.1 using the following tools:
 
