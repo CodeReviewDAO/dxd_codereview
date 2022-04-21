@@ -115,7 +115,7 @@ Sufficient Project Documentation | PASS
 
 ## Licenses
 
-The projects is released under the Apache 2.0 License
+The project is released under the Apache 2.0 License
 
 Requirement | Finding
 ------------ | -------------
@@ -123,7 +123,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The projects has CONTRIBUTING policy as well as a CODE OF CONDUCT for contributors. Issues and Pull Requests are enabled.
+The project has CONTRIBUTING policy as well as a CODE OF CONDUCT for contributors. Issues and Pull Requests are enabled.
 
 Requirement | Finding
 ------------ | -------------
@@ -135,14 +135,14 @@ OSS contribution best practices | PASS
 
 In general, the code is well-structured and readable. Some issues that were observed:
 
--  Reviewer found pointed out that some code from the `casperholdercore` repository should be included in this milestone submission. But the OP did not mention the dependency on `casperholdercore`, the OP should add unit tests for the relevant code in `casperholdercore`. 
+-  Reviewer found pointed out that some code from the `casperholdercore` repository should be included in this milestone submission. But the OP did not mention the dependency on `casperholdercore`, the OP should also add unit tests for the relevant code in `casperholdercore`. 
 https://github.com/casperholders/casperholderscore/blob/main/src/services/deploys/keyManagement/keyManagement.js
--  Reviewer can not add associated keys or modify the key's weight for some account, all got the out of gas error. 
+-  Reviewer can not add associated keys or modify the key's weight for some accounts, all got the `out of gas` error. 
 -  Unit tests/ automation tests fail
 
 # Final Conclusion
 
-Since the acceptance criteria and tests did not work as expected reviewer considered this a **FAIL** milestone submission.
+Since the functionalities are not working as expected in some cases and tests fail, reviewer considered this a **FAIL** milestone submission.
 
 
 # Recommendation
