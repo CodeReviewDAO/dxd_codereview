@@ -49,11 +49,11 @@ able to successfully build and run the casper holder website at local environmen
 https://testnet.cspr.live/deploy/fecb7c8f06bb471ef843d6907b4e41d0d3837a5498ed0aff4bb133866801aa2d
 https://testnet.cspr.live/deploy/36030642386298d62a28408b220608021b7422ee0f229e107d31e679b9207b45
 
-- After update successfully, it's suggested to update the summary section. Currently the summary remain the same with before updating. 
+- After update successfully, it's suggested to update the summary section. Currently, the summary remains the same as before the update. 
 
 ![](assets/ch-summary-update.png)
 
-- For some old accounts, reviewer cannot add a new associated key or update the weight of the key, both got `out of gas` error. Reviewer tried to increase fees, but the fee is hardcoded in `casperholderscore` library and cannot be updated on `casperholdersfront`. Reviewer also compared the parameters in deploy from new account vs deploy from old account but couldn't find a difference. The OP should troubleshoot this case. 
+- For some existing accounts, reviewer cannot add a new associated key or update the weight of the key, both got `out of gas` error. Reviewer tried to increase fees, but the fee is hardcoded in `casperholderscore` library and cannot be updated on `casperholdersfront`. Reviewer also compared the parameters in deploy from new account vs deploy from old account but couldn't find a difference. The OP should troubleshoot this case. 
 
 ![](assets/ch-out-of-gas.png)
 ![](assets/ch-cspr-live-transaction.png)
