@@ -63,19 +63,19 @@ Requirement | Finding
 ------------ | -------------
 Documentation provides sufficient installation/execution instructions | PASS
 Project builds without errors | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS with notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 More detail about functionality
 
 Requirement | Finding
 ------------ | ------------
-View CSPR balance  | PASS with notes
+View CSPR balance  | PASS with Notes
 Send/Receive CRPR  | PASS
 View tokens (ERC20) balance | PASS
 Add custom token by contract hash | PASS
-View transfer transactions history | PASS with notes
+View transfer transactions history | PASS with Notes
 View NFTs | PASS
-Stacking Operations |PASS with notes
+Stacking Operations |PASS with Notes
 Ledger Integration  | PASS
 
 Notes:
@@ -95,7 +95,7 @@ Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS
 Unit Tests - At least one negative path test | PASS
-Unit Tests - Additional path tests | FAIL
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
@@ -105,7 +105,7 @@ The project has sufficient code-level documentation with summaries and comments,
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | Pass
+Code Documented | PASS
 
 ### Project Documentation
 
@@ -154,5 +154,5 @@ Thus, in the reviewer's opinion, this submission should pass with notes.
 
 # Recommendation
 
-Recommendation | PASS with notes
+Recommendation | PASS with Notes
 ------------ | -------------
