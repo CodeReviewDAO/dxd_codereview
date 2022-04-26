@@ -52,7 +52,7 @@ https://github.com/EKON-YAZILIM/ServicesDAO | [f7d4379](https://github.com/EKON-
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README file of the repository(https://github.com/EKON-YAZILIM/ServicesDAO), the reviewer was able to successfully build the source code using Docker on Ubuntu 20.04 as separate microservices.
+Following the instructions in the README file of the repository(https://github.com/EKON-YAZILIM/ServicesDAO), the reviewer was able to successfully build the source code using Docker on Ubuntu 20.04.
 
 [Docker - ServicesDAO Logs](assets/docker-services-dao.md)
 
@@ -92,7 +92,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project has unit tests for most of the critical classes and methods. The project is tested both manually and automatically. 
+The project has unit tests for most of the critical classes and methods.
 
 The manual tests are done by the reviewer thanks to OP's help. All of the features work as expected.
 
@@ -163,7 +163,7 @@ Reviewer finds the code to be generally well-structured and readable. The projec
 
 # Final Conclusion
 
-The project provides the functionality described in the grant application and milestone acceptance criteria. Also, it is well documented and already deployed on the CRDAO production environment.
+The project provides the functionality described in the grant application and milestone acceptance criteria. Also, it is well documented and already deployed in the CRDAO production environment.
 
 Thus, in the reviewer's opinion, this submission should pass.
 
