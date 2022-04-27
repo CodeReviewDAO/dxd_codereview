@@ -1,9 +1,9 @@
-Grant Proposal | [0 - My Grant Proposal](https://portal.devxdao.com/public-proposals/0)
+Grant Proposal | [327 - Casper C++ SDK](https://portal.devxdao.com/app/proposal/327)
 ------------ | -------------
 Milestone | 3
 Milestone Title | Final Submission 1
 OP | numlock
-Reviewer | Gökhan Gurbetoğlu <ggurbet@gmail.com>
+Reviewer | Gökhan Gurbetoğlu
 
 # Milestone Details
 This is the final milestone of the grant.
