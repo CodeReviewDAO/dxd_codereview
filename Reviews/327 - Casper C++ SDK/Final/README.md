@@ -1,7 +1,7 @@
-Grant Proposal | [327 - Casper C++ SDK](https://portal.devxdao.com/app/proposal/327)
+Grant Proposal | [327 - Casper C++ SDK](https://portal.devxdao.com/public-proposals/327)
 ------------ | -------------
 Milestone | 3
-Milestone Title | Final Submission 1
+Milestone Title | Final
 OP | numlock
 Reviewer | Gökhan Gurbetoğlu
 
@@ -12,7 +12,14 @@ This is the final milestone of the grant.
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+The following methods will be implemented:
+
+- C++ version of CLType primitives
+- C++ version for Casper Domain Specific Objects
+- Serialization of Casper Domain Specific Objects
+- ED25519/SECP256K1 key pairs Wrappers
+- PutDeploy call
+- SDK calls will return Casper Domain Specific Objects
 
 **Acceptance criteria:**
 
@@ -28,14 +35,14 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/yusufketen/casper-cpp-sdk | 9b44942
+https://github.com/yusufketen/casper-cpp-sdk | 5f65ee0
 
 
 # Install & Usage Testing Procedure and Findings
 
 ## Installation
 
-Following the instructions in the README of https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code with warnings for this milestone for both the Debug and Release builds on Ubuntu 20.04 in a cloud environment.
+Following the instructions in the README of https://github.com/yusufketen/casper-cpp-sdk, reviewer was able to successfully build the source code for this milestone for both the Debug and Release builds on Ubuntu 20.04 in a cloud environment.
 
 ### Debug Build
 
@@ -57,10 +64,6 @@ gitpod /workspace/casper-cpp-sdk (main) $ make all
 [ 25%] Built target LIBCRYPTOPP
 [ 28%] Building CXX object src/CMakeFiles/CasperSDK.dir/CasperClient.cpp.o
 [ 32%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/CLValue.cpp.o
-/workspace/casper-cpp-sdk/src/include/Types/CLValue.cpp: In member function ‘bool Casper::CLValue::operator<(const Casper::CLValue&) const’:
-/workspace/casper-cpp-sdk/src/include/Types/CLValue.cpp:64:1: warning: control reaches end of non-void function [-Wreturn-type]
-   64 | }
-      | ^
 [ 35%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/CLType.cpp.o
 [ 39%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/GlobalStateKey.cpp.o
 [ 42%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/URef.cpp.o
@@ -106,10 +109,6 @@ ar: creating libcryptopp.a
 [ 25%] Built target LIBCRYPTOPP
 [ 28%] Building CXX object src/CMakeFiles/CasperSDK.dir/CasperClient.cpp.o
 [ 32%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/CLValue.cpp.o
-/workspace/casper-cpp-sdk/src/include/Types/CLValue.cpp: In member function ‘bool Casper::CLValue::operator<(const Casper::CLValue&) const’:
-/workspace/casper-cpp-sdk/src/include/Types/CLValue.cpp:64:1: warning: control reaches end of non-void function [-Wreturn-type]
-   64 | }
-      | ^
 [ 35%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/CLType.cpp.o
 [ 39%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/GlobalStateKey.cpp.o
 [ 42%] Building CXX object src/CMakeFiles/CasperSDK.dir/include/Types/URef.cpp.o
@@ -138,87 +137,94 @@ ar: creating libcryptopp.a
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
-
-While the project builds with a warning, the warning in question is about control reaching end of non-void function and can easily be ignored in this context since it has no effect on the build.
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Unit tests FAIL for this milestone. While most unit tests are working as intended, reviewer needed to manually edit some test files that included hard coded paths to correctly point to the desired location for key pairs required for some tests. These key pairs are also needed to be manually added. The path they are in (`/test/data/KeyPair/`) does not exist initially and needs to be manually created in the filesystem. There is no information about the creation of the key pairs in the documentation either.
+
+```bash
+Summary:
+  Count of all unit tests:       95
+  Count of run unit tests:       95
+  Count of failed unit tests:     3
+  Count of skipped unit tests:    0
+FAILED: 3 of 95 unit tests have failed.
+```
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | N/A
+Unit Tests - At least one negative path test | N/A
+Unit Tests - Additional path tests | N/A
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The code-level documentation is acceptable. It has proper formatting for its summaries and comments for both classes and methods. The descriptions of methods could be longer and more explanatory nevertheless.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+README.md includes clear information about the build and installation of the SDK.
+
+There exists an `/example/` folder with code samples that show how to use every RPC call. How to run code samples is instructed in the README. The examples run as intended.  
+A side note: The last example in the sequation aborts with messages. This is an expected outcome and not an unexpected error. Including expected results in the output would be a plus for understanding the operations better.
+
+There is clear information about how to generate the documentation with `doxygen`. Reviewer successfully generated and was able to view the documentation after using these instructions. However, as stated in previous milestones, auto generation of documentation without manual user invocation is preferable.
+
+**Some of the tests, however, failed due to missing key pairs as stated in Unit / Automated Testing section. There is no mention of how to create these key pairs in the documentation. A user cannot directly understand what is wrong and cannot fix the issue immediately. These either need to be automated or sufficient documentation should be provided.**
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Coverage of code documentation is complete but not that detailed. The reverse is true for project documentation, it does not cover some key parts but covered parts are detailed and sufficient.
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+Project contains clear CONTRIBUTING and SECURITY policies. The optional Code of Conduct is not included. Pull requests and Issues are enabled on the repository and the project is set up for public participation.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout. Some leftover comments can be cleaned up as a suggestion.
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Source code meets the requirements and implements the functionalities stated in the grant application.
+
+The documentation could be more detailed for setting up the SDK and its usage.
+
+Unit tests should be fixed. In its current state, they fail. Hard coded paths should be removed and user should not have to manually add these in the source code themselves.
+
+Reviewer recommends that this submission should fail code review, because some unit tests fail.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | FAIL
 ------------ | -------------
