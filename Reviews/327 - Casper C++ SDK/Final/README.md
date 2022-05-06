@@ -15,19 +15,25 @@ This is the final milestone of the grant.
 The following methods will be implemented:
 
 - C++ version of CLType primitives
-- C++ version for Casper Domain Specific Objects
+- C++ version for Casper Domain Specific Objects 
 - Serialization of Casper Domain Specific Objects
-- ED25519/SECP256K1 key pairs Wrappers
-- PutDeploy call
-- SDK calls will return Casper Domain Specific Objects
+- ED25519/SECP256K1 key pairs  Wrappers
+- PutDeploy RPC call implemented
+- Refactoring C++ SDK calls to return Casper Domaine Specific Objects
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+- C++ version of CLType primitives
+- C++ version for Casper Domain Specific Objects 
+- Serialization of Casper Domain Specific Objects 
+- ED25519/SECP256K1 key pairs  Wrappers implemented
+- PutDeploy call implemented and tested
+- SDK calls will return Casper Domaine Specific Objects
 
 **Additional notes regarding submission from OP:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Requirements of the last milestone is also complete.
+
 
 ## Milestone Submission
 
@@ -222,7 +228,9 @@ The documentation could be more detailed for setting up the SDK and its usage.
 
 Unit tests should be fixed. In its current state, they fail. Hard coded paths should be removed and user should not have to manually add these in the source code themselves.
 
-Reviewer recommends that this submission should fail code review, because some unit tests fail.
+Since this is the final milestone, it should cover the general expectations of the project. The project needs to have multiplatform support but in its current state, only builds on Linux are supported.
+
+Reviewer recommends that this submission should fail code review because of these reasons.
 
 # Recommendation
 
