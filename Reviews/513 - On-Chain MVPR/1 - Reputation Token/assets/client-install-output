@@ -1,0 +1,188 @@
+yunusem@ubuntu-20-04-crdao-513-1-onchainMVPR:~/new/dao-contracts$ npm install client
+
+> secp256k1@4.0.3 install /home/yunusem/new/dao-contracts/node_modules/ethereum-cryptography/node_modules/secp256k1
+> node-gyp-build || exit 0
+
+
+> secp256k1@3.7.1 install /home/yunusem/new/dao-contracts/node_modules/secp256k1
+> npm run rebuild || echo "Secp256k1 bindings compilation fail. Pure JS implementation will be used."
+
+
+> secp256k1@3.7.1 rebuild /home/yunusem/new/dao-contracts/node_modules/secp256k1
+> node-gyp rebuild
+
+make: Entering directory '/home/yunusem/new/dao-contracts/node_modules/secp256k1/build'
+  CXX(target) Release/obj.target/secp256k1/src/addon.o
+In file included from ../src/addon.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from ../src/addon.cc:1:
+../src/addon.cc: At global scope:
+/usr/include/nodejs/src/node.h:573:43: warning: cast between incompatible function types from ‘void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’ {aka ‘void (*)(v8::Local<v8::Object>)’} to ‘node::addon_register_func’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void*)’} [-Wcast-function-type]
+  573 |       (node::addon_register_func) (regfunc),                          \
+      |                                           ^
+/usr/include/nodejs/src/node.h:607:3: note: in expansion of macro ‘NODE_MODULE_X’
+  607 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+      |   ^~~~~~~~~~~~~
+../src/addon.cc:50:1: note: in expansion of macro ‘NODE_MODULE’
+   50 | NODE_MODULE(secp256k1, Init)
+      | ^~~~~~~~~~~
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/addon.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  CXX(target) Release/obj.target/secp256k1/src/privatekey.o
+In file included from ../src/privatekey.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/privatekey.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+../src/privatekey.cc: In function ‘Nan::NAN_METHOD_RETURN_TYPE privateKeyNegate(Nan::NAN_METHOD_ARGS_TYPE)’:
+../src/privatekey.cc:73:30: warning: ignoring return value of ‘int secp256k1_ec_privkey_negate(const secp256k1_context*, unsigned char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   73 |   secp256k1_ec_privkey_negate(secp256k1ctx, &private_key[0]);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX(target) Release/obj.target/secp256k1/src/publickey.o
+In file included from ../src/publickey.cc:3:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/publickey.cc:2:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  CXX(target) Release/obj.target/secp256k1/src/signature.o
+In file included from ../src/signature.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/signature.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  CXX(target) Release/obj.target/secp256k1/src/ecdsa.o
+In file included from ../src/ecdsa.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/ecdsa.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  CXX(target) Release/obj.target/secp256k1/src/ecdh.o
+In file included from ../src/ecdh.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../src/ecdh.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  CC(target) Release/obj.target/secp256k1/src/secp256k1-src/src/secp256k1.o
+  CC(target) Release/obj.target/secp256k1/src/secp256k1-src/contrib/lax_der_parsing.o
+  CC(target) Release/obj.target/secp256k1/src/secp256k1-src/contrib/lax_der_privatekey_parsing.o
+  SOLINK_MODULE(target) Release/obj.target/secp256k1.node
+  COPY Release/secp256k1.node
+make: Leaving directory '/home/yunusem/new/dao-contracts/node_modules/secp256k1/build'
+
+> eccrypto@1.1.6 install /home/yunusem/new/dao-contracts/node_modules/eccrypto
+> node-gyp rebuild || exit 0
+
+make: Entering directory '/home/yunusem/new/dao-contracts/node_modules/eccrypto/build'
+  CXX(target) Release/obj.target/ecdh/ecdh.o
+In file included from ../ecdh.cc:2:
+../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+../../nan/nan.h:2298:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+ 2298 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+      |                                                              ^
+In file included from ../ecdh.cc:1:
+../ecdh.cc: At global scope:
+/usr/include/nodejs/src/node.h:573:43: warning: cast between incompatible function types from ‘void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’ {aka ‘void (*)(v8::Local<v8::Object>)’} to ‘node::addon_register_func’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void*)’} [-Wcast-function-type]
+  573 |       (node::addon_register_func) (regfunc),                          \
+      |                                           ^
+/usr/include/nodejs/src/node.h:607:3: note: in expansion of macro ‘NODE_MODULE_X’
+  607 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+      |   ^~~~~~~~~~~~~
+../ecdh.cc:131:1: note: in expansion of macro ‘NODE_MODULE’
+  131 | NODE_MODULE(ecdh, InitAll)
+      | ^~~~~~~~~~~
+In file included from /usr/include/nodejs/src/node.h:63,
+                 from ../ecdh.cc:1:
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)]’:
+/usr/include/nodejs/src/node_object_wrap.h:84:78:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<node::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<node::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+ 9502 |                reinterpret_cast<Callback>(callback), type);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/nodejs/deps/v8/include/v8.h: In instantiation of ‘void v8::PersistentBase<T>::SetWeak(P*, typename v8::WeakCallbackInfo<P>::Callback, v8::WeakCallbackType) [with P = Nan::ObjectWrap; T = v8::Object; typename v8::WeakCallbackInfo<P>::Callback = void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)]’:
+../../nan/nan_object_wrap.h:65:61:   required from here
+/usr/include/nodejs/deps/v8/include/v8.h:9502:16: warning: cast between incompatible function types from ‘v8::WeakCallbackInfo<Nan::ObjectWrap>::Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’} to ‘Callback’ {aka ‘void (*)(const v8::WeakCallbackInfo<void>&)’} [-Wcast-function-type]
+  SOLINK_MODULE(target) Release/obj.target/ecdh.node
+  COPY Release/ecdh.node
+make: Leaving directory '/home/yunusem/new/dao-contracts/node_modules/eccrypto/build'
+
+> keccak@3.0.2 install /home/yunusem/new/dao-contracts/node_modules/keccak
+> node-gyp-build || exit 0
+
+npm WARN saveError ENOENT: no such file or directory, open '/home/yunusem/new/dao-contracts/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/home/yunusem/new/dao-contracts/package.json'
+npm WARN eslint-plugin-prettier@3.4.1 requires a peer of eslint@>=5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-plugin-prettier@3.4.1 requires a peer of prettier@>=1.13.0 but none is installed. You must install peer dependencies yourself.
+npm WARN acorn-import-assertions@1.8.0 requires a peer of acorn@^8 but none is installed. You must install peer dependencies yourself.
+npm WARN dao-contracts No description
+npm WARN dao-contracts No repository field.
+npm WARN dao-contracts No README data
+npm WARN dao-contracts No license field.
+
++ dao-contracts-js-client@0.1.0
+added 166 packages from 272 contributors and audited 166 packages in 33.08s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
