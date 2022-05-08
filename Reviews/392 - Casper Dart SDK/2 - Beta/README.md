@@ -49,7 +49,11 @@ casper_dart_sdk git:(main) ✗ dart run build_runner build
 [INFO] Caching finalized dependency graph completed, took 41ms
 [INFO] Succeeded after 8.6s with 56 outputs (130 actions)
 ```
-
+Reviewer tried to use the sdk to get data from mainnet and list the result bellow
+``` dart
+final CasperClient _casperClient =
+      CasperClient(Uri.parse("http://134.209.110.11:7777/rpc"));
+```
 1. rpc.discover
 ``` dart
  _casperClient.getRpcSchema().then((dynamic result) {
