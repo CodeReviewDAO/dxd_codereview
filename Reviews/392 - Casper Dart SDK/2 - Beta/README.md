@@ -28,7 +28,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/cdolaz/casper_dart_sdk | de78cb7
+https://github.com/cdolaz/casper_dart_sdk | 1907a06
 
 # Install & Usage Testing Procedure and Findings
 
@@ -49,11 +49,7 @@ casper_dart_sdk git:(main) ✗ dart run build_runner build
 [INFO] Caching finalized dependency graph completed, took 41ms
 [INFO] Succeeded after 8.6s with 56 outputs (130 actions)
 ```
-Reviewer tried to use the sdk to get data from mainnet and list the result bellow
-``` dart
-final CasperClient _casperClient =
-      CasperClient(Uri.parse("http://134.209.110.11:7777/rpc"));
-```
+
 1. rpc.discover
 ``` dart
  _casperClient.getRpcSchema().then((dynamic result) {
@@ -136,15 +132,22 @@ flutter: }
 ```
 
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: NoSuchMethodError: The method 'split' was called on null.
-Receiver: null
-Tried calling: split(" ")
-#0      Object.noSuchMethod (dart:core-patch/object_patch.dart:38:5)
-#1      HumanReadableDurationJsonConverter.fromJson (package:casper_dart_sdk/src/helpers/string_utils.dart:61:37)
-#2      _$GetStatusResultFromJson (package:casper_dart_sdk/src/jsonrpc/generated/get_status.g.dart:28:12)
-#3      new GetStatusResult.fromJson (package:casper_dart_sdk/src/jsonrpc/get_status.dart:34:66)
-#4      CasperNodeRpcClient.getStatus (package:casper_dart_sdk/src/http/casper_node_client.dart:36:28)
-<asynchronous suspension>
+flutter: getStatus
+flutter: {
+flutter:   "api_version": "1.4.5",
+flutter:   "build_version": "1.4.5-a7f6a648d-casper-mainnet",
+flutter:   "chainspec_name": "casper",
+flutter:   "last_added_block_info": {
+flutter:     "creator": "01b205C2bd03CE19cD2876CCC21a3566C407b631F3E714532cE0c9956bbac85811",
+flutter:     "era_id": 4848,
+flutter:     "hash": "4522459433cb7fe51617b501e86ac1ac473270a982b8c90f0b8b42688bb8cee7",
+flutter:     "height": 769542,
+flutter:     "state_root_hash": "adad015fb3680ebcdde75b3d3f792643b556d7f2861b37fba51218fff34cc9ea",
+flutter:     "timestamp": "2022-05-10T14:28:55.936Z"
+flutter:   },
+flutter:   "next_upgrade": null,
+flutter:   "our_public_signing_key": "01e61C8B8227AFD8F7d4Daece145546aa6775cf1c4EbfB6F3f56C18df558AEd72D",
+...
 ```
 6. chain_get_block
 
@@ -157,13 +160,24 @@ _casperClient.getBlock(blockId).then((GetBlockResult result) {
 ```
 
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: RPC Exception: -32001 block not known
-#0      ServerProxyBase._handleDecoded (package:jsonrpc2/src/client_base.dart:90:7)
-#1      ServerProxyBase._handleResponse (package:jsonrpc2/src/client_base.dart:85:12)
-#2      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:63:12)
-<asynchronous suspension>
-#3      CasperNodeRpcClient.getBlock (package:casper_dart_sdk/src/http/casper_node_client.dart:40:36)
-<asynchronous suspension>
+flutter: getBlock
+flutter: {
+flutter:   "api_version": "1.4.5",
+flutter:   "block": {
+flutter:     "hash": "5aba403c1f53803aa7cec736ca965a94ee3615c376451d9443c2a3443c584cbe",
+flutter:     "header": {
+flutter:       "accumulated_seed": "17c84945ff5092eba468e2474be1b29a751086d13c1b6b478f424b60b25cc980",
+flutter:       "body_hash": "6da90c09f3fc4559d27b9fff59ab2453be5752260b07aec65e0e3a61734f656a",
+flutter:       "era_end": {
+flutter:         "era_report": {
+flutter:           "equivocators": [],
+flutter:           "inactive_validators": [],
+flutter:           "rewards": [
+flutter:             {
+flutter:               "amount": 113719376251,
+flutter:               "validator": "01000E6fce753895c0d08d5D6Af62dB4E9B0D070f10e69E2C6bAdF977b29BBeEeE"
+flutter:             },
+...
 ```
 7. chain_get_block_transfers
 ```dart
@@ -176,16 +190,30 @@ BlockId blockId = BlockId.fromHeight(755366);
     });
 ```
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: RPC Exception: -32001 block not known
-#0      ServerProxyBase._handleDecoded (package:jsonrpc2/src/client_base.dart:90:7)
-#1      ServerProxyBase._handleResponse (package:jsonrpc2/src/client_base.dart:85:12)
-#2      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:63:12)
-<asynchronous suspension>
-#3      CasperNodeRpcClient.getBlockTransfers (package:casper_dart_sdk/src/http/casper_node_client.dart:44:45)
-<asynchronous suspension>
+flutter: getBlockTransfers
+flutter: {
+flutter:   "amount": "1191512800000",
+flutter:   "deploy_hash": "cb99b492ca6b2b06aaa69525bdb762cb5c85707b73b389ab2fb70f01753bd089",
+flutter:   "from": "account-hash-45f3AA6Ce2A450dd5A4F2cC4cC9054Aded66De6B6CfC4ad977e7251CF94B649B",
+flutter:   "gas": "0",
+flutter:   "id": 1,
+flutter:   "source": "uref-6Ad5075aDDCDef0308BF9100a88292fD16e49edeB724DEa2Cc9f6F3730352d97-007",
+flutter:   "target": "uref-d41D943D61090B2E792BdF630D3564E73071769f235B987530a7933dEa49dC7e-004",
+flutter:   "to": "account-hash-87814ec49fe15f2cb21e033227fb83cfb5f9dd5ac19918d874e3f872013dd959"
+flutter: }
+flutter: {
+flutter:   "amount": "108499900000000",
+flutter:   "deploy_hash": "3099d24e811f72cd7f3182475c6d5325774426e8292e66f6f19cc79bb2bdc0f8",
+flutter:   "from": "account-hash-FF6b05951976F43E51Ef6cf01eC29a70908Caf623778DEbf414620dAC6b75bbD",
+flutter:   "gas": "0",
+flutter:   "id": 1,
+flutter:   "source": "uref-9C72551dDd3F8D56d4CB72146EE5e5ae040F0DbBE7f7F41C6D77773970540ea9-007",
+flutter:   "target": "uref-7950bf87377371651E0927198e2Bc73074A43A804037cC4E20F4a2C21115b7EF-004",
+flutter:   "to": "account-hash-496d542527e1a29f576ab7c3f4c947bfcdc9b4145f75f6ec40e36089432d7351"
+flutter: }
 ```
 8. state_get_balance
-Reviewer tried to get balance for some account however the balance is always 0.
+
 
 ```dart
   Uref uref = Uref(
@@ -197,10 +225,10 @@ Reviewer tried to get balance for some account however the balance is always 0.
 ```
 ```
 flutter: getBalance
-flutter: 0
+flutter: 12164980094631
 ```
 9. query_global_state
-OP is using `query_global_state` method which should be `state_get_item`
+
 ```dart
 _casperClient.queryGlobalState(
         "hash-6fe7d28174ae5946d1f805f38a7cb546842897b33f0220840f0638d156673e97",
@@ -212,13 +240,12 @@ _casperClient.queryGlobalState(
     });
 ```
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: RPC Exception: -32601 Method not found
-#0      ServerProxyBase._handleDecoded (package:jsonrpc2/src/client_base.dart:90:7)
-#1      ServerProxyBase._handleResponse (package:jsonrpc2/src/client_base.dart:85:12)
-#2      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:63:12)
-<asynchronous suspension>
-#3      CasperNodeRpcClient.queryGlobalState (package:casper_dart_sdk/src/http/casper_node_client.dart:52:44)
-<asynchronous suspension>
+flutter: queryGlobalState
+flutter: {
+flutter:   "cl_type": "String",
+flutter:   "bytes": "0500000047484f5354",
+flutter:   "parsed": "GHOST"
+flutter: }
 ```
 10. chain_get_era_info_by_switch_block
 
@@ -232,120 +259,119 @@ _casperClient
     });
 ```
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: RPC Exception: -32001 block not known
-#0      ServerProxyBase._handleDecoded (package:jsonrpc2/src/client_base.dart:90:7)
-#1      ServerProxyBase._handleResponse (package:jsonrpc2/src/client_base.dart:85:12)
-#2      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:63:12)
-<asynchronous suspension>
-#3      CasperNodeRpcClient.getEraInfoBySwitchBlock (package:casper_dart_sdk/src/http/casper_node_client.dart:56:51)
-<asynchronous suspension>
+flutter: getEraInfoBySwitchBlock
+flutter: 5aba403c1f53803aa7cec736ca965a94ee3615c376451d9443c2a3443c584cbe
 ```
 11. state_get_auction_info
 ```dart
 BlockId blockId = BlockId.fromHeight(755366);
 _casperClient.getAuctionInfo(blockId).then((GetAuctionInfoResult result) {
       print('getAuctionInfo');
-      print(result.auctionState?.bids.length);
+      result.auctionState?.eraValidators[0].validatorWeights
+          .forEach((element) => print(element.publicKey.toString()));
     });
 ```
 ```
 <asynchronous suspension>
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: RPC Exception: -32001 get-auction-info failed to get specified block
-#0      ServerProxyBase._handleDecoded (package:jsonrpc2/src/client_base.dart:90:7)
-#1      ServerProxyBase._handleResponse (package:jsonrpc2/src/client_base.dart:85:12)
-#2      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:63:12)
-<asynchronous suspension>
-#3      CasperNodeRpcClient.getAuctionInfo (package:casper_dart_sdk/src/http/casper_node_client.dart:60:42)
+flutter: getAuctionInfo
+flutter: 01000E6fce753895c0d08d5D6Af62dB4E9B0D070f10e69E2C6bAdF977b29BBeEeE
+flutter: 01026Ca707C348eD8012Ac6a1F28Db031fADD6Eb67203501a353b867a08c8b9a80
+flutter: 01031cdcE87d5fe53246492f9262932F9eB7421ea54b30dA1ecA06874fd2A7dF60
+flutter: 0103dD8b2B18Ef0B9FD5b7C8E340B104EE4d966f2A167Eb1a938963f8C8F699a45
+flutter: 010427c1d1227C9D2aAfE8C06c6e6B276DA8DCD8FD170Ca848b8e3E8e1038a6DC8
+flutter: 01098d1758f1ca75350DfEC8a1C4c1984a88D1EA5EAb5590Fbc9e856D67CdE31Eb
+flutter: 010A78eEF78966A56A633c665411388f97f850609960D5D898f3992272b8d4BccA
+flutter: 010A8aC8d23e6c57Fa340C552dDF9199d9cBa9166ECc0daEE640053ebfc6254610
+flutter: 010bDF698F2906D01bC4E7643ea7f713ca28433928058aCF54B03FAc9CB6716Db8
+flutter: 010e29c0ae47626690861047c5118685421b0F9A77Ee9fecfEDD842a929E3A9F06
+...
 ```
 12. account_put_deploy
 ```dart
-Deploy deploy = Deploy.fromJson({
-      "hash":
-          "5262541e0e6f71d35835cac105de01d9f1bd5b6e6cada31474245c58b603a91a",
-      "header": {
-        "account":
-            "02038eefdaf2cd5c68222c773b661d62587f0110859147ce9fc00dd0664b0e7ea8c4",
-        "timestamp": "2022-05-08T13:29:24.940Z",
-        "ttl": "30m",
-        "gas_price": 1,
-        "body_hash":
-            "6180e6f180f7aabb9d159d91b25d850000475397310ece35e42dccbc6f89d1df",
-        "dependencies": [],
-        "chain_name": "casper"
-      },
-      "payment": {
-        "ModuleBytes": {
-          "module_bytes": "",
-          "args": [
-            [
-              "amount",
-              {"bytes": "0400e1f505", "cl_type": "U512"}
+ const deploy = {
+      "deploy": {
+        "hash":
+            "c0f3d2f150aca411accaf99c1cdb95bc3a6e69e82ee27fa520e9231b727c3644",
+        "header": {
+          "account":
+              "02021172744b5e6bdc83a591b75765712e068e5d40a3be8ae360274fb26503b4ad38",
+          "timestamp": "2022-05-10T17:10:25.748Z",
+          "ttl": "30m",
+          "gas_price": 1,
+          "body_hash":
+              "b4592477bd325a8e10ed8d899b6e629e963f750164e8fd95e292cb9df5fe5936",
+          "dependencies": [],
+          "chain_name": "casper"
+        },
+        "payment": {
+          "ModuleBytes": {
+            "module_bytes": "",
+            "args": [
+              [
+                "amount",
+                {"bytes": "0400e1f505", "cl_type": "U512"}
+              ]
             ]
-          ]
-        }
-      },
-      "session": {
-        "Transfer": {
-          "args": [
-            [
-              "amount",
-              {"bytes": "0400f90295", "cl_type": "U512"}
-            ],
-            [
-              "target",
-              {
-                "bytes":
-                    "01cb0f3d9ca3123ab3eb9bd5f6522415c0c6603ffeb1916647e66764956000f860",
-                "cl_type": "PublicKey"
-              }
-            ],
-            [
-              "id",
-              {
-                "bytes": "010000000000000000",
-                "cl_type": {"Option": "U64"}
-              }
+          }
+        },
+        "session": {
+          "Transfer": {
+            "args": [
+              [
+                "amount",
+                {"bytes": "0400f90295", "cl_type": "U512"}
+              ],
+              [
+                "target",
+                {
+                  "bytes":
+                      "02021172744b5e6bdc83a591b75765712e068e5d40a3be8ae360274fb26503b4ad38",
+                  "cl_type": "PublicKey"
+                }
+              ],
+              [
+                "id",
+                {
+                  "bytes": "010000000000000000",
+                  "cl_type": {"Option": "U64"}
+                }
+              ]
             ]
-          ]
-        }
-      },
-      "approvals": [
-        {
-          "signer":
-              "02038eefdaf2cd5c68222c773b661d62587f0110859147ce9fc00dd0664b0e7ea8c4",
-          "signature":
-              "023c70af9621bf992ec8d5e7345964481cedf08fe2db81e4b8bbf333574d70fa46542a68ce726197c9b3437fc2dc422af68391ac8b98c9ebcad36352872b1d383b"
-        }
-      ]
-    });
-
-    _casperClient.putDeploy(deploy).then((result) {
+          }
+        },
+        "approvals": [
+          {
+            "signer":
+                "02021172744b5e6bdc83a591b75765712e068e5d40a3be8ae360274fb26503b4ad38",
+            "signature":
+                "0276f38378b3cd13985ac4abc0b4af0ef7eded32ee8b1118274547348c91bddede7c995b8cd2d4ff60aa160a2d66a4daa444624bd752be5ea1d55d4a99b2adbd7e"
+          }
+        ]
+      }
+    };
+    print(deploy);
+    _casperClient.putDeployJson(deploy).then((result) {
       print("putDeploy");
-      print(result.deployHash);
+      printObject(result);
     });
 ```
 ```
-[VERBOSE-2:ui_dart_state.cc(209)] Unhandled Exception: Converting object to an encodable object failed: Instance of 'JsonRpcMethod'
-#0      _JsonStringifier.writeObject (dart:convert/json.dart:794:7)
-#1      _JsonStringStringifier.printOn (dart:convert/json.dart:983:17)
-#2      _JsonStringStringifier.stringify (dart:convert/json.dart:968:5)
-#3      JsonEncoder.convert (dart:convert/json.dart:345:30)
-#4      JsonCodec.encode (dart:convert/json.dart:231:45)
-#5      ServerProxyBase.call (package:jsonrpc2/src/client_base.dart:60:10)
-#6      CasperNodeRpcClient.putDeploy (package:casper_dart_sdk/src/http/casper_node_client.dart:64:43)
-#7      CasperClient.putDeploy (package:casper_dart_sdk/src/casper_client.dart:94:24)
-#8      _HomePageState._fetchPeers (package:flutter_casper_client/main.dart:193:19)
-#9      _InkResponseState._handleTap (package:flutter/src/material/ink_well.dart:989:21)
-#10     GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:198:24)
-#11     TapGestureRecog<…>
+flutter: putDeploy
+flutter: {
+flutter:   "api_version": "1.4.5",
+flutter:   "deploy_hash": "c0f3d2f150aca411accaf99c1cdb95bc3a6e69e82ee27fa520e9231b727c3644"
+flutter: }
 ```
+https://cspr.live/deploy/c0f3d2f150aca411accaf99c1cdb95bc3a6e69e82ee27fa520e9231b727c3644
+
+13. All Casper Types are available
 
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS 
-Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -371,7 +397,7 @@ Low level function documentation | PASS
 
 ### Project Documentation
 
-The README file provides minimum but sufficient documentation on how to build the project. But reviewer suggest to add more usages samples
+The README file provides minimum but sufficient documentation on how to build the project. But reviewer suggest to add more usages samples.
 
 Requirement | Finding
 ------------ | -------------
@@ -400,7 +426,9 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is generally well-structured and readable. The project as committed to GitHub but the manual tests fail so reviewer consider this is a **FAIL** submission.
+Code is generally well-structured and readable. The project as committed to GitHub and both the unit tests and the manual tests pass.
+
+The last milestone is about unit testing and documentation. The OP should update the last milestone with more details and usage documentation.
 
 # Final Conclusion
 
@@ -408,5 +436,5 @@ The project provides the functionality described in the grant application and mi
 
 # Recommendation
 
-Recommendation | FAIL 
+Recommendation | PASS 
 ------------ | -------------
