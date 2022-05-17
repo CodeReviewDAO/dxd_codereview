@@ -53,7 +53,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/credentia-network/VCRegistrytree/test1 | deb28a5
+https://github.com/credentia-network/VCRegistrytree/test1 | 5279d2c
 
 # Install & Usage Testing Procedure and Findings
 
@@ -146,7 +146,6 @@ Requirement | Finding
 ------------ | -------------
 OSS contribution best practices | PASS with Notes
 
-
 # Coding Standards
 
 ## General Observations
@@ -155,7 +154,13 @@ Code is generally well-structured and readable. The project has been committed t
 
 # Final Conclusion
 
+The reviewer has helped the OP to bring this grant to a point where the reviewer feels comfortable passing with a number of notes that need to be addressed in milestone 3, namely:
 
+- Upgrade libraries to 1.4.3+
+- Confirm documentation works for 1.4.3+
+- Add a negative path for unit tests
+- Add some minor project documentation omissions so the documentation is complete
+- Inline project documentation
 
 # Recommendation
 
