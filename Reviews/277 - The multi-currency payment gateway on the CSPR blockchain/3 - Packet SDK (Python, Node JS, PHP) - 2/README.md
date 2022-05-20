@@ -30,7 +30,6 @@ NodeJS SDK https://github.com/DHFinance/dhf-pay-js
 Add Integration tests, 
 Add more nagative path tests, 
 Fix security bugs, 
-Fix bugs wrong price calculation on frontend, 
 Fix bug Permission request when install Python, 
 Complete the documentation.
 
@@ -129,7 +128,7 @@ Code is generally well-structured and very readable.
 
 # Final Conclusion
 
-The OP has fixed the issues raised in the first review: Add Integration tests, Add more nagative path tests, Fix security bugs, Fix bugs wrong price calculation on frontend, Fix bug Permission request when install Python, Complete the documentation. 
+The OP has fixed the issues raised in the first review: Add Integration tests, Add more nagative path tests, Fix security bugs, Fix bug Permission request when install Python, Complete the documentation. 
 
 Unit tests a pretty simple and need to be improve, but integration test already covered most of functions.
 
