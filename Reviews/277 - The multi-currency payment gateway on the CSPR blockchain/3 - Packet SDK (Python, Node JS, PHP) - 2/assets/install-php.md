@@ -1,4 +1,6 @@
- php % composer install
+```
+
+php % composer install
 Loading composer repositories with package information
 Installing dependencies (including require-dev) from lock file
 Package operations: 9 installs, 0 updates, 0 removals
@@ -16,3 +18,5 @@ guzzlehttp/guzzle suggests installing psr/log (Required for using the Log middle
 Generating autoload files
 4 packages you are using are looking for funding.
 Use the `composer fund` command to find out more!
+
+```
