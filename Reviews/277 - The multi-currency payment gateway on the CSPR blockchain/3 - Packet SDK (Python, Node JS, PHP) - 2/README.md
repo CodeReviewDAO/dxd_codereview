@@ -45,7 +45,7 @@ https://github.com/DHFinance/dhf-pay-js | 1a029b6
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the README file of repository (NodeJS, PHP, Python SDKs), there were some errors during the PHP SDK installation process due to incomplete documentation. After coordinating with OP, the document has been updated and installed successfully. 
+Following the instructions in the README file of repository (NodeJS, PHP, Python SDKs), there were some errors during the PHP SDK installation process due to incomplete documentation. After coordinating with the OP, the document has been updated and installed successfully. 
 
 [Build Logs PHP](assets/install-php.md)
 
