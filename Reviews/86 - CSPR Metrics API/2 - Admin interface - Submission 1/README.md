@@ -283,40 +283,40 @@ Outputs:
   
 Deploy Redis and MySQL in docker
  
-![img.jpeg](Assets/1.jpeg)
-![img.jpeg](Assets/2.jpeg)
+![img.jpeg](assets/1.jpeg)
+![img.jpeg](assets/2.jpeg)
  
 Migration of database
   
-![img.jpeg](Assets/3.jpeg)
+![img.jpeg](assets/3.jpeg)
  
 Run tests Result
   
-![img.jpeg](Assets/4.jpeg)
+![img.jpeg](assets/4.jpeg)
  
 Start backend 
   
-![img.jpeg](Assets/5.jpeg)
+![img.jpeg](assets/5.jpeg)
  
 Check logs
   
-![img.jpeg](Assets/6.jpeg)
+![img.jpeg](assets/6.jpeg)
  
 Run Casper-Metrics-Front
   
-![img.jpeg](Assets/7.jpeg)
+![img.jpeg](assets/7.jpeg)
  
 Run Casper-Metrics-Admin
   
-![img.jpeg](Assets/8.jpeg)
+![img.jpeg](assets/8.jpeg)
  
 Interface of front in local
   
-![img.jpeg](Assets/9.jpeg)
+![img.jpeg](assets/9.jpeg)
  
 Interface of Admin in local
   
-![img.jpeg](Assets/10.jpeg)
+![img.jpeg](assets/10.jpeg)
 
 
 
@@ -341,7 +341,7 @@ After following the instructions given in the README in the project and installi
 ```bash
   $ npm run test
 ```
-![img.jpeg](Assets/4.jpeg)
+![img.jpeg](assets/4.jpeg)
 
 
 Requirement | Finding
