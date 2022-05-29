@@ -92,7 +92,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-Overall code comments are sufficient. Most of them are detailed enough to explain the methods but a some of them can be expanded and there can be a few more added comments as a suggestion. As a reviewer's note, there are some minor typos in some places that can be fixed, but this does not affect the final conclusion of this part.
+Overall code comments are sufficient. Most of them are detailed enough to explain the methods but some of them can be expanded and there can be a few more added comments as a suggestion. As a reviewer's note, there are some minor typos in some places that can be fixed, but this does not affect the final conclusion of this part.
 
 Requirement | Finding
 ------------ | -------------
