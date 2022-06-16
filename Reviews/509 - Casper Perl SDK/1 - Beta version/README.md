@@ -85,6 +85,8 @@ Following the instructions in the README file of repository(https://github.com/t
 
 ![](assets/sdk-img.jpg)
 
+![SDK Usage](assets/sdk-example.jpg)
+
 ## Overall Impression of usage testing
 
 The project builds without errors, the documentation provides sufficient installation and execution instructions, and the project functionality meets the acceptance criteria and operates without errors.
