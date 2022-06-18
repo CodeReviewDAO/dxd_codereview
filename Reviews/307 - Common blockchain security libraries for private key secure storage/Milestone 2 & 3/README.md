@@ -1,9 +1,10 @@
-Grant Proposal | [0 - My Grant Proposal](https://portal.devxdao.com/public-proposals/0)
+Grant Proposal | [307 - 2:3 - Common blockchain security libraries for private key secure storage](https://portal.devxdao.com/public-proposals/307)
 ------------ | -------------
-Milestone | 1
-Milestone Title | My Alpha Version
-OP | John Doe <john@doe.com>
-Reviewer | Jane Smith <jane@smith.com>
+Milestone | 2 & 3
+Milestone Title | Web library - Submission 1, React Native library - Submission 1
+OP | Killian Hascoet <killianh@live.fr>
+Reviewer | Gökhan Gurbetoğlu <ggurbet@gmail.com>
+
 
 # Milestone Details
 
@@ -11,15 +12,23 @@ Reviewer | Jane Smith <jane@smith.com>
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+### Milestone 2:
+
+We will implement the architecture stated in milestone 1 deliverable with all methods, fully tested, released on github and npm.
+
+### Milestone 3:
+
+We will implement the architecture stated in milestone 1 deliverable with all methods, fully tested, released on github and npm.
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+### Milestone 2:
 
-**Additional notes regarding submission from OP:**
+Release the source code on github & npm. Complies with the DoD (Proposal #196).
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+### Milestone 3:
+
+Release the source code on github & npm. Complies with the DoD (Proposal #196).
 
 ## Milestone Submission
 
@@ -27,7 +36,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/CasperDash/casper-storage | c0ca883
 
 
 # Install & Usage Testing Procedure and Findings
@@ -47,6 +56,7 @@ Project builds without errors | PASS / FAIL / PASS with Notes
 Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
 
+
 # Unit / Automated Testing
 
 _Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
@@ -58,6 +68,7 @@ Requirement | Finding
 Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
 Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
 Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+
 
 # Documentation
 
@@ -85,29 +96,25 @@ Example Documented | PASS / FAIL / PASS with Notes
 
 _Summarize your review of the documentation in this project, including code, usage and examples_
 
+
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+Project contains clear CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled on the repository and the project is set up for public participation.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
+
 
 # Coding Standards
 
