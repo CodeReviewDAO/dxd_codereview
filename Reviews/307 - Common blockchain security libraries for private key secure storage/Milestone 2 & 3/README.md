@@ -41,60 +41,62 @@ https://github.com/CasperDash/casper-storage | c0ca883
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Following the instructions in the provided README, reviewer was able to successfully build the source code without errors for these milestones on a Pardus GNU/Linux 21.2 machine. All corresponding logs are listed below.
+
+- [Build logs](assets/build.md)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Documentation provides sufficient installation instructions. Reviewer easily set up the environment to build the project using these.
+
+Reviewer was able to implement the critical methods of the library mentioned in the initial design document at https://github.com/CasperDash/casper-storage/blob/master/document/01-casper-storage-design.md using the provided code examples by the developer. Also, reviewer recommends developers to examine the tests which thoroughly cover all functionality with many use case scenarios that can help understand further functionality that is out of the scope of this review.
+
+The critical methods meet the acceptance criteria for these milestones.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All automated unit tests PASS for these milestones. Testing is done via jest and contains automated tests that cover critical functionality. Reviewer successfully run all automated tests on a Pardus GNU/Linux 21.2 machine. Overall quality of tests are remarkably sufficient. Test output is below.
+
+- [Unit tests output](assets/unit-tests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code documentation is very well prepared and is of high quality. All critical functionality of the code is commented. Many other helping comments and documentation are provided within the code and they are well prepared and detailed.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project has a very detailed documentation provided through TypeDoc. The generated documentation can be reached from the `/docs/` folder. There was two warnings while generating the documentation about the not included references which could be later added and does not affect the score of this assessment. The note about missing JavaScript core features file could also be on the local documentation instead of redirecting to the corresponding file on the GitHub repository.
+
+The project also provides very detailed and well-prepared examples in its documentation. A developer would easily find their way implementing the source in their projects.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS with Notes
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Documentation is extensively detailed and has many additional parts that provide exceptional coverage of project's methods and usage.
 
 
 # Open Source Practices
@@ -120,15 +122,14 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. As a big bonus, developer added automated linting which increases the code quality. Overall exceptional work is done.
+
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project provides the acceptance criteria for the milestones it cover. Unit tests are very well prepared and useful for both testing the library and for helping understand how different usage scenarios can be executed. Documentation is extensively detailed and has many additional parts that provide exceptional coverage of project's methods and usage. Coding practices used in the project are of skillful quality. Because of its sufficient deliverables, reviewers suggests the project to PASS.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
