@@ -1,9 +1,10 @@
-Grant Proposal | [0 - My Grant Proposal](https://portal.devxdao.com/public-proposals/0)
+Grant Proposal | [372 - 1 - Riak v3.x Packaging Enhancement Project](https://portal.devxdao.com/public-proposals/372)
 ------------ | -------------
 Milestone | 1
-Milestone Title | My Alpha Version
-OP | John Doe <john@doe.com>
-Reviewer | Jane Smith <jane@smith.com>
+Milestone Title | Create FreeBSD Packaging Tools for Riak KV, CS and Stanchion
+OP | Bob The Marauder
+Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
+
 
 # Milestone Details
 
@@ -11,15 +12,18 @@ Reviewer | Jane Smith <jane@smith.com>
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Updates to the code base that allow packages for Riak KV, Riak CS and Stanchion version 3 to be built that work on a modern version of FreeBSD.
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+* Most recent Riak KV version 3 package at that time builds successfully on FreeBSD.
+* Most recent Riak CS version 3 package at that time builds successfully on FreeBSD.
+* Most recent Stanchion version 3 package at that time builds successfully on FreeBSD.
+* PR filed against Riak KV version 3 on Github to include FreeBSD packaging tools.
+* PR filed against Riak CS version 3 on Github to include FreeBSD packaging tools.
+* PR filed against Stanchion version 3 on Github to include FreeBSD packaging tools.
+* FreeBSD packages publicly available from https://files.tiot.jp for Riak KV, Riak CS and Stanchion version 3.
 
-**Additional notes regarding submission from OP:**
-
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
 
 ## Milestone Submission
 
@@ -27,7 +31,9 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/TI-Tokyo/riak_kv | 58b3fc2
+https://github.com/TI-Tokyo/riak_cs | aa1c442
+https://github.com/TI-Tokyo/stanchion | 438383f
 
 
 # Install & Usage Testing Procedure and Findings
