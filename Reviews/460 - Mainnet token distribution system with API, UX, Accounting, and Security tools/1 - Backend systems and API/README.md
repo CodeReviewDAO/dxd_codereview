@@ -3,7 +3,7 @@ Grant Proposal | [460 - Mainnet token distribution system with API, UX, Accounti
 Milestone | 1
 Milestone Title | Backend systems and API - Submission 1
 OP | LedgerLeap
-Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
+Reviewer | Gökhan Gurbetoğlu <ggurbet@gmail.com>
 
 
 # Milestone Details
@@ -12,15 +12,24 @@ Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+The first of 2 milestones will deliver the system backend environment for CSPR distribution. This includes the ability to generate keys for API access and whitelist the IPs able to use these keys. The system will also assess daily and per transaction rate limits. A token transfer system will send CSPR mainnet tokens if the key is valid, the IP of the request is approved, and the transfer does not surpass rate limits. Keyholders will also provide the address to which the CSPR tokens will go. All transfers will be recorded in a database along with the pertinent security information to verify the sender. The API will have clear error codes for invalid requests. The first milestone expects to have 2 developers assigned for 8 to 9 days to build these features in an optimal way that supports the next milestone built on top.
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+The environment will support installation, and testing will begin by registering an API key and IP address. Once registered, the system will allow a test send of CSPR by submitting a request including the key, recipient address, and amount of CSPR. The system will check the rate limit logic, then send CSPR and log the transaction if approved.
 
 **Additional notes regarding submission from OP:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+The URL of the backend API staging deployment is at: https://api.casperfyre.com/  
+Backend API has been updated and finished to include all required endpoints, throttling, security, documentation, and unit tests. Some test orders have been executed using a test account with 500 CSPR initially deposited. Transactions purposefully meant to succeed have been verified on chain.  
+This simple use guide can be followed:
+ - Any user can register to use the portal and verify their account application.
+ - Your admin must accept your application from the admin panel. Staging credentials for an admin account will be provided discretely.
+ - After your application is accepted and your account is active, you can create new API keys, wallets, and whitelist your company IP addresses.
+ - Upon account activation, a wallet and API key is automatically issued and displayed on your dashboard. The IP address you applied from will also automatically be added to your whitelist.
+ - Deposit some CSPR to your wallet. All keys are kept encrypted and recoverable using server software keys.
+ - Use/test the public facing API using the automatically generated documentation found in your dashboard settings as a reference.
+A full description and usage guide instruction can be found at https://github.com/ledgerleapllc/casperfyre-backend/blob/main/README.md
 
 ## Milestone Submission
 
@@ -28,7 +37,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/ledgerleapllc/casperfyre-backend | 1dd0d51
 
 
 # Install & Usage Testing Procedure and Findings
@@ -64,12 +73,11 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code documentation is very well prepared and is of high quality. All critical functionality of the code is commented. Many other helping comments and documentation are provided within the code and they are well prepared and detailed.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS
 
 ### Project Documentation
 
@@ -90,32 +98,26 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+Project contains clear CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled on the repository and the project is set up for public participation.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall exceptional work is done.
+
 
 # Final Conclusion
 
