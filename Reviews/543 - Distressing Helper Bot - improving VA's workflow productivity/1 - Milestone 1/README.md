@@ -5,21 +5,37 @@ Milestone Title | Basic bot functionality - Submission 1
 OP | Uchu
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
+
 # Milestone Details
 
 ## Details & Acceptance Criteria
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Fully working bot that can gather information from the portal and post digest and alerts to a dedicated Telegram channel.
+
+We expect the milestone to be finished before the specified deadline, but as it depends on some changes in the Portal's API, it can be delayed according to the delivery of those changes.
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+- Bot will access Portal's API and gather required information about proposals, formal and informal votes;
+- A dedicated private Telegram channels will be created - for VAs only;
+- Bot will not be accessible for other users outside of the channel;
+- It will post a daily digest with a summary of passed / failed proposals and other general information;
+- Once any voting has started or ended it will make a post with the details;
+- It will notify of votings that are ending soon but have no quorum yet to bring attention;
+- Code will be published as open source, though it will not be possible to access information from the portal without a configuration file that keeps the tokens and secret data;
+- Code will be covered with tests;
+- Basic documentation on how to set up the project and run the tests will be created;
+- Code will be hosted and set up on a production environment.
 
 **Additional notes regarding submission from OP:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+The channel for VAs is already live and we slowly start to invite new members, as we see it's stable and working properly. We are open to any suggestions regarding the posts schedule, content and other related things.
+
+Interactive part will be provided in the next milestone. If you are the one who reviews this milestone, or just interested to join the alerts system at its early stage, please don't hesitate and contact us, so we can add you do the channel.
+
+The current milestone submission addresses the acceptance criteria mentioned in the grant description.
 
 ## Milestone Submission
 
@@ -27,101 +43,124 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/a3mc/helperbot | 88d226a
 
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Following the instructions in the provided README, reviewer was able to successfully build the source code without errors for these milestones on both a Pardus GNU/Linux 21.2 machine and an Ubuntu 20.04 GitPod instance. All corresponding logs are listed below.
+
+- [Build logs](assets/build.md)
+- [Database migration](assets/migrate.md)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Documentation provides sufficient installation instructions. Reviewer easily set up the environment to build the project using these.
+
+Reviewer was able to test the bot both locally and on a live instance prepared by the developer. In both cases, the bot ran as intended and posted the specific information mentioned in acceptance criteria. These were observed:
+
+- A dedicated private Telegram channel was created by the developer, for VAs only.
+- Bot accessed DEVxDAO Portal's API and gathered required information about proposals, formal and informal votes.
+- Bot is not accessible for other users outside of this channel.
+- Bot posted a daily digest with a summary of passed or failed proposals and other general information.
+- Once any voting has started or ended it made a post with the details.
+- It notified about votings that are ending soon but have no quorum yet to bring attention.
+
+The bot meets the acceptance criteria for this milestone.
+
+### Developer Instance
+
+Below is a sample post created by the bot at the dedicated channel.  
+*Note: Proposal names are pixelated to protect privacy.*
+
+![](assets/helperbot-live.png)
+
+### Local Instance
+
+Below is a sample post created by the bot that runs locally at the test channel created by the reviewer.  
+*Note: Since the test account is not a VA, some information is missing from this screenshot. Also, proposal names are pixelated to protect privacy.*
+
+![](assets/helperbot-local.png)
+
+Below is a sample running log for the bot.  
+*Note: Since the test account is not a VA, bot throws some errors when it cannot reach VA specific parts of the pulled information. These errors should be ignored for the review.*
+
+- [Bot running log](assets/bot.md)
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All automated unit tests PASS for this milestone. Automated tests cover critical functionality. Reviewer successfully run all automated tests on an Ubuntu 20.04 GitPod instance. Overall quality of tests are sufficient. Test output is below.
+
+- [Unit tests](assets/test.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Critical functionality of the code is commented. However, comments would benefit from being more definitive. In its current state it needs improvements. As a suggestion from the reviewer, there could also be added comments for some non critical functionality for developers to better understand the code.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project documentation is sufficient to build and set up the bot, create Telegram channels and connect bot to the channel. Reviewer was able to complete necessary operations following the information provided by the documentation.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Documentation is sufficient for this milestone.
+
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the MIT License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project has CONTRIBUTING and SECURITY policies. It also includes the optional Code of Conduct policy. Pull Requests and Issues are enabled on the repository and the project is set up for public participation. Developer responded to issues very quickly.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
+
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
+
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project provides the acceptance criteria for the milestone it covers. Unit tests are well prepared and useful for helping understand how different usage scenarios can be executed. Documentation is sufficient. However, code documentation needs some additional work and would benefit greatly from more descriptive comments. Coding practices used in the project are of good quality. Because of its sufficient deliverables, reviewer suggests the project to PASS with Notes.
+
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
