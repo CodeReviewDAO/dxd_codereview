@@ -3,7 +3,7 @@ Grant Proposal | [460 - Mainnet token distribution system with API, UX, Accounti
 Milestone | 1
 Milestone Title | Backend systems and API - Submission 1
 OP | LedgerLeap
-Reviewer | Gökhan Gurbetoğlu <ggurbet@gmail.com>
+Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
 
 # Milestone Details
