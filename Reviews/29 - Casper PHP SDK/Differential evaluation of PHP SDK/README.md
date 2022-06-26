@@ -11,7 +11,7 @@
 | state_get_account_info    |                                                               [source](https://github.com/make-software/casper-php-sdk/blob/master/src/Rpc/RpcClient.php#L204)                                                                | ✅  | |
 | state_get_balance         |       [source](https://github.com/make-software/casper-php-sdk/blob/master/src/Rpc/RpcClient.php#L222)        | ✅  |             |
 | state_get_dictionary_item | [source](https://github.com/make-software/casper-php-sdk/blob/master/src/Rpc/RpcClient.php#L329) | ✅  |             |
-| query_global_state        |        [source](https://github.com/make-software/casper-net-sdk/blob/master/Casper.Network.SDK/JsonRpc/CasperMethods.cs#L162)        | ❌  | Est: 4hours |
+| query_global_state        |      N/A        | ❌  | Est: 4hours |
 
 
 ## Reviewer notes
