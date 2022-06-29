@@ -22,4 +22,4 @@ https://docs.casperlabs.io/dapp-dev-guide/sdkspec/json-rpc-minimal/
 
 * There are one missing method : query_global_state. The estimated implementation time for this method is 4 hours.
 * The implementation for chain_get_block should be merged into a single function and take BlockIdentifier param. The estimated update time for this merge is 1 hour.
-* Others methods and types are aligned with the SDK standard.
+* Other methods and types are aligned with the SDK standard.
