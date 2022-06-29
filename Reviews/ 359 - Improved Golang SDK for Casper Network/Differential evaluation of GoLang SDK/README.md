@@ -7,14 +7,14 @@ https://docs.casperlabs.io/dapp-dev-guide/sdkspec/json-rpc-minimal/
 
 | Method                    |                                                              Source                                                              |     |    Notes    |
 | ------------------------- |:--------------------------------------------------------------------------------------------------------------------------------:| --- |:-----------:|
-| chain_get_block           |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L124)         | ✅  |             |
+| chain_get_block           |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L124)         | ✅  | Should be merged into a single call             |
 | info_get_deploy           |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L27)          | ✅  |             |
 | account_put_deploy        |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L273)           | ✅  |             |
 | chain_get_state_root_hash |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L256)    | ✅  |             |
-| state_get_account_info    |        N/A        | ❌  | |
+| state_get_account_info    |        N/A        | ❌  | Est.: 4 hours |
 | state_get_balance         |        [source](https://github.com/casper-ecosystem/casper-golang-sdk/blob/main/sdk/rpc_client.go#L67)         | ✅  |             |
-| state_get_dictionary_item |        N/A        | ❌  | |
-| query_global_state        |        N/A        | ❌  | |
+| state_get_dictionary_item |        N/A        | ❌  | Est.: 4 hours|
+| query_global_state        |        N/A        | ❌  | Est.: 4 hours|
 
 
 ## Reviewer notes
