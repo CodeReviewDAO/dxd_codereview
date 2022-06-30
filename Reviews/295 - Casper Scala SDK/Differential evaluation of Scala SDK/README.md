@@ -16,6 +16,6 @@
 
 ## Reviewer notes
 
-- There are 2 missing method `state_get_account_info` and `query_global_state`. The estimated implementation time for each method is 4 hours. 
+- There are 2 missing methods: `state_get_account_info` and `query_global_state`. The estimated implementation time for each method is 4 hours. 
 - The implementation for chain_get_block should be merged to single function and take BlockIdentifier param. The estimated update time for the method is 1 hour.
-- Others methods and types are aligned with the SDK standard.
+- Other methods and types are aligned with the SDK standard.
