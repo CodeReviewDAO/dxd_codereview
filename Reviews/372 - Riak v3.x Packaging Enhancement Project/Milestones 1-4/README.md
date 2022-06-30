@@ -49,6 +49,7 @@ Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | FAIL
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
+
 # Unit / Automated Testing
 
 No unit tests or explanations about manual testing is available.
@@ -58,6 +59,7 @@ Requirement | Finding
 Unit Tests - At least one positive path test | FAIL
 Unit Tests - At least one negative path test | FAIL
 Unit Tests - Additional path tests | FAIL
+
 
 # Documentation
 
@@ -88,6 +90,7 @@ Example Documented | FAIL
 
 No documentation exists for packaging. A user needs to know how to work with packaging to work on them.
 
+
 # Open Source Practices
 
 ## Licenses
@@ -108,16 +111,18 @@ Requirement | Finding
 ------------ | -------------
 OSS contribution best practices | FAIL
 
+
 # Coding Standards
 
 ## General Observations
 
-Code is generally 
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
+
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project does what it is supposed to do. However, most other aspects needed for this review are missing. There is no specific documentation, there are missing licenses, there is no mention of tests, and finally no work on contribution and security policies exist. Because of these shortcomings, reviewer suggests this project to FAIL.
+
 
 # Recommendation
 
