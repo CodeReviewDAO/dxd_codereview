@@ -1,7 +1,7 @@
-Grant Proposal | [372 - 1 - Riak v3.x Packaging Enhancement Project](https://portal.devxdao.com/public-proposals/372)
+Grant Proposal | [372 - 1-2-3-4 - Riak v3.x Packaging Enhancement Project](https://portal.devxdao.com/public-proposals/372)
 ------------ | -------------
 Milestone | 1
-Milestone Title | Create FreeBSD Packaging Tools for Riak KV, CS and Stanchion
+Milestone Title | Create FreeBSD, OSX, SUSE and Alpine Linux Packaging Tools for Riak KV, CS and Stanchion
 OP | Bob The Marauder
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
@@ -16,14 +16,13 @@ Updates to the code base that allow packages for Riak KV, Riak CS and Stanchion 
 
 **Acceptance criteria:**
 
-* Most recent Riak KV version 3 package at that time builds successfully on FreeBSD.
-* Most recent Riak CS version 3 package at that time builds successfully on FreeBSD.
-* Most recent Stanchion version 3 package at that time builds successfully on FreeBSD.
-* PR filed against Riak KV version 3 on Github to include FreeBSD packaging tools.
-* PR filed against Riak CS version 3 on Github to include FreeBSD packaging tools.
-* PR filed against Stanchion version 3 on Github to include FreeBSD packaging tools.
-* FreeBSD packages publicly available from https://files.tiot.jp for Riak KV, Riak CS and Stanchion version 3.
-
+* Most recent Riak KV version 3 package at that time builds successfully on FreeBSD, OSX, SUSE and Alpine Linux
+* Most recent Riak CS version 3 package at that time builds successfully on FreeBSD, OSX, SUSE and Alpine Linux.
+* Most recent Stanchion version 3 package at that time builds successfully on FreeBSD, OSX, SUSE and Alpine Linux.
+* PR filed against Riak KV version 3 on Github to include FreeBSD, OSX, SUSE and Alpine Linux packaging tools.
+* PR filed against Riak CS version 3 on Github to include FreeBSD, OSX, SUSE and Alpine Linux packaging tools.
+* PR filed against Stanchion version 3 on Github to include FreeBSD, OSX, SUSE and Alpine Linux packaging tools.
+* FreeBSD, OSX, SUSE and Alpine Linux packages publicly available from https://files.tiot.jp for Riak KV, Riak CS and Stanchion version 3.
 
 ## Milestone Submission
 
@@ -38,32 +37,27 @@ https://github.com/TI-Tokyo/stanchion | 438383f
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+The installation of packages is not strictly mentioned in a doc and the user is expected to know how to make it themselves. The process is easy, however someone not familiar with software packaging would struggle to find their way.
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Packages are created successfully after running the relevant makefile for each operating system and their corresponding packaging system. OP also provides the packages on the https://files.tiot.jp website they mentioned at the time of the submission of the pull request.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | FAIL
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+No unit tests or explanations about manual testing is available.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | FAIL
+Unit Tests - At least one negative path test | FAIL
+Unit Tests - Additional path tests | FAIL
 
 # Documentation
 
@@ -83,17 +77,16 @@ Code Documented | PASS with Notes
 
 *This part of the review considers the pull requests made upon the main repo provided by the developer for FreeBSD, OSX, SUSE and Alpine operating systems.*
 
-Project documentation is provided as README files for each corresponding packaging.
-
+No documentation exists for packaging. A user needs to know how to work with packaging to work on them.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | FAIL
+Example Documented | FAIL
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+No documentation exists for packaging. A user needs to know how to work with packaging to work on them.
 
 # Open Source Practices
 
@@ -109,7 +102,7 @@ OSI-approved open source software license | FAIL
 
 ## Contribution Policies
 
-All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but could not conclude a decision for a passing finding.
+All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but it could not be resolved.
 
 Requirement | Finding
 ------------ | -------------
@@ -119,8 +112,7 @@ OSS contribution best practices | FAIL
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Code is generally 
 
 # Final Conclusion
 
@@ -129,5 +121,5 @@ submission should fail code review, because it does not contain an OSI-approved 
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | FAIL
 ------------ | -------------
