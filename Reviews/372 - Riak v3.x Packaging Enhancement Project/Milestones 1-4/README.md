@@ -69,18 +69,22 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+*This part of the review considers the pull requests made upon the main repo provided by the developer for FreeBSD, OSX, SUSE and Alpine operating systems.*
+
+Code documentation is satisfying. All critical methods have been commented. There are also examples for usage inside the code as comments.
+
+However, there are some extra code that is commented out and there are some irrelevant comments inside the code. Reviewer suggests removing these before pushing to production in future PRs.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+*This part of the review considers the pull requests made upon the main repo provided by the developer for FreeBSD, OSX, SUSE and Alpine operating systems.*
+
+Project documentation is provided as README files for each corresponding packaging.
+
 
 Requirement | Finding
 ------------ | -------------
@@ -95,25 +99,21 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Repository for Riak KV is missing a license. This has been discussed in detail with the developer but further action cannot be taken. Since the nature of the review for a pull request, it has been deemed that this needs additional attention from OP. In its current state, the license requirement fails.
+
+Riak CS and Stanchion are licensed under Apache License-2.0.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | FAIL
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but could not conclude a decision for a passing finding.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | FAIL
 
 # Coding Standards
 
