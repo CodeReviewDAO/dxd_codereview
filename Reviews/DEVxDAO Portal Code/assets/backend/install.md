@@ -189,5 +189,7 @@ Hit:10 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease
 Reading package lists... Done
 ```
 ```
-
+sudo apt-get install -y php7.4
+sudo apt-get install -y php7.4-{bcmath,bz2,intl,gd,mbstring,mysql,zip,common,curl,xml}
+# PHP 7.4 was preinstalled so these lines were skipped
 ```

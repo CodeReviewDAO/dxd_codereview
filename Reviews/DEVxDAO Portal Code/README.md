@@ -1,7 +1,7 @@
 Grant Proposal | [DEVxDAO Portal Code](https://crdao.ossa.dev/Job-Detail/136)
 ------------ | -------------
 Milestone | 1
-Milestone Title | My Alpha Version
+Milestone Title | DEVxDAO Portal Code
 OP | DEVxDAO <https://portal.devxdao.com/>
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com> & Yusuf Keten <ketenyusuf@gmail.com>
 
