@@ -1,0 +1,44 @@
+## Unit tests
+
+```sh
+review@crdao:~/helperbot$ npm test
+
+> helperbot@1.0.0 test
+> npm run build && mocha 'dist/test/**/*.js' --recursive --timeout 60000 --exit
+
+
+> helperbot@1.0.0 build
+> npx tsc
+
+
+
+  API Client
+    Handling valid responses
+      ✔ should sign in and get the settings info
+      ✔ should get the /me endpoint info
+      ✔ should get the /settings endpoint info
+      ✔ should sign in automatically when getting the votes
+    Handling invalid responses
+      ✔ should not sign in and get the settings info
+      ✔ should not get the /me endpoint info
+      ✔ should not get the /settings endpoint info
+      ✔ should fail to get the votes without being signed in
+
+  Digest
+    Handling empty responses
+      ✔ should return an empty "Digest"
+      ✔ should return an empty "Simple list"
+      ✔ should return an empty "New Simples" object
+      ✔ should return an empty "New Failed - No Quorum" object
+    Handling mocked responses
+      ✔ should return a correct "New Simples" object
+      ✔ should return a "Digest" text containing expected records
+      ✔ should return correct "New Failed - No Quorum" object
+    Class methods
+      ✔ should not have unescaped reserved characters in escapeText() method
+      ✔ should correctly escape reserved characters in escapeText() method
+      ✔ should format "timeLeft" correctly in timeLeftToHM()
+
+
+  18 passing (257ms)
+```
