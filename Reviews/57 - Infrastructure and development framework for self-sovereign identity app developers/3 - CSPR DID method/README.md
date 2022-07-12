@@ -107,7 +107,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-In the reviewer's opinion, despite missing inline documentation.  The project is easily understandable and conforms to conventions common in the open source space for a Typescript/React 
+In the reviewer's opinion, despite missing inline documentation, the project is easily understandable and conforms to conventions common in the open source space for a Typescript/React project.
 
 # Open Source Practices
 
