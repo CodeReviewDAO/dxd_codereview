@@ -60,7 +60,7 @@ And then the project start successfully :
 
 ![img.png](assets/webapp_up_and_running.png)
 
-The OP provided a website (https://staging.verifiedimpactnfts.com/) which is the the same as the local version. <br>
+The OP provided a website (https://staging.verifiedimpactnfts.com/) which is the same as the local version. <br>
 At first the OP provided info about how to use a custom version of the signer but during the review, the Casper's Signer was updated and it's no more needed.<br>
 
 The reviewer also noticed few things that can be improved:
@@ -81,14 +81,14 @@ The reviewer recommends also to clean these log in the production environment :
 
 **Image size**
 
-The reviewer also saw that the main banner's size is 14Mo. It's clearly to high and not recommended. It will have an impact on the user experience and on the performance.<br>
+The reviewer also saw that the main banner's size is 14Mo. It's clearly too high and not recommended. It will have an impact on the user experience and on the performance.<br>
 
 ![img.png](assets/image_size.png)
 
 **Constants**
 
 The reviewer noted that he can define more "env" variables (defined in the file constants/blockchains.ts and constants/paymentAmounts.ts) but it's not documented.<br>
-It's important for someone who want to fork the repository. He must know what can be parametrize or not.
+It's important for someone who wants to fork the repository. He must know what can be parametrized or not.
 
 **yarn build**
 
@@ -129,36 +129,36 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 ![img.png](assets/tests.png)
 
-The reviewer advises the OP to add tests in the future to increase the stability of the app.
+The reviewer advises the OP adding tests in the future to increase the stability of the app.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | Pass
-Unit Tests - At least one negative path test | Pass
-Unit Tests - Additional path tests | Pass with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS with Notes
 
 # Documentation
 
 ### Code Documentation
 
-After the reviewer notify the OP, the OP added a doc folder with a documentation based on JSDoc.
-It's sufficient enough for this review but it can be improve.
+After the reviewer notified the OP, the OP added a doc folder with documentation based on JSDoc.
+It's sufficient enough for this review but it can be improved.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | Pass with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
 As mentioned earlier, the documentation was improved during the review.
 
-The OP take in account the feedback and provide sufficient documentation to understand the app.
+The OP takes into account the feedback and provides sufficient documentation to understand the app.
 
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | Pass
-Example Documented | Pass
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
@@ -197,7 +197,7 @@ The OP should take a look at the findings describe earlier :
 - yarn build
 - Casper's Signer button
 
-He should also improve the code's documentation and add more tests to have a better code coverage.
+He should also improve the code's documentation and add more tests to have better code coverage.
 
 # Final Conclusion
 
@@ -205,11 +205,11 @@ The project meets the acceptance criterias.
 
 The reviewer appreciates that during the review the Casper's signer added the the support of verifiedimpactnfts.com which simplify the tests.
 
-The reviewer also like the work of the OP during the review to improve the documentations and the tests. It's sufficient but the reviewer recommands to continue working on it, especially the unit tests.
+The reviewer also like the work of the OP during the review to improve the documentations and the tests. It's sufficient but the reviewer recommends to continue working on it, especially the unit tests.
 
-Thus, in the reviewer's opinion, this submission should Pass with Notes.
+Thus, in the reviewer's opinion, this submission should PASS with Notes.
 
 # Recommendation
 
-Recommendation | Pass with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
