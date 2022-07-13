@@ -205,7 +205,7 @@ The project meets the acceptance criterias.
 
 The reviewer appreciates that during the review the Casper's signer added the the support of verifiedimpactnfts.com which simplify the tests.
 
-The reviewer also like the work of the OP during the review to improve the documentations and the tests. It's sufficient but the reviewer recommends to continue working on it, especially the unit tests.
+The reviewer also likes the work of the OP during the review to improve the documentations and the tests. It's sufficient but the reviewer recommends to continue working on it, especially the unit tests.
 
 Thus, in the reviewer's opinion, this submission should PASS with Notes.
 
