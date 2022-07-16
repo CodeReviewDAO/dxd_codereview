@@ -22,14 +22,21 @@ Complete SDK packages, ready to use with Python, Node JS, PHP
 Packages SDK suitable for Python, Node JS, PHP languages to integrate with Payment gateway.
 
 PHP SDK https://github.com/DHFinance/dhf-pay-php 
+
 Python SDK https://github.com/DHFinance/phf-pay-python 
+
 NodeJS SDK https://github.com/DHFinance/dhf-pay-js
 
 ? Add Integration tests
+
 ? Add more nagative path tests
+
 ? Fix security bugs
+
 ? Fix bugs wrong price calculation on frontend
+
 ? Fix bug Permission request when install Python
+
 ? Complete the documentation
 
 ## Milestone Submission
