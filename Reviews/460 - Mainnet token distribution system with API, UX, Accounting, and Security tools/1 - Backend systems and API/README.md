@@ -115,7 +115,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall exceptional work is done.
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
 
 
 # Final Conclusion
