@@ -46,13 +46,13 @@ Packages are created successfully after running the relevant makefile for each o
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
-Documentation provides sufficient installation/execution instructions | FAIL
+Documentation provides sufficient installation/execution instructions | PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 
 # Unit / Automated Testing
 
-No unit tests or explanations about manual testing is available.
+Note that, since OP does not have permission to modify the main repo, they are not able to push their tests to it. The decision on this is on DEVxDAO on their terms, while it fails the requirements expected by CRDAO. No unit tests or explanations about manual testing is available in the pull request provided.
 
 Requirement | Finding
 ------------ | -------------
@@ -79,12 +79,12 @@ Code Documented | PASS with Notes
 
 *This part of the review considers the pull requests made upon the main repo provided by the developer for FreeBSD, OSX, SUSE and Alpine operating systems.*
 
-No documentation exists for packaging. A user needs to know how to work with packaging to work on them.
+No documentation exists for packaging. A user needs to know how to work with packaging to work on them. However, a Makefile is present that defines the way how the packages could be generated which is deemed sufficient for these milestones.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | FAIL
-Example Documented | FAIL
+Usage Documented | PASS with Notes
+Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
@@ -105,7 +105,7 @@ OSI-approved open source software license | FAIL
 
 ## Contribution Policies
 
-All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but it could not be resolved.
+All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but it could not be resolved. This is because OP providing an open source code to the main repo but does not 
 
 Requirement | Finding
 ------------ | -------------
@@ -121,7 +121,9 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-Project does what it is supposed to do. However, most other aspects needed for this review are missing. There is no specific documentation, there are missing licenses, there is no mention of tests, and finally no work on contribution and security policies exist. Because of these shortcomings, reviewer suggests this project to FAIL.
+Since this is an open source pull request made into another repo, whose license status is not clear, some aspects of this review are not completely compatible with the expectations of CRDAO. Since the OP has no direct influence on the main repository, they cannot modify some parts of it, namely change the license, provide extra unit tests, and etc. These should be regarded by DEVxDAO while giving the final decision on this grant.
+
+To summarize, project does what it is supposed to do. However, some aspects needed for this review are missing. There is no specific documentation, there are missing licenses, there is no mention of tests, and finally no work on contribution and security policies exist. Because of these shortcomings, reviewer suggests this project to FAIL.
 
 
 # Recommendation
