@@ -105,7 +105,7 @@ OSI-approved open source software license | FAIL
 
 ## Contribution Policies
 
-All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but it could not be resolved. This is because OP is providing an open source code to the main repository, whose license status is not clear. This should be regarded when making a decision by DEVxDAO since the OP has no control over the main repository.
+All of the repositories that the pull request made into, namely Riak KV, Riak CS and Stanchion are missing both the SECURITY and CONTRIBUTING policies. This issue also has been discussed in detail with the OP but it could not be resolved. This is because OP is providing an open source code to the main repository, which they do not maintain. This should be regarded when making a decision by DEVxDAO since the OP has no control over the main repository.
 
 Requirement | Finding
 ------------ | -------------
