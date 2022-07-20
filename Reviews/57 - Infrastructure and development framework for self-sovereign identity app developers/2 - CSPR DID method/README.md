@@ -159,7 +159,7 @@ The reviewer has helped the OP to bring this grant to a point where the reviewer
 - Upgrade libraries to 1.4.3+
 - Confirm documentation works for 1.4.3+
 - Add a negative path for unit tests
-- Add some minor project documentation omissions so the documentation is complete
+- Add some minor project documentation omissions (test command) so the documentation is complete
 - Inline project documentation
 
 # Recommendation
