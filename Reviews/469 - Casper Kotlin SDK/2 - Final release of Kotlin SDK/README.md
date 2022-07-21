@@ -58,7 +58,7 @@ able to successfully build the source code for this milestone.
 
 ## Overall Impression of usage testing
 
-The project builds without errors but with warnings, the documentation provides sufficient installation  and execution instructions especcially for Mac users, and the project functionality meets the acceptance criteria and operates without errors. Building project from maven was requiring special efford and toold of IDE, then when reiewer talked with OP, OP quickly fixed the problem
+The project builds without errors but with warnings, the documentation provides sufficient installation and execution instructions, especially for Mac users, and the project functionality meets the acceptance criteria and operates without errors. Building the project from maven was requiring special effort and tools of IDE, then when the reviewer talked with OP, OP quickly fixed the problem
 
 ``` sh
 Executing pre-compile tasks...
@@ -93,7 +93,7 @@ Synchronizing output directories...
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS
+The project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
@@ -116,15 +116,15 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-Low-level documentation in the project is exist and it covers almost all classes and methods. 
+Low-level documentation in the project exists and it covers almost all classes and methods. 
 
 Requirement | Finding
 ------------ | -------------
-Low level function documentation | PASS 
+Low-level function documentation | PASS 
 
 ### Project Documentation
 
-The README file provides necessary informations to build project and run the tests. It provides all necessary information with visual aid which is a good touch. Usage documentation is also shows how to use sdk with example project as well as how to get necessary jar file. However, creating this jar file over maven was not easy, and it did not mentioned in the documentation. Then when reviewer talked with OP, OP fixed the documentation and problem of maven. 
+The README file provides the necessary information to build the project and run the tests. It provides all necessary information with visual aid which is a good touch. Usage documentation also shows how to use the SDK with an example project as well as how to get the necessary jar file. However, creating this jar file over maven was not easy, and it was not mentioned in the documentation. Then when the reviewer talked with OP, OP fixed the documentation and problem of maven. Even though, since this is a maven project, instructions related to maven could be wider. Also, documentation shows instructions for Mac users, even though users can easily find corresponding steps in Windows or Linux, documentation could include instructions for different operating systems. 
 
 Requirement | Finding
 ------------ | -------------
@@ -156,7 +156,7 @@ Code is generally well-structured and readable. The project is committed to GitH
 
 # Final Conclusion
 
-The project provides the functionality described in the grant application and milestone acceptance criteria.
+The project provides the functionality described in the grant application and milestone acceptance criteria. However, there are certain points noted above that could be improved on the project.
 
 Thus, in the reviewer's opinion, this submission should pass with notes.
 
