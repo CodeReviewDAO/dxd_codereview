@@ -40,8 +40,18 @@ https://github.com/a3mc/Casper-Metrics | 87c387c
 
 # Install & Usage Testing Procedure and Findings
 
-Following the Installation instructions in the repository: https://github.com/a3mc/Casper-Metrics/blob/master/docs/INSTALLATION.md . 
-Reviewer was able to run the project using the instruction guides specified. 
+Following the [installation instructions in the repository]( https://github.com/a3mc/Casper-Metrics/blob/master/docs/INSTALLATION.md), 
+the reviewer was able to run the project using the instruction guides specified. 
+
+![](assets/build_1.png)
+![](assets/build_2.png)
+
+
+User Interface
+![](assets/ui_3.png)
+![](assets/ui_1.png)
+![](assets/ui_2.png)
+
 
 ## Overall Impression of usage testing
 
@@ -54,9 +64,9 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # End-to-End & Load Testing
 
-Test reports documented under the folder: https://github.com/a3mc/Casper-Metrics/tree/master/e2e/Reports. 
+Test reports are documented under the [reports folder](https://github.com/a3mc/Casper-Metrics/tree/master/e2e/Reports). 
 
-It was observed that end points were tested in detail, and controls such as integer control, requirements control, timestamp validation control, era validation control, confirmation control, and filter control were added to the tests.
+It was observed that endpoints were tested in detail, and controls such as integer control, requirements control, timestamp validation control, era validation control, confirmation control, and filter control were added to the tests.
 In addition, the tests are documented in detail.
 
 ![](assets/tests_1.png)
@@ -66,7 +76,7 @@ In addition, the tests are documented in detail.
 ![](assets/tests_5.png)
 Requirement | Finding
 ------------ | -------------
-End to end tests  | PASS
+End-to-end tests | PASS
 Load Tests | PASS
 
 
@@ -74,17 +84,17 @@ Load Tests | PASS
 
 ### Code Documentation
 
-Although the codes have been tried to be documented in general, the codes in important folders such as controllers, models, repositories and services can be documented in more detail as comments. In addition, although some of the readme files in the mentioned folders are added, some of them do not have a readme file. Attached readme files can also be given in more detail.
+It requires low-level code documentation for the CRDAO code review standards. Although the codes are tried to be well documented in general, there is no documentation as a comment line at the class level. Documentation should be added as a comment line at the beginning of classes, especially in important classes of important folders such as controllers, models, repositories and services. In addition to the code readability, it is also important in the preparation of auto-generated documentation. Particular attention should be paid to this issue as it is the fourth and final milestone of the project.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS with Notes
+Code Documented | FAIL
 
 ### Project Documentation
 
-Project documents are added in https://github.com/a3mc/Casper-Metrics/tree/master/docs folder. 
+Project documents are added in the [docs folder](https://github.com/a3mc/Casper-Metrics/tree/master/e2e/Reports).
 
-Reviewer observes that project is documented in detail and documents are well structured.
+The reviewer observes that the project is documented in detail and documents are well structured.
 
 Requirement | Finding
 ------------ | -------------
@@ -94,7 +104,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-Reviewer generally observes that the documentation sufficient.
+Although it is clear that importance is given to the project documentation, the reviewer observes that the documentation at the code level should be improved.
 
 # Open Source Practices
 
@@ -108,7 +118,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains contribution and code of conduct policies.
+The project contains contribution and security policies and, a code of conduct.
 
 
 Requirement | Finding
@@ -119,13 +129,14 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is well structured and special care was taken to make the the code readable. The project can be easily set up using the documentation via Github repository. The reviewer observed that he did not encounter any circumstances that would require to fail the review in the tests and throughout the project.
+Code is well structured and the project can be easily set up using the documentation via the Github repository. But, as this is the fourth and final milestone of the project, code-level documentation should be improved.
 
 # Final Conclusion
 
-The project provides the functionality described in the milestone acceptance criteria. It also meets the standards required by CRDAO. As a result, in the reviewer's opinion, this submission should be PASS with Notes.
+The project provides the functionality described in the milestone acceptance criteria. Because it is clearly stated in the CRDAO standards that low-level code documentation is required, in the reviewer's opinion, this submission should be FAIL.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | FAIL
 ------------ | -------------
+
