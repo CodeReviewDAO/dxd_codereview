@@ -49,7 +49,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/tqhuy2018/Casper-Kotlin-sdk | 2fd5d8a
+https://github.com/tqhuy2018/Casper-Kotlin-sdk | 6ee0ac2
 
 # Install & Usage Testing Procedure and Findings
 
@@ -58,12 +58,13 @@ able to successfully build the source code for this milestone.
 
 ## Overall Impression of usage testing
 
-The project builds without errors but with warnings, the documentation provides sufficient installation  and execution instructions especcially for Mac users, and the project functionality meets the acceptance criteria and operates without errors. However, building project from maven requires special efford and tools of IDE, but project shows the way in the usage instraction. 
+The project builds without errors but with warnings, the documentation provides sufficient installation  and execution instructions especcially for Mac users, and the project functionality meets the acceptance criteria and operates without errors. Building project from maven was requiring special efford and toold of IDE, then when reiewer talked with OP, OP quickly fixed the problem
 
 ``` sh
 Executing pre-compile tasks...
 Loading Ant configuration...
 Running Ant tasks...
+Cleaning output directories…
 Running 'before' tasks
 Checking sources
 Copying resources... [casper-kotlin-sdk]
@@ -71,13 +72,9 @@ Kotlin: connecting to daemon
 Kotlin: compiling [casper-kotlin-sdk]
 Kotlin: kotlinc-jvm 1.6.21-release-337 (JRE 18.0.2+9-61)
 Kotlin: performing incremental compilation analysis
-Checking dependencies… [casper-kotlin-sdk]
-Dependency analysis found 0 affected files
 Updating dependency information… [casper-kotlin-sdk]
 Kotlin: compiling [tests of casper-kotlin-sdk]
 Kotlin: performing incremental compilation analysis
-Checking dependencies… [tests of casper-kotlin-sdk]
-Dependency analysis found 0 affected files
 Updating dependency information… [tests of casper-kotlin-sdk]
 Running 'after' tasks
 Finished, saving caches…
@@ -85,15 +82,19 @@ Executing post-compile tasks...
 Loading Ant configuration...
 Running Ant tasks...
 Synchronizing output directories...
-21.07.2022 02:42 - Build completed successfully with 18 warnings in 13 sec, 930 ms
+21.07.2022 15:52 - Build completed successfully with 2 warnings in 25 sec, 173 ms
 
 ```
 ![Build](./assets/build.png)
 
+[Build Logs - mvn clean package](assets/mvn-clean-package.md)
+
+[Build Logs - mvn package](assets/mvn-package.md)
+
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
-Documentation provides sufficient installation/execution instructions | PASS 
+Documentation provides sufficient installation/execution instructions | PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 
@@ -102,6 +103,8 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 The project has unit tests for all critical classes and methods.
 
 ![Tests](./assets/tests.png)
+
+[Test Logs - mvn test](assets/mvn-test.md)
 
 Requirement | Finding
 ------------ | -------------
@@ -121,7 +124,7 @@ Low level function documentation | PASS
 
 ### Project Documentation
 
-The README file provides necessary informations to build project and run the tests. It provides all necessary information with visual aid which is a good touch. Usage documentation is also shows how to use sdk with example project as well as how to get necessary jar file. However, creating this jar file over maven is not easy, and it did not mentioned in the documentation. This is not a reason for a failure, in the reviewer's opinion, since OP gave path the follow and provide jar file with a example project but it would be nice touch for end user.
+The README file provides necessary informations to build project and run the tests. It provides all necessary information with visual aid which is a good touch. Usage documentation is also shows how to use sdk with example project as well as how to get necessary jar file. However, creating this jar file over maven was not easy, and it did not mentioned in the documentation. Then when reviewer talked with OP, OP fixed the documentation and problem of maven. 
 
 Requirement | Finding
 ------------ | -------------
