@@ -1,0 +1,131 @@
+Grant Proposal | [86 - CSPR Metrics API and Historical Archive for Services, Daps and Analytics](https://portal.devxdao.com/app/proposal/86)
+------------ | -------------
+Milestone | 4
+Milestone Title | Scalability and load
+OP | Daniel Halford
+Reviewer | Muhammed Didin <mdidin80@gmail.com>
+
+# Milestone Details
+
+## Details & Acceptance Criteria
+
+
+**Details of what will be delivered in milestone:**
+
+This Milestone is about load testing and making sure the system is production ready. All the changes are live in production and can be observed on [caspermetrics.io](https://caspermetrics.io) and the [API endpoints](https://mainnet.cspr.art3mis.net) accordingly.
+
+- Improve load balancers and prepare for easy scaling when needed
+
+- Load testing of the endpoints and static frontend. Estimate the amount of requests / connections per second, that system can handle without the need of scaling;
+
+- Move the project to a performant dedicated server
+
+- Add integration with the explorer, through any external explorer or by using SDK if needed
+
+- Testing the load
+
+**Acceptance criteria:**
+
+API is ready for well enough load and provide data to users without visible restrictions.
+
+
+## Milestone Submission
+
+The following milestone assets/artifacts were submitted for review:
+
+Repository | Revision Reviewed
+------------ | -------------
+https://github.com/a3mc/Casper-Metrics | 87c387c
+
+
+# Install & Usage Testing Procedure and Findings
+
+Following the Installation instructions in the repository: https://github.com/a3mc/Casper-Metrics/blob/master/docs/INSTALLATION.md . 
+Reviewer was able to run the project using the instruction guides specified. 
+
+## Overall Impression of usage testing
+
+
+Requirement | Finding
+------------ | -------------
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS 
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS 
+
+# End-to-End & Load Testing
+
+Test reports documented under the folder: https://github.com/a3mc/Casper-Metrics/tree/master/e2e/Reports. 
+
+It was observed that end points were tested in detail, and controls such as integer control, requirements control, timestamp validation control, era validation control, confirmation control, and filter control were added to the tests.
+In addition, the tests are documented in detail.
+
+![](assets/tests_1.png)
+![](assets/tests_2.png)
+![](assets/tests_3.png)
+![](assets/tests_4.png)
+![](assets/tests_5.png)
+Requirement | Finding
+------------ | -------------
+End to end tests  | PASS
+Load Tests | PASS
+
+
+# Documentation
+
+### Code Documentation
+
+Although the codes have been tried to be documented in general, the codes in important folders such as controllers, models, repositories and services can be documented in more detail as comments. In addition, although some of the readme files in the mentioned folders are added, some of them do not have a readme file. Attached readme files can also be given in more detail.
+
+Requirement | Finding
+------------ | -------------
+Code Documented | PASS with Notes
+
+### Project Documentation
+
+Project documents are added in https://github.com/a3mc/Casper-Metrics/tree/master/docs folder. 
+
+Reviewer observes that project is documented in detail and documents are well structured.
+
+Requirement | Finding
+------------ | -------------
+Usage Documented | PASS 
+Example Documented | PASS 
+
+
+## Overall Conclusion on Documentation
+
+Reviewer generally observes that the documentation sufficient.
+
+# Open Source Practices
+
+## Licenses
+
+The Project is released under the MIT License.
+
+Requirement | Finding
+------------ | -------------
+OSI-approved open source software license | PASS
+
+## Contribution Policies
+
+The project contains contribution and code of conduct policies.
+
+
+Requirement | Finding
+------------ | -------------
+OSS contribution best practices | PASS 
+
+# Coding Standards
+
+## General Observations
+
+Code is well structured and special care was taken to make the the code readable. The project can be easily set up using the documentation via Github repository. The reviewer observed that he did not encounter any circumstances that would require to fail the review in the tests and throughout the project.
+
+# Final Conclusion
+
+The project provides the functionality described in the milestone acceptance criteria. It also meets the standards required by CRDAO. As a result, in the reviewer's opinion, this submission should be PASS with Notes.
+
+# Recommendation
+
+Recommendation | PASS with Notes
+------------ | -------------
