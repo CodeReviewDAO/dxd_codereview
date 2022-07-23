@@ -55,6 +55,8 @@ User Interface
 
 ## Overall Impression of usage testing
 
+Following the instructions, the reviewer was able to build and run the project. The documentation provides sufficient installation and execution instructions. The reviewer thinks that project functionality meets the acceptance criteria and operates without errors.
+
 
 Requirement | Finding
 ------------ | -------------
@@ -84,7 +86,7 @@ Load Tests | PASS
 
 ### Code Documentation
 
-It requires low-level code documentation for the CRDAO code review standards. Although the codes are tried to be well documented in general, there is no documentation as a comment line at the class level. Documentation should be added as a comment line at the beginning of classes, especially in important classes of important folders such as controllers, models, repositories and services. In addition to the code readability, it is also important in the preparation of auto-generated documentation. Particular attention should be paid to this issue as it is the fourth and final milestone of the project.
+CRDAO code review standards states that low-level code documentation is a must. Although the codes are tried to be well documented in general, class-level code documentation is poor. Documentation should be added as a comment line at the beginning of classes, especially in important classes of important folders such as controllers, models, repositories and services. In addition to the code readability, it is also important for the preparation of auto-generated documentation. Particular attention should be paid to this issue as it is the fourth and final milestone of the project.
 
 Requirement | Finding
 ------------ | -------------
@@ -94,7 +96,7 @@ Code Documented | FAIL
 
 Project documents are added in the [docs folder](https://github.com/a3mc/Casper-Metrics/tree/master/e2e/Reports).
 
-The reviewer observes that the project is documented in detail and documents are well structured.
+The reviewer observes that the project has detailed documentation  for usage with examples, along with the installation, build and test instructions, and documents are well structured.
 
 Requirement | Finding
 ------------ | -------------
@@ -104,7 +106,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-Although it is clear that importance is given to the project documentation, the reviewer observes that the documentation at the code level should be improved.
+Although it is clear that importance is given to the project documentation, the reviewer observes that the documentation at the code level must be improved. The reviewer thinks that code documentation should fail, as the CRDAO review standards state that there should be code level documentation and this is the final milestone of the project.
 
 # Open Source Practices
 
@@ -133,10 +135,13 @@ Code is well structured and the project can be easily set up using the documenta
 
 # Final Conclusion
 
-The project provides the functionality described in the milestone acceptance criteria. Because it is clearly stated in the CRDAO standards that low-level code documentation is required, in the reviewer's opinion, this submission should be FAIL.
+The project provides the functionality described in the grant application and milestone acceptance criteria. Also, the project has extensive load and end-to-end tests. 
+
+It is stated in the CRDAO standards that low-level code documentation is required but the project has poor code level documentation, especially for class level documentation. Moreover, the reviewer highly suggests that the shortcomings pointed out under the Coding Standards section shall be taken care of as it is the final milestine of the project.
+
+Thus, in the reviewer opinion this submission should fail because of the reasons stated above.
 
 # Recommendation
 
 Recommendation | FAIL
 ------------ | -------------
-
