@@ -11,15 +11,36 @@ Reviewer | Ömer ÇAKMAK <farukomercakmak@gmail.com>
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+- A KYC contract built on the Casper network
+- A JavaScript client that can install the KYC token, interact with all its interfaces, and facilitate E2E testing
+- Documentation associated with the above
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+- KYC contract can be installed on the Casper Network
+- KYC results can be captured and matched against unique VA identifiers
+- JS Client enables installation, usage and testing of the contract
 
 **Additional notes regarding submission from OP:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Please find the release notes for milestones #2 and #4 here: https://github.com/make-software/dao-contracts/releases/tag/milestone-2-4
+
+Release Notes:
+
+This release contains the following smart contracts:
+
+- Variable Repository - keeps track of system parameters,
+- Variable Repository Voter - allows voting on system parameters,
+- Admin Contract - central contract, that enables the upgrade of the whole system,
+- KYC NFT - keeps track of accounts that passed the KYC process,
+- KYC Voter - allows performing a KYC process and mints KYC NFT,
+- VA NFT - keeps track of accounts that are VAs.
+- Onboarding Voter - allows to onboard new VAs and mints VA NFT.
+
+Notes for the DEVxDAO:
+- This code fully realizes milestone #2: Variable Repository.
+- This code fully realizes milestone #4: KYC Contract.
+- It contains a large part of the voting code required for milestone #5: Voting Contract. A full code will be the subject of the next release.
 
 ## Milestone Submission
 
@@ -27,7 +48,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/make-software/dao-contracts/tree/milestone-2-4 | 7c24f46
 
 
 # Install & Usage Testing Procedure and Findings
@@ -63,18 +84,28 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Reviewer found the code to be well documented. 
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS
 
 ### Project Documentation
 
 _Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
 as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
 below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+
+foc@foc:~/dao-contracts$ make docs >> docs-output
+  Downloaded bit-set v0.5.2
+  Downloaded getrandom v0.2.4
+  Downloaded log v0.4.14
+  Downloaded fnv v1.0.7
+  Downloaded either v1.6.1
+....
+warning: `casper-dao-contracts` (lib doc) generated 6 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 54.31s
+     Opening /home/foc/dao-contracts/target/doc/casper_dao_contracts/index.html
 
 Requirement | Finding
 ------------ | -------------
@@ -89,25 +120,19 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the Apache-2.0 License
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project does not contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
