@@ -137,7 +137,7 @@ Code is well structured and the project can be easily set up using the documenta
 
 The project provides the functionality described in the grant application and milestone acceptance criteria. Also, the project has extensive load and end-to-end tests. 
 
-It is stated in the CRDAO standards that low-level code documentation is required but the project has poor code level documentation, especially for class level documentation. Moreover, the reviewer highly suggests that the shortcomings pointed out under the Coding Standards section shall be taken care of as it is the final milestine of the project.
+It is stated in the CRDAO standards that low-level code documentation is required but the project has poor code level documentation, especially for class level documentation. Moreover, the reviewer highly suggests that the shortcomings pointed out under the Coding Standards section shall be taken care of as it is the final milestone of the project.
 
 Thus, in the reviewer opinion this submission should fail because of the reasons stated above.
 
