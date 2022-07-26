@@ -56,7 +56,7 @@ README provides installation instructions. However, the prerequisites are not me
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-(_Log:_ [`rust` installation](assets/rustup.md))
+- [`rust` installation logs](assets/rustup.md)
 
 After that, running `make build-contracts` as stated in the README did not work and resulted in an error:
 
@@ -112,7 +112,7 @@ Code Documented | PASS
 
 Project documentation is done via Rustdoc. All critical functionality of the code is documented. There are examples inside the documentation about how to use different aspects of the code. There was one warning while generating the documentation, which needs developer attention.
 
-[*Documentation build logs*](assets/docs.md)
+- [Documentation build logs](assets/docs.md)
 
 ![](assets/docs.png)
 
