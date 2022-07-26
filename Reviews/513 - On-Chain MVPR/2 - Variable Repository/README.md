@@ -58,160 +58,23 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 (_Log:_ [`rust` installation](assets/rustup.md))
 
-After that, running `make build-contracts` did not work and resulted in an error:
+After that, running `make build-contracts` as stated in the README did not work and resulted in an error:
 
 ```sh
 @ggurbet ➜ /workspaces/dao-contracts (7c24f46) $ make build-contracts
 make: *** No rule to make target 'build-contracts'.  Stop.
 ```
 
-Upon inspecting the `Makefile`, reviewer found out the correct target name has since been changed to `build-dao-contracts`. This needs to be updated in the README.
+Upon inspecting the `Makefile`, reviewer found out the correct target name has since been changed to `build-dao-contracts`. This issue was reported to OP and has been updated in the latest versin of the README.
 
-After that, issuing the `make` command with the correct target, reviewer run into other error messages:
+Contacting the OP and after making the necessary updates on the README, reviewer run the build operations again using the `make build-all` command and successfully built the project:
 
 ```sh
-@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ make build-dao-contracts
+@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ make build-all
 cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-contracts
-error[E0463]: can't find crate for `core`
-  |
-  = note: the `wasm32-unknown-unknown` target may not be installed
-  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
-  = help: consider building the standard library from source with `cargo build -Zbuild-std`
-
-error: aborting due to previous error
-
-For more information about this error, try `rustc --explain E0463`.
-error: could not compile `rand_core`
-
-To learn more, run the command again with --verbose.
-error[E0463]: can't find crate for `core`
-  |
-  = note: the `wasm32-unknown-unknown` target may not be installed
-  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
-  = help: consider building the standard library from source with `cargo build -Zbuild-std`
-
-error: aborting due to previous error
-
-For more information about this error, try `rustc --explain E0463`.
-error: build failed
-make: *** [Makefile:14: build-dao-contracts] Error 101
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-erc20
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-erc721
 ```
-
-Using `rustc --explain E0463` to get more information about the error:
-
-~~~sh
-A plugin/crate was declared but cannot be found.
-
-Erroneous code example:
-
-```
-#![feature(plugin)]
-#![plugin(cookie_monster)] // error: can't find crate for `cookie_monster`
-extern crate cake_is_a_lie; // error: can't find crate for `cake_is_a_lie`
-```
-
-You need to link your code to the relevant crate in order to be able to use it
-(through Cargo or the `-L` option of rustc example). Plugins are crates as
-well, and you link to them the same way.
-
-## Common causes
-
-- The crate is not present at all. If using Cargo, add it to `[dependencies]`
-  in Cargo.toml.
-- The crate is present, but under a different name. If using Cargo, look for
-  `package = ` under `[dependencies]` in Cargo.toml.
-
-## Common causes for missing `std` or `core`
-
-- You are cross-compiling for a target which doesn't have `std` prepackaged.
-  Consider one of the following:
-  + Adding a pre-compiled version of std with `rustup target add`
-  + Building std from source with `cargo build -Z build-std`
-  + Using `#![no_std]` at the crate root, so you won't need `std` in the first
-    place.
-- You are developing the compiler itself and haven't built libstd from source.
-  You can usually build it with `x.py build library/std`. More information
-  about x.py is available in the [rustc-dev-guide].
-
-[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/building/how-to-build-and-run.html#building-the-compiler
-~~~
-
-Reviewer followed the instructions given alongside the error messages:
-
-```sh
-@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ rustup target add wasm32-unknown-unknown
-info: downloading component 'rust-std' for 'wasm32-unknown-unknown'
-info: installing component 'rust-std' for 'wasm32-unknown-unknown'
- 13.4 MiB /  13.4 MiB (100 %)  11.6 MiB/s in  1s ETA:  0s
-```
-
-```sh
-@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ cargo build -Zbuild-std
-  Downloaded linked-hash-map v0.5.3
-  Downloaded ctor v0.1.21
-  Downloaded tracing-attributes v0.1.18
-  Downloaded pkg-config v0.3.24
-  Downloaded downcast-rs v1.2.0
-  Downloaded anyhow v1.0.53
-  Downloaded bit-set v0.5.2
-  Downloaded bincode v1.3.3
-  Downloaded rusty-fork v0.3.0
-  Downloaded tracing v0.1.29
-  Downloaded itertools v0.10.3
-  Downloaded hex-buffer-serde v0.3.0
-  Downloaded schemars_derive v0.8.5
-  Downloaded wasmi v0.8.0
-  Downloaded tracing-core v0.1.21
-  Downloaded schemars v0.8.5
-  Downloaded parity-wasm v0.41.0
-  Downloaded thiserror-impl v1.0.30
-  Downloaded rand_xorshift v0.3.0
-  Downloaded num-bigint v0.2.6
-  Downloaded fastrand v1.7.0
-  Downloaded quick-error v1.2.3
-  Downloaded cc v1.0.72
-  Downloaded tempfile v3.3.0
-  Downloaded regex-syntax v0.6.25
-  Downloaded wasmi-validation v0.3.0
-  Downloaded pwasm-utils v0.16.0
-  Downloaded remove_dir_all v0.5.3
-  Downloaded rand_chacha v0.3.1
-  Downloaded thiserror v1.0.30
-  Downloaded wait-timeout v0.2.0
-  Downloaded value-bag v1.0.0-alpha.8
-  Downloaded hex-buffer-serde v0.2.2
-  Downloaded casper-execution-engine v1.4.4
-  Downloaded datasize v0.2.10
-  Downloaded proptest v1.0.0
-  Downloaded serde_derive_internals v0.25.0
-  Downloaded lmdb v0.8.0
-  Downloaded casper-engine-test-support v2.0.3
-  Downloaded chrono v0.4.19
-  Downloaded uuid v0.8.2
-  Downloaded pin-project-lite v0.2.8
-  Downloaded quick-error v2.0.1
-  Downloaded either v1.6.1
-  Downloaded bit-vec v0.6.3
-  Downloaded fnv v1.0.7
-  Downloaded casper-hashing v1.4.3
-  Downloaded datasize_derive v0.2.10
-  Downloaded getrandom v0.2.4
-  Downloaded hashbrown v0.11.2
-  Downloaded log v0.4.14
-  Downloaded time v0.1.43
-  Downloaded num-rational v0.2.4
-  Downloaded lmdb-sys v0.8.0
-  Downloaded once_cell v1.9.0
-  Downloaded match_cfg v0.1.0
-  Downloaded indexmap v1.8.0
-  Downloaded hostname v0.3.1
-  Downloaded dyn-clone v1.0.4
-  Downloaded memory_units v0.3.0
-  Downloaded 60 crates (2.6 MB) in 0.47s
-error: -Zbuild-std requires --target
-```
-
-Notice the error message at the end.
 
 ## Overall Impression of usage testing
 
@@ -225,13 +88,15 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All automated unit tests PASS for this milestone. Tests cover critical functionality. Reviewer successfully run all automated tests on an Ubuntu 20.04.4 LTS machine. Overall quality of tests are sufficient. Test output is below.
+
+- [Unit tests output](assets/unit-tests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
