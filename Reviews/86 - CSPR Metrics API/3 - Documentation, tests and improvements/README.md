@@ -1,4 +1,4 @@
-Grant Proposal | [86 - CSPR Metrics API and Historical Archive for Services, Daps and Analytics](https://portal.devxdao.com/app/proposal/86)
+Grant Proposal | [86 - CSPR Metrics API and Historical Archive for Services, Daps and Analytics](https://portal.devxdao.com/public-proposals/86)
 ------------ | -------------
 Milestone | 3
 Milestone Title | Documentation, tests and improvements
