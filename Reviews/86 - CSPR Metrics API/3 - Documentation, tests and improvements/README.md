@@ -87,7 +87,7 @@ End-to-end tests | PASS
 
 ### Code Documentation
 
-Codes are generally well documented and commented. Low-level code documentation is good enough to meet CRDAO code revview standarts and allow auto-generation of the documentation.
+Code is generally well documented and commented. Low-level code documentation is good enough to meet CRDAO code review standarts and allow auto-generation of the documentation.
 
 Requirement | Finding
 ------------ | -------------
@@ -120,7 +120,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
@@ -130,11 +130,11 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-The project can be quickly set up using the documentation which can be found in Github repository of the project which also has usage instructions. Also, project is already live and can be tested/used by visiting [website of the project](https://caspermetrics.io). 
+The project can be quickly set up using the documentation which can be found in github repository of the project which also has usage instructions. Also, project is already live and can be tested/used by visiting [website of the project](https://caspermetrics.io). 
 
 # Final Conclusion
 
-Project is well structured and documented in detail along with usage and intallation instructions. Low-level code documentation is well enough. Project meets the requirements stated in milestone acceptance criteria. Also, Project has well enough e2e tests and unit tests. As project documentation is well structured, code level documentation is sufficient enough and accptance criteria requirements are met, reviever thinks that this submission should pass.
+Project is well structured and documented in detail along with usage and intallation instructions. Low-level code documentation is well enough. The project meets the acceptance criteria of the milestone. Also, the project has well enough e2e tests and unit tests. As project documentation is well structured, code level documentation is sufficient enough and accptance criteria requirements are met, reviewer thinks that this submission should pass.
 
 # Recommendation
 
