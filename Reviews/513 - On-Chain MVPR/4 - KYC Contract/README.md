@@ -53,9 +53,15 @@ https://github.com/make-software/dao-contracts/tree/milestone-2-4 | 7c24f46
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+The reviewer used the Pardus GNU/Linux 21.2 (twenty-one) local machine for this review.
+
+The README provides installation instructions, but no prerequisites are specified. It is understood from the terminal output that [rust] and revelant [cargo] packages should be loaded. The reviewer installed them using the steps on the official [Rust page](https://www.rust-lang.org/tools/install):
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Note: Rust install logs [here](assets/install_rust.log)
 
 ## Overall Impression of usage testing
 
@@ -96,7 +102,7 @@ _Summarize the project level documentation you encountered. This covers the info
 as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
 below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
 
-foc@foc:~/dao-contracts$ make docs >> docs-output
+foc@foc:~/dao-contracts$ make docs >> docs.log
   Downloaded bit-set v0.5.2
   Downloaded getrandom v0.2.4
   Downloaded log v0.4.14
@@ -109,18 +115,18 @@ warning: `casper-dao-contracts` (lib doc) generated 6 warnings
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS with Notes
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+A little more sample and usage information is needed.
 
 # Open Source Practices
 
 ## Licenses
 
-The Project is released under the Apache-2.0 License
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
