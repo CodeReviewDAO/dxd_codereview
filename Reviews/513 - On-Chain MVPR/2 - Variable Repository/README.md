@@ -147,7 +147,7 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
 
 # Final Conclusion
 
