@@ -39,7 +39,20 @@ https://github.com/a3mc/Casper-Metrics | 210c662
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer was able to install and run the project by following [installation instructions](https://github.com/a3mc/Casper-Metrics/blob/master/docs/INSTALLATION.md) which are served under the project documentation. Also, project has usage examples and easy to use. 
+Reviewer was able to install and run the project by following [installation instructions](https://github.com/a3mc/Casper-Metrics/blob/master/docs/INSTALLATION.md) which are served under the project documentation. Also, project has usage examples and easy to use.
+
+Building and running stage
+
+![](assets/adminserve.png)
+![](assets/frontserve.png)
+![](assets/dockercontainers.png)
+
+User Interface
+
+![](assets/admin4200.png)
+![](assets/webui.png)
+![](assets/webui2.png)
+
 
 ## Overall Impression of usage testing
 
@@ -58,6 +71,11 @@ E2E test results are documented under the [reports folder](https://github.com/a3
 Reviever observed that e2e tests were detailed and well documented and controls such as integer control, requirements control, timestamp validation control, era validation control, confirmation control, and filter control were added.
 Also, unit tests for each module were written with positive and negative paths.
 
+![](assets/unittests1.png)
+![](assets/unittests2.png)
+![](assets/unittests3.png)
+![](assets/unittests5.png)
+![](assets/unittests6.png)
 
 Requirement | Finding
 ------------ | -------------
