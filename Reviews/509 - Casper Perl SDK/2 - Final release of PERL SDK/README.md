@@ -55,7 +55,7 @@ https://github.com/tqhuy2018/Casper-Perl-sdk | 88db833
 
 # Install & Usage Testing Procedure and Findings
 
-Instructions at the README.md file in the repository(https://github.com/tqhuy2018/Casper-Perl-sdk) explain a clear path for users from Windows and Mac operating systems, following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from both Mac (macOS Monterey - MacBook Pro Intel i9 2019) and a Windows (Windows10 - AMD Ryzen 5 5600X) machine and successfully run both tests and the project itself. However, the reviewer encountered a problem with Perl libraries' installation locations, then OP updated README to help users when they encounter this comman problem. The project also shows two ways to run it which are an IDE (Eclipse) and a command line and both were clear enough to follow and achieve the result. 
+Instructions at the README.md file in the repository(https://github.com/tqhuy2018/Casper-Perl-sdk) explain a clear path for users from Windows and Mac operating systems, following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from both Mac (macOS Monterey - MacBook Pro Intel i9 2019) and a Windows (Windows10 - AMD Ryzen 5 5600X) machine and successfully run both tests and the project itself. However, the reviewer encountered a problem with Perl libraries' installation locations, then OP updated README to help users when they encounter this common problem. The project also shows two ways to run it which are an IDE (Eclipse) and a command line and both were clear enough to follow and achieve the result. 
 
 
 
