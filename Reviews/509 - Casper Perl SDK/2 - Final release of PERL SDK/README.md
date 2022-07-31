@@ -75,9 +75,9 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 The project has unit tests for all critical classes and methods.
 
 
-![PutDeployTestOnIDEMacOS](assets/PutDeployTestIDEMacOs.png)
+![PutDeployTestOnIDEMacOS](assets/PutDeployTestIDEMacOS.png)
 
-![PutDeployTestOnTerminalMacOS](assets/PutDeployTestTerminalMacOs.png)
+![PutDeployTestOnTerminalMacOS](assets/PutDeployTestTerminalMacOS.png)
 
 ![PutDeployTestOnIDEWindows](assets/PutDeployTestIDEWindows.jpeg)
 
