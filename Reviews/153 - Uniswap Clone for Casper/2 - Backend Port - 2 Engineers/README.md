@@ -93,25 +93,19 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project is released under GPL-3.0 license. However, in the proposal at DEVxDAO Portal, the project is expected to have the Apache-2.0 license. This issue has been addressed in the first milestone's review but the license is yet to be updated.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS with Notes
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+Project contains clear CONTRIBUTING, SECURITY and CODE OF CONDUCT policies. Pull requests and Issues are enabled on the repository and the project is set up for public participation.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
