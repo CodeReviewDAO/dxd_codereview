@@ -45,58 +45,101 @@ https://github.com/AdelElMessiry/Verified-Impact-NFTs | b6e3877
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 20.04 LTS GitPod instance for doing this review.
+
+Reviewer was successfully able to install the project using the provided instructions in the README.
+
+Also, reviewer commends OP for providing an additional PDF guide for this milestone, which had excellent step by step instructions that made the installation and usage a very pleasant experience.
+
+- [Installation logs](assets/makebuild.md)
+
+After the build, using `yarn start`, reviewer successfully started the local instance of the website.
+
+- [Initializing the website](assets/yarn.md)
+
+![](assets/local-live-website.png)
+
+While starting the website, terminal throws many warnings which would be nice to keep an eye on.
+
+### Optimization suggestions
+
+Website load times were very slow. It almost took a minute to fully load the website and most of it were unusable during this process. Further inspection revealed that OP used a very large banner file at about 15 MB on the live website but it looks like this has been removed in a previous milestone for the local copy. However the overal website load was still at 35.5 MB. These numbers are extremely high and also a bottleneck for the overall usability of the website.
+
+![](assets/network-graph.png)
+
+Reviewer suggests optimizing the images on the website. Especially using JPEGs in place of PNGs and creating appropriate smaller images instead of using the original ones when in thumbnail mode would significantly decrease the load size.
+
+### Usage Testing
+
+Usage testing was done on the [dev website](https://dev.verifiedimpactnfts.com/) provided by OP.
+
+There is no mention of a sign in button on the main page and since OP was accustomed to the Casper logo, they figured out this is a way to sign in with Casper. However, a regular user probably would not be able to find this. This needs to be given attention in future updates.
+
+Also, after signing in, clicking the profile picture (which is the first alphanumeric symbol of user's public key) signs the user out. This behavior is also not mentioned and was a surprise for the reviewer. This too needs attention.
+
+There were no mention of where to use the beneficiary modules described in the milestone. The beneficiaries link provides a list of them, but reviewer has to locate it somewhere else.
+
+On many pages, there are icons. These icons has functions. However, they are not stylized as buttons so a user could not understand that the have a functionality at a glance. These need to be addressed.
+
+Reviewer then went on to mint an NFT.
+
+![](assets/mint-nft.png)
+
+Then, reviewer signed up as a beneficiary.
+
+![](assets/beneficiary-signup.png)
+
+After minting an NFT, it was successfully listed under the campaign.
+
+![](assets/successful-campaign.png)
+
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The milestone completes its acceptance criteria. However, while functionality exists and the project operates without error, general annoyances caused by optimization problems make the site a very heavy burden on regular users' devices. These issues need to be fixed in an update.
+
+Installation instructions could be clearer. Looking at the reviews of previous milestones, it is seen OP has addressed missing documentation for this regard but reviewer suggests a bit more care for explaining the installation.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All unit tests for critical functionality exist.
+
+- [Unit test logs](assets/unit-tests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Overall code comments are sufficient. Most of them are detailed enough to explain the methods but some of them can be expanded and there can be a few more added comments as a suggestion. Some commented out code exists and reviewer suggests leaving these out of the main branch of the project. Some unused console.log() commands are also commented and preferably should be removed.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project documentation is sufficient and can be examplary to other projects. OP did a great job providing step by step instructions on achieving each acceptance criteria.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Documentation is sufficient and well prepared. Small stylistic and syntactic improvements in future updates could be beneficial for the project. Extra documentation is readily available at `/docs` folder.
 
 # Open Source Practices
 
@@ -120,15 +163,15 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project.
+
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The milestone completes its acceptance criteria. However, while functionality exists and the project operates without error, image optimizations need to be done since the current size of the website is too large for average daily devices. All other aspects of the project is sufficiently provided for this review. The reviewer suggests the project to PASS with Notes.
+
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
