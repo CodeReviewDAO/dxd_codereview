@@ -63,7 +63,7 @@ While starting the website, terminal throws many warnings which would be nice to
 
 ### Optimization suggestions
 
-Website load times were very slow. It almost took a minute to fully load the website and most of it were almost sunusable during this process. Further inspection revealed that OP used a very large banner file at about 15 MB on the live website but it looks like this has been removed in a previous milestone for the local copy. However the overall website load was still at 35.5 MB. These numbers are extremely high and also a bottleneck for the general usability of the website.
+Website load times were very slow. It almost took a minute to fully load the website and most of it were almost unusable during this process. Further inspection revealed that OP used a very large banner file at about 15 MB on the live website but it looks like this has been removed in a previous milestone for the local copy. However the overall website load was still at 35.5 MB. These numbers are extremely high and also a bottleneck for the general usability of the website.
 
 ![](assets/network-graph.png)
 
