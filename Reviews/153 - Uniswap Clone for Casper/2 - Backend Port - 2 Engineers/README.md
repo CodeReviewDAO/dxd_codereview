@@ -36,9 +36,13 @@ https://github.com/Rengo-Labs/CasperLabs-Uniswap-DemoApp | 5944f82
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 20.04 LTS GitPod cloud machine and a Debian 10 local machine for this review.
+
+Note: The command for installation is provided as `npm Install` but the second part should also be in lowercase letters: `npm install`.
+
+Reviewer ran the `npm install` and `npm start` commands provided in the README to setup the project and started it.
+
+![](assets/website.png)
 
 ## Overall Impression of usage testing
 
@@ -53,9 +57,12 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The README tells that running `npm test` would invoke the unit tests, however there seems to be no tests prepared for the project.
+
+```sh
+gitpod /workspace/CasperLabs-Uniswap-DemoApp (main) $ npm test
+No tests found, exiting with code 0
+```
 
 Requirement | Finding
 ------------ | -------------
