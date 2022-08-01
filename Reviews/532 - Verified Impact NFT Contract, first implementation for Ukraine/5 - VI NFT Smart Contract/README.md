@@ -63,7 +63,7 @@ While starting the website, terminal throws many warnings which would be nice to
 
 ### Optimization suggestions
 
-Website load times were very slow. It almost took a minute to fully load the website and most of it were unusable during this process. Further inspection revealed that OP used a very large banner file at about 15 MB on the live website but it looks like this has been removed in a previous milestone for the local copy. However the overal website load was still at 35.5 MB. These numbers are extremely high and also a bottleneck for the overall usability of the website.
+Website load times were very slow. It almost took a minute to fully load the website and most of it were almost sunusable during this process. Further inspection revealed that OP used a very large banner file at about 15 MB on the live website but it looks like this has been removed in a previous milestone for the local copy. However the overall website load was still at 35.5 MB. These numbers are extremely high and also a bottleneck for the general usability of the website.
 
 ![](assets/network-graph.png)
 
@@ -73,13 +73,13 @@ Reviewer suggests optimizing the images on the website. Especially using JPEGs i
 
 Usage testing was done on the [dev website](https://dev.verifiedimpactnfts.com/) provided by OP.
 
-There is no mention of a sign in button on the main page and since OP was accustomed to the Casper logo, they figured out this is a way to sign in with Casper. However, a regular user probably would not be able to find this. This needs to be given attention in future updates.
+There is no mention of a sign in button on the main page. Since the reviewer was accustomed to the Casper logo, they figured out this is a way to sign in with Casper. However, a regular user probably would not be able to find this. This needs to be given attention in future updates.
 
 Also, after signing in, clicking the profile picture (which is the first alphanumeric symbol of user's public key) signs the user out. This behavior is also not mentioned and was a surprise for the reviewer. This too needs attention.
 
-There were no mention of where to use the beneficiary modules described in the milestone. The beneficiaries link provides a list of them, but reviewer has to locate it somewhere else.
+There was no mention of where to use the beneficiary modules described in the milestone. The beneficiaries link provides a list of them, but reviewer has to locate it somewhere else, namely in user profile.
 
-On many pages, there are icons. These icons has functions. However, they are not stylized as buttons so a user could not understand that the have a functionality at a glance. These need to be addressed.
+On many pages, there are icons. These icons has functions and thus are clickable. However, they are not stylized as buttons so a user could not understand that the have a functionality at a glance. These need to be addressed.
 
 Reviewer then went on to mint an NFT.
 
@@ -89,16 +89,16 @@ Then, reviewer signed up as a beneficiary.
 
 ![](assets/beneficiary-signup.png)
 
-After minting an NFT, it was successfully listed under the campaign.
+After minting an NFT, it was successfully listed under the preferred campaign.
 
 ![](assets/successful-campaign.png)
 
 
 ## Overall Impression of usage testing
 
-The milestone completes its acceptance criteria. However, while functionality exists and the project operates without error, general annoyances caused by optimization problems make the site a very heavy burden on regular users' devices. These issues need to be fixed in an update.
+The milestone completes its acceptance criteria. However, while functionality exists and the project operates without errors, general annoyances caused by optimization problems make the site a very heavy burden on regular users' devices. These issues need to be fixed in an update.
 
-Installation instructions could be clearer. Looking at the reviews of previous milestones, it is seen OP has addressed missing documentation for this regard but reviewer suggests a bit more care for explaining the installation.
+Installation instructions could be clearer. Looking at the reviews of previous milestones, it is seen that OP has addressed missing documentation for this regard but reviewer suggests a bit more care for explaining the installation process.
 
 Requirement | Finding
 ------------ | -------------
@@ -168,7 +168,7 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-The milestone completes its acceptance criteria. However, while functionality exists and the project operates without error, image optimizations need to be done since the current size of the website is too large for average daily devices. All other aspects of the project is sufficiently provided for this review. The reviewer suggests the project to PASS with Notes.
+The milestone completes its acceptance criteria. However, while functionality exists and the project operates without errors, image optimizations need to be done since the current size of the website is too large for average daily devices. All other aspects of the project is sufficiently provided for this review. The reviewer suggests the project to PASS with Notes.
 
 
 # Recommendation
