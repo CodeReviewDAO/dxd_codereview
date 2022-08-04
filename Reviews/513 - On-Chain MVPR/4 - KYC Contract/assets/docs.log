@@ -1,4 +1,4 @@
-foc@foc:~/dao-contracts$ make docs >> docs.md
+foc@foc:~/dao-contracts$ make docs
     Checking cfg-if v1.0.0
     Checking subtle v2.4.1
     Checking rand_core v0.5.1

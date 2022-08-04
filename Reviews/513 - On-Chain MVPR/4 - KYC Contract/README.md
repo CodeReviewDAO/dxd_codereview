@@ -53,15 +53,66 @@ https://github.com/make-software/dao-contracts/tree/milestone-2-4 | 7c24f46
 
 # Install & Usage Testing Procedure and Findings
 
-The reviewer used the Pardus GNU/Linux 21.2 (twenty-one) local machine for this review.
+Reviewer used the Ubuntu 20.04 local machine for this review.
 
-The README provides installation instructions, but no prerequisites are specified. It is understood from the terminal output that [rust] and revelant [cargo] packages should be loaded. The reviewer installed them using the steps on the official [Rust page](https://www.rust-lang.org/tools/install):
+The README provides installation instructions, but no prerequisites are specified. From the terminal output we see that `rust` and revelant `cargo` packages need to be loaded. Reviewer installed them using the steps on the official [Rust page](https://www.rust-lang.org/tools/install):
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 Note: Rust install logs [here](assets/install_rust.log)
+
+No build was done when the `make build-contracts` command was run. Then the reviewer checked the updated README file and decided to use the `make build-all` command mentioned there.
+
+Then the `build-all` command was run, but the error was received:
+```
+foc@foc:~/dao-contracts$ make build-all
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-contracts
+info: syncing channel updates for 'nightly-2021-06-17-x86_64-unknown-linux-gnu'
+info: latest update on 2021-06-17, rust version 1.55.0-nightly (a85f584ae 2021-06-16)
+info: downloading component 'cargo'
+info: downloading component 'clippy'
+info: downloading component 'rust-docs'
+info: downloading component 'rust-std'
+info: downloading component 'rustc'
+info: downloading component 'rustfmt'
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+info: installing component 'rust-std'
+info: installing component 'rustc'
+info: installing component 'rustfmt'
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `subtle`
+
+To learn more, run the command again with --verbose.
+error: build failed
+make: *** [Makefile:14: build-dao-contracts] Error 101
+```
+The steps shown in the error output were run:
+```
+foc@foc:~/dao-contracts$ rustup target add wasm32-unknown-unknown
+info: downloading component 'rust-std' for 'wasm32-unknown-unknown'
+info: installing component 'rust-std' for 'wasm32-unknown-unknown'
+ 13.4 MiB /  13.4 MiB (100 %)  13.0 MiB/s in  1s ETA:  0s
+```
+
+After that, run `make build-all` again:
+```
+foc@foc:~/dao-contracts$ make build-all
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-contracts
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-erc20
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-erc721
+```
 
 ## Overall Impression of usage testing
 
@@ -76,21 +127,21 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All of the test steps specified in this step worked successfully.
+
+You can access the unit tests log [here](assets/test.log).
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS 
+Unit Tests - At least one negative path test | PASS 
+Unit Tests - Additional path tests | PASS 
 
 # Documentation
 
 ### Code Documentation
 
-Reviewer found the code to be well documented. 
+Reviewer found the code to be well documented. All critical functionality has explanatory comments.
 
 Requirement | Finding
 ------------ | -------------
@@ -98,10 +149,9 @@ Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Documentation was built successfully. But it gave a few warnings. It might be good to fix them.
 
+```
 foc@foc:~/dao-contracts$ make docs >> docs.log
   Downloaded bit-set v0.5.2
   Downloaded getrandom v0.2.4
@@ -112,6 +162,8 @@ foc@foc:~/dao-contracts$ make docs >> docs.log
 warning: `casper-dao-contracts` (lib doc) generated 6 warnings
     Finished dev [unoptimized + debuginfo] target(s) in 54.31s
      Opening /home/foc/dao-contracts/target/doc/casper_dao_contracts/index.html
+```
+You can access documentation build logs [here](assets/docs.log).
 
 Requirement | Finding
 ------------ | -------------
@@ -134,7 +186,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project does not contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project does not contain CONTRIBUTING and SECURITY policies.  Pull requests and Issues are enabled. This is sufficient as it is not the final milestone.
 
 Requirement | Finding
 ------------ | -------------
@@ -144,8 +196,7 @@ OSS contribution best practices | PASS with Notes
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+The readability of the code is sufficient. In general the source code is well written. Best practices used.
 
 # Final Conclusion
 
