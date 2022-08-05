@@ -42,9 +42,9 @@ https://github.com/ledgerleapllc/casperfyre-backend | 1dd0d51
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 20.04 LTS Gitpod cloud machine and Ubuntu 20.04 LTS GitHub Codespaces cloud machine to test the review.
+
+Reviewer followed instructions given on the README to install the software.
 
 ## Overall Impression of usage testing
 
