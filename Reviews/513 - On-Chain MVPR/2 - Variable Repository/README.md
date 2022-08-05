@@ -67,7 +67,46 @@ make: *** No rule to make target 'build-contracts'.  Stop.
 
 Upon inspecting the `Makefile`, reviewer found out the correct target name has since been changed to `build-dao-contracts`. This issue was reported to OP and has been updated in the latest versin of the README.
 
-Contacting the OP and after making the necessary updates on the README, reviewer run the build operations again using the `make build-all` command and successfully built the project:
+Contacting the OP and after making the necessary updates on the README, reviewer run the build operations again using the `make build-all` command resulted in another error:
+
+```sh
+@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ make build-all
+cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --no-default-features -p casper-dao-contracts
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `rand_core`
+
+To learn more, run the command again with --verbose.
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0463`.
+error: build failed
+make: *** [Makefile:14: build-dao-contracts] Error 101
+```
+
+Running the suggested command:
+
+```sh
+@ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ rustup target add wasm32-unknown-unknown
+info: downloading component 'rust-std' for 'wasm32-unknown-unknown'
+info: installing component 'rust-std' for 'wasm32-unknown-unknown'
+ 13.4 MiB /  13.4 MiB (100 %)   8.4 MiB/s in  1s ETA:  0s
+```
+
+Then building with `make build-all` successfully built the project:
 
 ```sh
 @ggurbet ➜ /workspaces/dao-contracts (7c24f46 ✗) $ make build-all
@@ -78,13 +117,15 @@ cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Installation using given installation instructions failed to work. After making some small adjustments, reviewer was able to install the contracts. Reviewer suggests updating the README to reflect the installation process properly and also use the default commands used by Casper for consistency in the following milestones.
+
+All builds were successful and all unit tests ran without errors.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -151,9 +192,9 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this submission should fail code review, because it does not contain an OSI-approved open source license'_
+There are documentation improvements that are needed to be done in the following milestones, especially for setup instructions and prerequisites. Other than that, the project covers its acceptance criteria and reviewer suggests this milestone to PASS with Notes.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
