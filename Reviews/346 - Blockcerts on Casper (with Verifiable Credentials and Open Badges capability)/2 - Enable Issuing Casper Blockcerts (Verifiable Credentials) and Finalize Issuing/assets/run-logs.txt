@@ -1,0 +1,19 @@
+python cert_issuer -c conf_casper.ini
+WARNING - Your app is configured to skip the wifi check when the USB is plugged in. Read the documentation to ensure this is what you want, since this is less secure
+INFO - This run will try to issue on the casper_testnet chain
+INFO - Set cost constants to recommended_gas_price=1 motes and minimum_transfer_amount=2500000000 motes
+INFO - Processing 1 certificates
+INFO - Processing 1 certificates under work path=data/unsigned_certificates
+INFO - Getting balance with CasperRPCProvider
+INFO - ACCOUNT BALANCE FOR 0203ca25e27e226c48d2acbe69c05a37f6e789eeca55562bd0b45f583d1a36017c39 = 1000000000000
+INFO - gas price will be 1 motes and amount transferred will be 2.500000 CSPR
+INFO - Starting finalizable signer
+WARNING - app is configured to skip the wifi check when the USB is plugged in. Read the documentation to ensure this is what you want, since this is less secure
+INFO - Stopping finalizable signer
+WARNING - app is configured to skip the wifi check when the USB is plugged in. Read the documentation to ensure this is what you want, since this is less secure
+INFO - here is the op_return_code data: f4906de7db4f9a826b5998472f51eaac762d429b29b6c2496f38870a477929d9
+INFO - Broadcasting transaction with CasperRPCProvider
+INFO - Broadcasting succeeded with method_provider=<cert_issuer.blockchain_handlers.casper.connectors.CasperRPCProvider object at 0x7fdb51a6feb0>, txid=ec44882950e2a88464ad22750afd9fd729bf6ed222040415366ce9c7e44df117
+INFO - merkle_json: {'path': [], 'merkleRoot': 'f4906de7db4f9a826b5998472f51eaac762d429b29b6c2496f38870a477929d9', 'targetHash': 'f4906de7db4f9a826b5998472f51eaac762d429b29b6c2496f38870a477929d9', 'anchors': ['blink:cspr:testnet:ec44882950e2a88464ad22750afd9fd729bf6ed222040415366ce9c7e44df117']}
+INFO - Broadcast transaction with txid ec44882950e2a88464ad22750afd9fd729bf6ed222040415366ce9c7e44df117
+INFO - Your Blockchain Certificates are in /Users/mdidin/Desktop/casper-cert-issuer/data/blockchain_certificates
