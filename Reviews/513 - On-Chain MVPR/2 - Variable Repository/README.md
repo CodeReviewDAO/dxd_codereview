@@ -132,6 +132,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 All automated unit tests PASS for this milestone. Tests cover critical functionality. Reviewer successfully ran all automated tests on an Ubuntu 20.04.4 LTS machine. Overall quality of tests are sufficient. Test output is below.
 
 - [Unit tests output](assets/unit-tests.md)
+- [JS Client unit tests output](assets/clientlogs.md)
 
 Requirement | Finding
 ------------ | -------------
