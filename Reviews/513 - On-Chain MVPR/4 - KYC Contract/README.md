@@ -116,20 +116,19 @@ cargo build --release --target wasm32-unknown-unknown --quiet --features=wasm --
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+It was not possible to install with the installation instructions described in the README. The reviewer completed the missing parts with his own experience and knowledge and successfully completed the installation. Missing steps in this directive must be corrected in subsequent milestones.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
 All of the test steps specified in this step worked successfully.
 
-You can access the unit tests log [here](assets/test.log).
+You can access the unit tests log [here](assets/test.log) and client tests log [here](assets/client.log).
 
 Requirement | Finding
 ------------ | -------------
@@ -200,10 +199,9 @@ The readability of the code is sufficient. In general the source code is well wr
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project meets its acceptance criteria. However, installation instructions need to be updated since they are not currently correct.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
