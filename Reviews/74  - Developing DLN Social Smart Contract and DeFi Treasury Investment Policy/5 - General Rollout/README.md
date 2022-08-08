@@ -47,9 +47,20 @@ https://github.com/dlndao/start | 4553d89
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+The contract has been deployed to the main net, with the following TX:
+https://cspr.live/deploy/50b47e2d550790b6239dbdd2c741137ec9647898623e20a216f00a3ec88850a6
+
+- [Deployment log](assets/deploy.md)
+
+Usage testing was done on Testnet at https://start.dlndao.org/.
+
+![](assets/0-roi.png)
+
+After entering the website, reviewer created an account and logged in.
+
+![](assets/1-get-started.png)
+![](assets/2-verify.png)
+![](assets/3-login.png)
 
 ## Overall Impression of usage testing
 
@@ -104,12 +115,11 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project is released under MIT license.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
