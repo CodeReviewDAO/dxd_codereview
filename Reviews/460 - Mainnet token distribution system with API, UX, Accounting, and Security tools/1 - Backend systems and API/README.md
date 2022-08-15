@@ -44,18 +44,122 @@ https://github.com/ledgerleapllc/casperfyre-backend | 1dd0d51
 
 Reviewer used an Ubuntu 20.04 LTS Gitpod cloud machine and Ubuntu 20.04 LTS GitHub Codespaces cloud machine to test the review.
 
-Reviewer followed instructions given on the README to install the software.
+Reviewer followed instructions given on the README to install the software without errors and connected the frontend to backend successfully.
+
+- [Installation logs](assets/backendsetup.md)
+
+Further user testing was done on [casperfyre.com](https://casperfyre.com/) live instance provided by OP.
+
+### Admin user
+
+OP provided an admin account for the reviewer. Reviewer also signed up for three test accounts manually. Reviewer used the login screen to enter the dashboard. A note here is that `Next` button stays this color even after entering some credentials (implying it is disabled) but sometimes it turns to a more vibrant shade of red (implying it is enabled). Regardless of its color, it is clickable. It would be nice to address this issue.
+
+![](assets/1_login.png)
+
+After an admin logs in, they can approve and deny user applications, check existing API keys and user wallets, and manually change many other settings.
+
+Admin dashboard:
+
+![](assets/admin_dashboard.png)
+
+### Regular user
+
+A regular user can sign up using the greeting screen. They will then need to verify their email address with a verification code sent to their email address. After that, an admin needs to manually approve the registered user. After approval user will receive a greeting email with the confimation of their approval. Similarly, if the user's application is denied, they receive an email stating that.
+
+After a regular user approved and they log in, the dashboard looks like this:
+
+![](assets/2_dashboard.png)
+
+Settings page, where user can set their daily and monthly transaction limits:
+ 
+![](assets/2_settings.png)
+
+Keys and wallets page:
+
+![](assets/4_keys.png)
+
+### Testing rate limit logic
+
+#### Successful transaction
+
+Reviewer set their transfer limits like this:
+
+- Daily limit: 5
+- Monthly limit: 10
+
+Then, reviewer made a transfer attempt using the command line with an amount of CSPR 3 from user1 to user2:
+
+```sh
+# First transfer, daily limit: 5, monthly limit: 10
+ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense \
+-H 'Content-type: application/json' \
+-H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
+{"status":"success","detail":"Dispensing 3 CSPR to 01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483"}
+```
+
+The operation completed successfully and response received. After the operation, details could be seen from the logs screen:
+
+![](assets/5_successful_transaction.png)
+
+Sender's logs:
+
+![](assets/6_after_successful_transaction_sender.png)
+
+Receipient's logs:
+
+![](assets/7_after_successful_transaction_receipient.png)
+
+_Note: Since receipient did not make the transaction, no log is created on their side._
+
+#### Unsuccessful transactions
+
+Then, according to the acceptance criteria, user should not be able to make transfers exceeding their daily and monthly limits. So, reviewer made another transaction attempt of CSPR 3, which with the previous transaction (CSPR 3), makes a total of CSPR 6 which now exceeds the daily transaction limit of CSPR 5.
+
+```sh
+# After making a transfer of 3, with the daily limit still 5
+ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense -H 'Content-type: application/json' \
+-H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
+{"status":"error","detail":"You cannot dispense this many CSPR. You have 2 remaining for today"}
+```
+
+As expected, operation failed with the reason given in the response.
+
+Reviewer then adjusted the monthly limit to CSPR 4 and tried to make another transaction of CSPR 3, which would eventually fail due to monthly limit excession.
+
+```sh
+# After setting the monthly limit to 4 and having already made a transfer of 3
+ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense \
+-H 'Content-type: application/json' \
+-H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
+{"status":"error","detail":"You cannot dispense this many CSPR. You have 1 remaining for this month"}
+```
+
+This also failed, as expected, and proper response was provided.
+
+We can see the transaction logs in the frontend:
+
+![](assets/8_exceeding_limits.png)
+
+A reviewer's note, when clicking on the `View` button on failed transactions, the failure response is not stated. It would be nicer to state them as they are already provided with the command line API call.
+
+### Denying an application
+
+Admin can deny a user's application from the Applications screen:
+
+![](assets/9_deny_user.png)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project works as expected. It builds without errors and its functionality covers the acceptance criteria for this milestone.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -122,10 +226,10 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project is in a working state and it covers the acceptance criteria for this milestone. Reviewer suggests this milestone to PASS.
+
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
