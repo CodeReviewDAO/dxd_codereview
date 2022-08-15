@@ -93,7 +93,7 @@ Then, reviewer made a transfer attempt using the command line with an amount of 
 # First transfer, daily limit: 5, monthly limit: 10
 ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense \
 -H 'Content-type: application/json' \
--H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-H 'Authorization: token 04f..........................................................27f' \
 -d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
 {"status":"success","detail":"Dispensing 3 CSPR to 01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483"}
 ```
@@ -121,7 +121,7 @@ Then, according to the acceptance criteria, user should not be able to make tran
 ```sh
 # After making a transfer of 3, with the daily limit still 5
 ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense -H 'Content-type: application/json' \
--H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-H 'Authorization: token 04f..........................................................27f' \
 -d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
 {"status":"error","detail":"You cannot dispense this many CSPR. You have 2 remaining for today"}
 ```
@@ -134,7 +134,7 @@ Reviewer then adjusted the monthly limit to CSPR 4 and tried to make another tra
 # After setting the monthly limit to 4 and having already made a transfer of 3
 ggurbet@harezmi:~/casperfyre $ curl -X POST https://api.casperfyre.com/v1/dispense \
 -H 'Content-type: application/json' \
--H 'Authorization: token 04f3fef526b972aad200e28ae8e80ba47e55614b2cf50568e543bf109e9bf27f' \
+-H 'Authorization: token 04f..........................................................27f' \
 -d '{ "address": "01d640467ae680e3dae6567c192590cefa28a3c5e4332b88017584d585ea8cc483", "amount": 3 }'
 {"status":"error","detail":"You cannot dispense this many CSPR. You have 1 remaining for this month"}
 ```
