@@ -83,8 +83,7 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code is well documented. However, the quality of code comments are subpar. They are mostly single words or 
 
 Requirement | Finding
 ------------ | -------------
@@ -109,37 +108,35 @@ _Summarize your review of the documentation in this project, including code, usa
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project is licensed under MIT license.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains a CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
+
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+The project would benefit greatly from a Continuous Integration (CI) Action on GitHub.
+
+Build process is tedious. A build script would make installation process automated and less prone to user errors.
+
 
 # Final Conclusion
 
 _Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
 submission should fail code review, because it does not contain an OSI-approved open source license'_
+
 
 # Recommendation
 
