@@ -72,7 +72,7 @@ After a regular user approved and they log in, the dashboard looks like this:
 
 Settings page, where user can set their daily and monthly transaction limits:
  
-![](assets/2_settings.png)
+![](assets/3_settings.png)
 
 Keys and wallets page:
 
