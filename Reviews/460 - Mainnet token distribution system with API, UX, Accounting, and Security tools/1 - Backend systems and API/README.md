@@ -106,11 +106,13 @@ Sender's logs:
 
 ![](assets/6_after_successful_transaction_sender.png)
 
-Receipient's logs:
+Clicking Recipient hash on this screen goes to the respective wallet of the recipient user and clicking on the Deploy Hash goes to the respective deploy hash, both on cspr.live.
 
-![](assets/7_after_successful_transaction_receipient.png)
+Recipient's logs:
 
-_Note: Since receipient did not make the transaction, no log is created on their side._
+![](assets/7_after_successful_transaction_recipient.png)
+
+_Note: Since recipient did not make the transaction, no log is created on their side._
 
 #### Unsuccessful transactions
 
