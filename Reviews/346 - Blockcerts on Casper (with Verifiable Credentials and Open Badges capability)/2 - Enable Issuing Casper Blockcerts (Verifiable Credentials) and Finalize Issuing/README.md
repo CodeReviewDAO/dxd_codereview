@@ -114,7 +114,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains contributing and security policies and a Code of Conduct.
+The project contains contributing and security policies. In addition, pull request and issue fields are open to public participation.
 
 Requirement | Finding
 ------------ | -------------
