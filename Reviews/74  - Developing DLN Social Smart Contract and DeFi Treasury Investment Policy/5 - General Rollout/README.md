@@ -89,12 +89,11 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code documentation covers critical functionality. Almost all files have explanatory comments. There are some typos and grammatical errors in the comments though.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
