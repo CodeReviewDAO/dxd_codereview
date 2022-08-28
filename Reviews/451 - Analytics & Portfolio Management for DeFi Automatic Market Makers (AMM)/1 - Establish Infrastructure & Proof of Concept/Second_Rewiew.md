@@ -87,7 +87,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfully completed without any errors. Also, reviver ran tests manually and they completed successfully too but testing instructions should be added to README of the project.
+The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfully completed without any errors. Also, reviewer ran tests manually and they completed successfully too but testing instructions should be added to README of the project.
 
 ![](assets/test1.png)
 ![](assets/test2.png)
