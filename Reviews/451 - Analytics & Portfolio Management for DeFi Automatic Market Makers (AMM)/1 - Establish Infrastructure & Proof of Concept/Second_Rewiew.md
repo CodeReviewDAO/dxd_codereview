@@ -77,7 +77,7 @@ Following the instructions in the [README](https://github.com/fluidefi/fluidefi-
 
 ## Overall Impression of usage testing
 
-The project was installed without errors, the documentation provides sufficient installation and execution instructions along with the usage examples. Current usage instructions are sufficient enough for this phase of the project but it should be improved by adding how tos and collecting usage examples on a seperate file can be better , reviewer encountered some difficulries while applaying usage examples and informed OP about them too. Project functionality meets the acceptance criteria and operates without errors.
+The project was installed without errors, the documentation provides sufficient installation and execution instructions along with the usage examples. Current usage instructions are sufficient enough for this phase of the project but it should be improved by adding how tos and collecting usage examples on a seperate file can be better, reviewer encountered some difficulties while applying usage examples and informed OP about them too. Project functionality meets the acceptance criteria and operates without errors.
 
 Requirement | Finding
 ------------ | -------------
@@ -87,7 +87,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfull without any errors. Also, reviver ran tests manually and they completed successfully too. Testing instructions should be added to README of the project.
+The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfully completed without any errors. Also, reviver ran tests manually and they completed successfully too but testing instructions should be added to README of the project.
 
 ![](assets/test1.png)
 ![](assets/test2.png)
@@ -110,7 +110,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-The README file provides the necessary information to install the project but its missing testing instructions OP already informed by reviewer and it will be fixed. Usage examples are documented in README but in reviewers opinion these should be in seperate file like USAGE.MD or HOW_TOS.md in a seperate docs folder, expected outputs can be added too. Also, auto generated typedoc file can be added to repository aswell. Rewiewer encountered some errors and difficulties while trying usage examples and informed OP and they will be fixed. OP has been informed by reviewer regarding these things and all will be fixed.
+The README file provides the necessary information to install the project but its missing testing instructions, OP already has been informed by reviewer and issue will be fixed. Usage examples are documented in README but in reviewers opinion these should be in seperate file like USAGE.MD or HOW_TOS.md in a seperate docs folder, expected outputs can be added too. Also, auto generated typedoc file can be added to repository aswell. Rewiewer encountered some errors and difficulties while trying usage examples and informed OP and they will be fixed. OP has been informed by reviewer regarding these things and all will be fixed.
 
 Requirement | Finding
 ------------ | -------------
@@ -142,24 +142,24 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Project meets the acceptance criteria. Code repo is avaialble , test scrips are written and CI actions has been used. 
+Project meets the acceptance criteria. Code repo is available, test scripts are written and CI actions has been used. 
 
-Design diagrams and schemas ,which are also mentioned in milestone submission, are included in repository as pdf files and can be found under [schema folder](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/tree/main/src/schema)
+Design diagrams and schemas, which are also mentioned in milestone submission, are included in repository as pdf files and can be found under [schema folder](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/tree/main/src/schema)
 
 Infrastructure Diagram
 ![](assets/infra.png)
 
-[Mainnet](caspernet02.fluidefi.io:8888/status) and [Testnet](caspertest1.fluidefi.io:8888/status) nodes are active and located at :
+[Mainnet](caspernet02.fluidefi.io:8888/status) and [Testnet](caspertest1.fluidefi.io:8888/status) nodes are active and located at:
 Mainnet: caspernet02.fluidefi.io
 Testnet: caspertest1.fluidefi.io
 
-Public nodes planned to be used as backup nodes and which is fine in reviewer's opinion as it is it conforms to best practices.
+Public nodes planned to be used as backup nodes and which is fine in reviewer's opinion as it conforms to best practices.
 
 [Docs](https://analytics.fluidefi.com/api/docs/#overview) of API Definition for RESTful API calls available online.
 
 ![](assets/onlinedocs.png)
 
-OP's was reachable and has good communication. Issues reported by reviewer generally fixed immediately.
+OP was reachable and has good communication. Issues reported by reviewer generally fixed immediately.
 
 Project has usage examples for each class in README but as mentioned in documantation review notes these should be reshaped in a seperate file and folder, also usage instructions and examples should be improved and extended.
 
