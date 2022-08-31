@@ -66,28 +66,29 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools | 3b0f164
+https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools | 4744343
 
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the [README](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools) of the project, the reviewer was able to successfully install the project as a package.
+Following the instructions in the [README](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools) and [docs](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/INSTALLATION.md) of the project , the reviewer was able to successfully install the project as a package and created the postgres DB.
 
 ![](assets/install.png)
+![](assets/pgadmin_tablecontent.png)
 
 ## Overall Impression of usage testing
 
-The project was installed without errors, the documentation provides sufficient installation and execution instructions along with the usage examples. Current usage instructions are sufficient enough for this phase of the project but it should be improved by adding how tos and collecting usage examples on a seperate file can be better, reviewer encountered some difficulties while applying usage examples and informed OP about them too. Project functionality meets the acceptance criteria and operates without errors.
+Initially reviewer encountered some difficulties while building the project and contacted the OP and OP made required changes immediately. The [documentation](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/tree/main/docs) provides sufficient installation and execution instructions along with the usage examples. Reviewer encountered some difficulties while applying usage examples and got some errors but OP fixed that issues fast and now usage examples execute without any error. Project functionality meets the acceptance criteria and operates without errors.
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
-Documentation provides sufficient installation/execution instructions | PASS With Notes
+Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfully completed without any errors. Also, reviewer ran tests manually and they completed successfully too but testing instructions should be added to README of the project.
+The project has unit tests for all critical classes and methods. [CI Actions](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/runs/8023466793?check_suite_focus=true) are enabled on github repository. Reviewer checked the tests in CI Actions and they were successfully completed without any errors. Initially testing instructions were missing on documentation but after reporting them to OP, project documentation updated and test instructions added. Reviewer ran tests manually by following instruction on README of the project and they completed successfully too.
 
 ![](assets/test1.png)
 ![](assets/test2.png)
@@ -102,7 +103,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-Code was missing inline comments and low-level code documentation but reviewer contacted to OP regarding this issue and OP fixed it immediately. Now Code is generally well documented and critical classes have comments. Low-level code documentation is good enough to meet CRDAO code review standarts and allow auto-generation of the documentation.
+Code was missing inline comments and low-level code documentation but reviewer contacted to OP regarding this issue and OP fixed it immediately. Now Code is generally well documented and critical classes have comments. Low-level code documentation is good enough to meet CRDAO code review standarts and allow auto-generation of the documentation. Also, after reviewers suggestion, OP added auto generated typedocs under [docs](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/tree/main/docs/typedocs) folder of the project.
 
 Requirement | Finding
 ------------ | -------------
@@ -110,16 +111,20 @@ Code Documented | PASS
 
 ### Project Documentation
 
-The README file provides the necessary information to install the project but its missing testing instructions, OP already has been informed by reviewer and issue will be fixed. Usage examples are documented in README but in reviewers opinion these should be in seperate file like USAGE.MD or HOW_TOS.md in a seperate docs folder, expected outputs can be added too. Also, auto generated typedoc file can be added to repository aswell. Rewiewer encountered some errors and difficulties while trying usage examples and informed OP and they will be fixed. OP has been informed by reviewer regarding these things and all will be fixed.
+Initially project documentation was in a bad shape and missing some instructions but after reviewers comments and suggestion OP updated it. The README file provides the necessary information to get quick overview about project and have instructions and link to the documentation regarding [INSTALLATION](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/INSTALLATION.md) and [USAGE OWERWIEW](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/USAGE_OVERVIEW.md). Usage examples needed minor changes and OP immediatly updated them after reviewers suggestion. Now, Documentation has sufficient usage examples and instructions which execute without any errors. OP manage to try and execute all examples without any issues by following instructions.
+
+![](assets/usageexample1.png)
+![](assets/usageexample2.png)
+![](assets/usageexample3.png)
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS with Notes
-Example Documented | PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-In reviewer's opinion documentation for the project is sufficient for this milestone but it should be improved along with reviewer's suggestions.
+In reviewer's opinion documentation for the project is sufficient for this milestone.
 
 # Open Source Practices
 
@@ -149,7 +154,7 @@ Design diagrams and schemas, which are also mentioned in milestone submission, a
 Infrastructure Diagram
 ![](assets/infra.png)
 
-[Mainnet](caspernet02.fluidefi.io:8888/status) and [Testnet](caspertest1.fluidefi.io:8888/status) nodes are active and located at:
+[Mainnet](caspernet02.fluidefi.io:8888/status) and [Testnet](caspertest1.fluidefi.io:8888/status) nodes are active and located at, OP reported that rpc ports are not public because of security reasons:
 Mainnet: caspernet02.fluidefi.io
 Testnet: caspertest1.fluidefi.io
 
