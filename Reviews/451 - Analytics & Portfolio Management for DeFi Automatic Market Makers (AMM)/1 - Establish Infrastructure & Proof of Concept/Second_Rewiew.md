@@ -111,7 +111,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-Initially project documentation was in a bad shape and missing some instructions but after reviewers comments and suggestion OP updated it. The README file provides the necessary information to get quick overview about project and have instructions and link to the documentation regarding [INSTALLATION](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/INSTALLATION.md) and [USAGE OWERWIEW](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/USAGE_OVERVIEW.md). Usage examples needed minor changes and OP immediatly updated them after reviewers suggestion. Now, Documentation has sufficient usage examples and instructions which execute without any errors. OP manage to try and execute all examples without any issues by following instructions.
+Initially project documentation was in a bad shape and missing some instructions but ,after reviewer's comments and suggestions, OP updated it. The README file provides the necessary information to get quick overview about project and have instructions and links to the documentation regarding [INSTALLATION](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/INSTALLATION.md) and [USAGE OWERWIEW](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/blob/main/docs/USAGE_OVERVIEW.md). Usage examples needed minor changes and OP immediatly updated them after reviewer's suggestion. Now, Documentation has sufficient usage examples and instructions which execute without any errors. OP manage to try and execute all examples without any issues by following instructions.
 
 ![](assets/usageexample1.png)
 ![](assets/usageexample2.png)
@@ -147,7 +147,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Project meets the acceptance criteria. Code repo is available, test scripts are written and CI actions has been used. 
+Project meets the acceptance criteria. Code repo is available, test scripts are written and CI actions has been used. Source code is well written and have sufficiend amount of code level documentation. OP is reachable and responsive in general.
 
 Design diagrams and schemas, which are also mentioned in milestone submission, are included in repository as pdf files and can be found under [schema folder](https://github.com/fluidefi/fluidefi-caspernet-aggregator-tools/tree/main/src/schema)
 
@@ -166,13 +166,11 @@ Public nodes planned to be used as backup nodes and which is fine in reviewer's 
 
 OP was reachable and has good communication. Issues reported by reviewer generally fixed immediately.
 
-Project has usage examples for each class in README but as mentioned in documantation review notes these should be reshaped in a seperate file and folder, also usage instructions and examples should be improved and extended.
-
 # Final Conclusion
 
-Reviewer recommends that this submission should PASS with Notes as it has some minor issues to be fixed but meets the acceptance criteria functionality.
+Reviewer recommends that this submission should PASS with Notes as it meets the milestone acceptance criteria and DEVxDAO standarts.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | PASS
 ------------ | -------------
