@@ -168,7 +168,7 @@ OP was reachable and has good communication. Issues reported by reviewer general
 
 # Final Conclusion
 
-Reviewer recommends that this submission should PASS with Notes as it meets the milestone acceptance criteria and DEVxDAO standarts.
+Reviewer recommends that this submission should PASS as it meets the milestone acceptance criteria and DEVxDAO standarts.
 
 # Recommendation
 
