@@ -52,7 +52,11 @@ https://cspr.live/deploy/50b47e2d550790b6239dbdd2c741137ec9647898623e20a216f00a3
 
 - [Deployment log](assets/deploy.md)
 
-Usage testing was done on Testnet at https://start.dlndao.org/.
+Local installation was done on an Ubuntu 20.04 LTS Gitpod cloud machine. The project built successfully without errors.
+
+![](assets/local-installation.png)
+
+Further usage testing was done on Testnet at https://start.dlndao.org/.
 
 ![](assets/0-roi.png)
 
@@ -62,28 +66,32 @@ After entering the website, reviewer created an account and logged in.
 ![](assets/2-verify.png)
 ![](assets/3-login.png)
 
+Other parts of the system also work as intended. Some additional screenshots of the interface are as follows:
+
+![](assets/4-dashboard.png)
+![](assets/5-investments.png)
+
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project builds and runs without errors. There needs to be some performance improvements needed to be made. Reviewer suggests adding pagination into investments page since the page tries to load all investments at once causing performance issues. Not included in the acceptance criteria, but could be useful, is an addition of search functionality.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All automated unit tests PASS for this milestone. Tests cover critical functionality. Reviewer successfully ran all automated tests on an Pardus 21.3 machine. Overall quality of tests are sufficient. Test output is below.
+
+- [Unit tests output](assets/unit-tests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
@@ -97,18 +105,17 @@ Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project documentation is sufficient. Proper installation, testing and deployment requirements are stated in the README file. Additional documentation is generated and readily available for developers.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Documentation is sufficient and well prepared. Small stylistic and syntactic improvements in future updates could be beneficial for the project.  
+Extra documentation is readily available at `/docs` folder.
 
 # Open Source Practices
 
@@ -122,30 +129,24 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains a CONTRIBUTING and SECURITY policy. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project.
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The milestone meets its acceptance criteria. Small performance improvements in the future of the project is expected and also suggested by the reviewer. All other aspects of the project is sufficiently provided for this review. The reviewer suggests the project to PASS with Notes.
+
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
