@@ -42,7 +42,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/dlndao/start | 4553d89
+https://github.com/dlndao/start | 47ef17c
 
 
 # Install & Usage Testing Procedure and Findings
