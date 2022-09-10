@@ -1,3 +1,4 @@
+```
 Fetching advisory database from `https://github.com/RustSec/advisory-db.git`
     Loaded 456 security advisories (from /.cargo/advisory-db)
 Updating crates.io index
@@ -25,3 +26,4 @@ cpufeatures 0.2.4
                 └── odra 0.1.0
 
 warning: 1 allowed warning found
+```

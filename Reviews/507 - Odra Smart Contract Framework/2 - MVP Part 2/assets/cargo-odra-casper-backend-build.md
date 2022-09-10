@@ -1,3 +1,4 @@
+```
 cargo odra test -b casper-latest
 💁  INFO : Preparing casper-latest builder in .builder_casper-latest/ directory...
 💁  INFO : Generating _wasm.rs files...
@@ -196,3 +197,4 @@ cargo odra test -b casper-latest
     Finished release [optimized] target(s) in 2m 04s
 Invalid value for `--edition`
 🤦  ERROR : Couldn't run cargo fmt in .builder_casper-latest/
+```

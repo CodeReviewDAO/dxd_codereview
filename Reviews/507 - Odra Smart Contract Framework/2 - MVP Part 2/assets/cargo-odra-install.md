@@ -1,3 +1,4 @@
+```
 cargo install cargo-odra
     Updating crates.io index
   Downloaded cargo-odra v0.0.2
@@ -266,3 +267,4 @@ error[E0063]: missing field `replace` in initializer of `Manifest<_>`
 For more information about this error, try `rustc --explain E0063`.
 error: could not compile `cargo-odra` due to previous error
 error: failed to compile `cargo-odra v0.0.2`, intermediate artifacts can be found at `/tmp/cargo-installurwFbk`
+```
