@@ -35,11 +35,11 @@ https://github.com/odradev/odra | 3905380
 # Install & Usage Testing Procedure and Findings
 
 To install/use the project the suggested method is getting `cargo-odra`.
-![Cargo-odra cannot be installed from cargo](assets/cargo-odra-install.md).
+[Cargo-odra cannot be installed from cargo](assets/cargo-odra-install.md).
 Multiple reviewers failed the installation of `cargo-odra` from cargo, and so tried to install from source which is possible. Even after getting the installation of `cargo-odra` to a success, none of the reviewers managed to get actually get a WASM build out of the system, which is an important and promoted functionality. 
 
 The odra-cargo Makefile test (test-project-generation) is written for apt, which is not on the reviewers linux distribution. Following said commands instructions (which are also the ones described in the cargo-odra repository as the intended use) results in a failure at `cargo odra test -b casper-latest`.
-![cargo odra casper backend failure](assets/cargo-odra-casper-backend-build.md).
+[cargo odra casper backend failure](assets/cargo-odra-casper-backend-build.md).
 
 ## Overall Impression of usage testing
 
