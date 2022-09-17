@@ -63,7 +63,13 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project contains sufficient unit tests. The reviewer was able to run all tests locally by following the documentation. Test run logs can be found in [tests.txt](assets/test_logs.txt) file. Also, these tests are available and successfully runs on [actions](https://github.com/odradev/odra/actions) part of Github repository.
+The project contains sufficient unit tests. The reviewer was able to run all tests locally by following the documentation. But there is at least one test that is being ignored.
+
+````
+test src/test_utils.rs - test_utils::assert_events (line 27) ... ignored
+````
+
+Test run logs can be found in [tests.txt](assets/test_logs.txt) file. Also, these tests are available and successfully runs on [actions](https://github.com/odradev/odra/actions) part of Github repository.
 
 
 ![](assets/test_1.png)
@@ -75,33 +81,33 @@ Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS 
 Unit Tests - At least one negative path test | PASS 
-Unit Tests - Additional path tests | PASS 
+Unit Tests - Additional path tests | PASS  with notes
 
 
 # Documentation
 
 ### Code Documentation
 
-Code is well documented and commented. Low-level code documentation is good enough to meet CRDAO code review standards and allow auto-generation of the documentation.
+Some part of code is well documented via low level documentation. But the low level code documentation does not cover all the parts of the project([For example](https://github.com/odradev/odra/tree/0.1.0/lang/proc_macros/src)). Low level code documentation should cover all the parts of the project especially important classes. The reviewer observes that code documentation should be improved in the upcoming milestones.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS
+Code Documented | PASS with notes
 
 ### Project Documentation
 
 
-The reviewer observes that the project has detailed documentation  for usage with examples, along with the installation, build and test instructions, and documents are well structured.
+The project has a seperate [documentation page](https://docs.rs/odra/latest/odra/). However, the purpose and usage details of the project should be more clearly stated in the readme and documentation. In addition, project codes are kept on 5 different repository. This makes the documentation much more important in terms of intelligibility. The accepted project proposal states that the documentation will be written in the 3rd milestone. The reviewer states that these situations should be taken into account when writing the documentation.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS 
-Example Documented | PASS 
+Usage Documented | PASS with notes
+Example Documented | PASS with notes
 
 
 ## Overall Conclusion on Documentation
 
-Based on the reviewer's observations documentation is detailed and well prepared.
+Based on the reviewer's observations documentation should be improved in the upcoming milestones.
 
 # Open Source Practices
 
@@ -115,7 +121,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project is open for contribution via issues and pull requests sections. But the project does not contain any contribution policy or a code of conduct. The reviewer highly recommends to the development team to create them in the upcoming milestones.
+The project is open for contribution via issues and pull requests sections. But the project does not contain any CONTRIBUTING and SECURITY policy that links to a Code of Conduct. The reviewer highly recommends to the development team to create them in the upcoming milestones.
 
 
 Requirement | Finding
@@ -126,11 +132,11 @@ OSS contribution best practices | PASS with notes
 
 ## General Observations
 
-Code is well structured and the project can be easily set up using the documentation via the Github repository. Also, the project provides open source development standards.
+Code is well structured and the project can be easily set up using the documentation via the Github repository. Also, the project provides open source development standards. 
 
 # Final Conclusion
 
-The project provides the functionality described in the grant application and milestone acceptance criteria. 
+The project provides the functionality described in the grant application and milestone acceptance criteria. However, as stated above, the reviewer observes that there are parts that need improvements.
 
 Thus, in the reviewer opinion this submission should PASS with notes.
 
