@@ -92,7 +92,7 @@ Some part of code is well documented via low level documentation. But the low le
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS with notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
@@ -101,8 +101,8 @@ The project has a separate [documentation page](https://docs.rs/odra/latest/odra
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS with notes
-Example Documented | PASS with notes
+Usage Documented | PASS with Notes
+Example Documented | PASS with Notes
 
 
 ## Overall Conclusion on Documentation
@@ -126,7 +126,7 @@ The project is open for contribution via issues and pull requests sections. But 
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS with notes
+OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
@@ -138,9 +138,9 @@ Code is well structured and the project can be easily set up using the documenta
 
 The project provides the functionality described in the grant application and milestone acceptance criteria. However, as stated above, the reviewer observes that there are parts that need improvements.
 
-Thus, in the reviewer opinion this submission should PASS with notes.
+Thus, in the reviewer opinion this submission should PASS with Notes.
 
 # Recommendation
 
-Recommendation | PASS with notes
+Recommendation | PASS with Notes
 ------------ | -------------
