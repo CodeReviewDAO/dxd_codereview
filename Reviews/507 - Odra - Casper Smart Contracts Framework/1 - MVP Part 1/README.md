@@ -115,7 +115,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project is open for contribution via issues and pull requests sections. But the project does not contain any contribution policy or a code of conduct. The reviewer highly recommends to the development team to create one in the upcoming milestones.
+The project is open for contribution via issues and pull requests sections. But the project does not contain any contribution policy or a code of conduct. The reviewer highly recommends to the development team to create them in the upcoming milestones.
 
 
 Requirement | Finding
