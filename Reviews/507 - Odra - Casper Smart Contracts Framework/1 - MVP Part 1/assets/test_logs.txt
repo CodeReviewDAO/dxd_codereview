@@ -1,0 +1,251 @@
+(base) mdidin@Muhammed-MacBook-Air odra % cargo test 
+    Updating crates.io index
+  Downloaded rand_core v0.6.4
+  Downloaded ref_thread_local v0.1.1
+  Downloaded serde_bytes v0.11.7
+  Downloaded syn v0.15.44
+  Downloaded unicode-xid v0.2.4
+  Downloaded proc-macro2 v0.4.30
+  Downloaded quote v0.6.13
+  Downloaded dlopen_derive v0.1.4
+  Downloaded unicode-xid v0.1.0
+  Downloaded dlopen v0.1.8
+  Downloaded 10 crates (342.9 KB) in 1.46s
+   Compiling version_check v0.9.4
+   Compiling proc-macro2 v1.0.43
+   Compiling unicode-ident v1.0.4
+   Compiling quote v1.0.21
+   Compiling syn v1.0.99
+   Compiling typenum v1.15.0
+   Compiling autocfg v1.1.0
+   Compiling rand_core v0.5.1
+   Compiling subtle v2.4.1
+   Compiling unicode-xid v0.2.4
+   Compiling funty v1.1.0
+   Compiling wyz v0.2.0
+   Compiling radium v0.3.0
+   Compiling serde_derive v1.0.144
+   Compiling serde v1.0.144
+   Compiling opaque-debug v0.3.0
+   Compiling cfg-if v1.0.0
+   Compiling byteorder v1.4.3
+   Compiling ppv-lite86 v0.2.16
+   Compiling crunchy v0.2.2
+   Compiling cpufeatures v0.2.5
+   Compiling serde_json v1.0.85
+   Compiling static_assertions v1.1.0
+   Compiling hex v0.4.3
+   Compiling itoa v1.0.3
+   Compiling rand_core v0.6.4
+   Compiling ryu v1.0.11
+   Compiling hex_fmt v0.3.0
+   Compiling base64 v0.13.0
+   Compiling base16 v0.2.1
+   Compiling bitflags v1.3.2
+   Compiling convert_case v0.5.0
+   Compiling either v1.8.0
+   Compiling proc-macro2 v0.4.30
+   Compiling ref_thread_local v0.1.1
+   Compiling unicode-xid v0.1.0
+   Compiling syn v0.15.44
+   Compiling libc v0.2.132
+   Compiling lazy_static v1.4.0
+   Compiling num-traits v0.2.15
+   Compiling num-integer v0.1.45
+   Compiling num-bigint v0.4.3
+   Compiling num-iter v0.1.43
+   Compiling num-rational v0.4.1
+   Compiling generic-array v0.14.6
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling proc-macro-error v1.0.4
+   Compiling rand v0.8.5
+   Compiling itertools v0.10.4
+   Compiling bitvec v0.18.5
+   Compiling rand_chacha v0.2.2
+   Compiling rand v0.7.3
+   Compiling uint v0.9.3
+   Compiling quote v0.6.13
+   Compiling num-complex v0.4.2
+   Compiling digest v0.9.0
+   Compiling crypto-mac v0.10.1
+   Compiling block-buffer v0.9.0
+   Compiling crypto-mac v0.8.0
+   Compiling signature v1.2.2
+   Compiling hmac v0.10.1
+   Compiling sha2 v0.9.9
+   Compiling blake2 v0.9.2
+   Compiling ed25519 v1.2.0
+   Compiling ff v0.8.0
+   Compiling group v0.8.0
+   Compiling dlopen_derive v0.1.4
+   Compiling num v0.4.0
+   Compiling dlopen v0.1.8
+   Compiling synstructure v0.12.6
+   Compiling odra-ir v0.1.0 (/Users/mdidin/Desktop/odra/lang/ir)
+   Compiling zeroize_derive v1.3.2
+   Compiling num-derive v0.3.3
+   Compiling derive_more v0.99.17
+   Compiling zeroize v1.3.0
+   Compiling elliptic-curve v0.8.5
+   Compiling curve25519-dalek v3.2.1
+   Compiling ecdsa v0.10.2
+   Compiling k256 v0.7.3
+   Compiling ed25519-dalek v1.0.1
+   Compiling serde_bytes v0.11.7
+   Compiling casper-types v1.5.0
+   Compiling odra-types v0.1.0 (/Users/mdidin/Desktop/odra/types)
+   Compiling odra-utils v0.1.0 (/Users/mdidin/Desktop/odra/utils)
+   Compiling odra-test-env-wrapper v0.1.0 (/Users/mdidin/Desktop/odra/test_env_wrapper)
+   Compiling odra-codegen v0.1.0 (/Users/mdidin/Desktop/odra/lang/codegen)
+   Compiling odra-mock-vm v0.1.0 (/Users/mdidin/Desktop/odra/mock_vm)
+   Compiling odra-proc-macros v0.1.0 (/Users/mdidin/Desktop/odra/lang/proc_macros)
+   Compiling odra v0.1.0 (/Users/mdidin/Desktop/odra/core)
+    Finished test [unoptimized + debuginfo] target(s) in 1m 17s
+     Running unittests src/lib.rs (target/debug/deps/odra-236cdfe9d6b1e9ab)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_codegen-016398d4c3a7a1ad)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_ir-308e332f4e17d47a)
+
+running 12 tests
+test attrs::tests::constructor_attr_works ... ok
+test attrs::tests::duplicated_attrs_fail ... ok
+test module_item::constructor::test::test_attrs ... ok
+test module_item::impl_item::test::test_parse_fn_without_any_attr ... ok
+test module_item::impl_item::test::test_parse_fn_with_odra_init_attr ... ok
+test attrs::tests::non_odra_attr_works ... ok
+test module_item::impl_item::test::test_parse_fn_without_odra_attr ... ok
+test module_item::impl_item::test::test_parse_other_impl_item ... ok
+test module_item::tests::invalid_usage ... ok
+test module_item::tests::impl_block ... ok
+test module_item::tests::struct_block ... ok
+test module_item::module_impl::test::impl_items_filtering ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_mock_vm-475ffc6e9bc9d6af)
+
+running 24 tests
+test contract_container::tests::test_call_invalid_constructor ... ok
+test contract_container::tests::test_call_constructor_in_invalid_context ... ok
+test contract_container::tests::test_call_valid_entrypoint ... ok
+test contract_container::tests::test_call_wrong_entrypoint ... ok
+test contract_container::tests::test_call_valid_constructor ... ok
+test mock_vm::tests::test_call_non_existing_contract ... ok
+test mock_vm::tests::contracts_have_different_addresses ... ok
+test mock_vm::tests::events ... ok
+test mock_vm::tests::test_call_non_existing_entrypoint ... ok
+test mock_vm::tests::test_caller_switching ... ok
+test mock_vm::tests::test_contract_call ... ok
+test mock_vm::tests::test_current_contract_address ... ok
+test mock_vm::tests::test_read_write_value ... ok
+test mock_vm::tests::test_read_write_dict ... ok
+test mock_vm::tests::test_revert ... ok
+test storage::test::override_single_value ... ok
+test storage::test::drop_snapshot ... ok
+test storage::test::read_from_non_existing_collection_returns_none ... ok
+test storage::test::read_non_existing_key_returns_none ... ok
+test storage::test::read_from_non_existing_key_from_existing_collection_returns_none ... ok
+test storage::test::read_write_dict_value ... ok
+test storage::test::read_write_single_value ... ok
+test storage::test::restore_snapshot ... ok
+test storage::test::test_snapshot_override ... ok
+
+test result: ok. 24 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_proc_macros-0322ba0fa34b9c1f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_test_env_wrapper-77823bcf2ea48dad)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_types-f777faaa74f6e527)
+
+running 2 tests
+test arithmetic::test::test_sub ... ok
+test arithmetic::test::test_add ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/odra_utils-4fd373111bb51e60)
+
+running 2 tests
+test tests::event_absolute_position_works ... ok
+test tests::camel_to_snake_works ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests odra
+
+running 2 tests
+test src/test_utils.rs - test_utils::assert_events (line 27) ... ignored
+test src/instance.rs - instance::Instance (line 9) ... ok
+
+test result: ok. 1 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.65s
+
+   Doc-tests odra-codegen
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests odra-ir
+
+running 3 tests
+test src/module_item/module_impl.rs - module_item::module_impl::ModuleImpl (line 10) ... ok
+test src/module_item/constructor.rs - module_item::constructor::Constructor (line 9) ... ok
+test src/module_item/method.rs - module_item::method::Method (line 8) ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.48s
+
+   Doc-tests odra-mock-vm
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests odra-proc-macros
+
+running 6 tests
+test src/lib.rs - execution_error (line 143) - compile fail ... ok
+test src/lib.rs - execution_error (line 129) - compile fail ... ok
+test src/lib.rs - module (line 25) ... ok
+test src/lib.rs - external_contract (line 68) ... ok
+test src/lib.rs - execution_error (line 114) ... ok
+test src/lib.rs - derive_event (line 92) ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.57s
+
+   Doc-tests odra-test-env-wrapper
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests odra-types
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests odra-utils
+
+running 2 tests
+test src/lib.rs - event_absolute_position (line 26) ... ok
+test src/lib.rs - camel_to_snake (line 8) ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.99s
