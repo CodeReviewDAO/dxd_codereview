@@ -97,7 +97,7 @@ Code Documented | PASS with notes
 ### Project Documentation
 
 
-The project has a seperate [documentation page](https://docs.rs/odra/latest/odra/). However, the purpose and usage details of the project should be more clearly stated in the readme and documentation. In addition, project codes are kept on 5 different repository. This makes the documentation much more important in terms of intelligibility. The accepted project proposal states that the documentation will be written in the 3rd milestone. The reviewer states that these situations should be taken into account when writing the documentation.
+The project has a seperate [documentation page](https://docs.rs/odra/latest/odra/). However, the purpose and usage details of the project should be more clearly stated in the readme and documentation. In addition, project codes are kept on 5 different repository. This makes the documentation much more important in terms of intelligibility. The accepted project proposal states that the documentation will be written in the 3rd milestone. The reviewer observes that these situations should be taken into account when writing the documentation.
 
 Requirement | Finding
 ------------ | -------------
