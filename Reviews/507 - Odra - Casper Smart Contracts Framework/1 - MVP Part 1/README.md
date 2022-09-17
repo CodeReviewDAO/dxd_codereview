@@ -19,6 +19,10 @@ Reviewer | Muhammed Didin <mdidin80@gmail.com>
 
 - Version is 0.1.0 released to the http://crates.io, - it is possible to write simple smart contracts and test them using CasperVM.
 
+## Additional notes regarding submission from OP:
+We are happy to announce we have achieved goals of milestones #1 and #2.
+- We have also provided a console tool called Cargo Odra, that simplifies development process.
+
 
 ## Milestone Submission
 
@@ -28,9 +32,7 @@ Repository | Revision Reviewed
 ------------ | -------------
 https://github.com/odradev/odra | 3905380
 
-## Additional notes regarding submission from OP:
-We are happy to announce we have achieved goals of milestones #1 and #2.
-- We have also provided a console tool called Cargo Odra, that simplifies development process.
+
 
 
 # Install & Usage Testing Procedure and Findings
@@ -61,7 +63,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The project contains sufficient unit tests. The reviewer was able to run all tests locally by following the documentation. Test run logs can be found at [tests.txt](assets/test_logs.txt) file. Also, these tests are available on [actions](https://github.com/odradev/odra/actions) part of Github repository.
+The project contains sufficient unit tests. The reviewer was able to run all tests locally by following the documentation. Test run logs can be found in [tests.txt](assets/test_logs.txt) file. Also, these tests are available and successfully runs on [actions](https://github.com/odradev/odra/actions) part of Github repository.
 
 
 ![](assets/test_1.png)
@@ -113,7 +115,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project is open for contribution via issues and pull requests. But the project does not contain any contribution policy and a code of conduct. The reviewer highly recommends to the development team to create one.
+The project is open for contribution via issues and pull requests sections. But the project does not contain any contribution policy or a code of conduct. The reviewer highly recommends to the development team to create one in the upcoming milestones.
 
 
 Requirement | Finding
