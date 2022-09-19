@@ -1,7 +1,7 @@
 Grant Proposal | [317 - Integration of LetsGo Wallet with CasperLabs](https://portal.devxdao.com/public-proposals/317)
 ------------ | -------------
-Milestone | 1
-Milestone Title | White Labeling of LetsGo Wallet (Chat Platform) - Submission 2
+Milestone | 2
+Milestone Title | Add CSPR Token
 OP | A1Labs
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
