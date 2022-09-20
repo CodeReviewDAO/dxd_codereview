@@ -35,56 +35,53 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core | 651bb08
-https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router | 838ec27
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core | 44a3e81
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router | e128642
 
 # Install & Usage Testing Procedure and Findings
 
-By following the instructions in both READMEs reviewer tried to build projects but encountered some typos, which caused the build to fail, but the reviewer manually fixed them and built both projects, and informed OP about them.
+Initially, the reviewer tried to build projects by following the instructions in both READMEs but encountered some typos, which caused the build to fail, but the reviewer informed OP about them, and OP fixed them. Now both of the repositories build and run successfully.
 
 ### `CasperLabs-UniswapV2-Core`
 
-In the [README](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core) following line has a typo that needs to be fixed:
+There were typos in the [README](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core). After informing OP about them, OP fixed typos, so the project builds and runs successfully now. Here are logs for build and tests:
 
-"sudo apt-key add casper-repo-pubkey.ascr", "r" at the end of the command should be removed.
+[CoreBuildLogs](assets/corebuildlogs.md)
+[CoreTestLogs](assets/coretestlogs.md)
 
 ### `CasperLabs-UniswapV2-Router`
 
-In the [README](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router) following line has a typo that needs to be fixed:
+There were typos in the [README](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core). After informing OP about them, OP fixed typos. Also, the [README's](https://github.com/furkanahmetk/CasperLabs-UniswapV2-Router/blob/main/README.md) "Install the prerequisites" part needed some improvements and clarifications. The reviewer reported them to OP, and OP fixed them immediately.
 
-"sudo apt-key add casper-repo-pubkey.ascr", "r" at the end of the command should be removed.
+In addition to the typo in install instructions, there was a typo in [Makefile](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router/blob/main/Makefile) which leads to an error. After informing OP, OP fixed all of them and project build and run without errors. Here are logs for build and tests:
 
-In addition to the typo in install instructions, there is a typo that needs to be fixed in [Makefile](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router/blob/main/Makefile). In the first line of Makefile, the Core repo path has an upper-lower case typo; otherwise, the build gives errors. The typo can be fixed as follows:
+![RouterBuildLogs](assets/routerbuildlogs.png)
+[RouterBuildLogs](assets/routerbuildlogs.md)
 
-"uniswap_core_directory = ../CasperLabs-UniswapV2-core"  -> "uniswap_core_directory = ../CasperLabs-UniswapV2-Core"
+![RouterTestLogs](assets/routertestlogs.png)
+[RouterTestLogs](assets/routernewtestlogs.md)
 
 ## Overall Impression of usage testing
 
 ### `CasperLabs-UniswapV2-Core`
 
-After fixing typos mentioned by the reviewer, the reviewer was able to build the project. The reviewer contacted the OP, and the OP will fix those typos. In the reviewer's opinion, this part should Pass with Notes because after fixing the minor typos, this repository meets the acceptance criteria and builds successfully. Here are the logs for "make build" and "make test" commands: 
-
-[CoreBuildLogs](assets/corebuildlogs.md)
-[CoreTestLogs](assets/coretestlogs.md)
+Usage instructions are now clear, easy to understand, and easy to apply.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS WITH NOTES
+Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS WITH NOTES
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 ### `CasperLabs-UniswapV2-Router`
 
-After fixing typos mentioned by the reviewer, the reviewer was able to build the project. The reviewer contacted the OP, and the OP will fix those typos, but after the building reviewer encountered errors while issuing the "make test" command to run tests. This is a test milestone and the final milestone of the project, so tests should run successfully as a part of the acceptance criteria. In the reviewer's opinion, this part should FAIL because after fixing the minor typos, the reviewer managed to build the project but encountered errors while running tests, so this repository does not meet acceptance criteria. Here are the logs for "make build" and "make test" commands:
-
-[RouterBuildLogs](assets/routerbuildlogs.md)
-[RouterTestLogs](assets/routertestlogs.md)
+Usage instructions are now clear, easy to understand, and easy to apply.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | FAIL
+Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -102,15 +99,16 @@ Unit Tests - Additional path tests | PASS
 
 ### `CasperLabs-UniswapV2-Router`
 
-The project has unit tests written for all critical classes and methods. CI Actions was not active on the GitHub repository. Reviewer ran tests manually by following the instructions on the README of the project and encountered multiple "error[E0308]: mismatched types" errors. Even though the repository has tests, they don't run successfully, so in the reviewer's opinion, this part should fail. Here is the test logs:
+The project has unit tests written for all critical classes and methods. CI Actions was not active on the GitHub repository. Initially, the reviewer ran tests manually by following the instructions on the README of the project and encountered multiple "error[E0308]: mismatched types" errors. After informing OP, OP fixed errors. After the fix, the reviewer was able to run tests run successfully. Here are the test logs:
 
-[RouterTestLogs](assets/routertestlogs.md)
+![RouterTestLogs](assets/routertestlogs.md)
+[RouterTestLogs](assets/routernewtestlogs.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | FAIL
-Unit Tests - At least one negative path test | FAIL
-Unit Tests - Additional path tests | FAIL
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
@@ -144,7 +142,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-In the reviewer's opinion, the typos in the install instructions documentation for the project is sufficient for this milestone.
+In the reviewer's opinion, install and usage instructions documentation for the project is sufficient for this milestone.
 
 # Open Source Practices
 
@@ -182,17 +180,17 @@ The code is well written and has a sufficient amount of comments as general on b
 
 ### `CasperLabs-UniswapV2-Core`
 
-This part of the project meets the acceptance criteria. Code repo is available, test scripts have been written and included in the repository, and CI Actions are active. Source code is well written and has a sufficient amount of code-level documentation. The reviewer reported a minor typo that needs to be fixed, and after that, there will be no issues with this repository.
+This part of the project meets the acceptance criteria. Code repo is available, test scripts have been written and included in the repository, and CI Actions are active. Source code is well written and has a sufficient amount of code-level documentation. The reviewer reported a minor typo and OP fixed them.
 
 ### `CasperLabs-UniswapV2-Router`
 
-This part of the project does not meet the acceptance criteria. The code repository is available, and test scripts have been written and included in the repository, but the tests can't be executed without errors. Source code is well written and has a sufficient amount of code-level documentation. The reviewer reported a minor typo that needs to be fixed, and after that, there will be no issues with this repository.
+This part of the project meets the acceptance criteria. Code repo is available, test scripts have been written and included in the repository, and CI Actions are active. Source code is well written and has a sufficient amount of code-level documentation. The reviewer reported some minor typos and reported some necessary changes to install instructions. OP fixed the reported issues.
 
 # Final Conclusion
 
-The reviewer recommends that this submission should FAIL as it fails to execute tests on one of the repositories. This is the final milestone of the proposal, and this milestone is related to tests, and tests should run without errors as a part of acceptance criteria too.
+The project is well structured and documented in detail, along with usage and installation instructions. Low-level code documentation is well enough. The project meets the acceptance criteria of the milestone. The reviewer recommends that this submission should PASS.
 
 # Recommendation
 
-Recommendation | FAIL
+Recommendation | PASS
 ------------ | -------------
