@@ -103,7 +103,8 @@ Unit Tests - Additional path tests | PASS
 
 The project has unit tests written for all critical classes and methods. CI Actions was not active on the GitHub repository. Initially, the reviewer ran tests manually by following the instructions on the README of the project and encountered multiple "error[E0308]: mismatched types" errors. After informing OP, OP fixed errors. After the fix, the reviewer was able to run tests run successfully. Here are the test logs:
 
-![RouterTestLogs](assets/routertestlogs.md)
+![RouterTestLogs](assets/routertestlogs.png)
+
 [RouterTestLogs](assets/routernewtestlogs.md)
 
 Requirement | Finding
