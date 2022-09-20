@@ -61,7 +61,7 @@ In addition to the typo in install instructions, there was a typo in [Makefile](
 
 ![RouterTestLogs](assets/routertestlogs.png)
 
-[RouterTestLogs](assets/routernewtestlogs.md)
+[RouterTestLogs](assets/routernewtestlogs.txt)
 
 ## Overall Impression of usage testing
 
@@ -105,7 +105,7 @@ The project has unit tests written for all critical classes and methods. CI Acti
 
 ![RouterTestLogs](assets/routertestlogs.png)
 
-[RouterTestLogs](assets/routernewtestlogs.md)
+[RouterTestLogs](assets/routernewtestlogs.txt)
 
 Requirement | Finding
 ------------ | -------------
