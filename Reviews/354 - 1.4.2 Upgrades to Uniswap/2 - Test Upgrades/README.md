@@ -47,6 +47,7 @@ Initially, the reviewer tried to build projects by following the instructions in
 There were typos in the [README](https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core). After informing OP about them, OP fixed typos, so the project builds and runs successfully now. Here are logs for build and tests:
 
 [CoreBuildLogs](assets/corebuildlogs.md)
+
 [CoreTestLogs](assets/coretestlogs.md)
 
 ### `CasperLabs-UniswapV2-Router`
@@ -59,6 +60,7 @@ In addition to the typo in install instructions, there was a typo in [Makefile](
 [RouterBuildLogs](assets/routerbuildlogs.md)
 
 ![RouterTestLogs](assets/routertestlogs.png)
+
 [RouterTestLogs](assets/routernewtestlogs.md)
 
 ## Overall Impression of usage testing
