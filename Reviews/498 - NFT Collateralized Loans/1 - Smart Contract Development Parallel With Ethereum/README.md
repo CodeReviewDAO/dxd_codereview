@@ -479,6 +479,7 @@ The project is generally in a very good shape in terms of open-source guidelines
 
 The reviewer also recommends the following points to be fixed/improved as soon as possible:
 * A CI action that runs end-to-end tests by using NCTL should be added to the code repository.
+* A CI action that runs static analysis on the code-base should be added to the code repository.
 * Instructions to generate code-level documentation should be added to the documentation.
 * Proper actions/config should be added to the repository to generate and publish code-level documentation upon every new commit.
 * The sample commands need to be optimized and fixed to have proper gas amount values, and extensive explanations for each parameter, explaining not only "how" but also "why".
