@@ -26,10 +26,10 @@ Documentation & Tests
 
 **Acceptance criteria:**
 
-Users can put up an NFT for collateral
-Counter parties can make loans
-Users can make payments
-Counter parties can automatically get the NFT if a default occurs
+* Users can put up an NFT for collateral
+* Counter parties can make loans
+* Users can make payments
+* Counter parties can automatically get the NFT if a default occurs
 
 CRDAO: Verification for this will be as a suite of unit tests for each contract.
 
