@@ -37,11 +37,13 @@ https://github.com/odradev/odra | 3905380
 
 # Install & Usage Testing Procedure and Findings
 
-Instructions at the README.md file in the repository(https://github.com/odradev/odra) alone are not clear enough to understand and use the framework. However, when helper repositories and the repository that was created for examples of the framework are combined, they explain a clear path for users, and following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from a Mac (macOS Monterey - MacBook Pro Intel i9 2019) and an Ubuntu Machine (Ubuntu 18.04.6) and successfully run both tests and the project itself. However, the reviewer encountered some problems while downloading rust and necessary libraries while following the makefile of the example project repository, then building rust via recommended way solved the problem. The reviewer informed OP about the situation. 
+Instructions at the README.md file in the repository(https://github.com/odradev/odra) alone are not clear enough to understand and use the framework. However, when helper repositories and the repository that was created for examples of the framework are combined, they explain a clear path for users, and following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from a Mac (macOS Monterey - MacBook Pro Intel i9 2019) and an Ubuntu Machine (Ubuntu 18.04.6) and successfully run both tests and the project itself. However, the reviewer encountered some problems while downloading rust and necessary libraries while following the makefile of the example project repository(https://github.com/odradev/odra-examples), then building rust via recommended way solved the problem. The reviewer informed OP about the situation. OP extended the repository accordingly. In my opinion step by step visual aid could be a good touch. However, at this point, it is sufficient enough. 
+
+Additionally, one of the acceptance criteria is releasing version 0.2.0 at http://crates.io. However, the current version at http://crates.io is 0.1.0. The reviewer communicated with the OP about the situation, and OP stated that they released all their work in one release since it is relatively easy. Since OP fulfilled all its promises as functionality and this is not the final milestone, this should not be a reason for failure. However, these criterias should be followed more strictly for the next milestones. 
 
 ## Overall Impression of usage testing
 
-The project builds without errors, and documentation provides sufficient installation and execution instructions however to reach complete information user needs to read the instructions of all repositories. The project functionality meets the acceptance criteria and operates without errors but with some warnings. 
+The project builds without errors, and documentation provides sufficient installation and execution instructions. However, to reach complete information user needs to read the instructions of all repositories. The project functionality meets the acceptance criteria and operates without errors but with some warnings. 
 
 
 [Installation](./assets/cargo_install_cargo-odra.md)
@@ -85,7 +87,7 @@ Low-level function documentation | PASS
 
 ### Project Documentation
 
-The README files provide the necessary information to build the project and run the tests. It provides all necessary information with visual aid which is a good touch. Usage documentation also shows how to use the framework with an example project. However to reach complete information user needs to read the instructions of all repositories. It would be helpful to add more explanations to show how to use the project.
+The README files provide the necessary information to build the project and run the tests. Usage documentation also shows how to use the framework with an example project. However, to reach complete information user needs to read the instructions of all repositories. It would be helpful to add more explanations to show how to use the project.
 
 Requirement | Finding
 ------------ | -------------
@@ -95,7 +97,7 @@ Sufficient Project Documentation | PASS with Notes
 
 ## Licenses
 
-The Project is released under the MIT License.
+The project is released under the MIT License.
 
 Requirement | Finding
 ------------ | -------------
@@ -103,7 +105,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled on the repository. However, the project does not contain any CONTRIBUTING and SECURITY policy that links to a Code of Conduct. The reviewer highly recommends to the development team create them in the upcoming milestones.
+Pull requests and Issues are enabled on the repository. However, the project does not contain any CONTRIBUTING and SECURITY policy that links to a Code of Conduct. The reviewer communicated with the OP about the situation, and they added the files into the repository at the version that covers the next milestone. 
 
 Requirement | Finding
 ------------ | -------------
