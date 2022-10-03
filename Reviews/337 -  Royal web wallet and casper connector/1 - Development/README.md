@@ -180,7 +180,7 @@ https://github.com/browserslist/browserslist#browsers-data-updating
 
 The reviewer was able to connect to the frontend 
 
-
+![frontend](assets/front_end.png "frontend")
 
 The reviewer tried to run the test scenario given in the README file :
 

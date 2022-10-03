@@ -1,7 +1,0 @@
-(base) mdidin@Muhammed-MacBook-Air Draw-Bridge % export NODE_OPTIONS=--openssl-legacy-provider
-(base) mdidin@Muhammed-MacBook-Air Draw-Bridge % yarn chain
-yarn run v1.22.19
-$ yarn workspace @scaffold-eth/hardhat chain
-$ hardhat node --network hardhat --no-deploy
-Started HTTP and WebSocket JSON-RPC server at http://::1:8545/
-
