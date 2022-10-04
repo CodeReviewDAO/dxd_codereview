@@ -89,7 +89,7 @@ Following the instructions in the README file, the reviewer was able to :
 [Full Deploy Logs](assets/deploy.txt)
 
 
-* Start the frontend on port 3000:
+* Start the frontend on port 3000 (**runs with warnings**):
 
 ![](assets/start-1.png)
 [Full Start Logs](assets/start.txt)
@@ -135,7 +135,7 @@ The reviewer was able to connect to the Casper testnet via CasperSigner. The pub
 ![](assets/connect_cspr.png)
 
 **The balance of the connected account was not displayed on the page 
-and an error keeps  being thrown in the web console even while the CORS blocker was active. (Chrome and Brave)**
+and an error keeps  being thrown in the web console even while the CORS blocker was active. (Chrome, Brave and Opera)**
 
 ```console
 Access to fetch at 'http://88.99.70.162:7777/rpc' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
@@ -158,7 +158,7 @@ The reviewer used Casper Testnet Faucet to claim 1000 test cspr.
 Hitting the Exchange button throws an error on the page : **ethContractError**
 ![](assets/eth_contract_error.png)
 
-Since the documentation did not provide sufficient information, the reviewer asked the OP to send a video showing the instructions for use, regardless of quality. The OP didn't post the video and claimed the problem was with the Casper testnet. 
+Since the documentation did not provide sufficient information, the reviewer asked the OP to send a video showing the instructions for use, regardless of quality. The OP did not post the video and claimed the problem was with the Casper Testnet. 
 
 
 ## Overall Impression of usage testing
@@ -206,7 +206,7 @@ The code is overall well documented, but the reviewer thinks that some improveme
 
 **- Unused code that gives warnings while installing and building can be removed in order to improve code readability** 
 
-**- Secret informations (like API KEY) should not be committed to github (some "api key" found hardcoded in the repository in the constants.js)**
+**- Secret informations (like API KEY) should not be committed to GitHub (some "api key" found hardcoded in the repository in the constants.js)**
   
 Requirement | Finding
 ------------ | -------------
@@ -248,7 +248,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-It is stated in README that the project is subject to Casper Labs' common contribution policy. And redirects to [Make Software's contributor guidline](https://github.com/make-software/how-to-casperlabs/blob/master/CONTRIBUTING.md). Also, issues and pull requests parts are open to contribute.
+It is stated in README that the project is subject to Casper Labs' common contribution policy. And redirects to [Make Software's contributor guideline](https://github.com/make-software/how-to-casperlabs/blob/master/CONTRIBUTING.md). Also, issues and pull requests parts are open to contribute.
 
 Requirement | Finding
 ------------ | -------------
@@ -262,10 +262,11 @@ OSS contribution best practices | PASS
 The project builds and the webapp runs successfully. **However the lack of documentation makes it impossible to  do an "exchange" and to run a complete test case**.
 
 # Final Conclusion
-
+- Issues reported in the previous review should be resolved such as on the parts Code documentation, Project documentation, Unit tests and Install & Usage Testing Procedure and Findings.
 - Serious improvements should be done in documentation. Information should be provided to the user about what information should be taken from where and where it should be given. If possible, it should be supported with visuals.
-- Issues from previous review should be resolved.
+
 - It should be explained why confidential information is requested, and they should not be requested if not required. For example, Casper private key information is requested but it is not stated why this is needed. It is also not disclosed which Casper account's (User or supervisor) private key information is requested.
+- It should be stated which versions of the prerequisites should be used.
 - The program gives ETH contract error. Nowhere is it mentioned why this problem arises and how it can be solved.
 - Continuous CORS error keeps  being thrown in the web console even while the CORS blocker was active.
 
