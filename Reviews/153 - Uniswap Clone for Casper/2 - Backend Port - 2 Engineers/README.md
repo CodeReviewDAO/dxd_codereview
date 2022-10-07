@@ -46,8 +46,7 @@ Reviewer ran the `npm install` and `npm start` commands provided in the README t
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however others are remaining. This issue is needed to be addressed in future milestones.
 
 Requirement | Finding
 ------------ | -------------
