@@ -36,17 +36,38 @@ https://github.com/Rengo-Labs/CasperLabs-Uniswap-DemoApp | 5944f82
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer used an Ubuntu 20.04 LTS GitPod cloud machine and a Debian 10 local machine for this review.
+Reviewer used an Ubuntu 20.04 LTS GitPod cloud machine and a Pardus 21.3 GNU/Linux local machine for this review.
+
+There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however others are remaining. This issue is needed to be addressed in future milestones.
 
 Note: The command for installation is provided as `npm Install` but the second part should also be in lowercase letters: `npm install`.
 
-Reviewer ran the `npm install` and `npm start` commands provided in the README to setup the project and started it.
+Reviewer ran the `npm install` and `npm start` commands provided in the README to setup the project. There are numerous warnings that needs to be addressed. Also, the installation was done using the `--legacy-peer-deps` flag since the command refused to run without it. This also needs to be worked on in the future milestones.
+
+- [Installation logs](assets/install.md)
+- [Build logs (production)](assets/build.md)
+
+After the installation, running the `npm start` command started a web server and the website was reachable at `localhost:3000`:
 
 ![](assets/website.png)
 
-## Overall Impression of usage testing
+All parts of the app were available for navigation but it asked user to connect with a wallet to make operations, as expected. Reviewer was able to successfully sign in using Casper Signer.
 
-There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however others are remaining. This issue is needed to be addressed in future milestones.
+Using the provided test document, reviewer was able to extensively test the features of the app and found it to be running as intended. While manual testing is possible, creating a test suite for the frontend is also possible and suggested by the reviewer.
+
+There are some parts of the app that has minor annoyances, like needing to refresh the page, choosing a different tab and going back to refresh the current page, non functioning "change swap direction" button at times, and similar that needs attention in future milestones. These do not directly affect the operations but hinders the user interaction to a degree.
+
+Here are some screenshots from the interface and operations:
+
+![](assets/swap.png)
+![](assets/swap-insufficient-balance.png)
+![](assets/swap-success-deploy.png)
+
+Here is the final screenshot of the deploys, both successful and unsuccessful (note that some operations are shown as WASM Deploy):
+
+![](assets/deploy.png)
+
+## Overall Impression of usage testing
 
 Requirement | Finding
 ------------ | -------------
@@ -63,6 +84,8 @@ gitpod /workspace/CasperLabs-Uniswap-DemoApp (main) $ npm test
 No tests found, exiting with code 0
 ```
 
+Using the provided test document, reviewer was able to extensively test the features of the app and found it to be running as intended. While manual testing is possible, creating a test suite for the frontend is also possible and suggested by the reviewer.
+
 Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
@@ -73,27 +96,24 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+There are many parts of code that lack proper code documentation. Also, there are some extra commented code that is still in production. These need to be addressed in future milestones.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The README has sufficient instructions to set up and run the application. Some additional [usage examples](https://docs.google.com/document/d/1QPKbuqXWy6ysWkEhNJWoz9d2X_yeIYp978AjA14OtCk/edit) were also provided by OP.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+The documentation is sufficient for this milestone.
 
 # Open Source Practices
 
@@ -117,8 +137,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well written, easily readable, and conforms to good coding practices overall.
 
 # Final Conclusion
 
