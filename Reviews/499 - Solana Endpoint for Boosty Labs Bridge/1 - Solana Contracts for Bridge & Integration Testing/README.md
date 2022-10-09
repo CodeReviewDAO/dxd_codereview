@@ -11,15 +11,21 @@ Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
 **Details of what will be delivered in milestone:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Deliverables:
+Clone the Ethereum Contract to Solana.
+Integrate Boosty’s oracle/validator system.
+
+We request half the value of this milestone in advance per #191, resolution relating to “MILESTONE PAYMENTS”.
 
 **Acceptance criteria:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Users can send bridge tokens through Boosty’s Ethereum and Casper contracts.  These contracts will be deployed to solana testnet and mainnet with the rest of the Boosty Bridge hits those phases but that is out of scope for this grant.
+
+CRDAO will be evaluating the solana contracts and test suite for the contracts only.  Integration tests will be bundled with Boosty's original grant.
 
 **Additional notes regarding submission from OP:**
 
-_Copy the content for this section of the milestone submission from the DxD MVPR Portal_
+Per completion criteria
 
 ## Milestone Submission
 
@@ -27,7 +33,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/Rengo-Labs/CasperLabs-Solana-bridge | cf2f3c5
 
 
 # Install & Usage Testing Procedure and Findings
