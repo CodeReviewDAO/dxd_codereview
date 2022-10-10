@@ -219,10 +219,11 @@ Code Documented | PASS with Notes
  The reviewer thinks that the documentation needs to be increased and it needs to provide information in detail. Additional notes on documentation: 
 - There is no detailed documentation describing the project, its purpose and its main features
 - It's hard to understand and to use the "configure variables" part in the README file
-- It should be explained why confidential information is requested, and they should not be requested if not required. For example, Casper private key information is requested. It is also not disclosed which Casper account's (User or supervisor) private key information is requested.
-- There is no documentation on unit tests and  how to run them
+- **It should be explained why confidential information is requested**, and they should not be requested if not required. For example, Casper private key information is requested. It is also not disclosed which Casper account's (User or supervisor) private key information is requested.
+- There is no documentation on unit tests and  how to run them.
 - There is no documentation on the errors that can occur while running and testing the application and how to troubleshoot them.
 - There is  lack of usage documentation on the webapp : how it works, what are the steps to use the application, which input should be taken from where and where it should be given.
+- The application is used with 2 main roles (User and supervisor). Users in these roles interact with the same interface. It is not clear what information users in these roles should provide, and where and in what format they will receive this information.
 
 **These issues have been reported as one of the issues that should be corrected by the reviewer after the previous review.**
 
@@ -250,11 +251,13 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-It is stated in README that the project is subject to Casper Labs' common contribution policy. And redirects to [Make Software's contributor guideline](https://github.com/make-software/how-to-casperlabs/blob/master/CONTRIBUTING.md). Also, issues and pull requests parts are open to contribute.
+It is stated in README that the project is subject to Casper Labs' common contribution policy. And redirects to [Make Software's contributor guideline](https://github.com/make-software/how-to-casperlabs/blob/master/CONTRIBUTING.md).The reviewer highly recommends to create Contribution and security policies and a code of conduct specifically for this project.
+
+However, issues and pull requests parts are open to contribute.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS
+OSS contribution best practices | PASS with Notes
 
 
 # Coding Standards
