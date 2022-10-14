@@ -140,11 +140,11 @@ The source code is well-written and very clear. General best coding practices ar
 
 Project meets the coding standards of DEVxDAO and acceptance criteria.
 
-The documentation is good enough as it is now. It can be improved along with the reviewers notes.
+The documentation is good enough as it is now. It can be improved according to the reviewer's notes.
 
-Project has very detailed and comprehensive unit test coverage. All tests work successfully.
+Project has very detailed and comprehensive unit test coverage. Since they are very clear, test themselves can give a good example for usage too. All tests work successfully.
 
-The project has multiplatform support and has instructions for Linux, Windows and MacOS
+The project has multiplatform support and has instructions for Linux, Windows and MacOS.
 
 Reviewer recommends that this submission should PASS with NOTES.
 
