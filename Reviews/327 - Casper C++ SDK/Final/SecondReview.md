@@ -146,9 +146,9 @@ The project has very detailed and comprehensive unit test coverage. Since they a
 
 The project has multiplatform support and instructions for Linux, Windows, and macOS.
 
-The reviewer recommends that this submission should PASS with NOTES.
+The reviewer recommends that this submission should PASS the code review.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | PASS
 ------------ | -------------
