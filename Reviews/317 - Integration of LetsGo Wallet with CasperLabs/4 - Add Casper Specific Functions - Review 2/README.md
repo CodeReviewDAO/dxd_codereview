@@ -72,10 +72,19 @@ These tests should also be tested again manually after Milestone 5 as a note.
 
 The project also allows sign in using Casper Signer and a website to verify appropriate keys. Reviewer was able to successfully sign in to the webpage, send some CSPR using the page and verify the keys. Here are some screenshots from these operations:
 
+### Signing in with Casper Signer:
 ![](assets/casper-signer-connect.png)
+
+### Sending funds and validation:
 ![](assets/casper-signer-send.png)
+
+### Signing send request and validation:
 ![](assets/casper-signer-validation.png)
+
+### Transaction sent:
 ![](assets/transaction-sent.png)
+
+### Deploy of the operation:
 ![](assets/deployment.png)
 
 Requirement | Finding
