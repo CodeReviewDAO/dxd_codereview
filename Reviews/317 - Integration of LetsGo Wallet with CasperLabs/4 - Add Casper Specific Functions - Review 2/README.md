@@ -1,11 +1,13 @@
 Grant Proposal | [317 - Integration of LetsGo Wallet with CasperLabs](https://portal.devxdao.com/public-proposals/317)
 ------------ | -------------
-Milestone | 4
+Milestone | 4 (Review 2)
 Milestone Title | Add Casper Specific Functions
 OP | A1Labs
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
 # Milestone Details
+
+*Note: This is a second review of the Grant #317.*
 
 ## Details & Acceptance Criteria
 
@@ -48,6 +50,7 @@ The following milestone assets/artifacts were submitted for review:
 Repository | Revision Reviewed
 ------------ | -------------
 https://github.com/CasperGoApp/CasperSpecificChainFunctions | f924c67
+https://github.com/CasperGoApp/Chat-Bot-API | 51bd116
 
 *Note:* This milestone was submitted as a separate repository and later merged into the main one.
 
