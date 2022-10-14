@@ -38,7 +38,7 @@ https://github.com/Rengo-Labs/CasperLabs-Uniswap-DemoApp | 5944f82
 
 Reviewer used an Ubuntu 20.04 LTS GitPod cloud machine and a Pardus 21.3 GNU/Linux local machine for this review.
 
-There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however others are remaining. This issue is needed to be addressed in future milestones.
+There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however a high risk one is still remaining. This issue is needed to be addressed in future milestones.
 
 Note: The command for installation is provided as `npm Install` but the second part should also be in lowercase letters: `npm install`.
 
@@ -88,9 +88,9 @@ Using the provided test document, reviewer was able to extensively test the feat
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS with Notes
 
 # Documentation
 
@@ -141,10 +141,9 @@ Source code is well written, easily readable, and conforms to good coding practi
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The project is evolving as intended. Documentation is enough for this milestone but code documentation need improvements. Usage testing was done using manual testing but additional automated tests for the frontend would be a better addition. The license is not matching the one described in the proposal and needs to be updated. The project conforms to open source standards. App works according to its needs and meets the acceptance criteria for this milestone. Because of these reasons, reviewer suggests this milestone to PASS with Notes.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
