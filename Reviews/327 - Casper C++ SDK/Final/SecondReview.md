@@ -94,7 +94,11 @@ Along with build instructions, there are instructions that allow users to run ex
 
 The usage instructions and examples are sufficient; however, it can even be better if "put deploy call" could be run manually as well. This can be solved by giving a path of the private key to the script, as it's done in tests. Manuel usage testing was successful for all examples and RPC calls. Usage documentation is good enough, but it can be improved by giving more examples or explenation to every call especially for "put deploy call".
 
-Sufficient instructions are given to be able to generate auto documentation with `doxygen`. The reviewer successfully generated and was able to view the documentation after using these instructions.
+Sufficient instructions are given to be able to generate auto documentation with `doxygen`. The reviewer successfully generated and was able to view the documentation after using these instructions. Output of the doxgen command and generated html file can be found below: 
+
+[doxygen output](SecondReviewassets/doxyfilelogs.md)
+
+[index.html file](SecondReviewassets/index.html)
 
 As stated in previous milestones and the first review of this milestone, auto-generation of the documentation without manual user invocation can give a better experience.
 
