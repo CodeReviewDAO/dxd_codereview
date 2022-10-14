@@ -34,6 +34,7 @@ The following methods will be implemented:
 
 Requirements of the last milestone is also complete.
 
+We now have multi platform support.
 
 ## Milestone Submission
 
@@ -41,7 +42,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/yusufketen/casper-cpp-sdk | b9f9bd9
+https://github.com/yusufketen/casper-cpp-sdk | 74c8d34
 
 
 # Install & Usage Testing Procedure and Findings
