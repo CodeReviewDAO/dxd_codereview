@@ -49,7 +49,7 @@ https://github.com/yusufketen/casper-cpp-sdk | 74c8d34
 
 ## Installation
 
-Following the instructions in the [README](https://github.com/yusufketen/casper-cpp-sdk) of the porject, reviewer was able to successfully build the source code for this milestone for both the Debug and Release builds on Ubuntu 20.04. Also, it is observed that the project builds on MacOS and Windows aswell. Logs for ubuntu can be found below: 
+Following the instructions in the [README](https://github.com/yusufketen/casper-cpp-sdk) of the project, the reviewer was able to successfully build the source code for this milestone for both the Debug and Release builds on Ubuntu 20.04. Also, it is observed that the project builds on macOS and Windows. Logs for ubuntu can be found below: 
 
 [Debug Build Logs](SecondReviewassets/debugbuildlogs.md)
 
@@ -67,7 +67,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-Project contains sufficient enough unit tests. Following the instrucrions in the [README](https://github.com/yusufketen/casper-cpp-sdk) of the porject, reviewer was able to successfully run tests successfully. Log files for unittests can be found below: 
+The project contains sufficient enough unit tests. Following the instructions in the [README](https://github.com/yusufketen/casper-cpp-sdk) of the project, the reviewer was able to run tests successfully. Logs file for unit tests can be found below: 
 
 [Tests Build Logs](SecondReviewassets/testbuildlogs.md)
 
@@ -81,7 +81,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-The code-level documentation is sufficient enough for this milestone of the project. It has proper comments for all critical classes and methods. Low-level code documentation allows auto generation of documentation aswell.
+The code-level documentation is sufficient enough for this milestone of the project. It has proper comments for all critical classes and methods. Low-level code documentation allows auto-generation of documentation as well.
 
 Requirement | Finding
 ------------ | -------------
@@ -93,9 +93,9 @@ README.md includes clear information about the build and installation of the SDK
 
 Along with build instructions, there are instructions that allow users to run examples automatically. Everything works fine except the put deploy call, and it's expected that the put deploy call won't automatically run without a private key of an account. Also, the repository includes `/example/` folder, which has code samples that show how to use every RPC call. How to run code samples is instructed in the README. The examples run as expected.
 
-The usage instructions and examples are sufficient; however, it can even be better if "put deploy call" could be run manually as well. This can be solved by giving a path of the private key to the script, as it's done in tests. Manuel usage testing was successful for all examples and RPC calls. Usage documentation is good enough, but it can be improved by giving more examples or explenation to every call especially for "put deploy call".
+The usage instructions and examples are sufficient; however, it can even be better if "put deploy call" could be run manually as well. This can be solved by giving a path of the private key to the script, as it's done in tests. Manuel usage testing was successful for all examples and RPC calls. Usage documentation is good enough, but it can be improved by giving more examples or explanations to every call, especially for "put deploy call".
 
-Sufficient instructions are given to be able to generate auto documentation with `doxygen`. The reviewer successfully generated and was able to view the documentation after using these instructions. Output of the doxgen command and generated html file can be found below: 
+Sufficient instructions are given to be able to generate auto documentation with `doxygen`. The reviewer successfully generated and was able to view the documentation after using these instructions. The output of the doxygen command and generated index.html file can be found below: 
 
 [doxygen output](SecondReviewassets/doxyfilelogs.md)
 
@@ -110,7 +110,7 @@ Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-Coverage of code documentation is good enough. Build and Install instructions are clear and the reviewer was able to apply them successfully.
+The Coverage of code documentation is good enough. Build and Install instructions are clear, and the reviewer was able to apply them successfully.
 
 # Open Source Practices
 
@@ -124,7 +124,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Project contains CONTRIBUTING and SECURITY policie which leads to The Code of Conduct. Pull requests and Issues are enabled on the repository.
+The project contains CONTRIBUTING and SECURITY policies, which leads to The Code of Conduct. Pull requests and Issues are enabled on the repository.
 
 Requirement | Finding
 ------------ | -------------
@@ -134,19 +134,19 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-The source code is well-written and very clear. General best coding practices are used throughout the project. Code includes good enough comments as well.
+The source code is well-written and very clear. General best coding practices are used throughout the project. The code includes good enough comments as well.
 
 # Final Conclusion
 
-Project meets the coding standards of DEVxDAO and acceptance criteria.
+The project meets the coding standards of DEVxDAO and acceptance criteria.
 
 The documentation is good enough as it is now. It can be improved according to the reviewer's notes.
 
-Project has very detailed and comprehensive unit test coverage. Since they are very clear, test themselves can give a good example for usage too. All tests work successfully.
+The project has very detailed and comprehensive unit test coverage. Since they are very clear, tests themselves can give a good example for usage too. All tests work successfully.
 
-The project has multiplatform support and has instructions for Linux, Windows and MacOS.
+The project has multiplatform support and instructions for Linux, Windows, and macOS.
 
-Reviewer recommends that this submission should PASS with NOTES.
+The reviewer recommends that this submission should PASS with NOTES.
 
 # Recommendation
 
