@@ -67,6 +67,14 @@ This project has many milestones. For this milestone, usage testing was achieved
 
 These tests should also be tested again manually after Milestone 5 as a note.
 
+The project also allows sign in using Casper Signer and a website to verify appropriate keys. Reviewer was able to successfully sign in to the webpage, send some CSPR using the page and verify the keys. Here are some screenshots from these operations:
+
+![](assets/casper-signer-connect.png)
+![](assets/casper-signer-send.png)
+![](assets/casper-signer-validation.png)
+![](assets/transaction-sent.png)
+![](assets/deployment.png)
+
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
