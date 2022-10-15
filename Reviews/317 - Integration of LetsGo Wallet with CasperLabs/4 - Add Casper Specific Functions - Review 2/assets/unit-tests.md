@@ -1,3 +1,4 @@
+```sh
 root@caspergo:/var/www# npm test
 
 > chat-bot-api@1.0.1 test
@@ -17,3 +18,4 @@ Tests:       7 passed, 7 total
 Snapshots:   0 total
 Time:        15.138 s
 Ran all test suites.
+```
