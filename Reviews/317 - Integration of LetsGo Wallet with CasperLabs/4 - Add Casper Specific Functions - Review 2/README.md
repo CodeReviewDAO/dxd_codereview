@@ -74,19 +74,19 @@ Reviewer was able to generate new keys using BIP39 format via the API calls. Als
 
 The project also allows sign in using Casper Signer and a website to verify appropriate keys. Reviewer was able to successfully sign in to the webpage, send some CSPR using the page and verify the keys. Here are some screenshots from these operations:
 
-### Signing in with Casper Signer:
+#### Signing in with Casper Signer:
 ![](assets/casper-signer-connect.png)
 
-### Sending funds and validation:
+#### Sending funds and validation:
 ![](assets/casper-signer-send.png)
 
-### Signing send request and validation:
+#### Signing send request and validation:
 ![](assets/casper-signer-validation.png)
 
-### Transaction sent:
+#### Transaction sent:
 ![](assets/transaction-sent.png)
 
-### Deploy of the operation:
+#### Deploy of the operation:
 ![](assets/deployment.png)
 
 While the website is fully operational, its design is primitive. It is expected that this page would probably never be used by an end user, but reviewer still suggests styling it so that it has a more user friendly and descriptive look.
