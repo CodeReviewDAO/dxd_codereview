@@ -5,6 +5,7 @@ Milestone Title | Add Casper Specific Functions
 OP | A1Labs
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
+
 # Milestone Details
 
 *Note: This is a second review of the Grant #317.*
@@ -63,12 +64,13 @@ OP provided an installation environment on a remote server that uses Ubuntu 20.0
 ![](assets/install-2.png)
 ![](assets/install-3.png)
 
-
 ## Overall Impression of usage testing
 
-This project has many milestones. For this milestone, usage testing was achieved with unit tests. All test cases cover the acceptance criteria and there were no errors.
+This project has eight milestones in total. For this milestone, usage testing was achieved with API calls and manual testing of the frontend interface for the required website. All test cases cover the acceptance criteria and there were no errors.
 
-These tests should also be tested again manually after Milestone 5 as a note.
+These tests should also be conducted again manually after Milestone 5 as a note.
+
+Reviewer was able to generate new keys using BIP39 format via the API calls. Also, it was possible to restore an existing key in BIP39 format. Finally, reviewer was able to import an existing key from another format successfully.
 
 The project also allows sign in using Casper Signer and a website to verify appropriate keys. Reviewer was able to successfully sign in to the webpage, send some CSPR using the page and verify the keys. Here are some screenshots from these operations:
 
@@ -87,11 +89,14 @@ The project also allows sign in using Casper Signer and a website to verify appr
 ### Deploy of the operation:
 ![](assets/deployment.png)
 
+While the website is fully operational, its design is primitive. It is expected that this page would probably never be used by an end user, but reviewer still suggests styling it so that it has a more user friendly and descriptive look.
+
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS
+
 
 # Unit / Automated Testing
 
@@ -106,6 +111,7 @@ Requirement | Finding
 Unit Tests - At least one positive path test | PASS
 Unit Tests - At least one negative path test | PASS
 Unit Tests - Additional path tests | PASS
+
 
 # Documentation
 
@@ -128,7 +134,8 @@ Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-Code documentation needs improvements and project documentation needs to be added.
+Code documentation needs improvements and project documentation beyond installation instructions needs to be added.
+
 
 # Open Source Practices
 
@@ -142,7 +149,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project contains a CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled.
+The project contains CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
@@ -157,6 +164,8 @@ Code is well prepared and general best practices for implementation are used thr
 
 
 # Final Conclusion
+
+Code is separated into multiple repositories but it would be better to maintain them as one.
 
 The project would benefit greatly from a Continuous Integration (CI) Action on GitHub.
 
