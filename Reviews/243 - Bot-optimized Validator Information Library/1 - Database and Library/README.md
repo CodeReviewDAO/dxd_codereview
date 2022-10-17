@@ -191,7 +191,7 @@ The reviewer checked the endpoint exposes the four following methods :
 
 1- delegationRate
 
-![243](../assets/delegationRate.png "delegationRate")
+![243](./assets/delegationRate.png "delegationRate")
 
 2- state
 
