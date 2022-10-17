@@ -47,7 +47,7 @@ https://github.com/a3mc/helperbot | 6475588
 
 # Install & Usage Testing Procedure and Findings
 
-Following the instructions in the provided README, reviewer was able to successfully build the project on a MacOS Monterey.
+Following the instructions in the provided README, the reviewer was able to successfully build the project on a macOS Monterey.
 
 ![](assets/build.png)
 
@@ -67,13 +67,13 @@ The project has sufficient tests:
 
 Documentation provides sufficient installation instructions. Reviewer easily set up the environment to build the project using these.
 
-The bot ran as intended and posted the specific information mentioned in acceptance criteria. These were observed:
+The bot ran as intended and posted the specific information mentioned in the acceptance criteria. These were observed:
 
 
 - Bot accepts interactive commands to subscribe or unsubscribe to the custom alerts; 
 ![](assets/usage_1.png)
 ![](assets/usage_2.png)
-- It is possible to receive notifications for a given proposals; 
+- It is possible to receive notifications for a given proposal; 
 ![](assets/usage_3.png)
 - The bot is only accessible by the DEVxDAO VAS's, so data returned by the bot remains private and exclusive to the dedicated members; 
 
@@ -89,7 +89,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-All automated unit tests PASS for this milestone. Automated tests cover critical functionality. Reviewer successfully run all automated tests on an MacOS Monterey. Overall quality of tests are sufficient. Test output is below.
+All automated unit tests PASS for this milestone. Automated tests cover critical functionality. Reviewer successfully run all automated tests on an macOS Monterey. The overall quality of tests is sufficient. The test output is below.
 
 - [Test Logs](assets/test_logs.txt)
 
@@ -103,7 +103,7 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-The code is now overall well documented and almost all classes and critical functions have acceptable code-level documentation.
+The code is now overall well documented, and almost all classes and critical functions have acceptable code-level documentation.
 
 Requirement | Finding
 ------------ | -------------
@@ -111,7 +111,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-Project documentation is sufficient to build and set up the bot, create Telegram channels and connect bot to the channel. Reviewer was able to complete necessary operations following the information provided by the documentation.
+Project documentation is sufficient to build and set up the bot, create Telegram channels and connect the bot to the channel. The reviewer was able to complete the necessary operations following the information provided by the documentation.
 
 Requirement | Finding
 ------------ | -------------
@@ -146,12 +146,12 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Source code is well-written and documented. General best coding practices are used throughout the project. The project as committed to GitHub and both the unit tests and the manual tests pass.
+The source code is well-written and documented. General best coding practices are used throughout the project. The project is committed to GitHub and both the unit tests and the manual tests are passed.
 
 
 # Final Conclusion
 
-The project provides the functionality described in the grant application and milestone acceptance criteria. Also the code is well documented and open to public participation. 
+The project provides the functionality described in the grant application and milestone acceptance criteria. Also, the code is well-documented and open to public participation. 
 
 
 # Recommendation
