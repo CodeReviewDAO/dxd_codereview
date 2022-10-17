@@ -181,7 +181,7 @@ The reviewer was then able to connect to Swagger REST endpoint that was deployed
 
 **The reviewer recommends the OP to add a section on how to Run the application as a Service**
 
-![243](../assets/swagger_Rest.png "endpoint")
+![243](./assets/swagger_Rest.png "endpoint")
 
 The reviewer checked the endpoint exposes the four following methods : 
 
