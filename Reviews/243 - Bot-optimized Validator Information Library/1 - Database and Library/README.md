@@ -195,15 +195,15 @@ The reviewer checked the endpoint exposes the four following methods :
 
 2- state
 
-![243](../assets/state.png "state")
+![243](./assets/state.png "state")
 
 3- totalDelegators
 
-![243](../assets/total_delegators.png "total_delegators")
+![243](./assets/total_delegators.png "total_delegators")
 
 3- totalStake
 
-![243](../assets/total_stake.png "total_stake")
+![243](./assets/total_stake.png "total_stake")
 
 ## Overall Impression of usage testing
 
