@@ -266,7 +266,7 @@ The project documentation is generally sufficient and the instructions for build
 The -Example Usage- paragraph in the Readme file details the different operations exposed by the endpoint.
 The Rest API deployed  through Swagger once the application is launched  is well documented.<br>
 **However,The OP does not provide documentation on the Database part. This is not blocking as this is the first milestone but the OP is encouraged 
-to provide details on the use and  structure of the database used in the project for the next milestone.**
+to provide details on the use and  structure of the database used in the project for the next milestone.** <br>
 For a project of this size, overall documentation is clear and sufficient.
 
 
