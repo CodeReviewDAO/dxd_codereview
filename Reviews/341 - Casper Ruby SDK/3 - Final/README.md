@@ -116,7 +116,7 @@ abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/341-3/casper-ruby-sdk$ gem build
 ````
 
 
-* Installing testing tools 
+* Instal testing tools 
 
 ```bash
 abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/341-3/casper-ruby-sdk$ gem install rspec
@@ -143,7 +143,7 @@ The reviewer  was also able to verify the presence of byte [Serialization](https
 objects (related to sending a deploy to the network: Deploy, Block, DeployExecutable etc...).
 
 # Unit / Automated Testing
-The project has very good test coverage with more than 238 unit tests covering positive tests and exceptional cases
+The project has very good test coverage with more than 238 unit tests covering positive tests and exceptional cases.
 The OP has since the last milestone added logging functionality to unit tests. 
 We can understand the course of these tests when they are launched.
 The reviewer was also able to check the presence of many negative path tests across the project.
@@ -161,7 +161,7 @@ Unit Tests - Additional path tests | PASS
 # Documentation
 
 ### Code Documentation
-A commendable effort has been made to document the project code following the remarks made on this point in the review of milestone 2. 
+A commendable effort has been made to document the project code following the remarks made on this point. In the review of milestone 2. 
 The code is now overall well documented now and almost all critical functions designed for milestone 3 have acceptable code-level documentation.
 
 Requirement | Finding
@@ -213,7 +213,7 @@ Code is generally well-structured and readable. The project has been committed t
 # Final Conclusion
 
 The project provides the functionality described in the grant application and milestone acceptance criteria. 
-The SDK is well-documented and has a very good level of tests
+The SDK is well-documented and has a very good level of tests. 
 In the reviewer's opinion, this submission should pass.
 
 # Recommendation
