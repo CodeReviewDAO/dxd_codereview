@@ -116,7 +116,7 @@ abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/341-3/casper-ruby-sdk$ gem build
 ````
 
 
-* Instal testing tools 
+* Install testing tools 
 
 ```bash
 abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/341-3/casper-ruby-sdk$ gem install rspec
