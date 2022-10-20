@@ -90,7 +90,7 @@ Bundle complete! 13 Gemfile dependencies, 36 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 
-* Install and build casper_network0.2.0 gem from repository
+* Install and build casper_network1.1.2 gem from repository
 
 ```bash
 
