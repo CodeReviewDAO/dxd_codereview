@@ -1,3 +1,4 @@
+```bash
 abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/341-3/casper-ruby-sdk$ bundle exec rspec -fd
 
 Utils::ByteUtils
@@ -388,3 +389,4 @@ Utils::TimeUtils
 
 Finished in 0.41166 seconds (files took 3.68 seconds to load)
 238 examples, 0 failures
+```
