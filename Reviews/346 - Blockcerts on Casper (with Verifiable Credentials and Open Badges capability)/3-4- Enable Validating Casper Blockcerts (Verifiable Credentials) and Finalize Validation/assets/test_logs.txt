@@ -1,0 +1,93 @@
+(base) mdidin@Muhammed-MacBook-Air casper-blockcerts-verifier % npm run test
+
+> @blockcerts/blockcerts-verifier@0.0.0-dev test
+> npm run test:application
+
+
+> @blockcerts/blockcerts-verifier@0.0.0-dev test:application
+> jest --detectOpenHandles --runInBand --silent
+
+ts-jest[versions] (WARN) Version 25.5.4 of jest installed has not been tested with ts-jest. If you're experiencing issues, consider using a supported version (>=26.0.0 <27.0.0-0). Please do not report issues in ts-jest if you are using unsupported versions.
+ PASS  test/application/actions/updateCertificateDefinition.spec.ts (25.904s)
+ PASS  test/application/selectors/certificate.spec.ts (28.814s)
+ PASS  test/application/containers/atoms/VerifyOtherCertificateLinkContainer.spec.ts (9.301s)
+ PASS  test/application/containers/organisms/FullScreenCertificateContainer.spec.ts (13.51s)
+ PASS  test/application/containers/atoms/FinalVerificationStepContainer.spec.ts (9.054s)
+ PASS  test/application/blockcerts-verifier/BlockcertsVerifierContainer.spec.ts
+ PASS  test/application/actions/verifyCertificate.spec.ts (7.154s)
+ PASS  test/application/containers/organisms/VerificationProcessContainer.spec.ts (5.411s)
+ PASS  test/application/containers/atoms/CertificateDetailsContainer.spec.ts (6.704s)
+ PASS  test/application/containers/organisms/FullCertificateContainer.spec.ts (5.328s)
+ PASS  test/application/selectors/getDisplay/getDisplay.display.jpeg.spec.ts
+ PASS  test/application/domain/events/useCases/dispatch.spec.js
+ PASS  test/application/containers/atoms/VerifyButtonContainer.spec.ts (5.378s)
+ PASS  test/application/actions/updateParentStepStatus.spec.ts
+ PASS  test/application/domain/certificates/useCases/retrieve.spec.js
+ PASS  test/application/actions/shareSocialNetwork.spec.js
+ PASS  test/application/containers/atoms/DownloadPDFLinkContainer.spec.ts
+ PASS  test/application/selectors/getDisplay/getDisplay.display.html.spec.ts
+ PASS  test/application/actions/clearVerifiedSteps.spec.js
+ PASS  test/application/containers/molecules/SocialShareContainer.spec.js
+ PASS  test/application/actions/resetCertificateDefinition.spec.ts
+ PASS  test/application/containers/organisms/ActionMenuContainer.spec.js
+ PASS  test/application/selectors/getMetadata.spec.ts
+ PASS  test/application/containers/atoms/DownloadLinkContainer.spec.js
+ PASS  test/application/selectors/getDisplay/getDisplay.display.bmp.spec.ts
+ PASS  test/application/selectors/getDisplay/getDisplay.display.gif.spec.ts
+ PASS  test/application/selectors/getDisplay/getDisplay.display.png.spec.ts
+ PASS  test/application/containers/atoms/FullCertificateContainer.spec.js
+ PASS  test/application/selectors/getDisplay/getDisplay.display.pdf.spec.ts
+ PASS  test/application/selectors/getDisplay/getDisplay.displayHtml.spec.ts
+ PASS  test/application/actions/initialize.spec.ts
+ PASS  test/application/domain/certificates/useCases/parse.spec.ts
+ PASS  test/application/blockcerts-verifier/BlockcertsVerifier.spec.js
+ PASS  test/application/containers/organisms/VerificationModalContainer.spec.js
+ PASS  test/application/components/organisms/FullScreenCertificate.spec.ts
+ PASS  test/application/components/organisms/FullCertificate.spec.ts
+ PASS  test/application/domain/certificates/useCases/isPathToCertificateValidURI.spec.ts
+ PASS  test/application/components/atoms/CertificateDetails.spec.ts
+ PASS  test/application/domain/certificates/useCases/displayHtmlHasNoWidthConstraint.spec.ts
+ PASS  test/application/components/organisms/CardCertificate.spec.ts
+ PASS  test/application/actions/startVerificationProcess.spec.ts
+ PASS  test/application/actions/updateFinalStep.spec.js
+ PASS  test/application/actions/resetVerificationStatus.spec.ts
+ PASS  test/application/store/getInitialState.spec.js
+ PASS  test/application/actions/validateUrlInput.spec.js
+ PASS  test/application/actions/showVerificationModal.spec.js
+ PASS  test/application/domain/certificates/useCases/download.spec.js
+ PASS  test/application/components/organisms/SubstepsList.spec.ts
+ PASS  test/application/helpers/getImageSize.spec.ts
+ PASS  test/application/helpers/getPDFCoverPage.spec.ts
+ PASS  test/application/helpers/file.spec.ts
+ PASS  test/application/helpers/jspdf.spec.ts
+ PASS  test/application/components/atoms/FileUpload.withoutDnD.spec.js
+ PASS  test/application/helpers/urlToLink.spec.ts
+ PASS  test/application/i18n/ensureIsSupported.spec.js
+ PASS  test/application/sanitizer/sanitizer.spec.js
+ PASS  test/application/helpers/canDragAndDrop.true.spec.js
+ PASS  test/application/helpers/canDragAndDrop.false.spec.js
+ PASS  test/application/components/atoms/BlockcertsLogo.spec.js
+ PASS  test/application/components/atoms/FormattedMetadataItem.spec.js
+ PASS  test/application/components/atoms/FinalVerificationStep.spec.js
+ PASS  test/application/helpers/generateQrCode.spec.ts
+ PASS  test/application/components/atoms/FileUpload.spec.js
+ PASS  test/application/i18n/getText.spec.js
+ PASS  test/application/i18n/setLocale.spec.js
+ PASS  test/application/i18n/getOrdinalNumber.it.spec.ts
+ PASS  test/application/helpers/getValueFrom.spec.js
+ PASS  test/application/i18n/getOrdinalNumber.fr.spec.ts
+ PASS  test/application/i18n/getDateFormat.spec.ts
+ PASS  test/application/helpers/base64.spec.ts
+ PASS  test/application/i18n/getOrdinalNumber.en.spec.ts
+ PASS  test/application/helpers/getRenderString.spec.ts
+ PASS  test/application/helpers/contentTypes.spec.ts
+ PASS  test/application/i18n/detectLocale.spec.js
+ PASS  test/application/i18n/getOrdinalNumber.es.spec.ts
+ PASS  test/application/helpers/getHTMLElementSize.spec.ts
+ PASS  test/application/helpers/cssProperties.spec.ts
+ PASS  test/application/i18n/getSupportedLanguages.spec.js
+
+Test Suites: 78 passed, 78 total
+Tests:       7 skipped, 393 passed, 400 total
+Snapshots:   0 total
+Time:        229.84s

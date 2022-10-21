@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "urn:uuid:bbba8553-8ec1-445f-82c9-a57251dd731c",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": "https://app.digit.ink/server/issuer-profiles/csprIssuer.json",
+  "issuanceDate": "2022-01-01T19:33:24Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21"
+  },
+  "signature": {
+    "type": [
+      "MerkleProof2017",
+      "Extension"
+    ],
+    "merkleRoot": "8023bc21828d777b2baaced41d9bacfae60f3b9f5e6ed331a7fb6514eb53d2a6",
+    "targetHash": "8023bc21828d777b2baaced41d9bacfae60f3b9f5e6ed331a7fb6514eb53d2a6",
+    "proof": [],
+    "anchors": [
+      {
+        "sourceId": "2067c5e1030fb3ccce7872c595ffb9d3353694f2305a7aab5d2845ebbab59993",
+        "type": "CSPRData",
+        "chain": "casperMainnet"
+      }
+    ]
+  }
+}
