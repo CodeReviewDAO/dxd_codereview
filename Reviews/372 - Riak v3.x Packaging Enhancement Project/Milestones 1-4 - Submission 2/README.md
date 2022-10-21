@@ -132,9 +132,11 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-Since this is an open source pull request made into another repo, whose license status is not clear, some aspects of this review are not completely compatible with the expectations of CRDAO. Since the OP has no direct influence on the main repository, they cannot modify some parts of it, namely change the license, provide extra unit tests, and etc. These should be regarded by DEVxDAO while giving the final decision on this grant.
+Since this is an open source pull request made into another repo, whose license status is not clear, some aspects of this review are not completely compatible with the expectations of CRDAO. Since the OP has no direct influence on the main repository, they cannot modify some parts of it, namely change the license, provide extra unit tests, and etc. However, DEVxDAO waived some requirements for this grant:
 
-To summarize, project does what it is supposed to do. However, some aspects needed for this review are missing. There is no specific documentation, there are missing licenses, there is no mention of tests, and finally no work on contribution and security policies exist. Because of these shortcomings, reviewer suggests this project to FAIL.
+> Previous review of this job failed due to a licensing semantic. Per vote #637 (https://portal.devxdao.com/app/proposal/637) on the DEVxDAO, this particular licensing semantic has been waived for this job and this job specifically. Therefore, this job is being reposted for re-consideration under the new standards. The existing review is fine in content and the review should not need to be rerun.
+
+This decision is effective. The project meets the acceptance criteria. Because of these, reviewer suggests this milestone to PASS with Notes.
 
 
 # Recommendation
