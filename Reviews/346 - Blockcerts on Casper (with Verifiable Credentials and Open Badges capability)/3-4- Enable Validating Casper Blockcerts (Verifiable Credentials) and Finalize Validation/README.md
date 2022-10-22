@@ -11,7 +11,7 @@ Reviewer | Muhammed Didin <mdidin80@gmail.com>
 
 **Details of what will be delivered in milestone:**
 
-
+A Casper Blockcerts-compatible validator to a website or web app.
 
 **Acceptance criteria:**
 
@@ -27,7 +27,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/amazanzan/casper-blockcerts-verifier | b36fe47
+https://github.com/amazanzan/casper-blockcerts-verifier | a839b15
 
 
 # Install & Usage Testing Procedure and Findings
@@ -45,17 +45,22 @@ Following the instructions in the README file of the repository, the reviewer wa
 After building, the mainpage welcomes the user. 
 ![Mainpage](assets/mainpage.png)
 
-For verifying for Casper, the user pushed "Casper Testnet" and "Casper Mainnet" buttons.
+For verifying for Casper, the reviewer pushed "Casper Testnet" and "Casper Mainnet" buttons.
 ![](assets/query.png)
 
 
 There are two options: verifying with URL or a JSON file.
 
 
-The reviewer provided a JSON file. After checking the cert, the program gave the result as the cert is "Verified"
-![](assets/verify_2.png)
+The reviewer provided a JSON file both in Casper Testnet and Mainnet. After checking the cert, the program gave the result as these certs are "Verified".
 
-Sample Deploy: https://testnet.cspr.live/deploy/6b236c80f5b324b1d175496efef10bfcc36f34a22388806d82ba47ab06a5711e
+![Casper Testnet Result](assets/verify_2.png)
+
+Sample Testnet Deploy: https://testnet.cspr.live/deploy/6b236c80f5b324b1d175496efef10bfcc36f34a22388806d82ba47ab06a5711e
+
+
+![Casper Mainnet Result](assets/verify_mainnet.png)
+Sample Mainnet Deploy: https://cspr.live/deploy/2067c5e1030fb3ccce7872c595ffb9d3353694f2305a7aab5d2845ebbab59993
 
 The program also gives proper error messages when providing a unverified cert.
 ![](assets/verify_3.png)
@@ -73,7 +78,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The reviewer was able to successfully run the unit tests. The bash script provided in the README file was able to run the unit tests. The project has 400 unit tests which covers all critical classes and methods. 
+The reviewer was able to successfully run the unit tests. The bash script provided in the README file was able to run the unit tests. The project has sufficient amount of unit tests which covers all critical classes and methods. There are 7 unit tests that are skipped. The OP told the reviewer that  these are from the forked repository and they were skipped because they are related to the old functionality.
 
 ![](assets/tests_1.png)
 ![](assets/tests_2.png)
@@ -98,7 +103,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-The Readme file has sufficient basic usage instructions for the implemented methods. The reviewer was able to build, run and use the project using project documentation. Moreover, the project has sample usage examples.
+The Readme file has sufficient basic usage instructions for the implemented methods. The reviewer was able to build, run and use the project using project documentation.
 
 
 Requirement | Finding
@@ -122,11 +127,11 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-The project does not contain contributing and security policies. But pull request and issue fields are open to public participation. The reviewer highly recommends the OP to create contributing and security policies and a code of conduct.
+The project has Contributing and Security Policies and a Code of Conduct.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
