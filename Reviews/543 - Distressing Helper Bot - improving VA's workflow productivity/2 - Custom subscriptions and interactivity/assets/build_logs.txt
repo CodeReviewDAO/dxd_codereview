@@ -1,0 +1,10 @@
+(base) mdidin@Muhammed-MacBook-Air helperbot % npm run migrate 
+
+> helperbot@1.0.0 migrate
+> npm run build && node dist/migrate.js
+
+
+> helperbot@1.0.0 build
+> npx tsc
+
+info: Finished running migrations. {"timestamp":"2022-10-17T17:27:32.824Z"}
