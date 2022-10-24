@@ -80,7 +80,8 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The reviewer observed that both the backend and the frontend tests run successfully, and the API tests cover the critical functionality although the front-end tests are minimal.
 
-- [Backend tests](assets/backend-tests.md)
+![API Tests](assets/api-tests.png)
+API Tests
 
 - [Frontend tests](assets/cypress-tests.md)
 
