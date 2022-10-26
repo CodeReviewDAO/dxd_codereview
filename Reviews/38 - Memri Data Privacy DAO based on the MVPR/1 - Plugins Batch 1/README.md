@@ -54,30 +54,100 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://gitlab.memri.io/memri/plugins | 1111aaaa
+https://gitlab.memri.io/memri/plugins/whatsapp-multi-device | 084b8a44a78da9c4f331bcba92d1192c47dcc9ad
+https://gitlab.memri.io/memri/plugins/twitter | a56e041e8befdddd6aa241964e46ebb16ec1978e
+https://gitlab.memri.io/memri/plugins/instagram | 7657837227fd603ed2a97aabfde131b8dad7d40e
+https://gitlab.memri.io/memri/plugins/gmail | 795a5072cd9dd4d19ca2c8aa98ed96fd603196a4
+https://gitlab.memri.io/memri/plugins/sentiment_plugin | 6f0e0ba6bc8c432196f7043db1d3a5c8657071d9
 
 
 # Install & Usage Testing Procedure and Findings
 
-General Notes
-As suggested, I went to the documentation at https://docs.memri.io/overview/quickStart/ to begin the installation process. There was an immediate obstacle in following the instructions as the links to obtain the “Pod” and the “Flutter front-end” resulted in 404 pages.
-Although I managed to find the Pod and the Flutter front-end at the gitlab repository listed in the job, it would be good to fix the broken links or remove them completely as it can confuse a user during initial set up.
+There was some issue in the initial installation process of the Memri POD required to test the plugins as the reviewer used a Windows machine, but after troubleshooting, the reviewer was able to get a POD up and running on Docker to begin test on the plugins. However, the process of installing a Memri POD is not the main subject matter of this job, so reviewer takes it as a granted that the Memri POD is working.
+
+## Whatsapp Plugin 
+
+### Install 
+
+After downloading the repository (https://gitlab.memri.io/memri/plugins/whatsapp-multi-device), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+'''
+pip install -e .
+'''
+
+There was an issue in the installation being caused by requiring "pycrytpo" for the plugin. However, removal of the requirement in the setup.py file allowed a successful install.
+
+### Usage
+
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+
+### Acceptance criteria for plugins
 
 
-##Installation
-###Setting up Pod
-####Hosted
-####Using Docker
-####Local build
-###Setting up flutter front-end
 
-### Connecting front-end and Pod
+## Twitter Plugin
 
+### Install
 
-###Documentation
+After downloading the repository (https://gitlab.memri.io/memri/plugins/twitter), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-### Build
+'''
+pip install -e .
+'''
 
+### Usage
+
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+
+### Acceptance criteria for plugins
+
+## Instagram Plugin
+
+### Install 
+
+After downloading the repository (https://gitlab.memri.io/memri/plugins/instagram), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+'''
+pip install -e .
+'''
+
+### Usage
+
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+
+### Acceptance criteria for plugins
+
+## Gmail Plugin
+
+### Install 
+
+After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+'''
+pip install -e .
+'''
+
+### Usage
+
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+
+### Acceptance criteria for plugins
+
+## Sentiment Plugin
+
+### Install
+
+After downloading the repository (https://gitlab.memri.io/memri/plugins/sentiment_plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+'''
+pip install -e .
+'''
+
+### Usage
+
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+
+### Acceptance criteria for plugins
 
 ## Overall Impression of usage testing
 
@@ -86,85 +156,116 @@ below. In the case of `PASS With Notes`, make sure that the notes for improvemen
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors |  PASS with Notes
+Documentation provides sufficient installation/execution instructions | PASS 
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+## Whatsapp Plugin 
+
+The tests run successfully. (See whatsapp_testresults.txt)
+
+## Twitter Plugin
+
+The tests run successfully. (See twitter_testresults.txt)
+
+## Instagram Plugin
+
+The tests run successfully. (See instagram_testresults.txt)
+
+## Gmail Plugin
+
+The tests run successfully. (See gmail_testresults.txt)
+
+## Sentiment Plugin
+
+The tests run successfully. (See sentiment_testresults.txt)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS 
+Unit Tests - At least one negative path test | PASS 
+Unit Tests - Additional path tests | PASS 
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Overall, for each plugin, the code is clear and readable enough to follow even for someone new to the project. Where context is needed for memory addresses, flags, or potentially confusing areas, proper documentation has been added to make clear what is being done.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process, but it is a bit terse. 
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS with Notes
+
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+The reviewer concludes that the project has sufficient and comprehensive general documentation.
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The required license for these plugins is the Memri Privacy Preserving License. This license is present in the repositories of each plugin.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+Memri Privacy Preserving License | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Pull requests and Issues are enabled for all the plugin repositories. 
 
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+### Whatsapp Plugin 
+
+The repository doesn't contain a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+
+### Twitter Plugin
+
+The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+
+### Instagram Plugin
+
+The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+
+### Gmail Plugin
+
+The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+
+### Sentiment Plugin
+
+The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+
+The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct 
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+The Code is generally well-structured and readable, and documentation is added where context is necessary. 
+
+The README instructions for the plugins are clear enough to follow and when everything is properly setup, it is a simple process to use the plugins. However, it may be good to include that Windows is not currently supported and make it clear that there may be many installation obstacles to get a proper Memri POD up and running, if not in the plugins then on the https://docs.memri.io/overview/quickStart/
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The project meets the functional requirements and the Reviewer was able to confirm that the plugins designed for the current milestone run as expected. However, the Reviewer faced a lot of issues in trying to install the plugins and the Memri POD on a Windows machine. It could be due to a lack of familiarity with the project on the Reviewer's behalf, but this may be something that could be looked into. In addition, the Reviewer suggests revisiting the Memri POD quickstart guide (https://docs.memri.io/overview/quickStart/) to ensure it is up to date. 
+
+The reviewer also suggests adding in the missing policies and adding tags to each repository to improve discoverability.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
