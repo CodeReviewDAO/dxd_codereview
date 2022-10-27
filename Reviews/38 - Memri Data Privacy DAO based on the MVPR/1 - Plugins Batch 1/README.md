@@ -166,19 +166,19 @@ The tests run successfully. See [whatsapp_testresults.MD](https://github.com/hoo
 
 ## Twitter Plugin
 
-The tests run successfully. [See twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
+The tests run successfully. See [twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
 
 ## Instagram Plugin
 
-The tests run successfully. [See instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
+The tests run successfully. See [instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
 
 ## Gmail Plugin
 
-The tests run successfully. [See gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
+The tests run successfully. See [gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
 
 ## Sentiment Plugin
 
-The tests run successfully. [See sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
+The tests run successfully. See [sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
 
 Requirement | Finding
 ------------ | -------------
