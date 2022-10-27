@@ -101,7 +101,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/instagra
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully login to an Instagram account and import Instagram post data.
 
 ## Gmail Plugin
 
