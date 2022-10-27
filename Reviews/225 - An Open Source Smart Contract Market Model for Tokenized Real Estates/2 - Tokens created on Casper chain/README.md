@@ -20,11 +20,11 @@ It contains an explanation of the various decisions taken throughout the work ("
 
  **Acceptance criteria:**
 
-- Real Estate Token example implementations on Casper chain (+ potentially other chains) have been completed. (Code uploaded on github)
+- Real Estate Token example implementations on the Casper chain (+ potentially other chains) have been completed. (Code uploaded on GitHub)
 
  **Additional notes regarding submission from OP:**
 
-- Furtheremore, the section "Manual Testing" in the README.md file provides 3 test account hashes that contain examples of the results and history of executing the steps outlined in this section.
+- Furthermore, the section "Manual Testing" in the README.md file provides 3 test account hashes that contain examples of the results and history of executing the steps outlined in this section.
 
 
  ## Milestone Submission
@@ -33,13 +33,13 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/NoumenaDigital/devxdao-m2 | d4eec5c
+https://github.com/NoumenaDigital/devxdao-m2 | caa6235
 
 # Install & Usage Testing Procedure and Findings
 
-Instructions at the README.md file in the repository(https://github.com/NoumenaDigital/devxdao-m2) are well-written that makes usage of project really easy. They explain a clear path for users, and following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from a Mac (macOS Monterey - MacBook Pro Intel i9 2019) and an Ubuntu Machine (Ubuntu 18.04.6) and successfully run both tests and the project itself.
+Instructions in the README.md file in the repository(https://github.com/NoumenaDigital/devxdao-m2) are well-written that make usage of the project easy. They explain a clear path for users, and following instructions step by step helps the user to run and test the codebase. The reviewer followed these steps from a Mac (macOS Monterey - MacBook Pro Intel i9 2019) and an Ubuntu Machine (Ubuntu 18.04.6) and successfully run both tests and the project itself.
 
-However, first version that submitted to system was not sufficient for project to pass, because it was a private repository that does not cover OSS best practices. The reviewer communicated with the OP about the situation, and OP and their team took a quick action and fixed the issues.
+However, the first version that was submitted to the system was not sufficient for the project to pass, because it was a private repository that does not cover OSS best practices. The reviewer communicated with the OP about the situation, and the OP and their team took quick action and fixed the issues.
 
 ## Overall Impression of usage testing
 
@@ -130,7 +130,7 @@ The project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS
+OSI-approved open-source software license | PASS
 
 ## Contribution Policies
 
