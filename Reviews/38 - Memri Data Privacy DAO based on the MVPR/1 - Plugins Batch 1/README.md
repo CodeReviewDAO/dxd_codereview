@@ -113,7 +113,8 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), 
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data.
+
 
 ## Sentiment Plugin
 
