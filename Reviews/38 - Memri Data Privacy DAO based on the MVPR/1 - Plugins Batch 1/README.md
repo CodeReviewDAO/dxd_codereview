@@ -126,7 +126,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/sentimen
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+The Reviewer followed the instructions in the README to run the plugin after starting a Pod in docker. The Reviewer had data to make predictions on from running the Whatsapp plugin, and after running the plugin, was able to confirm that labels with the sentiment of the message have been added to the data in the Pod.
 
 ## Overall Impression of usage testing
 
