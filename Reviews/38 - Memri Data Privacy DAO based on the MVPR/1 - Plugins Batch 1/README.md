@@ -71,9 +71,7 @@ There was some issue in the initial installation process of the Memri POD requir
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/whatsapp-multi-device), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''
-pip install -e .
-'''
+'''pip install -e .'''
 
 There was an issue in the installation being caused by requiring "pycrytpo" for the plugin. However, removal of the requirement in the setup.py file allowed a successful install.
 
@@ -81,23 +79,17 @@ There was an issue in the installation being caused by requiring "pycrytpo" for 
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-
-
-
 ## Twitter Plugin
 
 ### Install
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/twitter), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''
-pip install -e .
-'''
+'''pip install -e .'''
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
-
+The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully login to the Twitter API via oauth. Afterwards, the Reviewer was able to import data for the User account, Followers and following accounts, and user timeline tweets.
 
 ## Instagram Plugin
 
@@ -105,15 +97,11 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/instagram), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''
-pip install -e .
-'''
+'''pip install -e .'''
 
 ### Usage
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
-
-
 
 ## Gmail Plugin
 
@@ -121,15 +109,11 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''
-pip install -e .
-'''
+'''pip install -e .'''
 
 ### Usage
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
-
-
 
 ## Sentiment Plugin
 
@@ -137,15 +121,11 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/sentiment_plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''
-pip install -e .
-'''
+'''pip install -e .'''
 
 ### Usage
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
-
-
 
 ## Overall Impression of usage testing
 
