@@ -81,7 +81,6 @@ There was an issue in the installation being caused by requiring "pycrytpo" for 
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-### Acceptance criteria for plugins
 
 
 
@@ -99,7 +98,6 @@ pip install -e .
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-### Acceptance criteria for plugins
 
 ## Instagram Plugin
 
@@ -115,7 +113,7 @@ pip install -e .
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-### Acceptance criteria for plugins
+
 
 ## Gmail Plugin
 
@@ -131,7 +129,7 @@ pip install -e .
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-### Acceptance criteria for plugins
+
 
 ## Sentiment Plugin
 
@@ -147,7 +145,7 @@ pip install -e .
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
 
-### Acceptance criteria for plugins
+
 
 ## Overall Impression of usage testing
 
@@ -164,23 +162,23 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 ## Whatsapp Plugin 
 
-The tests run successfully. (See whatsapp_testresults.txt)
+The tests run successfully. See [whatsapp_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_testresults.MD)
 
 ## Twitter Plugin
 
-The tests run successfully. (See twitter_testresults.txt)
+The tests run successfully. [See twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
 
 ## Instagram Plugin
 
-The tests run successfully. (See instagram_testresults.txt)
+The tests run successfully. [See instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
 
 ## Gmail Plugin
 
-The tests run successfully. (See gmail_testresults.txt)
+The tests run successfully. [See gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
 
 ## Sentiment Plugin
 
-The tests run successfully. (See sentiment_testresults.txt)
+The tests run successfully. [See sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
 
 Requirement | Finding
 ------------ | -------------
