@@ -77,7 +77,13 @@ There was an issue in the installation being caused by requiring "pycrytpo" for 
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully import messages and connect with Whatsapp.
+The Reviewer followed the instructions in the README to run the plugin within the frontend app and was able to successfully import messages and connect with Whatsapp.
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success1.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success2.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success3.PNG)
 
 ## Twitter Plugin
 
@@ -89,7 +95,13 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/twitter)
 
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully login to the Twitter API via oauth. Afterwards, the Reviewer was able to import data for the User account, Followers and following accounts, and user timeline tweets.
+The Reviewer followed the instructions in the README to run the plugin within the frontend app and was able to successfully login to the Twitter API via oauth. Afterwards, the Reviewer was able to import data for the User account, Followers and following accounts, and user timeline tweets. However, it is noted that the date of the posts seem to be off by a month.
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success1.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success2.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success3.PNG)
 
 ## Instagram Plugin
 
@@ -102,6 +114,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/instagra
 ### Usage
 
 The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully login to an Instagram account and import Instagram post data.
+
 
 ## Gmail Plugin
 
