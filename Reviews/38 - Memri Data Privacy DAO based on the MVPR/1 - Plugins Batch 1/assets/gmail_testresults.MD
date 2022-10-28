@@ -1,5 +1,4 @@
-'''
-[0KRunning with gitlab-runner 14.9.1 (bd40e3da)[0;m
+```[0KRunning with gitlab-runner 14.9.1 (bd40e3da)[0;m
 [0K  on gitlab memri public docker-runner Ryesm3zY[0;m
 section_start:1666829017:prepare_executor
 [0K[0K[36;1mPreparing the "docker" executor[0;m[0;m
@@ -722,4 +721,4 @@ section_end:1666829154:step_script
 [0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
 section_end:1666829155:cleanup_file_variables
 [0K[32;1mJob succeeded[0;m
-'''
+```
