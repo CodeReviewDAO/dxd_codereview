@@ -71,7 +71,7 @@ There was some issue in the initial installation process of the Memri POD requir
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/whatsapp-multi-device), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''pip install -e .'''
+'pip install -e .'
 
 There was an issue in the installation being caused by requiring "pycrytpo" for the plugin. However, removal of the requirement in the setup.py file allowed a successful install.
 
@@ -85,7 +85,7 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/twitter), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''pip install -e .'''
+'pip install -e .'
 
 ### Usage
 
@@ -97,7 +97,7 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/instagram), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''pip install -e .'''
+'pip install -e .'
 
 ### Usage
 
@@ -109,7 +109,7 @@ The Reviewer followed the instructions in the README to run the plugin within do
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''pip install -e .'''
+'pip install -e .'
 
 ### Usage
 
@@ -122,7 +122,7 @@ The Reviewer followed the instructions in the README to create an App Password f
 
 After downloading the repository (https://gitlab.memri.io/memri/plugins/sentiment_plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-'''pip install -e .'''
+'pip install -e .'
 
 ### Usage
 
@@ -130,8 +130,7 @@ The Reviewer followed the instructions in the README to run the plugin after sta
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Overall, the plugins build and operate without errors when not on a Windows machine. However, the Reviewer suggests adding a note on the plugins that issues may arise when attempting to utilize the plugins on a Windows operating system. Otherwise, the documentation provides sufficient installation/execution instructions and project functionality meets acceptance criteria.
 
 Requirement | Finding
 ------------ | -------------
@@ -143,29 +142,29 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 ## Whatsapp Plugin 
 
-The tests run successfully. See [whatsapp_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_testresults.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [whatsapp_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_testresults.MD)
 
 ## Twitter Plugin
 
-The tests run successfully. See [twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
 
 ## Instagram Plugin
 
-The tests run successfully. See [instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
 
 ## Gmail Plugin
 
-The tests run successfully. See [gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
 
 ## Sentiment Plugin
 
-The tests run successfully. See [sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/16636690b0d1a9bdc0481fc32249d825ad156705/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS 
-Unit Tests - At least one negative path test | PASS 
-Unit Tests - Additional path tests | PASS 
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | PASS with Notes
+Unit Tests - Additional path tests | PASS with Notes
 
 # Documentation
 
@@ -173,18 +172,19 @@ Unit Tests - Additional path tests | PASS
 
 Overall, for each plugin, the code is clear and readable enough to follow even for someone new to the project. Where context is needed for memory addresses, flags, or potentially confusing areas, proper documentation has been added to make clear what is being done.
 
+However, there may be insufficient code-level comments to auto-generate documentation as not every function has been commented. To the uninitiated user, or to a user that is overwhelmed, it could be a source of confusion. Reviewer suggests revisiting the code-level comments and adding in descriptions for every function as well as formatting for autogeneration of documentation as a user convenience. However, Reviewer does not believe this is enough to justify failure at this early stage and so suggests PASS with Notes.
+
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process, but it is a bit terse. 
+Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process, but it is a bit terse in simply stating the general function of the plugins. More information about each plugin and its potential uses could be included in an "About" section for each plugin. In addition, a unified or standardized template for each plugin's README might be beneficial. Although each plugin's README covers roughly the same topics, the formatting is mostly different between each plugin's README.
 
 Requirement | Finding
 ------------ | -------------
 Usage Documented | PASS with Notes
-
 
 ## Overall Conclusion on Documentation
 
