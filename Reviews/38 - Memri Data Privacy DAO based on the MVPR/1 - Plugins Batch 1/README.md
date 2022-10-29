@@ -126,8 +126,11 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), 
 
 ### Usage
 
-The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data. Note: the path in the README for the credentials is erroneously listed as Instagram when it should be gmail.
+The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data. Note: the path in the README for the credentials is erroneously listed as Instagram when it should be gmail_importer.
 
+However, in attempting to run the steps again on another day, Reviewer was unable to reproduce the results and instead was met with an error message. See [here](https://github.com/hoopav/dxd_codereview/blob/ebff13a78375c4e730be9aaeed7fcb8fd7f879d2/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_error.MD).
+
+The Reviewer notes that Gmail recently had an update however, so the Reviewer suggests Pass with a note to review the api and see if there are any material changes and refactors that must be performed.
 
 ## Sentiment Plugin
 
@@ -143,7 +146,7 @@ The Reviewer followed the instructions in the README to run the plugin after sta
 
 ## Overall Impression of usage testing
 
-Overall, the plugins build and operate without errors when not on a Windows machine. However, the Reviewer suggests adding a note on the plugins that issues may arise when attempting to utilize the plugins on a Windows operating system. Otherwise, the documentation provides sufficient installation/execution instructions and project functionality meets acceptance criteria.
+Overall, the plugins build and operate without errors when not on a Windows machine. However, the Reviewer suggests adding a note on the plugins that issues may arise when attempting to utilize the plugins on a Windows operating system.  Otherwise, the documentation provides sufficient installation/execution instructions and project functionality meets acceptance criteria.
 
 Requirement | Finding
 ------------ | -------------
