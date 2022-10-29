@@ -148,6 +148,21 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/sentimen
 
 The Reviewer followed the instructions in the README to run the plugin after starting a Pod in docker. The Reviewer had data to make predictions on from running the Whatsapp plugin, and after running the plugin, was able to confirm that labels with the sentiment of the message have been added to the data in the Pod.
 
+However, after attempting to run the plugin again on a fresh set of Whatsapp data, the Reviewer was unable to do so. As a result, the Reviewer used the test data to run the plugin.
+
+Confirmation of uploaded dummy data
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success1.PNG)
+
+Selecting the message to examine
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success2.PNG)
+
+Successful addition of sentiment data
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success3.PNG)
+
+
 ## Overall Impression of usage testing
 
 Overall, the plugins build and operate without errors when not on a Windows machine. However, the Reviewer suggests adding a note on the plugins that issues may arise when attempting to utilize the plugins on a Windows operating system.  Otherwise, the documentation provides sufficient installation/execution instructions and project functionality meets acceptance criteria.
