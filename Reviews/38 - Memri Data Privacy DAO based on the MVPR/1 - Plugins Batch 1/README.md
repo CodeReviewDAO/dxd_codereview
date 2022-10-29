@@ -126,7 +126,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), 
 
 ### Usage
 
-The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data.
+The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data. Note: the path in the README for the credentials is erroneously listed as Instagram when it should be gmail.
 
 
 ## Sentiment Plugin
