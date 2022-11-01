@@ -32,11 +32,28 @@ The following milestone assets/artifacts were submitted for review:
 Repository | Revision Reviewed
 ------------ | -------------
 https://github.com/Rengo-Labs/CasperLabs-Uniswap-DemoApp | 5944f82
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-GraphQL | 0343ce1
 
 
 # Install & Usage Testing Procedure and Findings
 
 Reviewer used an Ubuntu 20.04 LTS GitPod cloud machine and a Pardus 21.3 GNU/Linux local machine for this review.
+
+## Casper_Uniswap_V2 GraphQL
+
+Reviewer was able to successfully install the GraphQL API with a single command, `npm install`, provided in the README. After, that running `npm start` started a live server for the API backend.
+
+Reviewer used both this backend and the one provided by OP (https://casper-uniswap-v2-graphql.herokuapp.com/) to test example API calls.
+
+Reviewer used example queries provided by OP to test the API calls. All calls were running accordingly and to the acceptance criteria. Example queries and their responses are below:
+
+- [Example queries and their responses](assets/graphql-test.md)
+
+These examples, however, are not presented in a documentation form. Reviewer suggests adding these and additional query examples for better understandability of the usage of the API.
+
+All values and their corresponding deployments can also be checked through cspr.live, which is mentioned thoroughly in the following section.
+
+## Uniswap Demo App For Casper
 
 There are some dependencies that have critical security vulnerabilities. Some of these were updated during the review, however a high risk one is still remaining. This issue is needed to be addressed in future milestones.
 
