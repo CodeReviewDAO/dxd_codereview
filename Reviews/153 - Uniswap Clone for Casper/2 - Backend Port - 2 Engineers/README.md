@@ -7,7 +7,7 @@ Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
 # Milestone Details
 
-This is the second milestone of grant. The review will cover the first milestone criteria set forth below.
+This is the second milestone of grant. The review will cover the second milestone criteria set forth below.
 
 ## Details & Acceptance Criteria
 
