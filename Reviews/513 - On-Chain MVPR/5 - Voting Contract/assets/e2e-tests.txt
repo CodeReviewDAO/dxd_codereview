@@ -1,0 +1,71 @@
+(base) mdidin@Muhammed-MacBook-Air dao-contracts % make run-e2e-tests      
+cd client && ./run-e2e-tests.sh
+[+] Running 13/13
+ ⠿ casper-nctl Pulled                                                    143.7s
+   ⠿ 08c01a0ec47e Pull complete                                           30.1s
+   ⠿ b25a0d084e6c Pull complete                                          137.6s
+   ⠿ 8a8b8c037d14 Pull complete                                          137.7s
+   ⠿ 3e4ad4f1a5f6 Pull complete                                          137.7s
+   ⠿ 4f4fb700ef54 Pull complete                                          137.8s
+   ⠿ 63769906b684 Pull complete                                          137.9s
+   ⠿ 4d4354bdcee9 Pull complete                                          138.0s
+   ⠿ 7b9a538e3db9 Pull complete                                          140.0s
+   ⠿ 282a27f7e8a5 Pull complete                                          140.1s
+   ⠿ cd3342f6c0ba Pull complete                                          140.2s
+   ⠿ ca0f8fe31cc0 Pull complete                                          140.2s
+   ⠿ 8b5d6530e04c Pull complete                                          140.3s
+[+] Running 2/2
+ ⠿ Network client_default  Created                                         0.1s
+ ⠿ Container casper-nctl   Started                                         3.2s
+Waiting 60s for casper-node to start.
+
+added 268 packages, and audited 269 packages in 34s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> dao-contracts-js-client@0.1.0 e2e:generic-client
+> ts-node ./e2e/e2e-generic-client.ts
+
+secp256k1 unavailable, reverting to browser version
+testing env variables {
+  NODE_ENV: 'ci',
+  CHAIN_NAME: 'casper-net-1',
+  NODE_ADDRESS: 'http://localhost:11101/rpc',
+  EVENT_STREAM_ADDRESS: 'http://localhost:18101/events/main',
+  WASM_RELEASE_PATH: 'wasm',
+  NCTL_USERS_FOLDER_PATH: '.casper-node/net-1/users',
+  INSTALL_PAYMENT_AMOUNT: '200000000000',
+  DEPLOY_PAYMENT_AMOUNT: '200000000000'
+}
+
+
+... Testing install ...
+
+
+... Contract deploy is pending, waiting for next block finalisation (deployHash: cfae7510b7e5bf2cdf82482023c30c58fb977d2da32b1df1743fca630028d011) ...
+... Contract installed successfully.
+ - Contract Package Hash: hash-0a9396da2a8e15d61069672295845ea8e81982712d273e5d66c352fcec8d9fef
+ - Contract Hash: hash-93be329b5c28a0de053503837367d48f3c90fe2d1012f2fb55c8c8f47bbdb251
+
+
+... Testing deploys ...
+
+
+ - Trying to create and send a mint deploy
+... Contract deploy is pending, waiting for next block finalisation (deployHash: 737e92a55c8349bccd64a78d38e20f6cac5bdaefd2a7e88316412be761dccd36) ...
+ - Requested Mint Amount:  200000000000
+ - Total Supply After Mint:  200000000000
+ - Total supply equals mint: SUCCESS!
+
+
+ - Trying to create and send a add to whitelist deploy
+ - Whitelist Value Before Deploy: undefined
+... Contract deploy is pending, waiting for next block finalisation (deployHash: 36acebb0cb9599639bd4bf32293c6449e904eb8ce63778d66ba090a99f9fa9fe) ...
+ - Whitelist Value After Deploy: true
+ - Recipient is added to the whitelist: SUCCESS!
+[+] Running 2/2
+ ⠿ Container casper-nctl   Removed                                        10.3s
+ ⠿ Network client_default  Removed                                         0.1s
