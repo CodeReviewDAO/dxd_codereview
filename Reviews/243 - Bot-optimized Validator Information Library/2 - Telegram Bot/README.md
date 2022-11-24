@@ -114,25 +114,54 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 Can connect to a Casper node | PASS
 
 # Unit / Automated Testing
-This small milestone being focused on the creation and testing of the bot, the operator did not consider it useful to set up unit tests.
-The tests carried out by the reviewer above  can be considered as unit tests.
 
+This Milestone contains 20 unit and integration tests. 
+The tests can be executed from the console and cover both positive and negative test paths
 
 ```bash
 make test
 ```
 
 ```bash
-abahmane@Ubuntu-2004-focal-64-minimal:~/reviews/243/telegram-validator-bot$ make tests
-make: Nothing to be done for 'tests'.
+make test
+python3 -m pytest
+====================================================================================================== test session starts =======================================================================================================
+platform linux -- Python 3.8.10, pytest-4.0.0, py-1.11.0, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/abahmane/reviews/243/telegram-validator-bot, inifile: pytest.ini
+collected 20 items
+
+tests/integration/test_alarm_me.py::test_alarm_me PASSED                                                                                                                                                                   [  5%]
+tests/integration/test_alarm_me.py::test_update_me_negative PASSED                                                                                                                                                         [ 10%]
+tests/integration/test_apy.py::test_apy PASSED                                                                                                                                                                             [ 15%]
+tests/integration/test_apy.py::test_apy_negative PASSED                                                                                                                                                                    [ 20%]
+tests/integration/test_fee.py::test_fee PASSED                                                                                                                                                                             [ 25%]
+tests/integration/test_fee.py::test_fee_negative PASSED                                                                                                                                                                    [ 30%]
+tests/integration/test_forget_validator.py::test_forget_validator PASSED                                                                                                                                                   [ 35%]
+tests/integration/test_performance.py::test_performance PASSED                                                                                                                                                             [ 40%]
+tests/integration/test_performance.py::test_performance_negative PASSED                                                                                                                                                    [ 45%]
+tests/integration/test_start.py::test_start PASSED                                                                                                                                                                         [ 50%]
+tests/integration/test_start.py::test_start_negative PASSED                                                                                                                                                                [ 55%]
+tests/integration/test_status.py::test_status PASSED                                                                                                                                                                       [ 60%]
+tests/integration/test_status.py::test_status_negative PASSED                                                                                                                                                              [ 65%]
+tests/integration/test_total_delegators.py::test_total_delegators PASSED                                                                                                                                                   [ 70%]
+tests/integration/test_total_delegators.py::test_total_delegators_negative PASSED                                                                                                                                          [ 75%]
+tests/integration/test_total_stake.py::test_total_stake PASSED                                                                                                                                                             [ 80%]
+tests/integration/test_total_stake.py::test_total_stake_negative PASSED                                                                                                                                                    [ 85%]
+tests/integration/test_update_me.py::test_update_me PASSED                                                                                                                                                                 [ 90%]
+tests/integration/test_update_me.py::test_update_me_negative PASSED                                                                                                                                                        [ 95%]
+tests/unit/test_models.py::test_provider_validater PASSED                                                                                                                                                                  [100%]
+
+=================================================================================================== 20 passed in 0.12 seconds ====================================================================================================
 ```
+
 
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | N/A
-Unit Tests - At least one negative path test | N/A
-Unit Tests - Additional path tests | N/A
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+
 
 # Documentation
 
