@@ -38,7 +38,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/caspercommunityio/blockchain-authenticator-app| 8463323
+https://github.com/caspercommunityio/blockchain-authenticator-app| 8995517
 
 
 # Install & Usage Testing Procedure and Findings
