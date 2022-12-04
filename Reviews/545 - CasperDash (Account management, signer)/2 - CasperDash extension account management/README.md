@@ -45,7 +45,7 @@ However, testing the acceptance criteria of the milestone required some work sin
 The project builds without errors, and documentation provides sufficient installation and execution instructions.  The project functionality meets the acceptance criteria and operates without errors.
 
 
-[Installation](./assets/yarn_install.png)
+![Installation](assets/yarn_install.png)
 [Extension Run](./assets/extension_run.md)
 [Website Run](./assets/web_run.md)
 
