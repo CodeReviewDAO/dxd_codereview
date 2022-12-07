@@ -97,13 +97,12 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 
 ## Overall Impression of usage testing
 
-Overall, the plugins build and operate without errors when not on a Windows machine. However, the Reviewer suggests adding a note on the plugins that issues may arise when attempting to utilize the plugins on a Windows operating system.  Otherwise, the documentation provides sufficient installation/execution instructions and project functionality meets acceptance criteria.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors |  PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS 
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
+Project builds without errors |  
+Documentation provides sufficient installation/execution instructions | 
+Project functionality meets/exceeds acceptance criteria and operates without error | 
 
 # Unit / Automated Testing
 
@@ -120,29 +119,33 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS with Notes
-Unit Tests - At least one negative path test | PASS with Notes
-Unit Tests - Additional path tests | PASS with Notes
+Unit Tests - At least one positive path test | 
+Unit Tests - At least one negative path test | 
+Unit Tests - Additional path tests | 
 
 # Documentation
 
 ### Code Documentation
 
-Overall, for each plugin, the code is clear and readable enough to follow even for someone new to the project. Where context is needed for memory addresses, flags, or potentially confusing areas, proper documentation has been added to make clear what is being done.
-
-However, there may be insufficient code-level comments to auto-generate documentation as not every function has been commented. To the uninitiated user, or to a user that is overwhelmed, it could be a source of confusion. Reviewer suggests revisiting the code-level comments and adding in descriptions for every function as well as formatting for autogeneration of documentation as a user convenience. However, Reviewer does not believe this is enough to justify failure at this early stage and so suggests PASS with Notes.
-
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS with Notes
+Code Documented | 
 
 ### Project Documentation
 
-Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process, but it is a bit terse in simply stating the general function of the plugins. More information about each plugin and its potential uses could be included in an "About" section for each plugin. In addition, a unified or standardized template for each plugin's README might be beneficial. Although each plugin's README covers roughly the same topics, the formatting is mostly different between each plugin's README.
+## Telegram Plugin 
+
+## Zero-shot Plugin
+
+## Gmail OAuth Plugin
+
+## Language Identification Plugin
+
+## Twitter Topic Model Plugin
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS with Notes
+Usage Documented | 
 
 ## Overall Conclusion on Documentation
 
