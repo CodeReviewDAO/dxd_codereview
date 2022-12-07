@@ -11,42 +11,39 @@ Reviewer | HouPha Vang
 
 **Details of what will be delivered in milestone:**
 
-5 high quality plugins for the Memri POD including full CI/CD testing that either import data from an external resource ("importer") or analyze existing data and create new links and entities based on that information ("indexer").
+5 plugins for the Memri POD.
 
 **Acceptance criteria:**
 
-Each plugin must adhere to the following acceptance criteria:
-https://gitlab.memri.io/memri/docs.memri.io/-/wikis/Acceptance-criteria-for-plugins
-
+Each plugin must adhere to the following acceptance criteria: https://gitlab.memri.io/memri/docs.memri.io/-/wikis/Acceptance-criteria-for-plugins. 
 To test install the Memri POD and run the plugin.
 
 **Additional notes regarding submission from OP:**
 
-N.B. Following proposal #631 the milestones for #38 have changed. This first milestone covers the first 5 plugins for Memri as specified in #631. I noticed the milestones in the system have not yet been updated following approval of #631. This first milestone grant portion should be 100K EUR (not 160K EUR).
+Please find a the list of plugins that have been completed under this milestone and their specific repositories below:
 
-This milestone covers 5 plugins that can be tested within the Memri pod. These plugins are:
+telegram
+- repository: https://gitlab.memri.io/memri/plugins/telegram
+- video: https://www.loom.com/share/c2fa02fc71304a74aa7b43688a68e460
 
-### Importers
-Whatsapp
-https://gitlab.memri.io/memri/plugins/whatsapp-multi-device
+zero shot
+- repository: https://gitlab.memri.io/memri/plugins/zero-shot-plugin
+- video: https://www.loom.com/share/527d14f9d78a4a68ad4a270a30d6099f
+  
+gmail oauth
+- repository: https://gitlab.memri.io/memri/plugins/gmail_oauth
+- video: https://www.loom.com/share/709cf2cfd744431b859fed46f3a095f7
 
-Twitter
-https://gitlab.memri.io/memri/plugins/twitter
+language identification:
+- repository: https://gitlab.memri.io/memri/plugins/language-identification
+- video: https://www.loom.com/share/c881a50f8db54a839784334eebe33578
+  
+twitter-topic-model:
+- repository: https://gitlab.memri.io/memri/twitter-topic-model
+- video: https://www.loom.com/share/138dcbb4c1074364b0bf085bc1678232
 
-Instagram
-https://gitlab.memri.io/memri/plugins/instagram
-
-gmail imap
-https://gitlab.memri.io/memri/plugins/gmail
-
-### Indexers
-Sentiment analysis
-https://gitlab.memri.io/memri/plugins/sentiment_plugin
-
-In order to verify the function of these plugins you will need to do the following:
-1. Install Memri POD (the flutter front-end is optional): https://docs.memri.io/overview/quickStart/ 
-2. Install the plugin(s): https://docs.memri.io/component-architectures/pod/Plugins/
-3. Inspect the pod using the pod explorer: https://docs.memri.io/guides/Inspect-your-pod/
+You can reach us on discord: https://discord.gg/kRTcDtGUmr
+Or in the CRDAO Telegram group (@allbeingsthriving)
 
 ## Milestone Submission
 
@@ -54,113 +51,48 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://gitlab.memri.io/memri/plugins/whatsapp-multi-device | 084b8a44a78da9c4f331bcba92d1192c47dcc9ad
-https://gitlab.memri.io/memri/plugins/twitter | a56e041e8befdddd6aa241964e46ebb16ec1978e
-https://gitlab.memri.io/memri/plugins/instagram | 7657837227fd603ed2a97aabfde131b8dad7d40e
-https://gitlab.memri.io/memri/plugins/gmail | 795a5072cd9dd4d19ca2c8aa98ed96fd603196a4
-https://gitlab.memri.io/memri/plugins/sentiment_plugin | 6f0e0ba6bc8c432196f7043db1d3a5c8657071d9
+https://gitlab.memri.io/memri/plugins/telegram | 995fa5003ba280e11d9e8c68e4f9c053fb8ad532
+https://gitlab.memri.io/memri/plugins/zero-shot-plugin | c7b9796cb4bedf74c5a1e23c2361986ea4c06ef1
+https://gitlab.memri.io/memri/plugins/gmail_oauth | e720cc4b0530d1ad3297c4ccd1ba758390b73b54
+https://gitlab.memri.io/memri/plugins/language-identification | 39f7b0c78781ca59782c05ea5cc004cbb259d536
+https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb74700f6158392bf7
 
 
 # Install & Usage Testing Procedure and Findings
 
-There was some issue in the initial installation process of the Memri POD required to test the plugins as the reviewer used a Windows machine, but after troubleshooting, the reviewer was able to get a POD up and running on Docker to begin test on the plugins. However, the process of installing a Memri POD is not the main subject matter of this job, so reviewer takes it as a granted that the Memri POD is working.
-
-## Whatsapp Plugin 
+## Telegram Plugin 
 
 ### Install 
 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/whatsapp-multi-device), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
-
-`pip install -e .`
-
-There was an issue in the installation being caused by requiring "pycrytpo" for the plugin. However, removal of the requirement in the setup.py file allowed a successful install.
-
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within the frontend app and was able to successfully import messages and connect with Whatsapp.
 
-![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success1.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success2.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/2e1377a57631587cd5fa7741aa081051b72ce3b3/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_import_success3.PNG)
-
-## Twitter Plugin
+## Zero-shot Plugin
 
 ### Install
 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/twitter), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
-
-`pip install -e .`
-
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within the frontend app and was able to successfully login to the Twitter API via oauth. Afterwards, the Reviewer was able to import data for the User account, Followers and following accounts, and user timeline tweets. However, it is noted that the date of the posts seem to be off by a month.
 
-![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success1.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success2.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/34c2286216688d23d3609b2adf369be8eab7ba40/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_import_success3.PNG)
-
-## Instagram Plugin
+## Gmail OAuth Plugin
 
 ### Install 
 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/instagram), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
-
-`pip install -e .`
-
 ### Usage
 
-The Reviewer followed the instructions in the README to run the plugin within docker and was able to successfully login to an Instagram account and import Instagram post data.
 
-However, in attempting to run the steps again on another day, Reviewer was unable to reproduce the results and instead was met with an error message.
-See [here](https://github.com/hoopav/dxd_codereview/blob/6f0c5f647539a48f7cfd9c28111ad0be547510b4/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_error.MD).
-
-The Reviewer notes that Gmail recently had an update and that the Reviewer's Instagram account is linked to the Reviewer's Gmail account, so this may have been the cause of the error. The Reviewer suggests Pass with a note to review the api and see if there are any material changes and refactors that must be performed and confirm the source of the discrepancy.
-
-## Gmail Plugin
+## Language Identification Plugin
 
 ### Install 
 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
-
-`pip install -e .`
-
 ### Usage
 
-The Reviewer followed the instructions in the README to create an App Password for a Gmail account, and then successfully connected and imported data. Note: the path in the README for the credentials is erroneously listed as Instagram when it should be gmail_importer.
 
-However, in attempting to run the steps again on another day, Reviewer was unable to reproduce the results and instead was met with an error message. See [here](https://github.com/hoopav/dxd_codereview/blob/ebff13a78375c4e730be9aaeed7fcb8fd7f879d2/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_error.MD).
-
-The Reviewer notes that Gmail recently had an update however, so the Reviewer suggests Pass with a note to review the api and see if there are any material changes and refactors that must be performed.
-
-## Sentiment Plugin
+## Twitter Topic Model Plugin
 
 ### Install
 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/sentiment_plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
-
-`pip install -e .`
-
 ### Usage
-
-The Reviewer followed the instructions in the README to run the plugin after starting a Pod in docker. The Reviewer had data to make predictions on from running the Whatsapp plugin, and after running the plugin, was able to confirm that labels with the sentiment of the message have been added to the data in the Pod.
-
-However, after attempting to run the plugin again on a fresh set of Whatsapp data, the Reviewer was unable to do so. As a result, the Reviewer used the test data to run the plugin.
-
-Confirmation of uploaded dummy data
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success1.PNG)
-
-Selecting the message to examine
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success2.PNG)
-
-Successful addition of sentiment data
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/480bbdf81717c50e2ec40e233999e51c07f05d0c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_success3.PNG)
 
 
 ## Overall Impression of usage testing
@@ -175,25 +107,16 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-## Whatsapp Plugin 
+## Telegram Plugin 
 
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [whatsapp_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/60f8cda5d05074c728442596576e427d336a426b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/whatsapp_testresults.MD)
+## Zero-shot Plugin
 
-## Twitter Plugin
+## Gmail OAuth Plugin
 
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [twitter_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/60f8cda5d05074c728442596576e427d336a426b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/twitter_testresults.MD)
+## Language Identification Plugin
 
-## Instagram Plugin
+## Twitter Topic Model Plugin
 
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [instagram_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/60f8cda5d05074c728442596576e427d336a426b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/instagram_testresults.MD)
-
-## Gmail Plugin
-
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [gmail_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/60f8cda5d05074c728442596576e427d336a426b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/gmail_testresults.MD)
-
-## Sentiment Plugin
-
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, since this is an early milestone and the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [sentiment_testresults.MD](https://github.com/hoopav/dxd_codereview/blob/60f8cda5d05074c728442596576e427d336a426b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/1%20-%20Plugins%20Batch%201/assets/sentiment_testresults.MD)
 
 Requirement | Finding
 ------------ | -------------
@@ -239,27 +162,15 @@ Memri Privacy Preserving License | PASS
 
 Pull requests and Issues are enabled for all the plugin repositories. 
 
-### Whatsapp Plugin 
+## Telegram Plugin 
 
-The repository doesn't contain a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+## Zero-shot Plugin
 
-### Twitter Plugin
+## Gmail OAuth Plugin
 
-The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
+## Language Identification Plugin
 
-### Instagram Plugin
-
-The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
-
-### Gmail Plugin
-
-The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
-
-### Sentiment Plugin
-
-The repository doesn't contain a CONTRIBUTING and a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability.
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct 
+## Twitter Topic Model Plugin
 
 Requirement | Finding
 ------------ | -------------
@@ -268,10 +179,6 @@ OSS contribution best practices | PASS with Notes
 # Coding Standards
 
 ## General Observations
-
-The Code is generally well-structured and readable, and documentation is added where context is necessary. 
-
-The README instructions for the plugins are clear enough to follow and when everything is properly setup, it is a simple process to use the plugins. However, it may be good to include that Windows is not currently supported and make it clear that there may be many installation obstacles to get a proper Memri POD up and running, if not in the plugins then on the https://docs.memri.io/overview/quickStart/
 
 # Final Conclusion
 
