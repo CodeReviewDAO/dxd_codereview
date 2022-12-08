@@ -99,12 +99,15 @@ Following that, on logging into the datastream explorer, the reviewer confirmed 
 ### Install
 After downloading the repository (https://gitlab.memri.io/memri/plugins/zero-shot-plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-`pip install -e .`
+`pip install -e .[cli]`
 
 See [Zeroshot_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Zeroshot_Install.MD)
 
 ### Usage
 
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://www.loom.com/share/527d14f9d78a4a68ad4a270a30d6099f)
+
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
 ## Gmail OAuth Plugin
 
@@ -116,6 +119,19 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail_oa
 See [Gmail_OAuth_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Gmail_OAuth_Install.MD)
 
 ### Usage
+The reviewer followed the steps to obtain credentials for the Gmail plugin as detailed in the README and was able to successfully obtain the requisite OAuth client ID credentials as a JSON file, as well as set the GMAIL_CLIENT_SECRET_FILE environment variable to the path of the JSON file.
+
+Following that, the reviewer ran the command:
+
+```
+run_plugin --metadata "metadata.json" --pod_full_address https://dev.pod.memri.io
+```
+
+The reviewer was then able to successfully connect and authenticate with the plugin.
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/62c8525fadfba1844558cfde5f012ffc565c6b34/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/gmail_success.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/62c8525fadfba1844558cfde5f012ffc565c6b34/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/gmail_success2.PNG)
 
 
 ## Language Identification Plugin
