@@ -60,6 +60,11 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 
 # Install & Usage Testing Procedure and Findings
 
+## General Notes
+It is presumed that the user of the plugins is familiar with the process of setting up a Memri POD as well as examining data in the Memri Datastream Explorer at https://data.memri.io/. 
+
+Here, the reviewer used https://dev.pod.memri.io as the pod to test the following plugins.
+
 ## Telegram Plugin 
 
 ### Install 
@@ -70,7 +75,24 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/telegram
 See [Telegram_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Telegram_Install.MD)
 
 ### Usage
+In order to use the plugin, Telegram API keys had to be obtained. As referenced in the README, the user followed the steps located at (https://core.telegram.org/api/obtaining_api_id) and obtained the necessary keys.
 
+Following that, the user ran the following commands:
+
+```
+export TELEGRAM_APP_KEY=$key
+export TELEGRAM_APP_SECRET="$secretkey"
+run_plugin --metadata "metadata.json" --pod_full_address https://dev.pod.memri.io
+```
+
+$key and $secretkey here are placeholders for the actual Telegram API keys. When the reviewer ran the commands, the necessary keys were inputted. Note that the last command is different from the README. Due to the reviewer not being able to run a proper Memri POD due to using a Windows machine, the dev pod was used instead by providing the full address.
+
+The plugin properly generated a QR code to login to the reviewer's Telegram account, as shown below:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/45982d869341c0e5f7a8c0963ff053b13721d676/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/telegram_QR.PNG)
+
+Following that, on logging into the datastream explorer, the reviewer confirmed that Telegram account information and messages were added.
+
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/45982d869341c0e5f7a8c0963ff053b13721d676/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/telegram_success.PNG)
 
 ## Zero-shot Plugin
 
