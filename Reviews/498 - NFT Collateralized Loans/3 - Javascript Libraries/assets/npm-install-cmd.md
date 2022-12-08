@@ -1,3 +1,4 @@
+```
 npm run-script test:install
 
 > casper-cep47-js-client@0.5.1 test:install
@@ -45,3 +46,4 @@ secp256k1 unavailable, reverting to browser version
 }
 ... Contract Hash: hash-30197231e89680605b95b19aeb5363af7be13377f379281e2551f1dfad37fc21
 ... Package Hash: hash-6f417e1689738c5f9ea541b1dab84a99a6b562559aee30b379f771fc8ba0e3a1
+```
