@@ -1,4 +1,4 @@
-`
+```
 $ pip install -e .
 Obtaining file:///Z:/Memri2/Plugins/telegram-dev
   Preparing metadata (setup.py): started
@@ -119,4 +119,4 @@ Successfully installed markdown-it-py-2.1.0 mdurl-0.1.2 pyaes-1.6.1 pymemri-0.0.
 
 [notice] A new release of pip available: 22.2.2 -> 22.3.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
-`
+```
