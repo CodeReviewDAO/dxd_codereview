@@ -153,21 +153,25 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 # Unit / Automated Testing
 
 ## Telegram Plugin 
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [Telegram_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/915a70b7aebfacf894713a13db88e6f8c14950f1/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Telegram_unittest_pass.MD)
 
 ## Zero-shot Plugin
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [Zeroshot_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/f11b7f6db2b9d13990cc7d08a5c525e08ffd8b46/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Zeroshot_unittest_pass.MD)
 
 ## Gmail OAuth Plugin
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [GmailOauth_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/f11b7f6db2b9d13990cc7d08a5c525e08ffd8b46/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/GmailOauth_unittest_pass.MD)
 
 ## Language Identification Plugin
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [LanguageIdentification_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/f11b7f6db2b9d13990cc7d08a5c525e08ffd8b46/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/LanguageIdentification_unittest_pass.MD)
 
 ## Twitter Topic Model Plugin
-
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [TwitterTopicModel_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/f11b7f6db2b9d13990cc7d08a5c525e08ffd8b46/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/TwitterTopicModel_unittest_pass.MD)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | 
-Unit Tests - At least one negative path test | 
-Unit Tests - Additional path tests | 
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS with Notes
+Unit Tests - Additional path tests | PASS with Notes
 
 # Documentation
 
