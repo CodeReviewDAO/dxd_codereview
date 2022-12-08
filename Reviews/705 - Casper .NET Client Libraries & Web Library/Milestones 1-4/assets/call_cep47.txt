@@ -1,0 +1,18 @@
+CEP47 contract name: ExampleNFT
+CEP47 contract symbol: EXNFT
+CEP47 total supply: 1
+
+Minting first token...
+Mint cost: 9934555650
+
+User1 balance: 2
+Token owner (account hash): account-hash-09489104ED5860aB7Ec21C40b02b16d92a0D612F529eE441BCd73e6B98dE76FF
+First token identifier: 1
+
+Sending token to another account...
+Transfer cost: 11101589530
+User1 balance: 1
+User2 balance: 1
+Token metadata
+number - one
+
