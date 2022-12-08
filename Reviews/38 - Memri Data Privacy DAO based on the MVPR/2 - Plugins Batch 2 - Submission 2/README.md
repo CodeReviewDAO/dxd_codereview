@@ -143,12 +143,11 @@ See [Twitter_Topic_Model_Install.MD for install output](https://github.com/hoopa
 
 ## Overall Impression of usage testing
 
-
 Requirement | Finding
 ------------ | -------------
-Project builds without errors |  
+Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | 
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
@@ -177,25 +176,21 @@ Unit Tests - Additional path tests | PASS with Notes
 
 ### Code Documentation
 
+Overall, for each plugin, the code is clear and readable enough to follow even for someone new to the project. Where context is needed for memory addresses, flags, uncommon imports/utilities, or potentially confusing areas, proper documentation has been added to make clear what is being done.
+
+However, there may be insufficient code-level comments to auto-generate documentation as not every function has been commented. To the uninitiated user, or to a user that is overwhelmed, it could be a source of confusion. Reviewer suggests revisiting the code-level comments and adding in descriptions for every function as well as formatting for autogeneration of documentation as a user convenience.
+
 Requirement | Finding
 ------------ | -------------
-Code Documented | 
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-## Telegram Plugin 
-
-## Zero-shot Plugin
-
-## Gmail OAuth Plugin
-
-## Language Identification Plugin
-
-## Twitter Topic Model Plugin
+Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process. It is clear, readable, and provides both enough description for how the plugin is to be used, as well as what the plugin is used for. There is clear consistency between each plugin's README as well, providing for uniformity and ease of use as a result of the uniformity.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | 
+Usage Documented | PASS
 
 ## Overall Conclusion on Documentation
 
@@ -237,12 +232,13 @@ OSS contribution best practices | PASS with Notes
 # Coding Standards
 
 ## General Observations
+The Code is generally well-structured and readable, and documentation is added where context is necessary. 
+
+The README instructions for the plugins are clear enough to follow and when everything is properly setup, it is a simple process to use the plugins. 
 
 # Final Conclusion
 
-The project meets the functional requirements and the Reviewer was able to confirm that the plugins designed for the current milestone run as expected. However, the Reviewer faced a lot of issues in trying to install the plugins and the Memri POD on a Windows machine. It could be due to a lack of familiarity with the project on the Reviewer's behalf, but this may be something that could be looked into. In addition, the Reviewer suggests revisiting the Memri POD quickstart guide (https://docs.memri.io/overview/quickStart/) to ensure it is up to date. 
-
-The reviewer also suggests adding in the missing policies and adding tags to each repository to improve discoverability.
+The project meets the functional requirements and the reviewer was able to confirm that the plugins designed for the current milestone run as expected. The reviewer suggests adding in the missing policies and adding tags to each repository to improve discoverability, as well as more unit testing in general due to the nature of the plugins by testing the checks  for malformed data.
 
 # Recommendation
 
