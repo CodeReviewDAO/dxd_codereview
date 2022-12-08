@@ -63,6 +63,11 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 ## Telegram Plugin 
 
 ### Install 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/telegram/), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+`pip install -e .`
+
+See [Telegram_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Telegram_Install.MD)
 
 ### Usage
 
@@ -70,6 +75,11 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 ## Zero-shot Plugin
 
 ### Install
+After downloading the repository (https://gitlab.memri.io/memri/plugins/zero-shot-plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+`pip install -e .`
+
+See [Zeroshot_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Zeroshot_Install.MD)
 
 ### Usage
 
@@ -77,6 +87,11 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 ## Gmail OAuth Plugin
 
 ### Install 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail_oauth), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+`pip install -e .`
+
+See [Gmail_OAuth_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Gmail_OAuth_Install.MD)
 
 ### Usage
 
@@ -84,13 +99,22 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 ## Language Identification Plugin
 
 ### Install 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/language-identification), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
+`pip install -e .`
+
+See [Language_Identification_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Language_Identification_Install.MD)
 ### Usage
 
 
 ## Twitter Topic Model Plugin
 
 ### Install
+After downloading the repository (https://gitlab.memri.io/memri/twitter-topic-model), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+
+`pip install -e .`
+
+See [Twitter_Topic_Model_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Twitter_Topic_Model_Install.MD)
 
 ### Usage
 
@@ -101,7 +125,7 @@ https://gitlab.memri.io/memri/twitter-topic-model | 011d130396e7468890fffedb7470
 Requirement | Finding
 ------------ | -------------
 Project builds without errors |  
-Documentation provides sufficient installation/execution instructions | 
+Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | 
 
 # Unit / Automated Testing
