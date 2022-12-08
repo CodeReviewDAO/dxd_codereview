@@ -162,7 +162,11 @@ After downloading the repository (https://gitlab.memri.io/memri/twitter-topic-mo
 See [Twitter_Topic_Model_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Twitter_Topic_Model_Install.MD)
 
 ### Usage
+Following the usage instructions (substituting http://0.0.0.0:8008 with the Windows equivalent address) the reviewer was able to spin up the HTTP webserver.
 
+![alt text](https://github.com/hoopav/dxd_codereview/blob/b75032369e2a8e9217cd53760afa37d365fe26de/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/twitter_topic_model_success.PNG)
+
+Then, following the instructions in the video here: (https://www.loom.com/share/138dcbb4c1074364b0bf085bc1678232) the reviewer was able to replicate the results of the test data as well as for the reviewer's own tweets. 
 
 ## Overall Impression of usage testing
 
