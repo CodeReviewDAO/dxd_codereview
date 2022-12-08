@@ -144,6 +144,13 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/language
 See [Language_Identification_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Language_Identification_Install.MD)
 ### Usage
 
+Following the usage instructions (substituting http://0.0.0.0:8008 with the Windows equivalent address) the reviewer was able to spin up the HTTP webserver and then test the plugin by identifying sample languages as seen below:
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/041e70bc2191aa3fc4f72eb79c8b3ed7d5863600/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/language_identification_success.PNG)
+
+![alt text](https://github.com/hoopav/dxd_codereview/blob/041e70bc2191aa3fc4f72eb79c8b3ed7d5863600/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/language_identification_success2.PNG)
+
+The plugin seems to work as intended for the most part, but obscure languages and romanized sentences of languages with their own characters seem to not register properly. (i.e. the romanized Japanese sentences and the Hmong sentence). However, the reviewer notes that this is due to FastText's model that the plugin is using. In terms of the plugin's strict functionality of being able to handle an inputted text and identifying the language, it works as intended.
 
 ## Twitter Topic Model Plugin
 
