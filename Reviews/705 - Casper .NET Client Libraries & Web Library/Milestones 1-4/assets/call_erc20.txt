@@ -1,0 +1,18 @@
+ERC20 contract name: Casper C# SDK
+ERC20 contract symbol: CSSDK
+ERC20 decimals: 5
+ERC20 total supply: 1000000.00000
+
+Transfer tokens...
+Transfer cost: 1780556990
+
+User1 balance: 999970.00000
+User2 balance: 30.00000
+
+Approve an spender...
+Approval cost: 1218395370
+User2 approval from User1: 100.00000
+
+Transfer tokens on behalf of user1 to a contract address...
+Transfer-from cost: 3390499240
+Contract balance: 50.00000
