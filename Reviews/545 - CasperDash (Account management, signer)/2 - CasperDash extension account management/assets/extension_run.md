@@ -1,4 +1,4 @@
-'''
+```
 yarn run v1.22.19
 warning ../../../../package.json: No license field
 $ webpack --mode development --env=type=extension --env=network=testnet --watch
@@ -177,4 +177,4 @@ asset modules 210 bytes (javascript) 195 KiB (asset) 5 modules
 ./node_modules/elliptic/package.json 1.11 KiB [built] [code generated]
 webpack 5.65.0 compiled successfully in 23401 ms
 
-'''
+```

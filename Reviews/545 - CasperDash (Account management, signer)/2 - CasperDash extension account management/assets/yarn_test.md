@@ -1,4 +1,4 @@
-'''
+```
  PASS  src/components/web/Stake/index.test.jsx
  PASS  src/components/Common/Layout/HeadingComponent/Heading.test.jsx
  PASS  src/components/Common/Layout/Stake/UnDelegateForm.test.jsx
@@ -589,4 +589,4 @@ Tests:       502 passed, 502 total
 Snapshots:   0 total
 Time:        25.308 s
 Ran all test suites.
-'''
+```
