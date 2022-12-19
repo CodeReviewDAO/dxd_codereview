@@ -38,58 +38,55 @@ https://github.com/Rengo-Labs/CasperLabs-Solana-bridge | cf2f3c5
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Setup is simple and very easy with the instruction provided in the README.
+
+- [Installation logs](assets/installation.md)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Since these are smart contracts, usage testing is done with unit tests.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All automated unit tests PASS for this milestone. Tests cover critical functionality. Reviewer successfully ran all automated tests on an Ubuntu 20.04.4 LTS machine. Overall quality of tests are sufficient. Test output is below.
+
+- [Test logs](assets/test.md)
+
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code is well documented. Critical functionality is properly explained and lots of additional comments exist.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project documentation is sufficient and useful. Reviewer was able to complete necessary operations following the information provided by the documentation.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Documentation is sufficient for this milestone.
 
 # Open Source Practices
 
@@ -114,15 +111,13 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Project provides the acceptance criteria for the milestone it covers. Unit tests are well prepared and useful for helping understand how different usage scenarios can be executed. Documentation is sufficient. Code documentation is also good but with coming milestones, any newer additions are welcomed and would be beneficial. Coding practices used in the project are of good quality. Because of its sufficient deliverables, reviewer suggests the project to PASS.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
