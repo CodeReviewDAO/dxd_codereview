@@ -46,20 +46,54 @@ https://github.com/onchainsurveys/onchain | 85c6d17
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 20.04 LTS GitPod instance and a server provided by the OP for doing this review.
+
+Reviewer was successfully able to install the project using the provided instructions in the README. After the installation, reviewer created a MongoDB database and connected it to the app using the provided instructions. Then, running `npm start` launched the application.
+
+- [API installation logs](assets/api-install.md)
+- [Client installation logs](assets/client-install.md)
+
+After running the app, invoking different endpoints provided in the README yielded the expected results. Here are some example results returned from the API after creating some surveys.
+
+- [/api/surveys](assets/api-surveys.md)
+- [/api/surveys/getmysurvey/username](assets//api-surveys-getmysurvey-username.md)
+
+Here are some screenshots from the Client app:
+
+#### Client Landing Page
+![](assets/1-client.jpg)
+
+#### Login Page
+![](assets/2-login.png)
+
+#### Registration Page
+![](assets/3-register.png)
+
+#### Survey Creation Page
+![](assets/4-create-survey.png)
+
+#### Survey Creation Page - Filled
+![](assets/5-new-survey.png)
+
+#### My Surveys Page
+![](assets/6-my-surveys.png)
+
+#### Survey History Page
+![](assets/7-survey-history.png)
+
+#### Survey Stats
+![](assets/8-survey-stats.png)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+All critical functionality required for this milestone is implemented and they are running as intended. Further improvements would be beneficial for the ease of use of the app in the following milestones.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
+
 
 # Unit / Automated Testing
 
@@ -73,55 +107,48 @@ Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
 Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
 Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
+
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Code documentation is missing. There is no detail inside the code about the structure of the application. Only some one word - one line comments exist but they are not explanatory. Since this is the first milestone, it is given a passing grade. However, these need to be addressed in the future milestones.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Detailed instructions for installing, running and testing the application is provided in the README. There are many examples provided with the instructions. However, further documentation with explanations are not sufficient. These need to be improved in the next milestones. For the first milestone, current status is enough to PASS with Notes.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS with Notes
+Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Code documentation is insufficient. General documentation is also insufficient and needs improvements.
+
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains clear CONTRIBUTING and SECURITY policies, as well as the optional CODE OF CONDUCT policy. Pull requests and Issues are enabled on the repository and the project is set up for public participation. As an added bonus, issue templates also exist for the repository.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 # Coding Standards
 
@@ -137,5 +164,5 @@ submission should fail code review, because it does not contain an OSI-approved 
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
