@@ -97,15 +97,13 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Unit tests for critical functionality are added but they need more variety. Tests are prepared using Cypress and in its current state, graphical interface tests couldn't be run by the reviewer automatically, which needs attention in future milesetones. Overall quality of tests are not found to be detailed enough. Since this is the first milestone and there is not much functionality to be covered, it is still acceptable for this milestone only.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS with Notes
+Unit Tests - At least one negative path test | PASS with Notes
+Unit Tests - Additional path tests | PASS with Notes
 
 
 # Documentation
@@ -150,17 +148,18 @@ Requirement | Finding
 ------------ | -------------
 OSS contribution best practices | PASS
 
+
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project.
+
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The project would benefit greatly from a Continuous Integration (CI) Action on GitHub. Code documentation is not of high quality and further project documentation is needed. Documentation provides information but it would benefit greatly from improvements and expansion. Coding practices and visual presentation of the project are of desirable quality. Usage testing was done using manual testing but additional automated tests for the frontend would be a better addition, they need special attention in upcoming milestones. Because of these reasons, reviewer suggests a resolution of PASS with Notes for this milestone.
+
 
 # Recommendation
 
