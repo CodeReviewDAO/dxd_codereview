@@ -65,6 +65,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 The project has sufficient amount of tests, covering both positive and negative paths. All tests run successfully.
 
 [Test Logs](assets/justtestlogs.md)
+
 [Actions](https://github.com/odradev/odra/actions/runs/3533097352/jobs/5928283489)
 
 Requirement | Finding
