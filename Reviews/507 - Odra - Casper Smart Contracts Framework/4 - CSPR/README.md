@@ -123,13 +123,13 @@ The project published publicly on GitHub. Project documentation is sufficient en
 
 Corresponding version of odra released to the http://crates.io.
 
-Cspr transfer is implementd
+Cspr transfer is implemented as stated in the acceptance criteria.
 
 # Final Conclusion
 
 The project meets the milestone acceptance criteria. Install and usage instructions are sufficient but they are a bit confusing as they have a lot of linking to other repositories and sites. Tests run successfully.
 
-Thus, in the reviewers' opinion, this submission should PASS with Notes.
+Thus, in the reviewer's opinion, this submission should PASS with Notes.
 
 # Recommendation
 
