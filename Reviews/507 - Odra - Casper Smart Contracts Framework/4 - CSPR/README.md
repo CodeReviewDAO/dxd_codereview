@@ -1,7 +1,7 @@
 Grant Proposal | [507 - Odra - Casper Smart Contracts Framework](https://portal.devxdao.com/public-proposals/507)
 ------------ | -------------
 Milestone | 4
-Milestone Title | Maciej Zieliński
+Milestone Title | CSPR
 OP | Maciej Zieliński
 Reviewers | Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>
 
