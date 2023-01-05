@@ -51,6 +51,7 @@ Following the instructions in the [README](https://github.com/odradev/odra) of t
 The project builds without errors, the documentation provides sufficient installation and execution instructions. Build instructions are giving required information but can be enhanced and more clear by detailing each step. Same as installation instrutctions this part also needs improvements in the reviewer's opinion . The project functionality meets/exceeds the acceptance criteria and operates without errors.
 
 [Example Build Logs](assets/examplebuildlogs.md)
+
 [Example Test Logs](assets/exampletestlogs.md)
 
 Requirement | Finding
