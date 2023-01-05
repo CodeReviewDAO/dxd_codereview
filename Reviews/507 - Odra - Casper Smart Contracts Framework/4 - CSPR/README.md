@@ -94,7 +94,7 @@ Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-In the reviewer's opinion, this review should pass.
+In the reviewer's opinion, this review should PASS with Notes
 
 # Open Source Practices
 
