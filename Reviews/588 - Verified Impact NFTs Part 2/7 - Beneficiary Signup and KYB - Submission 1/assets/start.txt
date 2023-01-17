@@ -1,0 +1,385 @@
+yarn start
+Compiled with warnings.
+
+./src/css/templete.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/css/templete.css)
+Warning
+
+(3876:5) start value has mixed support, consider using flex-start instead
+
+src/App.js
+  Line 19:10:  'body_' is assigned a value but never used  no-unused-vars
+
+src/api/addBeneficiary.ts
+  Line 2:39:  'CLAccountHash' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/api/autoSign.ts
+  Line 1:8:  'React' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/api/nftInfo.ts
+  Line 101:13:  'i' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/api/userInfo.ts
+  Line 5:10:  'parseNFT' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/contexts/AuthContext.tsx
+  Line 38:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/contexts/NFTContext.tsx
+  Line 2:10:  'getBeneficiariesList' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 4:10:  'getCampaignsList' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 5:10:  'getCreatorsList' is defined but never used           @typescript-eslint/no-unused-vars
+  Line 6:10:  'getUniqueCollectionsList' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/markup/Element/AddEditCampaignForm.js
+  Line 92:62:  Expected '===' and instead saw '=='  eqeqeq
+
+src/markup/Element/AddEditCampaignsModal.js
+  Line 3:10:   'CLPublicKey' is defined but never used         no-unused-vars
+  Line 4:10:   'Row' is defined but never used                 no-unused-vars
+  Line 4:15:   'Col' is defined but never used                 no-unused-vars
+  Line 4:20:   'Spinner' is defined but never used             no-unused-vars
+  Line 5:19:   'VIToast' is defined but never used             no-unused-vars
+  Line 7:10:   'transferFees' is defined but never used        no-unused-vars
+  Line 8:10:   'transfer' is defined but never used            no-unused-vars
+  Line 8:20:   'purchaseNFT' is defined but never used         no-unused-vars
+  Line 9:10:   'getDeployDetails' is defined but never used    no-unused-vars
+  Line 10:10:  'useAuth' is defined but never used             no-unused-vars
+  Line 11:10:  'sendDiscordMessage' is defined but never used  no-unused-vars
+  Line 12:10:  'SendTweetWithImage' is defined but never used  no-unused-vars
+
+src/markup/Element/AddEditCollectionForm.js
+  Line 9:10:    'createCampaign' is defined but never used        no-unused-vars
+  Line 12:3:    'refreshCampaigns' is defined but never used      no-unused-vars
+  Line 14:3:    'updateCampaigns' is defined but never used       no-unused-vars
+  Line 20:8:    'SDGsMultiSelect' is defined but never used       no-unused-vars
+  Line 21:10:   'SDGsData' is defined but never used              no-unused-vars
+  Line 22:10:   'isValidWallet' is defined but never used         no-unused-vars
+  Line 33:11:   'collections' is assigned a value but never used  no-unused-vars
+  Line 220:23:  Expected '===' and instead saw '=='               eqeqeq
+  Line 225:43:  Expected '===' and instead saw '=='               eqeqeq
+  Line 230:27:  Expected '===' and instead saw '=='               eqeqeq
+
+src/markup/Element/AddEditCollectionsModal.js
+  Line 3:10:   'CLPublicKey' is defined but never used          no-unused-vars
+  Line 4:10:   'Row' is defined but never used                  no-unused-vars
+  Line 4:15:   'Col' is defined but never used                  no-unused-vars
+  Line 4:20:   'Spinner' is defined but never used              no-unused-vars
+  Line 5:19:   'VIToast' is defined but never used              no-unused-vars
+  Line 7:10:   'transferFees' is defined but never used         no-unused-vars
+  Line 8:10:   'transfer' is defined but never used             no-unused-vars
+  Line 8:20:   'purchaseNFT' is defined but never used          no-unused-vars
+  Line 9:10:   'getDeployDetails' is defined but never used     no-unused-vars
+  Line 10:10:  'useAuth' is defined but never used              no-unused-vars
+  Line 11:10:  'sendDiscordMessage' is defined but never used   no-unused-vars
+  Line 12:10:  'SendTweetWithImage' is defined but never used   no-unused-vars
+  Line 13:8:   'AddEditCampaignForm' is defined but never used  no-unused-vars
+
+src/markup/Element/CaptionCampaign.js
+  Line 18:9:    img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 119:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 120:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 131:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+src/markup/Element/ListForSaleNFT.js
+  Line 47:37:  Expected '===' and instead saw '=='  eqeqeq
+  Line 48:33:  Expected '===' and instead saw '=='  eqeqeq
+
+src/markup/Element/NFTCard.js
+  Line 41:6:    React Hook React.useCallback has a missing dependency: 'item.beneficiary'. Either include it or remove the dependency array                                                            react-hooks/exhaustive-deps
+  Line 117:27:  Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 193:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 292:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 293:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 304:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+src/markup/Element/NFTCardURL.js
+  Line 20:10:  'showBuyModal' is assigned a value but never used                                                                                                                                                                       no-unused-vars
+  Line 20:24:  'setShowBuyModal' is assigned a value but never used                                                                                                                                                                    no-unused-vars
+  Line 27:62:  Expected '===' and instead saw '=='                                                                                                                                                                                     eqeqeq
+  Line 55:6:   React Hook React.useCallback has a missing dependency: 'item'. Either include it or remove the dependency array. You can also do a functional update 'setItem(i => ...)' if you only need 'item' in the 'setItem' call  react-hooks/exhaustive-deps
+  Line 87:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                               jsx-a11y/alt-text
+
+src/markup/Element/ProfileBioModal.js
+  Line 21:10:  'state' is assigned a value but never used     no-unused-vars
+  Line 21:17:  'setState' is assigned a value but never used  no-unused-vars
+
+src/markup/Element/RecieptModal.js
+  Line 11:5:    'updateNFTs' is defined but never used                                                                                       no-unused-vars
+  Line 12:5:    'NFTActionTypes' is defined but never used                                                                                   no-unused-vars
+  Line 18:11:   'nftDispatch' is assigned a value but never used                                                                             no-unused-vars
+  Line 19:27:   'refreshNFTs' is assigned a value but never used                                                                             no-unused-vars
+  Line 33:38:   Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 58:19:   'changeReceiptStatus' is assigned a value but never used                                                                     no-unused-vars
+  Line 78:6:    React Hook React.useCallback has a missing dependency: 'data.beneficiary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 219:55:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 220:58:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 221:53:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 237:62:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 238:65:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+  Line 239:60:  Expected '===' and instead saw '=='                                                                                          eqeqeq
+
+src/markup/Element/SDGsMultiSelect.js
+  Line 24:6:    React Hook useEffect has missing dependencies: 'defaultValues' and 'isAddBeneficiary'. Either include them or remove the dependency array                                                                                                                                          react-hooks/exhaustive-deps
+  Line 30:6:    React Hook useEffect has missing dependencies: 'data' and 'isAddBeneficiary'. Either include them or remove the dependency array. If 'setSelectedOptions' needs the current value of 'data', you can also switch to useReducer instead of useState and read 'data' in the reducer  react-hooks/exhaustive-deps
+  Line 35:9:    img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                          jsx-a11y/alt-text
+  Line 64:70:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                eqeqeq
+  Line 110:56:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                                eqeqeq
+
+src/markup/Element/SDGsMultiSelectImages.js
+  Line 3:8:   'VINftsTooltip' is defined but never used  no-unused-vars
+  Line 8:16:  Expected '===' and instead saw '=='        eqeqeq
+
+src/markup/Element/SingleSDGsMultiSelectImage.js
+  Line 16:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/markup/Element/beneficiarySingleRow.js
+  Line 2:10:   'Col' is defined but never used                  no-unused-vars
+  Line 2:15:   'Container' is defined but never used            no-unused-vars
+  Line 2:26:   'Row' is defined but never used                  no-unused-vars
+  Line 2:31:   'Form' is defined but never used                 no-unused-vars
+  Line 15:11:  'isLoggedIn' is assigned a value but never used  no-unused-vars
+
+src/markup/Element/collectionSingleRow.js
+  Line 2:8:  'AddEditCampaignsModal' is defined but never used  no-unused-vars
+
+src/markup/Element/copyText.js
+  Line 11:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/markup/Element/profileForm.js
+  Line 114:16:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 115:93:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 125:6:    React Hook React.useEffect has missing dependencies: 'SDGsGoals', 'campaigns', and 'formName'. Either include them or remove the dependency array. You can also do a functional update 'setSDGsGoals(S => ...)' if you only need 'SDGsGoals' in the 'setSDGsGoals' call  react-hooks/exhaustive-deps
+  Line 162:14:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 164:18:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 168:14:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 170:18:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 179:15:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 981:37:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 985:65:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 986:159:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 986:173:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                                                                                                                                                                             no-mixed-operators
+  Line 987:103:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                                                                                                                                                                             no-mixed-operators
+
+src/markup/Element/userCard.js
+  Line 27:19:    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 36:27:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 45:45:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 50:29:    The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 50:89:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 59:49:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 64:29:    Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 64:94:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 65:103:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 73:48:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 78:29:    Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 78:92:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 86:50:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 91:29:    Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 91:96:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 92:105:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 99:49:    Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 104:29:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 104:94:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 105:103:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 112:53:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 117:29:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 117:102:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 132:25:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                                                                                                 jsx-a11y/alt-text
+  Line 132:47:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 132:74:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 133:31:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 135:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                                                                                                 jsx-a11y/alt-text
+  Line 137:49:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 156:47:   Expected '===' and instead saw '=='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 164:41:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 187:21:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 188:25:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                                                                                                 jsx-a11y/alt-text
+  Line 198:81:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 198:96:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 199:38:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 199:53:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                       eqeqeq
+  Line 199:62:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 200:33:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                                                                                                 jsx-a11y/alt-text
+  Line 205:33:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                                                                                                 jsx-a11y/alt-text
+
+src/markup/Layout/Footer.js
+  Line 52:23:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 57:23:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 62:23:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 67:23:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                                                                                     react/jsx-no-target-blank
+  Line 73:23:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/markup/Layout/Header.js
+  Line 157:45:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/markup/Pages/Admin/AddBeneficiary.js
+  Line 15:10:   'sendDiscordMessage' is defined but never used  no-unused-vars
+  Line 16:10:   'SendTweet' is defined but never used           no-unused-vars
+  Line 233:54:  Expected '===' and instead saw '=='             eqeqeq
+  Line 234:57:  Expected '===' and instead saw '=='             eqeqeq
+
+src/markup/Pages/Admin/AddEditCollection.js
+  Line 2:10:   'Col' is defined but never used                  no-unused-vars
+  Line 2:15:   'Container' is defined but never used            no-unused-vars
+  Line 2:26:   'Row' is defined but never used                  no-unused-vars
+  Line 2:31:   'Spinner' is defined but never used              no-unused-vars
+  Line 3:19:   'VIToast' is defined but never used              no-unused-vars
+  Line 4:10:   'CLPublicKey' is defined but never used          no-unused-vars
+  Line 6:8:    'validator' is defined but never used            no-unused-vars
+  Line 8:10:   'getDeployDetails' is defined but never used     no-unused-vars
+  Line 9:10:   'addCollection' is defined but never used        no-unused-vars
+  Line 9:25:   'updateCollection' is defined but never used     no-unused-vars
+  Line 13:3:   'refreshCollections' is defined but never used   no-unused-vars
+  Line 14:3:   'updateCollections' is defined but never used    no-unused-vars
+  Line 15:3:   'useNFTDispatch' is defined but never used       no-unused-vars
+  Line 23:10:  'sendDiscordMessage' is defined but never used   no-unused-vars
+  Line 24:10:  'SendTweet' is defined but never used            no-unused-vars
+  Line 30:23:  'entityInfo' is assigned a value but never used  no-unused-vars
+
+src/markup/Pages/Admin/ManageBeneficiaries.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/markup/Pages/Admin/MintNFT.js
+  Line 64:28:  'setUploadedImage' is assigned a value but never used                                                                     no-unused-vars
+  Line 153:6:  React Hook React.useEffect has a missing dependency: 'loadCollections'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/markup/Pages/BeneficiariesMarket.js
+  Line 3:10:    'Col' is defined but never used                                                                                                                                                        no-unused-vars
+  Line 3:15:    'Row' is defined but never used                                                                                                                                                        no-unused-vars
+  Line 11:8:    'SDGsMultiSelect' is defined but never used                                                                                                                                            no-unused-vars
+  Line 33:23:   'setIsClearSDGs' is assigned a value but never used                                                                                                                                    no-unused-vars
+  Line 41:61:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 45:107:  Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 61:44:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 72:47:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 77:6:    React Hook React.useCallback has a missing dependency: 'getFinalBeneficiariesList'. Either include it or remove the dependency array                                                   react-hooks/exhaustive-deps
+  Line 90:53:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 92:26:   Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 104:49:  Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 108:16:  Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 110:18:  Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 161:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 162:25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 220:73:  Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+
+src/markup/Pages/CreatorsMarketPlace.js
+  Line 3:10:    'Col' is defined but never used                                                                                                                                                        no-unused-vars
+  Line 3:15:    'Row' is defined but never used                                                                                                                                                        no-unused-vars
+  Line 11:8:    'SDGsMultiSelect' is defined but never used                                                                                                                                            no-unused-vars
+  Line 32:23:   'setIsClearSDGs' is assigned a value but never used                                                                                                                                    no-unused-vars
+  Line 44:44:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 60:53:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 68:37:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 76:78:   Expected '===' and instead saw '=='                                                                                                                                                    eqeqeq
+  Line 90:6:    React Hook React.useCallback has a missing dependency: 'getFinalCreatorList'. Either include it or remove the dependency array                                                         react-hooks/exhaustive-deps
+  Line 110:26:  Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 128:16:  Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 130:14:  Expected '!==' and instead saw '!='                                                                                                                                                    eqeqeq
+  Line 135:5:   React Hook React.useCallback has a missing dependency: 'getFinalCreatorList'. Either include it or remove the dependency array                                                         react-hooks/exhaustive-deps
+  Line 177:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 178:25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+src/markup/Pages/Dashboard.js
+  Line 5:8:     'Masonry' is defined but never used                                                                                                             no-unused-vars
+  Line 39:7:    'imagesLoadedOptions' is assigned a value but never used                                                                                        no-unused-vars
+  Line 105:48:  Expected '===' and instead saw '=='                                                                                                             eqeqeq
+  Line 141:33:  Expected '===' and instead saw '=='                                                                                                             eqeqeq
+  Line 196:6:   React Hook React.useEffect has a missing dependency: 'getSDGsDetails'. Either include it or remove the dependency array                         react-hooks/exhaustive-deps
+  Line 202:26:  Array.prototype.map() expects a return value from arrow function                                                                                array-callback-return
+  Line 207:34:  Expected '===' and instead saw '=='                                                                                                             eqeqeq
+  Line 213:6:   React Hook React.useEffect has missing dependencies: 'changedNFT' and 'displayedCampaigns'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 352:66:  Expected '===' and instead saw '=='                                                                                                             eqeqeq
+
+src/markup/Pages/ManageCollections.js
+  Line 7:8:  'CampaignSingleRow' is defined but never used      no-unused-vars
+  Line 8:8:  'AddEditCampaignsModal' is defined but never used  no-unused-vars
+
+src/markup/Pages/MyCollections.js
+  Line 115:23:  'setSelectedNFT' is assigned a value but never used                                                                            no-unused-vars
+  Line 173:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                      jsx-a11y/alt-text
+  Line 469:6:   React Hook React.useEffect has a missing dependency: 'displayedCollections'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/markup/Pages/NFTDetail.js
+  Line 13:10:   'MenuItemUnstyled' is defined but never used                                                                                                                                                                            no-unused-vars
+  Line 33:62:   Expected '===' and instead saw '=='                                                                                                                                                                                     eqeqeq
+  Line 58:6:    React Hook React.useCallback has a missing dependency: 'item'. Either include it or remove the dependency array. You can also do a functional update 'setItem(i => ...)' if you only need 'item' in the 'setItem' call  react-hooks/exhaustive-deps
+  Line 105:25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                               jsx-a11y/alt-text
+  Line 193:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                               jsx-a11y/alt-text
+  Line 208:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                               jsx-a11y/alt-text
+
+src/markup/Pages/NFTs/BeneficiaryNFTs.js
+  Line 30:8:    'SDGsMultiSelect' is defined but never used                                                                                                                                                                                                                              no-unused-vars
+  Line 154:10:  'SDGsGoals' is assigned a value but never used                                                                                                                                                                                                                           no-unused-vars
+  Line 259:44:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 326:34:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 337:6:   React Hook React.useEffect has missing dependencies: 'changedNFT' and 'filteredNFTs'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setFilteredNFTs' needs the current value of 'changedNFT'  react-hooks/exhaustive-deps
+  Line 714:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 715:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 726:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 757:65:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                      eqeqeq
+  Line 817:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 818:25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+
+src/markup/Pages/NFTs/CreatorNFTs.js
+  Line 31:8:    'SDGsMultiSelect' is defined but never used                                                                                                                                                                                                                              no-unused-vars
+  Line 145:10:  'SDGsGoals' is assigned a value but never used                                                                                                                                                                                                                           no-unused-vars
+  Line 167:34:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 178:6:   React Hook React.useEffect has missing dependencies: 'changedNFT' and 'filteredNFTs'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setFilteredNFTs' needs the current value of 'changedNFT'  react-hooks/exhaustive-deps
+  Line 717:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 718:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 729:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 762:54:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                      eqeqeq
+  Line 809:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 810:25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+
+src/markup/Pages/NFTs/MyNFTs.js
+  Line 177:34:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 183:6:   React Hook React.useEffect has missing dependencies: 'changedNFT' and 'filteredNFTs'. Either include them or remove the dependency array. You can also do a functional update 'setFilteredNFTs(f => ...)' if you only need 'filteredNFTs' in the 'setFilteredNFTs' call  react-hooks/exhaustive-deps
+  Line 413:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 414:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 425:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 564:42:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                      eqeqeq
+
+src/markup/Pages/NFTs/SDGGoalNFTs.js
+  Line 28:8:    'SDGsMultiSelect' is defined but never used                                                                                                                                                                                                                              no-unused-vars
+  Line 116:11:  'beneficiaries' is assigned a value but never used                                                                                                                                                                                                                       no-unused-vars
+  Line 116:32:  'campaigns' is assigned a value but never used                                                                                                                                                                                                                           no-unused-vars
+  Line 144:31:  'setSelectedViewProfile' is assigned a value but never used                                                                                                                                                                                                              no-unused-vars
+  Line 145:10:  'SDGsGoals' is assigned a value but never used                                                                                                                                                                                                                           no-unused-vars
+  Line 153:6:   React Hook React.useCallback has an unnecessary dependency: 'SDGsData'. Either exclude it or remove the dependency array. Outer scope values like 'SDGsData' aren't valid dependencies because mutating them doesn't re-render the component                             react-hooks/exhaustive-deps
+  Line 245:9:   'handleSDGsChange' is assigned a value but never used                                                                                                                                                                                                                    no-unused-vars
+  Line 295:34:  Expected '===' and instead saw '=='                                                                                                                                                                                                                                      eqeqeq
+  Line 306:6:   React Hook React.useEffect has missing dependencies: 'changedNFT' and 'filteredNFTs'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setFilteredNFTs' needs the current value of 'changedNFT'  react-hooks/exhaustive-deps
+  Line 472:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 588:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                    react/jsx-no-target-blank
+  Line 589:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 600:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+  Line 628:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                jsx-a11y/alt-text
+
+src/markup/Pages/RequestForm.js
+  Line 1:17:  'Fragment' is defined but never used  no-unused-vars
+
+src/markup/Pages/SignUpAsBeneficiary.js
+  Line 6:8:    'PromptLogin' is defined but never used          no-unused-vars
+  Line 18:11:  'isLoggedIn' is assigned a value but never used  no-unused-vars
+
+src/markup/Pages/ViewProfile.js
+  Line 37:6:    React Hook React.useCallback has missing dependencies: 'data' and 'formName'. Either include them or remove the dependency array. If 'setProfileDetails' needs the current value of 'formName', you can also switch to useReducer instead of useState and read 'formName' in the reducer  react-hooks/exhaustive-deps
+  Line 108:29:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                     react/jsx-no-target-blank
+  Line 115:29:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                     react/jsx-no-target-blank
+  Line 122:29:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                     react/jsx-no-target-blank
+  Line 129:29:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                     react/jsx-no-target-blank
+  Line 136:29:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                     react/jsx-no-target-blank
+  Line 148:23:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                 jsx-a11y/alt-text
+  Line 153:23:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                                                                                                                                 jsx-a11y/alt-text
+
+src/utils/contract-utils.ts
+  Line 9:3:    'CLValueBuilder' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 14:10:  'getCampaignDetails' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 14:30:  'parseCampaign' is defined but never used       @typescript-eslint/no-unused-vars
+  Line 18:3:   'TREASURY_WALLET' is defined but never used     @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
