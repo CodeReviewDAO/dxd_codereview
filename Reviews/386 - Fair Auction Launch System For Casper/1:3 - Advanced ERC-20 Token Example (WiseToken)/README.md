@@ -445,7 +445,11 @@ https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core | 🟢 Yes
 https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router | 🟡 Broken
 
 ## Test Logs
-- 
+- [Liquidity Transformer](assets/LiquidityTransformer-test-all.md)
+- [Stakeable Token](assets/stakeable-test-all.md)
+- [UniswapV2-Core](assets/UniswapV2-Core-test.md)
+- [UniswapV2-Core-wcspr](assets/UniswapV2-Core-wcspr-test.md)
+- [UniswapV2-Router](assets/UniswapV2-Router-test.md)
 
 Requirement | Finding
 ------------ | -------------
