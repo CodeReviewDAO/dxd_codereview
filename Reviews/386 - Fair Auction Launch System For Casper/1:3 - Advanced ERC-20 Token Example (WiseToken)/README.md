@@ -522,9 +522,18 @@ OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
+## Security Alerts
+
+A number of security vulnerability alerts have been discovered on the repositories, by using the central repository platform's native checks (dependabot alerts). The details are not shared in this review due to security reasons, but can be easily discoverable by anyone, including the OP.
+
+Repository | Security Alerts | Highest Severity
+------------ | ------------- | -------------
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Core | 3 | 🔴 Critical
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Router | 2 | 🔴 Critical
+
 ## General Observations
 
-Code is generally well-structured and readable. The project has been committed to GitHub, has an acceptable level of tests although a bit heavier on the positive paths.
+Code is generally well-structured and readable. The project has been committed to GitHub, has an acceptable level of tests although a bit heavier on the positive paths. However, there are a number of security vulnerability alerts for some dependencies of the repositories, which are listed in the previous section above. The listed **security alerts need to be resolved before the final milestone**.
 
 # Final Conclusion
 
