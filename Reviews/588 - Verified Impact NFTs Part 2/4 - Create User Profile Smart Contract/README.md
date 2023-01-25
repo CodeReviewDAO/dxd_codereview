@@ -76,19 +76,21 @@ By following the instructions in the [README](https://github.com/AdelElMessiry/V
 The reviewer was able to build the smart contract by following the README instructions
 
 [make prepare](assets/makepreparelogs.md)
+
 [make build-contract](assets/makebuildcontracts.md)
 
 - Build the user interface:
 
 The reviewer was able to build and run the project by following the README instructions.
 
-![Local build website main page](assets/webpagemain)
+![Local build website main page](assets/webpagemain.png)
 
+yarn install command
 ![yarn install](assets/yarninstall.png)
 
-[yarn install](assets/yarninstalllogs.md)
+[yarn install logs](assets/yarninstalllogs.md)
 
-[yarn start](assets/yarnstartlogs.md)
+[yarn start logs](assets/yarnstartlogs.md)
 
 ### Usage
 
@@ -99,24 +101,34 @@ After building the project, the reviewer headed to the progile page to test the 
 The user must enter his/her username and uppload images, but other fields can be empty.
 Initially the reviewer got an error about the bio entry limit, and informed the OP about the issue. OP was so responsive, and fixed the issue in allignment with reviewers suggestion immediately.
 
+Initial success with only username entry
 ![Initial success with only username entry](assets/profilesaved.png)
 
+Try with additional fields
 ![Try with additional fields](assets/addextrafields.png)
 
+Initial error with multiple fields
 ![Initial error with multiple fields](assets/addextrafieldfailed.png)
 
+Profile creation/update after the fix
 ![Profile creation/update after the fix](assets/updatedsave.png)
 
+Successfull profile save
 ![Successfull profile save](assets/finalprofilesave.png)
 
+Add initial bio
 ![Add initial bio](assets/addbio.png)
 
+Successfull bio creation
 ![Successfull bio creation](assets/biosavedsuccessfully.png)
 
+Edit bio
 ![Edit bio](assets/biosave.png)
 
+Successfull bio update
 ![Successfull bio update](assets/biosavesuccess.png)
 
+Deploy list from testnet.cspr.live
 ![Deploy list from testnet.cspr.live](assets/deploylist.png)
 
 [Test account cspt.live page](https://testnet.cspr.live/account/01c6c5f40d191fb1489d7f79e2cd483d8d26e576576ed185a9018526c77c85bf61)
