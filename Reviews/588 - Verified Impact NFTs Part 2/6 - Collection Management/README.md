@@ -42,7 +42,7 @@ https://github.com/AdelElMessiry/Verified-Impact-NFTs | 595a034
 
 Instructions in the README.md file in the repository(https://github.com/AdelElMessiry/Verified-Impact-NFTs) are well-written that make usage of the project easy. They explain a clear path for users, and following instructions step by step helps the user to run and test the codebase. Also for each review milestone, there is a pdf file that includes each step. The reviewer followed these steps from a Mac (macOS Monterey - MacBook Pro Intel i9 2019) and successfully run both tests and the project itself.
 
-However, the first version that was submitted to the system was not sufficient for the project to pass, However, the first version that was submitted to the system was not sufficient for the project to pass, because one of the acceptance criteria was missing and there were some missing files. The reviewer communicated with the OP about the situation, and the OP and their team took quick action and fixed the issues.
+However, the first version that was submitted to the system was not sufficient for the project to pass, because one of the acceptance criteria was missing and there were some missing files. The reviewer communicated with the OP about the situation, and the OP and their team took quick action and fixed the issues.
 
 ## Overall Impression of usage testing
 
