@@ -147,7 +147,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The reviewer was able to successfully run the unit tests. The project has sufficient amount of unit tests which covers all critical classes and methods.
 
-[yarn test](assets/yarntest.md)
+[yarn test](assets/yarntestlogs.md)
 
 Requirement | Finding
 ------------ | -------------
