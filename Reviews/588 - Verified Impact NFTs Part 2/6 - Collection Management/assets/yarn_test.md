@@ -1,0 +1,144 @@
+```
+yarn test
+ PASS  src/markup/Element/__test__/ListForSaleNFT.test.js (9.843 s)
+ PASS  src/api/__test__/getSpecificData.test.js (10.261 s)
+ PASS  src/api/__test__/updateCachedProfile.test.js
+ PASS  src/markup/Element/__test__/NFTCard.test.js (18.255 s)
+ PASS  src/markup/Layout/__test__/HeaderMenu.test.js
+ PASS  src/api/__test__/getProfileCachedData.test.js
+ PASS  src/api/__test__/beneficiaryInfo.test.js (12.881 s)
+ PASS  src/api/__test__/campaignInfo.test.js (19.379 s)
+ PASS  src/api/__test__/collectionInfo.test.js (10.417 s)
+ PASS  src/markup/Layout/__test__/Footer1.test.js
+ PASS  src/markup/Element/__test__/BuyNFT.test.js
+ PASS  src/markup/Element/__test__/VideoPopup.test.js
+ PASS  src/api/__test__/getProfileList.test.js (42.139 s)
+ PASS  src/api/__test__/updateProfile.test.js (76.848 s)
+  ● Console
+
+    console.log
+      entityInfo.publicKey 014b2f7c0b006bf3b09901fe123381cdf252f0772abbbd3d3bc5582c884234e4dd
+
+      at Object.<anonymous> (src/api/__test__/updateProfile.test.js:9:9)
+
+    console.log
+      3bc0263683717ae73d1262d4497df38e95f19c48afd0b16881152bbdcb103d2c      =================saveDeployHash
+
+      at UpdateProfile (src/api/updateProfile.ts:35:17)
+
+    console.log
+      ...... Profile Saved successfully e {
+        approvals: [
+          e {
+            signer: '014b2f7c0b006bf3b09901fe123381cdf252f0772abbbd3d3bc5582c884234e4dd',
+            signature: '01f81cf35e87a3a8d17e44bd6a6a17258a941a96a44aef7a232353b8cff7182d6e5db6348ea6c2beb094bfd56b802c575cf8c6f87faaefaf802b8d0b00adceda02'
+          }
+        ],
+        session: e {
+          storedContractByHash: t {
+            tag: 1,
+            entryPoint: 'create_profile',
+            args: [e],
+            hash: [Uint8Array]
+          }
+        },
+        payment: e {
+          moduleBytes: t { tag: 0, moduleBytes: Uint8Array(0) [], args: [e] }
+        },
+        header: e {
+          account: t { isCLValue: true, data: [Uint8Array], tag: 1 },
+          timestamp: 1673121027257,
+          ttl: 1800000,
+          gasPrice: 1,
+          bodyHash: Uint8Array(32) [
+            141, 200, 118,  10, 186, 100,  14, 231,
+            181, 207,  92,  69, 163, 129, 120, 241,
+            239, 124,  82, 106,  68,  36, 238,  65,
+             87, 117,  28,  47, 113, 223, 160,   3
+          ],
+          dependencies: [],
+          chainName: 'casper-test'
+        },
+        hash: Uint8Array(32) [
+           59, 192,  38,  54, 131, 113, 122, 231,
+           61,  18,  98, 212,  73, 125, 243, 142,
+          149, 241, 156,  72, 175, 208, 177, 104,
+          129,  21,  43, 189, 203,  16,  61,  44
+        ]
+      }
+
+      at UpdateProfile (src/api/updateProfile.ts:37:17)
+
+    console.log
+      chnaged Data {
+        '6436a9a3adb3880c94eb7de6a3a10ea3851a176451e0bbf65c7bc3050ffc1d4f': {
+          normal: {
+            address: '6436a9a3adb3880c94eb7de6a3a10ea3851a176451e0bbf65c7bc3050ffc1d4f',
+            username: 'test from  test api',
+            address_pk: '014b2f7c0b006bf3b09901fe123381cdf252f0772abbbd3d3bc5582c884234e4dd',
+            ein: '',
+            externalLink: '',
+            facebook: '',
+            firstName: '',
+            has_receipt: false,
+            imgUrl: '',
+            instagram: '',
+            isApproved: 'false',
+            lastName: '',
+            mail: '',
+            medium: '',
+            nftUrl: 'https://images.pexels.com/photos/14524982/pexels-photo-14524982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            phone: '',
+            tagline: '',
+            telegram: '',
+            twitter: '',
+            bio: ''
+          },
+          beneficiary: {},
+          creator: {}
+        }
+      }
+
+      at UpdateProfile (src/api/updateProfile.ts:73:17)
+
+    console.log
+      {
+        '6436a9a3adb3880c94eb7de6a3a10ea3851a176451e0bbf65c7bc3050ffc1d4f': {
+          normal: {
+            address: '6436a9a3adb3880c94eb7de6a3a10ea3851a176451e0bbf65c7bc3050ffc1d4f',
+            username: 'test from  test api',
+            address_pk: '014b2f7c0b006bf3b09901fe123381cdf252f0772abbbd3d3bc5582c884234e4dd',
+            ein: '',
+            externalLink: '',
+            facebook: '',
+            firstName: '',
+            has_receipt: false,
+            imgUrl: '',
+            instagram: '',
+            isApproved: 'false',
+            lastName: '',
+            mail: '',
+            medium: '',
+            nftUrl: 'https://images.pexels.com/photos/14524982/pexels-photo-14524982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            phone: '',
+            tagline: '',
+            telegram: '',
+            twitter: '',
+            bio: ''
+          },
+          beneficiary: {},
+          creator: {}
+        }
+      }
+
+      at Object.<anonymous> (src/api/__test__/updateProfile.test.js:18:9)
+
+
+Test Suites: 14 passed, 14 total
+Tests:       14 passed, 14 total
+Snapshots:   0 total
+Time:        79.842 s
+Ran all test suites.
+
+Watch Usage: Press w to show more.
+```
