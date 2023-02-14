@@ -1,0 +1,5 @@
+docker run --name redis -p 127.0.0.1:6379:6379 -d redis
+c63078d4859104da76e4f0f1969cb24b80937043401f3f3633dc93842e8d9a1e
+
+docker run --name some-postgres -p 127.0.0.1:5433:5432 -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=casperparser -d postgres
+a52242c04722720781041bf58bdd615a02125652599d0bf17407cf4b4764c39a

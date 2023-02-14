@@ -1,0 +1,93 @@
+@socodes ➜ /workspaces/casperholdersfront (develop) $ pnpm e2e
+
+> casperholdersfront@1.0.0 pree2e /workspaces/casperholdersfront
+> docker-compose up --force-recreate -d && .github/data/setupNetwork.sh http://localhost:11101
+
+Recreating redisnctl     ... done
+Recreating dbparser      ... done
+Recreating mynctl        ... done
+Recreating cors-anywhere ... done
+Recreating dbnctl        ... done
+Recreating asynqmon      ... done
+Recreating casperparser-client ... done
+Recreating testnet-api         ... done
+Recreating casperparser-worker ... done
+Recreating postgrest           ... done
+exists.
+{"jsonrpc":"2.0","id":null,"error":{"code":-32700,"message":"Parse error","data":null}}{
+  "id": -8826517627404067993,
+  "jsonrpc": "2.0",
+  "result": {
+    "api_version": "1.0.0",
+    "block": {
+      "body": {
+        "deploy_hashes": [],
+        "proposer": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+        "transfer_hashes": []
+      },
+      "hash": "b6d38d7368b54eff145de2271e98e6b4e9b8ad9ba4eaab2261b34cf45d8a1e79",
+      "header": {
+        "accumulated_seed": "aaf8ae9cd53ef97a6d2bd665ef6cc5ff56a2b059f5f5b417a85f52840b7562a8",
+        "body_hash": "53a71a60b68715d47adf40460d085d00de52c0aa35183bec1e15380273bb7556",
+        "era_end": null,
+        "era_id": 0,
+        "height": 4,
+        "parent_hash": "94ce66fbf1a0e54e997668c6852612f202215f5b70f4545fdb86fd3a1c8d3cb5",
+        "protocol_version": "1.0.0",
+        "random_bit": false,
+        "state_root_hash": "37439e11c8d7e256e368fc1b84068d20e663505b9c8d2c02933b9f110a16a842",
+        "timestamp": "2023-02-10T19:22:32.832Z"
+      },
+      "proofs": [
+        {
+          "public_key": "01509254f22690fbe7fb6134be574c4fbdb060dfa699964653b99753485e518ea6",
+          "signature": "012a1388513873902bf76f059e6f7e18e7f262328ca5399534cccf503b54d2aeefc498470e8cecbf02a8a13d4953f93ab5d8d2b16cccfd3de67e85be3942b4870c"
+        },
+        {
+          "public_key": "0190664e16a17594ed2d0e3c279c4cf5894e8db0da15e3b91c938562a1caae32ab",
+          "signature": "014f6fdaa97b2cb0825b8b1e2c55235a6814cca515d498992245b87dbf1e36843b2b3fa887b3e23c24d0c0fd179573839deda1d1abefd441d3f573cbf906ec5503"
+        },
+        {
+          "public_key": "01c867ff3cf1d4e4e68fc00922fdcb740304def196e223091dee62012f444b9eba",
+          "signature": "011eef02913784a55769336466e1070319b139f2a727c0183cb7e08281abf641aa415b69f217bc7f0efaadb06763d4dc59145208e346d1a531054de0305d678c01"
+        },
+        {
+          "public_key": "01f58b94526d280881f79744effebc555426190950d5dfdd2f8aaf10ceaec010c6",
+          "signature": "017b76c008ce2c78e7e345f0bff13cf251604b3aca04da452234faa69ca2165684fab7d54cda1d728f1c8bf12defc8b7ec71aea52d32cb44c51a269f3b8931f00e"
+        },
+        {
+          "public_key": "01fed662dc7f1f7af43ad785ba07a8cc05b7a96f9ee69613cfde43bc56bec1140b",
+          "signature": "01ae9092c37a9ec1e5117d597c4184fdf39760d45abba64fb91c1cc806b4c1be4e5aa66c466303121bc1129d2f3593dc28c1cca63efe182901c156688cfc39ba07"
+        }
+      ]
+    }
+  }
+}
+{
+  "id": 4783127116546182363,
+  "jsonrpc": "2.0",
+  "result": {
+    "api_version": "1.0.0",
+    "deploy_hash": "18c13b888fe416f0ddf55db6002987b1bd532dff096fd5811f5dd72da6a8ab92"
+  }
+}
+Deploy hash : 83dc8f1baff77461aeb3f399c3de0efc59e2c5f61610e7ef6e21a3206db377d4
+Waiting for result...
+Waiting for result...
+Waiting for result...
+Waiting for result...
+uref-654d2455f66b0e4079b4ea3404bdd064667512eb85aeff09c91196f3d1eefec1-000
+uref-654d2455f66b0e4079b4ea3404bdd064667512eb85aeff09c91196f3d1eefec1-000
+de8e89500457e2a980e5b4664e42778d69ab623ec963bc9aa49562849e0c6560
+VITE_APP_AUCTION_MANAGER_HASH=de8e89500457e2a980e5b4664e42778d69ab623ec963bc9aa49562849e0c6560
+exists.
+
+> casperholdersfront@1.0.0 e2e /workspaces/casperholdersfront
+> vite --mode e2e --config vite.e2e.config.js --port 8080
+
+
+  VITE v4.0.4  ready in 3925 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: use --host to expose
+  ➜  press h to show help

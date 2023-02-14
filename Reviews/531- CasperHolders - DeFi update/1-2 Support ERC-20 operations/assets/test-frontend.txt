@@ -1,0 +1,648 @@
+@socodes ➜ /workspaces/casperholdersfront (develop) $ pnpm test:e2e
+
+> casperholdersfront@1.0.0 test:e2e /workspaces/casperholdersfront
+> cypress run --headed --browser chrome
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        12.4.1                                                                         │
+  │ Browser:        Chrome 110                                                                     │
+  │ Node Version:   v19.5.0 (/usr/local/share/nvm/versions/node/v19.5.0/bin/node)                  │
+  │ Specs:          20 found (offlinePaths/AddBid.js, offlinePaths/Delegate.js, offlinePaths/Smart │
+  │                 Contract.js, offlinePaths/Undelegate.js, offlinePaths/WithdrawBid.js, offlineP │
+  │                 aths/balance.js, offlinePaths/home.js, offlinePaths/transfer.js, onlinePaths/A │
+  │                 ddBid.js, onlinePaths/D...)                                                    │
+  │ Searched:       tests/e2e/specs/**/*.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/AddBid.js                                                         (1 of 20)
+Still waiting to connect to Chrome, retrying in 1 second (attempt 18/62)
+
+
+  Add bid
+    ✓ Should not let you add bid (28258ms)
+
+
+  1 passing (31s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     30 seconds                                                                       │
+  │ Spec Ran:     offlinePaths/AddBid.js                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/Delegate.js                                                       (2 of 20)
+
+
+  Delegate
+    ✓ Should not let you do a delegation (4346ms)
+
+
+  1 passing (6s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/Delegate.js                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/SmartContract.js                                                  (3 of 20)
+
+
+  Smart Contract
+    ✓ Should not let send smart contract (4152ms)
+
+
+  1 passing (6s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/SmartContract.js                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/Undelegate.js                                                     (4 of 20)
+
+
+  Undelegate
+    ✓ Should not let you do a undelegation (4191ms)
+
+
+  1 passing (6s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/Undelegate.js                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/WithdrawBid.js                                                    (5 of 20)
+
+
+  Withdraw bid
+    ✓ Should not let you withdraw bid (4353ms)
+
+
+  1 passing (6s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/WithdrawBid.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/balance.js                                                        (6 of 20)
+
+
+  Balance
+    ✓ It show balance (4671ms)
+
+
+  1 passing (6s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/balance.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/home.js                                                           (7 of 20)
+
+
+  Home
+    ✓ It show testnet (5296ms)
+
+
+  1 passing (7s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/home.js                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  offlinePaths/transfer.js                                                       (8 of 20)
+
+
+  Transfer
+    ✓ Should not let you do a transfer (7778ms)
+
+
+  1 passing (9s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     offlinePaths/transfer.js                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/AddBid.js                                                          (9 of 20)
+
+
+  Add bid
+    ✓ Should let you add bid (17381ms)
+
+
+  1 passing (19s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     19 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/AddBid.js                                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/Delegate.js                                                       (10 of 20)
+
+
+  Delegate
+    ✓ Should let you do a delegation (17307ms)
+
+
+  1 passing (19s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     19 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/Delegate.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/NewAuction.js                                                     (11 of 20)
+
+
+  Deploy and test cep47
+    ✓ Deploy cep47 (26822ms)
+    ✓ Get cep47 contract hash (8285ms)
+    ✓ Mint cep47 nft (50057ms)
+    ✓ Sell nft cep47 (31153ms)
+    ✓ Check not yet started auction (11605ms)
+    ✓ Check started auction & cancel it (53161ms)
+    ✓ Re-Sell nft cep47 (29008ms)
+    ✓ Check started auction & bid on it (131650ms)
+    ✓ Finalize auction (261115ms)
+    ✓ Check Finalized auction (11470ms)
+
+
+  10 passing (10m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        10                                                                               │
+  │ Passing:      10                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     10 minutes, 16 seconds                                                           │
+  │ Spec Ran:     onlinePaths/NewAuction.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/NewCep47.js                                                       (12 of 20)
+
+
+  Deploy and test cep47
+    ✓ Deploy cep47 (26020ms)
+    ✓ Get cep47 contract hash (8463ms)
+    ✓ Add cep47 collection (5292ms)
+    ✓ Mint cep47 nft (99323ms)
+    ✓ Approve cep47 nft (31991ms)
+    ✓ Set meta cep47 nft (44276ms)
+    ✓ Mint copies cep47 nft (44778ms)
+    ✓ Check cep47 collection (46141ms)
+    ✓ Check cep47 collection (13243ms)
+
+
+  9 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        9                                                                                │
+  │ Passing:      9                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 minutes, 21 seconds                                                            │
+  │ Spec Ran:     onlinePaths/NewCep47.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/NewCep78.js                                                       (13 of 20)
+
+
+  Deploy & test cep78
+    ✓ Deploy cep78 (30354ms)
+    ✓ Get cep78 contract hash (8206ms)
+    ✓ Add cep78 collection (4779ms)
+    ✓ Mint cep78 nft (68680ms)
+    ✓ Check cep78 collection (46667ms)
+    ✓ Check cep47 collection (13471ms)
+
+
+  6 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 54 seconds                                                            │
+  │ Spec Ran:     onlinePaths/NewCep78.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/NewErc20.js                                                       (14 of 20)
+
+
+  Deploy & test erc20
+    ✓ Deploy erc20 (25531ms)
+    ✓ Approve erc20 (24832ms)
+    ✓ It show balance for ERC20 tokens (5567ms)
+    ✓ Should let you do a revoke/max of ERC20 allowance (27482ms)
+    ✓ Should let you do a transfer of ERC20 tokens (42360ms)
+
+
+  5 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        5                                                                                │
+  │ Passing:      5                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 7 seconds                                                             │
+  │ Spec Ran:     onlinePaths/NewErc20.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/NewUniswapErc20.js                                                (15 of 20)
+
+
+  Deploy & test Uniswap erc20
+    ✓ Deploy uniswap erc20 (31395ms)
+    ✓ Approve uniswap erc20 (27879ms)
+    ✓ Burn uniswap erc20 (25454ms)
+    ✓ Mint uniswap erc20 (27721ms)
+    ✓ It show balance for Uniswap ERC20 tokens (5828ms)
+    ✓ Should let you do a revoke/max of Uniswap ERC20 allowance (27850ms)
+    ✓ Should let you do a transfer of Uniswap ERC20 tokens (42347ms)
+
+
+  7 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        7                                                                                │
+  │ Passing:      7                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 minutes, 10 seconds                                                            │
+  │ Spec Ran:     onlinePaths/NewUniswapErc20.js                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/Security.js                                                       (16 of 20)
+
+
+  Security
+    ✓ Should remove and re-add an account hash (116403ms)
+
+  Impersonation
+    ✓ Should verify impersonation & multisig multi-key transfer (25814ms)
+
+
+  2 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 24 seconds                                                            │
+  │ Spec Ran:     onlinePaths/Security.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/SmartContract.js                                                  (17 of 20)
+
+
+  Smart Contract
+    ✓ Should let send smart contract (19315ms)
+
+
+  1 passing (21s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     21 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/SmartContract.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/Undelegate.js                                                     (18 of 20)
+
+
+  Undelegate
+    ✓ Should let you do a undelegation (19496ms)
+
+
+  1 passing (21s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     21 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/Undelegate.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/WithdrawBid.js                                                    (19 of 20)
+
+
+  Withdraw bid
+    ✓ Should let you withdraw bid (16942ms)
+
+
+  1 passing (19s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     18 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/WithdrawBid.js                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  onlinePaths/transfer.js                                                       (20 of 20)
+
+
+  Transfer
+    ✓ Should let you do a transfer (20811ms)
+
+
+  1 passing (23s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     22 seconds                                                                       │
+  │ Spec Ran:     onlinePaths/transfer.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  offlinePaths/AddBid.js                   00:30        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/Delegate.js                 00:06        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/SmartContract.js            00:05        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/Undelegate.js               00:05        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/WithdrawBid.js              00:06        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/balance.js                  00:06        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/home.js                     00:07        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  offlinePaths/transfer.js                 00:09        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/AddBid.js                    00:19        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/Delegate.js                  00:19        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/NewAuction.js                10:16       10       10        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/NewCep47.js                  05:21        9        9        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/NewCep78.js                  02:54        6        6        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/NewErc20.js                  02:07        5        5        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/NewUniswapErc20.js           03:10        7        7        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/Security.js                  02:24        2        2        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/SmartContract.js             00:21        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/Undelegate.js                00:21        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/WithdrawBid.js               00:18        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  onlinePaths/transfer.js                  00:22        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        29:35       53       53        -        -        -  
+
+@socodes ➜ /workspaces/casperholdersfront (develop) $ 
