@@ -110,9 +110,9 @@ The code coverage is pretty high :
 
 ![img.png](assets/parser_busy.png)
 
-![img.png](assets/test_parser.png)
+![img.png](assets/tests_parser.png)
 
-![img.png](assets/test_result.png)
+![img.png](assets/tests_result.png)
 
 
 *Milestone 4 - Use CEP-47 in the webapp*
