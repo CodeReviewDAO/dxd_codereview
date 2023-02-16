@@ -108,8 +108,6 @@ The reviewer has also installed pgadmin to check the content of the database. Th
 
 The code coverage is pretty high :
 
-![img.png](assets/parser_busy.png)
-
 ![img.png](assets/tests_parser.png)
 
 ![img.png](assets/tests_result.png)
