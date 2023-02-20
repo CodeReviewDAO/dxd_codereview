@@ -66,6 +66,15 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/speech-t
 See [Speech-to-text_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/ed071a29758ed037f239c655f841037fb74a7266/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/Speech-to-text_install.MD)
 
 ### Usage
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://www.loom.com/share/473300a2332f406fb441635df3ac6a3e)
+
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
+
+Accessing Swagger UI:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/99367de375c3bf63192c7013c93f482f62794d63/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/speech-to-text_webservice.PNG)
+
+Testing Endpoint: 
+![alt text](https://github.com/hoopav/dxd_codereview/blob/99367de375c3bf63192c7013c93f482f62794d63/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/speech-to-text_webservice2.PNG)
 
 
 ## Optical Character Recognition plugin
@@ -78,7 +87,9 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/ocr), th
 See [ocr_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/ec6515944863ab1cd0f509bc232f8305dfb6c387/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/ocr_install.MD)
 
 ### Usage
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://www.loom.com/share/3788bd6b50b0422cb462567f89ebc899)
 
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
 
 ## Image Tagging plugin
@@ -91,6 +102,15 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/image-ta
 See [image_tagging_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/b9c072df48fac54e4de9c478ab6cb2b9bdf58a11/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/image_tagging_install.MD)
 
 ### Usage
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://drive.google.com/file/d/1UAFk3wsa2NdZAh6SuBEcDDaaGfsuEV1Q/view?usp=share_link)
+
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
+
+Accessing Swagger UI:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/99367de375c3bf63192c7013c93f482f62794d63/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/image_tagging_swaggerUI.PNG)
+
+Testing Image tagging:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/main/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/image_tagging_success.PNG)
 
 
 ## Language translation plugin
@@ -102,7 +122,9 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/language
 
 See [language_translation_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/2ce30c60dbd157b92f3c3ff9bb7bca8a50995740/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/language_translation_install.MD)
 ### Usage
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://drive.google.com/file/d/1HGz6jgn6E5puYKqw76Emd7KhKKNwTYF5/view?usp=share_link)
 
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
 ## Semantic search plugin
 
@@ -114,7 +136,9 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/semantic
 See [semantic_search_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/8de533031367a79c8457419da7c7aa49cbd67267/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/semantic_search_install.MD)
 
 ### Usage
+To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://drive.google.com/file/d/1GNtot4vma2cVV17D7wOTbhO1cHmLjieh/view?usp=share_link)
 
+In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
 ## Overall Impression of usage testing
 
