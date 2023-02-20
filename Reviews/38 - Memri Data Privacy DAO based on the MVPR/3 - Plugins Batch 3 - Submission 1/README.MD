@@ -91,6 +91,9 @@ To test the plugin, the reviewer followed along and performed the same steps as 
 
 In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
+Results:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/41c382c8eee44982e6b4731b297efd61a9b86c57/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/ocr_success.PNG)
+
 
 ## Image Tagging plugin
 
