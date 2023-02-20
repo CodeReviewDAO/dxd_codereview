@@ -59,105 +59,62 @@ Here, the reviewer used https://dev.pod.memri.io as the pod to test the followin
 ## Speech to Text
 
 ### Install 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/telegram/), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/speech-to-text), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
 `pip install -e .`
 
-See [Telegram_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Telegram_Install.MD)
+See [Speech-to-text_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/ed071a29758ed037f239c655f841037fb74a7266/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/Speech-to-text_install.MD)
 
 ### Usage
-In order to use the plugin, Telegram API keys had to be obtained. As referenced in the README, the user followed the steps located at (https://core.telegram.org/api/obtaining_api_id) and obtained the necessary keys.
 
-Following that, the user ran the following commands:
-
-```
-export TELEGRAM_APP_KEY=$key
-export TELEGRAM_APP_SECRET="$secretkey"
-run_plugin --metadata "metadata.json" --pod_full_address https://dev.pod.memri.io
-```
-
-$key and $secretkey here are placeholders for the actual Telegram API keys. When the reviewer ran the commands, the necessary keys were inputted. Note that the last command is different from the README. Due to the reviewer not being able to run a proper Memri POD due to using a Windows machine, the dev pod was used instead by providing the full address.
-
-The plugin properly generated a QR code to login to the reviewer's Telegram account, as shown below:
-![alt text](https://github.com/hoopav/dxd_codereview/blob/45982d869341c0e5f7a8c0963ff053b13721d676/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/telegram_QR.PNG)
-
-Following that, on logging into the datastream explorer, the reviewer confirmed that Telegram account information and messages were added.
-
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/45982d869341c0e5f7a8c0963ff053b13721d676/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/telegram_success.PNG)
 
 ## Optical Character Recognition plugin
 
 ### Install
-After downloading the repository (https://gitlab.memri.io/memri/plugins/zero-shot-plugin), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/ocr), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
-`pip install -e .[cli]`
+`pip install -e .`
 
-See [Zeroshot_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Zeroshot_Install.MD)
+See [ocr_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/ec6515944863ab1cd0f509bc232f8305dfb6c387/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/ocr_install.MD)
 
 ### Usage
 
-To test the plugin, the reviewer followed along and performed the same steps as in the video here: (https://www.loom.com/share/527d14f9d78a4a68ad4a270a30d6099f)
 
-In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
 ## Image Tagging plugin
 
 ### Install 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/gmail_oauth), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/image-tagging), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
 `pip install -e .`
 
-See [Gmail_OAuth_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Gmail_OAuth_Install.MD)
+See [image_tagging_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/b9c072df48fac54e4de9c478ab6cb2b9bdf58a11/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/image_tagging_install.MD)
 
 ### Usage
-The reviewer followed the steps to obtain credentials for the Gmail plugin as detailed in the README and was able to successfully obtain the requisite OAuth client ID credentials as a JSON file, as well as set the GMAIL_CLIENT_SECRET_FILE environment variable to the path of the JSON file.
-
-Following that, the reviewer ran the command:
-
-```
-run_plugin --metadata "metadata.json" --pod_full_address https://dev.pod.memri.io
-```
-
-The reviewer was then able to successfully connect and authenticate with the plugin.
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/62c8525fadfba1844558cfde5f012ffc565c6b34/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/gmail_success.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/62c8525fadfba1844558cfde5f012ffc565c6b34/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/gmail_success2.PNG)
 
 
 ## Language translation plugin
 
 ### Install 
-After downloading the repository (https://gitlab.memri.io/memri/plugins/language-identification), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/language-translation), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
 `pip install -e .`
 
-See [Language_Identification_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Language_Identification_Install.MD)
+See [language_translation_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/2ce30c60dbd157b92f3c3ff9bb7bca8a50995740/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/language_translation_install.MD)
 ### Usage
 
-Following the usage instructions (substituting http://0.0.0.0:8008 with the Windows equivalent address) the reviewer was able to spin up the HTTP webserver and then test the plugin by identifying sample languages as seen below:
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/041e70bc2191aa3fc4f72eb79c8b3ed7d5863600/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/language_identification_success.PNG)
-
-![alt text](https://github.com/hoopav/dxd_codereview/blob/041e70bc2191aa3fc4f72eb79c8b3ed7d5863600/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/language_identification_success2.PNG)
-
-The plugin seems to work as intended for the most part, but obscure languages and romanized sentences of languages with their own characters seem to not register properly. (i.e. the romanized Japanese sentences and the Hmong sentence). However, the reviewer notes that this is due to FastText's model that the plugin is using. In terms of the plugin's strict functionality of being able to handle an inputted text and identifying the language, it works as intended.
 
 ## Semantic search plugin
 
 ### Install
-After downloading the repository (https://gitlab.memri.io/memri/twitter-topic-model), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
+After downloading the repository (https://gitlab.memri.io/memri/plugins/semantic-search), the reviewer followed the installation process in the README by opening a terminal in the downloaded repository and running the command: 
 
 `pip install -e .`
 
-See [Twitter_Topic_Model_Install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/fd81ef6ad5644e8262d5f2a0180c48c1d1437ca5/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/Twitter_Topic_Model_Install.MD)
+See [semantic_search_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/8de533031367a79c8457419da7c7aa49cbd67267/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/semantic_search_install.MD)
 
 ### Usage
-Following the usage instructions (substituting http://0.0.0.0:8008 with the Windows equivalent address) the reviewer was able to spin up the HTTP webserver.
 
-![alt text](https://github.com/hoopav/dxd_codereview/blob/b75032369e2a8e9217cd53760afa37d365fe26de/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/2%20-%20Plugins%20Batch%202%20-%20Submission%202/assets/twitter_topic_model_success.PNG)
-
-Then, following the instructions in the video here: (https://www.loom.com/share/138dcbb4c1074364b0bf085bc1678232) the reviewer was able to replicate the results of the test data as well as for the reviewer's own tweets. 
 
 ## Overall Impression of usage testing
 
