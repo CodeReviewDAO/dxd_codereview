@@ -143,6 +143,13 @@ To test the plugin, the reviewer followed along and performed the same steps as 
 
 In doing so, the reviewer was able to recreate the same results and confirm the plugin works as intended.
 
+Accessing Swagger UI:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/21130b3f50756fc6e34e7a1a3006e6737aba303f/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/semantic_swaggerUI.PNG)
+
+Testing plugin with demo:
+![alt text](https://github.com/hoopav/dxd_codereview/blob/21130b3f50756fc6e34e7a1a3006e6737aba303f/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/3%20-%20Plugins%20Batch%203%20-%20Submission%201/assets/semantic_demoSuccess.PNG)
+
+
 ## Overall Impression of usage testing
 
 Requirement | Finding
