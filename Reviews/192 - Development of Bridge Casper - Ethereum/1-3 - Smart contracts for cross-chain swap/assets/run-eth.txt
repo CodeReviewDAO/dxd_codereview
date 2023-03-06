@@ -1,0 +1,19 @@
+mdidin@Muhammed-MacBook-Air boosty-bridge % go run cmd/eth/main.go run
+# github.com/rjeczalik/notify
+cgo-gcc-prolog:217:2: warning: 'FSEventStreamScheduleWithRunLoop' is deprecated: first deprecated in macOS 13.0 - Use FSEventStreamSetDispatchQueue instead. [-Wdeprecated-declarations]
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers/FSEvents.h:1138:1: note: 'FSEventStreamScheduleWithRunLoop' has been explicitly marked deprecated here
+# command-line-arguments
+ld: warning: -no_pie is deprecated when targeting new OS versions
+ld: warning: non-standard -pagezero_size is deprecated when targeting macOS 13.0 or later
+{"level":"debug","msg":"established grpc connection with server on localhost:10003"}
+{"level":"debug","msg":"tricorn eth-connector running"}
+{"level":"debug","msg":"GRPC server running"}
+{"level":"debug","msg":"starting eth-connector GRPC endpoints"}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:15:34 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:16:00 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:21:18 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 21:18:46 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}

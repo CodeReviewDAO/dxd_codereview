@@ -1,0 +1,6 @@
+mdidin@Muhammed-MacBook-Air boosty-bridge % go run cmd/web_app/main.go run
+# command-line-arguments
+ld: warning: -no_pie is deprecated when targeting new OS versions
+ld: warning: non-standard -pagezero_size is deprecated when targeting macOS 13.0 or later
+{"level":"debug","msg":"tricorn web-app running"}
+{"level":"debug","msg":"running golden-gate web-app server on localhost:8089"}

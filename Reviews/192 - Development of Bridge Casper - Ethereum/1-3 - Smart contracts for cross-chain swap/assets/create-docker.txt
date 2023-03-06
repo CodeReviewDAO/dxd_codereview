@@ -1,0 +1,50 @@
+docker run --name=db -e POSTGRES_PASSWORD='1212' -p 6432:5432 -d --rm postgres
+77be9b8a1bc84ea115bdf68394b76274a399153bc16cead4efed194fd3976fb4
+
+docker exec -it db createdb -U postgres boosty_bridge_db
+
+
+docker exec -it db psql -d boosty_bridge_db -U  postgres -W
+
+psql (15.1 (Debian 15.1-1.pgdg110+1))
+Type "help" for help.
+
+
+insert into network_nonces values(4, 28950);
+insert into network_nonces values(5, 28950);
+insert into network_nonces values(7, 28950);
+insert into network_nonces values(9, 28950);
+
+                    ^
+boosty_bridge_db=# insert into private_keys values('NT_CASPER', 'e25178fe171a2a970e77a5165160a4e3ff116adc4e7ae10496d06aac85b594c3a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4', 'DT_TRANSACTION');
+insert into private_keys values('NT_CASPER', 'cc903a2179a5c47acef21d732c0693848c6c33e626fd6651b3773732bde6e127', 'DT_SIGNATURE');
+insert into private_keys values('NT_EVM', '855d9081c7cc3d234fe5f333156ba6efa612be8e0befb14338bacd13a8a90300', 'DT_TRANSACTION');
+insert into private_keys values('NT_EVM', '855d9081c7cc3d234fe5f333156ba6efa612be8e0befb14338bacd13a8a90300', 'DT_SIGNATURE');
+
+boosty_bridge_db-# \dt
+            List of relations
+ Schema |     Name     | Type  |  Owner
+--------+--------------+-------+----------
+ public | private_keys | table | postgres
+(1 row)
+
+        ^
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+boosty_bridge_db=# select * from private_keys;
+ network_type |                           private_key                            |      type
+--------------+------------------------------------------------------------------+----------------
+ NT_CASPER    | cc903a2179a5c47acef21d732c0693848c6c33e626fd6651b3773732bde6e127 | DT_SIGNATURE
+ NT_EVM       | 855d9081c7cc3d234fe5f333156ba6efa612be8e0befb14338bacd13a8a90300 | DT_TRANSACTION
+ NT_EVM       | 855d9081c7cc3d234fe5f333156ba6efa612be8e0befb14338bacd13a8a90300 | DT_SIGNATURE
+(3 rows)
+
+boosty_bridge_db=# insert into network_nonces values(4, 28950);
+insert into network_nonces values(5, 28950);
+insert into network_nonces values(7, 28950);
+insert into network_nonces values(9, 28950);
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
