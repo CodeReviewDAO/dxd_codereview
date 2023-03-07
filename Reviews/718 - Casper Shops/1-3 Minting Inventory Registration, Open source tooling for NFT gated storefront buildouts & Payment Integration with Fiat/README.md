@@ -5,6 +5,7 @@ Milestone Title | Payment Integration with Fiat (200 hours) - Submission 2
 OP | droplinked
 Reviewer | Gökhan Gurbetoğlu <crdao@ggurbet.com>
 
+
 # Milestone Details
 
 ## Details & Acceptance Criteria
@@ -49,6 +50,7 @@ Project builds without errors | PASS / FAIL / PASS with Notes
 Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
 
+
 # Unit / Automated Testing
 
 _Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
@@ -60,6 +62,7 @@ Requirement | Finding
 Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
 Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
 Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+
 
 # Documentation
 
@@ -86,6 +89,7 @@ Example Documented | PASS / FAIL / PASS with Notes
 
 _Summarize your review of the documentation in this project, including code, usage and examples_
 
+
 # Open Source Practices
 
 ## Licenses
@@ -109,6 +113,7 @@ The project contains a CONTRIBUTING and SECURITY policy that links to a Code of 
 Requirement | Finding
 ------------ | -------------
 OSS contribution best practices | PASS / FAIL / PASS with Notes
+
 
 # Coding Standards
 
