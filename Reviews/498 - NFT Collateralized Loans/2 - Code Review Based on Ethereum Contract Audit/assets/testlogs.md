@@ -1,3 +1,7 @@
+# Output of the "make test-all" command
+
+```sh
+
 make all
 make[1]: Entering directory '/workspace/CasperLabs-LiquidNFT'
 make build-contract-liquid-factory && make build-contract-liquid-locker
@@ -318,3 +322,5 @@ test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
 make[2]: Leaving directory '/workspace/CasperLabs-LiquidNFT'
 make[1]: Leaving directory '/workspace/CasperLabs-LiquidNFT'
+
+```
