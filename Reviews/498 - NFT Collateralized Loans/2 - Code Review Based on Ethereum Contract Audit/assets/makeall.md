@@ -1,3 +1,7 @@
+# Output of the "make all" command
+
+```sh
+
 gitpod /workspace/CasperLabs-LiquidNFT (main) $ make all
 make build-contract-liquid-factory && make build-contract-liquid-locker
 make[1]: Entering directory '/workspace/CasperLabs-LiquidNFT'
@@ -131,3 +135,4 @@ cargo build --release -p liquid-locker -p cep47 -p erc20 --target wasm32-unknown
    Compiling liquid-locker v0.2.0 (/workspace/CasperLabs-LiquidNFT/Contracts/liquid-locker/liquid-locker)
     Finished release [optimized] target(s) in 3.90s
 make[1]: Leaving directory '/workspace/CasperLabs-LiquidNFT'
+```
