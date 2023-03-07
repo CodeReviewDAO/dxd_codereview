@@ -65,12 +65,11 @@ Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Main parts of the source code includes many descriptive comments but this is not the case for other source files. Also, current comments are a bit on the shorter side. Some polish is recommended for future updates.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
@@ -115,13 +114,14 @@ OSS contribution best practices | PASS / FAIL / PASS with Notes
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Source code is well written, easily readable, and conforms to good coding practices overall.
+
 
 # Final Conclusion
 
 _Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
 submission should fail code review, because it does not contain an OSI-approved open source license'_
+
 
 # Recommendation
 
