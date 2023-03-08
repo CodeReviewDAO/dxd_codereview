@@ -27,7 +27,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Info | 76e9507
+https://github.com/Rengo-Labs/CasperLabs-UniswapV2-Info | b05a2e1
 
 
 # Install & Usage Testing Procedure and Findings
@@ -71,15 +71,15 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-There seems to be no tests prepared for the project.
+The reviewer was able to successfully run the unit tests. The bash script file was able to run the unit tests. The project has sufficient amount of unit tests which covers all critical classes and methods.
 
-Using the provided test document, reviewer was able to extensively test the features of the app and found it to be running as intended. **While manual testing is possible, creating a test suite for the frontend is also possible and suggested by the reviewer for the future milestones.**
+[Full Test Logs](assets/tests.txt)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS with Notes
-Unit Tests - At least one negative path test | PASS with Notes
-Unit Tests - Additional path tests | PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
@@ -131,7 +131,7 @@ The project has well-structured and readable code. Code and project documentatio
 
 # Final Conclusion
 
-The project is evolving as intended. Documentation is enough for this milestone. Usage testing was done using manual testing but additional automated tests for the frontend would be a better addition. The license is not matching the one described in the proposal and needs to be updated. The project conforms to open source standards. App works according to its needs and meets the acceptance criteria for this milestone. Because of these reasons, reviewer suggests this milestone to PASS with Notes.
+The project is evolving as intended. Documentation is enough for this milestone. Usage testing was done using manual and unit testing. The license is not matching the one described in the proposal and needs to be updated. The project conforms to open source standards. App works according to its needs and meets the acceptance criteria for this milestone. Because of these reasons, reviewer suggests this milestone to PASS with Notes.
 
 # Recommendation
 

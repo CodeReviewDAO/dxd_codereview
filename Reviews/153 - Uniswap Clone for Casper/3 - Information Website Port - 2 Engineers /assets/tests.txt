@@ -1,0 +1,15 @@
+ PASS  src/apollo/__tests__/queries-tests.js (11.156s)
+  ✓ should get blocks from timestamps (1210ms)
+  ✓ should gracefully not get blocks from timestamps (782ms)
+  ✓ should get price of a token by block (2387ms)
+  ✓ should not get price by block that does not exist (762ms)
+  ✓ should get price of cspr by block (1171ms)
+  ✓ returns spot price of cspr for block that does not exist (1436ms)
+  ✓ should get price of cspr by block (4ms)
+  ✓ returns spot price of cspr for block that does not exist (2ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        12.028s
+Ran all test suites.
