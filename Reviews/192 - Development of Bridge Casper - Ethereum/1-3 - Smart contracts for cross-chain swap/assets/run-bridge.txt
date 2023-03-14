@@ -1,0 +1,12 @@
+mdidin@Muhammed-MacBook-Air boosty-bridge % go run cmd/bridge/main.go run
+# command-line-arguments
+ld: warning: -no_pie is deprecated when targeting new OS versions
+ld: warning: non-standard -pagezero_size is deprecated when targeting macOS 13.0 or later
+{"level":"debug","msg":"established grpc connection with server on localhost:10006"}
+{"level":"debug","msg":"GRPC server running"}
+{"level":"debug","msg":"start reconnecting to connectors"}
+{"level":"debug","msg":"GRPC server running"}
+{"level":"debug","msg":"starting connector-bridge server GRPC endpoints"}
+{"level":"debug","msg":"established grpc connection with server on localhost:10005"}
+{"level":"debug","msg":"starting gateway-bridge server GRPC endpoints"}
+{"level":"debug","msg":"established grpc connection with server on localhost:10004"}

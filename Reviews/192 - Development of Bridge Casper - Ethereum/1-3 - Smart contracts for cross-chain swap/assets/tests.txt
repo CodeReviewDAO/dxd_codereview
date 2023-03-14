@@ -1,0 +1,59 @@
+?       tricorn [no test files]
+ok      tricorn/bridge  0.325s
+?       tricorn/bridge/database [no test files]
+?       tricorn/bridge/database/dbtesting       [no test files]
+?       tricorn/bridge/gateway  [no test files]
+ok      tricorn/bridge/gateway/controllers      0.037s
+?       tricorn/bridge/gateway/controllers/apitesting   [no test files]
+ok      tricorn/bridge/networks 0.037s
+ok      tricorn/bridge/server/controllers       2.125s
+?       tricorn/bridge/server/controllers/apitesting    [no test files]
+?       tricorn/bridge/transactions     [no test files]
+?       tricorn/bridge/transfers        [no test files]
+?       tricorn/chains  [no test files]
+?       tricorn/chains/casper   [no test files]
+ok      tricorn/chains/communication/controllers        1.698s
+?       tricorn/chains/communication/controllers/apitesting     [no test files]
+?       tricorn/chains/evm      [no test files]
+?       tricorn/chains/solana   [no test files]
+?       tricorn/cmd/bridge      [no test files]
+?       tricorn/cmd/casper      [no test files]
+?       tricorn/cmd/eth [no test files]
+?       tricorn/cmd/gateway     [no test files]
+?       tricorn/cmd/signer      [no test files]
+?       tricorn/cmd/web_app     [no test files]
+?       tricorn/communication   [no test files]
+?       tricorn/communication/mockcommunication [no test files]
+?       tricorn/communication/rpc       [no test files]
+?       tricorn/currencyrates   [no test files]
+ok      tricorn/currencyrates/chainlink 0.336s
+ok      tricorn/currencyrates/server/controllers        31.046s
+?       tricorn/currencyrates/server/controllers/apitesting     [no test files]
+ok      tricorn/internal/config/envparse        0.041s
+ok      tricorn/internal/contracts/casper       0.054s
+ok      tricorn/internal/contracts/evm  0.021s
+?       tricorn/internal/contracts/evm/bridge   [no test files]
+ok      tricorn/internal/contracts/evm/client   0.756s
+?       tricorn/internal/contracts/evm/mock     [no test files]
+ok      tricorn/internal/eventparsing   0.035s
+?       tricorn/internal/logger [no test files]
+?       tricorn/internal/logger/zaplog  [no test files]
+ok      tricorn/internal/math   0.030s
+?       tricorn/internal/postgres       [no test files]
+?       tricorn/internal/process        [no test files]
+?       tricorn/internal/reverse        [no test files]
+?       tricorn/internal/server [no test files]
+?       tricorn/internal/server/grpc    [no test files]
+?       tricorn/internal/tempdb [no test files]
+?       tricorn/pkg/casper-sdk/client   [no test files]
+?       tricorn/pkg/casper-sdk/mock     [no test files]
+ok      tricorn/pkg/contract    0.028s [no tests to run]
+ok      tricorn/pkg/hexutils    0.004s
+ok      tricorn/pkg/signature   0.047s
+ok      tricorn/signer  0.031s
+?       tricorn/signer/database [no test files]
+?       tricorn/signer/database/dbtesting       [no test files]
+ok      tricorn/signer/server/controllers       1.062s
+?       tricorn/signer/server/controllers/apitesting    [no test files]
+?       tricorn/web_app [no test files]
+?       tricorn/web_app/controllers     [no test files]

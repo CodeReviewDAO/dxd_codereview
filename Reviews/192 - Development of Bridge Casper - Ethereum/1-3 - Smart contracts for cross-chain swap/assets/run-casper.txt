@@ -1,0 +1,115 @@
+mdidin@Muhammed-MacBook-Air boosty-bridge % go run cmd/casper/main.go run
+# command-line-arguments
+ld: warning: -no_pie is deprecated when targeting new OS versions
+ld: warning: non-standard -pagezero_size is deprecated when targeting macOS 13.0 or later
+{"level":"debug","msg":"established grpc connection with server on localhost:10003"}
+{"level":"debug","msg":"tricorn casper-connector running"}
+{"level":"debug","msg":"GRPC server running"}
+{"level":"debug","msg":"starting casper-connector GRPC endpoints"}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:15:34 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:16:00 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:21:18 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 20:55:25 +03, send event to bridge with params: "}
+{"level":"debug","msg":"event type: 1"}
+{"level":"debug","msg":"from network name: GOERLI"}
+{"level":"debug","msg":"from address: 9032d7eb50b5b4a48c21035f34e0a84e54921d75"}
+{"level":"debug","msg":"to: 001e00daa2b596e0a496b04933e241e0567f2bcbecc829aa57d88cab096c28fd07"}
+{"level":"debug","msg":"amount: 2"}
+{"level":"debug","msg":"token: 013c0c1847d1c410338ab9b4ee0919c181cf26085997ff9c797e8a1ae5b02ddf23"}
+{"level":"debug","msg":"tx hash: cfd4e89eb30b820de9e4f2e5a6e28eed91853d5bb069f0ce78d944c5ab511452"}
+{"level":"debug","msg":"block number: 1522867"}
+{"level":"debug","msg":"sender: 01a9dfc692b5403bb8d548dbf504fd854da1a2f1e00a8758c94285d864e5f7f5f4"}
+{"level":"debug","msg":""}
+{"level":"debug","msg":"time: Mon, 27 Feb 2023 21:18:46 +03, connected to EventStream with block number 0"}
+{"level":"debug","msg":""}
