@@ -1,0 +1,30 @@
+npm test
+ PASS  src/tests/components/organisms/LiquidityRemovingModule/index.test.tsx (11.556 s)
+ PASS  src/tests/components/molecules/CollapsingBox/index.test.tsx (11.646 s)
+ PASS  src/tests/components/organisms/LiquidityRemovingWithInputRangeModule/index.test.tsx (11.829 s)
+  ● Console
+
+    console.log
+      onIncreaseAllow - OK
+
+      at onIncreaseAllow (src/mocks/contexts/LiquidityContext/index.mocks.tsx:16:13)
+
+    console.log
+      onRemoveLiquidity
+
+      at onRemoveLiquidity (src/contexts/LiquidityContext/index.tsx:191:15)
+
+ PASS  src/tests/commons/calculations/pathFinder.test.tsx
+ PASS  src/tests/components/organisms/PoolModule/index.test.tsx (13.114 s)
+ PASS  src/tests/contexts/LiquidityContext/index.test.tsx
+ PASS  src/tests/components/atoms/Anchor/anchor.test.tsx
+ PASS  src/tests/contexts/ProgressBarProviderContext/index.test.tsx
+ PASS  src/tests/contexts/SwapContext/index.test.tsx
+
+Test Suites: 9 passed, 9 total
+Tests:       1 skipped, 17 passed, 18 total
+Snapshots:   0 total
+Time:        15.914 s
+Ran all test suites.
+
+Watch Usage: Press w to show more.
