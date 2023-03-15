@@ -121,7 +121,7 @@ In the reviewer's opinion, the project has sufficient documentation.
 
 ## Licenses
 
-The Project is released under the Apache License.
+The Project is released under the Apache-2.0 License.
 
 Requirement | Finding
 ------------ | -------------
