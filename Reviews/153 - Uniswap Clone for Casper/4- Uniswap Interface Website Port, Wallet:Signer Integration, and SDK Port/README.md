@@ -1,4 +1,4 @@
-Grant Proposal | [153 - Uniswap Clone for Casper](https://portal.devxdao.com/app/proposal/153)
+Grant Proposal | [153 - Uniswap Clone for Casper](https://portal.devxdao.com/public-proposals/153)
 ------------ | -------------
 Milestone | 4
 Milestone Title | Uniswap Interface Website Port, Wallet/Signer Integration, and SDK Port - Submission 2
