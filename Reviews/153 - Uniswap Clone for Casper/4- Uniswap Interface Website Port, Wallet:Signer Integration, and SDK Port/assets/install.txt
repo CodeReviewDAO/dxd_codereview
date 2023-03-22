@@ -1,0 +1,18 @@
+npm install
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated trim@0.0.1: Use String.prototype.trim() instead
+
+added 2620 packages, and audited 2621 packages in 4m
+
+406 packages are looking for funding
+  run `npm fund` for details
+
+30 vulnerabilities (1 low, 28 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
