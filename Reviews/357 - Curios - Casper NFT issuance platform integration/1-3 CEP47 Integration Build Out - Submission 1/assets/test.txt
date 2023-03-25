@@ -1,0 +1,65 @@
+npm run test
+
+> casper@1.0.0 test
+> cd js_additional_integration && node mint.js
+
+... Account Info:  CURIOS_CONTRACT
+{
+  "_accountHash": "account-hash-7d1d87edb895167115e92e223ec0bb8a4b51d1ce70da3421fa1f9815e0313ec6",
+  "namedKeys": [
+    {
+      "name": "CURIOS_CONTRACT-ELECTRIC_BOOGALOO-1_contract_hash",
+      "key": "hash-7710d9e710c203307d694209395f106449dbcf08913e5391f1bce4fa957d51cf"
+    },
+    {
+      "name": "CURIOS_CONTRACT-ELECTRIC_BOOGALOO-1_contract_hash_wrapped",
+      "key": "uref-38a0666e37e9ef8251a03a89a38235f0b1d2e48e20418cba73e496a5a7f6b9b9-007"
+    },
+    {
+      "name": "CURIOS_CONTRACT-ELECTRIC_BOOGALOO_contract_hash",
+      "key": "hash-3a642ce38aa6f3c5b36eba1c15c7b22cae665c5cd0da15d251861af58bcfe035"
+    },
+    {
+      "name": "CURIOS_CONTRACT-ELECTRIC_BOOGALOO_contract_hash_wrapped",
+      "key": "uref-6229e7cde5757e8618f603dd5e6f75d693aeaf0bd07a8ef8625f9e6b912c378a-007"
+    },
+    {
+      "name": "CURIOS_CONTRACT_contract_hash",
+      "key": "hash-edc7b8865d85e42a710be331d3fa8b1eef61b61facbd6f9ce7383821c1123657"
+    },
+    {
+      "name": "CURIOS_CONTRACT_contract_hash_wrapped",
+      "key": "uref-91bb0e95179f6e422aae3700bcb866d8d836703d4a84baa6aadf4bc66d503bc0-007"
+    },
+    {
+      "name": "contract_package_hash",
+      "key": "hash-08ec4872f2fea3d4e97203ba589c10afea9e0f59d7768502878c35daff16c40f"
+    }
+  ],
+  "mainPurse": "uref-5f259d4e0fb4ea3f43aa0648312a806279cb0bd1f376c4cab3e290ebd9bacf23-007",
+  "associatedKeys": [
+    {
+      "accountHash": "account-hash-7d1d87edb895167115e92e223ec0bb8a4b51d1ce70da3421fa1f9815e0313ec6",
+      "weight": 1
+    }
+  ],
+  "actionThresholds": {
+    "deployment": 1,
+    "keyManagement": 1
+  }
+}
+... Contract Hash: hash-edc7b8865d85e42a710be331d3fa8b1eef61b61facbd6f9ce7383821c1123657
+... Contract Package Hash: hash-08ec4872f2fea3d4e97203ba589c10afea9e0f59d7768502878c35daff16c40f
+... Contract name: CURIOS
+... Contract symbol: CURIO
+... Contract meta: [[{"isCLValue":true,"data":"Austin"},{"isCLValue":true,"data":"TX"}],[{"isCLValue":true,"data":"StLouis"},{"isCLValue":true,"data":"MO"}]]
+... Total supply: 8
+
+*************************
+
+... Mint token
+
+...... Mint deploy hash:  108541d7f9182a144446206ee5764756619c24cf1ffd83d0d707fd04c127b65e
+results undefined
+...... Token minted successfully
+...... Owner of newly minted token:  account-hash-379ffec88d6b7ef4f00be3285b75078477da55ba5242371b1326b47c98f84a4c

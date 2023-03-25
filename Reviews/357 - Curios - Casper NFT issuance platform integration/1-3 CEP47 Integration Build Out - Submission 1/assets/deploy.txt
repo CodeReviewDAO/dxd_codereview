@@ -1,0 +1,99 @@
+node deploy.js
+chain CURIOS-2-1
+binary Uint8Array(323053) [
+    0,  97, 115, 109,   1,   0,   0,   0,   1, 139,   1,  18,
+   96,   2, 127, 127,   1, 127,  96,   3, 127, 127, 127,   1,
+  127,  96,   4, 127, 127, 127, 127,   1, 127,  96,   5, 127,
+  127, 127, 127, 127,   1, 127,  96,   3, 127, 127, 127,   0,
+   96,   4, 127, 127, 127, 127,   0,  96,  10, 127, 127, 127,
+  127, 127, 127, 127, 127, 127, 127,   1, 127,  96,   8, 127,
+  127, 127, 127, 127, 127, 127, 127,   1, 127,  96,   7, 127,
+  127, 127, 127, 127, 127, 127,   1, 127,  96,   6, 127, 127,
+  127, 127, 127, 127,
+  ... 322953 more items
+]
+KEYS t {
+  publicKey: t {
+    isCLValue: true,
+    data: <Buffer 10 ca 69 3f 8d 14 fc 40 e8 78 4f 4d f6 9b 3a a4 cc 55 6a 03 84 c7 49 c3 06 5a d1 6e 5f ec 24 65>,
+    tag: 1
+  },
+  privateKey: <Buffer b1 de ea 2e b2 24 82 7c 42 c3 c4 b0 7e ea 88 02 f8 55 3d b3 b6 f1 8e 6c 01 c0 19 fe d9 4c 1c 39 10 ca 69 3f 8d 14 fc 40 e8 78 4f 4d f6 9b 3a a4 cc 55 ... 14 more bytes>,
+  signatureAlgorithm: 'ed25519'
+} {
+  TOKEN_META: Map(2) { 'Boston' => 'MA', 'Albany' => 'NY' },
+  TOKEN_NAME: 'CURIOS-2-1',
+  CONTRACT_NAME: 'CURIOS_CONTRACT',
+  TOKEN_SYMBOL: 'CURIO',
+  INSTALL_PAYMENT_AMOUNT: '200000000000'
+}
+here e {
+  approvals: [
+    e {
+      signer: '0110ca693f8d14fc40e8784f4df69b3aa4cc556a0384c749c3065ad16e5fec2465',
+      signature: '0173e7c7bd8082e0dc39d4d3a04a7c5814a7f034a641a3e5c85a8c9ea675d9cbf2cc11440ec6a081cbb2ba1f1a3798260376d73643c80256069acebea124e17d03'
+    }
+  ],
+  session: e { moduleBytes: t { tag: 0, moduleBytes: [Uint8Array], args: [e] } },
+  payment: e {
+    moduleBytes: t { tag: 0, moduleBytes: Uint8Array(0) [], args: [e] }
+  },
+  header: e {
+    account: t {
+      isCLValue: true,
+      data: <Buffer 10 ca 69 3f 8d 14 fc 40 e8 78 4f 4d f6 9b 3a a4 cc 55 6a 03 84 c7 49 c3 06 5a d1 6e 5f ec 24 65>,
+      tag: 1
+    },
+    timestamp: 1679777577812,
+    ttl: 1800000,
+    gasPrice: 1,
+    bodyHash: Uint8Array(32) [
+       22, 182, 173,  41, 249,  75,  67,
+      252,  78, 122, 247,  97, 142, 141,
+       62,  92, 248, 155, 230, 137, 197,
+      154, 177, 224,  20,  32, 138, 226,
+      101, 167, 113, 109
+    ],
+    dependencies: [],
+    chainName: 'casper-test'
+  },
+  hash: Uint8Array(32) [
+      9, 183,  76, 187, 177,   8, 169, 191,
+     15,  43, 129,  90, 243,  54,  92, 143,
+    236, 180,  17, 134, 104, 160,  54,  10,
+    170,  27,  48, 224, 179, 207, 148,  63
+  ]
+} http://89.58.59.217:7777/rpc
+... Contract installation deployHash: 09b74cbbb108a9bf0f2b815af3365c8fecb4118668a0360aaa1b30e0b3cf943f
+results undefined
+... Contract installed successfully.
+... Account Info:
+{
+  "_accountHash": "account-hash-379ffec88d6b7ef4f00be3285b75078477da55ba5242371b1326b47c98f84a4c",
+  "namedKeys": [
+    {
+      "name": "CURIOS_CONTRACT_contract_hash",
+      "key": "hash-b34760fd6d4e104c6af2a7d2c16c4b0fd7ec919895eaa7a8bb518cf33a60f832"
+    },
+    {
+      "name": "CURIOS_CONTRACT_contract_hash_wrapped",
+      "key": "uref-e33f129069451941cfbfe6e0c66e512718d55205f946a58d2c272e9e4eee9c18-007"
+    },
+    {
+      "name": "contract_package_hash",
+      "key": "hash-9a0d2d600845a3cbdd4738e6ea85352be70cbe9e85f8566d420460dafc782f76"
+    }
+  ],
+  "mainPurse": "uref-dc89f5e03f4427dd06cb7688a5e6bc64bc9179613b03c236a185ac42987560a4-007",
+  "associatedKeys": [
+    {
+      "accountHash": "account-hash-379ffec88d6b7ef4f00be3285b75078477da55ba5242371b1326b47c98f84a4c",
+      "weight": 1
+    }
+  ],
+  "actionThresholds": {
+    "deployment": 1,
+    "keyManagement": 1
+  }
+}
+... Contract Hash: hash-b34760fd6d4e104c6af2a7d2c16c4b0fd7ec919895eaa7a8bb518cf33a60f832
