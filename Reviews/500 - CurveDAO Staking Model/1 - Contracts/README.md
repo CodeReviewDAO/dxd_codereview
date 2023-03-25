@@ -105,27 +105,26 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The reviewer has observed that although the OP did an excellent job by documenting all smart contract functions on the README, **the code-level documentation for critical classes and functions is very thin, making it hard to have an easy-to-maintain code documentation which is auto-generated from the code-base. Thus, the reviewer recommends that much more code-level documentation to be added before the final milestone to improve the maintainability of such a complex project. Moreover, reviewer also recommends adding instructions for generation of the code-level documentation, or making necessary changes to make sure the code-level documentation is automatically generated and published on every commit.**
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS / FAIL / PASS with Notes
+Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Project Documentation was observed to be acceptable with usage documentation and examples. However, the reviewer thinks that it would be very useful to have documentation at the architecture level, documenting the "Why?"s and reasoning of the project's design decisions, as well as some less-technical documentation, explaining the project's nature and use cases.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS with Notes
+Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+In the reviewer's opinion, the project and usage documentation are at an acceptable state, with room for further improvements. The code-level documentation is very thin based on the code comments although there is extensive documentation of functions on the README, thus needs to be improved before the final milestone.
+
+The reviewer communicated the shortcomings of the documentation, along with further points of possible improvements which may not fall in the scope of this review, with the OP. OP acknowledged the feedback, and showed interest in working on further improvements.
 
 # Open Source Practices
 
@@ -149,15 +148,24 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+Code is generally well-structured and readable. The project has been committed to GitHub, and has extensive tests.
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The project is generally in a very good shape in terms of open-source guidelines. Moreover, the project has extensive tests, and a sufficient level of documentation. The project also successfully builds and passes the automated tests, providing the promised functionality. However, the code-level documentation can be improved further based on the notes in the relevant sections of this review.
+
+The reviewer also recommends the following points to be fixed/improved as soon as possible:
+* A CI action that runs end-to-end tests by using NCTL should be added to the code repository.
+* The build/text CI action to be fixed.
+* Instructions to generate code-level documentation should be added to the documentation.
+* Proper actions/config should be added to the repository to generate and publish code-level documentation upon every new commit.
+* The sample commands need to be optimized and fixed to have proper gas amount values, and extensive explanations for each parameter, explaining not only "how" but also "why".
+* The JS scripts for the end-to-end tests need to be improved to have better error & exception handling, with verbose feedback to the user. The script should also have proper measures against rate limiting on the RPC port of the connected node.
+* The project documentation should be improved by adding documentation for the high-level design and architecture.
+
+Thus, in the reviewers opinion, this submission should pass with notes.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
