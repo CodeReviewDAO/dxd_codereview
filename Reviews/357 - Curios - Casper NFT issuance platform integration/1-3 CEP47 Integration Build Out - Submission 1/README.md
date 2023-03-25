@@ -45,7 +45,7 @@ The reviewer queried `npm i` command into _command-line-integraion/js_additional
 
 [Full Install Logs](assets/install.txt)
 
-Please note that the project is not suitable for building on a local computer, as it is a  Casper integration into the Curious NFT Issuance Platform.
+Please note that the project frontend is not suitable for building on a local computer, as it is a  Casper integration into the Curious NFT Issuance Platform.
 
 ### Usage
 
