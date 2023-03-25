@@ -71,7 +71,7 @@ Then the reviewer observed the user interface in action, on the demo video provi
 
 ![Curve DAO Usage Demo](assets/CurveDAODemo.gif)
 
-Then the reviewer observed that it was possible to sign into the temporary installation, provided by the OP as promised on the respective milestone's acceptance criteria.
+Then the reviewer observed that it was possible to sign into the temporary installation connected to the smart contracts deployed on the TestNet, provided by the OP as promised on the respective milestone's acceptance criteria.
 
 ![Curve DAO Test Instance Connected](assets/CurveDAOTestInstance.png)
 
@@ -89,15 +89,17 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project has sufficient tests covering both the positive and the negative paths. Moreover, there is an easy to use helper script provided by the OP, which builds and deploys all contracts to the TestNet. The reviewer observed that all of the tests successfully pass.
+
+The reviewer also observed that the project has CI facilities in place, automatically building and testing the smart contracts on every new commit. However, it was also observed that the CI action has been failing since a certain commit. **Although the reviewer doesn't consider this as a cause to fail the review because the builds and tests of the project actually succeeds when the instructions are followed; taking the complexity of the project into account, the reviewer highly suggests OP to fix the CI actions as soon as possible. Otherwise, there would be no way to know that the project is still buildable at a later date after new commits or dependency updates.**
+
+[Test logs](assets/test.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
