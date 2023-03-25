@@ -1,3 +1,4 @@
+```
 $ make test-curve-token-v3
 make build-contract-curve-token-v3 && make copy-wasm-file-curve-token-v3 && make test-only-curve-token-v3
 make[1]: Entering directory '/workspace/CasperLabs-Curve-DAO'
@@ -1529,5 +1530,4 @@ test liquidity_gauge_v3_tests::t8::test_transfer ... ok
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 22 filtered out; finished in 419.96s
 
 ##########################################################################################################
-
-
+```
