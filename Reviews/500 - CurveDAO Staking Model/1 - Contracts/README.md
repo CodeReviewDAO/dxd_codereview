@@ -58,20 +58,34 @@ https://github.com/Rengo-Labs/CasperLabs-Curve-DAO | e6ef46b .. a806de2
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+The reviewer followed the instructions on the README of the project to build and deploy to the Testnet, and test its functionality by running the tests. The procedure was carried out on Ubuntu 20.04.
+
+At the first attempts of following the instructions, the reviewer encountered a number of issues/errors, mostly at the documentation level, causing the project to be not buildable/deployable/usable, which would normally result in a review with a FAIL recommendation. The reviewer provided the OP with the feedback coming out of these attempts. The OP fixed & improved the project and its documentation based on the feedback, and informed the reviewer that the project is now ready to be reviewed. The review presented here covers the latest version of the project which includes all of those fixes and the improvements.
+
+Reviewer first installed the prerequisites by following the instructions on the main README, and then built and deployed the smart contracts by following the instructions on the README.
+
+- [Build logs](assets/build.md)
+- [TestNet deploy hashes](assets/deploy-hashes)
+
+Then the reviewer observed the user interface in action, on the demo video provided by the OP.
+
+![Curve DAO Usage Demo](assets/CurveDAODemo.gif)
+
+Then the reviewer observed that it was possible to sign into the temporary installation, provided by the OP as promised on the respective milestone's acceptance criteria.
+
+![Curve DAO Test Instance Connected](assets/CurveDAOTestInstance.png)
+
+It was also observed that the Gauge Weight Vote menu was returning a blank screen, and the OP informed the reviewer that it is out of scope for this submission, and it would be a piece that will be completed by another project later.
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+It was observed that the project builds and passes the automated tests successfully after the fixes and improvements by the OP, and the documentation provides sufficient installation/execution instructions. However, the reviewer thinks that the documentation still has room for improvement towards more explanations about the command parameters, better gas amount values on the sample commands, as well as more explanations covering the entirety of the project as it is a complex one which may be hard to understand, with many different smart contract units. It is also worth mentioning that no heavy/extensive testing on the UI was done during this review due to that part being in the scope of the next milestone of the project.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 # Unit / Automated Testing
 
