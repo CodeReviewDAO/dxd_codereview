@@ -1,0 +1,38 @@
+... Account Info:
+{
+  "_accountHash": "account-hash-379ffec88d6b7ef4f00be3285b75078477da55ba5242371b1326b47c98f84a4c",
+  "namedKeys": [
+    {
+      "name": "CURIOS_CONTRACT_contract_hash",
+      "key": "hash-b34760fd6d4e104c6af2a7d2c16c4b0fd7ec919895eaa7a8bb518cf33a60f832"
+    },
+    {
+      "name": "CURIOS_CONTRACT_contract_hash_wrapped",
+      "key": "uref-e33f129069451941cfbfe6e0c66e512718d55205f946a58d2c272e9e4eee9c18-007"
+    },
+    {
+      "name": "contract_package_hash",
+      "key": "hash-9a0d2d600845a3cbdd4738e6ea85352be70cbe9e85f8566d420460dafc782f76"
+    }
+  ],
+  "mainPurse": "uref-dc89f5e03f4427dd06cb7688a5e6bc64bc9179613b03c236a185ac42987560a4-007",
+  "associatedKeys": [
+    {
+      "accountHash": "account-hash-379ffec88d6b7ef4f00be3285b75078477da55ba5242371b1326b47c98f84a4c",
+      "weight": 1
+    }
+  ],
+  "actionThresholds": {
+    "deployment": 1,
+    "keyManagement": 1
+  }
+}
+...... Mint deploy hash:  8f060cb0536fc7602756d16bd19735e2d89a7b6e8fb5b65fc54938f3cb723871
+results undefined
+...... Tokens minted successfully
+...... Balance of recepient account:  4
+...... Owner of token 40:  account-hash-f4b89d0b691fb3e4c511e5cb954135369b1abd803885f03b3bcc41ef8ebf2c95
+...... Token 40 metadata:  Map(1) {
+  'url' => 'https://ipfs.io/ipfs/QmVwVi9pEzxsGLvJGv8mrZB6dS7GzkCRec9VEumHQ7UcqR'
+}
+...... index of token five:  3

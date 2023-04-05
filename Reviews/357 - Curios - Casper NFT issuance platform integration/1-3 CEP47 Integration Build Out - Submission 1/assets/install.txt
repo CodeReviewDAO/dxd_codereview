@@ -1,0 +1,13 @@
+cd js_additional_integration && npm i
+
+added 253 packages, and audited 254 packages in 2m
+
+45 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New major version of npm available! 8.11.0 -> 9.6.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.2
+npm notice Run npm install -g npm@9.6.2 to update!
+npm notice
