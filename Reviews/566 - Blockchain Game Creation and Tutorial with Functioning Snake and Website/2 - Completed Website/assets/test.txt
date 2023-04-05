@@ -1,0 +1,153 @@
+make test
+cd contract && cargo build --release --target wasm32-unknown-unknown
+    Finished release [optimized] target(s) in 0.09s
+wasm-strip contract/target/wasm32-unknown-unknown/release/highscore.wasm 2>/dev/null | true
+mkdir -p tests/wasm
+cp contract/target/wasm32-unknown-unknown/release/highscore.wasm tests/wasm
+cd tests && cargo test
+   Compiling proc-macro2 v1.0.50
+   Compiling unicode-ident v1.0.6
+   Compiling quote v1.0.23
+   Compiling syn v1.0.107
+   Compiling autocfg v1.1.0
+   Compiling version_check v0.9.4
+   Compiling libc v0.2.139
+   Compiling typenum v1.16.0
+   Compiling serde_derive v1.0.152
+   Compiling serde v1.0.152
+   Compiling cfg-if v1.0.0
+   Compiling subtle v2.4.1
+   Compiling rand_core v0.5.1
+   Compiling unicode-xid v0.2.4
+   Compiling radium v0.3.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling funty v1.1.0
+   Compiling wyz v0.2.0
+   Compiling byteorder v1.4.3
+   Compiling fastrand v1.8.0
+   Compiling serde_json v1.0.91
+   Compiling crunchy v0.2.2
+   Compiling opaque-debug v0.3.0
+   Compiling remove_dir_all v0.5.3
+   Compiling cc v1.0.79
+   Compiling itoa v1.0.5
+   Compiling bit-vec v0.6.3
+   Compiling fnv v1.0.7
+   Compiling hashbrown v0.12.3
+   Compiling quick-error v1.2.3
+   Compiling schemars v0.8.5
+   Compiling core-foundation-sys v0.8.3
+   Compiling pkg-config v0.3.26
+   Compiling bitflags v1.3.2
+   Compiling ryu v1.0.12
+   Compiling cpufeatures v0.2.5
+   Compiling once_cell v1.17.0
+   Compiling lazy_static v1.4.0
+   Compiling dyn-clone v1.0.10
+   Compiling parity-wasm v0.41.0
+   Compiling static_assertions v1.1.0
+   Compiling log v0.4.17
+   Compiling regex-syntax v0.6.28
+   Compiling thiserror v1.0.38
+   Compiling quick-error v2.0.1
+   Compiling base64 v0.13.1
+   Compiling either v1.8.1
+   Compiling hex_fmt v0.3.0
+   Compiling anyhow v1.0.68
+   Compiling base16 v0.2.1
+   Compiling memory_units v0.3.0
+   Compiling match_cfg v0.1.0
+   Compiling pin-project-lite v0.2.9
+   Compiling downcast-rs v1.2.0
+   Compiling linked-hash-map v0.5.6
+   Compiling filesize v0.2.0
+   Compiling generic-array v0.14.6
+   Compiling value-bag v1.0.0-alpha.9
+   Compiling num-traits v0.2.15
+   Compiling num-integer v0.1.45
+   Compiling num-bigint v0.4.3
+   Compiling num-rational v0.4.1
+   Compiling num-iter v0.1.43
+   Compiling indexmap v1.9.2
+   Compiling num-bigint v0.2.6
+   Compiling num-rational v0.2.4
+   Compiling rand_chacha v0.2.2
+   Compiling bit-set v0.5.3
+   Compiling bitvec v0.18.5
+   Compiling tracing-core v0.1.30
+   Compiling itertools v0.10.5
+   Compiling wasmi-validation v0.3.0
+   Compiling lmdb-sys v0.8.0
+   Compiling rand v0.7.3
+   Compiling getrandom v0.2.8
+   Compiling tempfile v3.3.0
+   Compiling wait-timeout v0.2.0
+   Compiling time v0.1.45
+   Compiling num_cpus v1.15.0
+   Compiling hostname v0.3.1
+   Compiling ff v0.8.0
+   Compiling iana-time-zone v0.1.53
+   Compiling rand_core v0.6.4
+   Compiling rusty-fork v0.3.0
+   Compiling group v0.8.0
+   Compiling rand_chacha v0.3.1
+   Compiling rand_xorshift v0.3.0
+   Compiling rand v0.8.5
+   Compiling digest v0.9.0
+   Compiling crypto-mac v0.10.1
+   Compiling block-buffer v0.9.0
+   Compiling crypto-mac v0.8.0
+   Compiling signature v1.2.2
+   Compiling hmac v0.10.1
+   Compiling sha2 v0.9.9
+   Compiling blake2 v0.9.2
+   Compiling ed25519 v1.2.0
+   Compiling num-complex v0.4.3
+   Compiling chrono v0.4.23
+   Compiling proptest v1.0.0
+   Compiling lmdb v0.8.0
+   Compiling wasmi v0.8.0
+   Compiling synstructure v0.12.6
+   Compiling serde_derive_internals v0.25.0
+   Compiling zeroize_derive v1.3.3
+   Compiling datasize_derive v0.2.13
+   Compiling ctor v0.1.26
+   Compiling schemars_derive v0.8.5
+   Compiling num-derive v0.3.3
+   Compiling thiserror-impl v1.0.38
+   Compiling tracing-attributes v0.1.23
+   Compiling zeroize v1.3.0
+   Compiling datasize v0.2.13
+   Compiling elliptic-curve v0.8.5
+   Compiling curve25519-dalek v3.2.1
+   Compiling ecdsa v0.10.2
+   Compiling k256 v0.7.3
+   Compiling ed25519-dalek v1.0.1
+   Compiling tracing v0.1.37
+   Compiling hex v0.4.3
+   Compiling serde_bytes v0.11.8
+   Compiling uuid v0.8.2
+   Compiling bincode v1.3.3
+   Compiling pwasm-utils v0.16.0
+   Compiling uint v0.9.5
+   Compiling hex-buffer-serde v0.3.0
+   Compiling hex-buffer-serde v0.2.2
+   Compiling num v0.4.0
+   Compiling casper-types v1.5.0
+   Compiling casper-hashing v1.4.3
+   Compiling casper-execution-engine v2.0.1
+   Compiling casper-engine-test-support v2.2.0
+   Compiling tests v1.0.0 (/Users/mdidin/Desktop/snake-casper-game/highscore-casper/tests)
+    Finished test [unoptimized + debuginfo] target(s) in 2m 03s
+     Running unittests src/integration_tests.rs (target/debug/deps/integration_tests-6e569387aabad56d)
+
+running 7 tests
+test tests::check_initial_conditions ... ok
+test tests::get_high_score_for_none_user - should panic ... ok
+test tests::set_high_score_for_new_user ... ok
+test tests::set_score_for_same_user_higher_than_highscore ... ok
+test tests::set_score_for_same_user_lower_than_highscore ... ok
+test tests::get_high_score_for_valid_user ... ok
+test tests::set_score_for_new_user_higher_than_other_user_highscore ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.81s
