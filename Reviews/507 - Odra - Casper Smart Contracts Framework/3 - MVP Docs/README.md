@@ -47,7 +47,7 @@ Following the instructions in the [README](https://github.com/odradev/odra) of t
 
 ## Overall Impression of usage testing
 
-The project builds without errors, the documentation provides sufficient installation and execution instructions. Build instructions are giving required information but can be enhanced and more clear by detailing each step. Same as installation instrutctions this part also needs improvements in the reviewer's opinion. The project functionality meets/exceeds the acceptance criteria and operates without errors.
+The project builds without errors, the documentation provides sufficient installation and execution instructions. Build instructions are giving required information but can be enhanced and more clear by detailing each step. Same as installation instructions this part also needs improvements in the reviewer's opinion. The project functionality meets/exceeds the acceptance criteria and operates without errors.
 
 [Example Build Logs](assets/examplebuildlogs.md)
 [Example Test Logs](assets/exampletestlogs.md)
@@ -83,7 +83,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-The project has sufficient documentation coverage for usage with examples, along with the installation, build and test instructions. [Published version of the docs](https://odra.dev/docs/) have extensive coverage and organized well.
+The project has sufficient documentation coverage for usage with examples, along with installation, build, and test instructions. [Published version of the docs](https://odra.dev/docs/) have extensive coverage and organized well.
 
 Requirement | Finding
 ------------ | -------------
@@ -122,7 +122,7 @@ Corresponding version of odra docs released on https://odra.dev/docs/.
 
 # Final Conclusion
 
-The project meets the milestone acceptance criteria. Install and usage instructions are sufficient but they are a bit confusing as they have a lot of linking to other repositories and sites on repo README but [published docs](https://odra.dev/docs/) are very sufficient ,and screenshots from the docs can be found below. Tests run successfully.
+The project meets the milestone acceptance criteria.Install and usage instructions are sufficient but can be a bit confusing due to numerous links to other repositories and sites in the repo README. However, [the published docs](	https://odra.dev/docs) are comprehensive and well-organized. Screenshots from the docs can be found below. Tests run successfully.
 
 ![Docs Screenshots](assets/docs0.png)
 
@@ -134,7 +134,7 @@ The project meets the milestone acceptance criteria. Install and usage instructi
 
 ![](assets/doc4.png)
 
-Thus, in the reviewers' opinion, this submission should PASS with Notes.
+Thus, in the reviewer's opinion, this submission should PASS with Notes.
 
 # Recommendation
 
