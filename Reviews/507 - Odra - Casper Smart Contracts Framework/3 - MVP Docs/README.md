@@ -106,7 +106,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled on the repository, and the project contains a CONTRIBUTING and a SECURITY policy. CODE OF CONDUCT can be added.
+Pull requests and Issues are enabled on the repository, and the project contains a CONTRIBUTING and a SECURITY policy. The reviewer recommends to add the CODE OF CONDUCT.
 
 Requirement | Finding
 ------------ | -------------
