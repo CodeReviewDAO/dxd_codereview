@@ -1,3 +1,5 @@
+# Client Test Logs
+
 ```
  PASS  src/tests/Home.test.js
  PASS  src/tests/Login.test.js
