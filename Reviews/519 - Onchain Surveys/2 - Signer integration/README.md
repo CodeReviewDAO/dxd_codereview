@@ -45,31 +45,45 @@ Reviewer was successfully able to install the project using the provided instruc
 
 Here are some screenshots from the Client app:
 
-#### Client Landing Page
-![](assets/1-client.jpg)
+#### Landing page
+![](assets/01-landing-page.png)
 
-#### Login Page
-![](assets/2-login.png)
+#### Login with new account (low activity)
+![](assets/02-sign-in-with-new-account.png)
 
-#### Registration Page
-![](assets/3-register.png)
+#### Login fail with new low activity account
+![](assets/03-new-account-activity-fail.png)
 
-#### Survey Creation Page
-![](assets/4-create-survey.png)
+#### Login with high activity account
+![](assets/04-sign-in-with-active-account.png)
 
-#### Survey Creation Page - Filled
-![](assets/5-new-survey.png)
+#### Available surveys
+![](assets/05-available-surveys.png)
 
-#### My Surveys Page
-![](assets/6-my-surveys.png)
+#### Answering a survey
+![](assets/06-answering-a-survey.png)
 
-#### Survey History Page
-![](assets/7-survey-history.png)
+#### Survey history - All surveys
+![](assets/07-survey-history-all.png)
 
-#### Survey Stats
-![](assets/8-survey-stats.png)
+#### Survey history - My surveys
+![](assets/08-survey-history-my.png)
+
+#### Survey stats
+![](assets/09-survey-stats.png)
+
+#### My surveys page without any created surveys present
+![](assets/10-my-surveys-empty.png)
+
+#### Creating a new survey
+![](assets/11-creating-a-new-survey.png)
+
+#### My surveys page after creating surveys
+![](assets/12-my-surveys-full.png)
 
 ## Overall Impression of usage testing
+
+Note that the interface is completely changed since the first milestone. However, functionality is still there. Additionally, new functionality required by Milestone 2 is also added and we see that it is not possible for a new, low account to sign in to the page. Also, we can set limits on the surveys so that only accounts with matching criteria could complete them.
 
 All critical functionality required for this milestone is implemented and they are running as intended. Further improvements would be beneficial for the ease of use of the app in the following milestones.
 
@@ -146,7 +160,9 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-The project would benefit greatly from a Continuous Integration (CI) Action on GitHub. Code documentation is not of high quality and further project documentation is needed. Documentation provides information but it would benefit greatly from improvements and expansion. Coding practices and visual presentation of the project are of desirable quality. Usage testing was done using manual testing but additional automated tests for the frontend would be a better addition, they need special attention in upcoming milestones. Because of these reasons, reviewer suggests a resolution of PASS with Notes for this milestone.
+The project would benefit greatly from a Continuous Integration (CI) Action on GitHub. Code documentation is of acceptable quality and further project documentation is expected. Documentation provides information but it would benefit greatly from improvements and expansion. Coding practices and visual presentation of the project are of exceptional quality. Unit tests are sufficient.
+
+Because of these reasons, reviewer suggests a resolution of PASS with Notes for this milestone.
 
 
 # Recommendation
