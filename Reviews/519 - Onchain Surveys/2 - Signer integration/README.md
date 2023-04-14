@@ -36,7 +36,7 @@ https://github.com/yunusem/onchainsurveys | b17583b
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer used an Ubuntu 20.04 LTS GitPod instance and a server provided by the OP for doing this review.
+Reviewer used an Ubuntu 22.04.2 LTS GitPod instance and a server provided by the OP for doing this review.
 
 Reviewer was successfully able to install the project using the provided instructions in the README. After the installation, reviewer created a MongoDB database and connected it to the app using the provided instructions. Then, running `npm start` on both the client and server launched the respective applications.
 
