@@ -47,7 +47,7 @@ These types of communication problems can result in further problems in the revi
 
 Reviewer first installed the prerequisites for the project on the GitPod instance then tried to run the build with the given instructions in the README. However, this does not yield any further results since running `make build-contract` always returned errors. After checking multiple times, reviewer changed to a GitHub Workspaces instance where all of the progress also halted at the build step. After that, trying the code on Pardus GNU/Linux and finally a macOS system did not end in a different state.
 
-After working around the code and build scripts, reviewer understood the problem was laying under the missing `wasm32-unknown-unknown` target. Reviewer then manually installed the target using the `rustup target add wasm32-unknown-unknown` command and ran the make script again which resulted in a successful build.
+After working around the code and build scripts, reviewer understood the problem was laying under the missing `wasm32-unknown-unknown` target. Reviewer then manually installed the target using the `rustup target add wasm32-unknown-unknown` command and ran the make script again which resulted in a successful build. This information needs to be added to the build instructions.
 
 - [Build logs](assets/build.md)
 
