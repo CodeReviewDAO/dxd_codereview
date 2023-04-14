@@ -35,38 +35,42 @@ https://github.com/FLATLAY/droplinked_casper | e11fdb8
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer used an Ubuntu 22.04.2 LTS GitPod instance, an Ubuntu 20.04 GitHub Workspaces instance, a local Pardus 21.5 GNU/Linux local instance and finally a macOS system for doing this review.
+Reviewer used an Ubuntu 22.04.2 LTS GitPod instance, an Ubuntu 20.04 GitHub Workspaces instance, a local Pardus 21.5 GNU/Linux local instance and a macOS Ventura 13.1.1 system for doing this review.
 
-Before starting the review, the project was missing many of its components. To fix those, reviewer tried to find a contact information about OP and found one of theirs email address in their GitHub profile and asked them to contact him to fix the issues. However, OP did not respond to that email. After some days, reviewer also created an issue on the repository asking them the same question and this time OP responded and got into contact to fix the issues.
+Before starting the review, the project was missing many of its components. To fix those, reviewer tried to find a contact information about OP and found one of their email address in their GitHub profile and asked them to contact him to fix the issues. However, OP did not respond to that email. After some days, reviewer also created an issue on the repository asking them the same question and this time OP responded and got into contact to fix the issues.
 
 Then, when asked, OP was not aware of what the review was for and did not recall submitting anything for review. After telling them what CRDAO does and who DEVxDAO is, OP stated that they did not know about them before contacting the reviewer and this project was submitted directly to Casper Network. Eventually, after discussions, they made changes to the repository to comply with the review requirements.
 
-These types of communication problems can result in further problems in the review process. Reviewer suggests that we determine an official way to get in touch with the OP of the projects so that the reviews do not fail on simpler fixes.
+These types of communication problems can result in further problems in the review process.
 
 ## Overall Impression of usage testing
 
-Reviewer first installed the prerequisites for the project on the GitPod instance then tried to run the build with the given instructions in the README. However, this does not yield any further results since running `make build-contract` always returned errors. After checking multiple times, reviewer changed to a GitHub Workspaces instance where all of the progress also halted at the build step. After that, trying the code on Pardus GNU/Linux and finally a macOS system did not end in a different state. Since in its current form the project does not properly build, it fails the requirements.
+Reviewer first installed the prerequisites for the project on the GitPod instance then tried to run the build with the given instructions in the README. However, this does not yield any further results since running `make build-contract` always returned errors. After checking multiple times, reviewer changed to a GitHub Workspaces instance where all of the progress also halted at the build step. After that, trying the code on Pardus GNU/Linux and finally a macOS system did not end in a different state.
+
+After working around the code and build scripts, reviewer understood the problem was laying under the missing `wasm32-unknown-unknown` target. Reviewer then manually installed the target using the `rustup target add wasm32-unknown-unknown` command and ran the make script again which resulted in a successful build.
+
+- [Build logs](assets/build.md)
 
 Documentation has sufficient installation instructions.
 
-Since the build fails, there is no way to check if the functionality meets the acceptance criteria and operates without error.
-
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | FAIL
+Project builds without errors | PASS
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 
 # Unit / Automated Testing
 
-Unit tests also met their demise since the build fails.
+Unit tests are present and sufficiently cover the functionality required by the acceptance criteria.
+
+- [Unit tests logs](assets/unittests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | FAIL
-Unit Tests - At least one negative path test | FAIL
-Unit Tests - Additional path tests | FAIL
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 
 # Documentation
@@ -98,11 +102,17 @@ Documentation is sufficient for both the code and the project.
 
 At the start of the review, the project did not have any license file. On DEVxDAO Portal, only the license for research and documents are stated and they are to be a Creative Commons license. This issue was discussed with OP. They ended up licensing their source code with MIT License but this is not present in the original grant. This should be taken as a note for future reviews.
 
-On the other hand, some parts of the code are stored as Gists on GitHub and do not have a license. Discussing this with OP did not result to a full conclusion and the code still stays as Gists instead of their own repositories. These does not comply with the requirements of the review.
+On the other hand, some parts of the code are stored as Gists on GitHub and do not have a license. These were not submitted in the grant review and was provided to reviewer by the OP. Discussing this with OP did not result to a full conclusion and the code still stays as Gists instead of their own repositories. It is not clear that whether these files should be incorporated into the main repository or stay as their own. Since the OP has valid justifications for this, the issue should further be addressed by DEVxDAO.
+
+Additional code provided as Gists by OP can be reached at these links:
+- https://gist.github.com/k3rn3lpanicc/af78301897a513a70b61de3cf6ad37ac
+- https://gist.github.com/k3rn3lpanicc/976f048998865659f531a127e3c4fa43
+
+In its current state, reviewer gives the resolution of PASS with Notes.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | FAIL
+OSI-approved open source software license | PASS with Notes
 
 ## Contribution Policies
 
@@ -124,10 +134,12 @@ Source code is well written, easily readable, and conforms to good coding practi
 
 # Final Conclusion
 
-At the beginning of the review, there were many missing parts and communication problems that resulted in a train of failure points, which ultimately undermined the success of this review. While OP worked on many of the missing parts, it was not enough to make the project run correctly. While the improvements can fix the further underlying issues in the code, the long review process should come to an end and a decision should be made. Because of these reasons, reviewer decided that this review should FAIL.
+At the beginning of the review, there were many missing parts and communication problems that resulted in a train of failure points. Reviewer assisted OP on working on these missing parts and eventually the project came to a desirable state for a review standpoint. Some licensing issues needs attention for the source code.
+
+Because of these reasons, reviewer suggests a resolution of PASS with Notes.
 
 
 # Recommendation
 
-Recommendation | FAIL
+Recommendation | PASS with Notes
 ------------ | -------------
