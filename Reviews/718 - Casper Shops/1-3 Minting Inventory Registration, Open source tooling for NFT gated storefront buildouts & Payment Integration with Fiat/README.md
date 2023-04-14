@@ -35,9 +35,7 @@ https://github.com/FLATLAY/droplinked_casper | e11fdb8
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 22.04.2 LTS GitPod instance for doing this review.
 
 ## Overall Impression of usage testing
 
@@ -76,43 +74,36 @@ Code Documented | PASS with Notes
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+At the start of the review, only some basic comments about how to run the project were in the documentation. After discussing this with OP, they vastly improved the documentation and included many additional information that would be greatly beneficial for the users of the project.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
-
+Documentation is sufficient for both the code and the project.
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+At the start of the review, the project did not have any license file. On DEVxDAO Portal, only the license for research and documents are stated and they are to be a Creative Commons license. This issue was discussed with OP. They ended up licensing their source code with MIT License but this is not present in the original grant. This should be taken as a note for future reviews.
 
 Requirement | Finding
 ------------ | -------------
-OSI-approved open source software license | PASS / FAIL / PASS with Notes
+OSI-approved open source software license | PASS with Notes
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+At the start of the review, contribution policies were missing from the repository. After discussing this with OP and guiding them on how to create those, the appropriate policies were created and other contribution components were enabled.
 
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains CONTRIBUTING and SECURITY policies. Pull requests and Issues are enabled.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS
 
 
 # Coding Standards
