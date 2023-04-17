@@ -165,7 +165,7 @@ Unit Tests - Additional path tests | FAIL
 
 Test instructions are given ,and tests run successfully. The repository has 22 tests total. Test coverage can be improved.
 
-[make test](assets/ercmaketest)
+[make test](assets/ercmaketest.md)
 
 Requirement | Finding
 ------------ | -------------
