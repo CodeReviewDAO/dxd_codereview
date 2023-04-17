@@ -67,15 +67,15 @@ By following the instructions in the [README](https://github.com/dotoracle/dto-v
 
 Repo was missing many instructions at the beginning and the reviewer sent a guide to OP to update the project's repos. OP updated this repo and informed the reviewer. Repos still had issues and the reviewer gave another feedback to OP before proceeding the final review.
 
-By following the instructions in the [README](https://github.com/dotoracle/dto-validator) of the repository, the build has failed at first step. Install and usage examples still need improvements.
+By following the instructions in the [README](https://github.com/dotoracle/bridge-contracts) of the repository, the build has failed at first step. Install and usage examples still need improvements.
 
-[npm i](bridgenpmi.md)
+[npm i](assets/bridgenpmi.md)
 
 ### `casper-erc20`
 
 Repo was missing many instructions at the beginning and the reviewer sent a guide to OP to update the project's repos. OP updated this repo and informed the reviewer. Repos still had issues and the reviewer gave another feedback to OP before proceeding the final review.
 
-By following the instructions in the [README](https://github.com/dotoracle/dto-validator) of the repository. The reviewer was able to build the project.
+By following the instructions in the [README](https://github.com/dotoracle/casper-erc20) of the repository. The reviewer was able to build the project.
 
 [make prepare](assets/ercmakeprepare.md)
 
