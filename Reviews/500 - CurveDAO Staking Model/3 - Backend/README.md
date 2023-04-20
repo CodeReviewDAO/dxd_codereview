@@ -38,9 +38,11 @@ https://github.com/Rengo-Labs/CasperLabs-Curve-DAO-Backend | e411d92
 
 # Install & Usage Testing Procedure and Findings
 
-The reviewer followed the instructions on the README of the project to build, and test its functionality by running the tests. The procedure was carried out on Macbook Pro 2019 MacOs.
+The reviewer followed the instructions on the README of the project to build, and test its functionality by running the tests. The procedure was carried out on Ubuntu 20.04.
 
-At the first attempt of following the instructions, the reviewer encountered some problems caused by a lack of information in the documentation then when the reviewer communicate with OP, OP fixed these issues so that the reviewer can build and test the project
+At the first attempt of following the instructions, the reviewer encountered some problems caused by a lack of information in the documentation then when the reviewer communicate with OP, OP fixed these issues so that the reviewer can build and test the project.
+
+The reviewer tested each endpoint separately as well and confirmed that they are working as intended. Then, the reviewer talked about the notes given in the [previous review](https://github.com/CodeReviewDAO/dxd_codereview/tree/main/Reviews/500%20-%20CurveDAO%20Staking%20Model/1%20-%20Contracts). OP communicated as from the notes that requested to be fixed are in works in progress. Reviewer suggested that the given notes should be fixed asap.
 
 
 
@@ -53,6 +55,74 @@ Testing the endpoints
 ![Admin Login](assets/adminlogin.png)
 
 ![Add Contract and Package Hashes](assets/addcontractandpackagehash.png)
+
+## Endpoints
+
+![](assets/graphQL/graphQL_daoPowersByBlock.png)
+
+![](assets/graphQL/graphQL_daoPowersByTimestamp.png)
+
+![](assets/graphQL/graphQL_gauges.png)
+
+![](assets/graphQL/graphQL_gaugeVotesByTime.png)
+
+![](assets/graphQL/graphQL_gaugeVotesByUser.png)
+
+![](assets/graphQL/graphQL_handleAddLiquidity.png)
+
+![](assets/graphQL/graphQL_handleAddressModified.png)
+
+![](assets/graphQL/graphQL_handleAddType.png)
+
+![](assets/graphQL/graphQL_handleDeposit.png)
+
+![](assets/graphQL/graphQL_handleNewAddressIdentifier.png)
+
+![](assets/graphQL/graphQL_handleNewAdmin.png)
+
+![](assets/graphQL/graphQL_handleNewFee.png)
+
+![](assets/graphQL/graphQL_handleNewGauge.png)
+
+![](assets/graphQL/graphQL_handleNewGaugeWeight.png)
+
+![](assets/graphQL/graphQL_handleNewParameters.png)
+
+![](assets/graphQL/graphQL_handleNewProxyApp.png)
+
+![](assets/graphQL/graphQL_handleNewTypeWeight.png)
+
+![](assets/graphQL/graphQL_handlePoolAdded.png)
+
+![](assets/graphQL/graphQL_handlePoolRemoved.png)
+
+![](assets/graphQL/graphQL_handleRampA.png)
+
+![](assets/graphQL/graphQL_handleRemoveLiquidity.png)
+
+![](assets/graphQL/graphQL_handleRemoveLiquidityImbalance.png)
+
+![](assets/graphQL/graphQL_handleRemoveLiquidityOne.png)
+
+![](assets/graphQL/graphQL_handleStopRampA.png)
+
+![](assets/graphQL/graphQL_handleTokenExchange.png)
+
+![](assets/graphQL/graphQL_handleTokenExchangeUnderlying.png)
+
+![](assets/graphQL/graphQL_handleUpdateLiquidityLimit.png)
+
+![](assets/graphQL/graphQL_handleVoteForGauge.png)
+
+![](assets/graphQL/graphQL_handleVotingDeposit.png)
+
+![](assets/graphQL/graphQL_handleVotingWithdraw.png)
+
+![](assets/graphQL/graphQL_handleWithdraw.png)
+
+![](assets/graphQL/graphQL_userBalancesByUnlockTime.png)
+
+![](assets/graphQL/graphQL_votingEscrows.png)
 
 Running the tests
 
