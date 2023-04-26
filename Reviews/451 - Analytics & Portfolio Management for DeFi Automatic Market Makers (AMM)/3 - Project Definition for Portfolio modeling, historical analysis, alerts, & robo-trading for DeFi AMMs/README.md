@@ -3,7 +3,7 @@ Grant Proposal | [451 - Analytics & Portfolio Management for DeFi Automatic Mark
 Milestone | 3
 Milestone Title | Project Definition for Portfolio modeling, historical analysis, alerts, & robo-trading for DeFi AMMs
 OP | FLUIDEFI
-Reviewer | Furkan Ahmet Kara <mdidin80@gmail.com>
+Reviewer | Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>
 
 # Milestone Details
 
