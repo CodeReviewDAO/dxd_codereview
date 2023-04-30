@@ -34,6 +34,8 @@ https://github.com/CasperDash/useDApp | 21b5070
 
 # Install & Usage Testing Procedure and Findings
 
+Reviewer used a 
+
 _Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
 including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
 provided for the grant milestone._
@@ -73,18 +75,16 @@ Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Sufficient project documentation is provided as readme files and additional details exist in other policy and similar files. Some installation instructions could be improved for better understandability but in its current form, the documentation meets its goal.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Code documentation and overall project documentation are sufficient for this project.
 
 # Open Source Practices
 
