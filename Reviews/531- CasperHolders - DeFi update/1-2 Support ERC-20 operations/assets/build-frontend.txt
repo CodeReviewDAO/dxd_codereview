@@ -1,0 +1,123 @@
+pnpm install
+pnpm dev
+ WARN  deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
+ WARN  deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+ WARN  deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+Packages: +901
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Users/mdidin/Library/pnpm/store/v3
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 918, reused 897, downloaded 0, added 901, done
+node_modules/.pnpm/esbuild@0.16.14/node_modules/esbuild: Running postinstall script, done in 764ms
+
+dependencies:
++ @casperholders/core 3.14.7
++ @ethersproject/bytes 5.7.0
++ @ledgerhq/hw-transport-web-ble 6.27.9
++ @ledgerhq/hw-transport-webusb 6.27.9
++ @toruslabs/casper-embed 2.0.1
++ @zondax/ledger-casper 2.5.3
++ big.js 6.2.1
++ blakejs 1.2.1
++ buffer 6.0.3
++ casper-js-sdk 2.10.2
++ chart.js 4.1.1
++ core-js 3.27.1
++ lodash.clonedeep 4.5.0
++ lodash.debounce 4.0.8
++ lodash.sortby 4.7.0
++ parse-duration 1.0.2
++ qrcode.vue 1.7.0
++ toformat 2.0.0
++ ts-results 3.3.0
++ vue 2.7.14
++ vue-json-pretty 1.9.3
++ vue-router 3.6.5
++ vue-status-indicator 1.2.1
++ vuetify 2.6.13
++ vuex 3.6.2
++ workbox-core 6.5.4
++ workbox-precaching 6.5.4
++ workbox-routing 6.5.4
++ workbox-strategies 6.5.4
+
+devDependencies:
++ @cypress/code-coverage 3.10.0
++ @esbuild-plugins/node-globals-polyfill 0.1.1
++ @esbuild-plugins/node-modules-polyfill 0.1.4
++ @mdi/js 7.1.96
++ @vitejs/plugin-vue2 2.2.0
++ cy2 4.0.6
++ cypress 12.4.1
++ cypress-file-upload 5.0.8
++ cypress-real-events 1.7.6
++ eslint 8.31.0
++ eslint-config-airbnb-base 15.0.0
++ eslint-plugin-import 2.26.0
++ eslint-plugin-vue 9.8.0
++ nyc 15.1.0
++ rollup-plugin-polyfill-node 0.11.0
++ rollup-plugin-visualizer 5.9.0
++ sass 1.32.13
++ unplugin-vue-components 0.22.12
++ vite 4.0.4
++ vite-compatible-readable-stream 3.6.1
++ vite-plugin-istanbul 3.0.4
++ vite-plugin-mkcert 1.10.1
++ vite-plugin-pwa 0.14.1
++ vue-eslint-parser 9.1.0
++ vue-template-compiler 2.7.14
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @cypress/code-coverage 3.10.0
+│ └─┬ @cypress/webpack-preprocessor 5.15.7
+│   ├── ✕ missing peer @babel/preset-env@^7.0.0
+│   ├── ✕ missing peer babel-loader@^8.0.2
+│   └── ✕ missing peer webpack@"^4 || ^5"
+├─┬ @esbuild-plugins/node-globals-polyfill 0.1.1
+│ └── ✕ missing peer esbuild@"*"
+├─┬ @esbuild-plugins/node-modules-polyfill 0.1.4
+│ └── ✕ missing peer esbuild@"*"
+├─┬ @casperholders/core 3.14.7
+│ └─┬ casper-js-sdk 2.10.2
+│   ├─┬ webpack 5.75.0
+│   │ └─┬ terser-webpack-plugin 5.3.6
+│   │   └── ✕ missing peer esbuild@"*"
+│   └─┬ eslint-plugin-prettier 3.4.1
+│     └── ✕ missing peer prettier@>=1.13.0
+├─┬ rollup-plugin-polyfill-node 0.11.0
+│ ├── ✕ missing peer rollup@"^1.20.0 || ^2.0.0 || ^3.0.0"
+│ └─┬ @rollup/plugin-inject 5.0.3
+│   ├── ✕ missing peer rollup@^1.20.0||^2.0.0||^3.0.0
+│   └─┬ @rollup/pluginutils 5.0.2
+│     └── ✕ missing peer rollup@^1.20.0||^2.0.0||^3.0.0
+├─┬ rollup-plugin-visualizer 5.9.0
+│ └── ✕ missing peer rollup@"2.x || 3.x"
+└─┬ @toruslabs/casper-embed 2.0.1
+  ├── ✕ missing peer @babel/runtime@7.x
+  └─┬ @toruslabs/base-controllers 2.5.0
+    ├── ✕ missing peer @babel/runtime@7.x
+    ├─┬ @toruslabs/http-helpers 3.2.0
+    │ └── ✕ missing peer @babel/runtime@^7.x
+    └─┬ @toruslabs/openlogin-jrpc 2.9.0
+      ├── ✕ missing peer @babel/runtime@7.x
+      └─┬ @toruslabs/openlogin-utils 2.1.0
+        └── ✕ missing peer @babel/runtime@7.x
+Peer dependencies that should be installed:
+  @babel/preset-env@^7.0.0                   esbuild@"*"                                webpack@"^4 || ^5"
+  @babel/runtime@">=7.0.0 <8.0.0"            prettier@>=1.13.0
+  babel-loader@^8.0.2                        rollup@">=2.0.0 <3.0.0 || >=3.0.0 <4.0.0"
+
+Done in 23.4s
+
+> casperholdersfront@1.0.0 dev /Users/mdidin/Desktop/casperholdersfront
+> vite --port 8080
+
+
+  VITE v4.0.4  ready in 1287 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: use --host to expose
+  ➜  press h to show help

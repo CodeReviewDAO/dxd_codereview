@@ -1,0 +1,20 @@
+yarn global add expo-cli eas-cli
+yarn global v1.22.19
+warning ../../package.json: No license field
+[1/4] 🔍  Resolving packages...
+warning expo-cli > cacache > @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+warning expo-cli > xdl > @expo/webpack-config > css-minimizer-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning eas-cli > @oclif/core > @oclif/screen@3.0.4: Deprecated in favor of @oclif/core
+warning eas-cli > @expo/plugin-help > @oclif/core > @oclif/screen@3.0.4: Deprecated in favor of @oclif/core
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "expo-cli > xdl > @expo/webpack-config > expo-pwa@0.0.124" has unmet peer dependency "expo@*".
+warning "eas-cli > @expo/prebuild-config@5.0.7" has unmet peer dependency "expo-modules-autolinking@>=0.8.1".
+[4/4] 🔨  Building fresh packages...
+
+success Installed "expo-cli@6.3.0" with binaries:
+      - expo
+      - expo-cli
+success Installed "eas-cli@3.5.2" with binaries:
+      - eas
+✨  Done in 34.48s.
