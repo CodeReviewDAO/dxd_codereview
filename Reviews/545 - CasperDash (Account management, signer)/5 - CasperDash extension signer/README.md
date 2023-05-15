@@ -34,7 +34,7 @@ https://github.com/CasperDash/useDApp | 21b5070
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer used a 
+Reviewer used an Ubuntu 22.04.2 LTS GitPod instance and a local Pardus 21.5 GNU/Linux local instance for doing this review.
 
 _Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
 including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
