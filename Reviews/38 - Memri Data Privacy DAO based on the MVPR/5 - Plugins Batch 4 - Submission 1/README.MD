@@ -193,14 +193,14 @@ To test the plugin, the reviewer ran the plugin with:
 
 using the hosted pod to test.
 
-The command output is in [g_calendar_run.md.](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_run.md)
+The command output is in [g_calendar_run.md.](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_run.md)
 
 The Oauth authentication flow worked successfully, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successOauth.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successOauth.PNG)
 
 The reviewer's google calendar was successfully imported, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport1.PNG)
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport2.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport1.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport2.PNG)
 
 ## Google Photos Importer
 
