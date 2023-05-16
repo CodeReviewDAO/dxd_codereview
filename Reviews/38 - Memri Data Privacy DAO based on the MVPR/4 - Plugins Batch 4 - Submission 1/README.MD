@@ -1,6 +1,6 @@
 Grant Proposal | [38 - Memri Data Privacy DAO based on the MVPR](https://portal.devxdao.com/public-proposals/38)
 ------------ | -------------
-Milestone | 4
+Milestone | 5
 Milestone Title | Plugins Batch 4 - Submission 1
 OP | Memri
 Reviewer | HouPha Vang
