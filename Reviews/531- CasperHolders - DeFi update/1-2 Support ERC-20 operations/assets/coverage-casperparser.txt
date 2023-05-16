@@ -1,0 +1,23 @@
+make coverage
+go get -d -v .
+go install github.com/markbates/pkger/cmd/pkger
+pkger --include /sql -o cmd
+go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+migrate -source file://sql/ -database postgres://postgres:mysecretpassword@localhost:5433/casperparser?sslmode=disable up
+1/u init_db (176.86217ms)
+go test ./... -race -covermode=atomic -coverprofile=coverage.out
+?   	casperParser	[no test files]
+?   	casperParser/cmd	[no test files]
+ok  	casperParser/db	2.135s	coverage: 73.5% of statements
+?   	casperParser/doc	[no test files]
+ok  	casperParser/rpc	12.218s	coverage: 80.0% of statements
+ok  	casperParser/tasks	18.004s	coverage: 78.4% of statements
+?   	casperParser/types/auction	[no test files]
+?   	casperParser/types/block	[no test files]
+?   	casperParser/types/config	[no test files]
+ok  	casperParser/types/contract	1.970s	coverage: 100.0% of statements
+?   	casperParser/types/contractPackage	[no test files]
+ok  	casperParser/types/deploy	1.151s	coverage: 76.6% of statements
+?   	casperParser/types/reward	[no test files]
+ok  	casperParser/utils	0.684s	coverage: 56.0% of statements
+go tool cover -html=coverage.out

@@ -1,0 +1,64 @@
+python3 -m venv fl_agg_env
+source fl_agg_env/bin/activate
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2513k  100 2513k    0     0  3172k      0 --:--:-- --:--:-- --:--:-- 3174k
+Collecting pip
+  Using cached pip-23.0.1-py3-none-any.whl (2.1 MB)
+Collecting wheel
+  Using cached wheel-0.40.0-py3-none-any.whl (64 kB)
+Installing collected packages: wheel, pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.3
+    Uninstalling pip-21.2.3:
+      Successfully uninstalled pip-21.2.3
+Successfully installed pip-23.0.1 wheel-0.40.0
+
+python3 -m pip install -r app/requirements.txt
+Collecting Django==4.1.7
+  Using cached Django-4.1.7-py3-none-any.whl (8.1 MB)
+Collecting numpy==1.24.2
+  Using cached numpy-1.24.2-cp39-cp39-macosx_10_9_x86_64.whl (19.8 MB)
+Collecting pandas==1.5.3
+  Using cached pandas-1.5.3-cp39-cp39-macosx_10_9_x86_64.whl (12.0 MB)
+Collecting psycopg2-binary==2.9.5
+  Using cached psycopg2_binary-2.9.5-cp39-cp39-macosx_10_15_x86_64.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (2.2 MB)
+Collecting python-dotenv==0.21.1
+  Using cached python_dotenv-0.21.1-py3-none-any.whl (19 kB)
+Collecting pytz==2022.7.1
+  Using cached pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+Collecting schedule
+  Using cached schedule-1.2.0-py2.py3-none-any.whl (11 kB)
+Collecting SQLAlchemy==1.4.47
+  Using cached SQLAlchemy-1.4.47-cp39-cp39-macosx_10_9_x86_64.whl
+Collecting djangorestframework==3.14.0
+  Using cached djangorestframework-3.14.0-py3-none-any.whl (1.1 MB)
+Collecting drf-spectacular==0.26.1
+  Using cached drf_spectacular-0.26.1-py3-none-any.whl (92 kB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.3-py3-none-any.whl (42 kB)
+Collecting asgiref<4,>=3.5.2
+  Using cached asgiref-3.6.0-py3-none-any.whl (23 kB)
+Collecting python-dateutil>=2.8.1
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting greenlet!=0.4.17
+  Using cached greenlet-2.0.2-cp39-cp39-macosx_10_9_x86_64.whl
+Collecting PyYAML>=5.1
+  Using cached PyYAML-6.0-cp39-cp39-macosx_10_9_x86_64.whl (197 kB)
+Collecting jsonschema>=2.6.0
+  Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+Collecting inflection>=0.3.1
+  Using cached inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Collecting uritemplate>=2.0.0
+  Using cached uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Using cached pyrsistent-0.19.3-cp39-cp39-macosx_10_9_universal2.whl (82 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, uritemplate, sqlparse, six, schedule, PyYAML, python-dotenv, pyrsistent, psycopg2-binary, numpy, inflection, greenlet, attrs, asgiref, SQLAlchemy, python-dateutil, jsonschema, Django, pandas, djangorestframework, drf-spectacular
+Successfully installed Django-4.1.7 PyYAML-6.0 SQLAlchemy-1.4.47 asgiref-3.6.0 attrs-22.2.0 djangorestframework-3.14.0 drf-spectacular-0.26.1 greenlet-2.0.2 inflection-0.5.1 jsonschema-4.17.3 numpy-1.24.2 pandas-1.5.3 psycopg2-binary-2.9.5 pyrsistent-0.19.3 python-dateutil-2.8.2 python-dotenv-0.21.1 pytz-2022.7.1 schedule-1.2.0 six-1.16.0 sqlparse-0.4.3 uritemplate-4.1.1
