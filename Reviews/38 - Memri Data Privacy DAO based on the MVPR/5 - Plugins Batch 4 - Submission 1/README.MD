@@ -244,7 +244,7 @@ To test the plugin, the reviewer ran the plugin with:
 
 using the hosted pod to test.
 
-However, this resulted in errors, as seen in [gphotos_run_output.MD.](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_run_output.MD)
+However, this resulted in errors, as seen in [gphotos_run_output.MD.](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_run_output.MD)
 
 After some analysis, it turned out this was because the README instructions did not instruct to install
 the plugin after setting up the google cloud application and virtual environment.
@@ -256,14 +256,14 @@ To make the plugin work, the reviewer installed the plugin with:
 Following that, the reviewer was able to successfully run the program with:
 `run_plugin --pod_full_address="https://dev.pod.memri.io" --metadata "metadata.json`
 
-The output for the run can be seen in [gphotos_import_run.MD.](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_import_run.MD)
+The output for the run can be seen in [gphotos_import_run.MD.](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_import_run.MD)
 
 The Oauth authhorization was successful, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successOauth.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successOauth.PNG)
 
 In addition, the photo import was successful. The reviewer used an account with a single photo,
 and that photo's entry can be seen reflected in the pod data viewer below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successImport.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successImport.PNG)
 
 
 
