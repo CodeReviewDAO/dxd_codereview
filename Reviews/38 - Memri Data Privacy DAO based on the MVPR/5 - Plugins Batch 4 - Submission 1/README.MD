@@ -277,7 +277,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/mastodon
     pre-commit install
 ```
 
-See [mastodon_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_install.MD)
+See [mastodon_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/177f88389ccfa19d1d64e5a0e45f8debc66b2d82/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_install.MD)
 
 Following that, the reviewer setup the required Twitter credentials according to the README
 instructions. 
