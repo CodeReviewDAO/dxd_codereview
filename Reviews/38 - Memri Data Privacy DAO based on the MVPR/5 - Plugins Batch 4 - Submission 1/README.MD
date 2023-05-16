@@ -125,7 +125,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/summariz
 
 `pip install -e .`
 
-See [summarization_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_install.md)
+See [summarization_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_install.md)
 
 ### Usage
 To test the plugin, the reviewer attempted to follow along and performed the same steps as in the referenced video, but the video restricted access and the reviewer could not confirm the steps.  
@@ -138,7 +138,7 @@ Rather than the suggested command:
 The reviewer ran the plugin with:
 `run_plugin --pod_full_address="https://dev.pod.memri.io" --metadata "metadata.json"`
 
-See [summarization_run.MD for command output](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_run.md)
+See [summarization_run.MD for command output](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_run.md)
 
 Results:
 The reviewer was not able to test the Web API endpoints as instructed using 
@@ -148,7 +148,7 @@ However, the reviewer was able to test the endpoints using
 `http://localhost:8080/docs`
 
 #### Web API 
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_webapi.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_webapi.PNG)
 
 The Web API appears to work as intended. However, due to the failure to perform scraping with the RSS plugin, the reviewer could not properly test the output for summarize as there was no data to summarize.
 
