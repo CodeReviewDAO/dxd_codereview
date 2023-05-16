@@ -72,11 +72,11 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/rss-impo
 
 `pip install -e .`
 
-See [rss-importer_install_1.MD for install output](https://github.com/hoopav/dxd_codereview/blob/8fd7732ed555a7872c8f50cfdcef61853b0c0273/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_1.md)
+See [rss-importer_install_1.MD for install output](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_1.md)
 
 The plugin installed successfully. However, when the reviewer tried to install scraping using the instructions provided in the README, the installation failed.
 
-See [rss-importer_install_2.MD for install output](https://github.com/hoopav/dxd_codereview/blob/960aa6ceffa2e51db455079f224adf2ccb0afe1b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_2.md)
+See [rss-importer_install_2.MD for install output](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_2.md)
 
 The reviewer had to search for an answer, and the instructions on the plugin README were incorrect. 
 After trying and failing to install scraping according to the instructions, reviewer installed 
@@ -109,14 +109,14 @@ However, the reviewer was able to test the Plugin Endpoints using
 `http://localhost:8080/docs`
 
 #### Get Feeds
-![alt text](https://github.com/hoopav/dxd_codereview/blob/960aa6ceffa2e51db455079f224adf2ccb0afe1b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_get_feeds.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_get_feeds.PNG)
 
 #### Add Feed
-![alt text](https://github.com/hoopav/dxd_codereview/blob/960aa6ceffa2e51db455079f224adf2ccb0afe1b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_add_feed.PNG)
-![alt text](https://github.com/hoopav/dxd_codereview/blob/960aa6ceffa2e51db455079f224adf2ccb0afe1b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_added_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_add_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_added_feed.PNG)
 
 #### Deactivate Feed
-![alt text](https://github.com/hoopav/dxd_codereview/blob/960aa6ceffa2e51db455079f224adf2ccb0afe1b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_deactivate_feed.PNG)
+![alt text](Reviews/38 - Memri Data Privacy DAO based on the MVPR/5 - Plugins Batch 4 - Submission 1/assets/rss_deactivate_feed.PNG)
 
 ## Summarization plugin
 
