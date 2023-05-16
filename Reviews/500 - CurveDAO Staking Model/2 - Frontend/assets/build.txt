@@ -1,0 +1,810 @@
+npm start
+Compiled with warnings.
+
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/index.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/index.ts'
+
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/option.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/option.ts'
+
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/result.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/result.ts'
+
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/utils.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/utils.ts'
+
+[eslint]
+src/app/assets/js/helpers.js
+  Line 14:14:  Expected '===' and instead saw '=='  eqeqeq
+
+src/app/assets/js/voteStore.js
+  Line 23:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 25:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 27:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 29:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 47:14:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 82:11:   'voteCreatedOn' is assigned a value but never used  no-unused-vars
+  Line 115:31:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 124:31:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 128:30:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 138:30:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 143:30:  Expected '===' and instead saw '=='                 eqeqeq
+
+src/app/components/Charts/DaoVotingPower.js
+  Line 1:17:   'useState' is defined but never used        no-unused-vars
+  Line 23:11:  'fixed' is assigned a value but never used  no-unused-vars
+  Line 47:14:  'i' is already defined                      no-redeclare
+
+src/app/components/Charts/VestingTokens.js
+  Line 54:7:  'dataMain' is assigned a value but never used  no-unused-vars
+
+src/app/components/Charts/WeightVotingHistory.js
+  Line 22:23:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+
+src/app/components/DAO/VotingPowerActionables.js
+  Line 44:25:   'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                        no-unused-vars
+  Line 49:10:   'CRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
+  Line 49:28:   'setCRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                       no-unused-vars
+  Line 53:10:   'openA' is assigned a value but never used                                                                                                                                                                                                                     no-unused-vars
+  Line 53:17:   'setOpenA' is assigned a value but never used                                                                                                                                                                                                                  no-unused-vars
+  Line 63:21:   'setCRVLocked' is assigned a value but never used                                                                                                                                                                                                              no-unused-vars
+  Line 64:10:   'gaugesNeedCheckpoint' is assigned a value but never used                                                                                                                                                                                                      no-unused-vars
+  Line 64:32:   'setGaugesNeedCheckpoint' is assigned a value but never used                                                                                                                                                                                                   no-unused-vars
+  Line 85:44:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 85:73:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 87:6:    React Hook useEffect has missing dependencies: 'activePublicKey' and 'getAllowance'. Either include them or remove the dependency array                                                                                                                        react-hooks/exhaustive-deps
+  Line 129:6:   React Hook useEffect has missing dependencies: 'activePublicKey' and 'fetchBalanceData'. Either include them or remove the dependency array                                                                                                                    react-hooks/exhaustive-deps
+  Line 129:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 155:6:   React Hook useEffect has missing dependencies: 'activePublicKey' and 'fetchUserData'. Either include them or remove the dependency array                                                                                                                       react-hooks/exhaustive-deps
+  Line 155:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 197:18:  Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 205:6:   React Hook useEffect has missing dependencies: 'increaseLock' and 'lockTime'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setIncreaseLock' needs the current value of 'lockTime'  react-hooks/exhaustive-deps
+  Line 206:9:   'DAOPowerFormat' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 210:9:   'averageLock' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 218:12:  'setMaxBalance' is defined but never used                                                                                                                                                                                                                      no-unused-vars
+  Line 227:48:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+
+src/app/components/FormsUI/LockTimeButtons.js
+  Line 1:10:   'Button' is defined but never used                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 19:11:  'setFieldValue' is assigned a value but never used                                                                                                                                                                                                                                                               no-unused-vars
+  Line 20:10:  'field' is assigned a value but never used                                                                                                                                                                                                                                                                       no-unused-vars
+  Line 20:17:  'meta' is assigned a value but never used                                                                                                                                                                                                                                                                        no-unused-vars
+  Line 21:23:  'setCurrentDate' is assigned a value but never used                                                                                                                                                                                                                                                              no-unused-vars
+  Line 140:6:  React Hook useEffect has missing dependencies: 'currentDate', 'date', 'formatDate', 'setDate', 'setDateDisplay', and 'setStartingVPower'. Either include them or remove the dependency array. If 'setDate' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+src/app/components/Gauge/Gauge.js
+  Line 28:10:   'infiniteApproval' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  Line 28:28:   'setInfiniteApproval' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                     no-unused-vars
+  Line 32:21:   'setSwapToken' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 36:25:   'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 52:12:   'claimableTokensFormat' is defined but never used                                                                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 70:6:    React Hook useEffect has missing dependencies: 'gaugeBalanceFormat', 'poolBalanceFormat', 'props.gauge.balance', 'props.gauge.claimableToken', 'props.gauge.gaugeBalance', and 'props.gauge.minted'. Either include them or remove the dependency array. If 'setMinted' needs the current value of 'props.gauge.minted', you can also switch to useReducer instead of useState and read 'props.gauge.minted' in the reducer  react-hooks/exhaustive-deps
+  Line 110:23:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                          eqeqeq
+  Line 111:23:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                          eqeqeq
+  Line 114:6:   React Hook useEffect has a missing dependency: 'getAllowance'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                              react-hooks/exhaustive-deps
+  Line 181:88:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md                                                     jsx-a11y/anchor-is-valid
+
+src/app/components/Gauge/GaugeVote.js
+  Line 43:10:  'openSigning' is assigned a value but never used         no-unused-vars
+  Line 44:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 47:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 47:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/Headers/HeaderDAO.js
+  Line 53:10:   'setAccount' is assigned a value but never used                                                                                                                                                                                                                                                                                                                    no-unused-vars
+  Line 55:10:   'openMenu' is assigned a value but never used                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 55:20:   'setOpenMenu' is assigned a value but never used                                                                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 284:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 299:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 318:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/app/components/JsClients/ERC20CRV/src/erc20Crv.ts
+  Line 336:11:  'IInstallParams' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 406:7:   'toCLMap' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 417:7:   'fromCLMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/GAUGECONTROLLER/gaugeControllerFunctionsForBackend/functions.ts
+  Line 3:10:  'parseJsonBody' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/GAUGECONTROLLER/src/gaugeController.ts
+  Line 3:3:     'CLPublicKey' is defined but never used         @typescript-eslint/no-unused-vars
+  Line 20:3:    'decodeBase16' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 22:16:   'None' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 27:10:   'RecipientType' is defined but never used       @typescript-eslint/no-unused-vars
+  Line 928:11:  'IInstallParams' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 999:7:   'toCLMap' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 1010:7:  'fromCLMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/LIQUIDITYGAUGEV3/src/liquidityGaugeV3.ts
+  Line 487:11:  'IInstallParams' is defined but never used         @typescript-eslint/no-unused-vars
+  Line 507:7:   'contractCall' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 558:7:   'toCLMap' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 569:7:   'fromCLMap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/VESTINGESCROW/src/vestingEscrow.ts
+  Line 3:5:     'CLPublicKey' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 4:5:     'CLAccountHash' is defined but never used           @typescript-eslint/no-unused-vars
+  Line 5:5:     'CLByteArray' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 6:5:     'CLKey' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 11:5:    'CLValueParsers' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 12:5:    'CLMap' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 14:5:    'EventName' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 15:5:    'EventStream' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 18:5:    'CLOption' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 19:5:    'ToBytes' is defined but never used                 @typescript-eslint/no-unused-vars
+  Line 21:12:   'Some' is defined but never used                    @typescript-eslint/no-unused-vars
+  Line 21:18:   'None' is defined but never used                    @typescript-eslint/no-unused-vars
+  Line 22:15:   'blake' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 23:12:   'concat' is defined but never used                  @typescript-eslint/no-unused-vars
+  Line 25:12:   'RecipientType' is defined but never used           @typescript-eslint/no-unused-vars
+  Line 26:11:   'createRecipientAddress' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 140:13:  'IInstallParams' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 160:9:   'contractCall' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  Line 211:9:   'toCLMap' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 222:9:   'fromCLMap' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/VOTINGESCROW/src/votingEscrow.ts
+  Line 354:7:  'contractCall' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 405:7:  'toCLMap' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 416:7:  'fromCLMap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/app/components/MakeDeployFunctions/CreateLockMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used  no-unused-vars
+  Line 11:20:  Expected '===' and instead saw '=='     eqeqeq
+  Line 16:18:  Expected '===' and instead saw '=='     eqeqeq
+
+src/app/components/MakeDeployFunctions/DepositMakeDeploy.js
+  Line 11:21:  Expected '===' and instead saw '=='                    eqeqeq
+  Line 25:11:  'spenderByteArray' is assigned a value but never used  no-unused-vars
+
+src/app/components/MakeDeployFunctions/IncreaseAmountMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used               no-unused-vars
+  Line 12:7:   'torus' is defined but never used                    no-unused-vars
+  Line 13:9:   'allowance' is assigned a value but never used       no-unused-vars
+  Line 15:7:   'selectedWallet' is assigned a value but never used  no-unused-vars
+  Line 19:20:  Expected '===' and instead saw '=='                  eqeqeq
+
+src/app/components/MakeDeployFunctions/IncreaseAndDecreaseAllowanceMakeDeploy.js
+  Line 26:11:  'erc20CrvPackageHash' is assigned a value but never used  no-unused-vars
+
+src/app/components/MakeDeployFunctions/IncreaseUnlockTimeMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used  no-unused-vars
+  Line 14:18:  Expected '===' and instead saw '=='     eqeqeq
+
+src/app/components/MakeDeployFunctions/UserCheckpointMakeDeploy.js
+  Line 2:10:  'LIQUIDITY_GAUGE_V3_CONTRACT_HASH' is defined but never used  no-unused-vars
+
+src/app/components/Modals/CreateVoteRootModal.js
+  Line 30:12:  'open' is assigned a value but never used            no-unused-vars
+  Line 31:25:  'setExecuteVote' is assigned a value but never used  no-unused-vars
+  Line 32:25:  'setWillSucceed' is assigned a value but never used  no-unused-vars
+  Line 33:11:  'handleOpen' is assigned a value but never used      no-unused-vars
+
+src/app/components/Modals/WalletModal.js
+  Line 7:8:  'Torus' is defined but never used  no-unused-vars
+
+src/app/components/Pools/PoolVote.js
+  Line 41:10:  'openSigning' is assigned a value but never used         no-unused-vars
+  Line 42:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 45:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 45:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/Show Voters/ShowVoters.js
+  Line 46:18:   'loading' is assigned a value but never used                                                                                                                                                                                                                                                                                                                       no-unused-vars
+  Line 104:5:   'optionsForSeries' is assigned a value but never used                                                                                                                                                                                                                                                                                                              no-unused-vars
+  Line 108:6:   React Hook useEffect has a missing dependency: 'resolveData'. Either include it or remove the dependency array                                                                                                                                                                                                                                                     react-hooks/exhaustive-deps
+  Line 173:27:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 295:27:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/app/components/Stats/VotingPowerDAO.js
+  Line 38:10:    'CRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
+  Line 41:10:    'votingPower' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 44:10:    'crvStats' is assigned a value but never used                                                                                                                                                                                                                  no-unused-vars
+  Line 48:10:    'crvLocked' is assigned a value but never used                                                                                                                                                                                                                 no-unused-vars
+  Line 49:25:    'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                        no-unused-vars
+  Line 52:10:    'totalCRVLocked' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 55:10:    'totalCRVLockedPercent' is assigned a value but never used                                                                                                                                                                                                     no-unused-vars
+  Line 58:10:    'lockEnd' is assigned a value but never used                                                                                                                                                                                                                   no-unused-vars
+  Line 62:18:    'loading' is assigned a value but never used                                                                                                                                                                                                                   no-unused-vars
+  Line 72:44:    Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 72:73:    Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 140:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 166:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 217:18:   Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 225:6:    React Hook useEffect has missing dependencies: 'increaseLock' and 'lockTime'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setIncreaseLock' needs the current value of 'lockTime'  react-hooks/exhaustive-deps
+  Line 234:62:   Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 234:117:  Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 265:12:   'newVotingPower' is defined but never used                                                                                                                                                                                                                     no-unused-vars
+  Line 271:12:   'setMaxBalance' is defined but never used                                                                                                                                                                                                                      no-unused-vars
+
+src/app/components/Tables/VotingHistoryTable.js
+  Line 13:16:  'setPage' is assigned a value but never used  no-unused-vars
+
+src/app/components/Utils/Helpers.js
+  Line 38:42:  Missing '()' invoking a constructor  new-parens
+  Line 52:42:  Missing '()' invoking a constructor  new-parens
+
+src/app/components/Vesting/Vesting.js
+  Line 32:10:  'typeOpen' is assigned a value but never used            no-unused-vars
+  Line 33:10:  'changeOpen' is assigned a value but never used          no-unused-vars
+  Line 34:10:  'applyOpen' is assigned a value but never used           no-unused-vars
+  Line 35:10:  'selected' is assigned a value but never used            no-unused-vars
+  Line 35:20:  'setSelected' is assigned a value but never used         no-unused-vars
+  Line 46:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 49:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 49:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+  Line 70:9:   'handleTypeOpen' is assigned a value but never used      no-unused-vars
+  Line 73:9:   'handleTypeClose' is assigned a value but never used     no-unused-vars
+  Line 76:9:   'handleChangeOpen' is assigned a value but never used    no-unused-vars
+  Line 79:9:   'handleChangeClose' is assigned a value but never used   no-unused-vars
+  Line 82:9:   'handleApplyOpen' is assigned a value but never used     no-unused-vars
+  Line 85:9:   'handleApplyClose' is assigned a value but never used    no-unused-vars
+
+src/app/components/VotingEscrow/VotingEscrow.js
+  Line 26:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 29:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 29:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/checkpoint/Checkpoint.js
+  Line 1:8:   'BigNumber' is defined but never used  no-unused-vars
+  Line 4:10:  'balanceOf' is defined but never used  no-unused-vars
+  Line 9:10:  'gql' is defined but never used        no-unused-vars
+  Line 9:15:  'useQuery' is defined but never used   no-unused-vars
+
+src/app/components/stores/GaugeStore.js
+  Line 138:23:   Array.prototype.map() expects a return value from arrow function  array-callback-return
+  Line 154:70:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 154:100:  Expected '===' and instead saw '=='                               eqeqeq
+  Line 161:59:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 168:7:    'btcPrice' is assigned a value but never used                     no-unused-vars
+  Line 182:50:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 183:52:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 273:29:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 288:9:    'poolName' is assigned a value but never used                     no-unused-vars
+  Line 288:60:   Expected '===' and instead saw '=='                               eqeqeq
+
+src/app/containers/App/Application.js
+  Line 23:21:  'setAllowance' is assigned a value but never used        no-unused-vars
+  Line 25:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 25:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+  Line 28:8:   'activePublicKey' is assigned a value but never used     no-unused-vars
+  Line 28:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 33:9:   'handleCloseSigning' is assigned a value but never used  no-unused-vars
+  Line 36:9:   'handleShowSigning' is assigned a value but never used   no-unused-vars
+
+src/app/containers/Pages/Users/DAO/Calc.js
+  Line 52:8:    'torus' is assigned a value but never used                                                                                                no-unused-vars
+  Line 54:10:   'gaugeDeposits' is assigned a value but never used                                                                                        no-unused-vars
+  Line 57:10:   'date' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 57:16:   'setDate' is assigned a value but never used                                                                                              no-unused-vars
+  Line 58:10:   'dateDisplay' is assigned a value but never used                                                                                          no-unused-vars
+  Line 58:23:   'setDateDisplay' is assigned a value but never used                                                                                       no-unused-vars
+  Line 62:10:   'gaugeLock' is assigned a value but never used                                                                                            no-unused-vars
+  Line 62:21:   'setGaugeLock' is assigned a value but never used                                                                                         no-unused-vars
+  Line 63:10:   'gaugeLockValue' is assigned a value but never used                                                                                       no-unused-vars
+  Line 63:26:   'setGaugeLockValue' is assigned a value but never used                                                                                    no-unused-vars
+  Line 65:10:   'lockPeriodName' is assigned a value but never used                                                                                       no-unused-vars
+  Line 66:23:   'setLockPeriods' is assigned a value but never used                                                                                       no-unused-vars
+  Line 100:10:  'lockedVeCRV' is assigned a value but never used                                                                                          no-unused-vars
+  Line 100:23:  'setLockedVeCRV' is assigned a value but never used                                                                                       no-unused-vars
+  Line 103:10:  'period' is assigned a value but never used                                                                                               no-unused-vars
+  Line 105:10:  'gauge' is assigned a value but never used                                                                                                no-unused-vars
+  Line 109:10:  'calcTrigger' is assigned a value but never used                                                                                          no-unused-vars
+  Line 109:23:  'setCalcTrigger' is assigned a value but never used                                                                                       no-unused-vars
+  Line 110:9:   'label' is assigned a value but never used                                                                                                no-unused-vars
+  Line 165:46:  Expected '!==' and instead saw '!='                                                                                                       eqeqeq
+  Line 165:75:  Expected '!==' and instead saw '!='                                                                                                       eqeqeq
+  Line 190:6:   React Hook useEffect has a missing dependency: 'activePublicKey'. Either include it or remove the dependency array                        react-hooks/exhaustive-deps
+  Line 190:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+  Line 201:10:  '_' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 214:9:   'periodTimestamp' is assigned a value but never used                                                                                      no-unused-vars
+  Line 217:9:   'totalSupplyGauge' is assigned a value but never used                                                                                     no-unused-vars
+  Line 269:10:  '_' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 288:6:   React Hook useEffect has missing dependencies: 'calc' and 'maxBoost'. Either include them or remove the dependency array                  react-hooks/exhaustive-deps
+  Line 288:57:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+  Line 288:66:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+
+src/app/containers/Pages/Users/DAO/DaoHome.js
+  Line 33:32:   'setUserLockedCRVBalance' is assigned a value but never used                                                  no-unused-vars
+  Line 49:71:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 49:100:  Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 51:6:    React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 81:37:   Expected '===' and instead saw '=='                                                                           eqeqeq
+
+src/app/containers/Pages/Users/DAO/GaugeWeightVote.js
+  Line 57:7:     'GAUGE_WEIGHT' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 138:10:   'stakes' is assigned a value but never used                                                                                                            no-unused-vars
+  Line 138:18:   'setStakes' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 139:10:   'page' is assigned a value but never used                                                                                                              no-unused-vars
+  Line 139:16:   'setPage' is assigned a value but never used                                                                                                           no-unused-vars
+  Line 140:10:   'rowsPerPage' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 140:23:   'setRowsPerPage' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 144:10:   'gaugeVoteTime' is assigned a value but never used                                                                                                     no-unused-vars
+  Line 145:10:   'futureWeight' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 145:24:   'setFutureWeight' is assigned a value but never used                                                                                                   no-unused-vars
+  Line 147:31:   'setSelectedWeightGauge' is assigned a value but never used                                                                                            no-unused-vars
+  Line 148:10:   'filteredVotes' is assigned a value but never used                                                                                                     no-unused-vars
+  Line 148:25:   'setFilteredVotes' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 150:10:   'users' is assigned a value but never used                                                                                                             no-unused-vars
+  Line 200:75:   Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+  Line 200:104:  Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+  Line 270:6:    React Hook useEffect has missing dependencies: 'activePublicKey', 'getVotes', and 'voteUserPower'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 366:9:    'handleChangeAllocation' is assigned a value but never used                                                                                            no-unused-vars
+  Line 372:16:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 377:15:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 440:9:    'getWeight' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 486:12:   'isInvalidWeight' is defined but never used                                                                                                            no-unused-vars
+  Line 567:44:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 1037:45:  Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+
+src/app/containers/Pages/Users/DAO/Locker.js
+  Line 66:11:   'enqueueSnackbar' is assigned a value but never used                                                       no-unused-vars
+  Line 73:10:   'allowance' is assigned a value but never used                                                             no-unused-vars
+  Line 73:21:   'setAllowance' is assigned a value but never used                                                          no-unused-vars
+  Line 74:32:   'setUserLockedCRVBalance' is assigned a value but never used                                               no-unused-vars
+  Line 76:10:   'votingPower' is assigned a value but never used                                                           no-unused-vars
+  Line 79:10:   'vPower' is assigned a value but never used                                                                no-unused-vars
+  Line 79:18:   'setVPower' is assigned a value but never used                                                             no-unused-vars
+  Line 80:10:   'lastEvent' is assigned a value but never used                                                             no-unused-vars
+  Line 83:10:   'totalSupply' is assigned a value but never used                                                           no-unused-vars
+  Line 85:10:   'openSigning' is assigned a value but never used                                                           no-unused-vars
+  Line 86:9:    'handleCloseSigning' is assigned a value but never used                                                    no-unused-vars
+  Line 89:9:    'handleShowSigning' is assigned a value but never used                                                     no-unused-vars
+  Line 92:9:    'id' is assigned a value but never used                                                                    no-unused-vars
+  Line 93:18:   'loading' is assigned a value but never used                                                               no-unused-vars
+  Line 102:46:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 135:6:   React Hook useEffect has a missing dependency: 'param'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+  Line 138:6:   React Hook useEffect has a missing dependency: 'charts'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 154:42:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 160:65:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 176:11:  'diffAmount' is assigned a value but never used                                                            no-unused-vars
+  Line 189:34:  Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 198:56:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 239:11:  'finalData' is assigned a value but never used                                                             no-unused-vars
+  Line 246:11:  'lastUnlockTimeDiff' is assigned a value but never used                                                    no-unused-vars
+
+src/app/containers/Pages/Users/DAO/Minter.js
+  Line 21:7:    'GAUGES_BY_ADDRESS' is assigned a value but never used                                                        no-unused-vars
+  Line 34:11:   'enqueueSnackbar' is assigned a value but never used                                                          no-unused-vars
+  Line 35:29:   'setTotalClaimableCRV' is assigned a value but never used                                                     no-unused-vars
+  Line 36:26:   'setTotalMintedCRV' is assigned a value but never used                                                        no-unused-vars
+  Line 37:32:   'setUserLockedCRVBalance' is assigned a value but never used                                                  no-unused-vars
+  Line 41:27:   'setGaugesNeedApply' is assigned a value but never used                                                       no-unused-vars
+  Line 42:10:   'nGauges' is assigned a value but never used                                                                  no-unused-vars
+  Line 45:10:   'boosts' is assigned a value but never used                                                                   no-unused-vars
+  Line 46:10:   'totalBalance' is assigned a value but never used                                                             no-unused-vars
+  Line 47:10:   'totalGaugeBalance' is assigned a value but never used                                                        no-unused-vars
+  Line 58:10:   'openSigning' is assigned a value but never used                                                              no-unused-vars
+  Line 59:9:    'handleCloseSigning' is assigned a value but never used                                                       no-unused-vars
+  Line 62:9:    'handleShowSigning' is assigned a value but never used                                                        no-unused-vars
+  Line 92:44:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 92:73:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 95:6:    React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 109:12:  'showApplyBoostAll' is defined but never used                                                                 no-unused-vars
+  Line 152:39:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 176:37:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 281:73:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 285:75:  Expected '===' and instead saw '=='                                                                           eqeqeq
+
+src/app/containers/Pages/Users/DAO/Vesting.js
+  Line 29:8:    'activePublicKey' is assigned a value but never used                                                                                                                        no-unused-vars
+  Line 48:9:    'handleOpen' is assigned a value but never used                                                                                                                             no-unused-vars
+  Line 50:11:   'enqueueSnackbar' is assigned a value but never used                                                                                                                        no-unused-vars
+  Line 63:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                    react-hooks/exhaustive-deps
+  Line 116:31:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 122:31:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 138:26:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 146:6:   React Hook useEffect has missing dependencies: 'endTimeVal', 'initialLockedval', 'startTimeVal', and 'totalClaimedVal'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 146:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                    react-hooks/exhaustive-deps
+  Line 164:6:   React Hook useEffect has a missing dependency: 'initialLockedval'. Either include it or remove the dependency array                                                         react-hooks/exhaustive-deps
+
+src/app/containers/Pages/Users/DAO/VoteInfo.js
+  Line 63:18:  'loading' is assigned a value but never used                                                                    no-unused-vars
+  Line 122:6:  React Hook useEffect has a missing dependency: 'resolveData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/ts-results/esm/index.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/index.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/index.ts'
+
+WARNING in ./node_modules/ts-results/esm/option.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/option.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/option.ts'
+
+WARNING in ./node_modules/ts-results/esm/result.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/result.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/result.ts'
+
+WARNING in ./node_modules/ts-results/esm/utils.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/utils.ts' file: Error: ENOENT: no such file or directory, open '/Users/mdidin/Desktop/CasperLabs-Curve-DAO-Frontend/node_modules/src/utils.ts'
+
+WARNING in [eslint]
+src/app/assets/js/helpers.js
+  Line 14:14:  Expected '===' and instead saw '=='  eqeqeq
+
+src/app/assets/js/voteStore.js
+  Line 23:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 25:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 27:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 29:29:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 47:14:   Expected '===' and instead saw '=='                 eqeqeq
+  Line 82:11:   'voteCreatedOn' is assigned a value but never used  no-unused-vars
+  Line 115:31:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 124:31:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 128:30:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 138:30:  Expected '===' and instead saw '=='                 eqeqeq
+  Line 143:30:  Expected '===' and instead saw '=='                 eqeqeq
+
+src/app/components/Charts/DaoVotingPower.js
+  Line 1:17:   'useState' is defined but never used        no-unused-vars
+  Line 23:11:  'fixed' is assigned a value but never used  no-unused-vars
+  Line 47:14:  'i' is already defined                      no-redeclare
+
+src/app/components/Charts/VestingTokens.js
+  Line 54:7:  'dataMain' is assigned a value but never used  no-unused-vars
+
+src/app/components/Charts/WeightVotingHistory.js
+  Line 22:23:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+
+src/app/components/DAO/VotingPowerActionables.js
+  Line 44:25:   'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                        no-unused-vars
+  Line 49:10:   'CRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
+  Line 49:28:   'setCRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                       no-unused-vars
+  Line 53:10:   'openA' is assigned a value but never used                                                                                                                                                                                                                     no-unused-vars
+  Line 53:17:   'setOpenA' is assigned a value but never used                                                                                                                                                                                                                  no-unused-vars
+  Line 63:21:   'setCRVLocked' is assigned a value but never used                                                                                                                                                                                                              no-unused-vars
+  Line 64:10:   'gaugesNeedCheckpoint' is assigned a value but never used                                                                                                                                                                                                      no-unused-vars
+  Line 64:32:   'setGaugesNeedCheckpoint' is assigned a value but never used                                                                                                                                                                                                   no-unused-vars
+  Line 85:44:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 85:73:   Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 87:6:    React Hook useEffect has missing dependencies: 'activePublicKey' and 'getAllowance'. Either include them or remove the dependency array                                                                                                                        react-hooks/exhaustive-deps
+  Line 129:6:   React Hook useEffect has missing dependencies: 'activePublicKey' and 'fetchBalanceData'. Either include them or remove the dependency array                                                                                                                    react-hooks/exhaustive-deps
+  Line 129:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 155:6:   React Hook useEffect has missing dependencies: 'activePublicKey' and 'fetchUserData'. Either include them or remove the dependency array                                                                                                                       react-hooks/exhaustive-deps
+  Line 155:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 197:18:  Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 205:6:   React Hook useEffect has missing dependencies: 'increaseLock' and 'lockTime'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setIncreaseLock' needs the current value of 'lockTime'  react-hooks/exhaustive-deps
+  Line 206:9:   'DAOPowerFormat' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 210:9:   'averageLock' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 218:12:  'setMaxBalance' is defined but never used                                                                                                                                                                                                                      no-unused-vars
+  Line 227:48:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+
+src/app/components/FormsUI/LockTimeButtons.js
+  Line 1:10:   'Button' is defined but never used                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 19:11:  'setFieldValue' is assigned a value but never used                                                                                                                                                                                                                                                               no-unused-vars
+  Line 20:10:  'field' is assigned a value but never used                                                                                                                                                                                                                                                                       no-unused-vars
+  Line 20:17:  'meta' is assigned a value but never used                                                                                                                                                                                                                                                                        no-unused-vars
+  Line 21:23:  'setCurrentDate' is assigned a value but never used                                                                                                                                                                                                                                                              no-unused-vars
+  Line 140:6:  React Hook useEffect has missing dependencies: 'currentDate', 'date', 'formatDate', 'setDate', 'setDateDisplay', and 'setStartingVPower'. Either include them or remove the dependency array. If 'setDate' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+src/app/components/Gauge/Gauge.js
+  Line 28:10:   'infiniteApproval' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  Line 28:28:   'setInfiniteApproval' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                     no-unused-vars
+  Line 32:21:   'setSwapToken' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 36:25:   'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 52:12:   'claimableTokensFormat' is defined but never used                                                                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 70:6:    React Hook useEffect has missing dependencies: 'gaugeBalanceFormat', 'poolBalanceFormat', 'props.gauge.balance', 'props.gauge.claimableToken', 'props.gauge.gaugeBalance', and 'props.gauge.minted'. Either include them or remove the dependency array. If 'setMinted' needs the current value of 'props.gauge.minted', you can also switch to useReducer instead of useState and read 'props.gauge.minted' in the reducer  react-hooks/exhaustive-deps
+  Line 110:23:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                          eqeqeq
+  Line 111:23:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                          eqeqeq
+  Line 114:6:   React Hook useEffect has a missing dependency: 'getAllowance'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                              react-hooks/exhaustive-deps
+  Line 181:88:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md                                                     jsx-a11y/anchor-is-valid
+
+src/app/components/Gauge/GaugeVote.js
+  Line 43:10:  'openSigning' is assigned a value but never used         no-unused-vars
+  Line 44:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 47:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 47:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/Headers/HeaderDAO.js
+  Line 53:10:   'setAccount' is assigned a value but never used                                                                                                                                                                                                                                                                                                                    no-unused-vars
+  Line 55:10:   'openMenu' is assigned a value but never used                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 55:20:   'setOpenMenu' is assigned a value but never used                                                                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 284:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 299:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 318:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/app/components/JsClients/ERC20CRV/src/erc20Crv.ts
+  Line 336:11:  'IInstallParams' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 406:7:   'toCLMap' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 417:7:   'fromCLMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/GAUGECONTROLLER/gaugeControllerFunctionsForBackend/functions.ts
+  Line 3:10:  'parseJsonBody' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/GAUGECONTROLLER/src/gaugeController.ts
+  Line 3:3:     'CLPublicKey' is defined but never used         @typescript-eslint/no-unused-vars
+  Line 20:3:    'decodeBase16' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 22:16:   'None' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 27:10:   'RecipientType' is defined but never used       @typescript-eslint/no-unused-vars
+  Line 928:11:  'IInstallParams' is defined but never used      @typescript-eslint/no-unused-vars
+  Line 999:7:   'toCLMap' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 1010:7:  'fromCLMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/LIQUIDITYGAUGEV3/src/liquidityGaugeV3.ts
+  Line 487:11:  'IInstallParams' is defined but never used         @typescript-eslint/no-unused-vars
+  Line 507:7:   'contractCall' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 558:7:   'toCLMap' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 569:7:   'fromCLMap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/VESTINGESCROW/src/vestingEscrow.ts
+  Line 3:5:     'CLPublicKey' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 4:5:     'CLAccountHash' is defined but never used           @typescript-eslint/no-unused-vars
+  Line 5:5:     'CLByteArray' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 6:5:     'CLKey' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 11:5:    'CLValueParsers' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 12:5:    'CLMap' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 14:5:    'EventName' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 15:5:    'EventStream' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 18:5:    'CLOption' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 19:5:    'ToBytes' is defined but never used                 @typescript-eslint/no-unused-vars
+  Line 21:12:   'Some' is defined but never used                    @typescript-eslint/no-unused-vars
+  Line 21:18:   'None' is defined but never used                    @typescript-eslint/no-unused-vars
+  Line 22:15:   'blake' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 23:12:   'concat' is defined but never used                  @typescript-eslint/no-unused-vars
+  Line 25:12:   'RecipientType' is defined but never used           @typescript-eslint/no-unused-vars
+  Line 26:11:   'createRecipientAddress' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 140:13:  'IInstallParams' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 160:9:   'contractCall' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  Line 211:9:   'toCLMap' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 222:9:   'fromCLMap' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+src/app/components/JsClients/VOTINGESCROW/src/votingEscrow.ts
+  Line 354:7:  'contractCall' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 405:7:  'toCLMap' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 416:7:  'fromCLMap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/app/components/MakeDeployFunctions/CreateLockMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used  no-unused-vars
+  Line 11:20:  Expected '===' and instead saw '=='     eqeqeq
+  Line 16:18:  Expected '===' and instead saw '=='     eqeqeq
+
+src/app/components/MakeDeployFunctions/DepositMakeDeploy.js
+  Line 11:21:  Expected '===' and instead saw '=='                    eqeqeq
+  Line 25:11:  'spenderByteArray' is assigned a value but never used  no-unused-vars
+
+src/app/components/MakeDeployFunctions/IncreaseAmountMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used               no-unused-vars
+  Line 12:7:   'torus' is defined but never used                    no-unused-vars
+  Line 13:9:   'allowance' is assigned a value but never used       no-unused-vars
+  Line 15:7:   'selectedWallet' is assigned a value but never used  no-unused-vars
+  Line 19:20:  Expected '===' and instead saw '=='                  eqeqeq
+
+src/app/components/MakeDeployFunctions/IncreaseAndDecreaseAllowanceMakeDeploy.js
+  Line 26:11:  'erc20CrvPackageHash' is assigned a value but never used  no-unused-vars
+
+src/app/components/MakeDeployFunctions/IncreaseUnlockTimeMakeDeploy.js
+  Line 6:10:   'checkpoint' is defined but never used  no-unused-vars
+  Line 14:18:  Expected '===' and instead saw '=='     eqeqeq
+
+src/app/components/MakeDeployFunctions/UserCheckpointMakeDeploy.js
+  Line 2:10:  'LIQUIDITY_GAUGE_V3_CONTRACT_HASH' is defined but never used  no-unused-vars
+
+src/app/components/Modals/CreateVoteRootModal.js
+  Line 30:12:  'open' is assigned a value but never used            no-unused-vars
+  Line 31:25:  'setExecuteVote' is assigned a value but never used  no-unused-vars
+  Line 32:25:  'setWillSucceed' is assigned a value but never used  no-unused-vars
+  Line 33:11:  'handleOpen' is assigned a value but never used      no-unused-vars
+
+src/app/components/Modals/WalletModal.js
+  Line 7:8:  'Torus' is defined but never used  no-unused-vars
+
+src/app/components/Pools/PoolVote.js
+  Line 41:10:  'openSigning' is assigned a value but never used         no-unused-vars
+  Line 42:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 45:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 45:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/Show Voters/ShowVoters.js
+  Line 46:18:   'loading' is assigned a value but never used                                                                                                                                                                                                                                                                                                                       no-unused-vars
+  Line 104:5:   'optionsForSeries' is assigned a value but never used                                                                                                                                                                                                                                                                                                              no-unused-vars
+  Line 108:6:   React Hook useEffect has a missing dependency: 'resolveData'. Either include it or remove the dependency array                                                                                                                                                                                                                                                     react-hooks/exhaustive-deps
+  Line 173:27:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 295:27:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/app/components/Stats/VotingPowerDAO.js
+  Line 38:10:    'CRVLockedBalance' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
+  Line 41:10:    'votingPower' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 44:10:    'crvStats' is assigned a value but never used                                                                                                                                                                                                                  no-unused-vars
+  Line 48:10:    'crvLocked' is assigned a value but never used                                                                                                                                                                                                                 no-unused-vars
+  Line 49:25:    'setActivePublicKey' is assigned a value but never used                                                                                                                                                                                                        no-unused-vars
+  Line 52:10:    'totalCRVLocked' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 55:10:    'totalCRVLockedPercent' is assigned a value but never used                                                                                                                                                                                                     no-unused-vars
+  Line 58:10:    'lockEnd' is assigned a value but never used                                                                                                                                                                                                                   no-unused-vars
+  Line 62:18:    'loading' is assigned a value but never used                                                                                                                                                                                                                   no-unused-vars
+  Line 72:44:    Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 72:73:    Expected '!==' and instead saw '!='                                                                                                                                                                                                                            eqeqeq
+  Line 140:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 166:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                       react-hooks/exhaustive-deps
+  Line 217:18:   Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 225:6:    React Hook useEffect has missing dependencies: 'increaseLock' and 'lockTime'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setIncreaseLock' needs the current value of 'lockTime'  react-hooks/exhaustive-deps
+  Line 234:62:   Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 234:117:  Expected '===' and instead saw '=='                                                                                                                                                                                                                            eqeqeq
+  Line 265:12:   'newVotingPower' is defined but never used                                                                                                                                                                                                                     no-unused-vars
+  Line 271:12:   'setMaxBalance' is defined but never used                                                                                                                                                                                                                      no-unused-vars
+
+src/app/components/Tables/VotingHistoryTable.js
+  Line 13:16:  'setPage' is assigned a value but never used  no-unused-vars
+
+src/app/components/Utils/Helpers.js
+  Line 38:42:  Missing '()' invoking a constructor  new-parens
+  Line 52:42:  Missing '()' invoking a constructor  new-parens
+
+src/app/components/Vesting/Vesting.js
+  Line 32:10:  'typeOpen' is assigned a value but never used            no-unused-vars
+  Line 33:10:  'changeOpen' is assigned a value but never used          no-unused-vars
+  Line 34:10:  'applyOpen' is assigned a value but never used           no-unused-vars
+  Line 35:10:  'selected' is assigned a value but never used            no-unused-vars
+  Line 35:20:  'setSelected' is assigned a value but never used         no-unused-vars
+  Line 46:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 49:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 49:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+  Line 70:9:   'handleTypeOpen' is assigned a value but never used      no-unused-vars
+  Line 73:9:   'handleTypeClose' is assigned a value but never used     no-unused-vars
+  Line 76:9:   'handleChangeOpen' is assigned a value but never used    no-unused-vars
+  Line 79:9:   'handleChangeClose' is assigned a value but never used   no-unused-vars
+  Line 82:9:   'handleApplyOpen' is assigned a value but never used     no-unused-vars
+  Line 85:9:   'handleApplyClose' is assigned a value but never used    no-unused-vars
+
+src/app/components/VotingEscrow/VotingEscrow.js
+  Line 26:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 29:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 29:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+
+src/app/components/checkpoint/Checkpoint.js
+  Line 1:8:   'BigNumber' is defined but never used  no-unused-vars
+  Line 4:10:  'balanceOf' is defined but never used  no-unused-vars
+  Line 9:10:  'gql' is defined but never used        no-unused-vars
+  Line 9:15:  'useQuery' is defined but never used   no-unused-vars
+
+src/app/components/stores/GaugeStore.js
+  Line 138:23:   Array.prototype.map() expects a return value from arrow function  array-callback-return
+  Line 154:70:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 154:100:  Expected '===' and instead saw '=='                               eqeqeq
+  Line 161:59:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 168:7:    'btcPrice' is assigned a value but never used                     no-unused-vars
+  Line 182:50:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 183:52:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 273:29:   Expected '===' and instead saw '=='                               eqeqeq
+  Line 288:9:    'poolName' is assigned a value but never used                     no-unused-vars
+  Line 288:60:   Expected '===' and instead saw '=='                               eqeqeq
+
+src/app/containers/App/Application.js
+  Line 23:21:  'setAllowance' is assigned a value but never used        no-unused-vars
+  Line 25:8:   'selectedWallet' is assigned a value but never used      no-unused-vars
+  Line 25:24:  'setSelectedWallet' is assigned a value but never used   no-unused-vars
+  Line 28:8:   'activePublicKey' is assigned a value but never used     no-unused-vars
+  Line 28:25:  'setActivePublicKey' is assigned a value but never used  no-unused-vars
+  Line 33:9:   'handleCloseSigning' is assigned a value but never used  no-unused-vars
+  Line 36:9:   'handleShowSigning' is assigned a value but never used   no-unused-vars
+
+src/app/containers/Pages/Users/DAO/Calc.js
+  Line 52:8:    'torus' is assigned a value but never used                                                                                                no-unused-vars
+  Line 54:10:   'gaugeDeposits' is assigned a value but never used                                                                                        no-unused-vars
+  Line 57:10:   'date' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 57:16:   'setDate' is assigned a value but never used                                                                                              no-unused-vars
+  Line 58:10:   'dateDisplay' is assigned a value but never used                                                                                          no-unused-vars
+  Line 58:23:   'setDateDisplay' is assigned a value but never used                                                                                       no-unused-vars
+  Line 62:10:   'gaugeLock' is assigned a value but never used                                                                                            no-unused-vars
+  Line 62:21:   'setGaugeLock' is assigned a value but never used                                                                                         no-unused-vars
+  Line 63:10:   'gaugeLockValue' is assigned a value but never used                                                                                       no-unused-vars
+  Line 63:26:   'setGaugeLockValue' is assigned a value but never used                                                                                    no-unused-vars
+  Line 65:10:   'lockPeriodName' is assigned a value but never used                                                                                       no-unused-vars
+  Line 66:23:   'setLockPeriods' is assigned a value but never used                                                                                       no-unused-vars
+  Line 100:10:  'lockedVeCRV' is assigned a value but never used                                                                                          no-unused-vars
+  Line 100:23:  'setLockedVeCRV' is assigned a value but never used                                                                                       no-unused-vars
+  Line 103:10:  'period' is assigned a value but never used                                                                                               no-unused-vars
+  Line 105:10:  'gauge' is assigned a value but never used                                                                                                no-unused-vars
+  Line 109:10:  'calcTrigger' is assigned a value but never used                                                                                          no-unused-vars
+  Line 109:23:  'setCalcTrigger' is assigned a value but never used                                                                                       no-unused-vars
+  Line 110:9:   'label' is assigned a value but never used                                                                                                no-unused-vars
+  Line 165:46:  Expected '!==' and instead saw '!='                                                                                                       eqeqeq
+  Line 165:75:  Expected '!==' and instead saw '!='                                                                                                       eqeqeq
+  Line 190:6:   React Hook useEffect has a missing dependency: 'activePublicKey'. Either include it or remove the dependency array                        react-hooks/exhaustive-deps
+  Line 190:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+  Line 201:10:  '_' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 214:9:   'periodTimestamp' is assigned a value but never used                                                                                      no-unused-vars
+  Line 217:9:   'totalSupplyGauge' is assigned a value but never used                                                                                     no-unused-vars
+  Line 269:10:  '_' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 288:6:   React Hook useEffect has missing dependencies: 'calc' and 'maxBoost'. Either include them or remove the dependency array                  react-hooks/exhaustive-deps
+  Line 288:57:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+  Line 288:66:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+
+src/app/containers/Pages/Users/DAO/DaoHome.js
+  Line 33:32:   'setUserLockedCRVBalance' is assigned a value but never used                                                  no-unused-vars
+  Line 49:71:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 49:100:  Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 51:6:    React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 81:37:   Expected '===' and instead saw '=='                                                                           eqeqeq
+
+src/app/containers/Pages/Users/DAO/GaugeWeightVote.js
+  Line 57:7:     'GAUGE_WEIGHT' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 138:10:   'stakes' is assigned a value but never used                                                                                                            no-unused-vars
+  Line 138:18:   'setStakes' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 139:10:   'page' is assigned a value but never used                                                                                                              no-unused-vars
+  Line 139:16:   'setPage' is assigned a value but never used                                                                                                           no-unused-vars
+  Line 140:10:   'rowsPerPage' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 140:23:   'setRowsPerPage' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 144:10:   'gaugeVoteTime' is assigned a value but never used                                                                                                     no-unused-vars
+  Line 145:10:   'futureWeight' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 145:24:   'setFutureWeight' is assigned a value but never used                                                                                                   no-unused-vars
+  Line 147:31:   'setSelectedWeightGauge' is assigned a value but never used                                                                                            no-unused-vars
+  Line 148:10:   'filteredVotes' is assigned a value but never used                                                                                                     no-unused-vars
+  Line 148:25:   'setFilteredVotes' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 150:10:   'users' is assigned a value but never used                                                                                                             no-unused-vars
+  Line 200:75:   Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+  Line 200:104:  Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+  Line 270:6:    React Hook useEffect has missing dependencies: 'activePublicKey', 'getVotes', and 'voteUserPower'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 366:9:    'handleChangeAllocation' is assigned a value but never used                                                                                            no-unused-vars
+  Line 372:16:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 377:15:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 440:9:    'getWeight' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 486:12:   'isInvalidWeight' is defined but never used                                                                                                            no-unused-vars
+  Line 567:44:   Expected '===' and instead saw '=='                                                                                                                    eqeqeq
+  Line 1037:45:  Expected '!==' and instead saw '!='                                                                                                                    eqeqeq
+
+src/app/containers/Pages/Users/DAO/Locker.js
+  Line 66:11:   'enqueueSnackbar' is assigned a value but never used                                                       no-unused-vars
+  Line 73:10:   'allowance' is assigned a value but never used                                                             no-unused-vars
+  Line 73:21:   'setAllowance' is assigned a value but never used                                                          no-unused-vars
+  Line 74:32:   'setUserLockedCRVBalance' is assigned a value but never used                                               no-unused-vars
+  Line 76:10:   'votingPower' is assigned a value but never used                                                           no-unused-vars
+  Line 79:10:   'vPower' is assigned a value but never used                                                                no-unused-vars
+  Line 79:18:   'setVPower' is assigned a value but never used                                                             no-unused-vars
+  Line 80:10:   'lastEvent' is assigned a value but never used                                                             no-unused-vars
+  Line 83:10:   'totalSupply' is assigned a value but never used                                                           no-unused-vars
+  Line 85:10:   'openSigning' is assigned a value but never used                                                           no-unused-vars
+  Line 86:9:    'handleCloseSigning' is assigned a value but never used                                                    no-unused-vars
+  Line 89:9:    'handleShowSigning' is assigned a value but never used                                                     no-unused-vars
+  Line 92:9:    'id' is assigned a value but never used                                                                    no-unused-vars
+  Line 93:18:   'loading' is assigned a value but never used                                                               no-unused-vars
+  Line 102:46:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 135:6:   React Hook useEffect has a missing dependency: 'param'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+  Line 138:6:   React Hook useEffect has a missing dependency: 'charts'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 154:42:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 160:65:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 176:11:  'diffAmount' is assigned a value but never used                                                            no-unused-vars
+  Line 189:34:  Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 198:56:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 239:11:  'finalData' is assigned a value but never used                                                             no-unused-vars
+  Line 246:11:  'lastUnlockTimeDiff' is assigned a value but never used                                                    no-unused-vars
+
+src/app/containers/Pages/Users/DAO/Minter.js
+  Line 21:7:    'GAUGES_BY_ADDRESS' is assigned a value but never used                                                        no-unused-vars
+  Line 34:11:   'enqueueSnackbar' is assigned a value but never used                                                          no-unused-vars
+  Line 35:29:   'setTotalClaimableCRV' is assigned a value but never used                                                     no-unused-vars
+  Line 36:26:   'setTotalMintedCRV' is assigned a value but never used                                                        no-unused-vars
+  Line 37:32:   'setUserLockedCRVBalance' is assigned a value but never used                                                  no-unused-vars
+  Line 41:27:   'setGaugesNeedApply' is assigned a value but never used                                                       no-unused-vars
+  Line 42:10:   'nGauges' is assigned a value but never used                                                                  no-unused-vars
+  Line 45:10:   'boosts' is assigned a value but never used                                                                   no-unused-vars
+  Line 46:10:   'totalBalance' is assigned a value but never used                                                             no-unused-vars
+  Line 47:10:   'totalGaugeBalance' is assigned a value but never used                                                        no-unused-vars
+  Line 58:10:   'openSigning' is assigned a value but never used                                                              no-unused-vars
+  Line 59:9:    'handleCloseSigning' is assigned a value but never used                                                       no-unused-vars
+  Line 62:9:    'handleShowSigning' is assigned a value but never used                                                        no-unused-vars
+  Line 92:44:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 92:73:   Expected '!==' and instead saw '!='                                                                           eqeqeq
+  Line 95:6:    React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 109:12:  'showApplyBoostAll' is defined but never used                                                                 no-unused-vars
+  Line 152:39:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 176:37:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 281:73:  Expected '===' and instead saw '=='                                                                           eqeqeq
+  Line 285:75:  Expected '===' and instead saw '=='                                                                           eqeqeq
+
+src/app/containers/Pages/Users/DAO/Vesting.js
+  Line 29:8:    'activePublicKey' is assigned a value but never used                                                                                                                        no-unused-vars
+  Line 48:9:    'handleOpen' is assigned a value but never used                                                                                                                             no-unused-vars
+  Line 50:11:   'enqueueSnackbar' is assigned a value but never used                                                                                                                        no-unused-vars
+  Line 63:7:    React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                    react-hooks/exhaustive-deps
+  Line 116:31:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 122:31:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 138:26:  Expected '===' and instead saw '=='                                                                                                                                         eqeqeq
+  Line 146:6:   React Hook useEffect has missing dependencies: 'endTimeVal', 'initialLockedval', 'startTimeVal', and 'totalClaimedVal'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 146:7:   React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                    react-hooks/exhaustive-deps
+  Line 164:6:   React Hook useEffect has a missing dependency: 'initialLockedval'. Either include it or remove the dependency array                                                         react-hooks/exhaustive-deps
+
+src/app/containers/Pages/Users/DAO/VoteInfo.js
+  Line 63:18:  'loading' is assigned a value but never used                                                                    no-unused-vars
+  Line 122:6:  React Hook useEffect has a missing dependency: 'resolveData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 5 warnings
+No issues found.
