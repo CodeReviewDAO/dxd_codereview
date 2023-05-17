@@ -304,15 +304,15 @@ To test the plugin, the reviewer followed along with the steps in the video (htt
 After the initial hurdle of the incorrect README in the repository, the reviewer was 
 able to recreate the same results and confirm the plugin works as intended.
 
-
-
 ## Overall Impression of usage testing
+
+As this is a final milestone, 
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | PASS 
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
 
 # Unit / Automated Testing
 
@@ -411,5 +411,5 @@ updating the Mastodon README to match what was shown in the video.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | FAIL
 ------------ | -------------
