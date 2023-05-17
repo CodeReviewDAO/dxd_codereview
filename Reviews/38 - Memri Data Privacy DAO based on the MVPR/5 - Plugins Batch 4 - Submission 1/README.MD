@@ -306,18 +306,62 @@ able to recreate the same results and confirm the plugin works as intended.
 
 ## Overall Impression of usage testing
 
-As this is a final milestone, 
+As this is a final milestone, the expectations are that the project should be without errors, user friendly, and properly documented. However, this is not the case for the plugins in this milestone. Though the Google Calendar Importer plugin reviewed alone would pass, as a whole, the plugins FAIL.
+
+### RSS Importer
+
+The instructions on the plugin's README were incorrect and inadequate for installation, requiring the reviewer to research about the exact issue. It seems that the provided Postlight parser included in the plugin is incorrect or flawed in some way. Though the reviewer attempted to install Postlight parser on the reviewer's machine to resolve the issue, while the reviewer was able to reach the Web API, the plugin's core functionality was unable to be tested due to incompatibility issues.
+
+This is a major failure point considering the following plugin requires it.
+
+Consequently, this plugin must FAIL.
+
+To change to a PASS, the README instructions must either be revised to direct the user to a proper Postlight parser install, or the included Postlight parser should be reviewed on a fresh machine by the developer to see what the potential issue may be so that a following reviewer may properly test the plugin.
+
+### Summarization
+
+The installation instructions on the README were adequate to explain the installation process, and the functionality seemed to work. However, there was no sample data to use as it relied upon the RSS Importer, which the reviewer could not utilize due to the failed installation. 
+
+Because of the inability to test, this plugin must FAIL.
+
+To PASS, a pod with properly imported data must be provided to test against so that the core plugin functionality can be reviewed. If not, the RSS Importer plugin must be functional so that there is data to test this plugin's functionality.
+
+### Google Calendar Importer
+
+This plugin worked and installed as intended and was properly documented in the README. Individually, this plugin would PASS.
+
+### Google Photos Importer
+
+This plugin worked as intended after the reviewer figured out what was wrong in the README. However, had the reviewer not been familiar with Google plugins, this would have been an issue difficult to resolve.
+
+The README should be changed to instruct installing the plugin after setting up the Google cloud application and virtual environment as a prerequisite.
+
+Although this plugin would PASS with Notes, as this is a final milestone, this is unacceptable. Thus, this plugin must FAIL.
+
+To PASS, the suggested changes to the README should be made.
+
+### Mastodon Importer
+
+This plugin worked as intended after the reviewer realized the README was incorrect. The README in the repository appears to be copied from the Twitter Plugin, a fact readily apparent upon examining the bits of the README present in the provided video.
+
+With much research and work, the reviewer was able to install and run the proper plugin as described in the video. However, the reviewer cannot confirm it was done as intended by the developer due to the incorrect README.
+
+Because of this, the plugin must FAIL.
+
+To PASS, the README should be changed to reflect the plugin and not simply be copied from prior plugins. The reviewer suggest uploading the README that appears to exist in the video to the repository.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS 
-Documentation provides sufficient installation/execution instructions | PASS
+Project builds without errors | FAIL
+Documentation provides sufficient installation/execution instructions | FAIL
 Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
 
 # Unit / Automated Testing
 
 ## RSS importer
 There is positive path testing and negative path testing with sample dummy data. See [rss-importer_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_unittest_pass.MD)
+
+
 
 ## Summarization plugin
 There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [summarization_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_unittest_pass.MD)
@@ -330,6 +374,8 @@ There is positive path testing with sample dummy data, but no negative path test
 
 ## Mastodon Importer
 There is positive path testing and negative path testing with sample dummy data. See [mastodon_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_unittest_pass.MD)
+
+## Overall Unit / Automated Testing findings
 
 Requirement | Finding
 ------------ | -------------
