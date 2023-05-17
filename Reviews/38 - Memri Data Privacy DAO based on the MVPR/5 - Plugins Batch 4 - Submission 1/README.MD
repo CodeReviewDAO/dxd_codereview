@@ -388,9 +388,9 @@ The reviewer would suggest PASS. However, as the reviewer cannot confirm is the 
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS with Notes
-Unit Tests - At least one negative path test | PASS with Notes
-Unit Tests - Additional path tests | PASS with Notes
+Unit Tests - At least one positive path test | FAIL
+Unit Tests - At least one negative path test | FAIL
+Unit Tests - Additional path tests | FAIL
 
 # Documentation
 
@@ -400,24 +400,25 @@ Overall, for each plugin, the code is clear and readable enough to follow even f
 
 However, there may be insufficient code-level comments to auto-generate documentation as not every function has been commented. To the uninitiated user, or to a user that is overwhelmed, it could be a source of confusion. Reviewer suggests revisiting the code-level comments and adding in descriptions for every function as well as formatting for autogeneration of documentation as a user convenience.
 
+Ordinarily, reviewer would suggest PASS with Notes as a result, but as this is a final milestone, this must FAIL.
+
 Requirement | Finding
 ------------ | -------------
-Code Documented | PASS with Notes
+Code Documented | FAIL
 
 ### Project Documentation
 
-Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process. It is clear, readable, and provides both enough description for how the plugin is to be used, as well as what the plugin is used for. There is clear consistency between each plugin's README as well, providing for uniformity and ease of use as a result of the uniformity.
+Overall, the project level documentation for each plugin is sufficient to inform the utility as well as usage process. It is clear, readable, and provides both enough description for how the plugin is to be used, as well as what the plugin is used for. There is clear consistency between each plugin's README as well, providing for uniformity and ease of use as a result of the uniformity. However, although the structure is good, the substance is not. This is due to the flaws mentioned in the Usage testing and, consequently, this must FAIL. 
 
-The exception is the Mastodon plugin, but as it appears from the video that a corrected README exists, 
-it should be a simple fix.
+To PASS, the changes in the documentation mentioned during the above usage section should be corrected.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS with Notes
+Usage Documented | FAIL
 
 ## Overall Conclusion on Documentation
 
-The reviewer concludes that the project has sufficient and comprehensive general documentation.
+The reviewer concludes that the project does not have sufficient and comprehensive general documentation due to the flaws previously mentioned.
 
 # Open Source Practices
 
@@ -425,44 +426,60 @@ The reviewer concludes that the project has sufficient and comprehensive general
 
 The required license for these plugins is the Memri Privacy Preserving License. This license is present in the repositories of each plugin except the Google Calendar plugin, which is currently the Mozilla Public License Version 2.0. Although the Memri Privacy Preserving License is a Mozilla Public License, this should be fixed to be in compliance with Memri's policies.
 
+The reviewer would suggest PASS with Notes, but as this is a file milestone, this must FAIL. 
+
+To PASS, the license mentioned should be revised to the Memri Privacy Preserving License.
+
 Requirement | Finding
 ------------ | -------------
-Memri Privacy Preserving License | PASS with Notes
+Memri Privacy Preserving License | FAIL
 
 ## Contribution Policies
 
-Issues are enabled for all the plugin repositories, but Pull requests are not.
+Issues are enabled for all the plugin repositories, but Pull requests are not. As this does not meet OSS contribution best practices, this must FAIL. To PASS, enable Pull requests in the repositories.
 
 ## RSS importer
 The repository doesn't contain a CONTRIBUTING or a SECURITY  policy. The repository also lacks relevant tags, hindering its discoverability.  It is recommended to add a CONTRIBUTING policy so that future contributors may know how to contribute to the plugin. It is also recommended to add a SECURITY policy so that users who discover vulnerabilities know the proper procedure to report the issue, as well as if the plugin is being supported.
 
+Although the reviewer would suggest a PASS with Notes, as this is a final milestone, and as this does not meet OSS contribution best practices, this must FAIL. To PASS, the lacking policies must be added.
+
 ## Summarization plugin
 The repository doesn't contain a CONTRIBUTING or a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability. It is recommended to add a CONTRIBUTING policy so that future contributors may know how to contribute to the plugin. It is also recommended to add a SECURITY policy so that users who discover vulnerabilities know the proper procedure to report the issue, as well as if the plugin is being supported.
+
+Although the reviewer would suggest a PASS with Notes, as this is a final milestone, and as this does not meet OSS contribution best practices, this must FAIL. To PASS, the lacking policies must be added.
 
 ## Google Calendar Importer
 The repository doesn't contain a CONTRIBUTING or a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability. It is recommended to add a CONTRIBUTING policy so that future contributors may know how to contribute to the plugin. It is also recommended to add a SECURITY policy so that users who discover vulnerabilities know the proper procedure to report the issue, as well as if the plugin is being supported.
 
+Although the reviewer would suggest a PASS with Notes, as this is a final milestone, and as this does not meet OSS contribution best practices, this must FAIL. To PASS, the lacking policies must be added.
+
 ## Google Photos Importer
 The repository doesn't contain a CONTRIBUTING or a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability. It is recommended to add a CONTRIBUTING policy so that future contributors may know how to contribute to the plugin. It is also recommended to add a SECURITY policy so that users who discover vulnerabilities know the proper procedure to report the issue, as well as if the plugin is being supported.
+
+Although the reviewer would suggest a PASS with Notes, as this is a final milestone, and as this does not meet OSS contribution best practices, this must FAIL. To PASS, the lacking policies must be added.
 
 ## Mastodon Importer
 The repository doesn't contain a CONTRIBUTING or a SECURITY policy. The repository also lacks relevant tags, hindering its discoverability. It is recommended to add a CONTRIBUTING policy so that future contributors may know how to contribute to the plugin. It is also recommended to add a SECURITY policy so that users who discover vulnerabilities know the proper procedure to report the issue, as well as if the plugin is being supported.
 
+Although the reviewer would suggest a PASS with Notes, as this is a final milestone, and as this does not meet OSS contribution best practices, this must FAIL. To PASS, the lacking policies must be added.
+
+## Overall Best Practice findings
+Due to the above findings, the OSS contribution best practices have not been met, and so this must FAIL.
+
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS with Notes
+OSS contribution best practices | FAIL
 
 # Coding Standards
 
 ## General Observations
-The Code is generally well-structured and readable, and documentation is added where context is necessary. 
+The Code is generally well-structured and readable, and documentation is added where context is necessary. However, it does not meet the relevant best practices and some plugin functionality could not be tested by the reviewer.
 
-The README instructions for the plugins are clear enough to follow and when everything is properly setup, it is a simple process to use the plugins. 
+The README instructions for the plugins are clear enough to follow, and when everything is properly setup, it is a simple process to use the plugins. However, as mentioned prior, certain plugins cannot be properly set up, and certain instructions are either incorrect or completely missing.
 
 # Final Conclusion
 
-The project meets the functional requirements and the reviewer was able to confirm that the plugins designed for the current milestone run as expected. The reviewer suggests adding in the missing policies and adding tags to each repository to improve discoverability, as well as more unit testing in general due to the nature of the plugins by testing the checks for malformed data. The reviewer also suggests 
-updating the Mastodon README to match what was shown in the video.
+The project does not meet the functional requirements and the reviewer was not able to confirm that all the plugins designed for the current milestone run as expected. As such, and due to the previously mentioned flaws, the user recommends that the milestone FAIL.
 
 # Recommendation
 
