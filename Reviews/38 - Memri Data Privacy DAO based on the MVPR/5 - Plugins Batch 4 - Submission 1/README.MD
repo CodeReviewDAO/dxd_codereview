@@ -72,11 +72,11 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/rss-impo
 
 `pip install -e .`
 
-See [rss-importer_install_1.MD for install output](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_1.md)
+See [rss-importer_install_1.MD for install output](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_1.md)
 
 The plugin installed successfully. However, when the reviewer tried to install scraping using the instructions provided in the README, the installation failed.
 
-See [rss-importer_install_2.MD for install output](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_2.md)
+See [rss-importer_install_2.MD for install output](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_install_2.md)
 
 The reviewer had to search for an answer, and the instructions on the plugin README were incorrect. 
 After trying and failing to install scraping according to the instructions, reviewer installed 
@@ -109,14 +109,14 @@ However, the reviewer was able to test the Plugin Endpoints using
 `http://localhost:8080/docs`
 
 #### Get Feeds
-![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_get_feeds.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_get_feeds.PNG)
 
 #### Add Feed
-![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_add_feed.PNG)
-![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_added_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_add_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_added_feed.PNG)
 
 #### Deactivate Feed
-![alt text](https://github.com/hoopav/dxd_codereview/blob/52890d4880bdd2a9b2fb5cc033546105c6b9c143/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_deactivate_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_deactivate_feed.PNG)
 
 ## Summarization plugin
 
@@ -125,7 +125,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/summariz
 
 `pip install -e .`
 
-See [summarization_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_install.md)
+See [summarization_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_install.md)
 
 ### Usage
 To test the plugin, the reviewer attempted to follow along and performed the same steps as in the referenced video, but the video restricted access and the reviewer could not confirm the steps.  
@@ -138,7 +138,7 @@ Rather than the suggested command:
 The reviewer ran the plugin with:
 `run_plugin --pod_full_address="https://dev.pod.memri.io" --metadata "metadata.json"`
 
-See [summarization_run.MD for command output](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_run.md)
+See [summarization_run.MD for command output](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_run.md)
 
 Results:
 The reviewer was not able to test the Web API endpoints as instructed using 
@@ -148,7 +148,7 @@ However, the reviewer was able to test the endpoints using
 `http://localhost:8080/docs`
 
 #### Web API 
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/07822d6320c3bebf70ba8b8af20ced608d6f8fce/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_webapi.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_webapi.PNG)
 
 The Web API appears to work as intended. However, due to the failure to perform scraping with the RSS plugin, the reviewer could not properly test the output for summarize as there was no data to summarize.
 
@@ -193,14 +193,14 @@ To test the plugin, the reviewer ran the plugin with:
 
 using the hosted pod to test.
 
-The command output is in [g_calendar_run.md.](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_run.md)
+The command output is in [g_calendar_run.md.](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_run.md)
 
 The Oauth authentication flow worked successfully, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successOauth.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successOauth.PNG)
 
 The reviewer's google calendar was successfully imported, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport1.PNG)
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/085d72683553f513a3f7dbb0bc217d6ce6970b4b/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport2.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport1.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_calendar_successImport2.PNG)
 
 ## Google Photos Importer
 
@@ -244,7 +244,7 @@ To test the plugin, the reviewer ran the plugin with:
 
 using the hosted pod to test.
 
-However, this resulted in errors, as seen in [gphotos_run_output.MD.](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_run_output.MD)
+However, this resulted in errors, as seen in [gphotos_run_output.MD.](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_run_output.MD)
 
 After some analysis, it turned out this was because the README instructions did not instruct to install
 the plugin after setting up the google cloud application and virtual environment.
@@ -256,14 +256,14 @@ To make the plugin work, the reviewer installed the plugin with:
 Following that, the reviewer was able to successfully run the program with:
 `run_plugin --pod_full_address="https://dev.pod.memri.io" --metadata "metadata.json`
 
-The output for the run can be seen in [gphotos_import_run.MD.](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_import_run.MD)
+The output for the run can be seen in [gphotos_import_run.MD.](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/gphotos_import_run.MD)
 
-The Oauth authhorization was successful, as seen below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successOauth.PNG)
+The Oauth authhorization was successful, and the success screen is shown below.
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successOauth.PNG)
 
 In addition, the photo import was successful. The reviewer used an account with a single photo,
 and that photo's entry can be seen reflected in the pod data viewer below.
-![alt_text](https://github.com/hoopav/dxd_codereview/blob/95cd49a8903c27ce471bb991539c0de1c4466ef0/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successImport.PNG)
+![alt_text](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/g_photo_successImport.PNG)
 
 
 
@@ -277,7 +277,7 @@ After downloading the repository (https://gitlab.memri.io/memri/plugins/mastodon
     pre-commit install
 ```
 
-See [mastodon_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/177f88389ccfa19d1d64e5a0e45f8debc66b2d82/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_install.MD)
+See [mastodon_install.MD for install output](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_install.MD)
 
 Following that, the reviewer setup the required Twitter credentials according to the README
 instructions. 
@@ -359,28 +359,28 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 # Unit / Automated Testing
 
 ## RSS importer
-There is positive path testing and negative path testing with sample dummy data. See [rss-importer_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_unittest_pass.MD)
+There is positive path testing and negative path testing with sample dummy data. See [rss-importer_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_unittest_pass.MD)
 
 Normally, this would PASS. However, as the reviewer cannot confirm the usage of the plugin, this must FAIL. To PASS, the plugin's core functionality must be working so that the validity of these provided tests can be confirmed.
 
 ## Summarization plugin
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [summarization_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [summarization_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_unittest_pass.MD)
 
 The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
 
 
 ## Google Calendar Importer
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin.  See [google_calendar_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_calendar_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin.  See [google_calendar_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_calendar_unittest_pass.MD)
 
 The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
 
 ## Google Photos Importer
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [google_photos_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_photos_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [google_photos_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_photos_unittest_pass.MD)
 
 The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
 
 ## Mastodon Importer
-There is positive path testing and negative path testing with sample dummy data. See [mastodon_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_unittest_pass.MD)
+There is positive path testing and negative path testing with sample dummy data. See [mastodon_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/11344464cbb727d2dad77dc1bc6fc2efbb834114/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_unittest_pass.MD)
 
 The reviewer would suggest PASS. However, as the reviewer cannot confirm is the installation or usage was proper due to an incorrect README, this must FAIL. To PASS, the usage of the plugin must PASS first so that the validity of these tests may be confirmed.
 
