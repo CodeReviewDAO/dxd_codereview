@@ -361,19 +361,28 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 ## RSS importer
 There is positive path testing and negative path testing with sample dummy data. See [rss-importer_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss-importer_unittest_pass.MD)
 
-
+Normally, this would PASS. However, as the reviewer cannot confirm the usage of the plugin, this must FAIL. To PASS, the plugin's core functionality must be working so that the validity of these provided tests can be confirmed.
 
 ## Summarization plugin
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [summarization_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [summarization_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/summarization_unittest_pass.MD)
+
+The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
+
 
 ## Google Calendar Importer
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [google_calendar_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_calendar_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin.  See [google_calendar_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_calendar_unittest_pass.MD)
+
+The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
 
 ## Google Photos Importer
-There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. However, as the core functionality works with the data that Reviewer imported in the usability testing, Reviewer suggests PASS with Notes. See [google_photos_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_photos_unittest_pass.MD)
+There is positive path testing with sample dummy data, but no negative path testing with malformed data as might be expected from this sort of plugin. See [google_photos_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/google_photos_unittest_pass.MD)
+
+The reviewer would suggest PASS with Notes. However, as this is a final milestone, and as this is a recurring issue from prior milestones, this plugin must FAIL. To PASS, the negative path testing must be added.
 
 ## Mastodon Importer
 There is positive path testing and negative path testing with sample dummy data. See [mastodon_unittest_pass.MD](https://github.com/hoopav/dxd_codereview/blob/536510883ba0790888c5a19ee3032be7f5122620/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/4%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/mastodon_unittest_pass.MD)
+
+The reviewer would suggest PASS. However, as the reviewer cannot confirm is the installation or usage was proper due to an incorrect README, this must FAIL. To PASS, the usage of the plugin must PASS first so that the validity of these tests may be confirmed.
 
 ## Overall Unit / Automated Testing findings
 
