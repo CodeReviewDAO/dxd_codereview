@@ -116,7 +116,7 @@ However, the reviewer was able to test the Plugin Endpoints using
 ![alt text](https://github.com/hoopav/dxd_codereview/blob/174daeef4abdefa29769e44826667e060181462c/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_added_feed.PNG)
 
 #### Deactivate Feed
-![alt text](Reviews/38 - Memri Data Privacy DAO based on the MVPR/5 - Plugins Batch 4 - Submission 1/assets/rss_deactivate_feed.PNG)
+![alt text](https://github.com/hoopav/dxd_codereview/blob/52890d4880bdd2a9b2fb5cc033546105c6b9c143/Reviews/38%20-%20Memri%20Data%20Privacy%20DAO%20based%20on%20the%20MVPR/5%20-%20Plugins%20Batch%204%20-%20Submission%201/assets/rss_deactivate_feed.PNG)
 
 ## Summarization plugin
 
