@@ -46,9 +46,17 @@ https://github.com/NoumenaDigital/sbp-dxd-m3 | 5b38955
 
 # Install & Usage Testing Procedure and Findings
 
+## Install
+
 In accordance with DEVxDAO's request, there will be no review conducted for the local build and installation procedures in this milestone. This exclusion was explicitly mentioned in the job posting and subsequently communicated with DEVxDAO administrators. Additionally, the reviewer is unable to assess the accuracy and reliability of the installation and execution documentation, despite the presence of detailed instructions in the repository. Therefore, both of these aspects will be designated as Not Applicable in the final assessment table.
 
-Usage testing was done on the servers provided by OP.
+## Usage Testing
+
+The testing and evaluation of the prototype were performed on the servers provided by the OP for this purpose. The reviewer used the dedicated review environment to assess the prototype submitted in this milestone.
+
+### Login, Authoriztation & Account Procedures
+
+The reviewer successfully accessed the test review environment specified in the account information table given in the README by following the instructions. Once logged in, the reviewer proceeded to the account page by clicking on the username located in the top right corner. By following link under Casper Account Details, the reviewer was directed to the Casper account page, where they observed the most recent action of adding a delegate right to the Casper DID Management Smart Contract.
 
 ## Overall Impression of usage testing
 
