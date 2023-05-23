@@ -58,6 +58,8 @@ The testing and evaluation of the prototype were performed on the servers provid
 
 The reviewer successfully accessed the test review environment specified in the account information table given in the README by following the instructions. Once logged in, the reviewer proceeded to the account page by clicking on the username located in the top right corner. By following link under Casper Account Details, the reviewer was directed to the Casper account page, where they observed the most recent action of adding a delegate right to the Casper DID Management Smart Contract.
 
+The reviewer followed the instructions provided to verify the delegate rights from the Casper Smart Contract. The reviewer navigated to the delegates dictionary within the DID contract. Using the account-hash of the specified user (`user1`), the reviewer searched for it within the dictionary and found that the SBP account-hash is listed as a delegate of the `user1` account.
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
