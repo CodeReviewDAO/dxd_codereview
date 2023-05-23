@@ -62,22 +62,43 @@ The reviewer followed the instructions provided to verify the delegate rights fr
 
 ### Invoice Verification
 
-After logging in, the reviewer navigated to the invoices overview page and clicked on "Add New Invoice" to create a new invoice. Then, entered the required necessary data. When prompted to trade the invoice, the reviewer selected "No" to proceed with the invoice verification use case. The reviewer entered the customer details and clicked on "Create Invoice" to finalize the creation of the invoice within the system. The reviewer was then presented with a detailed overview page displaying the specific invoice. By clicking on "BLOCKCHAIN REF," the reviewer was directed to the IPFS representation of the invoice. Accessing the "Invoices" section in the left navigation menu, the reviewer confirmed that the new invoice had been successfully added to the system.
+Following the instructions, the reviewer successfully created an invoice to be offered on the Marketplace by providing the required data. The invoice was then listed on the marketplace, and its details were accessible, including the blockchain reference leading to the invoice's copy on IPFS. Another user could view and purchase the offer, confirming the sale before it appeared in their portfolio. Verifying the invoice's status as the supplier (reviewer) confirmed that it had been marked as paid after being sold to the buyer.
 
 ### Smart Billing
 
-The reviewer navigated to the contract overview page and clicked on "Add New Contract" to initiate the creation of a new contract. Contract details were entered. Supplier data was pre-filled to match the user data. The reviewer filled in the customer details and moved to the next page. Ensuring compliance with the requirement, the reviewer provided the necessary milestones, making sure that the sum of all milestones matched the full value of the contract. Without adding additional milestones, the reviewer selected "No" to place the invoice on the marketplace. Once everything was entered, the reviewer saved the info. The contract was successfully created. The reviewer clicked on "Sign and Submit" to proceed. Upon signing, the contract switched to the "Active" state, allowing milestones to be reached. The reviewer marked the first milestone as completed, which marked the respective milestone as completed with its date. This also caused the creation of an invoice. The created was put on its finalized state. The contract remained open until all respective invoices were paid, indicating the completion of all milestones.
+After following the instructions, the reviewer successfully created a new contract by entering the contract details and milestones. The contract was then signed and submitted to the Smart Billing Platform. As milestones were reached and marked as completed, invoices were generated and finalized. The contract remained open until all invoices were paid, ensuring the completion of all milestones.
+
+### Invoice Tokenization
+
+Following the provided instructions, the reviewer successfully created an invoice and listed it on the marketplace for potential buyers. The offer details were viewable, including the blockchain reference. By signing in as a different user, the reviewer observed the offer from the buyer's perspective and confirmed the purchase. The purchased offer appeared in the buyer's portfolio, while the invoice's status was updated to "paid" for the supplier to verify.
+
+### Screenshots
+
+Here are some screenshots of some operations from these procedures from the frontend of the project:
+
+![](assets/1-dashboard.png)
+![](assets/1-login.png)
+![](assets/2-contracts.png)
+![](assets/3-invoices.png)
+![](assets/4-new-contract.png)
+![](assets/5-new-contract-cont.png)
+![](assets/6-new-contract-milestones.png)
+![](assets/7-invoice-222.png)
+![](assets/8-invoices.png)
+![](assets/9-create-contract.png)
+![](assets/10-contract-progress.png)
+
+It is worth noting that the README of the repository contains highly detailed and comprehensive screenshots, which greatly enhances the documentation.
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project runs without errors. All critical functionality has been implemented and up to date. In adherence to the specific request made by DEVxDAO, no installation tests were carried out as part of this review process. Also, since no installation can be done, Unit Tests were also not conducted for this review.
 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | N/A
 Documentation provides sufficient installation/execution instructions | N/A
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 
 # Unit / Automated Testing
@@ -143,11 +164,15 @@ The source code adheres to good coding practices, with a clear and organized str
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The project's milestones have been clearly defined, accompanied by well-defined acceptance criteria. The documentation provided is comprehensive, offering detailed insights into the project's methods and usage. The coding practices implemented throughout the project are of high quality, ensuring a robust and maintainable codebase.
 
+However, in accordance with DEVxDAO's request, no installation tests were conducted, which consequently led to the omission of unit tests as well. It should be noted that the absence of these tests does not diminish the overall satisfaction with the project's outcomes.
+
+Furthermore, the project exhibits a well-organized structure, facilitating easy navigation and collaboration for developers. The use of industry best practices further enhances the codebase's readability and maintainability. The reviewer also acknowledges the project team's responsiveness and efficiency in promptly addressing any issues encountered during the review process, underscoring their commitment to delivering a high-quality product.
+
+In conclusion, the reviewer expresses great satisfaction with the final result, but emphasizes that the installation and unit tests will be revisited in subsequent milestones of the project. Given these considerations, the reviewer suggests this review to PASS with Notes.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
