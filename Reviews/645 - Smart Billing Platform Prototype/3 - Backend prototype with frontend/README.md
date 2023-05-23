@@ -60,6 +60,10 @@ The reviewer successfully accessed the test review environment specified in the 
 
 The reviewer followed the instructions provided to verify the delegate rights from the Casper Smart Contract. The reviewer navigated to the delegates dictionary within the DID contract. Using the account-hash of the specified user (`user1`), the reviewer searched for it within the dictionary and found that the SBP account-hash is listed as a delegate of the `user1` account.
 
+### Invoice Verification
+
+After logging in, the reviewer navigated to the invoices overview page and clicked on "Add New Invoice" to create a new invoice. Then, entered the required necessary data. When prompted to trade the invoice, the reviewer selected "No" to proceed with the invoice verification use case. The reviewer entered the customer details and clicked on "Create Invoice" to finalize the creation of the invoice within the system. The reviewer was then presented with a detailed overview page displaying the specific invoice. By clicking on "BLOCKCHAIN REF," the reviewer was directed to the IPFS representation of the invoice. Accessing the "Invoices" section in the left navigation menu, the reviewer confirmed that the new invoice had been successfully added to the system.
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
