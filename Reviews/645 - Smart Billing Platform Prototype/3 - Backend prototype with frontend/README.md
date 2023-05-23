@@ -46,9 +46,9 @@ https://github.com/NoumenaDigital/sbp-dxd-m3 | 5b38955
 
 # Install & Usage Testing Procedure and Findings
 
-The reviewer used an Ubuntu 22.04.2 LTS GitPod instance and a local Pardus 21.5 GNU/Linux local instance for local installations. Usage testing was done on the servers provided by OP.
+In accordance with DEVxDAO's request, there will be no review conducted for the local build and installation procedures in this milestone. This exclusion was explicitly mentioned in the job posting and subsequently communicated with DEVxDAO administrators. Additionally, the reviewer is unable to assess the accuracy and reliability of the installation and execution documentation, despite the presence of detailed instructions in the repository. Therefore, both of these aspects will be designated as Not Applicable in the final assessment table.
 
-There were some out of date warnings at the beginning for building the frontend, which can be easily fixed and does not affect the build process.
+Usage testing was done on the servers provided by OP.
 
 ## Overall Impression of usage testing
 
@@ -57,22 +57,20 @@ below. In the case of `PASS With Notes`, make sure that the notes for improvemen
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
+Project builds without errors | N/A
+Documentation provides sufficient installation/execution instructions | N/A
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
 
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+As per the request from DEVxDAO, installation of the project was not carried out during the review process. Consequently, the reviewer faced limitations in conducting unit tests for the assessment. Since unit tests typically require a properly installed project environment, the absence of installation prevented the reviewer from executing and evaluating the unit tests effectively. Therefore, due to the specific instruction from DEVxDAO, the reviewer was unable to perform the required unit tests as part of the project evaluation.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | N/A
+Unit Tests - At least one negative path test | N/A
+Unit Tests - Additional path tests | N/A
 
 
 # Documentation
