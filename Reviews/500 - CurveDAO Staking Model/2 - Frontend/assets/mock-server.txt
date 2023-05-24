@@ -1,0 +1,759 @@
+npm run start-mock-server
+
+> curve-backend@0.0.0 start-mock-server
+> ts-node tests/mock-server/index
+
+🚀 Server ready at http://localhost:3000/graphQL
+(node:10640) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Connected to test mongo database
+6048000
+604800
+args-name {
+  id: '01',
+  type_id: '22',
+  timestamp: '6048000',
+  name: 'type-name',
+  block: '123123',
+  eventObjectId: '635fb3b4a89eacba3cd149a5'
+}
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points type weight: 0
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points total: 0
+604800
+604800
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points total: 0
+{
+  id: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  address: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  type: 'gaugeType',
+  created: '604800',
+  createdAtBlock: '123123',
+  createdAtTransaction: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  weights: [],
+  weightVotes: [],
+  _id: new ObjectId("6454193c97e82d9a006f723b")
+}
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points total: 0
+604800
+604800
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points total: 0
+gauge:  {
+  _id: new ObjectId("6454193c97e82d9a006f723b"),
+  id: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  address: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  type: 'gaugeType',
+  created: '604800',
+  createdAtBlock: '123123',
+  createdAtTransaction: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  weights: [],
+  weightVotes: [],
+  __v: 0
+}
+604800
+604800
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points weight: [object Object]
+gaugeWeight:  {
+  id: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c-1209600.0000000000',
+  gauge: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  time: '1209600.0000000000',
+  weight: '0E-19',
+  block: '123123',
+  _id: new ObjectId("6454194397e82d9a006f725d")
+}
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+... Points total: 0
+gaugeTotalWeight:  {
+  id: '1209600.0000000000',
+  time: '1209600.0000000000',
+  weight: '0.000000000000000000000000000000000000',
+  block: '123123',
+  _id: new ObjectId("6454194597e82d9a006f725e")
+}
+gaugeWeightVote:  {
+  id: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c-user-604800',
+  gauge: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  user: 'user',
+  time: '604800',
+  weight: '1000',
+  block: '123123',
+  _id: new ObjectId("6454194597e82d9a006f7261")
+}
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+account:  user
+t:  1683233095885
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  user
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+epoch:  0
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 0
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+t:  1683233098196
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... totalSupply : 0
+gaugeVote:  {
+  id: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c-user-604800',
+  gauge: '399c4a68e5d814177880ac8533b813740dc86861ae6991769e4e5b237406468c',
+  user: 'user',
+  time: '604800',
+  weight: '1000',
+  block: '123123',
+  gaugeWeights: [ new ObjectId("6454194397e82d9a006f725d") ],
+  total_weight: '0.000000000000000000000000000000000000',
+  veCRV: '0',
+  totalveCRV: '0',
+  _id: new ObjectId("6454194a97e82d9a006f7263")
+}
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+account:  provider
+t:  1683233100670
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  provider
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+epoch:  0
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 0
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+t:  1683233102958
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... totalSupply : 0
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+account:  provider
+t:  1683233105326
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  provider
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+epoch:  0
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 0
+blockNumber:  123123
+Checking for RPC response Type...
+stateRootHash:  7e9a8368a020765b90b94fe523eaaa6e88be8b99b3e2bd80188ffe8b36fc8005
+t:  1683233107633
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... totalSupply : 0
+admin :  {
+  _id: new ObjectId("6454192c97e82d9a006f721f"),
+  username: 'admin',
+  password: '$2b$12$6t9Kl4htQ/IwVl0TxxWWg.MbP23palBJUo/cNfKU1YedqyWv12hEm',
+  __v: 0
+}
+symbol:  BTC
+symbolforconverion worth in USD:  28870.872834909253
+symbol:  ETH
+symboltoconverttoworthinUSD worth in USD:  1876.075930833447
+API call response:  {
+  id: 1,
+  symbol: 'BTC',
+  name: 'Bitcoin',
+  amount: 10,
+  last_updated: '2023-05-04T20:44:00.000Z',
+  quote: {
+    ETH: {
+      price: 153.85628694396246,
+      last_updated: '2023-05-04T20:44:00.000Z'
+    }
+  }
+}
+... Contract Hash: fef47aa16ca9dcf7e3fd091f00dfd9a9269204ad8d6f71b3f9f254ad0bf83e2e
+... Balance Of: 1303024990000476499
+... Contract Hash: fef47aa16ca9dcf7e3fd091f00dfd9a9269204ad8d6f71b3f9f254ad0bf83e2e
+... Allowance: 0
+Allowance:  0
+0945b6e95c864ffe5237bd248d9417f1a6d763b83df40a47ea8874822c3fd41f =... balanceof : 0
+0945b6e95c864ffe5237bd248d9417f1a6d763b83df40a47ea8874822c3fd41f =... vestedOf : 0
+0945b6e95c864ffe5237bd248d9417f1a6d763b83df40a47ea8874822c3fd41f =... lockedOf : 0
+... gaugeRelativeWeight: 0
+... gaugeWeight: 0
+... guageTotalWeight: 50000000000000000000000
+... voteUserSlopes: [object Object]
+... Points weight: [object Object]
+account:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+t:  1683233143409
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+epoch:  13
+bias hash e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 5147805917184
+slope hash 56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 42
+ts hash d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1679737192448
+blk hash 18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37327493
+lastPoint:  { bias: 5147805917184, slope: 42, ts: 1679737192448, blk: 37327493 }
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 5000975976822
+t:  1683233148225
+epoch:  18
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  931be6645ee4160cff2039e5cd6b032dfbd51601e468ff0143dd17cdc786ad33
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  03dff0c490e8f2d92e5c4ffc9cc13422ff9e904d0f689cd3db0ca0d945454c86
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  0883e67ea549b946fbc6c83c05c4df58ed58778919332d138aaf91656fa0cb57
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1a8972e381aabaf26457d90939c4a009ccefd2687e8061f1d2f19158a16d0ddd
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1680341992448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1680946792448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1681551592448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1682156392448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1682761192448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... totalSupply : 0
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 0
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+bias hash 48ab3b49ce7136a7e3fb30e32962e6879672e742377b38c0c016fdc2974b7572
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  48ab3b49ce7136a7e3fb30e32962e6879672e742377b38c0c016fdc2974b7572
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 2242136973312
+slope hash 298e3058579ab5c066855335f4c25f0f98a31ac9aa335cda50d96be27e370f86
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  298e3058579ab5c066855335f4c25f0f98a31ac9aa335cda50d96be27e370f86
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 18
+ts hash 20f58164f29bc470d4240040f12b8c43eecf8cefac3106a6075c60d8c744f9f9
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  20f58164f29bc470d4240040f12b8c43eecf8cefac3106a6075c60d8c744f9f9
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1677740834816
+blk hash 2e97b9d415c6a4baa44045e2d594a0fae8f9db4aac7180deda29b1e5354bf5e9
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  2e97b9d415c6a4baa44045e2d594a0fae8f9db4aac7180deda29b1e5354bf5e9
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37283129
+bias hash c20ba4ead8b5b5c9cc6542a79fb76ed853b528645ac72edf6b52aaa3244457d8
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  c20ba4ead8b5b5c9cc6542a79fb76ed853b528645ac72edf6b52aaa3244457d8
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 4217324052480
+slope hash 6d7feb721a856144f44061c139d7c7e0844387c4487a020d43b4917888f6ea44
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  6d7feb721a856144f44061c139d7c7e0844387c4487a020d43b4917888f6ea44
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 34
+ts hash 845e29435e8c4f974fa00baef8f46e140a524f1cc9bb4b1223a06ebb99d69513
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  845e29435e8c4f974fa00baef8f46e140a524f1cc9bb4b1223a06ebb99d69513
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1678265057280
+blk hash a79630063ccf096c7f83746a38ffaf63221930a2efe49cfbee0ee8931b122624
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  a79630063ccf096c7f83746a38ffaf63221930a2efe49cfbee0ee8931b122624
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37294779
+bias hash 02b430ac50823cce41460d8e70d08260e78ecc1137974d5916b34501250d8f0a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  02b430ac50823cce41460d8e70d08260e78ecc1137974d5916b34501250d8f0a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 5150716698624
+slope hash 15bc6b8730cf0a6a7bffa066555a8fd5308f5ee4bd21963274fdfceb97897128
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  15bc6b8730cf0a6a7bffa066555a8fd5308f5ee4bd21963274fdfceb97897128
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 42
+ts hash 671373a44f2a30ec91501f68f7fe6d357e28108587608cad439d83621b59a875
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  671373a44f2a30ec91501f68f7fe6d357e28108587608cad439d83621b59a875
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1679667888128
+blk hash 36b9b30fffcf33c8c30c7920232a46140f23a67a4b0c512bea719d7a1e3d4f8a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  36b9b30fffcf33c8c30c7920232a46140f23a67a4b0c512bea719d7a1e3d4f8a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37325953
+bias hash e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 5147805917184
+slope hash 56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 42
+ts hash d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1679737192448
+blk hash 18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37327493
+bias hash e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 5147805917184
+slope hash 56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 42
+ts hash d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1679737192448
+blk hash 18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37327493
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d79c35b242f5d591edbc2ec1c7dd92d806a8d3583d72d0c2a213e3e640db780a
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  bff70755779cf8082a14dfc5b69a3a2aa971fe918e4e572f77e245bee01e7fd7
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  222225a8dde499aeb901d908a41e4980d7446c34f15bd3a2420b565a5dfc3d22
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  35b1b9b22aeb68aa5760c729bf300e6a05f984029ecba8d2adab456837a6113b
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d79c35b242f5d591edbc2ec1c7dd92d806a8d3583d72d0c2a213e3e640db780a
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  bff70755779cf8082a14dfc5b69a3a2aa971fe918e4e572f77e245bee01e7fd7
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  222225a8dde499aeb901d908a41e4980d7446c34f15bd3a2420b565a5dfc3d22
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  35b1b9b22aeb68aa5760c729bf300e6a05f984029ecba8d2adab456837a6113b
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 5000974077414
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+seedUref:  undefined
+bias hash a8c6f9ff56cdc5602f9f5188c39056968616c12cbbb796f9ae710087b4dd33c0
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  a8c6f9ff56cdc5602f9f5188c39056968616c12cbbb796f9ae710087b4dd33c0
+seedUref:  undefined
+slope hash af1f95556353d2b7ebed665e596e8c13345276ef1560df26bdea5bc8be90da1f
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  af1f95556353d2b7ebed665e596e8c13345276ef1560df26bdea5bc8be90da1f
+seedUref:  undefined
+ts hash 542350af0b030bd5ea724e162724c7951d827ab052d3032ad49dc4a28d2941c7
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  542350af0b030bd5ea724e162724c7951d827ab052d3032ad49dc4a28d2941c7
+seedUref:  undefined
+blk hash 56add53e559088780bfa8c6b00496434ed1dc618908c780be438a735cfa488f9
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  56add53e559088780bfa8c6b00496434ed1dc618908c780be438a735cfa488f9
+seedUref:  undefined
+0945b6e95c864ffe5237bd248d9417f1a6d763b83df40a47ea8874822c3fd41f =... lastUserSlopeAt : [object Object]
+lockedEndAmount hash e4fe21a92a4191f61e5c7846e82cbfb8c6a84cb0b4a2906b8a4a1db33251844b
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  e4fe21a92a4191f61e5c7846e82cbfb8c6a84cb0b4a2906b8a4a1db33251844b
+seedUref:  uref-024cc15b2d738804065715eb73da34c2851f9cfc8f6fbf7ac3d2141a2938aa4d-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+lockedEndAmount value 5313000000000
+lockedEndEnd hash 5c0cdc1cd611a599a775d1f2e50f4643ee804aca315cfb7aaba987b8a325b39d
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  5c0cdc1cd611a599a775d1f2e50f4643ee804aca315cfb7aaba987b8a325b39d
+seedUref:  uref-024cc15b2d738804065715eb73da34c2851f9cfc8f6fbf7ac3d2141a2938aa4d-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+lockedEndEnd value 1802304000000
+locked End successfully
+locked End:  1802304000000
+account:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+t:  1683233197458
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  24a56544c522eca7fba93fb7a6cef83e086706fd87b2f344f5c3dad3603d11f1
+seedUref:  uref-7b208fba6351e05dad1693f046829d36e6d3a96d82790ff147596f4a123260de-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+epoch:  13
+bias hash e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  e7e415dc7bbb432ac2a6385e8555b107d3935eada5cd8a98e9a8c1eb1613a03e
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+bias value 5147805917184
+slope hash 56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  56de2d753980f1c9b552512049ff56b60828caa51e57aa52f2fca0af73338e6a
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+slope value 42
+ts hash d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  d0742b33b7ddee97cc432cb254012c6bebc0ca585137860c7caeb7175fcc7717
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+ts value 1679737192448
+blk hash 18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  18ca484923fb97967d5fba90c124be7bc71305801efcc45d35f97e83b7a19b55
+seedUref:  uref-ddffc0540c6e942dea56fc6bcf16a5a6ff41da87408ca3b064f91f81795f5a23-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+blk value 37327493
+lastPoint:  { bias: 5147805917184, slope: 42, ts: 1679737192448, blk: 37327493 }
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... balanceof : 5000973706764
+t:  1683233203182
+epoch:  18
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  931be6645ee4160cff2039e5cd6b032dfbd51601e468ff0143dd17cdc786ad33
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  03dff0c490e8f2d92e5c4ffc9cc13422ff9e904d0f689cd3db0ca0d945454c86
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { inner: [Array], linksTo: 'Tuple2', tag: 19 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  0883e67ea549b946fbc6c83c05c4df58ed58778919332d138aaf91656fa0cb57
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1a8972e381aabaf26457d90939c4a009ccefd2687e8061f1d2f19158a16d0ddd
+seedUref:  uref-24813bc93d85d5d4a8b944ef5d36a406d792c56fd60ef8b06a51857ae739a08e-007
+storedValue:  e {
+  CLValue: t {
+    isCLValue: true,
+    data: SomeImpl { some: true, none: false, val: [t] },
+    innerType: t { linksTo: 'U256', tag: 7 }
+  }
+}
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1680341992448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1680946792448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1681551592448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1682156392448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+nodeAddress:  http://44.208.234.65:7777/rpc
+dictionaryItemKey:  1682761192448
+seedUref:  uref-88e06307eb67e0f942e9a8527fe602305dc24b08a00aa1ea4b5e2f29dda2d6ee-007
+3e770d19491199e030d23d58c52e6f3d541157a05962cf407e54ccf545ee9851 =... totalSupply : 0
+<Buffer 00 61 73 6d 01 00 00 00 01 57 0d 60 02 7f 7f 01 7f 60 09 7f 7f 7f 7f 7f 7f 7f 7f 7f 01 7f 60 03 7f 7f 7f 01 7f 60 01 7f 00 60 03 7f 7f 7f 00 60 04 7f ... 51568 more bytes>
