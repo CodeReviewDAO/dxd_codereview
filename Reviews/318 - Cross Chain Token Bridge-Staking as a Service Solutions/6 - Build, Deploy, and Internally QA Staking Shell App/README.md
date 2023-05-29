@@ -18,9 +18,7 @@ Reviewer | Hatice Kaya
 4. Early Withdrawal
 5. Redistribution of Early Withdrawal
 6. Maturity
-
 - Integrate bridge with one of the Casper’s compatible wallets
-
 - Share Staking shell app with internal team for QA and incorporate QA feedback
 
 **Acceptance criteria:**
@@ -70,11 +68,12 @@ When attempting to do usage testing on the OP's deployment at the given URL (htt
 After communication with the OP, a new url (https://casper-staking.ferrumnetwork.io/b9e3b671e577a7d7a4c53aa7010449b47fb8a811c76582dcc41f65a67a16e23d) was provided for usage testing. The app was loaded and visible on the new url. When the Connect Wallet button was clicked, nothing happened on the user interface, and an error was seen on the developer console of the browser.
 
 ![Frontend usage review Connect Wallet error](assets/usage_review_error_on_connect_wallet.png)
+
 ## Overall Impression of usage testing
 
 A number of errors were encountered during the build, installation, and usage of the project. It was not possible to do a complete usage testing due to the encountered errors mentioned above.
 The documentation does not provide sufficient installation/execution instructions, and containes errors.
-Due to the issues mentioned above, and because this is the final milestone of the project, the submission should FAIL on all of the criteria in this section.
+Due to the issues mentioned above, and because this is the late milestone of the project, the submission should FAIL on all of the criteria in this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -94,7 +93,7 @@ The OP needs to improve test coverage by adding more tests to the smart contract
 
 The OP also needs to add tests to the frontend repository.
 
-Due to the issues mentioned above, and because this is the final milestone of the project, the submission should FAIL on all criteria of this section.
+Due to the issues mentioned above, and because this is the late milestone of the project, the submission should FAIL on all criteria of this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -108,7 +107,7 @@ Unit Tests - Additional path tests | FAIL
 
 The code-level documentation of the project is very limited, lacking standard inline comments which allow auto-generation of the documentation throughout the code-base. The OP needs to improve the code-level documentation significantly by adding standard code comments.
 
-Due to the issues mentioned above, and because this is the final milestone of the project, this submission should fail on the criterion of this section.
+Due to the issues mentioned above, and because this is the late milestone of the project, this submission should fail on the criterion of this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -116,9 +115,9 @@ Code Documented | FAIL
 
 ### Project Documentation
 
-The project documentation is not at an acceptable level for this final milestone. OP needs to improve the project level documentation significantly, and fix the errors in the existing documentation. Although there is a good attempt of documentation on the frontend repository, especially the given examples on the smart contract repository are not working.
+The project documentation is not at an acceptable level for this late milestone. OP needs to improve the project level documentation significantly, and fix the errors in the existing documentation. Although there is a good attempt of documentation on the frontend repository, especially the given examples on the smart contract repository are not working.
 
-Due to the issues mentioned above, and because this is the final milestone of the project, this submission should fail on all of the criteria of this section.
+Due to the issues mentioned above, and because this is the late milestone of the project, this submission should fail on all of the criteria of this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -143,7 +142,7 @@ OSI-approved open source software license | PASS
 
 Pull requests and Issues are enabled on the repositories, but the project lacks CONTRIBUTING.md and SECURITY.md.
 
-Due to the issues mentioned above, and because this is the final milestone of the project, this submission should fail in this section.
+Due to the issues mentioned above, and because this is the late milestone of the project, this submission should fail in this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -159,7 +158,7 @@ The project also has a number of security vulnerabilities dicovered by the depen
 
 ![Frontend security alerts](assets/frontend_security_alerts.png)
 
-Due to the security issues on the repository, and because this is the final milestone of the project, the submission should fail in this section. OP needs to fix the security vulnerabilities for this submission to pass the next review.
+Due to the security issues on the repository, and because this is the late milestone of the project, the submission should fail in this section. OP needs to fix the security vulnerabilities for this submission to pass the next review.
 
 # Final Conclusion
 
