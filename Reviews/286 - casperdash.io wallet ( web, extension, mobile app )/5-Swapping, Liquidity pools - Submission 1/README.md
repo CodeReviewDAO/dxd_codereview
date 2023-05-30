@@ -33,9 +33,30 @@ https://github.com/CasperDash/casperdash-client | c08ac9e
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+The reviewer used a Fedora 35 local installation for this review. The installation instructions for the wallet are available in the README. Following the instructions, the reviewer created a new `.env` file pointing to the servers provided by the OP and built the extension from source. After that, the built extension was imported to Chromium (Version 105.0.5195.125).
+
+Installation and build logs ara below:
+
+[Installation Log](assets/install.md)
+
+[Build Log](assets/build-extension.md)
+
+After installing the plugin, I swapped Casper to ethereum. The process was successful. Screenshots of this process and deploys are below:
+
+![](assets/wallet-dashboard.png)
+
+![](assets/swap.png)
+
+![](assets/swap-confirmation.png)
+
+![](assets/deploy-hash.png)
+
+![](assets/account.png)
+
+![](assets/account-deploy.png)
+
+![](assets/block.png)
+
 
 ## Overall Impression of usage testing
 
