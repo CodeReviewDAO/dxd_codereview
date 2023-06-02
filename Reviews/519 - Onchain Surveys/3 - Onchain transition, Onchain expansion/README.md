@@ -126,15 +126,15 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Unit tests are present for both the server and the client and they cover the critical functionality of the acceptance criteria for the milestones.
+
+- [Unit tests logs](assets/unit-tests.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 
 # Documentation
@@ -188,10 +188,9 @@ The source code demonstrates a high level of craftsmanship and thoughtfulness. I
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The app successfully meets the acceptance criteria for defining participant requirements and administrator parameters. Unit tests cover critical functionality. Both code and general documentation provide sufficient information. The project follows open-source practices and adheres to coding standards. Overall, the project demonstrates a high level of craftsmanship, meeting the requirements. Because of these reasons, reviewer suggests a resolution of PASS for these milestones.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
