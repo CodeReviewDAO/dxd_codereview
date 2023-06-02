@@ -95,16 +95,27 @@ Here are some screenshots from the app:
 #### Survey signing successful
 ![](assets/survey-signing-successful.png)
 
-Deploy of the signed checkout is at: https://testnet.cspr.live/deploy/be05d9bcc3d977d1b09d60bd652d7bb7b863eab1265034ca9df95d9de060f0c4
+Sample deploy of a signed checkout is at: https://testnet.cspr.live/deploy/3fae5c671837ab3132d01fc4e1be2267c016cdb04569576395f657bb88d7ed9a
 
 ### App Administrators
 
-Here are some screenshots from the app:
+Here are some screenshots from the app to show the changing of fees:
+
+#### With default fees (Storage: 13, Service: 8)
+![](assets/fee-default.png)
+
+#### After changing fees (Storage: 5, Service: 10)
+![](assets/fee-changed.png)
 
 ## Overall Impression of usage testing
 
-The app successfully meets the acceptance criteria related to defining requirements for participants and setting limitations and incentives. Survey creators are able to specify criteria such as minimum balance, minimum stake, account age, and validator status for participants. Additionally, they have the ability to set a maximum number of participants and define incentives to encourage participation. These features enable survey creators to tailor their surveys and ensure the desired participant characteristics and engagement levels are met.
+The app successfully meets the acceptance criteria related to defining requirements for participants and setting limitations and incentives. Survey creators are able to specify criteria such as minimum balance, minimum stake, account age, and validator status for participants.
 
+App administrators have the capability to define parameters such as the fee amount for survey creation and the commission rate for incentivized surveys.
+
+Optional criterias have not been implemented yet and were not tested as they are not in the scope of this review.
+
+Overall, the project meets its acceptance criteria defined in the grant.
 
 Requirement | Finding
 ------------ | -------------
