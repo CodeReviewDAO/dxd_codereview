@@ -61,6 +61,151 @@ ndpc_contract (main)$ casper-client put-deploy -n http://89.58.52.245:7777 \
 
 Deploy the contract: https://testnet.cspr.live/deploy/397b1cb7941f75e34a898e89caceac3fc6f51b4b1b9d7e353fc9ec948c44416e
 
+## Usage Testing
+
+## 1. Process of Testing a Contract
+Three accounts are needed to test the contract, Account names can be `producer`, `publisher` and `customer` respectively.
+These accounts should be created on `Casper Wallet` and faucet them on TestNet.
+
+Unlock the casper wallet
+
+![](assets/images/1-login-wallet.png)
+
+Select the `settings` section and then click on the `Create Account` button there
+
+![](assets/images/2-add-account.png)
+
+Give a name to your account and click on the `Create Account`
+
+![](assets/images/3-add-producer-account.png)
+
+You should do this for all the 3 mentioned accounts. Then you'll need to faucet your accounts on testnet, Select your account on your wallet and hit `Manage Account`
+
+![](assets/images/4-producer-created.png)
+
+Click `View on CSPR.live`
+
+![](assets/images/5-wallet.png)
+
+When you are on casper testnet, click on the `Connect` button on your account
+
+![](assets/images/6-wallet-and-csprlive.png)
+
+Click the `faucet` button
+
+![](assets/images/7-faucet.png)
+
+Fill in the captcha, and Click on the `Request tokens` button, It would take up to 2 minutes to give you 2000 CSPRs. Do as so for other 2 accounts, So at the end you would have 3 accounts with 2000 CSPRs in each of them.
+
+![](assets/images/8-faucet-request.png)
+
+___
+### 2. Create an Account on droplinked & Record Your Product
+
+Move to https://ngsf.flatlay.io/, Enter your username and hit the `Sign up` button
+
+![](assets/images/9-sign-up-1.png)
+
+Fill the requested information and click on the `Sign up` button
+
+![](assets/images/10-sign-up-2.png)
+
+You have to verify the link sent to your email
+
+![](assets/images/11-signup-successfull.png)
+
+Click on the `Login` button and fill in your data
+
+![](assets/images/12-login.png)
+
+Fill in requested data
+
+![](assets/images/13-store-info.png)
+
+** In the address part, make sure you enter a valid address 
+
+![](assets/images/14-address-info.png)
+
+Click `Save` button, And fill the store design part as you desire, Then in the payment options page, choose the IMS type to droplinked
+
+![](assets/images/15-ims-type.png)
+
+
+Activate the casper payment and paste the publickey of the `producer` here and hit Next.
+
+![](assets/images/16-add-casper.png)
+
+
+Fill in the contact page as you desire and hit the Publish Store button
+You would be transferred to the Products page of droplinked.
+
+![](assets/images/17-add-social-media-links.png)
+
+
+Hit the `New Product` Button to create a new product. Fill in the needed information as I do 
+
+![](assets/images/18-add-new-product.png)
+
+![](assets/images/19-product-info-1.png)
+
+![](assets/images/20-product-info-2.png)
+
+![](assets/images/21-product-info-3.png)
+
+![](assets/images/22-product-info-4.png)
+
+
+Add variants to your prodcut and hit save on each of them
+
+![](assets/images/23-product-info-5.png)
+
+
+Click on the `Publish` button to create your product.
+
+![](assets/images/24-publish-product.png)
+
+
+From the above page, select `edit` product (on the right hand of the product)
+
+![](assets/images/25-select-edit.png)
+
+Open up your wallet, move to `Producer` account, and hit `Connect` button to connect to `droplinked`, And then in the product variants section, click on the green icon (Record product)
+
+![](assets/images/26-click-green-button.png)
+
+
+Choose the BlockchainNetwork to casper, and enter a comisson (between 1 and 100) and hit the `Drop` button 
+
+![](assets/images/27-BlockchainNetwork.png)
+
+
+Your wallet would be opened and ask you to sign a text, click on `Sign`
+
+![](assets/images/28-connect-wallet.png)
+
+![](assets/images/29-connect-wallet.png)
+
+![](assets/images/30-connect-wallet.png)
+
+![](assets/images/31-connect-wallet.png)
+
+A popup window would open to you which shows you the deploy hash and the link to testnet, click on it, you would go to the deployment page on testnet, and after a minute or two, the deploy would execute succssfully
+
+![](assets/images/32-connect-wallet.png)
+
+
+![](assets/images/33-record-successfully.png)
+
+![](assets/images/34-pending.png)
+
+The deploy hash that was shown in this example was:
+https://testnet.cspr.live/deploy/c1e3f2157506a4d90378f36fde8e534c83bf191c49a284769c13e4503832dcf6
+
+![](assets/images/35-deploy.png)
+
+The reviewer was able to deploy the contract successfully by following instructions that the OP provided. Moreover, The reviewer can say that usage testing has been clearly defined. The OP has done an amazing job. Users of this project can easily deploy a contract if they follow the instructions step by step.
+
+The reviewer strongly recommended that users of this project may refer to [Usage Testing in Details](https://github.com/FLATLAY/droplinked_casper/blob/main/usageTesting.md) which has done by the OP.
 
 Documentation provides clear and sufficient instructions for build and installation.
 
@@ -133,7 +278,7 @@ Code is generally well-structured and readable. The project has been committed t
 
 The project builds successfully and passes all tests. The documentation is sufficient. Source code is well written and reviewer observed that standard comments were applied properly on the critical functions. This enables code-level documentation. However, the project documentation needs to be improved.
 
-In the reviewers opinion, this submission should pass with notes.
+In the reviewer opinion, this submission should pass with notes.
 
 # Recommendation
 
