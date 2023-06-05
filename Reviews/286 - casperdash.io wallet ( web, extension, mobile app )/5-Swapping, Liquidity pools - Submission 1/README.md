@@ -28,20 +28,20 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/CasperDash/casperdash-client | c08ac9e
+https://github.com/CasperDash/casperdash-client | 5bbd520
 
 
 # Install & Usage Testing Procedure and Findings
 
 The reviewer used a Fedora 35 local installation for this review. The installation instructions for the wallet are available in the README. Following the instructions, the reviewer created a new `.env` file pointing to the servers provided by the OP and built the extension from source. After that, the built extension was imported to Chromium (Version 105.0.5195.125).
 
-Installation and build logs ara below:
+Installation and build logs are below:
 
 [Installation Log](assets/install.md)
 
 [Build Log](assets/build-extension.md)
 
-After installing the plugin, I swapped Casper to ethereum. The process was successful. Screenshots of this process and deploys are below:
+After installing the plugin, the reviewer swapped CSPR to dETH. The process was successful. Screenshots of this process and deploys are below:
 
 ![](assets/wallet-dashboard.png)
 
@@ -57,29 +57,45 @@ After installing the plugin, I swapped Casper to ethereum. The process was succe
 
 ![](assets/block.png)
 
+The option to add liquidity was initially missing. Although it was committed, it had not been pushed to the repository. After addressing this issue with the OP, they pushed the necessary code, and the functionality became visible on the interface. It was then implemented and tested using the wallet interface. Below is a screenshot of the liquidity interface:
+
+![](assets/liquidity.png)
+
+Deploy of the operation:
+
+https://cspr.live/deploy/c174bbb268313aed8c75a0c6688cec7ab35ef4b346ca6121395496f20124c100
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The reviewer successfully built the app using the instructions provided in the README. The documentation provides adequate installation and execution instructions. The application ran as expected. The swap functionality functions as intended. The interface for adding liquidity is operational. All required functionality is present and functioning properly.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS 
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+During the initial runs of the unit tests, the reviewer encountered numerous errors. After investigating the issue and examining the error messages, the reviewer identified the problem with the defined locales and the hard-coded server selections. Subsequently, the reviewer discussed the matter with the OP, who promptly updated the code to make it independent of locales and relocated the server parameters to configuration files instead of hard-coding them.
+
+Error received during initial build: 
+
+![](assets/error_test.png)
+
+The solution sent to developer. Solution implemented by developer.
+
+* https://github.com/CasperDash/casperdash-client/commit/5bbd52023f82351b12237ca55b702cdf7f45b521 
+
+Subsequently, the project was retested and successfully compiled without any errors. The installation instructions are clear, and the provided unit tests effectively validate the functionality of the new library, meeting the acceptance criteria.
+
+[Unit Test logs](assets/yarn_test.md)
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | PASS
+Unit Tests - At least one negative path test | PASS
+Unit Tests - Additional path tests | PASS
 
 # Documentation
 
@@ -93,18 +109,15 @@ Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
+The README consists of comprehensive instructions for the installation, execution, and testing of the application. These instructions provide a systematic and detailed guide on how to set up the application environment.
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Both the code documentation and general documentation are satisfactory, providing the essential information and guidance needed to understand and make effective use of the project. The documentation adequately covers all the necessary aspects, ensuring a comprehensive understanding of the codebase and giving users the insights they need to utilize the project's features effectively.
 
 # Open Source Practices
 
@@ -132,10 +145,9 @@ The source code adheres to good coding standards, displaying a highly organized 
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The application successfully fulfills the acceptance criteria set for requirement definition. Critical functionality is adequately covered by unit tests. Both the code and general documentation offer ample information, meeting the required standards. The project follows established open-source practices and adheres to coding standards, showcasing a high level of skill and craftsmanship. Consequently, the project satisfactorily meets the specified requirements. Based on these reasons, the reviewer recommends a PASS resolution for these milestone.
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
