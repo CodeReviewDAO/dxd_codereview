@@ -27,7 +27,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/FLATLAY/droplinked_casper | 00d6a0f
+https://github.com/FLATLAY/droplinked_casper | 01b7ef8
 
 
 # Install & Usage Testing Procedure and Findings
