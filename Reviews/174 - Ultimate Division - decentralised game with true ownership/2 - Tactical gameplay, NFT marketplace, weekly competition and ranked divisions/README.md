@@ -112,7 +112,8 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Both the code documentation and the project documentation for the project is sufficiently prepared for this milestone.
+
 
 # Open Source Practices
 
