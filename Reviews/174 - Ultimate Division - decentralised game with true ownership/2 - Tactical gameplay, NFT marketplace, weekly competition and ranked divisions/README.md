@@ -137,7 +137,7 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Source code is well written, easily readable, and conforms to good coding practices overall.
+Source code is well written, easily readable, and conforms to good coding practices overall. The project also uses `golangci-lint` as its linter, which adds additional value to its syntax and structure.
 
 
 # Final Conclusion
