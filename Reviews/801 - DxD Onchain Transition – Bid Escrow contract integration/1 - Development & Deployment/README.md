@@ -48,7 +48,7 @@ https://github.com/odradev/odra | aa6351c
 
 Following the instructions in the [README](https://github.com/furkanahmetk/crdao-frontend) of the project, reviewer was able to successfully install the project along with it's dependencies, and run for this milestone on Ubuntu 20.04. İnstructions can be improved but sufficient enough, it can be better to have more explanation about them in the README of the project. Also, adding a requirement.txt and using it to install prerequisities might be useful too. Project builds without errors but with warnings.
 
-[Build Logs](assets/dockerbuildfront.md)
+[Build Logs](assets/dotnetbuild.md)
 
 ## Overall Impression of usage testing
 
