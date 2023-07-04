@@ -1,0 +1,86 @@
+
+============================= test session starts ==============================
+platform linux -- Python 3.9.17, pytest-7.4.0, pluggy-1.2.0
+rootdir: /builds/memri/plugins/summarization-plugin
+configfile: pyproject.toml
+plugins: anyio-3.7.0
+
+Downloading (…)okenizer_config.json:   0%|          | 0.00/300 [00:00<?, ?B/s]
+Downloading (…)okenizer_config.json: 100%|██████████| 300/300 [00:00<00:00, 44.7kB/s]
+
+Downloading (…)lve/main/config.json:   0%|          | 0.00/1.63k [00:00<?, ?B/s]
+Downloading (…)lve/main/config.json: 100%|██████████| 1.63k/1.63k [00:00<00:00, 279kB/s]
+
+Downloading (…)olve/main/vocab.json:   0%|          | 0.00/798k [00:00<?, ?B/s]
+Downloading (…)olve/main/vocab.json: 100%|██████████| 798k/798k [00:00<00:00, 116MB/s]
+
+Downloading (…)olve/main/merges.txt:   0%|          | 0.00/456k [00:00<?, ?B/s]
+Downloading (…)olve/main/merges.txt: 100%|██████████| 456k/456k [00:00<00:00, 1.90MB/s]
+Downloading (…)olve/main/merges.txt: 100%|██████████| 456k/456k [00:00<00:00, 1.89MB/s]
+
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+Downloading (…)cial_tokens_map.json: 100%|██████████| 239/239 [00:00<00:00, 113kB/s]
+
+Downloading pytorch_model.bin:   0%|          | 0.00/1.63G [00:00<?, ?B/s]
+Downloading pytorch_model.bin:   2%|▏         | 31.5M/1.63G [00:00<00:05, 297MB/s]
+Downloading pytorch_model.bin:   4%|▍         | 62.9M/1.63G [00:00<00:05, 307MB/s]
+Downloading pytorch_model.bin:   6%|▋         | 105M/1.63G [00:00<00:04, 317MB/s] 
+Downloading pytorch_model.bin:   9%|▉         | 147M/1.63G [00:00<00:04, 329MB/s]
+Downloading pytorch_model.bin:  12%|█▏        | 189M/1.63G [00:00<00:04, 329MB/s]
+Downloading pytorch_model.bin:  14%|█▍        | 231M/1.63G [00:00<00:04, 322MB/s]
+Downloading pytorch_model.bin:  17%|█▋        | 273M/1.63G [00:00<00:04, 325MB/s]
+Downloading pytorch_model.bin:  19%|█▉        | 315M/1.63G [00:00<00:04, 322MB/s]
+Downloading pytorch_model.bin:  22%|██▏       | 357M/1.63G [00:01<00:03, 322MB/s]
+Downloading pytorch_model.bin:  25%|██▍       | 398M/1.63G [00:01<00:03, 322MB/s]
+Downloading pytorch_model.bin:  27%|██▋       | 440M/1.63G [00:01<00:03, 319MB/s]
+Downloading pytorch_model.bin:  30%|██▉       | 482M/1.63G [00:01<00:03, 323MB/s]
+Downloading pytorch_model.bin:  32%|███▏      | 524M/1.63G [00:01<00:03, 333MB/s]
+Downloading pytorch_model.bin:  35%|███▍      | 566M/1.63G [00:01<00:03, 341MB/s]
+Downloading pytorch_model.bin:  37%|███▋      | 608M/1.63G [00:01<00:02, 349MB/s]
+Downloading pytorch_model.bin:  40%|███▉      | 650M/1.63G [00:01<00:02, 353MB/s]
+Downloading pytorch_model.bin:  43%|████▎     | 692M/1.63G [00:02<00:02, 353MB/s]
+Downloading pytorch_model.bin:  45%|████▌     | 734M/1.63G [00:02<00:02, 329MB/s]
+Downloading pytorch_model.bin:  48%|████▊     | 776M/1.63G [00:02<00:02, 315MB/s]
+Downloading pytorch_model.bin:  50%|█████     | 818M/1.63G [00:02<00:02, 306MB/s]
+Downloading pytorch_model.bin:  52%|█████▏    | 849M/1.63G [00:02<00:02, 304MB/s]
+Downloading pytorch_model.bin:  54%|█████▍    | 881M/1.63G [00:02<00:02, 302MB/s]
+Downloading pytorch_model.bin:  56%|█████▌    | 912M/1.63G [00:02<00:02, 299MB/s]
+Downloading pytorch_model.bin:  58%|█████▊    | 944M/1.63G [00:02<00:02, 297MB/s]
+Downloading pytorch_model.bin:  60%|█████▉    | 975M/1.63G [00:03<00:02, 295MB/s]
+Downloading pytorch_model.bin:  63%|██████▎   | 1.02G/1.63G [00:03<00:01, 305MB/s]
+Downloading pytorch_model.bin:  65%|██████▍   | 1.05G/1.63G [00:03<00:01, 297MB/s]
+Downloading pytorch_model.bin:  66%|██████▋   | 1.08G/1.63G [00:03<00:01, 295MB/s]
+Downloading pytorch_model.bin:  69%|██████▉   | 1.12G/1.63G [00:03<00:01, 305MB/s]
+Downloading pytorch_model.bin:  72%|███████▏  | 1.16G/1.63G [00:03<00:01, 310MB/s]
+Downloading pytorch_model.bin:  74%|███████▍  | 1.21G/1.63G [00:03<00:01, 318MB/s]
+Downloading pytorch_model.bin:  77%|███████▋  | 1.25G/1.63G [00:03<00:01, 324MB/s]
+Downloading pytorch_model.bin:  79%|███████▉  | 1.29G/1.63G [00:04<00:01, 329MB/s]
+Downloading pytorch_model.bin:  82%|████████▏ | 1.33G/1.63G [00:04<00:00, 331MB/s]
+Downloading pytorch_model.bin:  85%|████████▍ | 1.37G/1.63G [00:04<00:00, 326MB/s]
+Downloading pytorch_model.bin:  87%|████████▋ | 1.42G/1.63G [00:04<00:00, 322MB/s]
+Downloading pytorch_model.bin:  90%|████████▉ | 1.46G/1.63G [00:04<00:00, 323MB/s]
+Downloading pytorch_model.bin:  92%|█████████▏| 1.50G/1.63G [00:04<00:00, 326MB/s]
+Downloading pytorch_model.bin:  95%|█████████▍| 1.54G/1.63G [00:04<00:00, 312MB/s]
+Downloading pytorch_model.bin:  97%|█████████▋| 1.57G/1.63G [00:04<00:00, 300MB/s]
+Downloading pytorch_model.bin:  99%|█████████▊| 1.60G/1.63G [00:05<00:00, 293MB/s]
+Downloading pytorch_model.bin: 100%|██████████| 1.63G/1.63G [00:05<00:00, 315MB/s]
+2023-06-28 12:49:30.509 | INFO     | summarization_plugin.app:<module>:15 - Model loaded.
+collected 2 items
+
+tests/test_plugin.py 2023-06-28 12:49:30.678 | INFO     | summarization_plugin.app:log_requests:30 - testclient:50000 - "POST /
+2023-06-28 12:49:30.679 | INFO     | summarization_plugin.app:summarize_endpoint:40 - Summarizing 3 documents...
+2023-06-28 12:50:15.240 | DEBUG    | summarization_plugin.model:summarize:88 - Summarized 3 documents in 44.56105399131775 seconds
+2023-06-28 12:50:15.248 | INFO     | summarization_plugin.app:log_requests:30 - testclient:50000 - "POST /
+2023-06-28 12:50:15.249 | INFO     | summarization_plugin.app:summarize_endpoint:40 - Summarizing 3 documents...
+2023-06-28 12:51:44.626 | DEBUG    | summarization_plugin.model:summarize:88 - Summarized 3 documents in 89.37661528587341 seconds
+.2023-06-28 12:51:44.639 | INFO     | summarization_plugin.app:log_requests:30 - testclient:50000 - "POST /
+2023-06-28 12:51:44.640 | INFO     | summarization_plugin.app:summarize_endpoint:40 - Summarizing 3 documents...
+2023-06-28 12:51:44.651 | WARNING  | summarization_plugin.model:summarize:77 - All documents are shorter than min_length (20).
+.
+
+======================== 2 passed in 151.51s (0:02:31) =========================
+section_end:1687956705:step_script
+[0Ksection_start:1687956705:cleanup_file_variables
+[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1687956706:cleanup_file_variables
+[0K[32;1mJob succeeded[0;m
