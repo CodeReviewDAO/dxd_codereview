@@ -21,8 +21,6 @@ Docs update for Stanchion for all successfully completed v3.x packages.
 
 **Additional notes regarding submission from OP:**
 
-Milestone 3 is dependent upon the tester having installed the code in two repositories:
-
 Riak KV 3.0.9 docs at https://www.tiot.jp/riak-docs/riak/kv/3.0.9/
 Riak CS 3.0.0 and Stanchion 3.0.0 docs at https://www.tiot.jp/riak-docs/riak/cs/3.0.0/
 
@@ -38,11 +36,11 @@ https://www.tiot.jp/riak-docs | N/A
 
 # Install & Usage Testing Procedure and Findings
 
-Milestone 3 is only a documentation milestone ,so this part is N/A.
+Milestone 5 is only a documentation milestone ,so this part is N/A.
 
 ## Overall Impression of usage testing
 
-Milestone 3 is only a documentation milestone ,so this part is partially N/A. Provided documentation has good installation and execution instructions. Project documentation meets the acceptance criteria as it covers the mentioned version(3.x)
+Milestone 5 is only a documentation milestone ,so this part is partially N/A. Provided documentation has good installation and execution instructions. Project documentation meets the acceptance criteria as it covers the mentioned version(3.x)
 
 Requirement | Finding
 ------------ | -------------
@@ -52,7 +50,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-Milestone 3 is only a documentation milestone ,so this part is N/A.
+Milestone 5 is only a documentation milestone ,so this part is N/A.
 
 Requirement | Finding
 ------------ | -------------
@@ -64,7 +62,7 @@ Unit Tests - Additional path tests | N/A
 
 ### Code Documentation
 
-Milestone 3 is only a documentation milestone ,so this part is N/A.
+Milestone 5 is only a documentation milestone ,so this part is N/A.
 
 Requirement | Finding
 ------------ | -------------
