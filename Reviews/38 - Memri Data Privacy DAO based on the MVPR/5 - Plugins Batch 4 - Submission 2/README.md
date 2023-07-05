@@ -75,7 +75,7 @@ Following the instructions in the README file of the repositories, the reviewer 
 
 Please note that this is second review of the 5. milestone. In this review, issues that failed in the previous review are reviewed.
 
-### Build
+## Build
 
 [Google Calendar Build Logs](assets/build-google-calendar.txt)
 
@@ -88,6 +88,62 @@ Please note that this is second review of the 5. milestone. In this review, issu
 [Summarization Build Logs](assets/build-summarization.txt)
 
 
+## Usage
+
+### Google Calendar
+
+Following the instructions in the README file of the repository, the reviewer was able to successfully use the project.
+
+Authentication worked successfully, as seen below.
+![](assets/calendar_1.jpg)
+
+The Google Calendar was successfully imported.
+![](assets/calendar_2.jpg)
+![](assets/calendar_3.jpg)
+
+### Mastodon
+
+Following the instructions in the README file of the repository, the reviewer was able to successfully use the project.
+
+Flow worked successfully and imported tweets as seen below.
+![](assets/mastodon_1.jpg)
+
+### Google Photos
+Following the instructions in the README file of the repository, the reviewer was able to successfully use the project.
+
+Authentication worked successfully, as seen below.
+![](assets/photos_1.jpg)
+
+The photo was successfully imported via Google Photos.
+![](assets/photos_2.jpg)
+![](assets/photos_3.jpg)
+
+### RSS Importer
+
+Following the instructions in the README file of the repository, the reviewer was able to successfully use the project.
+
+Get Feed
+
+![](assets/rss_1.jpg)
+
+Get Entry
+![](assets/rss_2.jpg)
+
+All Entries
+![](assets/rss_4.jpg)
+
+Import Feed
+![](assets/rss_5.jpg)
+
+### Summarization
+
+Following the instructions in the README file of the repository, the reviewer was able to successfully use the project.
+
+![](assets/summarization_1.jpg)
+
+Below is a text that is requested to be summarized and its settings and summary text result.
+
+![](assets/summarization_2.jpg)
 
 ## Overall Impression of usage testing
 
@@ -101,7 +157,10 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-The reviewer was able to successfully run the unit tests. The bash scripts provided in the README files were able to run the unit tests. The project has sufficient amount of unit tests which covers all critical classes and methods.
+The reviewer was able to successfully run the unit tests. The bash scripts provided in the README files were able to run the unit tests. The project has 29 unit tests which covers all critical classes and methods. 
+
+
+These tests cover negative and positive paths. For example, "setup feed", "deactivate feed" and "summarize feed" tests are among the 11 tests in the RSS Importer repository; among the 6 tests in the Google Calender repository, there are tests such as "New Event" and "Corrupted Event". This also applies to other repositories. Details on the tests can be found below.
 
 [Google Calendar Test Logs](assets/test-google-calendar.txt)
 
