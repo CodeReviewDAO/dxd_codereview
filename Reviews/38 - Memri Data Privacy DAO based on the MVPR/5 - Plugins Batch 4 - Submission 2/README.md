@@ -192,6 +192,8 @@ Code Documented | PASS
 
 The Readme file has sufficient basic usage instructions for the implemented methods. The reviewer was able to build, run and use the project using project documentation.
 
+However, before the last milestone, the project documentation should be expanded and users should be informed about the usage status in detail.
+
 
 Requirement | Finding
 ------------ | -------------
