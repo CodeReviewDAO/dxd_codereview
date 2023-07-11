@@ -50,7 +50,7 @@ The reviewer used a local installation of [Fedora Linux 35 (Workstation Edition)
 
 ## Overall Impression of usage testing
 
-The OP said that they have deployed erc721 to the network in their personal project but the reviewer observed that there was no instructions on how to create ERC721 and ERC1155 contract and deploy them to the Casper Network in documentation. Hence, the reviewer was unable to test ERC721 and ERC1155 on the Casper Network. The Op should provide users a clear documentation use ERC721 and ERC1155. Since 
+The OP said that they have deployed erc721 to the network in their personal project but the reviewer observed that there was no instructions on how to create ERC721 and ERC1155 contract and deploy them to the Casper Network in documentation. Hence, the reviewer was unable to test ERC721 and ERC1155 on the Casper Network. The Op should provide users a clear documentation of ERC721 and ERC1155 usage.  
 
 Requirement | Finding
 ------------ | -------------
