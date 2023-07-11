@@ -1,0 +1,92 @@
+
+============================= test session starts ==============================
+platform linux -- Python 3.9.17, pytest-7.4.0, pluggy-1.2.0
+rootdir: /builds/memri/plugins/mastodon
+configfile: setup.cfg
+plugins: timeout-2.1.0, anyio-3.7.0
+collected 4 items
+
+tests/test_plugin.py 2023-06-27 11:20:37.202 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+2023-06-27 11:20:37.380 | INFO     | mastodon_importer.plugin:sync:127 - Starting import of tweets
+2023-06-27 11:20:37.419 | INFO     | mastodon_importer.plugin:sync:131 - Importing me
+2023-06-27 11:20:37.421 | INFO     | mastodon_importer.plugin:sync:134 - Importing friends
+2023-06-27 11:20:37.426 | INFO     | mastodon_importer.plugin:sync:137 - Waiting for futures to complete
+2023-06-27 11:20:37.426 | INFO     | mastodon_importer.plugin:wait_for_futures:142 - Waiting for futures to complete and join consumer thread
+2023-06-27 11:20:37.453 | INFO     | mastodon_importer.plugin:sync:139 - Futures are completed
+2023-06-27 11:20:37.512 | INFO     | pymemri.pod.client:bulk_action:289 - BULK: Writing 110/110 items/edges
+2023-06-27 11:20:37.536 | INFO     | pymemri.pod.client:bulk_action:301 - Completed Bulk action, written 110 items/edges
+2023-06-27 11:20:37.538 | INFO     | mastodon_importer.consumer:add_count:42 - defaultdict(<class 'int'>, {'Tweet': 20, 'Account': 4, 'Photo': 4, 'File': 4})
+2023-06-27 11:20:37.545 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+.2023-06-27 11:20:37.647 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+2023-06-27 11:20:37.820 | INFO     | mastodon_importer.plugin:sync:127 - Starting import of tweets
+2023-06-27 11:20:37.859 | INFO     | mastodon_importer.plugin:sync:131 - Importing me
+2023-06-27 11:20:37.862 | INFO     | mastodon_importer.plugin:sync:134 - Importing friends
+2023-06-27 11:20:37.868 | INFO     | mastodon_importer.plugin:sync:137 - Waiting for futures to complete
+2023-06-27 11:20:37.868 | INFO     | mastodon_importer.plugin:wait_for_futures:142 - Waiting for futures to complete and join consumer thread
+2023-06-27 11:20:37.877 | INFO     | mastodon_importer.plugin:sync:139 - Futures are completed
+2023-06-27 11:20:37.953 | INFO     | pymemri.pod.client:bulk_action:289 - BULK: Writing 110/110 items/edges
+2023-06-27 11:20:37.976 | INFO     | pymemri.pod.client:bulk_action:301 - Completed Bulk action, written 110 items/edges
+2023-06-27 11:20:37.978 | INFO     | mastodon_importer.consumer:add_count:42 - defaultdict(<class 'int'>, {'Tweet': 20, 'Account': 4, 'Photo': 4, 'File': 4})
+2023-06-27 11:20:38.033 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+2023-06-27 11:20:38.296 | INFO     | mastodon_importer.plugin:sync:127 - Starting import of tweets
+2023-06-27 11:20:38.326 | INFO     | mastodon_importer.plugin:sync:131 - Importing me
+2023-06-27 11:20:38.328 | INFO     | mastodon_importer.plugin:sync:134 - Importing friends
+2023-06-27 11:20:38.330 | INFO     | mastodon_importer.plugin:sync:137 - Waiting for futures to complete
+2023-06-27 11:20:38.331 | INFO     | mastodon_importer.plugin:wait_for_futures:142 - Waiting for futures to complete and join consumer thread
+2023-06-27 11:20:38.331 | INFO     | mastodon_importer.plugin:sync:139 - Futures are completed
+2023-06-27 11:20:38.335 | INFO     | pymemri.pod.client:bulk_action:289 - BULK: Writing 6/6 items/edges
+2023-06-27 11:20:38.340 | INFO     | pymemri.pod.client:bulk_action:301 - Completed Bulk action, written 6 items/edges
+2023-06-27 11:20:38.340 | INFO     | mastodon_importer.consumer:add_count:42 - defaultdict(<class 'int'>, {})
+.
+tests/test_twitter_users.py 2023-06-27 11:20:38.390 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+2023-06-27 11:20:38.660 | INFO     | pymemri.pod.client:bulk_action:289 - BULK: Writing 30/30 items/edges
+2023-06-27 11:20:38.672 | INFO     | pymemri.pod.client:bulk_action:301 - Completed Bulk action, written 30 items/edges
+2023-06-27 11:20:38.673 | INFO     | mastodon_importer.consumer:add_count:42 - defaultdict(<class 'int'>, {'Account': 4, 'Photo': 4, 'File': 4})
+2023-06-27 11:20:38.684 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+.2023-06-27 11:20:38.748 | WARNING  | pymemri.pod.client:create_account:81 - 404 Endpoint not found
+2023-06-27 11:20:38.923 | INFO     | mastodon_importer.plugin:sync:127 - Starting import of tweets
+2023-06-27 11:20:38.923 | INFO     | mastodon_importer.plugin:sync:131 - Importing me
+2023-06-27 11:20:38.924 | ERROR    | mastodon_importer.plugin:import_me:157 - Could not get me
+2023-06-27 11:20:38.924 | INFO     | mastodon_importer.plugin:sync:134 - Importing friends
+2023-06-27 11:20:38.924 | ERROR    | mastodon_importer.plugin:import_friends:316 - Could not get me, aborting import_friends
+2023-06-27 11:20:38.924 | INFO     | mastodon_importer.plugin:sync:137 - Waiting for futures to complete
+2023-06-27 11:20:38.924 | INFO     | mastodon_importer.plugin:wait_for_futures:142 - Waiting for futures to complete and join consumer thread
+2023-06-27 11:20:38.925 | INFO     | mastodon_importer.plugin:sync:139 - Futures are completed
+.
+
+=============================== warnings summary ===============================
+tests/test_plugin.py::test_benchmark
+tests/test_plugin.py::test_duplicates
+tests/test_twitter_users.py::test_following
+tests/test_twitter_users.py::test_failing_responses
+  /usr/local/lib/python3.9/site-packages/pymemri/plugin/pluginbase.py:30: RuntimeWarning: Plugin needs a pluginRun as kwarg, running without will only work in development.
+    warnings.warn(
+
+tests/test_plugin.py: 65 warnings
+tests/test_twitter_users.py: 11 warnings
+  /builds/memri/plugins/mastodon/mastodon_importer/pod_update_queue.py:89: DeprecationWarning: `copy_on_model_validation` should be a string: 'deep', 'shallow' or 'none'
+    pod_update = PodUpdate(
+
+tests/test_plugin.py: 788 warnings
+tests/test_twitter_users.py: 38 warnings
+  /builds/memri/plugins/mastodon/mastodon_importer/pod_update_queue.py:28: DeprecationWarning: `copy_on_model_validation` should be a string: 'deep', 'shallow' or 'none'
+    return PodUpdate(
+
+tests/test_twitter_users.py::test_failing_responses
+  /usr/local/lib/python3.9/site-packages/_pytest/python.py:198: PytestReturnNotNoneWarning: Expected None, but tests/test_twitter_users.py::test_failing_responses returned <mastodon_importer.plugin.MastodonPlugin object at 0x7f4c60049f70>, which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 4 passed, 907 warnings in 1.85s ========================
+section_end:1687864839:step_script
+[0Ksection_start:1687864839:archive_cache
+[0K[0K[36;1mSaving cache for successful job[0;m[0;m
+[32;1mCreating cache default-protected...[0;m
+.cache/pip: found 1517 matching artifact files and directories[0;m 
+No URL provided, cache will not be uploaded to shared cache server. Cache will be stored only locally.[0;m 
+[32;1mCreated cache[0;m
+section_end:1687864842:archive_cache
+[0Ksection_start:1687864842:cleanup_file_variables
+[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1687864843:cleanup_file_variables
+[0K[32;1mJob succeeded[0;m
