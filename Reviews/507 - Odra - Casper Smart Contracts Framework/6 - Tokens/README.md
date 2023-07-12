@@ -86,8 +86,8 @@ The reviewer observed that ERC721 and ERC1155 modules were not documented. There
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | FAIL
-Example Documented | FAIL
+Usage Documented | PASS with Notes
+Example Documented | PASS with Notes
 
 ## Overall Conclusion on Documentation
 
