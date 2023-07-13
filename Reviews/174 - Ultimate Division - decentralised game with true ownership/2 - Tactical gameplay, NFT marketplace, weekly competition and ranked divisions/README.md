@@ -72,6 +72,12 @@ Also, at the beginning of the review, some errors were encountered during the de
 
 There were some redundant modules in the app that were no longer in use, and the same problem extended to some dependencies as well. These extra packages had security issues due to their outdated package dependencies, as they were not updated along with the rest of the application. After informing the OP about these concerns, they took prompt action to address the situation. They removed the unused modules from their application and updated the rest of the dependency packages used by the main modules, ensuring they passed security audits. It's worth noting that there is one string-related issue in a library file provided by Unity, which has been omitted from this part of the review.
 
+## Installation
+
+The reviewer initiated the installation process by following the instructions provided in the README. After running the individual setup files for each module, empty config files were created at `~/.local/share/ultimatedivision/config.json`, `~/.local/share/ultimatedivision/currencysigner/config.json` and `~/.local/share/ultimatedivision/nftsigner/config.json`, respectively. Then the reviewer used the values from the provided example config files from `configsexamples` folder of the repository to continue the setup process. Following the completion of the installation, the application became accessible at localhost:8088 on the server.
+
+- [Installation Logs](assets/installation-logs.md)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
