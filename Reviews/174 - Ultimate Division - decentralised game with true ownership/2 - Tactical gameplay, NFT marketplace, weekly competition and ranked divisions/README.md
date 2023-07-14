@@ -89,6 +89,12 @@ After starting the application, the reviewer did the user testing. Following use
     #### Login
     ![](assets/login.png)
 
+2. The gameplay recognizes NFTs and their metadata as in-game stats. The minting operation is done after creating randomly generated player cards. After the creation, the reviewer used the option to mint the specific cards and after some time, respective NFT were minted on chain. These operations can be checked from the deployments. Here are some example deploys for verification:
+
+    - https://testnet.cspr.live/deploy/d1959ffda946aee578d4d5debd770883c885088da53f42e213b76745a5ec99ca
+    - https://testnet.cspr.live/deploy/0848404c44efc935aedbc9b9e73f789ea13c77ab5b4c0d45e14196be0ffe2206
+    - https://testnet.cspr.live/deploy/97a3b95b9e98984752852fae7b96dac5ff957a1e62366e5e2be3c7ead56c475e
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
