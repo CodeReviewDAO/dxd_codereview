@@ -98,6 +98,8 @@ After starting the application, the reviewer did the user testing. Following use
     #### Player stats and mint option
     ![](assets/player-stats-and-mint.png)
 
+3. Match results impact player standing in the division. For the purpose of this review, the OP decreased the league durations and matches needed to be completed for a league to end. After doing three matches, a winner was selected and promoted to the upper league.
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
