@@ -95,6 +95,9 @@ After starting the application, the reviewer did the user testing. Following use
     - https://testnet.cspr.live/deploy/0848404c44efc935aedbc9b9e73f789ea13c77ab5b4c0d45e14196be0ffe2206
     - https://testnet.cspr.live/deploy/97a3b95b9e98984752852fae7b96dac5ff957a1e62366e5e2be3c7ead56c475e
 
+    #### Player stats and mint option
+    ![](assets/player-stats-and-mint.png)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
