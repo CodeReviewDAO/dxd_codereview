@@ -78,6 +78,17 @@ The reviewer initiated the installation process by following the instructions pr
 
 - [Installation Logs](assets/installation-logs.md)
 
+## Usage Testing
+
+After starting the application, the reviewer did the user testing. Following user testing is told step by step as they appear in the acceptance criteria.
+
+1. The reviewer used Casper Signer to login to the application.
+
+    #### Dashboard
+    ![](assets/dashboard.png)
+    #### Login
+    ![](assets/login.png)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
