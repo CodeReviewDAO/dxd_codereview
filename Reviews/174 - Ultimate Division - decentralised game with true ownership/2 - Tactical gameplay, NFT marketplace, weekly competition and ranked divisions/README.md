@@ -100,6 +100,8 @@ After starting the application, the reviewer did the user testing. Following use
 
 3. Match results impact player standing in the division. For the purpose of this review, the OP decreased the league durations and matches needed to be completed for a league to end. After doing three matches, a winner was selected and promoted to the upper league.
 
+4. Weekly competition concludes every Sunday and distributes $UDT rewards via the cryptography signer service. Users were able to get their rewards either at the end of each match, or at the end of the league all together.
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
