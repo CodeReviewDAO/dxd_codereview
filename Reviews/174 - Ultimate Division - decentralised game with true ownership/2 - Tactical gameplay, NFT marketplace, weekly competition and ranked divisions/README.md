@@ -120,6 +120,8 @@ After starting the application, the reviewer did the user testing. Following use
     #### Bidding screen for buyers
     ![](assets/bidding.png)
 
+6. The reviewer created a team by going to the field page and assigning player cards to their starting lineup. For this, at least 11 player cards were needed. After assigning all positions, the team was ready to play a game against another user. At this stage, the reviewer clicked Play to look for a match. Another test user was used to accept the match and the gameplay page loaded. Gameplay page consists of a visible landscape soccer field and players, each laying on a point on the grid system. The game is played in a turn-by-turn basis. Each player clicks and makes a move for one of their players for each round. After playing for a while, the game ends and the score is noted. Then, users are rewarded according to the result of the match.
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
