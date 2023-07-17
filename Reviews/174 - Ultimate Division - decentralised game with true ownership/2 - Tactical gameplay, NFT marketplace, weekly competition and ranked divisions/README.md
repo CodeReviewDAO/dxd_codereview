@@ -102,6 +102,24 @@ After starting the application, the reviewer did the user testing. Following use
 
 4. Weekly competition concludes every Sunday and distributes $UDT rewards via the cryptography signer service. Users were able to get their rewards either at the end of each match, or at the end of the league all together.
 
+5. NFTs can be traded on the Ultimate Division marketplace. For the purpose of this review, the duration of the marketplace sells were lowered. Also, the option to sell immediately were used in some places. A seller can list a player card from the marketplace screen and then a buyer can put bids on it. If the buyer is willing to get the card immediately, they can just buy it from the sell price defined by the seller. Some sample deploys are below:
+
+    #### Listing 1: Card is bought with bidding offer
+    - `create_listing`: https://testnet.cspr.live/deploy/9912226a16a7b9172c4edfbd7138aaa6e43c7f011e591e4ca68e5de800654e5d
+    - `make_offer`: https://testnet.cspr.live/deploy/27e99a0d39f216b1c378082be4cd8f489b48f3312c8698da8f23e4bfb5c82ea7
+    - `buy_listing`: https://testnet.cspr.live/deploy/1baa4d1e6ffb62a9ac6cbd15e5989e3759b8021136b39715c417c581b244dfa9
+
+    #### Listing 2: Card is directly bought
+    - `create_listing`: https://testnet.cspr.live/deploy/1d2cb7100e997f8c47590384517ec14bc960fac715ee201752fdc7bb3bfdfa4c
+    - `final_listing`: https://testnet.cspr.live/deploy/f2ace5aabd932588c5d414f7ad7357d6a92aa760aec2645252e6231e9ab92261
+
+    #### Selling a card
+    ![](assets/sell-card.png)
+    #### Marketplace with auctioned cards
+    ![](assets/marketplace.png)
+    #### Bidding screen for buyers
+    ![](assets/bidding.png)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
