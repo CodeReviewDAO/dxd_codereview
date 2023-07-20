@@ -137,6 +137,8 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 Unit tests for the project are present, covering critical functionality as defined in the acceptance criteria. However, the reviewer suggests improving the existing unit tests for other parts of the project to ensure a more comprehensive assessment.
 
+- [Unit Tests Logs](assets/unit-tests-logs.md)
+
 Requirement | Finding
 ------------ | -------------
 Unit Tests - At least one positive path test | PASS
