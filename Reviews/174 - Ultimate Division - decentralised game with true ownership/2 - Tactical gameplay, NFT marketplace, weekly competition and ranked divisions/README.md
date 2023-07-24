@@ -66,9 +66,7 @@ https://github.com/BoostyLabs/ultimatedivision | d1a1333
 
 The reviewer used a cloud GitPod instance running Ubuntu 22.04.2 LTS, a local Pardus 21.3 GNU/Linux machine, a debug server provided by OP at https://develop.ultimatedivision.com/ and a remote machine also provided by OP.
 
-At the start of the review, the README file was not up to date, and the installation instructions were not very clear due to the document's structure and the assumption that the user already knew some parts of the installation process and dependencies. After discussing these issues with OP, they revised the structure of the steps, added additional information, and clarified the ambiguous parts. In its final state, the README is well prepared.
-
-Also, at the beginning of the review, some errors were encountered during the deployment while attempting to mint new player cards for a user. These errors resulted in the failure of the minting operation on the chain. By investigating the errors, the OP identified that the issue was related to gas fee adjustments. After implementing the necessary changes to address this problem, the issue was resolved, and the minting process functioned as intended without any further difficulties.
+At the beginning of the review, some errors were encountered during the deployment while attempting to mint new player cards for a user. These errors resulted in the failure of the minting operation on the chain. By investigating the errors, the OP identified that the issue was related to gas fee adjustments. After implementing the necessary changes to address this problem, the issue was resolved, and the minting process functioned as intended without any further difficulties.
 
 There were some redundant modules in the app that were no longer in use, and the same problem extended to some dependencies as well. These extra packages had security issues due to their outdated package dependencies, as they were not updated along with the rest of the application. After informing the OP about these concerns, they took prompt action to address the situation. They removed the unused modules from their application and updated the rest of the dependency packages used by the main modules, ensuring they passed security audits. It's worth noting that there is one string-related issue in a library file provided by Unity, which has been omitted from this part of the review.
 
@@ -157,7 +155,7 @@ Code Documented | PASS
 
 ### Project Documentation
 
-Project documentation is sufficient. There are proper instructions about the installation, testing and deployment requirements in the README file. Additional documentation is readily available for developers.
+At the start of the review, the README file was not up to date, and the installation instructions were not very clear due to the document's structure and the assumption that the user already knew some parts of the installation process and dependencies. After discussing these issues with OP, they revised the structure of the steps, added additional information, and clarified the ambiguous parts. In its final state, the project documentation is sufficient. There are proper instructions about the installation, testing and deployment requirements in the README file. Additional documentation is readily available for developers.
 
 Requirement | Finding
 ------------ | -------------
