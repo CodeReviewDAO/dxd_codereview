@@ -59,7 +59,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/BoostyLabs/ultimatedivision | d1a1333
+https://github.com/BoostyLabs/ultimatedivision | 879993c
 
 
 # Install & Usage Testing Procedure and Findings
