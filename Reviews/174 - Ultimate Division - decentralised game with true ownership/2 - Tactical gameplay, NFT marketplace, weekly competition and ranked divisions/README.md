@@ -98,7 +98,10 @@ After starting the application, the reviewer did the user testing. Following use
 
 3. Match results impact player standing in the division. For the purpose of this review, the OP decreased the league durations and matches needed to be completed for a league to end. After doing three matches, a winner was selected and promoted to the upper league.
 
-4. Weekly competition concludes every Sunday and distributes $UDT rewards via the cryptography signer service. Users were able to get their rewards either at the end of each match, or at the end of the league all together.
+4. Weekly competition concludes every Sunday and distributes $UDT rewards via the cryptography signer service. Users were able to get their rewards either at the end of each match, or at the end of the league all together. Here are some example deploys for reward claims:
+    - https://testnet.cspr.live/deploy/8eaad0e1406bd9bf27e0f9e54150e503bf2ab1ea46c6ea8b9c50a52ad8de1f76
+    - https://testnet.cspr.live/deploy/012082b0c99583b3ed8d31953b245c43cd55a854de023943b0f8823eab8b0e63
+    - https://testnet.cspr.live/deploy/b74bc3892febbd4266ed2fc7dcb4a7f8c779b62fab07d9715456cee5b45119ff
 
 5. NFTs can be traded on the Ultimate Division marketplace. For the purpose of this review, the duration of the marketplace sells were lowered. Also, the option to sell immediately were used in some places. A seller can list a player card from the marketplace screen and then a buyer can put bids on it. If the buyer is willing to get the card immediately, they can just buy it from the sell price defined by the seller. Some sample deploys are below:
 
@@ -119,6 +122,17 @@ After starting the application, the reviewer did the user testing. Following use
     ![](assets/bidding.png)
 
 6. The reviewer created a team by going to the field page and assigning player cards to their starting lineup. For this, at least 11 player cards were needed. After assigning all positions, the team was ready to play a game against another user. At this stage, the reviewer clicked Play to look for a match. Another test user was used to accept the match and the gameplay page loaded. Gameplay page consists of a visible landscape soccer field and players, each laying on a point on the grid system. The game is played in a turn-by-turn basis. Each player clicks and makes a move for one of their players for each round. After playing for a while, the game ends and the score is noted. Then, users are rewarded according to the result of the match.
+
+    #### Field
+    ![](assets/field.jpg)
+    #### Gameplay
+    ![](assets/gameplay-1.jpg)
+    ![](assets/gameplay-2.jpg)
+    #### End game
+    ![](assets/endgame.png)
+    #### Claiming rewards
+    ![](assets/claiming-rewards.png)
+    
 
 ## Overall Impression of usage testing
 
