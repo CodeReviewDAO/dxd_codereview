@@ -214,5 +214,5 @@ The application successfully fulfills the acceptance criteria. Critical function
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS
 ------------ | -------------
