@@ -66,7 +66,7 @@ https://github.com/BoostyLabs/ultimatedivision | 879993c
 
 The reviewer used a cloud GitPod instance running Ubuntu 22.04.2 LTS, a local Pardus 21.3 GNU/Linux machine, a debug server provided by OP at https://develop.ultimatedivision.com/ and a remote machine also provided by OP.
 
-This grant was designed with the intention of utilizing Casper Signer, as it was initially expected for this purpose. Throughout all user testing, Casper Signer was used for evaluation.
+This grant was designed with the intention of utilizing Casper Signer, as it was initially expected for this purpose. Throughout all user testing, Casper Signer was used for evaluation instead of Casper Wallet.
 
 At the beginning of the review, some errors were encountered during the deployment while attempting to mint new player cards for a user. These errors resulted in the failure of the minting operation on the chain. By investigating the errors, the OP identified that the issue was related to gas fee adjustments. After implementing the necessary changes to address this problem, the issue was resolved, and the minting process functioned as intended without any further difficulties.
 
