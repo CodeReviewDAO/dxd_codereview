@@ -80,7 +80,7 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The smart contract repository has 11 tests in total under the `staking_contract` directory, covering the positive paths and negatives paths: [staking_contract_test.md](assets/staking_contract_test.md)
 
-Due to the issues mentioned above, and because this is the late milestone of the project, the submission should PASS  on all criteria of this section.
+The submission should PASS  on all criteria of this section.
 
 Requirement | Finding
 ------------ | -------------
@@ -109,7 +109,7 @@ Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-Based on the reviewer's findings, this review should PASS with Notes.
+The README of one of the repositories is not easily discoverable at the root level, which should be fixed by the OP before final submission. Thus, based on the reviewer's findings, this review should PASS with Notes.
 
 # Open Source Practices
 
@@ -123,11 +123,11 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled on the repositories, and also the project contains CONTRIBUTING.md and SECURITY.md.
+Pull requests and Issues are enabled on the repositories, however the frontend repository does not contain CONTRIBUTING.md and SECURITY.md files, and OP should fix it before final submission.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS
+OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
