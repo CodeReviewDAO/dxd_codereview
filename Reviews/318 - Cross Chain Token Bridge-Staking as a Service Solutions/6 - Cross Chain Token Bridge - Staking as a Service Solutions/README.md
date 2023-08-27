@@ -146,7 +146,7 @@ Due to the security issues on the repository, and because this is the late miles
 
 # Final Conclusion
 
-Due to all of the issues mentioned in the earlier sections, in the reviewers opinion, this submission should PASS.
+Due to all of the issues mentioned in the earlier sections, in the reviewers opinion, this submission should PASS with Notes.
 
 # Recommendation
 
