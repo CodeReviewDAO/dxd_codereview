@@ -150,5 +150,5 @@ Due to all of the issues mentioned in the earlier sections, in the reviewers opi
 
 # Recommendation
 
-Recommendation | PASS
+Recommendation | PASS with Notes
 ------------ | -----------
