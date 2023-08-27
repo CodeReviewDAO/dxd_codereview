@@ -1,0 +1,476 @@
+[0KRunning with gitlab-runner 15.10.1 (dcfb4b66)[0;m
+[0K  on gitlab memri public docker-runner Ryesm3zY, system ID: r_dW1UqOXgbibd[0;m
+section_start:1687957059:prepare_executor
+[0K[0K[36;1mPreparing the "docker" executor[0;m[0;m
+[0KUsing Docker executor with image python:3.9 ...[0;m
+[0KStarting service gitlab.memri.io/memri/pod:dev-5f7f5e38 ...[0;m
+[0KAuthenticating with credentials from job payload (GitLab Registry)[0;m
+[0KPulling docker image gitlab.memri.io:5050/memri/pod:dev-5f7f5e38 ...[0;m
+[0KUsing docker image sha256:f1c9374b7ec1c085f6380164d0114f3a85486b34e4679850d715c35b276cd4a7 for gitlab.memri.io:5050/memri/pod:dev-5f7f5e38 with digest gitlab.memri.io:5050/memri/pod@sha256:4a88a9d71e775f3e2dc29af47aa69cc51b8b48c58a25767c2fc767ceef124f10 ...[0;m
+[0KWaiting for services to be up and running (timeout 30 seconds)...[0;m
+[0KPulling docker image python:3.9 ...[0;m
+[0KUsing docker image sha256:618db5c0a924c7db9c3779147b637b806bcf6b23d11adde5de1f70aa353c6807 for python:3.9 with digest python@sha256:98f018a1afd67f2e17a4abd5bfe09b998734ba7c1ee54780e7ed216f8b8095c3 ...[0;m
+section_end:1687957062:prepare_executor
+[0Ksection_start:1687957062:prepare_script
+[0K[0K[36;1mPreparing environment[0;m[0;m
+Running on runner-ryesm3zy-project-89-concurrent-0 via eb1c4665fc9b...
+section_end:1687957062:prepare_script
+[0Ksection_start:1687957062:get_sources
+[0K[0K[36;1mGetting source from Git repository[0;m[0;m
+[32;1mFetching changes with git depth set to 50...[0;m
+Reinitialized existing Git repository in /builds/memri/plugins/google-calendar/.git/
+[32;1mChecking out d9e24678 as detached HEAD (ref is v0.2)...[0;m
+
+[32;1mSkipping Git submodules setup[0;m
+section_end:1687957063:get_sources
+[0Ksection_start:1687957063:step_script
+[0K[0K[36;1mExecuting "step_script" stage of the job script[0;m[0;m
+[0KUsing docker image sha256:618db5c0a924c7db9c3779147b637b806bcf6b23d11adde5de1f70aa353c6807 for python:3.9 with digest python@sha256:98f018a1afd67f2e17a4abd5bfe09b998734ba7c1ee54780e7ed216f8b8095c3 ...[0;m
+[32;1m$ apt-get update && apt-get install -y libsqlcipher-dev && apt-get install -y libgl1-mesa-glx[0;m
+Get:1 http://deb.debian.org/debian bookworm InRelease [147 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [52.1 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8904 kB]
+Get:5 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [31.6 kB]
+Fetched 9183 kB in 1s (7129 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libsqlcipher0
+Suggested packages:
+  sqlite3-doc
+The following NEW packages will be installed:
+  libsqlcipher-dev libsqlcipher0
+0 upgraded, 2 newly installed, 0 to remove and 3 not upgraded.
+Need to get 1000 kB of archives.
+After this operation, 2803 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libsqlcipher0 amd64 3.4.1-2+b1 [435 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libsqlcipher-dev amd64 3.4.1-2+b1 [566 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1000 kB in 0s (23.7 MB/s)
+Selecting previously unselected package libsqlcipher0:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 23974 files and directories currently installed.)
+Preparing to unpack .../libsqlcipher0_3.4.1-2+b1_amd64.deb ...
+Unpacking libsqlcipher0:amd64 (3.4.1-2+b1) ...
+Selecting previously unselected package libsqlcipher-dev.
+Preparing to unpack .../libsqlcipher-dev_3.4.1-2+b1_amd64.deb ...
+Unpacking libsqlcipher-dev (3.4.1-2+b1) ...
+Setting up libsqlcipher0:amd64 (3.4.1-2+b1) ...
+Setting up libsqlcipher-dev (3.4.1-2+b1) ...
+Processing triggers for libc-bin (2.36-9) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+  libdrm2 libgl1 libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0
+  libllvm15 libpciaccess0 libsensors-config libsensors5 libx11-6 libx11-data
+  libx11-dev libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-sync1 libxcb-xfixes0 libxfixes3
+  libxshmfence1 libxxf86vm1 libz3-4
+Suggested packages:
+  pciutils lm-sensors libx11-doc
+The following NEW packages will be installed:
+  libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+  libdrm2 libgl1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libglvnd0
+  libglx-mesa0 libglx0 libllvm15 libpciaccess0 libsensors-config libsensors5
+  libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0
+  libxcb-randr0 libxcb-sync1 libxcb-xfixes0 libxfixes3 libxshmfence1
+  libxxf86vm1 libz3-4
+The following packages will be upgraded:
+  libx11-6 libx11-data libx11-dev
+3 upgraded, 29 newly installed, 0 to remove and 0 not upgraded.
+Need to get 41.1 MB of archives.
+After this operation, 171 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libdrm-common all 2.4.114-1 [7112 B]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libdrm2 amd64 2.4.114-1+b1 [37.5 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libdrm-amdgpu1 amd64 2.4.114-1+b1 [20.9 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libpciaccess0 amd64 0.17-2 [51.4 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libdrm-intel1 amd64 2.4.114-1+b1 [64.0 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libdrm-nouveau2 amd64 2.4.114-1+b1 [19.1 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libdrm-radeon1 amd64 2.4.114-1+b1 [21.8 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 libglvnd0 amd64 1.6.0-1 [51.8 kB]
+Get:9 http://deb.debian.org/debian-security bookworm-security/main amd64 libx11-dev amd64 2:1.8.4-2+deb12u1 [837 kB]
+Get:10 http://deb.debian.org/debian-security bookworm-security/main amd64 libx11-data all 2:1.8.4-2+deb12u1 [292 kB]
+Get:11 http://deb.debian.org/debian-security bookworm-security/main amd64 libx11-6 amd64 2:1.8.4-2+deb12u1 [759 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 libglapi-mesa amd64 22.3.6-1+deb12u1 [35.7 kB]
+Get:13 http://deb.debian.org/debian-security bookworm-security/main amd64 libx11-xcb1 amd64 2:1.8.4-2+deb12u1 [192 kB]
+Get:14 http://deb.debian.org/debian bookworm/main amd64 libxcb-dri2-0 amd64 1.15-1 [107 kB]
+Get:15 http://deb.debian.org/debian bookworm/main amd64 libxcb-dri3-0 amd64 1.15-1 [107 kB]
+Get:16 http://deb.debian.org/debian bookworm/main amd64 libxcb-glx0 amd64 1.15-1 [122 kB]
+Get:17 http://deb.debian.org/debian bookworm/main amd64 libxcb-present0 amd64 1.15-1 [105 kB]
+Get:18 http://deb.debian.org/debian bookworm/main amd64 libxcb-randr0 amd64 1.15-1 [117 kB]
+Get:19 http://deb.debian.org/debian bookworm/main amd64 libxcb-sync1 amd64 1.15-1 [109 kB]
+Get:20 http://deb.debian.org/debian bookworm/main amd64 libxcb-xfixes0 amd64 1.15-1 [109 kB]
+Get:21 http://deb.debian.org/debian bookworm/main amd64 libxfixes3 amd64 1:6.0.0-2 [22.7 kB]
+Get:22 http://deb.debian.org/debian bookworm/main amd64 libxshmfence1 amd64 1.3-1 [8820 B]
+Get:23 http://deb.debian.org/debian bookworm/main amd64 libxxf86vm1 amd64 1:1.1.4-1+b2 [20.8 kB]
+Get:24 http://deb.debian.org/debian bookworm/main amd64 libz3-4 amd64 4.8.12-3.1 [7216 kB]
+Get:25 http://deb.debian.org/debian bookworm/main amd64 libllvm15 amd64 1:15.0.6-4+b1 [23.1 MB]
+Get:26 http://deb.debian.org/debian bookworm/main amd64 libsensors-config all 1:3.6.0-7.1 [14.3 kB]
+Get:27 http://deb.debian.org/debian bookworm/main amd64 libsensors5 amd64 1:3.6.0-7.1 [34.2 kB]
+Get:28 http://deb.debian.org/debian bookworm/main amd64 libgl1-mesa-dri amd64 22.3.6-1+deb12u1 [7239 kB]
+Get:29 http://deb.debian.org/debian bookworm/main amd64 libglx-mesa0 amd64 22.3.6-1+deb12u1 [147 kB]
+Get:30 http://deb.debian.org/debian bookworm/main amd64 libglx0 amd64 1.6.0-1 [34.4 kB]
+Get:31 http://deb.debian.org/debian bookworm/main amd64 libgl1 amd64 1.6.0-1 [88.4 kB]
+Get:32 http://deb.debian.org/debian bookworm/main amd64 libgl1-mesa-glx amd64 22.3.6-1+deb12u1 [14.5 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 41.1 MB in 0s (143 MB/s)
+Selecting previously unselected package libdrm-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 23994 files and directories currently installed.)
+Preparing to unpack .../00-libdrm-common_2.4.114-1_all.deb ...
+Unpacking libdrm-common (2.4.114-1) ...
+Selecting previously unselected package libdrm2:amd64.
+Preparing to unpack .../01-libdrm2_2.4.114-1+b1_amd64.deb ...
+Unpacking libdrm2:amd64 (2.4.114-1+b1) ...
+Selecting previously unselected package libdrm-amdgpu1:amd64.
+Preparing to unpack .../02-libdrm-amdgpu1_2.4.114-1+b1_amd64.deb ...
+Unpacking libdrm-amdgpu1:amd64 (2.4.114-1+b1) ...
+Selecting previously unselected package libpciaccess0:amd64.
+Preparing to unpack .../03-libpciaccess0_0.17-2_amd64.deb ...
+Unpacking libpciaccess0:amd64 (0.17-2) ...
+Selecting previously unselected package libdrm-intel1:amd64.
+Preparing to unpack .../04-libdrm-intel1_2.4.114-1+b1_amd64.deb ...
+Unpacking libdrm-intel1:amd64 (2.4.114-1+b1) ...
+Selecting previously unselected package libdrm-nouveau2:amd64.
+Preparing to unpack .../05-libdrm-nouveau2_2.4.114-1+b1_amd64.deb ...
+Unpacking libdrm-nouveau2:amd64 (2.4.114-1+b1) ...
+Selecting previously unselected package libdrm-radeon1:amd64.
+Preparing to unpack .../06-libdrm-radeon1_2.4.114-1+b1_amd64.deb ...
+Unpacking libdrm-radeon1:amd64 (2.4.114-1+b1) ...
+Selecting previously unselected package libglvnd0:amd64.
+Preparing to unpack .../07-libglvnd0_1.6.0-1_amd64.deb ...
+Unpacking libglvnd0:amd64 (1.6.0-1) ...
+Preparing to unpack .../08-libx11-dev_2%3a1.8.4-2+deb12u1_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.8.4-2+deb12u1) over (2:1.8.4-2) ...
+Preparing to unpack .../09-libx11-data_2%3a1.8.4-2+deb12u1_all.deb ...
+Unpacking libx11-data (2:1.8.4-2+deb12u1) over (2:1.8.4-2) ...
+Preparing to unpack .../10-libx11-6_2%3a1.8.4-2+deb12u1_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.8.4-2+deb12u1) over (2:1.8.4-2) ...
+Selecting previously unselected package libglapi-mesa:amd64.
+Preparing to unpack .../11-libglapi-mesa_22.3.6-1+deb12u1_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (22.3.6-1+deb12u1) ...
+Selecting previously unselected package libx11-xcb1:amd64.
+Preparing to unpack .../12-libx11-xcb1_2%3a1.8.4-2+deb12u1_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.8.4-2+deb12u1) ...
+Selecting previously unselected package libxcb-dri2-0:amd64.
+Preparing to unpack .../13-libxcb-dri2-0_1.15-1_amd64.deb ...
+Unpacking libxcb-dri2-0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-dri3-0:amd64.
+Preparing to unpack .../14-libxcb-dri3-0_1.15-1_amd64.deb ...
+Unpacking libxcb-dri3-0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-glx0:amd64.
+Preparing to unpack .../15-libxcb-glx0_1.15-1_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-present0:amd64.
+Preparing to unpack .../16-libxcb-present0_1.15-1_amd64.deb ...
+Unpacking libxcb-present0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-randr0:amd64.
+Preparing to unpack .../17-libxcb-randr0_1.15-1_amd64.deb ...
+Unpacking libxcb-randr0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-sync1:amd64.
+Preparing to unpack .../18-libxcb-sync1_1.15-1_amd64.deb ...
+Unpacking libxcb-sync1:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-xfixes0:amd64.
+Preparing to unpack .../19-libxcb-xfixes0_1.15-1_amd64.deb ...
+Unpacking libxcb-xfixes0:amd64 (1.15-1) ...
+Selecting previously unselected package libxfixes3:amd64.
+Preparing to unpack .../20-libxfixes3_1%3a6.0.0-2_amd64.deb ...
+Unpacking libxfixes3:amd64 (1:6.0.0-2) ...
+Selecting previously unselected package libxshmfence1:amd64.
+Preparing to unpack .../21-libxshmfence1_1.3-1_amd64.deb ...
+Unpacking libxshmfence1:amd64 (1.3-1) ...
+Selecting previously unselected package libxxf86vm1:amd64.
+Preparing to unpack .../22-libxxf86vm1_1%3a1.1.4-1+b2_amd64.deb ...
+Unpacking libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
+Selecting previously unselected package libz3-4:amd64.
+Preparing to unpack .../23-libz3-4_4.8.12-3.1_amd64.deb ...
+Unpacking libz3-4:amd64 (4.8.12-3.1) ...
+Selecting previously unselected package libllvm15:amd64.
+Preparing to unpack .../24-libllvm15_1%3a15.0.6-4+b1_amd64.deb ...
+Unpacking libllvm15:amd64 (1:15.0.6-4+b1) ...
+Selecting previously unselected package libsensors-config.
+Preparing to unpack .../25-libsensors-config_1%3a3.6.0-7.1_all.deb ...
+Unpacking libsensors-config (1:3.6.0-7.1) ...
+Selecting previously unselected package libsensors5:amd64.
+Preparing to unpack .../26-libsensors5_1%3a3.6.0-7.1_amd64.deb ...
+Unpacking libsensors5:amd64 (1:3.6.0-7.1) ...
+Selecting previously unselected package libgl1-mesa-dri:amd64.
+Preparing to unpack .../27-libgl1-mesa-dri_22.3.6-1+deb12u1_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (22.3.6-1+deb12u1) ...
+Selecting previously unselected package libglx-mesa0:amd64.
+Preparing to unpack .../28-libglx-mesa0_22.3.6-1+deb12u1_amd64.deb ...
+Unpacking libglx-mesa0:amd64 (22.3.6-1+deb12u1) ...
+Selecting previously unselected package libglx0:amd64.
+Preparing to unpack .../29-libglx0_1.6.0-1_amd64.deb ...
+Unpacking libglx0:amd64 (1.6.0-1) ...
+Selecting previously unselected package libgl1:amd64.
+Preparing to unpack .../30-libgl1_1.6.0-1_amd64.deb ...
+Unpacking libgl1:amd64 (1.6.0-1) ...
+Selecting previously unselected package libgl1-mesa-glx:amd64.
+Preparing to unpack .../31-libgl1-mesa-glx_22.3.6-1+deb12u1_amd64.deb ...
+Unpacking libgl1-mesa-glx:amd64 (22.3.6-1+deb12u1) ...
+Setting up libxcb-dri3-0:amd64 (1.15-1) ...
+Setting up libpciaccess0:amd64 (0.17-2) ...
+Setting up libxcb-xfixes0:amd64 (1.15-1) ...
+Setting up libglvnd0:amd64 (1.6.0-1) ...
+Setting up libxcb-glx0:amd64 (1.15-1) ...
+Setting up libsensors-config (1:3.6.0-7.1) ...
+Setting up libxcb-present0:amd64 (1.15-1) ...
+Setting up libz3-4:amd64 (4.8.12-3.1) ...
+Setting up libx11-data (2:1.8.4-2+deb12u1) ...
+Setting up libxcb-sync1:amd64 (1.15-1) ...
+Setting up libsensors5:amd64 (1:3.6.0-7.1) ...
+Setting up libglapi-mesa:amd64 (22.3.6-1+deb12u1) ...
+Setting up libxcb-dri2-0:amd64 (1.15-1) ...
+Setting up libxshmfence1:amd64 (1.3-1) ...
+Setting up libxcb-randr0:amd64 (1.15-1) ...
+Setting up libllvm15:amd64 (1:15.0.6-4+b1) ...
+Setting up libx11-6:amd64 (2:1.8.4-2+deb12u1) ...
+Setting up libdrm-common (2.4.114-1) ...
+Setting up libx11-xcb1:amd64 (2:1.8.4-2+deb12u1) ...
+Setting up libx11-dev:amd64 (2:1.8.4-2+deb12u1) ...
+Setting up libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
+Setting up libxfixes3:amd64 (1:6.0.0-2) ...
+Setting up libdrm2:amd64 (2.4.114-1+b1) ...
+Setting up libdrm-amdgpu1:amd64 (2.4.114-1+b1) ...
+Setting up libdrm-nouveau2:amd64 (2.4.114-1+b1) ...
+Setting up libdrm-radeon1:amd64 (2.4.114-1+b1) ...
+Setting up libdrm-intel1:amd64 (2.4.114-1+b1) ...
+Setting up libgl1-mesa-dri:amd64 (22.3.6-1+deb12u1) ...
+Setting up libglx-mesa0:amd64 (22.3.6-1+deb12u1) ...
+Setting up libglx0:amd64 (1.6.0-1) ...
+Setting up libgl1:amd64 (1.6.0-1) ...
+Setting up libgl1-mesa-glx:amd64 (22.3.6-1+deb12u1) ...
+Processing triggers for libc-bin (2.36-9) ...
+[32;1m$ pip install -e .[0;m
+Obtaining file:///builds/memri/plugins/google-calendar
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (from google-calendar==0.0.2) (23.0.1)
+Collecting packaging
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 kB 3.4 MB/s eta 0:00:00
+Collecting google-api-python-client==2.5.0
+  Downloading google_api_python_client-2.5.0-py2.py3-none-any.whl (7.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 5.6 MB/s eta 0:00:00
+Collecting google-auth-httplib2==0.1.0
+  Downloading google_auth_httplib2-0.1.0-py2.py3-none-any.whl (9.3 kB)
+Collecting google-auth-oauthlib==0.4.4
+  Downloading google_auth_oauthlib-0.4.4-py2.py3-none-any.whl (18 kB)
+Collecting pymemri==0.0.45
+  Downloading pymemri-0.0.45-py3-none-any.whl (69 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.9/69.9 kB 17.9 MB/s eta 0:00:00
+Collecting numpy==1.24.2
+  Downloading numpy-1.24.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 58.5 MB/s eta 0:00:00
+Collecting pytest==6.2.4
+  Downloading pytest-6.2.4-py3-none-any.whl (280 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 280.6/280.6 kB 42.3 MB/s eta 0:00:00
+Collecting google-auth<2dev,>=1.16.0
+  Downloading google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.9/152.9 kB 30.4 MB/s eta 0:00:00
+Collecting six<2dev,>=1.13.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting uritemplate<4dev,>=3.0.0
+  Downloading uritemplate-3.0.1-py2.py3-none-any.whl (15 kB)
+Collecting httplib2<1dev,>=0.15.0
+  Downloading httplib2-0.22.0-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.9/96.9 kB 20.0 MB/s eta 0:00:00
+Collecting google-api-core<2dev,>=1.21.0
+  Downloading google_api_core-1.34.0-py3-none-any.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.2/120.2 kB 26.2 MB/s eta 0:00:00
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting fastcore==1.3.21
+  Downloading fastcore-1.3.21-py3-none-any.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.8/53.8 kB 5.0 MB/s eta 0:00:00
+Collecting fastprogress
+  Downloading fastprogress-1.0.3-py3-none-any.whl (12 kB)
+Collecting requests
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 14.9 MB/s eta 0:00:00
+Collecting pillow==8.4.0
+  Downloading Pillow-8.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 52.2 MB/s eta 0:00:00
+Collecting pydantic==1.10.2
+  Downloading pydantic-1.10.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.2/13.2 MB 85.7 MB/s eta 0:00:00
+Collecting fastapi[all]==0.78.0
+  Downloading fastapi-0.78.0-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.6/54.6 kB 11.2 MB/s eta 0:00:00
+Collecting fastscript
+  Downloading fastscript-1.0.0-py3-none-any.whl (11 kB)
+Collecting GitPython==3.1.27
+  Downloading GitPython-3.1.27-py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.2/181.2 kB 32.3 MB/s eta 0:00:00
+Collecting loguru~=0.6.0
+  Downloading loguru-0.6.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 15.5 MB/s eta 0:00:00
+Collecting giturlparse==0.10.0
+  Downloading giturlparse-0.10.0-py2.py3-none-any.whl (14 kB)
+Collecting jinja2==3.0.0
+  Downloading Jinja2-3.0.0-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 kB 27.6 MB/s eta 0:00:00
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting py>=1.8.2
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 kB 19.8 MB/s eta 0:00:00
+Collecting pluggy<1.0.0a1,>=0.12
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 12.6 MB/s eta 0:00:00
+Collecting starlette==0.19.1
+  Downloading starlette-0.19.1-py3-none-any.whl (63 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 kB 12.9 MB/s eta 0:00:00
+Collecting orjson<4.0.0,>=3.2.1
+  Downloading orjson-3.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (136 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 136.9/136.9 kB 27.6 MB/s eta 0:00:00
+Collecting pyyaml<7.0.0,>=5.3.1
+  Downloading PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (661 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 661.8/661.8 kB 65.1 MB/s eta 0:00:00
+Collecting python-multipart<0.0.6,>=0.0.5
+  Downloading python-multipart-0.0.5.tar.gz (32 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting itsdangerous<3.0.0,>=1.1.0
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting uvicorn[standard]<0.18.0,>=0.12.0
+  Downloading uvicorn-0.17.6-py3-none-any.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.6/53.6 kB 13.4 MB/s eta 0:00:00
+Collecting ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,<6.0.0,>=4.0.1
+  Downloading ujson-5.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 kB 13.4 MB/s eta 0:00:00
+Collecting email_validator<2.0.0,>=1.1.1
+  Downloading email_validator-1.3.1-py2.py3-none-any.whl (22 kB)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 11.4 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0.0rc2
+  Downloading MarkupSafe-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting typing-extensions>=4.1.0
+  Downloading typing_extensions-4.6.3-py3-none-any.whl (31 kB)
+Collecting anyio<5,>=3.4.0
+  Downloading anyio-3.7.0-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.9/80.9 kB 18.1 MB/s eta 0:00:00
+Collecting protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<4.0.0dev,>=3.19.5
+  Downloading protobuf-3.20.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 73.0 MB/s eta 0:00:00
+Collecting googleapis-common-protos<2.0dev,>=1.56.2
+  Downloading googleapis_common_protos-1.59.1-py2.py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 39.3 MB/s eta 0:00:00
+Collecting cachetools<5.0,>=2.0.0
+  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
+Requirement already satisfied: setuptools>=40.3.0 in /usr/local/lib/python3.9/site-packages (from google-auth<2dev,>=1.16.0->google-api-python-client==2.5.0->google-calendar==0.0.2) (58.1.0)
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 16.8 MB/s eta 0:00:00
+Collecting pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2
+  Downloading pyparsing-3.1.0-py3-none-any.whl (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.6/102.6 kB 20.7 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 13.4 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.2/199.2 kB 33.1 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB 33.1 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.3-py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.6/123.6 kB 28.3 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 kB 33.6 MB/s eta 0:00:00
+Collecting dnspython>=1.15.0
+  Downloading dnspython-2.3.0-py3-none-any.whl (283 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 283.7/283.7 kB 31.3 MB/s eta 0:00:00
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Collecting pyasn1<0.6.0,>=0.4.6
+  Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.9/83.9 kB 18.9 MB/s eta 0:00:00
+Collecting h11>=0.8
+  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 11.5 MB/s eta 0:00:00
+Collecting asgiref>=3.4.0
+  Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 kB 16.1 MB/s eta 0:00:00
+Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0
+  Downloading uvloop-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 80.8 MB/s eta 0:00:00
+Collecting watchgod>=0.6
+  Downloading watchgod-0.8.2-py3-none-any.whl (12 kB)
+Collecting httptools>=0.4.0
+  Downloading httptools-0.5.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (417 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.9/417.9 kB 54.9 MB/s eta 0:00:00
+Collecting websockets>=10.0
+  Downloading websockets-11.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.7/129.7 kB 26.8 MB/s eta 0:00:00
+Collecting python-dotenv>=0.13
+  Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting exceptiongroup
+  Downloading exceptiongroup-1.1.1-py3-none-any.whl (14 kB)
+Collecting sniffio>=1.1
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Building wheels for collected packages: python-multipart
+  Building wheel for python-multipart (setup.py): started
+  Building wheel for python-multipart (setup.py): finished with status 'done'
+  Created wheel for python-multipart: filename=python_multipart-0.0.5-py3-none-any.whl size=31677 sha256=d5fef75fda4eb9df0f81a8074d54644a12d3ebae4acb52a190369933b13f0af5
+  Stored in directory: /root/.cache/pip/wheels/fe/04/d1/a10661cc45f03c3cecda50deb2d2c22f57b4e84a75b2a5987e
+Successfully built python-multipart
+Installing collected packages: websockets, uvloop, urllib3, uritemplate, ujson, typing-extensions, toml, sniffio, smmap, six, pyyaml, python-dotenv, pyparsing, pyasn1, py, protobuf, pluggy, pillow, packaging, orjson, oauthlib, numpy, MarkupSafe, loguru, itsdangerous, iniconfig, idna, httptools, h11, giturlparse, fastprogress, exceptiongroup, dnspython, click, charset-normalizer, certifi, cachetools, attrs, rsa, requests, python-multipart, pytest, pydantic, pyasn1-modules, jinja2, httplib2, googleapis-common-protos, gitdb, fastscript, fastcore, email_validator, asgiref, anyio, watchgod, uvicorn, starlette, requests-oauthlib, google-auth, GitPython, google-auth-oauthlib, google-auth-httplib2, google-api-core, fastapi, google-api-python-client, pymemri, google-calendar
+

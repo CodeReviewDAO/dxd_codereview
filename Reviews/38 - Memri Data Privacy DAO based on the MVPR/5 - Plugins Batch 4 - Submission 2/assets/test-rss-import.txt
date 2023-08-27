@@ -1,0 +1,31 @@
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-7.4.0, pluggy-1.2.0
+rootdir: /builds/memri/plugins/rss-importer
+plugins: testmon-2.0.9, anyio-3.7.0
+collected 13 items
+
+tests/test_api.py ......                                                 [ 46%]
+tests/test_deployed.py .                                                 [ 53%]
+tests/test_plugin.py ..ss..                                              [100%]
+
+=============================== warnings summary ===============================
+../../../../usr/local/lib/python3.10/site-packages/pymemri/plugin/pluginbase.py:30
+tests/test_plugin.py::test_setup_feed
+tests/test_plugin.py::test_deactivate_feed
+tests/test_plugin.py::test_label_feed
+tests/test_plugin.py::test_custom_feed
+  /usr/local/lib/python3.10/site-packages/pymemri/plugin/pluginbase.py:30: RuntimeWarning: Plugin needs a pluginRun as kwarg, running without will only work in development.
+    warnings.warn(
+
+tests/test_api.py::test_do_not_return_empty_full_text
+  /builds/memri/plugins/rss-importer/rss_importer/labels.py:47: DeprecationWarning: Accessing `.value` on Result type is deprecated, please use `.ok_value` or '.err_value' instead
+    case Err(err):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 11 passed, 2 skipped, 6 warnings in 12.94s ==================
+section_end:1687956977:step_script
+[0Ksection_start:1687956977:cleanup_file_variables
+[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1687956977:cleanup_file_variables
+[0K[32;1mJob succeeded[0;m

@@ -1,0 +1,113 @@
+python3 -m venv fl_agg_env
+source fl_agg_env/bin/activate
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2518k  100 2518k    0     0  1529k      0  0:00:01  0:00:01 --:--:-- 1529k
+Collecting pip
+  Downloading pip-23.1.2-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 3.8 MB/s eta 0:00:00
+Collecting wheel
+  Downloading wheel-0.40.0-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.5/64.5 kB 1.9 MB/s eta 0:00:00
+Installing collected packages: wheel, pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.3
+    Uninstalling pip-21.2.3:
+      Successfully uninstalled pip-21.2.3
+Successfully installed pip-23.1.2 wheel-0.40.0
+
+python3 -m pip install -r app/requirements.txt
+Collecting Django==4.1.7 (from -r app/requirements.txt (line 1))
+  Downloading Django-4.1.7-py3-none-any.whl (8.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/8.1 MB 9.7 MB/s eta 0:00:00
+Collecting numpy==1.24.2 (from -r app/requirements.txt (line 2))
+  Downloading numpy-1.24.2-cp39-cp39-macosx_10_9_x86_64.whl (19.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.8/19.8 MB 22.2 MB/s eta 0:00:00
+Collecting pandas==1.5.3 (from -r app/requirements.txt (line 3))
+  Downloading pandas-1.5.3-cp39-cp39-macosx_10_9_x86_64.whl (12.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 18.6 MB/s eta 0:00:00
+Collecting psycopg2-binary==2.9.5 (from -r app/requirements.txt (line 4))
+  Downloading psycopg2_binary-2.9.5-cp39-cp39-macosx_10_15_x86_64.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 7.7 MB/s eta 0:00:00
+Collecting python-dotenv==0.21.1 (from -r app/requirements.txt (line 5))
+  Downloading python_dotenv-0.21.1-py3-none-any.whl (19 kB)
+Collecting pytz==2022.7.1 (from -r app/requirements.txt (line 6))
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.4/499.4 kB 4.3 MB/s eta 0:00:00
+Collecting schedule (from -r app/requirements.txt (line 7))
+  Downloading schedule-1.2.0-py2.py3-none-any.whl (11 kB)
+Collecting SQLAlchemy==1.4.47 (from -r app/requirements.txt (line 8))
+  Downloading SQLAlchemy-1.4.47.tar.gz (8.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 18.2 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting djangorestframework==3.14.0 (from -r app/requirements.txt (line 9))
+  Downloading djangorestframework-3.14.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 12.1 MB/s eta 0:00:00
+Collecting drf-spectacular==0.26.1 (from -r app/requirements.txt (line 10))
+  Downloading drf_spectacular-0.26.1-py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.5/92.5 kB 3.2 MB/s eta 0:00:00
+Collecting requests==2.28.2 (from -r app/requirements.txt (line 11))
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 2.1 MB/s eta 0:00:00
+Collecting plotly==5.13.0 (from -r app/requirements.txt (line 12))
+  Downloading plotly-5.13.0-py2.py3-none-any.whl (15.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.2/15.2 MB 14.2 MB/s eta 0:00:00
+Collecting asgiref<4,>=3.5.2 (from Django==4.1.7->-r app/requirements.txt (line 1))
+  Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting sqlparse>=0.2.2 (from Django==4.1.7->-r app/requirements.txt (line 1))
+  Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 kB 560.0 kB/s eta 0:00:00
+Collecting python-dateutil>=2.8.1 (from pandas==1.5.3->-r app/requirements.txt (line 3))
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 6.2 MB/s eta 0:00:00
+Collecting greenlet!=0.4.17 (from SQLAlchemy==1.4.47->-r app/requirements.txt (line 8))
+  Downloading greenlet-2.0.2.tar.gz (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 165.0/165.0 kB 4.5 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting uritemplate>=2.0.0 (from drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Collecting PyYAML>=5.1 (from drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading PyYAML-6.0-cp39-cp39-macosx_10_9_x86_64.whl (197 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 197.6/197.6 kB 5.7 MB/s eta 0:00:00
+Collecting jsonschema>=2.6.0 (from drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.4/90.4 kB 3.3 MB/s eta 0:00:00
+Collecting inflection>=0.3.1 (from drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Collecting charset-normalizer<4,>=2 (from requests==2.28.2->-r app/requirements.txt (line 11))
+  Downloading charset_normalizer-3.1.0-cp39-cp39-macosx_10_9_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.7/124.7 kB 3.9 MB/s eta 0:00:00
+Collecting idna<4,>=2.5 (from requests==2.28.2->-r app/requirements.txt (line 11))
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 2.0 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1 (from requests==2.28.2->-r app/requirements.txt (line 11))
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.1/143.1 kB 3.9 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17 (from requests==2.28.2->-r app/requirements.txt (line 11))
+  Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB 4.0 MB/s eta 0:00:00
+Collecting tenacity>=6.2.0 (from plotly==5.13.0->-r app/requirements.txt (line 12))
+  Downloading tenacity-8.2.2-py3-none-any.whl (24 kB)
+Collecting typing-extensions>=4 (from asgiref<4,>=3.5.2->Django==4.1.7->-r app/requirements.txt (line 1))
+  Downloading typing_extensions-4.6.3-py3-none-any.whl (31 kB)
+Collecting attrs>=17.4.0 (from jsonschema>=2.6.0->drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 2.2 MB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 (from jsonschema>=2.6.0->drf-spectacular==0.26.1->-r app/requirements.txt (line 10))
+  Downloading pyrsistent-0.19.3-cp39-cp39-macosx_10_9_universal2.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.5/82.5 kB 2.7 MB/s eta 0:00:00
+Collecting six>=1.5 (from python-dateutil>=2.8.1->pandas==1.5.3->-r app/requirements.txt (line 3))
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: SQLAlchemy, greenlet
+  Building wheel for SQLAlchemy (setup.py) ... done
+  Created wheel for SQLAlchemy: filename=SQLAlchemy-1.4.47-cp39-cp39-macosx_10_9_x86_64.whl size=1561037 sha256=90cb349841f3a5fe97c0525908d2095a86571f5c3ea342848091c74994d49065
+  Stored in directory: /Users/mdidin/Library/Caches/pip/wheels/18/f3/88/e801a5f9d7cf25acfa02f3022c689a86e903cea71f03cd1217
+  Building wheel for greenlet (setup.py) ... done
+  Created wheel for greenlet: filename=greenlet-2.0.2-cp39-cp39-macosx_10_9_x86_64.whl size=190748 sha256=ba837040f7dbf9833802826e5f45e6c4a5a84cfdac41375d321473a8283f3dce
+  Stored in directory: /Users/mdidin/Library/Caches/pip/wheels/c4/e2/38/932349e5e893e6d464ea70f98f76a8d7b9ba73e62cc9db5579
+Successfully built SQLAlchemy greenlet
+Installing collected packages: pytz, urllib3, uritemplate, typing-extensions, tenacity, sqlparse, six, schedule, PyYAML, python-dotenv, pyrsistent, psycopg2-binary, numpy, inflection, idna, greenlet, charset-normalizer, certifi, attrs, SQLAlchemy, requests, python-dateutil, plotly, jsonschema, asgiref, pandas, Django, djangorestframework, drf-spectacular
+Successfully installed Django-4.1.7 PyYAML-6.0 SQLAlchemy-1.4.47 asgiref-3.7.2 attrs-23.1.0 certifi-2023.5.7 charset-normalizer-3.1.0 djangorestframework-3.14.0 drf-spectacular-0.26.1 greenlet-2.0.2 idna-3.4 inflection-0.5.1 jsonschema-4.17.3 numpy-1.24.2 pandas-1.5.3 plotly-5.13.0 psycopg2-binary-2.9.5 pyrsistent-0.19.3 python-dateutil-2.8.2 python-dotenv-0.21.1 pytz-2022.7.1 requests-2.28.2 schedule-1.2.0 six-1.16.0 sqlparse-0.4.4 tenacity-8.2.2 typing-extensions-4.6.3 uritemplate-4.1.1 urllib3-1.26.16
