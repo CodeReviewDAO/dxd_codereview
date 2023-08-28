@@ -142,7 +142,7 @@ Code is generally well-structured and readable. The project as committed to GitH
 ![Staking contract security alerts](assets/staking_contract_security_alerts.png)
 ![Frontend security alerts](assets/frontend_security_alerts.png)
 
-Due to the security issues on the repository, and because this is the late milestone of the project, the submission should fail in this section. OP needs to fix the security vulnerabilities for this submission to pass the next review.
+Due to the security issues on the repository, the submission should PASS with Notes in this section. OP needs to fix the security vulnerabilities.
 
 # Final Conclusion
 
