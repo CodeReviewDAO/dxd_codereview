@@ -1,0 +1,19 @@
+gitpod /workspace/casperparser (main) $ docker run --name some-postgres -p 127.0.0.1:5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=casperparser -d postgres
+Unable to find image 'postgres:latest' locally
+latest: Pulling from library/postgres
+26c5c85e47da: Already exists 
+1c30a4c3f519: Pull complete 
+d5c0f1ae682d: Pull complete 
+1b1b2890ec0f: Pull complete 
+391087799df7: Pull complete 
+b413b4057e31: Pull complete 
+4fa4edfeab8b: Pull complete 
+b0a4d596bc61: Pull complete 
+f6d73cd87199: Pull complete 
+62b0bb33c69b: Pull complete 
+bb0ddb7e7f1a: Pull complete 
+583ec94d38ee: Pull complete 
+efdf2a922e82: Pull complete 
+Digest: sha256:6cc97262444f1c45171081bc5a1d4c28b883ea46a6e0d1a45a8eac4a7f4767ab
+Status: Downloaded newer image for postgres:latest
+b8e62f36dc9c492f22795c137203e2cb1159422026a2fb859963e438cb3d0034
