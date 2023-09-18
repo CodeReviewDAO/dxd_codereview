@@ -66,10 +66,15 @@ Repos were missing some instructions at the beginning and the reviewer sent a gu
 By following the instructions in the README of the repository the reviewer was able to build and run the projects.
 
 [front install](assets/frontnpminstall.md)
+
 [front start](assets/frontnpmstart2.md)
+
 [contracts build](assets/contractsmakebuild.md)
+
 [back install](assets/backyarninstall.md)
+
 [back run](assets/backrunbin.md)
+
 [back node](assets/backnode.md)
 
 ## Overall Impression of usage testing
