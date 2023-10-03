@@ -1,0 +1,227 @@
+> pnpm install && pnpm run build
+> } && {
+> pnpm run dev
+> }
+Lockfile is up to date, resolution step is skipped
+Packages: +844
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   ╭─────────────────────────────────────────────────────────────────╮
+   │                                                                 │
+   │                Update available! 7.30.0 → 8.2.0.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.2.0   │
+   │                Run "pnpm add -g pnpm" to update.                │
+   │                                                                 │
+   │     Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+   │                                                                 │
+   ╰─────────────────────────────────────────────────────────────────╯
+
+Packages are cloned from the content-addressable store to the virtual store.
+  Content-addressable store is at: /workspace/.pnpm-store/v3
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 844, reused 0, downloaded 840, added 844, done
+node_modules/.pnpm/core-js@3.26.1/node_modules/core-js: Running postinstall script, done in 84ms
+node_modules/.pnpm/secp256k1@3.8.0/node_modules/secp256k1: Running install script, done in 12.5s
+node_modules/.pnpm/secp256k1@3.7.1/node_modules/secp256k1: Running install script, done in 6.3s
+node_modules/.pnpm/keccak@3.0.2/node_modules/keccak: Running install script, done in 378ms
+node_modules/.pnpm/secp256k1@4.0.3/node_modules/secp256k1: Running install script, done in 394ms
+node_modules/.pnpm/@toruslabs+eccrypto@1.1.8/node_modules/@toruslabs/eccrypto: Running install script, done in 1.6s
+node_modules/.pnpm/eccrypto@1.1.6/node_modules/eccrypto: Running install script, done in 1.5s
+node_modules/.pnpm/esbuild@0.15.18/node_modules/esbuild: Running postinstall script, done in 75ms
+node_modules/.pnpm/cypress@12.1.0/node_modules/cypress: Running postinstall script, done in 9.6s
+
+dependencies:
++ @casperholders/core 3.11.2
++ @ledgerhq/hw-transport-web-ble 6.27.8
++ @ledgerhq/hw-transport-webusb 6.27.8
++ @toruslabs/casper-embed 2.0.1
++ @zondax/ledger-casper 2.5.3
++ big.js 6.2.1
++ buffer 6.0.3
++ casper-js-sdk 2.10.0
++ chart.js 3.9.1
++ core-js 3.26.1
++ cy2 4.0.0-beta.9
++ lodash.clonedeep 4.5.0
++ lodash.debounce 4.0.8
++ lodash.sortby 4.7.0
++ parse-duration 1.0.2
++ qrcode.vue 1.7.0
++ toformat 2.0.0
++ ts-results 3.3.0
++ vue 2.7.14
++ vue-json-pretty 1.9.3
++ vue-router 3.6.5
++ vuetify 2.6.13
++ vuex 3.6.2
++ workbox-core 6.5.4
++ workbox-precaching 6.5.4
++ workbox-routing 6.5.4
++ workbox-strategies 6.5.4
+
+devDependencies:
++ @cypress/code-coverage 3.10.0
++ @esbuild-plugins/node-globals-polyfill 0.1.1
++ @vitejs/plugin-vue2 2.2.0
++ binary-loader 0.0.1
++ cypress 12.1.0
++ cypress-file-upload 5.0.8
++ cypress-real-events 1.7.4
++ eslint 8.29.0
++ eslint-config-airbnb-base 15.0.0
++ eslint-plugin-import 2.26.0
++ eslint-plugin-vue 9.8.0
++ rollup-plugin-polyfill-node 0.11.0
++ sass 1.32.13
++ unplugin-vue-components 0.22.12
++ vite 3.2.5
++ vite-compatible-readable-stream 3.6.1
++ vite-plugin-istanbul 3.0.4
++ vite-plugin-mkcert 1.10.1
++ vite-plugin-pwa 0.14.0
++ vue-eslint-parser 9.1.0
++ vue-template-compiler 2.7.14
+
+Done in 43.2s
+
+> casperholdersfront@1.0.0 build /workspace/casperholdersfront
+> vite build
+
+vite v3.2.5 building for production...
+✓ 1389 modules transformed.
+dist/assets/waves.b935443c.svg                                              0.90 KiB
+dist/assets/logo.5fa29e38.svg                                               2.62 KiB
+dist/assets/keys-manager.003ddd04.wasm                                      6.25 KiB
+dist/assets/casper_logo.1470cc25.svg                                        3.06 KiB
+dist/assets/torus.ab9925e8.svg                                              0.79 KiB
+dist/assets/background.6c05c858.svg                                         3.32 KiB
+dist/index.html                                                             1.79 KiB
+dist/manifest.webmanifest                                                   0.47 KiB
+dist/registerSW.js                                                          0.14 KiB
+dist/assets/VAvatar.fb36a2d8.js                                             0.57 KiB / gzip: 0.35 KiB
+dist/assets/VAvatar.fb36a2d8.js.map                                         2.04 KiB
+dist/assets/VSpacer.daeff77e.js                                             0.09 KiB / gzip: 0.10 KiB
+dist/assets/VSpacer.daeff77e.js.map                                         0.50 KiB
+dist/assets/VWindowItem.a79422ca.js                                         5.36 KiB / gzip: 1.75 KiB
+dist/assets/VWindowItem.a79422ca.js.map                                     16.03 KiB
+dist/assets/HomeView.416007d4.js                                            23.67 KiB / gzip: 7.45 KiB
+dist/assets/HomeView.416007d4.js.map                                        49.98 KiB
+dist/assets/SettingsView.e881715b.js                                        8.71 KiB / gzip: 2.87 KiB
+dist/assets/SettingsView.e881715b.js.map                                    21.20 KiB
+dist/assets/nativeToken.bf620bd1.js                                         0.13 KiB / gzip: 0.14 KiB
+dist/assets/nativeToken.bf620bd1.js.map                                     0.45 KiB
+dist/assets/makeJsonStorage.2dc6beac.js                                     1.33 KiB / gzip: 0.67 KiB
+dist/assets/makeJsonStorage.2dc6beac.js.map                                 3.66 KiB
+dist/assets/OperationResult.b33cfd32.js                                     11.46 KiB / gzip: 3.65 KiB
+dist/assets/OperationResult.b33cfd32.js.map                                 32.75 KiB
+dist/assets/CardHorizontalList.55340e28.js                                  0.29 KiB / gzip: 0.24 KiB
+dist/assets/CardHorizontalList.55340e28.js.map                              0.51 KiB
+dist/assets/findTokenGroup.6778a331.js                                      0.08 KiB / gzip: 0.09 KiB
+dist/assets/findTokenGroup.6778a331.js.map                                  0.42 KiB
+dist/assets/helpers.segment.3d364a96.js                                     35.33 KiB / gzip: 14.65 KiB
+dist/assets/helpers.segment.3d364a96.js.map                                 141.49 KiB
+dist/assets/RewardCalculatorPanel.a558040d.js                               5.28 KiB / gzip: 2.11 KiB
+dist/assets/RewardCalculatorPanel.a558040d.js.map                           11.81 KiB
+dist/assets/genericSendDeploy.532f5e2a.js                                   1.20 KiB / gzip: 0.54 KiB
+dist/assets/genericSendDeploy.532f5e2a.js.map                               4.65 KiB
+dist/assets/abstractSmartContractDeployParameters.f3c87956.js               1.86 KiB / gzip: 0.80 KiB
+dist/assets/abstractSmartContractDeployParameters.f3c87956.js.map           7.17 KiB
+dist/assets/VListItemAvatar.a6d4c39f.js                                     0.44 KiB / gzip: 0.29 KiB
+dist/assets/VListItemAvatar.a6d4c39f.js.map                                 1.35 KiB
+dist/assets/transferResult.747ed51c.js                                      0.17 KiB / gzip: 0.16 KiB
+dist/assets/transferResult.747ed51c.js.map                                  1.09 KiB
+dist/assets/TokenInput.ca287f9b.js                                          24.28 KiB / gzip: 8.88 KiB
+dist/assets/TokenInput.ca287f9b.js.map                                      141.69 KiB
+dist/assets/abstractSmartContractStoredByHashDeployParameters.51f9fcb3.js   0.91 KiB / gzip: 0.50 KiB
+dist/assets/abstractSmartContractStoredByHashDeployParameters.51f9fcb3.js.map 3.48 KiB
+dist/assets/OperationCard.db64796f.js                                       8.53 KiB / gzip: 2.72 KiB
+dist/assets/OperationCard.db64796f.js.map                                   20.85 KiB
+dist/assets/accountInfoResult.2ac44af9.js                                   0.17 KiB / gzip: 0.16 KiB
+dist/assets/accountInfoResult.2ac44af9.js.map                               1.11 KiB
+dist/assets/addBidResult.d60bbed1.js                                        0.17 KiB / gzip: 0.16 KiB
+dist/assets/addBidResult.d60bbed1.js.map                                    1.07 KiB
+dist/assets/SecurityView.6c64354b.js                                        17.95 KiB / gzip: 5.00 KiB
+dist/assets/SecurityView.6c64354b.js.map                                    39.75 KiB
+dist/assets/delegateResult.09df5d41.js                                      0.17 KiB / gzip: 0.16 KiB
+dist/assets/delegateResult.09df5d41.js.map                                  1.08 KiB
+dist/assets/smartContractResult.7c99ca81.js                                 0.17 KiB / gzip: 0.16 KiB
+dist/assets/smartContractResult.7c99ca81.js.map                             1.12 KiB
+dist/assets/MultiSigView.1dcecee9.js                                        9.76 KiB / gzip: 3.27 KiB
+dist/assets/MultiSigView.1dcecee9.js.map                                    23.75 KiB
+dist/assets/undelegateResult.a1614683.js                                    0.17 KiB / gzip: 0.16 KiB
+dist/assets/undelegateResult.a1614683.js.map                                1.10 KiB
+dist/assets/withdrawBidResult.4d8942ab.js                                   0.17 KiB / gzip: 0.16 KiB
+dist/assets/withdrawBidResult.4d8942ab.js.map                               1.11 KiB
+dist/assets/AmountInput.45791185.js                                         2.89 KiB / gzip: 1.01 KiB
+dist/assets/AmountInput.45791185.js.map                                     7.50 KiB
+dist/assets/OperationPending.0ae9723a.js                                    22.78 KiB / gzip: 7.16 KiB
+dist/assets/OperationPending.0ae9723a.js.map                                48.75 KiB
+dist/assets/TransferView.072ef67e.js                                        6.39 KiB / gzip: 2.50 KiB
+dist/assets/TransferView.072ef67e.js.map                                    12.29 KiB
+dist/assets/AccountInfoView.6c0042fe.js                                     5.54 KiB / gzip: 2.43 KiB
+dist/assets/AccountInfoView.6c0042fe.js.map                                 15.68 KiB
+dist/assets/DelegateView.1e150bcb.js                                        4.31 KiB / gzip: 1.80 KiB
+dist/assets/DelegateView.1e150bcb.js.map                                    10.59 KiB
+dist/assets/UndelegateView.d9b5382a.js                                      4.17 KiB / gzip: 1.71 KiB
+dist/assets/UndelegateView.d9b5382a.js.map                                  10.00 KiB
+dist/assets/ValidatorInput.dd2413d6.js                                      5.46 KiB / gzip: 2.04 KiB
+dist/assets/ValidatorInput.dd2413d6.js.map                                  15.83 KiB
+dist/assets/WithdrawBidView.184ff2a3.js                                     4.44 KiB / gzip: 1.83 KiB
+dist/assets/WithdrawBidView.184ff2a3.js.map                                 10.27 KiB
+dist/assets/FAQView.2f44843c.js                                             2.74 KiB / gzip: 1.12 KiB
+dist/assets/FAQView.2f44843c.js.map                                         3.02 KiB
+dist/assets/ContactView.441f5a7b.js                                         1.59 KiB / gzip: 0.64 KiB
+dist/assets/ContactView.441f5a7b.js.map                                     2.37 KiB
+dist/assets/AddBidView.710ff404.js                                          14.79 KiB / gzip: 5.08 KiB
+dist/assets/AddBidView.710ff404.js.map                                      38.27 KiB
+dist/assets/OperationResult.0891193c.css                                    6.44 KiB / gzip: 1.28 KiB
+dist/assets/VWindowItem.faf84707.css                                        2.35 KiB / gzip: 0.51 KiB
+dist/assets/HomeView.897721ba.css                                           0.86 KiB / gzip: 0.38 KiB
+dist/assets/SettingsView.3845552c.css                                       1.00 KiB / gzip: 0.35 KiB
+dist/assets/NFTView.418dd120.js                                             23.78 KiB / gzip: 7.34 KiB
+dist/assets/NFTView.418dd120.js.map                                         64.76 KiB
+dist/assets/CardHorizontalList.68d28c0c.css                                 0.07 KiB / gzip: 0.09 KiB
+dist/assets/OperationPending.19e57d7c.css                                   2.57 KiB / gzip: 0.87 KiB
+dist/assets/ValidatorInput.e7eae1df.css                                     0.06 KiB / gzip: 0.08 KiB
+dist/assets/PrivacyView.c2e139b8.js                                         14.22 KiB / gzip: 4.70 KiB
+dist/assets/PrivacyView.c2e139b8.js.map                                     17.36 KiB
+dist/assets/BalanceView.b134e017.css                                        20.41 KiB / gzip: 2.95 KiB
+dist/assets/TokenInput.cb7d1978.css                                         0.09 KiB / gzip: 0.10 KiB
+dist/assets/NFTView.8a0dbc2d.css                                            0.07 KiB / gzip: 0.08 KiB
+dist/assets/VAvatar.0a016801.css                                            0.34 KiB / gzip: 0.20 KiB
+dist/assets/SmartContractView.e54837db.js                                   37.93 KiB / gzip: 10.59 KiB
+dist/assets/SmartContractView.e54837db.js.map                               102.80 KiB
+dist/assets/SecurityView.66d9e3a5.css                                       0.14 KiB / gzip: 0.10 KiB
+dist/assets/AddBidView.372ca232.css                                         6.06 KiB / gzip: 1.20 KiB
+dist/assets/OperationCard.c86e1203.css                                      0.05 KiB / gzip: 0.07 KiB
+dist/assets/makeJsonStorage.efbe4bdb.css                                    5.94 KiB / gzip: 0.90 KiB
+dist/assets/DelegateView.b853b085.css                                       0.19 KiB / gzip: 0.13 KiB
+dist/assets/SmartContractView.70bb3d2e.css                                  8.81 KiB / gzip: 1.68 KiB
+dist/assets/BalanceView.1e07ebf5.js                                         63.28 KiB / gzip: 17.07 KiB
+dist/assets/BalanceView.1e07ebf5.js.map                                     178.02 KiB
+dist/assets/LineChart.09c1c3dc.js                                           151.14 KiB / gzip: 49.82 KiB
+dist/assets/LineChart.09c1c3dc.js.map                                       584.67 KiB
+dist/assets/index.871822c7.css                                              390.34 KiB / gzip: 47.70 KiB
+dist/assets/index.26ea3b46.js                                               1821.01 KiB / gzip: 552.57 KiB
+dist/assets/index.26ea3b46.js.map                                           6354.20 KiB
+
+(!) Some chunks are larger than 500 KiB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/guide/en/#outputmanualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v0.14.0
+mode      injectManifest
+precache  69 entries (2794.87 KiB)
+files generated
+  dist/service-worker.js
+  dist/service-worker.js.map
+
+> casperholdersfront@1.0.0 dev /workspace/casperholdersfront
+> vite --port 8080
+
+
+  VITE v3.2.5  ready in 454 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: use --host to expose

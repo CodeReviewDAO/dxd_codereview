@@ -1,0 +1,12 @@
+gitpod /workspace/casperparser (main) $ docker run --name redis -p 127.0.0.1:6379:6379 -d redis
+Unable to find image 'redis:latest' locally
+latest: Pulling from library/redis
+26c5c85e47da: Pull complete 
+39f79586dcf2: Pull complete 
+79c71d0520e5: Pull complete 
+839b5a82ec1e: Pull complete 
+3cf4217d20ac: Pull complete 
+7ced743e94cb: Pull complete 
+Digest: sha256:92b8b307ee28ed74da17578064c73307ad41e43f422f0b7e4e91498b406c59e3
+Status: Downloaded newer image for redis:latest
+28916fff2570457c48e562ad9c9ca5421d2a8ba2c4e3547e94723f8eb1d4823a
