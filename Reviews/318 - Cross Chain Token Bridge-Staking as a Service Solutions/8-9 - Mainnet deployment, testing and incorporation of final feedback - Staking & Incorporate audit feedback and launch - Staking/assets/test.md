@@ -1,4 +1,6 @@
-```
+## `make test`
+
+```sh
 gitpod /workspace/casper_staking/staking_contract (main) $ make test
 cd staking_contract && cargo build --release --target wasm32-unknown-unknown
 info: syncing channel updates for 'nightly-2023-01-16-x86_64-unknown-linux-gnu'
