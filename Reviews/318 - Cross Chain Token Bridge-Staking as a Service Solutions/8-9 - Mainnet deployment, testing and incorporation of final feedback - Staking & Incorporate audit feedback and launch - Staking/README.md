@@ -67,9 +67,13 @@ https://github.com/ferrumnet/casper_staking | 32d8e45
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 22.04.2 LTS cloud instance on GitPod for this review.
+
+Reviewer used the instructions in the `README` to successfully deploy the staking smart contract under `staking_contract` directory. There is also a brilliantly prepared GitHub workflow that automatically builds and deploys the app.
+
+- [Build logs](assets/build.md)
+- [GitHub Workflow Logs](assets/workflow.md)
+
 
 ## Overall Impression of usage testing
 
