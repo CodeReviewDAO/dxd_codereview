@@ -62,7 +62,7 @@ The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/my-repository/my-project | 1111aaaa
+https://github.com/ferrumnet/casper_staking | 32d8e45
 
 
 # Install & Usage Testing Procedure and Findings
