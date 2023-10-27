@@ -108,18 +108,18 @@ Code Documented | PASS
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+At the start of the review, there were no `README` file present in the root of the repository. After telling this issue to the developers, it is stated that the instructions are inside the `staking_contract` directory. Developers then moved this file into the root of the repository.
+
+In its current state, project documentation is sufficient and provides adequate instructions and information
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS / FAIL / PASS with Notes
-Example Documented | PASS / FAIL / PASS with Notes
+Usage Documented | PASS
+Example Documented | PASS
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Both code documentation and project documentation is sufficient. There are quite useful code comments for describing the corresponding methods. Project documentation provides satisfactory content to set up and deploy the project properly.
 
 
 # Open Source Practices
