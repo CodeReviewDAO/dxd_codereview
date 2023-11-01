@@ -93,6 +93,13 @@ For the UI side, reviewer first signed in using his Casper Wallet. Then, an appr
 ![](assets/staking.png)
 ![](assets/staking-successful.png)
 
+After the staking, reviewer waited for the maturity period to be reached. When the maturity period is reached, reviewer received his rewards and withdrew some tokens using the interface.
+
+- [Maturity withdrawal deploy](https://cspr.live/deploy/067af7d7217b0b89eef11bbc828b05c4bd8fbc8e8fc1b2fc57a10595fc35b91f)
+
+![](assets/withdraw.png)
+![](assets/withdraw-success.png)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
