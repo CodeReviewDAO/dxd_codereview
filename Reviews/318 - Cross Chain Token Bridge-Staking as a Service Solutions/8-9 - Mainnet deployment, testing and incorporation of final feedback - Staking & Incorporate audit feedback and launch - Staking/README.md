@@ -74,6 +74,11 @@ Reviewer used the instructions in the `README` to successfully deploy the stakin
 - [Build logs](assets/build.md)
 - [GitHub Workflow Logs](assets/workflow.md)
 
+After the installation, reviewer checked the acceptance criteria on the live server provided by OP.
+
+The ability to deploy was checked with a developer. The configurations were updated and valid deploys were created without any problems. Below is a link to a deploy created during these tests:
+
+- [Local deploy](https://cspr.live/deploy/ab1d448f51907dc63c71962dd842e77b219fcff61f4f8900a8f1bf7ccd32f3b5)
 
 ## Overall Impression of usage testing
 
