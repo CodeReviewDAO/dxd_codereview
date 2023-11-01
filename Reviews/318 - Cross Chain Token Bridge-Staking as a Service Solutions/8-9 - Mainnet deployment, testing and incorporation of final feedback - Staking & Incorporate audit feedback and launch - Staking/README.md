@@ -67,14 +67,14 @@ https://github.com/ferrumnet/casper_staking | 32d8e45
 
 # Install & Usage Testing Procedure and Findings
 
-Reviewer used an Ubuntu 22.04.2 LTS cloud instance on GitPod for this review.
+Reviewer used an Ubuntu 22.04.2 LTS cloud instance on GitPod and a local Pardus 23.0 GNU/Linux instance for this review.
 
 Reviewer used the instructions in the `README` to successfully deploy the staking smart contract under `staking_contract` directory. There is also a brilliantly prepared GitHub workflow that automatically builds and deploys the app.
 
 - [Build logs](assets/build.md)
 - [GitHub Workflow Logs](assets/workflow.md)
 
-After the installation, reviewer checked the acceptance criteria on the live server provided by OP.
+After the installation, reviewer started testing the acceptance criteria on a live server provided by OP.
 
 The ability to deploy was checked with a developer. The configurations were updated and valid deploys were created without any problems. Below is a link to a deploy created during these tests:
 
