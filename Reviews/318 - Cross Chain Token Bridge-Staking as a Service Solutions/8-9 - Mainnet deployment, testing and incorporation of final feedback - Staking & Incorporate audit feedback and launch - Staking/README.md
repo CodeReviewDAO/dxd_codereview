@@ -202,11 +202,10 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+The application effectively meets the acceptance criteria set forth. Essential functionality is rigorously tested through unit tests, and the combination of code and general documentation offers comprehensive guidance. The project demonstrates a strong commitment to open-source practices and adheres to coding standards, reflecting a significant level of proficiency. Minor improvements can be made for a better usability experience for users. As a result, the reviewer suggests a resolution of PASS with Notes for these milestones.
 
 
 # Recommendation
 
-Recommendation | PASS / FAIL / PASS with Notes
+Recommendation | PASS with Notes
 ------------ | -------------
