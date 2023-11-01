@@ -80,6 +80,19 @@ The ability to deploy was checked with a developer. The configurations were upda
 
 - [Local deploy](https://cspr.live/deploy/ab1d448f51907dc63c71962dd842e77b219fcff61f4f8900a8f1bf7ccd32f3b5)
 
+For the UI side, reviewer first signed in using his Casper Wallet. Then, an approval was necessary to make a stake through the app. Reviewer clicked the `Approve` button and then signed it successfully, which then allowed him to make a stake.
+
+![](assets/dashboard.png)
+
+- [Approval deploy](https://cspr.live/deploy/b28ef06aa22766815b87d59914d3fce81de078cdfeb5d10937780c51282f4f46)
+
+![](assets/approval.png)
+
+- [Staking deploy](https://cspr.live/deploy/53cf73bc85ef8db6908ae5010058bbc99070737ea901f33403b9405e2fd7989e)
+
+![](assets/staking.png)
+![](assets/staking-successful.png)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
