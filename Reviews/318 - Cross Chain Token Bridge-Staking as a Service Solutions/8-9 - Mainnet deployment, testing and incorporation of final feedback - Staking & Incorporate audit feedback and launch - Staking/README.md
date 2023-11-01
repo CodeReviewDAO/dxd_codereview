@@ -95,7 +95,14 @@ For the UI side, reviewer first signed in using his Casper Wallet. Then, an appr
 ![](assets/staking.png)
 ![](assets/staking-successful.png)
 
-After the staking, reviewer waited for the maturity period to be reached. When the maturity period is reached, reviewer received his rewards and withdrew some tokens using the interface.
+There is a period for staking, early withdrawal -with less rewards-, and finally a maturity withdrawal. Reviewer waited for the early withdrawal period to be reached after staking. When that is reached, reviewer tried to withdraw some amount of tokens and was successful at the operation without any problems.
+
+- [Early withdrawal deploy](https://cspr.live/deploy/8eeb6ae88014bdfb3e08eba0a2ef0e0c6c8edec1d24e5f51825065ffb03c4eef)
+
+![](assets/early-withdraw.png)
+![](assets/early-withdraw-sign.png)
+
+After the early withdrawal window closes, we finally reach the maturity withdrawal period. When the maturity period was reached, reviewer received his rewards and withdrew some tokens using the interface.
 
 - [Maturity withdrawal deploy](https://cspr.live/deploy/067af7d7217b0b89eef11bbc828b05c4bd8fbc8e8fc1b2fc57a10595fc35b91f)
 
@@ -114,14 +121,17 @@ The provided audit document is not available at the links given in the job submi
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Reviewer installed and ran the app without any problems. The app was meeting the acceptance criteria of the grant proposal.
+
+There are some minor issues which can be added as a note from the reviewer but does not affect the outcome of this part. After every page reload, user needs to reconnect with the wallet. This is merely a choice on the developer's side but it could also benefit from keeping the session online for a bit longer. Also, the user interface buttons and text needs improvements to better visualize the steps of operations to be conducted by a user.
+
+There were some rounding errors at the beginning of the review, which caused errors when staking or withdrawing fractional values such as `3.14`. This was later fixed by the devs. In its current state however, the fractional numbers are automatically rounded to the nearest integer. The OP stated this issue was discussed with the job giver and was decided this way. Since this is the accepted approach, reviewer kept this out of the scope of the review.
 
 Requirement | Finding
 ------------ | -------------
-Project builds without errors | PASS / FAIL / PASS with Notes
-Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+Project builds without errors | PASS
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | PASS with Notes
 
 
 # Unit / Automated Testing
