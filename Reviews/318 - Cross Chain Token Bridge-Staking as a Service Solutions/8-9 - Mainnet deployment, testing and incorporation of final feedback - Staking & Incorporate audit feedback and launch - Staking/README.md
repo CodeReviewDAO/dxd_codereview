@@ -67,6 +67,8 @@ https://github.com/ferrumnet/casper_staking | 32d8e45
 
 # Install & Usage Testing Procedure and Findings
 
+### Milestone 8
+
 Reviewer used an Ubuntu 22.04.2 LTS cloud instance on GitPod and a local Pardus 23.0 GNU/Linux instance for this review.
 
 Reviewer used the instructions in the `README` to successfully deploy the staking smart contract under `staking_contract` directory. There is also a brilliantly prepared GitHub workflow that automatically builds and deploys the app.
@@ -100,6 +102,16 @@ After the staking, reviewer waited for the maturity period to be reached. When t
 ![](assets/withdraw.png)
 ![](assets/withdraw-success.png)
 
+### Milestone 9
+
+The app is successfully deployed on the `mainnet`. However, as a reviewer's note, it should be noted that the app is residing on a Netlify URL which in the reviewer's opinion should be moved to a dedicated URL. This will not affect the outcome of the review since it is out of the scope for its acceptance criteria.
+
+The provided audit document is not available at the links given in the job submission. Mentioning this, OP provided the reviewer with the document. Inspecting the document, reviewer concluded that the integrity of the codebase is securely provided and extensive coverage of improvements have been committed by the auditors. It is not necessary, but it could be a nice touch if OP could provide the audit document at a public URL, again, which is not in the scope of this review. Below are some useful links from the document that can shed some light to the process.
+
+- [Initial commit submitted for the audit: eacb280](https://github.com/ferrumnet/casper_staking/commit/eacb2801c58216dbf9a35aea0cde9d89d40f41f8)
+- [Last commit reviewed by the auditing team: 61ae850](https://github.com/ferrumnet/casper_staking/commit/61ae850fd925c18dfd8daf1e785277b6834c5a05)
+- [Last audited tag: 0.3.6](https://github.com/ferrumnet/casper_staking/releases/tag/v0.3.6)
+
 ## Overall Impression of usage testing
 
 _Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
@@ -110,6 +122,7 @@ Requirement | Finding
 Project builds without errors | PASS / FAIL / PASS with Notes
 Documentation provides sufficient installation/execution instructions | PASS / FAIL / PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes
+
 
 # Unit / Automated Testing
 
@@ -169,16 +182,19 @@ Requirement | Finding
 ------------ | -------------
 OSS contribution best practices | PASS
 
+
 # Coding Standards
 
 ## General Observations
 
 Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project.
 
+
 # Final Conclusion
 
 _Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
 submission should fail code review, because it does not contain an OSI-approved open source license'_
+
 
 # Recommendation
 
