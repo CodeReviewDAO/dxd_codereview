@@ -202,7 +202,7 @@ Source code is well-written and thought out. It is easily readable. General best
 
 # Final Conclusion
 
-The application effectively meets the acceptance criteria set forth. Essential functionality is rigorously tested through unit tests, and the combination of code and general documentation offers comprehensive guidance. The project demonstrates a strong commitment to open-source practices and adheres to coding standards, reflecting a significant level of proficiency. Minor improvements can be made for a better usability experience for users. As a result, the reviewer suggests a resolution of PASS with Notes for these milestones.
+The application effectively meets the acceptance criteria set forth. Essential functionality is rigorously tested through unit tests, and the combination of code and general documentation offers comprehensive guidance. The project demonstrates a strong commitment to open-source practices and adheres to coding standards, reflecting a significant level of proficiency. Minor improvements can be made for a better usability experience for users. The developers displayed remarkable responsiveness and strong communication throughout the review process. They promptly addressed and resolved issues, which greatly contributed to the efficiency of the project's development. As a result, the reviewer suggests a resolution of PASS with Notes for these milestones.
 
 
 # Recommendation
