@@ -205,9 +205,11 @@ The project had a number of dependencies with high or critical-level security vu
 
 The project as committed to GitHub and automated tests fail since the correct version of the dependencies are not mentioned. Actions does not run successfull on GitHub and failed on last commit. Code is generally well-structured and readable. User experience on the UI should be improved along with the Reviewer's suggestions on the corresponding review section. Project only works for Casper<>BSC network and not other two pair of networks and functions for BSC fail too ,so it does not meet the acceptance criteria.
 
+Link provided for the milestone 5 is broken so it could not be reviewed and OP does not provide the working link ,so it does not meet the acceptance criteria too.
+
 # Final Conclusion
 
-Project needs improvements that mentioned by the reviewer on above sections. Project does not meet the acceptance criteria as it only work for BSC network and not other two networks. Also, functions on BSC network fail too. Thus this submission should FAIL.
+Project needs improvements that mentioned by the reviewer on above sections. Project does not meet the acceptance criteria as it only work for BSC network and not other two networks. Also, functions on BSC network fail too. Milestone 5 links are broken so it could not be reviewed. Thus this submission should FAIL.
 
 # Recommendation
 
