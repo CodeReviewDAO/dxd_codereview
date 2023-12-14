@@ -1,0 +1,11 @@
+Compiling commons/types
+Compiling commons/web3-tools
+Compiling commons/common-backend
+Compiling common-containers
+Compiling bridge-backend
+Compiling leaderboard-backend
+Compiling crucible-backend
+Compiling governance-backend
+Compiling gateway-backend
+Compiling qp-explorer-commons
+Compiling qp-explorer-node
