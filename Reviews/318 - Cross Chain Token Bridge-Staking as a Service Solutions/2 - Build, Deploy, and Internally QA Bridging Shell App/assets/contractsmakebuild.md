@@ -1,4 +1,3 @@
-cd contract && cargo build --release --target wasm32-unknown-unknown
  Downloading crates ...
   Downloaded itoa v1.0.6
   Downloaded wasm-bindgen-shared v0.2.86
