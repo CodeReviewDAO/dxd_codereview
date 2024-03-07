@@ -59,11 +59,11 @@ Visioneering specific functionality related to Sketch Scoring and Voting:
 
 https://github.com/VatomInc/spark-xprize-plugin
 
-| Repository                                      | Revision Reviewed |
-|-------------------------------------------------|-------------------|
-| https://github.com/VatomInc/spark-engine        | 640a91d           |
-| https://github.com/VatomInc/spark-sdk           |                   |
-| https://github.com/VatomInc/spark-xprize-plugin |                   |
+| Repository                                      | Revision Reviewed  |
+|-------------------------------------------------|--------------------|
+| https://github.com/VatomInc/spark-engine        | `c92f7ff`          |
+| https://github.com/VatomInc/spark-sdk           | `1f29819`          |
+| https://github.com/VatomInc/spark-xprize-plugin | `6fb95f3`          |    
 
 
 
@@ -71,127 +71,112 @@ https://github.com/VatomInc/spark-xprize-plugin
 # Install & Usage Testing Procedure and Findings
 
 ## Spark Engine
-The documentation for the Spark Engine repository is VERY minimal. In fact, the README is still titled "REPLACEME". 
-The set-up instructions are very minimal and not well explained. For example:
+The documentation for the Spark Engine repository is provides a detailed README that outlines the installation and usage details
 
-```
-Copy and edit config:
-cp .env.template .env
-```
-
-It does not explain what to edit, what each of the environment variables mean, and how to properly set up the environment. The 
-Reviewer or user is left to guess. 
-
-Then, when the project is ran in "Local" mode, at first an error occurs:
-
-```
-Error: Cannot find module 'source-map-support/register'
-```
-
-Reviewer was able to mitigate this error by executing:
-
-``` 
-yarn add source-map-support
-```
-
-Subsequently the application ran without errors, but with several warnings that the OP should address. Once the application runs,
-there are no instructions on how to use or test the application. Without such documentation, it is impossible for this Reviewer
-to test if the application functions properly. Also no Unit Tests appear to be provided.
+After following the installation instructions, the application ran without errors, but with several warnings that the OP should address.
 
 ## Spark SDK
 
-The documentation for the Spark SDK was non-existent. Only an empty README file was provided. Reviewer did inspect the `package.json`
-file in order to discover available command, and tried the `yarn` command, followed by the `yarn build` command. The package appears
-to build successfully without errors or warnings, but there is no documented ability to use, test or run it. Also no Unit Tests appear
-to be provided.
+The documentation for the Spark Engine repository is provides a detailed README that outlines the installation and usage details
 
+## Spark XPrize Plugin
+
+The documentation for the Spark Engine repository is provides a detailed README that outlines the installation and usage details
+
+Using the [studio.vatom.com](https://studio.vatom.com) website, Reviewer was able to generate an API Key and Secret, and configure the project before building and running it. 
+
+![Vatom Studio_.jpeg](Vatom%20Studio_.jpeg)
 
 ## Overall Impression of usage testing
 
-_Summarize your impression following detailed usage testing and provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Overall, the 3 repositories provide substantial documentation in order to set up the components of the project, each of which are meant to operate in conjunction with closed-source, proprietary components of the Vatom platform.
 
-| Requirement                                                                        | Finding                       |
-|------------------------------------------------------------------------------------|-------------------------------|
-| Project builds without errors                                                      | PASS / FAIL / PASS with Notes |
-| Documentation provides sufficient installation/execution instructions              | PASS / FAIL / PASS with Notes |
-| Project functionality meets/exceeds acceptance criteria and operates without error | PASS / FAIL / PASS with Notes |
+| Requirement                                                                        | Finding |
+|------------------------------------------------------------------------------------|---------|
+| Project builds without errors                                                      | PASS    |
+| Documentation provides sufficient installation/execution instructions              | PASS    |
+| Project functionality meets/exceeds acceptance criteria and operates without error | PASS    |
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project does not come with any unit tests. Below is the OP's explanation for the lack of unit tests. Reviewer has personally seen the project running against OP's proprietary, closed-source platforms, and has seen evidence of its commercial use with the Xprize project. That, combined with the reasons provided by OP, is sufficient for Reviewer to waive the unit test requirement.
 
-| Requirement                                  | Finding                       |
-|----------------------------------------------|-------------------------------|
-| Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes |
-| Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes |
-| Unit Tests - Additional path tests           | PASS / FAIL / PASS with Notes |
+_Our project fundamentally depends on the Vatom Platform to function effectively. As part of our initiative, supported by the grant, we have made two crucial repositories available to the community: Spark Engine and Spark SDK. The Spark Engine is intricately designed to operate within the Vatom Platform ecosystem. It acts as a conceptual and functional framework, guiding developers on how to adapt and implement similar functionalities across other platforms, such as Matrix Element, Fediverse, etc._
+
+_As part of our commitment to delivering high-quality software, we have adopted a robust internal process for the development and deployment of Spark Engine, a component deeply integrated with the Vatom Platform and its associated infrastructure. Our decision not to ship unit tests alongside the open-source release of Spark Engine was made with careful consideration of our unique development environment and the specific needs of our project._
+
+_Integration with Vatom Platform: Spark Engine is not designed to function as a standalone project. Its performance and functionality are intrinsically linked to the Vatom Platform, necessitating a comprehensive testing approach that goes beyond standard unit tests. Our internal review processes ensure that any modifications to Spark Engine are thoroughly evaluated in the context of the entire ecosystem, encompassing not just code correctness but also compatibility and performance across the platform._
+
+_Comprehensive Internal Testing: Before any code is deployed, it undergoes a rigorous User Acceptance Testing (UAT) regimen, along with various other tests tailored to assess its integration and performance within our infrastructure. This multi-layered testing strategy is part of our strict review, build, and deployment processes, which we believe offers a more holistic assurance of quality than standalone unit tests could provide for this project._
+
+_Empowering Developers with Spark SDK: The Spark SDK serves as a foundational layer upon which developers are encouraged to build Sparks (plug-ins). Recognizing the diverse and innovative ways in which the SDK can be utilized, we encourage developers to implement unit tests for their specific plug-ins. This approach not only fosters a culture of quality and responsibility among our developer community but also ensures that unit tests are directly relevant and tailored to the unique functionalities of each plug-in._
+
+_Commitment to Quality and Openness: We understand the importance of transparency and quality assurance in the open-source community. While we chose not to release unit tests for Spark Engine and Spark SDK, we are dedicated to maintaining high standards of quality and reliability through our internal processes. We welcome feedback and contributions from the community to continually improve our projects and support the ecosystem around the Vatom Platform._
+
+_Future Considerations: We are continually evaluating our development practices and the needs of our community. As Spark Engine and Spark SDK evolve, we will remain open to revisiting our approach to testing and documentation, including the potential future release of unit tests or test frameworks that could benefit the community._
+_
+
+| Requirement                                  | Finding         |
+|----------------------------------------------|-----------------|
+| Unit Tests - At least one positive path test | PASS with Notes |
+| Unit Tests - At least one negative path test | PASS with Notes |
+| Unit Tests - Additional path tests           | PASS with Notes |
 
 # Documentation
 
 ### Code Documentation
 
-_Summarize the code level documentation you encountered. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The source code to each of the projects is well documented by its developers, and the code is very readable. The purpose of methods and variables is easily deduced by their naming.
 
-| Requirement     | Finding                       |
-|-----------------|-------------------------------|
-| Code Documented | PASS / FAIL / PASS with Notes |
+| Requirement     | Finding |
+|-----------------|---------|
+| Code Documented | PASS    |
 
 ### Project Documentation
 
-_Summarize the project level documentation you encountered. This covers the information provided in the README for the project, 
-as well any exampled provided. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project level documentation is sufficient, and covers both installation and example usage of each of the projects.
 
-| Requirement        | Finding                       |
-|--------------------|-------------------------------|
-| Usage Documented   | PASS / FAIL / PASS with Notes |
-| Example Documented | PASS / FAIL / PASS with Notes |
+| Requirement        | Finding |
+|--------------------|---------|
+| Usage Documented   | PASS    |
+| Example Documented | PASS    |
 
 ## Overall Conclusion on Documentation
 
-_Summarize your review of the documentation in this project, including code, usage and examples_
+Reviewer found the documentation accompanying this submission to be sufficient to install each of the projects, and found the example usage documenation very easily understood.
 
 # Open Source Practices
 
 ## Licenses
 
-_List which Open Source license is used and note anything that's non-standard. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Each of the projects is open sourced under the `MIT License`.
 
-| Requirement                               | Finding                       |
-|-------------------------------------------|-------------------------------|
-| OSI-approved open source software license | PASS / FAIL / PASS with Notes |
+| Requirement                               | Finding |
+|-------------------------------------------|---------|
+| OSI-approved open source software license | PASS    |
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+Each project has a Code of Conduct policy. Pull Requests and Issues are enabled on each repository which enables and encourages public participation. None of the projects contain a `CONTRIBUTING` or `SECURITY` policy, which the Reviewer recommends the OP improves on in the future.
 
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
-
-| Requirement                     | Finding                       |
-|---------------------------------|-------------------------------|
-| OSS contribution best practices | PASS / FAIL / PASS with Notes |
+| Requirement                     | Finding         |
+|---------------------------------|-----------------|
+| OSS contribution best practices | PASS with Notes |
 
 # Coding Standards
 
 ## General Observations
 
-_Provide any general observations about the project you want to add to your review. These can be subjective in nature as well, and do not
-contribute to your recommendation to pass or fail the submission._
+The projects are well-structured, with sufficient documentation, flawless installation, and easily understandable code. 
 
 # Final Conclusion
 
-_Summarize your final conclusion, and provide your motivation for your recommendation below. For example, you may say 'Reviewer recommends that this
-submission should fail code review, because it does not contain an OSI-approved open source license'_
+Based on the Reviewer's overall impressions, this submission should `PASS with Notes`. Areas of improvement include:
+* automated testing when contextually sensible
+* Improvements to Open Source preparedness
+* Provide example usage against a publicly available Vatom test environment
 
 # Recommendation
 
-| Recommendation | PASS / FAIL / PASS with Notes |
-|----------------|-------------------------------|
+| Recommendation | PASS with Notes  |
+|----------------|------------------|
